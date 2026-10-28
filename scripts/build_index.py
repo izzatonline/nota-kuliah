@@ -3,7 +3,8 @@
 Usage: python3 scripts/build_index.py <slug> <playlist-url> [--title T] [--speaker S]
 
 Existing values are kept when re-run: the series description, and each episode's `notesAddedAt`.
-An episode is marked `hasNotes` when public/series/<slug>/ep<number>/notes.json exists.
+An episode is marked `hasNotes` when public/series/<slug>/<id>/notes.json exists, where <id> is ep<number> or
+prolog-<video id> for episodes without a number.
 """
 import argparse
 import json
@@ -47,7 +48,7 @@ for line in out:
     parts = [p.strip() for p in body.split("|") if p.strip() and not DROP.match(p.strip())]
     clean = ": ".join(parts) if number is None or (len(parts) > 1 and number == 22) else parts[0] if parts else title
     ep_id = f"ep{number}" if number else "prolog-" + vid
-    has_notes = number is not None and (base / ep_id / "notes.json").exists()
+    has_notes = (base / ep_id / "notes.json").exists()
     entry = {
         "id": ep_id,
         "youtubeId": vid,
