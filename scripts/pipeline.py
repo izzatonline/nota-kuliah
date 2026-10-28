@@ -34,6 +34,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PRIVATE = ROOT / "private"          # set per series in main(): private/<slug>
 LECTURES = ROOT / "public/series"   # set per series in main(): public/series/<slug>
 QURAN_CACHE = ROOT / "data/quran-cache.json"
+CARE_NOTE = ROOT / "data/care-note.json"
 PROMPT = Path(__file__).resolve().parent / "prompts/notes.md"
 MODEL = Path(os.environ.get("WHISPER_MODEL", Path.home() / ".cache/nota-kuliah/ggml-large-v3.bin"))
 MODEL_URL = "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin"
@@ -505,6 +506,8 @@ def assemble(draft, meta, loc, args):
         "keyPoints": draft.get("keyPoints", []), "chapters": chapters, "dalil": dalil, "books": books, "people": people,
         "sirah": sirah, "lessons": lessons, "glossary": glossary, "mindmap": mindmap,
     }
+    if draft.get("careNote"):  # vetted helpline text, never written by the model
+        notes["careNote"] = json.loads(CARE_NOTE.read_text())
 
     # sanity checks
     def expect(cond, msg):

@@ -43,6 +43,8 @@ no markdown fences, no commentary.
 - mindmap: a root and 4 to 8 branches, each branch with 2 to 4 children. Exactly two levels below the root. Every node
   has `label` (max 6 words), `detail`, `at`, `approx`.
 - keyPoints: 4 to 8 one-sentence takeaways. summary: one paragraph.
+- careNote: set `"careNote": true` only if the lecture discusses suicide or self-harm. Do not write any helpline text or
+  numbers yourself, the build step attaches a reviewed note. Keep notes on that topic sober and free of method or detail.
 
 ## JSON shape
 {
@@ -61,6 +63,7 @@ no markdown fences, no commentary.
             "events": [{"label": "…", "title": "…", "desc": "…", "at": "…", "approx": "5:25"}]},
   "lessons": [{"title": "…", "kind": "Adab", "body": "…", "at": "…", "approx": "11:48"}],
   "glossary": [{"term": "…", "arabic": null, "meaning": "…", "at": "…", "approx": "6:16"}],
+  "careNote": false,
   "mindmap": {"label": "…", "detail": "…", "at": "…", "approx": "0:00",
               "children": [{"label": "…", "detail": "…", "at": "…", "approx": "5:25",
                             "children": [{"label": "…", "detail": "…", "at": "…", "approx": "7:04"}]}]}

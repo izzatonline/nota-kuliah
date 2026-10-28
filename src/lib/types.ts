@@ -62,4 +62,6 @@ export type Notes = {
   lessons: Lesson[]
   glossary: Term[]
   mindmap: MapNode
+  /** Support information for episodes that touch on self-harm. Not part of the lecture. */
+  careNote?: { title: string; body: string; items: { name: string; contact: string }[]; source: string }
 }

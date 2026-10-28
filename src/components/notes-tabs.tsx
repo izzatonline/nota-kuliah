@@ -1,5 +1,5 @@
 import { useState, type ReactNode } from 'react'
-import { Lightbulb, ShieldAlert, ShieldCheck } from 'lucide-react'
+import { LifeBuoy, Lightbulb, ShieldAlert, ShieldCheck } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
@@ -33,8 +33,30 @@ export function Overview({ notes, go }: { notes: Notes; go: (t: TabKey) => void 
     { key: 'tokoh', n: notes.people.length, label: t('stat.people') },
     { key: 'pengajaran', n: notes.lessons.length, label: t('stat.lessons') },
   ]
+  const care = notes.careNote
   return (
     <div className="space-y-6">
+      {care && (
+        <Card className="border-gold/40 bg-gold-soft/50">
+          <CardContent className="space-y-3 p-5">
+            <div className="flex flex-wrap items-center gap-2">
+              <LifeBuoy className="size-5 text-gold" />
+              <p className="font-semibold tracking-tight">{care.title}</p>
+              <Badge variant="outline" className="ml-auto">{t('careNote.badge')}</Badge>
+            </div>
+            <p className="text-sm leading-relaxed">{care.body}</p>
+            <ul className="divide-y rounded-lg border bg-background">
+              {care.items.map((i) => (
+                <li key={i.name} className="flex items-center justify-between gap-3 px-3 py-2 text-sm">
+                  <span>{i.name}</span>
+                  <a href={`tel:${i.contact.replace(/[^\d+]/g, '')}`} className="font-mono font-medium text-primary hover:underline">{i.contact}</a>
+                </li>
+              ))}
+            </ul>
+            <p className="text-xs leading-relaxed text-muted-foreground">{care.source}</p>
+          </CardContent>
+        </Card>
+      )}
       <Card>
         <CardContent className="space-y-3 p-5">
           <Badge variant="secondary">{t('overview.summary')}</Badge>
