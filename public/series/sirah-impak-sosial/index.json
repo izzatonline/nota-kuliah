@@ -388,7 +388,8 @@
    "season": 2,
    "duration": 3433,
    "views": 117000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-10-29T00:43:50"
   },
   {
    "id": "ep37",
@@ -450,7 +451,7 @@
    "duration": 4289,
    "views": 57000,
    "hasNotes": true,
-   "notesAddedAt": "2026-10-29"
+   "notesAddedAt": "2026-10-29T00:20:00"
   },
   {
    "id": "ep43",
