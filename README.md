@@ -25,7 +25,7 @@ npm run dev
 Pages: `/` is the landing page, `/<series>` opens a series at its newest notes, `/<series>/<episode>` opens one episode, for
 example `/sirah-impak-sosial/ep41`. The app reads `public/series/index.json` (list of series),
 `public/series/<series>/index.json` (episodes) and `public/series/<series>/<ep>/notes.json` (the notes). When you deploy,
-configure the host to serve `index.html` for unknown paths (a single-page-app rewrite).
+the host must serve `index.html` for unknown paths (a single-page-app rewrite). `public/_redirects` covers Cloudflare Pages and Netlify, and `vercel.json` covers Vercel.
 
 ## Add an episode
 
