@@ -1,0 +1,886 @@
+{
+ "id": "ep1",
+ "youtubeId": "q7i-h206tf0",
+ "title": "Penerokaan Kota Mekah",
+ "speaker": "Ustaz Azlan Shah NK",
+ "series": "Sirah Impak Sosial",
+ "episode": 1,
+ "duration": 3126,
+ "summary": "Episod pertama siri Sirah Impak Sosial ini meletakkan latar sebelum kelahiran Nabi Muhammad SAW: penerokaan kota Mekah oleh Nabi Ibrahim AS. Ustaz menceritakan Sarah, Fir'aun Mesir dan hadiah Hajar, kemudian Hajar dan bayi Ismail ditinggalkan di lembah yang tiada hidupan. Hajar menunjukkan tawakal mutlak sambil berusaha ke Safa dan Marwah hingga zam-zam terpancar. Arab Jurhum menetap, Ismail membesar sebagai 'Arab yang diarabkan', dan Kaabah dibina semula dengan doa-doa Ibrahim dalam Al-Baqarah 124 hingga 129, termasuk doa agar diutuskan seorang rasul. Ustaz menutup dengan kemerosotan Jurhum, kedatangan Khuza'ah dan Amr bin Luhayy yang membawa berhala Hubal ke Mekah, dalam tempoh sekitar 2,000 tahun sebelum Nabi SAW.",
+ "keyPoints": [
+  "Nabi SAW bersabda 'Aku jawapan kepada doa ayahku Ibrahim', maka sirah bermula dengan Ibrahim AS, bapa penerokaan Mekah, dan kita semua berada di atas jalannya.",
+  "Hajar menunjukkan tawakal mutlak: berusaha sehabis daya (Safa dan Marwah) lalu menyerahkan selebihnya kepada Allah. Usaha yang tiada siapa nampak diangkat Allah menjadi syariat sa'i.",
+  "Doa Nabi Ibrahim mengutamakan solat dan iman keturunannya sebelum rezeki, dan doa agar diutuskan seorang rasul daripada mereka dimustajabkan selepas sekitar 2,000 tahun.",
+  "Dua teladan Nabi Ibrahim selepas membina Kaabah: rendah hati ('terimalah daripada kami') dan berfikir jangka panjang tentang generasi dan akhirat.",
+  "Perubahan yang baik menuntut pengorbanan dan keberanian, dan musibah yang mendekatkan kita kepada Allah itu baik.",
+  "Berhala pertama di Kaabah dibawa oleh Amr bin Luhayy daripada Rom kerana rasa rendah diri, lalu ibadah haji diubah suai dan agama Ibrahim terkikis."
+ ],
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "Pembukaan: dua nikmat yang dilupakan",
+   "start": 0,
+   "end": 79,
+   "summary": "Kesihatan yang baik dan masa lapang ialah dua nikmat yang paling dilupakan manusia."
+  },
+  {
+   "id": "c2",
+   "title": "Rujukan siri sirah",
+   "start": 79,
+   "end": 175,
+   "summary": "Ar-Rahiq Al-Makhtum dan lebih 40 buku serta rujukan lain, termasuk buku cendekiawan China tentang Nabi SAW."
+  },
+  {
+   "id": "c3",
+   "title": "Kenapa bermula dengan Nabi Ibrahim",
+   "start": 175,
+   "end": 212,
+   "summary": "Nabi SAW menyifatkan dirinya jawapan doa Ibrahim. Latar tempat dan masa perlu difahami."
+  },
+  {
+   "id": "c4",
+   "title": "Nabi Ibrahim dan Nabi Muhammad",
+   "start": 212,
+   "end": 297,
+   "summary": "Kemiripan rupa dan perjuangan, pertemuan di langit ketujuh, dan selawat Ibrahimiyah dalam tahiyat."
+  },
+  {
+   "id": "c5",
+   "title": "Sarah, Fir'aun dan hadiah Hajar",
+   "start": 297,
+   "end": 535,
+   "summary": "Ibrahim AS yang belum berzuriat pada usia 85, perjalanan ke Mesir, tauriah dan Hajar sebagai hadiah."
+  },
+  {
+   "id": "c6",
+   "title": "Hajar dan Ismail ditinggalkan di Mekah",
+   "start": 535,
+   "end": 771,
+   "summary": "Hadis Ibn Abbas dalam Sahih Bukhari. Perjalanan ke lembah tanpa hidupan dan perasaan Ibrahim AS."
+  },
+  {
+   "id": "c7",
+   "title": "Tawakal Hajar dan doa Ibrahim",
+   "start": 771,
+   "end": 982,
+   "summary": "'Adakah Allah yang memerintahkanmu?' 'Ya', lalu Hajar: Allah tidak akan mensia-siakan kami. Doa Ibrahim agar zuriatnya mendirikan solat."
+  },
+  {
+   "id": "c8",
+   "title": "Sa'i antara Safa dan Marwah, dan zam-zam",
+   "start": 982,
+   "end": 1187,
+   "summary": "Hajar berusaha tujuh kali, lalu air zam-zam terpancar. Usaha yang tiada siapa nampak menjadi syariat."
+  },
+  {
+   "id": "c9",
+   "title": "Arab Jurhum menetap dan Yaman",
+   "start": 1187,
+   "end": 1408,
+   "summary": "Kisah empangan Yaman, kedatangan Jurhum yang meminta menetap, dan Hajar menegaskan air miliknya."
+  },
+  {
+   "id": "c10",
+   "title": "Ismail: Arab yang diarabkan",
+   "start": 1408,
+   "end": 1551,
+   "summary": "Ismail dibesarkan dalam kalangan Jurhum, Arab musta'ribah, dan Arab asli yang telah dihapuskan."
+  },
+  {
+   "id": "c11",
+   "title": "Perintah membina Kaabah dan pengajaran",
+   "start": 1551,
+   "end": 2012,
+   "summary": "Hajar meninggal, Ibrahim dan Ismail membina Kaabah. Pengorbanan, keberanian, tawakal dan doa ketika musibah."
+  },
+  {
+   "id": "c12",
+   "title": "Doa Ibrahim dan Ismail (Al-Baqarah 127-128)",
+   "start": 2012,
+   "end": 2396,
+   "summary": "Meninggikan binaan, 'terimalah daripada kami', khalilullah, rendah hati, taubat dan ihsan."
+  },
+  {
+   "id": "c13",
+   "title": "Fikir jangka panjang dan prioriti akhirat",
+   "start": 2396,
+   "end": 2571,
+   "summary": "Kasih sayang yang berteraskan akhirat, contoh prioriti anak, dan doa meminta seorang rasul."
+  },
+  {
+   "id": "c14",
+   "title": "Doa untuk seorang rasul (Al-Baqarah 129)",
+   "start": 2571,
+   "end": 2816,
+   "summary": "Empat tugas rasul dalam doa Ibrahim, doa yang memakan lebih 2,000 tahun, dan kaitannya dengan Nabi Muhammad SAW."
+  },
+  {
+   "id": "c15",
+   "title": "Jurhum, Khuza'ah dan berhala pertama",
+   "start": 2816,
+   "end": 3102,
+   "summary": "Kemerosotan Jurhum, zam-zam ditimbus, Amr bin Luhayy membawa Hubal dan haji diubah suai."
+  },
+  {
+   "id": "c16",
+   "title": "Penutup: 2,000 tahun menuju Nabi SAW",
+   "start": 3102,
+   "end": 3126,
+   "summary": "Perubahan besar berlaku dalam tempoh sangat panjang, dengan sekitar 21 generasi antara Adnan dan Nabi SAW."
+  }
+ ],
+ "dalil": [
+  {
+   "id": "h7",
+   "kind": "hadith",
+   "ref": "Hadis: Aku jawapan doa ayahku Ibrahim",
+   "t": 175,
+   "arabic": "أَنَا دَعْوَةُ أَبِي إِبْرَاهِيمَ",
+   "translation": "Aku ialah jawapan kepada doa ayahku Ibrahim.",
+   "context": "Nabi SAW menjawab pertanyaan sahabat tentang permulaan dirinya. Ustaz menyebut hadis ini disahihkan ramai ulama hadis, dan inilah sebab sirah bermula dengan Nabi Ibrahim.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Sumber tidak disebut dalam kuliah",
+   "grade": "Sahih menurut ramai ulama hadis, kata ustaz",
+   "verified": false
+  },
+  {
+   "id": "h8",
+   "kind": "hadith",
+   "ref": "Hadis Mi'raj: Nabi Ibrahim di langit ketujuh",
+   "t": 239,
+   "arabic": null,
+   "translation": "Nabi Ibrahim tersandar di Baitul Ma'mur dan menyambut 'selamat datang wahai anakku yang salih'. Nabi SAW bersabda aku paling serupa dengan ayahku Ibrahim, dan Ibrahim mengirim salam kepada umat Baginda.",
+   "context": "Ustaz menghubungkan selawat Ibrahimiyah dalam tahiyat dengan salam Nabi Ibrahim kepada kita.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Sumber tidak disebut dalam kuliah",
+   "grade": null,
+   "verified": false
+  },
+  {
+   "id": "h9",
+   "kind": "hadith",
+   "ref": "Hadis: keturunan Nabi SAW bukan daripada penzinaan",
+   "t": 475,
+   "arabic": null,
+   "translation": "Tiada seorang pun daripada keturunan dan nenek moyang Nabi SAW yang lahir daripada penzinaan.",
+   "context": "Digunakan untuk menolak kisah bahawa Hajar hanyalah hamba. Ustaz menyebut pendapat Al-Mubarakfuri bahawa Hajar anak seorang Fir'aun yang bermaruah tinggi.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Sumber tidak disebut dalam kuliah",
+   "grade": null,
+   "verified": false
+  },
+  {
+   "id": "h10",
+   "kind": "hadith",
+   "ref": "Hadis Ibn Abbas: kisah Hajar dan Ismail",
+   "t": 535,
+   "arabic": null,
+   "translation": "Hajar dan Ismail ditinggalkan di Mekah dengan sedikit tamar dan air. Hajar bertanya sama ada Allah yang memerintahkan, lalu Ibrahim menjawab ya, dan Hajar berkata Allah tidak akan mensia-siakan mereka. Hajar berulang-alik antara Safa dan Marwah tujuh kali sebelum zam-zam terpancar.",
+   "context": "Hadis yang panjang. Ustaz membaca bahagian-bahagian penting dan Nabi SAW menyebut sa'i sebagai kesinambungan perbuatan Hajar.",
+   "narrator": "Abdullah bin Abbas RA",
+   "source": "Sahih Bukhari",
+   "grade": "Sahih",
+   "verified": false
+  },
+  {
+   "id": "q14-37",
+   "kind": "quran",
+   "ref": "Ibrahim 14:37",
+   "t": 906,
+   "arabic": "رَّبَّنَآ إِنِّىٓ أَسْكَنتُ مِن ذُرِّيَّتِى بِوَادٍ غَيْرِ ذِى زَرْعٍ عِندَ بَيْتِكَ ٱلْمُحَرَّمِ رَبَّنَا لِيُقِيمُوا۟ ٱلصَّلَوٰةَ فَٱجْعَلْ أَفْـِٔدَةًۭ مِّنَ ٱلنَّاسِ تَهْوِىٓ إِلَيْهِمْ وَٱرْزُقْهُم مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَشْكُرُونَ",
+   "translation": "\"Wahai Tuhan kami! Sesungguhnya aku telah menempatkan sebahagian dari zuriat keturunanku di sebuah lembah (Tanah Suci Makkah) yang tidak tanaman padanya, di sisi rumahMu yang diharamkan mencerobohinya. Wahai Tuhan kami, (mereka ditempatkan di situ) supaya mereka mendirikan sembahyang (dan memakmurkannya dengan ibadat). Oleh itu, jadikanlah hati sebahagian dari manusia tertarik gemar kepada mereka, (supaya datang beramai-ramai ke situ), dan kurniakanlah rezeki kepada mereka dari berbagai jenis buah-buahan dan hasil tanaman, semoga mereka bersyukur.",
+   "context": "Doa Nabi Ibrahim ketika meninggalkan zuriatnya di lembah tanpa tumbuhan: agar mereka mendirikan solat, hati manusia terpaut kepada mereka, dan mereka diberi rezeki supaya bersyukur. Surah dan nombor ayat tidak disebut. (rujukan dikenal pasti, nombor ayat tidak disebut)",
+   "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
+   "verified": true
+  },
+  {
+   "id": "h11",
+   "kind": "hadith",
+   "ref": "Hadis: Allah merahmati ibu Ismail",
+   "t": 1168,
+   "arabic": null,
+   "translation": "Moga Allah merahmati ibu Ismail. Kalaulah dia tidak menakung air itu, nescaya zam-zam menjadi mata air yang mengalir.",
+   "context": "Bahagian daripada hadis Ibn Abbas yang sama.",
+   "narrator": "Abdullah bin Abbas RA",
+   "source": "Sahih Bukhari",
+   "grade": "Sahih",
+   "verified": false
+  },
+  {
+   "id": "h12",
+   "kind": "hadith",
+   "ref": "Hadis daif: Nabi Ibrahim menziarahi Ismail dengan Buraq",
+   "t": 1487,
+   "arabic": null,
+   "translation": "Nabi Ibrahim menunggang Buraq dari Palestin untuk menziarahi Ismail, seperti ayah yang membesarkan anaknya dari jauh.",
+   "context": "Ustaz menyebut hadis ini daif (lemah, bukan palsu), maka tidak boleh dijadikan pegangan.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Sumber tidak disebut dalam kuliah",
+   "grade": "Daif, kata ustaz",
+   "verified": false
+  },
+  {
+   "id": "h13",
+   "kind": "hadith",
+   "ref": "Doa ketika ditimpa musibah",
+   "t": 1670,
+   "arabic": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ، اللَّهُمَّ أْجُرْنِي فِي مُصِيبَتِي وَاخْلُفْ لِي خَيْرًا مِنْهَا",
+   "translation": "Sesungguhnya kami milik Allah dan kepada-Nya kami kembali. Ya Allah, berilah aku pahala dalam musibahku dan gantikanlah dengan yang lebih baik.",
+   "context": "Dua permintaan: pahala di atas musibah dan ganti yang lebih baik. Ustaz menekankan musibah yang mendekatkan kita kepada Allah itu baik.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Sumber tidak disebut dalam kuliah",
+   "grade": null,
+   "verified": false
+  },
+  {
+   "id": "q2-156",
+   "kind": "quran",
+   "ref": "Al-Baqara 2:156",
+   "t": 1680,
+   "arabic": "ٱلَّذِينَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌۭ قَالُوٓا۟ إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ",
+   "translation": "(Iaitu) orang-orang yang apabila mereka ditimpa oleh sesuatu kesusahan, mereka berkata: \"Sesungguhnya kami adalah kepunyaan Allah dan kepada Allah jualah kami kembali.\"",
+   "context": "Kalimah istirja' yang diajar Nabi SAW apabila ditimpa musibah. (rujukan dikenal pasti, nombor ayat tidak disebut)",
+   "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
+   "verified": true
+  },
+  {
+   "id": "q65-2",
+   "kind": "quran",
+   "ref": "At-Talaaq 65:2",
+   "t": 1899,
+   "arabic": "فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍۢ وَأَشْهِدُوا۟ ذَوَىْ عَدْلٍۢ مِّنكُمْ وَأَقِيمُوا۟ ٱلشَّهَٰدَةَ لِلَّهِ ۚ ذَٰلِكُمْ يُوعَظُ بِهِۦ مَن كَانَ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًۭا",
+   "translation": "Kemudian, apabila mereka (hampir) habis tempoh idahnya, maka bolehlah kamu pegang mereka (rujuk) dengan cara yang baik, atau lepaskan mereka dengan cara yang baik; dan adakanlah dua orang saksi yang adil di antara kamu (semasa kamu merujukkan atau melepaskannya); dan hendaklah kamu (yang menjadi saksi) menyempurnakan persaksian itu kerana Allah semata-mata. Dengan hukum-hukum yang tersebut diberi peringatan dan pengajaran kepada sesiapa yang beriman kepada Allah dan hari akhirat; dan sesiapa yang bertaqwa kepada Allah (dengan mengerjakan suruhanNya dan meninggalkan laranganNya), nescaya Allah akan mengadakan baginya jalan keluar (dari segala perkara yang menyusahkannya),",
+   "context": "Allah memberi jalan keluar bagi orang yang bertakwa. Surah dan nombor ayat tidak disebut. (rujukan dikenal pasti, nombor ayat tidak disebut)",
+   "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
+   "verified": true
+  },
+  {
+   "id": "q65-3",
+   "kind": "quran",
+   "ref": "At-Talaaq 65:3",
+   "t": 1923,
+   "arabic": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ ۚ إِنَّ ٱللَّهَ بَٰلِغُ أَمْرِهِۦ ۚ قَدْ جَعَلَ ٱللَّهُ لِكُلِّ شَىْءٍۢ قَدْرًۭا",
+   "translation": "Serta memberinya rezeki dari jalan yang tidak terlintas di hatinya. Dan (Ingatlah), sesiapa berserah diri bulat-bulat kepada Allah, maka Allah cukuplah baginya (untuk menolong dan menyelamatkannya). Sesungguhnya Allah tetap melakukan segala perkara yang dikehendakiNya. Allah telahpun menentukan kadar dan masa bagi berlakunya tiap-tiap sesuatu.",
+   "context": "Allah memberi rezeki dari arah yang tidak disangka, dan sesiapa yang bertawakal kepada-Nya, Dia mencukupkannya. (rujukan dikenal pasti, nombor ayat tidak disebut)",
+   "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
+   "verified": true
+  },
+  {
+   "id": "h14",
+   "kind": "hadith",
+   "ref": "Doa kecukupan, tujuh kali pagi dan petang",
+   "t": 1927,
+   "arabic": null,
+   "translation": "Sesiapa yang membaca doa ini tujuh kali pada waktu pagi dan petang, Allah mencukupkan keperluan dunia dan akhirat.",
+   "context": "Lafaz doa tidak disebut dalam kuliah.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Sumber tidak disebut dalam kuliah",
+   "grade": null,
+   "verified": false
+  },
+  {
+   "id": "q2-127",
+   "kind": "quran",
+   "ref": "Al-Baqara 2:127",
+   "t": 2012,
+   "arabic": "وَإِذْ يَرْفَعُ إِبْرَٰهِۦمُ ٱلْقَوَاعِدَ مِنَ ٱلْبَيْتِ وَإِسْمَٰعِيلُ رَبَّنَا تَقَبَّلْ مِنَّآ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+   "translation": "Dan (ingatlah) ketika Nabi Ibrahim bersama-sama Nabi Ismail meninggikan binaan asas-asas (tapak) Baitullah (Kaabah) itu, sambil keduanya berdoa dengan berkata: \"Wahai Tuhan kami! Terimalah daripada kami (amal kami); sesungguhnya Engkaulah yang Maha Mendengar, lagi Maha mengetahui;",
+   "context": "Nabi Ibrahim dan Nabi Ismail meninggikan binaan Kaabah, lalu berdoa 'terimalah daripada kami'. Ulama berpendapat asasnya sudah ada, lalu dibina semula.",
+   "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
+   "verified": true
+  },
+  {
+   "id": "h15",
+   "kind": "hadith",
+   "ref": "Hadis: Khalil",
+   "t": 2108,
+   "arabic": null,
+   "translation": "Kalaulah aku boleh mengambil seorang khalil, nescaya aku mengambil Abu Bakar. Tetapi Allah telah mengambil aku sebagai khalil.",
+   "context": "Khalil ialah sahabat paling rapat, gelaran yang hanya dimiliki Nabi Ibrahim dan Nabi Muhammad SAW.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Sumber tidak disebut dalam kuliah",
+   "grade": null,
+   "verified": false
+  },
+  {
+   "id": "q2-128",
+   "kind": "quran",
+   "ref": "Al-Baqara 2:128",
+   "t": 2221,
+   "arabic": "رَبَّنَا وَٱجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِن ذُرِّيَّتِنَآ أُمَّةًۭ مُّسْلِمَةًۭ لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ عَلَيْنَآ ۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+   "translation": "\"Wahai Tuhan kami! Jadikanlah kami berdua: orang-orang Islam (yang berserah diri) kepadaMu, dan jadikanlah daripada keturunan kami: umat Islam (yang berserah diri) kepadamu, dan tunjukkanlah kepada kami syariat dan cara-cara ibadat kami, dan terimalah taubat kami; sesungguhnya Engkaulah Maha Penerima taubat, lagi Maha Mengasihani;",
+   "context": "Doa agar dijadikan muslim, zuriat menjadi umat muslim, diajar manasik haji dan diterima taubat.",
+   "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
+   "verified": true
+  },
+  {
+   "id": "q2-129",
+   "kind": "quran",
+   "ref": "Al-Baqara 2:129",
+   "t": 2568,
+   "arabic": "رَبَّنَا وَٱبْعَثْ فِيهِمْ رَسُولًۭا مِّنْهُمْ يَتْلُوا۟ عَلَيْهِمْ ءَايَٰتِكَ وَيُعَلِّمُهُمُ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَيُزَكِّيهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+   "translation": "\"Wahai Tuhan Kami! Utuslah kepada mereka seorang Rasul dari kalangan mereka sendiri, yang akan membacakan kepada mereka ayat-ayat (firmanMu) dan mengajarkan mereka isi kandungan Kitab (Al-Quran) serta Hikmat kebijaksanaan dan membersihkan (hati dan jiwa) mereka (dari syirik dan maksiat). Sesungguhnya Engkaulah yang Maha Kuasa, lagi Maha Bijaksana\".",
+   "context": "Doa agar Allah mengutus seorang rasul daripada keturunan mereka yang membacakan ayat, mengajar Kitab dan hikmah, serta menyucikan mereka.",
+   "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
+   "verified": true
+  },
+  {
+   "id": "h16",
+   "kind": "hadith",
+   "ref": "Hadis: Amr bin Luhayy menarik ususnya di neraka",
+   "t": 3022,
+   "arabic": null,
+   "translation": "Nabi SAW melihat Amr bin Luhayy menarik ususnya di dalam neraka, kerana dialah orang pertama yang mengubah agama Ibrahim kepada syirik.",
+   "context": "Disebut dalam konteks permulaan berhala di Mekah.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Sumber tidak disebut dalam kuliah",
+   "grade": null,
+   "verified": false
+  }
+ ],
+ "books": [
+  {
+   "id": "b1",
+   "title": "Ar-Rahiq Al-Makhtum",
+   "author": "Safiur Rahman Al-Mubarakfuri",
+   "kind": "Sirah",
+   "t": 79,
+   "context": "Rujukan utama dan paling meluas dijual. Telah diterjemahkan dan diterbitkan di Malaysia oleh Yadim. Ustaz tidak terhad kepada buku ini sahaja. Beliau juga menyebut pendapat pengarang bahawa Hajar berketurunan Fir'aun."
+  },
+  {
+   "id": "b2",
+   "title": "Lebih 40 buku dan rujukan sirah",
+   "author": null,
+   "kind": "Lain-lain",
+   "t": 95,
+   "context": "Ustaz merujuk lebih 40 buku dalam beberapa bahasa, termasuk buku yang baru dibeli di sebuah kedai buku di Bangi, antaranya sebuah buku yang ditulis 300 tahun lalu oleh seorang cendekiawan China tentang Nabi Muhammad SAW."
+  },
+  {
+   "id": "b3",
+   "title": "Sahih Bukhari",
+   "author": "Imam Bukhari",
+   "kind": "Kitab hadis",
+   "t": 535,
+   "context": "Sumber hadis panjang Ibn Abbas RA tentang Hajar, Ismail, sa'i dan zam-zam."
+  },
+  {
+   "id": "b4",
+   "title": "Tafsir Al-Misbah",
+   "author": "Quraish Shihab",
+   "kind": "Tafsir",
+   "t": 2243,
+   "context": "Ustaz memetik huraian Syekh Quraish tentang 'terimalah taubat kami': ilhamilah jiwa kami dengan kesedaran akan kesalahan, penyesalan dan tekad untuk tidak mengulanginya."
+  },
+  {
+   "id": "s1",
+   "title": "Qisas Al-Anbiya",
+   "author": "Ibn Kathir",
+   "kind": "Sirah",
+   "t": null,
+   "suggested": true,
+   "context": "Kisah para nabi termasuk Ibrahim, Hajar dan Ismail serta pembinaan Kaabah."
+  },
+  {
+   "id": "s2",
+   "title": "Tafsir Ibn Kathir (Surah Al-Baqarah 124-129)",
+   "author": "Ibn Kathir",
+   "kind": "Tafsir",
+   "t": null,
+   "suggested": true,
+   "context": "Huraian doa-doa Nabi Ibrahim AS dan pembinaan Kaabah."
+  }
+ ],
+ "people": [
+  {
+   "id": "p7",
+   "name": "Safiur Rahman Al-Mubarakfuri",
+   "role": "Pengarang Ar-Rahiq Al-Makhtum",
+   "t": 79,
+   "context": "Ustaz menyebut pendapatnya bahawa berdasarkan analisis sejarah Hajar ialah anak seorang Fir'aun."
+  },
+  {
+   "id": "p1",
+   "name": "Nabi Ibrahim AS",
+   "role": "Nabi, Khalilullah, bapa para nabi",
+   "t": 148,
+   "context": "Bapa penerokaan Mekah. Banyak diuji, banyak berhijrah, hatinya lembut, dan doanya dimustajabkan dalam diri Nabi Muhammad SAW."
+  },
+  {
+   "id": "p2",
+   "name": "Sarah",
+   "role": "Isteri Nabi Ibrahim AS",
+   "t": 305,
+   "context": "Bersama Ibrahim ke Mesir dan hampir dikuasai Fir'aun yang menawan wanita cantik. Ustaz menyebut ada petunjuk wujudnya rasa cemburu terhadap Hajar, tetapi itu bukan sebab Hajar ditinggalkan di Mekah."
+  },
+  {
+   "id": "p5",
+   "name": "Nabi Lut AS",
+   "role": "Nabi",
+   "t": 373,
+   "context": "Pada zaman itu hanya tiga orang yang memeluk Islam selepas keluar dari kawasan asal: Ibrahim, Sarah dan Nabi Lut."
+  },
+  {
+   "id": "p3",
+   "name": "Hajar AS",
+   "role": "Isteri Nabi Ibrahim, ibu Ismail",
+   "t": 449,
+   "context": "Hadiah Fir'aun kepada Ibrahim. Menunjukkan tawakal, usaha dan keberanian di lembah Mekah, dan usahanya diabadikan sebagai sa'i."
+  },
+  {
+   "id": "p6",
+   "name": "Abdullah bin Abbas RA",
+   "role": "Sahabat, perawi hadis",
+   "t": 547,
+   "context": "Perawi hadis panjang dalam Sahih Bukhari tentang Hajar dan Ismail."
+  },
+  {
+   "id": "p4",
+   "name": "Nabi Ismail AS",
+   "role": "Nabi, anak Ibrahim dan Hajar",
+   "t": 617,
+   "context": "Jawapan doa Ibrahim ('yang telah didengar'). Dibesarkan dalam kalangan Arab Jurhum dan menjadi Arab musta'ribah, kemudian membina Kaabah bersama ayahnya."
+  },
+  {
+   "id": "p11",
+   "name": "Arab Jurhum",
+   "role": "Kabilah dari Yaman yang menetap di Mekah",
+   "t": 1339,
+   "context": "Datang meminta menetap dengan Hajar, kemudian menguasai Mekah, tetapi lupa diri dan akhirnya dihalau oleh Khuza'ah."
+  },
+  {
+   "id": "p9",
+   "name": "Abu Bakar RA",
+   "role": "Sahabat",
+   "t": 2108,
+   "context": "Disebut dalam hadis khalil: kalau Nabi SAW boleh mengambil seorang khalil, Baginda akan memilih Abu Bakar."
+  },
+  {
+   "id": "p8",
+   "name": "Quraish Shihab",
+   "role": "Penulis Tafsir Al-Misbah",
+   "t": 2253,
+   "context": "Dirujuk tentang makna taubat dalam doa Ibrahim: kesedaran akan kesalahan, penyesalan dan tekad tidak mengulang."
+  },
+  {
+   "id": "p10",
+   "name": "Aisyah RA",
+   "role": "Ummul Mu'minin",
+   "t": 2361,
+   "context": "Contoh ihsan: apabila memberi infak beliau memperelokkannya, kadang-kadang meletakkan wangian padanya."
+  },
+  {
+   "id": "p12",
+   "name": "Nabi Ishak AS",
+   "role": "Nabi, anak Ibrahim",
+   "t": 2708,
+   "context": "Dikurniakan pada usia 100 tahun. Semua nabi selepas itu hingga akhir zaman, kecuali Nabi Muhammad SAW, datang daripada keturunan beliau."
+  },
+  {
+   "id": "p13",
+   "name": "Adnan",
+   "role": "Moyang Nabi SAW daripada keturunan Ismail",
+   "t": 2831,
+   "context": "Anak Nabi Ismail yang menjadi moyang Nabi SAW dan keturunan terakhir yang dihalau dari Mekah."
+  },
+  {
+   "id": "p14",
+   "name": "Arab Khuza'ah dan Amr bin Luhayy",
+   "role": "Kabilah yang menguasai Mekah dan ketuanya",
+   "t": 2921,
+   "context": "Menewaskan Jurhum. Amr bin Luhayy membawa pulang berhala Hubal dari Rom dan meletakkannya di depan Kaabah, lalu mengubah suai ibadah haji."
+  }
+ ],
+ "sirah": {
+  "era": "Latar sebelum kelahiran Nabi SAW: dari Nabi Ibrahim AS hingga berhala pertama di Kaabah",
+  "summary": "Ustaz melukiskan latar belakang tempat dan masa sirah Nabi SAW. Ibrahim AS meneroka Mekah, Kaabah dibina, dan dalam tempoh sekitar 2,000 tahun agama Ibrahim terkikis hingga berhala diletakkan di sisi Kaabah.",
+  "events": [
+   {
+    "id": "e0",
+    "label": "Zaman Ibrahim",
+    "title": "Nabi Ibrahim, Sarah dan hadiah Hajar",
+    "desc": "Selepas perjalanan ke Mesir, Ibrahim berkahwin juga dengan Hajar dan dikurniakan Ismail.",
+    "t": 297
+   },
+   {
+    "id": "e1",
+    "label": "Di Mekah",
+    "title": "Hajar dan Ismail ditinggalkan di lembah tanpa hidupan",
+    "desc": "Atas perintah Allah. Hajar yakin Allah tidak akan mensia-siakan mereka.",
+    "t": 639
+   },
+   {
+    "id": "e2",
+    "label": "Zam-zam",
+    "title": "Sa'i antara Safa dan Marwah, lalu zam-zam terpancar",
+    "desc": "Hajar berusaha tujuh kali, kemudian air terpancar. Ia menjadi sebahagian syariat haji dan umrah.",
+    "t": 982
+   },
+   {
+    "id": "e3",
+    "label": "Penghuni baru",
+    "title": "Arab Jurhum menetap dan Ismail diarabkan",
+    "desc": "Jurhum meminta menetap dan Hajar menegaskan air miliknya. Ismail membesar sebagai Arab musta'ribah.",
+    "t": 1339
+   },
+   {
+    "id": "e4",
+    "label": "Kaabah",
+    "title": "Ibrahim dan Ismail membina Kaabah",
+    "desc": "Selepas Hajar meninggal. Binaan dinaikkan semula daripada asas yang sudah ada, diiringi doa-doa Al-Baqarah 127 hingga 129.",
+    "t": 1551
+   },
+   {
+    "id": "e5",
+    "label": "Kemerosotan",
+    "title": "Jurhum dihalau Khuza'ah, zam-zam ditimbus",
+    "desc": "Sebelum itu belum ada berhala di depan Kaabah. Jurhum menimbus telaga zam-zam sebelum kalah.",
+    "t": 2899
+   },
+   {
+    "id": "e6",
+    "label": "Berhala pertama",
+    "title": "Amr bin Luhayy membawa Hubal ke Mekah",
+    "desc": "Kerana rasa rendah diri melihat Rom yang maju, lalu haji diubah suai dan agama Ibrahim hampir tidak diamalkan.",
+    "t": 2928
+   },
+   {
+    "id": "e7",
+    "label": "Tempoh",
+    "title": "Sekitar 2,000 tahun dari Ismail hingga Nabi SAW",
+    "desc": "Perubahan besar berlaku perlahan, dengan sekitar 21 generasi antara Adnan dan Nabi Muhammad SAW.",
+    "t": 3106
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "l1",
+   "title": "Hargai kesihatan dan masa lapang sebelum ditarik",
+   "kind": "Akhlak",
+   "body": "Dua nikmat yang paling dilupakan manusia ialah kesihatan yang baik dan masa lapang. Kita sering menghargainya hanya apabila ia berkurang.",
+   "t": 39
+  },
+  {
+   "id": "l2",
+   "title": "Kisah Nabi Ibrahim ialah teras kisah kita",
+   "kind": "Sirah",
+   "body": "Setiap hari dalam solat kita berselawat kepada Nabi Ibrahim, dan Nabi SAW menyifatkan diri baginda serupa dengan ayahnya Ibrahim dalam rupa dan perjuangan.",
+   "t": 208
+  },
+  {
+   "id": "l3",
+   "title": "Nyawa manusia terlalu mulia untuk dikorbankan kepada tuhan",
+   "kind": "Akidah",
+   "body": "Mengorbankan anak ialah amalan zaman itu untuk meminta hujan atau perlindungan. Allah membetulkannya dengan mengganti kibas, mengajar nyawa manusia jauh lebih bernilai.",
+   "t": 434
+  },
+  {
+   "id": "l4",
+   "title": "Menaati perintah Allah walaupun pedih",
+   "kind": "Ibadah",
+   "body": "Nabi Ibrahim meninggalkan anak dan isterinya di tempat yang tanpa pertolongan Allah pasti membawa maut, tanpa menoleh. Ustaz mengajak kita memahami betapa perit perasaannya.",
+   "t": 713
+  },
+  {
+   "id": "l5",
+   "title": "Tawakal sebenar: usaha maksimum, selebihnya kepada Allah",
+   "kind": "Akidah",
+   "body": "Hajar yakin Allah tidak akan mensia-siakan mereka, tetapi dia tetap berusaha naik ke Safa dan Marwah. Tawakal berasal daripada 'wakil', iaitu menyerahkan urusan kepada Allah selepas melakukan yang termampu.",
+   "t": 843
+  },
+  {
+   "id": "l6",
+   "title": "Usaha yang sunyi tidak sia-sia di sisi Allah",
+   "kind": "Ibadah",
+   "body": "Tiada siapa melihat Hajar, tetapi Allah menjadikannya syariat sehingga berbilion manusia mengulanginya. Ganjaran di dunia pun sebesar itu.",
+   "t": 1043
+  },
+  {
+   "id": "l7",
+   "title": "Perubahan yang baik menuntut pengorbanan dan keberanian",
+   "kind": "Akhlak",
+   "body": "Ramai tahu perkara yang perlu dihentikan tetapi tidak sanggup kehilangan keselesaan. Kadang-kadang Allah memaksa perubahan itu sebagai jawapan kepada doa kita supaya lebih dekat dengan-Nya.",
+   "t": 1610
+  },
+  {
+   "id": "l8",
+   "title": "Tinggalkan yang haram, percaya Allah memberi jalan keluar",
+   "kind": "Ibadah",
+   "body": "Sumber rezeki yang haram bukan 'periuk nasi' kita. Meninggalkannya menuntut keberanian, dan Allah menjanjikan jalan keluar dan rezeki dari arah yang tidak disangka bagi orang yang bertakwa dan bertawakal.",
+   "t": 1872
+  },
+  {
+   "id": "l9",
+   "title": "Musibah yang mendekatkan kepada Allah itu baik",
+   "kind": "Akidah",
+   "body": "Ajar diri membaca istirja' dan memohon pahala serta ganti yang lebih baik. Musibah yang membuat kita jauh daripada Allah, dengan menuduh takdir tidak adil atau membandingkan diri, ialah perangkap syaitan.",
+   "t": 1693
+  },
+  {
+   "id": "l10",
+   "title": "Jangan terperangkap pada masa lalu",
+   "kind": "Akhlak",
+   "body": "Syaitan menarik anak Adam dari belakang dengan membuatnya terperangkap pada masa lalu. Hajar memilih berani menghadapi perubahan.",
+   "t": 1727
+  },
+  {
+   "id": "l11",
+   "title": "Ikhlas dan rendah hati walaupun amal besar",
+   "kind": "Adab",
+   "body": "Selepas membina Kaabah, Ibrahim dan Ismail berdoa 'terimalah daripada kami'. Ustaz mengingatkan agar tidak rasa diri wakil Tuhan seperti Iblis.",
+   "t": 2181
+  },
+  {
+   "id": "l12",
+   "title": "Kesalahan terbesar ialah tidak sedar melakukan kesalahan",
+   "kind": "Akhlak",
+   "body": "Sebelum menunjuk orang lain, analisis diri dahulu. Iblis membenarkan kesalahannya dan menyalahkan orang lain, dan mentaliti itu merosakkan hubungan sesama manusia.",
+   "t": 2307
+  },
+  {
+   "id": "l13",
+   "title": "Lakukan segalanya dengan ihsan",
+   "kind": "Akhlak",
+   "body": "Buat sesuatu semaksimum mungkin walaupun kecil. Aisyah RA memperelokkan infaknya, bukan memberi yang tidak diingini.",
+   "t": 2352
+  },
+  {
+   "id": "l14",
+   "title": "Berfikir jangka panjang dan mengutamakan akhirat anak-anak",
+   "kind": "Sosial",
+   "body": "Doa Ibrahim untuk zuriatnya mengutamakan solat dan iman. Ustaz mengingatkan agar kita tidak mengajar anak, tanpa sedar, bahawa solat nombor dua dan peperiksaan nombor satu.",
+   "t": 2396
+  },
+  {
+   "id": "l15",
+   "title": "Jangan terjajah fikiran dan rendah diri kepada orang luar",
+   "kind": "Sosial",
+   "body": "Amr bin Luhayy membawa berhala dari Rom kerana mengagumi kemajuan mereka. Ustaz mengaitkannya dengan kecenderungan kita menganggap orang luar lebih pakar.",
+   "t": 2978
+  }
+ ],
+ "glossary": [
+  {
+   "id": "g7",
+   "term": "Selawat Ibrahimiyah",
+   "arabic": "الصَّلَاةُ الْإِبْرَاهِيمِيَّةُ",
+   "meaning": "Selawat yang dibaca dalam tahiyat akhir. Ustaz menyebutnya selawat yang paling baik dan paling tinggi kedudukannya.",
+   "t": 263
+  },
+  {
+   "id": "g1",
+   "term": "Tauriah",
+   "arabic": "تَوْرِيَةٌ",
+   "meaning": "Ucapan yang mempunyai dua makna, yang didengar orang berbeza daripada yang dimaksudkan. Ustaz menyebut contoh Ibrahim yang menyebut Sarah sebagai 'saudara' (seagama).",
+   "t": 356
+  },
+  {
+   "id": "g5",
+   "term": "Sa'i",
+   "arabic": "سَعْيٌ",
+   "meaning": "Berulang-alik tujuh kali antara Safa dan Marwah dalam haji dan umrah, mengabadikan usaha Hajar mencari air.",
+   "t": 1032
+  },
+  {
+   "id": "g2",
+   "term": "Arab Musta'ribah",
+   "arabic": "الْعَرَبُ الْمُسْتَعْرِبَةُ",
+   "meaning": "Arab yang 'diarabkan', iaitu bukan Arab asal tetapi menjadi Arab melalui bahasa dan budaya. Nabi Ismail AS dan keturunannya termasuk dalam kategori ini.",
+   "t": 1408
+  },
+  {
+   "id": "g3",
+   "term": "Rub' al-Khali",
+   "arabic": "الرُّبْعُ الْخَالِي",
+   "meaning": "Empty Quarter, kawasan kosong di Semenanjung Arab yang masih belum diterokai, dikaitkan ustaz dengan tempat azab yang menghapuskan kesan tamadun Ad dan Thamud.",
+   "t": 1435
+  },
+  {
+   "id": "g10",
+   "term": "Daif",
+   "arabic": "ضَعِيفٌ",
+   "meaning": "Hadis yang lemah. Ustaz menjelaskan daif bukan bermakna palsu, dan menyebut tahap hadis daripada A hingga F (palsu) sebagai analogi.",
+   "t": 1483
+  },
+  {
+   "id": "g6",
+   "term": "Tawakal",
+   "arabic": "تَوَكُّلٌ",
+   "meaning": "Daripada 'wakil': menyerahkan urusan kepada Allah selepas melakukan usaha yang termampu.",
+   "t": 1808
+  },
+  {
+   "id": "g4",
+   "term": "Khalilullah",
+   "arabic": "خَلِيلُ اللَّهِ",
+   "meaning": "Sahabat paling rapat Allah. Hanya Nabi Ibrahim AS dan Nabi Muhammad SAW memiliki gelaran ini.",
+   "t": 2093
+  },
+  {
+   "id": "g8",
+   "term": "Manasik",
+   "arabic": "مَنَاسِكُ",
+   "meaning": "Cara dan amalan ibadah haji. Ibrahim berdoa agar diajarkan manasik, dan Ismail mengajarnya kepada anak-anaknya.",
+   "t": 2233
+  },
+  {
+   "id": "g9",
+   "term": "Hubal",
+   "arabic": "هُبَلُ",
+   "meaning": "Berhala pertama yang dibawa ke Mekah oleh Amr bin Luhayy dan diletakkan di depan Kaabah. Ustaz tidak pasti kesahihan gambar yang direkodkan sejarawan.",
+   "t": 2932
+  }
+ ],
+ "mindmap": {
+  "id": "root",
+  "label": "Penerokaan Kota Mekah",
+  "t": 0,
+  "detail": "Latar sebelum kelahiran Nabi SAW: Ibrahim, Hajar, Ismail, Kaabah dan permulaan berhala.",
+  "children": [
+   {
+    "id": "m1",
+    "label": "Mengapa bermula dengan Ibrahim",
+    "t": 175,
+    "detail": "Nabi SAW: aku jawapan doa ayahku Ibrahim.",
+    "children": [
+     {
+      "id": "m1a",
+      "label": "Rujukan siri",
+      "t": 79,
+      "detail": "Ar-Rahiq Al-Makhtum dan lebih 40 buku."
+     },
+     {
+      "id": "m1b",
+      "label": "Serupa dengan Nabi SAW",
+      "t": 212,
+      "detail": "Rupa dan perjuangan, selawat Ibrahimiyah."
+     }
+    ]
+   },
+   {
+    "id": "m2",
+    "label": "Hajar dan Ismail di Mekah",
+    "t": 639,
+    "detail": "Ditinggalkan di lembah tanpa hidupan atas perintah Allah.",
+    "children": [
+     {
+      "id": "m2a",
+      "label": "Tawakal Hajar",
+      "t": 843,
+      "detail": "Allah tidak akan mensia-siakan kami."
+     },
+     {
+      "id": "m2b",
+      "label": "Sa'i Safa dan Marwah",
+      "t": 982,
+      "detail": "Berusaha tujuh kali."
+     },
+     {
+      "id": "m2c",
+      "label": "Zam-zam terpancar",
+      "t": 1155,
+      "detail": "Hajar menakung air."
+     }
+    ]
+   },
+   {
+    "id": "m3",
+    "label": "Jurhum dan Ismail",
+    "t": 1339,
+    "detail": "Kabilah yang menetap, dan Ismail diarabkan.",
+    "children": [
+     {
+      "id": "m3a",
+      "label": "Empangan Yaman",
+      "t": 1187,
+      "detail": "Kesombongan Yaman membawa azab."
+     },
+     {
+      "id": "m3b",
+      "label": "Arab musta'ribah",
+      "t": 1408,
+      "detail": "Ismail menjadi Arab melalui budaya dan bahasa."
+     }
+    ]
+   },
+   {
+    "id": "m4",
+    "label": "Membina Kaabah",
+    "t": 1551,
+    "detail": "Ibrahim dan Ismail dengan doa-doa mereka.",
+    "children": [
+     {
+      "id": "m4a",
+      "label": "Terimalah daripada kami (2:127)",
+      "t": 2012,
+      "detail": "Rendah hati selepas projek paling mulia."
+     },
+     {
+      "id": "m4b",
+      "label": "Zuriat dan taubat (2:128)",
+      "t": 2221,
+      "detail": "Muslim, manasik dan taubat."
+     },
+     {
+      "id": "m4c",
+      "label": "Seorang rasul (2:129)",
+      "t": 2568,
+      "detail": "Doa yang dimustajabkan selepas sekitar 2,000 tahun."
+     }
+    ]
+   },
+   {
+    "id": "m5",
+    "label": "Pengajaran utama",
+    "t": 1610,
+    "detail": "Teladan Hajar dan Ibrahim.",
+    "children": [
+     {
+      "id": "m5a",
+      "label": "Pengorbanan dan keberanian",
+      "t": 1610,
+      "detail": "Perubahan menuntut harga."
+     },
+     {
+      "id": "m5b",
+      "label": "Ihsan dan jangka panjang",
+      "t": 2352,
+      "detail": "Lakukan dengan terbaik dan fikir generasi."
+     },
+     {
+      "id": "m5c",
+      "label": "Akhirat anak-anak",
+      "t": 2467,
+      "detail": "Prioriti solat berbanding peperiksaan."
+     }
+    ]
+   },
+   {
+    "id": "m6",
+    "label": "Berhala di Mekah",
+    "t": 2816,
+    "detail": "Kemerosotan Jurhum hingga Hubal.",
+    "children": [
+     {
+      "id": "m6a",
+      "label": "Khuza'ah menggantikan Jurhum",
+      "t": 2899,
+      "detail": "Zam-zam ditimbus."
+     },
+     {
+      "id": "m6b",
+      "label": "Amr bin Luhayy dan Hubal",
+      "t": 2928,
+      "detail": "Berhala pertama di depan Kaabah."
+     },
+     {
+      "id": "m6c",
+      "label": "2,000 tahun",
+      "t": 3102,
+      "detail": "Perubahan besar yang sangat perlahan."
+     }
+    ]
+   }
+  ]
+ }
+}
