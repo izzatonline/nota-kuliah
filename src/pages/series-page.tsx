@@ -206,7 +206,13 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
                     <TabsTrigger
                       key={key}
                       value={key}
-                      className="group -mb-px gap-2 rounded-none focus-visible:ring-inset focus-visible:ring-offset-0 border-b-2 border-transparent px-3 py-3 text-muted-foreground shadow-none transition-colors hover:text-foreground data-[state=active]:border-primary data-[state=active]:bg-transparent data-[state=active]:text-foreground data-[state=active]:shadow-none"
+                      // Radix focuses the tab from script on mouse down, which makes Chrome draw the keyboard focus ring
+                      // after a mouse click when the last input was a key press. Mark pointer use so the ring only
+                      // shows for keyboard navigation (the ring is kept for keyboard users).
+                      onMouseDown={(e) => e.currentTarget.setAttribute('data-pointer', 'true')}
+                      onKeyDown={(e) => e.currentTarget.removeAttribute('data-pointer')}
+                      onBlur={(e) => e.currentTarget.removeAttribute('data-pointer')}
+                      className="group -mb-px gap-2 rounded-none data-[pointer=true]:focus-visible:ring-0 focus-visible:ring-inset focus-visible:ring-offset-0 border-b-2 border-transparent px-3 py-3 text-muted-foreground shadow-none transition-colors hover:text-foreground data-[state=active]:border-primary data-[state=active]:bg-transparent data-[state=active]:text-foreground data-[state=active]:shadow-none"
                     >
                       <Icon className="size-4" />
                       {t(`tab.${key}` as Key)}
