@@ -831,5 +831,24 @@
     ]
    }
   ]
+ },
+ "careNote": {
+  "title": "Jika anda atau seseorang yang anda kenali berasa ingin menamatkan nyawa",
+  "body": "Anda tidak keseorangan dan bantuan ada. Bercakaplah dengan seseorang yang dipercayai, dan hubungi talian bantuan di bawah. Jika ada bahaya serta-merta, hubungi 999.",
+  "items": [
+   {
+    "name": "Befrienders Kuala Lumpur (24 jam)",
+    "contact": "03-7627 2929"
+   },
+   {
+    "name": "Talian Kasih (24 jam)",
+    "contact": "15999"
+   },
+   {
+    "name": "Kecemasan",
+    "contact": "999"
+   }
+  ],
+  "source": "Ditambah oleh penyusun nota, bukan daripada kuliah. Sila sahkan nombor di laman rasmi pertubuhan berkenaan kerana ia boleh berubah."
  }
 }
