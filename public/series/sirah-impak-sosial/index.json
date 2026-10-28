@@ -467,7 +467,8 @@
    "season": 2,
    "duration": 5529,
    "views": 41000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-10-29T04:24:54"
   },
   {
    "id": "ep44",
