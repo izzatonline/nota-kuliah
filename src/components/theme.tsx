@@ -23,6 +23,8 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
   return <Ctx.Provider value={{ theme, toggle: () => setTheme((t) => (t === 'dark' ? 'light' : 'dark')) }}>{children}</Ctx.Provider>
 }
 
+export const useTheme = () => useContext(Ctx)
+
 export function ThemeToggle() {
   const { theme, toggle } = useContext(Ctx)
   const { t } = useT()

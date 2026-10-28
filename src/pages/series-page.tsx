@@ -9,8 +9,7 @@ import { Skeleton } from '@/components/ui/skeleton'
 import { SidebarInset, SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Breadcrumb, BreadcrumbItem, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from '@/components/ui/breadcrumb'
-import { ThemeToggle } from '@/components/theme'
-import { LanguageSwitch } from '@/components/language-switch'
+import { HeaderActions } from '@/components/header-actions'
 import { ScrollRow } from '@/components/scroll-tabs'
 import { EpisodeSidebar } from '@/components/episode-list'
 import { ChapterScroll, NowPlaying, Video } from '@/components/video-panel'
@@ -86,18 +85,11 @@ export function SeriesPage() {
               <BreadcrumbSeparator className="hidden xl:block" />
               <BreadcrumbItem className="min-w-0 gap-2">
                 <Badge variant="secondary" className="shrink-0 font-mono">{epLabel}</Badge>
-                <BreadcrumbPage className="truncate">{episode.title}</BreadcrumbPage>
+                <BreadcrumbPage className="line-clamp-2 whitespace-normal text-sm leading-tight sm:line-clamp-1 sm:text-base">{episode.title}</BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
-          <LanguageSwitch />
-          <Button asChild variant="outline" size="sm" className="shrink-0 max-lg:size-8 max-lg:p-0">
-            <a href={youtubeUrl(episode.youtubeId)} target="_blank" rel="noreferrer" aria-label={t('header.watch')}>
-              <ExternalLink />
-              <span className="hidden lg:inline">{t('header.watch')}</span>
-            </a>
-          </Button>
-          <ThemeToggle />
+          <HeaderActions watchUrl={youtubeUrl(episode.youtubeId)} />
         </header>
 
         {episode.hasNotes ? <Lecture key={episode.id} slug={slug} episode={episode} series={index.series.title} /> : <NoNotes episode={episode} />}
@@ -199,7 +191,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
             <div className={`shrink-0 bg-background pt-3 @3xl:pt-5 ${gutter}`}>
               <div className="flex items-start gap-3">
                 <div className="min-w-0 flex-1">
-                  <h1 className="truncate text-lg font-semibold tracking-tight @3xl:text-2xl">{notes?.title ?? episode.title}</h1>
+                  <h1 className="line-clamp-2 text-lg font-semibold leading-snug tracking-tight @3xl:line-clamp-1 @3xl:text-2xl">{notes?.title ?? episode.title}</h1>
                   <p className="mb-3 hidden truncate text-sm text-muted-foreground @xl:block">
                     {notes?.speaker ?? 'Ustaz Azlan Shah NK'} · {series} · {t('ep', { n: episode.number ?? 0 })}
                   </p>
