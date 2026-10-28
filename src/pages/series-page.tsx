@@ -17,6 +17,7 @@ import { ChapterScroll, NowPlaying, Video } from '@/components/video-panel'
 import { PlayerContext } from '@/components/player-context'
 import { BooksTab, DalilTab, GlossaryTab, LessonsTab, Overview, PeopleTab, SirahTab, type TabKey } from '@/components/notes-tabs'
 import { MindMap } from '@/components/mindmap'
+import { ShareMenu } from '@/components/share-menu'
 import { epPath, fmt, loadIndex, loadNotes, startEpisode, youtubeUrl } from '@/lib/data'
 import { getLast, getProgress, markVisited, saveTime } from '@/lib/progress'
 import { useT, type Key } from '@/lib/i18n'
@@ -196,10 +197,15 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
           {/* notes column: title and tabs stay put, only the content scrolls */}
           <Tabs value={tab} onValueChange={(v) => setTab(v as TabKey)} className="flex min-h-0 min-w-0 flex-1 flex-col">
             <div className={`shrink-0 bg-background pt-3 @3xl:pt-5 ${gutter}`}>
-              <h1 className="truncate text-lg font-semibold tracking-tight @3xl:text-2xl">{notes?.title ?? episode.title}</h1>
-              <p className="mb-3 hidden truncate text-sm text-muted-foreground @xl:block">
-                {notes?.speaker ?? 'Ustaz Azlan Shah NK'} · {series} · {t('ep', { n: episode.number ?? 0 })}
-              </p>
+              <div className="flex items-start gap-3">
+                <div className="min-w-0 flex-1">
+                  <h1 className="truncate text-lg font-semibold tracking-tight @3xl:text-2xl">{notes?.title ?? episode.title}</h1>
+                  <p className="mb-3 hidden truncate text-sm text-muted-foreground @xl:block">
+                    {notes?.speaker ?? 'Ustaz Azlan Shah NK'} · {series} · {t('ep', { n: episode.number ?? 0 })}
+                  </p>
+                </div>
+                {notes && <ShareMenu slug={slug} episodeId={episode.id} notes={notes} />}
+              </div>
               <ScrollRow activeKey={tab} className={`mt-2 border-b ${bleed}`}>
                 <TabsList className="h-auto w-max min-w-full justify-start gap-1 rounded-none bg-transparent p-0">
                   {TABS.map(({ key, Icon, count }) => (
