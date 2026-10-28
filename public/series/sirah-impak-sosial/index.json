@@ -18,7 +18,8 @@
    "season": 1,
    "duration": 5827,
    "views": 50000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-10-29T02:11:42"
   },
   {
    "id": "ep1",
