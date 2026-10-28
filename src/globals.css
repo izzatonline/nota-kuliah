@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 45 33% 96%;
+    --foreground: 145 18% 13%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 163 62% 18%;
+    --primary-foreground: 45 33% 97%;
+    --secondary: 140 14% 91%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 45 20% 92%;
+    --muted-foreground: 145 8% 38%;
+    --accent: 140 14% 91%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 120 10% 85%;
+    --input: 120 10% 85%;
+    --ring: 163 62% 28%;
+    --radius: 0.65rem;
+    --gold: 38 70% 34%;
+    --gold-soft: 42 70% 91%;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-accent: 140 14% 91%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-primary: 163 62% 18%;
+    --sidebar-primary-foreground: 45 33% 97%;
+    --sidebar-ring: 163 62% 28%;
+  }
+  .dark {
+    --background: 155 18% 8%;
+    --foreground: 45 22% 92%;
+    --card: 155 15% 11%;
+    --card-foreground: 45 22% 92%;
+    --popover: 155 15% 11%;
+    --popover-foreground: 45 22% 92%;
+    --primary: 145 32% 70%;
+    --primary-foreground: 155 35% 12%;
+    --secondary: 155 13% 17%;
+    --secondary-foreground: 45 22% 92%;
+    --muted: 155 13% 15%;
+    --muted-foreground: 140 10% 66%;
+    --accent: 155 13% 19%;
+    --accent-foreground: 45 22% 92%;
+    --border: 150 10% 23%;
+    --input: 150 10% 26%;
+    --ring: 145 32% 70%;
+    --gold: 40 65% 62%;
+    --gold-soft: 40 40% 17%;
+    --sidebar-background: 155 18% 8%;
+    --sidebar-foreground: 45 22% 92%;
+    --sidebar-accent: 155 13% 17%;
+    --sidebar-accent-foreground: 45 22% 92%;
+    --sidebar-border: 150 10% 18%;
+    --sidebar-primary: 145 32% 70%;
+    --sidebar-primary-foreground: 155 35% 12%;
+    --sidebar-ring: 145 32% 70%;
+  }
+  * {
+    @apply border-border;
+  }
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+  }
+  ::selection {
+    background: hsl(var(--primary) / 0.18);
+  }
+}
+
+.font-arabic {
+  font-family: "Amiri", "Noto Naskh Arabic", "Geeza Pro", serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

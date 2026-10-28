@@ -1,0 +1,14 @@
+node_modules
+dist
+.claude/settings.local.json
+
+# Raw audio and transcripts are never published. They are only an intermediate
+# step for generating notes. Keep them in a private/ folder or outside the repo.
+private/
+*.mp3
+*.wav
+*.webm
+
+# Python
+__pycache__/
+*.pyc
