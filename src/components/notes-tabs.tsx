@@ -49,7 +49,7 @@ export function Overview({ notes, go }: { notes: Notes; go: (t: TabKey) => void 
               {care.items.map((i) => (
                 <li key={i.name} className="flex items-center justify-between gap-3 px-3 py-2 text-sm">
                   <span>{i.name}</span>
-                  <a href={`tel:${i.contact.replace(/[^\d+]/g, '')}`} className="font-mono font-medium text-primary hover:underline">{i.contact}</a>
+                  <a href={`tel:${i.contact.replace(/[^\d+]/g, '')}`} className="shrink-0 whitespace-nowrap font-mono font-medium text-primary hover:underline">{i.contact}</a>
                 </li>
               ))}
             </ul>
