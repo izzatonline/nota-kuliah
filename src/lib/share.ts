@@ -5,7 +5,8 @@ export const episodeUrl = (slug: string, epId: string, t?: number) =>
 
 /** A short message that reads well in WhatsApp or Telegram: title, key points, link. */
 export function shareText(notes: Notes, url: string, labels: { keyPoints: string; cta: string }, points = 3) {
-  const head = `${notes.title}\n${notes.speaker} · ${notes.series} · Ep ${notes.episode}`
+  const label = notes.episode > 0 ? `Ep ${notes.episode}` : 'Prolog'
+  const head = `${notes.title}\n${notes.speaker} · ${notes.series} · ${label}`
   const body = notes.keyPoints.slice(0, points).map((p) => `• ${p}`).join('\n')
   return `${head}\n\n${labels.keyPoints}:\n${body}\n\n${labels.cta}:\n${url}`
 }

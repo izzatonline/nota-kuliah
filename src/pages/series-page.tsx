@@ -120,6 +120,7 @@ function NoNotes({ episode }: { episode: Episode }) {
 
 function Lecture({ slug, episode, series }: { slug: string; episode: Episode; series: string }) {
   const { t, lang } = useT()
+  const epLabel = episode.number ? t('ep', { n: episode.number }) : t('sidebar.prolog')
   const [notes, setNotes] = useState<Notes | null>(null)
   const [error, setError] = useState('')
   const [tab, setTab] = useState<TabKey>('ringkasan')
@@ -199,7 +200,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
                 <div className="min-w-0 flex-1">
                   <h1 className="line-clamp-2 text-lg font-semibold leading-snug tracking-tight @3xl:line-clamp-1 @3xl:text-2xl">{notes?.title ?? episode.title}</h1>
                   <p className="mb-3 hidden truncate text-sm text-muted-foreground @xl:block">
-                    {notes?.speaker ?? 'Ustaz Azlan Shah NK'} · {series} · {t('ep', { n: episode.number ?? 0 })}
+                    {notes?.speaker ?? 'Ustaz Azlan Shah NK'} · {series} · {epLabel}
                   </p>
                 </div>
                 {notes && <ShareMenu slug={slug} episodeId={episode.id} notes={notes} />}
