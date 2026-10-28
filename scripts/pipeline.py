@@ -609,6 +609,8 @@ def main():
         if args.stage in ("run", "transcribe"):
             stage_transcribe(workdir, args)
         if args.stage == "check":
+            if not (workdir / "transcript.json").exists():
+                raise PipelineError("transcript.json is missing. Run the transcribe stage first.")
             problems = check_transcript(load_segments(workdir / "transcript.json"), load_meta(workdir)["duration"])
             print("transcript looks fine" if not problems else "\n".join(problems))
         if args.stage in ("run", "draft"):
