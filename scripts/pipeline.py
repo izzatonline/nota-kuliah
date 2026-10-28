@@ -27,7 +27,7 @@ import subprocess
 import sys
 import tempfile
 import urllib.request
-from datetime import date
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -530,11 +530,11 @@ def update_index(meta, notes):
         n = meta.get("number")
         index["episodes"].append({"id": meta["id"], "youtubeId": meta["youtubeId"], "number": n, "title": meta["title"],
                                   "season": 2 if (n or 0) >= 18 else 1, "duration": meta["duration"], "views": None,
-                                  "hasNotes": True, "notesAddedAt": date.today().isoformat()})
+                                  "hasNotes": True, "notesAddedAt": datetime.now().isoformat(timespec="seconds")})
         index["episodes"].sort(key=lambda e: (e["season"], -1 if e["number"] is None else e["number"]))
     else:
         ep["hasNotes"] = True
-        ep["notesAddedAt"] = date.today().isoformat()
+        ep["notesAddedAt"] = datetime.now().isoformat(timespec="seconds")
     path.write_text(json.dumps(index, ensure_ascii=False, indent=1))
 
 
