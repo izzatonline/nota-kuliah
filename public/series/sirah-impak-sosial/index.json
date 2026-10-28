@@ -40,7 +40,8 @@
    "season": 1,
    "duration": 2186,
    "views": 45000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-10-29T04:11:13"
   },
   {
    "id": "ep3",
