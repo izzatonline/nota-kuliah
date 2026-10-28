@@ -1,0 +1,506 @@
+{
+ "series": {
+  "slug": "sirah-impak-sosial",
+  "title": "Sirah Impak Sosial",
+  "speaker": "Ustaz Azlan Shah NK",
+  "playlist": "https://www.youtube.com/playlist?list=PLNkHHi4NJZyp9ayRBpXh7u7HVaBYEzfl6",
+  "description": {
+   "ms": "Kisah hidup Nabi Muhammad SAW dan pengajarannya untuk masyarakat hari ini, disampaikan secara bersiri oleh Ustaz Azlan Shah NK.",
+   "en": "The life of the Prophet Muhammad SAW and its lessons for society today, taught as a series by Ustaz Azlan Shah NK."
+  }
+ },
+ "episodes": [
+  {
+   "id": "prolog-DJgUaYRBf6k",
+   "youtubeId": "DJgUaYRBf6k",
+   "number": null,
+   "title": "Prolog: Kehidupan Nabi Muhammad SAW",
+   "season": 1,
+   "duration": 5827,
+   "views": 50000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep1",
+   "youtubeId": "q7i-h206tf0",
+   "number": 1,
+   "title": "Penerokaan Kota Mekah",
+   "season": 1,
+   "duration": 3127,
+   "views": 102000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep2",
+   "youtubeId": "31iNeaG3Bcg",
+   "number": 2,
+   "title": "Reformasi Ekonomi Masyarakat Kota Mekah",
+   "season": 1,
+   "duration": 2186,
+   "views": 45000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep3",
+   "youtubeId": "77CP0tvsJ-8",
+   "number": 3,
+   "title": "Kisah Ghulam dan Keimanan Ashabul Ukhdud",
+   "season": 1,
+   "duration": 3116,
+   "views": 45000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep4",
+   "youtubeId": "tgUVvtty-MI",
+   "number": 4,
+   "title": "Kejatuhan Tentera Bergajah Abrahah",
+   "season": 1,
+   "duration": 1906,
+   "views": 35000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep5",
+   "youtubeId": "G4369k1c24c",
+   "number": 5,
+   "title": "Kelahiran Nabi Muhammad SAW",
+   "season": 1,
+   "duration": 2848,
+   "views": 39000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep6",
+   "youtubeId": "dlQFOrfaupU",
+   "number": 6,
+   "title": "Rezeki Halimah As-Sa'diah mengambil Nabi Muhammad SAW",
+   "season": 1,
+   "duration": 2240,
+   "views": 34000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep7",
+   "youtubeId": "SIntnH2n9R0",
+   "number": 7,
+   "title": "Zaman Kanak-kanak Nabi Muhammad SAW (Penyusuan)",
+   "season": 1,
+   "duration": 2452,
+   "views": 34000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep8",
+   "youtubeId": "r1htYEgwy68",
+   "number": 8,
+   "title": "Zaman Kanak-kanak Nabi Muhammad SAW (Bermain)",
+   "season": 1,
+   "duration": 2401,
+   "views": 39000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep9",
+   "youtubeId": "bt6J8UJ-eeE",
+   "number": 9,
+   "title": "Nabi Muhammad SAW, anak yatim membesar dalam kesusahan",
+   "season": 1,
+   "duration": 3334,
+   "views": 30000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep10",
+   "youtubeId": "O4_N2x86w4o",
+   "number": 10,
+   "title": "Nabi Muhammad SAW ke Syam Bersama Abu Talib & Perlindungan Allah daripada perkara maksiat",
+   "season": 1,
+   "duration": 1693,
+   "views": 24000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep11",
+   "youtubeId": "L0QRbm41kNo",
+   "number": 11,
+   "title": "Modul Kepimpinan Para Nabi",
+   "season": 1,
+   "duration": 3749,
+   "views": 34000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep12",
+   "youtubeId": "KYOfuWbUgII",
+   "number": 12,
+   "title": "Perperangan Al-Fijar & Perjanjian Al-Fudhul",
+   "season": 1,
+   "duration": 2523,
+   "views": 23000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep13",
+   "youtubeId": "iuYX_COizmQ",
+   "number": 13,
+   "title": "Perkenalan dan perkahwinan dengan Khadijah RA",
+   "season": 1,
+   "duration": 2580,
+   "views": 30000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep14",
+   "youtubeId": "kjb0RFMx6NQ",
+   "number": 14,
+   "title": "Kerosakan Masyarakat Jahiliyah & Kisah Zaid bin Haarithah (RA)",
+   "season": 1,
+   "duration": 3007,
+   "views": 24000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep15",
+   "youtubeId": "iGe5ytEmH7w",
+   "number": 15,
+   "title": "Mencari Kebenaran sebelum Kenabian, Kisah Zaid bin Amr bin Nufail (RA)",
+   "season": 1,
+   "duration": 1717,
+   "views": 39000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep16",
+   "youtubeId": "EVWOJxi6PAg",
+   "number": 16,
+   "title": "Pembinaan Semula Kaabah & Sejarah Hajar Al-Aswad",
+   "season": 1,
+   "duration": 2468,
+   "views": 25000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep17",
+   "youtubeId": "k5_wwsg55wo",
+   "number": 17,
+   "title": "Keadaan Dunia Sebelum Nabi Menerima Wahyu",
+   "season": 1,
+   "duration": 2557,
+   "views": 31000,
+   "hasNotes": false
+  },
+  {
+   "id": "prolog-t53UBNhT4AE",
+   "youtubeId": "t53UBNhT4AE",
+   "number": null,
+   "title": "Prolog Musim Ke-2: Cahaya Wahyu & Reformasi Kehidupan",
+   "season": 2,
+   "duration": 5278,
+   "views": 18000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep18",
+   "youtubeId": "Gea_8Kffff8",
+   "number": 18,
+   "title": "Permulaan Turun Wahyu Pertama",
+   "season": 2,
+   "duration": 4087,
+   "views": 30000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep19",
+   "youtubeId": "39mHiebNViY",
+   "number": 19,
+   "title": "Impak Wahyu Pertama & Dakapan Khadijah RA",
+   "season": 2,
+   "duration": 5235,
+   "views": 29000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep20",
+   "youtubeId": "7RBdvkQu_rc",
+   "number": 20,
+   "title": "Wahyu terputus & surah-surah terawal",
+   "season": 2,
+   "duration": 2252,
+   "views": 25000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep21",
+   "youtubeId": "UDKUwKToBL8",
+   "number": 21,
+   "title": "10 Muslim & ibadah terawal",
+   "season": 2,
+   "duration": 2075,
+   "views": 18000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep22",
+   "youtubeId": "o640AL5vgzM",
+   "number": 22,
+   "title": "Dzulhijjah: Legasi Perjuangan Nabi Ibrahim AS dan Muhammad SAW",
+   "season": 2,
+   "duration": 4941,
+   "views": 31000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep23",
+   "youtubeId": "eGPqgC8UvJg",
+   "number": 23,
+   "title": "Strategi Dakwah Tertutup & Penubuhan Markas",
+   "season": 2,
+   "duration": 3167,
+   "views": 18000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep24",
+   "youtubeId": "2yFZX4AuIuM",
+   "number": 24,
+   "title": "Strategi Dakwah Terbuka & Kecaman Pertama",
+   "season": 2,
+   "duration": 2379,
+   "views": 16000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep25",
+   "youtubeId": "Yw-iie18R88",
+   "number": 25,
+   "title": "Tekanan Emosi & Larangan Membaca Al-Quran",
+   "season": 2,
+   "duration": 5174,
+   "views": 32000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep26",
+   "youtubeId": "ujrLEM7b938",
+   "number": 26,
+   "title": "Kempen Serangan Peribadi & Ejekkan",
+   "season": 2,
+   "duration": 4635,
+   "views": 19000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep27",
+   "youtubeId": "Apb0ONlsLfw",
+   "number": 27,
+   "title": "Penyiksaan Fizikal & Mental Terhadap Golongan Lemah",
+   "season": 2,
+   "duration": 5148,
+   "views": 22000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep28",
+   "youtubeId": "vHPfgJPqRaI",
+   "number": 28,
+   "title": "Dakwah Tauhid & Keadilan Sosial",
+   "season": 2,
+   "duration": 4713,
+   "views": 20000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep29",
+   "youtubeId": "UDe6Y3d66U4",
+   "number": 29,
+   "title": "Quraish dapatkan bantuan Yahudi & Hijrah Pertama ke Afrika",
+   "season": 2,
+   "duration": 4526,
+   "views": 16000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep30",
+   "youtubeId": "kM3qvkNrINA",
+   "number": 30,
+   "title": "Peristiwa Quraish Sujud & Hijrah Kedua ke Afrika",
+   "season": 2,
+   "duration": 5408,
+   "views": 19000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep31",
+   "youtubeId": "R0NIDFeuBWk",
+   "number": 31,
+   "title": "Kisah Pemelukan Islam Hamzah RA & Omar al-Khattab RA",
+   "season": 2,
+   "duration": 5335,
+   "views": 35000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep32",
+   "youtubeId": "T-_kHWUs6pA",
+   "number": 32,
+   "title": "Sekatan Ekonomi & Derita Boikot",
+   "season": 2,
+   "duration": 4684,
+   "views": 14000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep33",
+   "youtubeId": "KVmf1OrTcQg",
+   "number": 33,
+   "title": "Rundingan Terakhir & Kematian Abu Talib",
+   "season": 2,
+   "duration": 4470,
+   "views": 20000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep34",
+   "youtubeId": "0bTExTDdW9A",
+   "number": 34,
+   "title": "Kewafatan Isteri Tercinta Khadijah RadhiaAllahu ‘anha",
+   "season": 2,
+   "duration": 4677,
+   "views": 33000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep35",
+   "youtubeId": "ev4QWDfcqOw",
+   "number": 35,
+   "title": "Tragedi Taif Hari Terburuk Kehidupan Nabi Muhammad SAW",
+   "season": 2,
+   "duration": 4775,
+   "views": 53000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep36",
+   "youtubeId": "MyYs2Nh0Aao",
+   "number": 36,
+   "title": "Doa Mengharungi Keresahan & Kesedihan Mendalam",
+   "season": 2,
+   "duration": 3433,
+   "views": 117000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep37",
+   "youtubeId": "90xQALYAafQ",
+   "number": 37,
+   "title": "Jin Masuk Islam, Non-Muslim Lindungi Nabi SAW",
+   "season": 2,
+   "duration": 5129,
+   "views": 26000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep38",
+   "youtubeId": "2Dk-T4cfmmU",
+   "number": 38,
+   "title": "Perjalanan Teragung Isra’ wal Mikraj",
+   "season": 2,
+   "duration": 4865,
+   "views": 33000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep39",
+   "youtubeId": "23qIjZ6RQ-s",
+   "number": 39,
+   "title": "Nabi SAW Melihat Azab Pelaku Dosa-Dosa Besar",
+   "season": 2,
+   "duration": 5104,
+   "views": 31000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep40",
+   "youtubeId": "NByQ3g7IX-0",
+   "number": 40,
+   "title": "Impak Piala Dunia, Nabi SAW Melihat Keindahan Syurga",
+   "season": 2,
+   "duration": 4426,
+   "views": 64000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep41",
+   "youtubeId": "20gHtM7nPM8",
+   "number": 41,
+   "title": "Bertemu Allah SWT & Anugerah Teragung",
+   "season": 2,
+   "duration": 4711,
+   "views": 39000,
+   "hasNotes": true,
+   "notesAddedAt": "2026-10-28"
+  },
+  {
+   "id": "ep42",
+   "youtubeId": "NszXGwmnv-I",
+   "number": 42,
+   "title": "Solat Teras Keseimbangan Hidup",
+   "season": 2,
+   "duration": 4289,
+   "views": 57000,
+   "hasNotes": true,
+   "notesAddedAt": "2026-10-29"
+  },
+  {
+   "id": "ep43",
+   "youtubeId": "XXfjrB4E5Jc",
+   "number": 43,
+   "title": "Perjalanan Langit Didustakan oleh Penduduk Bumi",
+   "season": 2,
+   "duration": 5529,
+   "views": 41000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep44",
+   "youtubeId": "Q7cD3uTRNdc",
+   "number": 44,
+   "title": "Mencari Pangkalan Dakwah Baru",
+   "season": 2,
+   "duration": 4587,
+   "views": 38000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep45",
+   "youtubeId": "7yR0-fekKp8",
+   "number": 45,
+   "title": "Enam Anak Muda Perintis Kota Nabi SAW",
+   "season": 2,
+   "duration": 5276,
+   "views": 37000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep46",
+   "youtubeId": "AfnBJ7ngwSc",
+   "number": 46,
+   "title": "Duta Dakwah & Guru Pertama ke Yathrib",
+   "season": 2,
+   "duration": 5573,
+   "views": 39000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep47",
+   "youtubeId": "_Fy4CtJQVSI",
+   "number": 47,
+   "title": "Perjanjian Aqabah Kedua",
+   "season": 2,
+   "duration": 5645,
+   "views": 1700,
+   "hasNotes": false
+  }
+ ]
+}
