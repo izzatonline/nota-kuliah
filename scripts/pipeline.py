@@ -66,13 +66,19 @@ def video_id(arg):
 
 
 def clean_title(title):
-    """'Ep 41: Bertemu Allah | Sirah Impak Sosial | Ustaz ...' -> 'Bertemu Allah'."""
+    """'Ep 41: Bertemu Allah | Sirah Impak Sosial | Ustaz ...' -> 'Bertemu Allah'.
+
+    Episodes without a number (a prologue) keep every meaningful part, joined with ': ', so
+    'Prolog | Sirah Impak Sosial | Kehidupan Nabi' becomes 'Prolog: Kehidupan Nabi'.
+    """
     m = re.match(r"^Ep\s*(\d+)\s*[:|]?\s*(.*)$", title)
     body = m.group(2) if m else title
     drop = re.compile(r"^(Sirah Impak Sosial|Sirah Nabi Muhammad SAW|Ustaz Azlan Shah( NK)?|Azlan Shah NK|"
                       r"Kisah Kehidupan Nabi Muhammad SAW|Season 2 Finale.*)$", re.I)
     parts = [p.strip() for p in body.split("|") if p.strip() and not drop.match(p.strip())]
-    return parts[0] if parts else title
+    if not parts:
+        return title
+    return parts[0] if m else ": ".join(parts)
 
 
 def resolve_workdir(target):

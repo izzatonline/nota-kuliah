@@ -90,6 +90,11 @@ class HelperTests(unittest.TestCase):
         raw = "Ep 42: Solat Teras Keseimbangan Hidup | Sirah Impak Sosial | Ustaz Azlan Shah NK"
         self.assertEqual(pipeline.clean_title(raw), "Solat Teras Keseimbangan Hidup")
 
+    def test_clean_title_keeps_every_part_of_an_unnumbered_episode(self):
+        raw = "Prolog | Sirah Impak Sosial | Kehidupan Nabi Muhammad SAW"
+        self.assertEqual(pipeline.clean_title(raw), "Prolog: Kehidupan Nabi Muhammad SAW")
+        self.assertEqual(pipeline.clean_title("Prolog"), "Prolog")
+
     def test_extract_json_handles_fences_and_chatter(self):
         self.assertEqual(pipeline.extract_json('```json\n{"a": 1}\n```'), {"a": 1})
         self.assertEqual(pipeline.extract_json('Berikut notanya: {"a": 2} selesai'), {"a": 2})
