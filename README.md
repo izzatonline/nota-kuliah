@@ -79,7 +79,8 @@ python3 scripts/build_index.py sirah-impak-sosial "https://www.youtube.com/playl
 ## Review before publishing
 
 The pipeline gives a good draft, not a finished work. Before sharing notes, read them against the video, check the
-hadith entries marked "Teks perlu disemak", and check any numbers or statistics the speaker quoted.
+hadith entries marked "Teks perlu disemak" (run `python3 scripts/hadith_checklist.py` to list them all in
+[docs/hadith-review.md](docs/hadith-review.md)), and check any numbers or statistics the speaker quoted.
 
 ## Project layout
 

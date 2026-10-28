@@ -16,7 +16,8 @@
    Plan: generate `notes.en.json` next to `notes.json` (same ids and timestamps, translated text)
    and have the app load the file for the active language, falling back to Malay.
 3. Notes for the remaining 48 episodes of the series.
-4. Hadith verification: check Arabic text against a hadith source, and show grading and reference.
+4. Hadith verification: work through [docs/hadith-review.md](docs/hadith-review.md), checking Arabic text, source and
+   grade against a hadith source. The checklist is generated, so it shrinks as entries are verified.
 5. Contribution guide and a "how to add an episode" section in the README.
 
 6. **Share with family.** A share button per episode and per section (WhatsApp, copy link) that sends a short summary plus
