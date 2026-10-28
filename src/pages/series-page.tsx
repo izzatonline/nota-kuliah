@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { Link, Navigate, useLocation, useNavigate, useParams } from 'react-router-dom'
+import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { BookOpen, ExternalLink, History, Landmark, Languages, Lightbulb, Library, Network, ScrollText, Users, type LucideIcon } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -130,6 +130,9 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
   const saved = useMemo(() => getProgress(slug, episode.id), [slug, episode.id])
   const [dismissed, setDismissed] = useState(false)
   const autoResume = Boolean((useLocation().state as { resume?: boolean } | null)?.resume)
+  // A shared link such as /sirah-impak-sosial/ep42?t=230 opens at that moment and wins over the saved position.
+  const sharedT = Math.max(0, Math.floor(Number(useSearchParams()[0].get('t')) || 0))
+  const jumped = useRef(false)
   const resumed = useRef(false)
   const latest = useRef({ t: 0, playing: false })
   const lastSaved = useRef(0)
@@ -138,11 +141,14 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
   useEffect(() => markVisited(slug, episode.id), [slug, episode.id])
 
   useEffect(() => {
-    if (autoResume && saved && yt.ready && !resumed.current) {
+    if (sharedT > 0 && yt.ready && !jumped.current) {
+      jumped.current = true
+      yt.seek(sharedT)
+    } else if (!sharedT && autoResume && saved && yt.ready && !resumed.current) {
       resumed.current = true
       yt.seek(saved.t)
     }
-  }, [autoResume, saved, yt.ready, yt.seek])
+  }, [sharedT, autoResume, saved, yt.ready, yt.seek])
 
   useEffect(() => {
     if (yt.playing && Math.abs(yt.time - lastSaved.current) >= 5) {
@@ -226,7 +232,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
             </div>
 
             <div className={`min-h-0 flex-1 overflow-y-auto py-4 @3xl:py-6 ${gutter}`}>
-              {notes && saved && !dismissed && saved.t > 20 && saved.t < notes.duration - 30 && yt.time < saved.t - 15 && (
+              {notes && saved && !sharedT && !dismissed && saved.t > 20 && saved.t < notes.duration - 30 && yt.time < saved.t - 15 && (
                 <div className="mb-4 flex flex-wrap items-center gap-3 rounded-xl border border-primary/30 bg-primary/5 p-3">
                   <div className="grid size-9 shrink-0 place-items-center rounded-lg bg-primary/10 text-primary"><History className="size-4" /></div>
                   <div className="min-w-0 flex-1">
