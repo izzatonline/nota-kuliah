@@ -430,7 +430,8 @@
    "season": 2,
    "duration": 4426,
    "views": 64000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-10-29T01:07:39"
   },
   {
    "id": "ep41",
