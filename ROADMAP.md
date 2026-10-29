@@ -20,7 +20,6 @@
 
 6. **Share with family.** A share button per episode and per section (WhatsApp, copy link) that sends a short summary plus
    the link, so a husband can send a lesson to his wife, a father to his children.
-7. The real repository link in the footer (`src/config.ts`).
 8. **Popular episodes** are ranked by YouTube views for now. Later: our own reading counts.
 
 ## Principles
