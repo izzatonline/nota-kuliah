@@ -20,6 +20,7 @@ class EnglishNotes(unittest.TestCase):
         sk = en.skeleton(NOTES)
         self.assertNotIn("start", sk["chapters"][0])
         self.assertEqual(set(sk["dalil"][0]), {"id", "context"})
+        self.assertIn("translation", en.skeleton(NOTES, quran=True)["dalil"][0])
         self.assertEqual(set(sk["dalil"][1]), {"id", "context", "translation"})
 
     def test_complete_overlay_passes(self):
