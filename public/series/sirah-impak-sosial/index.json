@@ -482,7 +482,8 @@
    "season": 2,
    "duration": 4587,
    "views": 38000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-10-29T17:45:59"
   },
   {
    "id": "ep45",
