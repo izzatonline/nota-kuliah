@@ -62,7 +62,8 @@
    "season": 1,
    "duration": 1906,
    "views": 35000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-10-29T14:06:50"
   },
   {
    "id": "ep5",
