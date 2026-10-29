@@ -29,7 +29,7 @@ export function ScrollRow({ children, className, activeKey }: { children: ReactN
   return (
     <div
       ref={ref}
-      className={cn('overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden', className)}
+      className={cn('overflow-x-auto overflow-y-hidden overscroll-x-contain [scrollbar-width:none] [&::-webkit-scrollbar]:hidden', className)}
       style={{ maskImage: mask, WebkitMaskImage: mask }}
     >
       {children}
