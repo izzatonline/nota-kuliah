@@ -117,7 +117,8 @@
    "season": 1,
    "duration": 3334,
    "views": 30000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-10-30T02:07:59"
   },
   {
    "id": "ep10",
@@ -127,7 +128,8 @@
    "season": 1,
    "duration": 1693,
    "views": 24000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-10-30T02:11:14"
   },
   {
    "id": "ep11",
@@ -421,7 +423,8 @@
    "season": 2,
    "duration": 4865,
    "views": 33000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-10-30T02:15:30"
   },
   {
    "id": "ep39",
