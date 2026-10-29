@@ -10,97 +10,397 @@
   "Unsourced miraculous birth stories are not needed; the Prophet ﷺ was a human being who received revelation."
  ],
  "chapters": [
-  { "id": "c1", "title": "Opening and the virtue of knowledge gatherings", "summary": "The ustaz opens with a hadith about tranquillity and forgiveness in gatherings of knowledge." },
-  { "id": "c2", "title": "Entering the Prophet's life through social impact", "summary": "After five background episodes, the lecture now enters the Prophet's ﷺ life, looking at the facts and their social impact." },
-  { "id": "c3", "title": "The marriage of Abdullah and Aminah", "summary": "The marriage took place after Abdullah was saved from sacrifice; their exact ages are not known." },
-  { "id": "c4", "title": "Reading the sirah in its own time", "summary": "The ustaz stresses that the sirah must not be judged by today's realities, including the age of marriage back then." },
-  { "id": "c5", "title": "Hamzah and Umm Ayman", "summary": "Abdul Muttalib married Hala, the mother of Hamzah RA; Abdullah bought Umm Ayman, who stayed with the Prophet." },
-  { "id": "c6", "title": "The death of Abdullah", "summary": "Abdullah died in Yathrib when the Prophet was two months in the womb, before the Year of the Elephant event according to the stronger narration." },
-  { "id": "c7", "title": "Aminah's pregnancy", "summary": "Aminah had an unusually easy pregnancy, with feelings of both sadness and excitement." },
-  { "id": "c8", "title": "What is certain: Monday", "summary": "A sahih hadith in Muslim says the Prophet fasted on Mondays because it was the day he was born and received revelation." },
-  { "id": "c9", "title": "The Year of the Elephant and the influence of one's birth year", "summary": "The Arabs marked years by major events; the ustaz shows how the climate of a birth year shapes a generation's character." },
-  { "id": "c10", "title": "12 Rabi' al-Awwal and other opinions", "summary": "The date is uncertain because nothing was recorded; 12 Rabi' al-Awwal is popular through Ibn Ishaq's choice and worldwide celebration." },
-  { "id": "c11", "title": "No benefit in arguing, and the Hijri calendar", "summary": "The Prophet never mentioned his birth date; Umar al-Khattab chose the Hijra, not the birth, as the start of the calendar." },
-  { "id": "c12", "title": "Origin of the maulid celebration", "summary": "The ustaz recounts that the celebration began about five hundred years after the Prophet's death under the Fatimid dynasty, then spread." },
-  { "id": "c13", "title": "Attitude towards the celebration", "summary": "The Prophet did not call for it; lectures and readings that do not contradict the Shariah are beneficial, but the priority is spreading the message." },
-  { "id": "c14", "title": "Those who welcomed him, and the name Muhammad", "summary": "The Prophet was welcomed by Umm Ayman, nursed by Thuwaybah, and named Muhammad by Abdul Muttalib." },
-  { "id": "c15", "title": "The social impact of naming", "summary": "Names shape character and fate; the ustaz explains guidance on choosing, changing and protecting a name." },
-  { "id": "c16", "title": "Miraculous birth stories and conclusion", "summary": "Famous stories such as the collapse of the Persian palace have unclear sources; the ustaz sums up what is certain and the matter of naming." }
+  {
+   "id": "c1",
+   "title": "Opening and the virtue of knowledge gatherings",
+   "summary": "The ustaz opens with a hadith about tranquillity and forgiveness in gatherings of knowledge."
+  },
+  {
+   "id": "c2",
+   "title": "Entering the Prophet's life through social impact",
+   "summary": "After five background episodes, the lecture now enters the Prophet's ﷺ life, looking at the facts and their social impact."
+  },
+  {
+   "id": "c3",
+   "title": "The marriage of Abdullah and Aminah",
+   "summary": "The marriage took place after Abdullah was saved from sacrifice; their exact ages are not known."
+  },
+  {
+   "id": "c4",
+   "title": "Reading the sirah in its own time",
+   "summary": "The ustaz stresses that the sirah must not be judged by today's realities, including the age of marriage back then."
+  },
+  {
+   "id": "c5",
+   "title": "Hamzah and Umm Ayman",
+   "summary": "Abdul Muttalib married Hala, the mother of Hamzah RA; Abdullah bought Umm Ayman, who stayed with the Prophet."
+  },
+  {
+   "id": "c6",
+   "title": "The death of Abdullah",
+   "summary": "Abdullah died in Yathrib when the Prophet was two months in the womb, before the Year of the Elephant event according to the stronger narration."
+  },
+  {
+   "id": "c7",
+   "title": "Aminah's pregnancy",
+   "summary": "Aminah had an unusually easy pregnancy, with feelings of both sadness and excitement."
+  },
+  {
+   "id": "c8",
+   "title": "What is certain: Monday",
+   "summary": "A sahih hadith in Muslim says the Prophet fasted on Mondays because it was the day he was born and received revelation."
+  },
+  {
+   "id": "c9",
+   "title": "The Year of the Elephant and the influence of one's birth year",
+   "summary": "The Arabs marked years by major events; the ustaz shows how the climate of a birth year shapes a generation's character."
+  },
+  {
+   "id": "c10",
+   "title": "12 Rabi' al-Awwal and other opinions",
+   "summary": "The date is uncertain because nothing was recorded; 12 Rabi' al-Awwal is popular through Ibn Ishaq's choice and worldwide celebration."
+  },
+  {
+   "id": "c11",
+   "title": "No benefit in arguing, and the Hijri calendar",
+   "summary": "The Prophet never mentioned his birth date; Umar al-Khattab chose the Hijra, not the birth, as the start of the calendar."
+  },
+  {
+   "id": "c12",
+   "title": "Origin of the maulid celebration",
+   "summary": "The ustaz recounts that the celebration began about five hundred years after the Prophet's death under the Fatimid dynasty, then spread."
+  },
+  {
+   "id": "c13",
+   "title": "Attitude towards the celebration",
+   "summary": "The Prophet did not call for it; lectures and readings that do not contradict the Shariah are beneficial, but the priority is spreading the message."
+  },
+  {
+   "id": "c14",
+   "title": "Those who welcomed him, and the name Muhammad",
+   "summary": "The Prophet was welcomed by Umm Ayman, nursed by Thuwaybah, and named Muhammad by Abdul Muttalib."
+  },
+  {
+   "id": "c15",
+   "title": "The social impact of naming",
+   "summary": "Names shape character and fate; the ustaz explains guidance on choosing, changing and protecting a name."
+  },
+  {
+   "id": "c16",
+   "title": "Miraculous birth stories and conclusion",
+   "summary": "Famous stories such as the collapse of the Persian palace have unclear sources; the ustaz sums up what is certain and the matter of naming."
+  }
  ],
  "books": [
-  { "id": "b1", "context": "The earliest sirah besides the Quran, hadith and the records of the Companions' children; Ibn Ishaq chose 12 Rabi' al-Awwal without giving a chain or reference." },
-  { "id": "b2", "context": "A major reference that chooses 9 Rabi' al-Awwal based on calculations by astronomers." },
-  { "id": "b3", "context": "Its introduction says that after the Prophet's death the Companions dispersed to spread the message, rather than weeping at his grave." },
-  { "id": "b4", "context": "Cited for the idea that how we handle money is shaped by the year and era we were born in." },
-  { "id": "b5", "context": "Source of the hadith on Monday fasting and the Prophet's birth.", "note": "Author not named in the lecture: Imam Muslim" },
-  { "id": "b6", "context": "Source of the hadith on Al-Abbas's dream about Abu Lahab.", "note": "Author not named in the lecture: Imam Bukhari" },
-  { "id": "s1", "context": "A summary and arrangement of Ibn Ishaq's sirah, explaining the Prophet's ﷺ birth and family." },
-  { "id": "s2", "context": "Discusses the Prophet's ﷺ guidance, including birth and the naming of children." }
+  {
+   "id": "b1",
+   "context": "The earliest sirah besides the Quran, hadith and the records of the Companions' children; Ibn Ishaq chose 12 Rabi' al-Awwal without giving a chain or reference."
+  },
+  {
+   "id": "b2",
+   "context": "A major reference that chooses 9 Rabi' al-Awwal based on calculations by astronomers."
+  },
+  {
+   "id": "b3",
+   "context": "Its introduction says that after the Prophet's death the Companions dispersed to spread the message, rather than weeping at his grave."
+  },
+  {
+   "id": "b4",
+   "context": "Cited for the idea that how we handle money is shaped by the year and era we were born in."
+  },
+  {
+   "id": "b5",
+   "context": "Source of the hadith on Monday fasting and the Prophet's birth.",
+   "note": "Author not named in the lecture: Imam Muslim"
+  },
+  {
+   "id": "b6",
+   "context": "Source of the hadith on Al-Abbas's dream about Abu Lahab.",
+   "note": "Author not named in the lecture: Imam Bukhari"
+  },
+  {
+   "id": "s1",
+   "context": "A summary and arrangement of Ibn Ishaq's sirah, explaining the Prophet's ﷺ birth and family."
+  },
+  {
+   "id": "s2",
+   "context": "Discusses the Prophet's ﷺ guidance, including birth and the naming of children."
+  }
  ],
  "people": [
-  { "id": "p1", "role": "Father of the Prophet ﷺ", "context": "Married after being saved from sacrifice; died in Yathrib when the Prophet was two months in the womb." },
-  { "id": "p3", "role": "Grandfather of the Prophet ﷺ", "context": "Arranged Abdullah's marriage, received news of the birth with joy, and named him Muhammad." },
-  { "id": "p2", "role": "Mother of the Prophet ﷺ", "context": "Had an unusually easy pregnancy and nursed the Prophet on the first and second days." },
-  { "id": "p4", "role": "Wife of Abdul Muttalib", "context": "Aminah's cousin and the mother of Hamzah RA." },
-  { "id": "p5", "role": "Uncle and milk-brother of the Prophet ﷺ", "context": "The Prophet's uncle, second cousin and milk-brother; the story of how he unexpectedly accepted Islam will be told later." },
-  { "id": "p6", "role": "Abdullah's slave who cared for the Prophet", "context": "Bought by Abdullah and given to Aminah; present from before the Prophet's birth until after his death, and according to some sirah writers the first person to touch the Prophet at birth." },
-  { "id": "p10", "role": "Sirah author", "context": "Chose 12 Rabi' al-Awwal without a chain or reference." },
-  { "id": "p11", "role": "Author of Ar-Raheeq Al-Makhtum", "context": "Chose 9 Rabi' al-Awwal based on astronomers' calculations." },
-  { "id": "p12", "role": "Caliph", "context": "Rejected the Prophet's birth year as the start of the Islamic calendar and chose the Hijra." },
-  { "id": "p13", "role": "Shaykh and author", "context": "Mentions in Fiqh as-Sirah that the Companions dispersed to spread the message." },
-  { "id": "p7", "role": "Abu Lahab's slave and the Prophet's wet nurse", "context": "Brought news of the birth to Abu Lahab and nursed the Prophet after Aminah." },
-  { "id": "p8", "role": "Uncle of the Prophet ﷺ", "context": "Was glad at the Prophet's birth and freed Thuwaybah, though he later reviled the Prophet until Allah rebuked him." },
-  { "id": "p9", "role": "Uncle of the Prophet ﷺ", "context": "Is said to have dreamed about Abu Lahab in a disputed hadith." }
+  {
+   "id": "p1",
+   "role": "Father of the Prophet ﷺ",
+   "context": "Married after being saved from sacrifice; died in Yathrib when the Prophet was two months in the womb."
+  },
+  {
+   "id": "p3",
+   "role": "Grandfather of the Prophet ﷺ",
+   "context": "Arranged Abdullah's marriage, received news of the birth with joy, and named him Muhammad."
+  },
+  {
+   "id": "p2",
+   "role": "Mother of the Prophet ﷺ",
+   "context": "Had an unusually easy pregnancy and nursed the Prophet on the first and second days."
+  },
+  {
+   "id": "p4",
+   "role": "Wife of Abdul Muttalib",
+   "context": "Aminah's cousin and the mother of Hamzah RA."
+  },
+  {
+   "id": "p5",
+   "role": "Uncle and milk-brother of the Prophet ﷺ",
+   "context": "The Prophet's uncle, second cousin and milk-brother; the story of how he unexpectedly accepted Islam will be told later."
+  },
+  {
+   "id": "p6",
+   "role": "Abdullah's slave who cared for the Prophet",
+   "context": "Bought by Abdullah and given to Aminah; present from before the Prophet's birth until after his death, and according to some sirah writers the first person to touch the Prophet at birth."
+  },
+  {
+   "id": "p10",
+   "role": "Sirah author",
+   "context": "Chose 12 Rabi' al-Awwal without a chain or reference."
+  },
+  {
+   "id": "p11",
+   "role": "Author of Ar-Raheeq Al-Makhtum",
+   "context": "Chose 9 Rabi' al-Awwal based on astronomers' calculations."
+  },
+  {
+   "id": "p12",
+   "role": "Caliph",
+   "context": "Rejected the Prophet's birth year as the start of the Islamic calendar and chose the Hijra."
+  },
+  {
+   "id": "p13",
+   "role": "Shaykh and author",
+   "context": "Mentions in Fiqh as-Sirah that the Companions dispersed to spread the message."
+  },
+  {
+   "id": "p7",
+   "role": "Abu Lahab's slave and the Prophet's wet nurse",
+   "context": "Brought news of the birth to Abu Lahab and nursed the Prophet after Aminah."
+  },
+  {
+   "id": "p8",
+   "role": "Uncle of the Prophet ﷺ",
+   "context": "Was glad at the Prophet's birth and freed Thuwaybah, though he later reviled the Prophet until Allah rebuked him."
+  },
+  {
+   "id": "p9",
+   "role": "Uncle of the Prophet ﷺ",
+   "context": "Is said to have dreamed about Abu Lahab in a disputed hadith."
+  }
  ],
  "lessons": [
-  { "id": "l1", "title": "Read the sirah in its own time", "body": "The sirah must not be viewed through today's realities; we need to understand the context of the time, including the age of marriage." },
-  { "id": "l2", "title": "The era of our birth shapes a generation's character", "body": "Events at the time we are born and grow up shape how a generation thinks and what it believes." },
-  { "id": "l3", "title": "Weigh the atmosphere children grow up in", "body": "We need to assess today's atmosphere because it shapes how children approach life." },
-  { "id": "l4", "title": "The birth date does not affect creed", "body": "The Prophet never mentioned his birth date or told anyone to do anything on it, so disagreement about it does not touch the pillars of belief." },
-  { "id": "l5", "title": "Don't spend energy on lesser matters", "body": "A great deal of time and resources goes into things that are not really important." },
-  { "id": "l6", "title": "Focus on the productive amid disagreement", "body": "Rather than heated argument over whether to celebrate, focus on what is more productive." },
-  { "id": "l7", "title": "Lectures and readings that don't contradict the Shariah", "body": "Lectures, reading hadith and the Prophet's shama'il are beneficial and should continue all year, not only on a particular day." },
-  { "id": "l8", "title": "The Companions spread the message", "body": "The Companions dispersed because they understood the essence of the Prophet's message: inviting people to know the Prophet and worship Allah." },
-  { "id": "l9", "title": "Don't exaggerate in praising the Prophet", "body": "The Prophet warned against becoming like the Christians, who raised a prophet to be the son of God." },
-  { "id": "l10", "title": "Give your children good names", "body": "A name matters because on the Day of Judgement we will be called by our own name and our father's name." },
-  { "id": "l11", "title": "Protect lineage: change your own name, not your father's", "body": "When changing a name, change only your own so that your lineage can still be traced." },
-  { "id": "l12", "title": "A name need not be Arabic, but must mean something good", "body": "The ustaz favours the view that a name need not come from the Arabic language as long as its meaning is good." },
-  { "id": "l13", "title": "Avoid names that sanctify oneself or imitate the opposed", "body": "The Prophet forbade names that exalt or purify oneself, and names that praise people opposed to Islam." },
-  { "id": "l14", "title": "Miraculous stories are not needed for faith", "body": "We can fully believe in prophethood without unsourced miraculous stories, and the Prophet was a human being who received revelation." }
+  {
+   "id": "l1",
+   "title": "Read the sirah in its own time",
+   "body": "The sirah must not be viewed through today's realities; we need to understand the context of the time, including the age of marriage."
+  },
+  {
+   "id": "l2",
+   "title": "The era of our birth shapes a generation's character",
+   "body": "Events at the time we are born and grow up shape how a generation thinks and what it believes."
+  },
+  {
+   "id": "l3",
+   "title": "Weigh the atmosphere children grow up in",
+   "body": "We need to assess today's atmosphere because it shapes how children approach life."
+  },
+  {
+   "id": "l4",
+   "title": "The birth date does not affect creed",
+   "body": "The Prophet never mentioned his birth date or told anyone to do anything on it, so disagreement about it does not touch the pillars of belief."
+  },
+  {
+   "id": "l5",
+   "title": "Don't spend energy on lesser matters",
+   "body": "A great deal of time and resources goes into things that are not really important."
+  },
+  {
+   "id": "l6",
+   "title": "Focus on the productive amid disagreement",
+   "body": "Rather than heated argument over whether to celebrate, focus on what is more productive."
+  },
+  {
+   "id": "l7",
+   "title": "Lectures and readings that don't contradict the Shariah",
+   "body": "Lectures, reading hadith and the Prophet's shama'il are beneficial and should continue all year, not only on a particular day."
+  },
+  {
+   "id": "l8",
+   "title": "The Companions spread the message",
+   "body": "The Companions dispersed because they understood the essence of the Prophet's message: inviting people to know the Prophet and worship Allah."
+  },
+  {
+   "id": "l9",
+   "title": "Don't exaggerate in praising the Prophet",
+   "body": "The Prophet warned against becoming like the Christians, who raised a prophet to be the son of God."
+  },
+  {
+   "id": "l10",
+   "title": "Give your children good names",
+   "body": "A name matters because on the Day of Judgement we will be called by our own name and our father's name."
+  },
+  {
+   "id": "l11",
+   "title": "Protect lineage: change your own name, not your father's",
+   "body": "When changing a name, change only your own so that your lineage can still be traced."
+  },
+  {
+   "id": "l12",
+   "title": "A name need not be Arabic, but must mean something good",
+   "body": "The ustaz favours the view that a name need not come from the Arabic language as long as its meaning is good."
+  },
+  {
+   "id": "l13",
+   "title": "Avoid names that sanctify oneself or imitate the opposed",
+   "body": "The Prophet forbade names that exalt or purify oneself, and names that praise people opposed to Islam."
+  },
+  {
+   "id": "l14",
+   "title": "Miraculous stories are not needed for faith",
+   "body": "We can fully believe in prophethood without unsourced miraculous stories, and the Prophet was a human being who received revelation."
+  }
  ],
  "glossary": [
-  { "id": "g1", "meaning": "The year the elephant army attacked the Kaaba, and the year the Prophet ﷺ was born; the Arabs marked years by major events." },
-  { "id": "g2", "meaning": "The celebration of the Prophet's ﷺ birthday." },
-  { "id": "g3", "meaning": "A dynasty in Egypt with Shia doctrine, known for holding many celebrations." },
-  { "id": "g7", "meaning": "The traits and character of the Prophet ﷺ." },
-  { "id": "g6", "meaning": "The chain of narrators of a report." },
-  { "id": "g4", "meaning": "Lineage; it must be protected because it lets a child be traced." },
-  { "id": "g5", "meaning": "A sacrifice made to mark the birth of a child." }
+  {
+   "id": "g1",
+   "meaning": "The year the elephant army attacked the Kaaba, and the year the Prophet ﷺ was born; the Arabs marked years by major events."
+  },
+  {
+   "id": "g2",
+   "meaning": "The celebration of the Prophet's ﷺ birthday."
+  },
+  {
+   "id": "g3",
+   "meaning": "A dynasty in Egypt with Shia doctrine, known for holding many celebrations."
+  },
+  {
+   "id": "g7",
+   "meaning": "The traits and character of the Prophet ﷺ."
+  },
+  {
+   "id": "g6",
+   "meaning": "The chain of narrators of a report."
+  },
+  {
+   "id": "g4",
+   "meaning": "Lineage; it must be protected because it lets a child be traced."
+  },
+  {
+   "id": "g5",
+   "meaning": "A sacrifice made to mark the birth of a child."
+  }
  ],
  "dalil": [
-  { "id": "h2", "context": "The ustaz mentions it in the opening of the lecture.", "translation": "The Prophet ﷺ said that in gatherings of knowledge, tranquillity descends and the sins of those present are forgiven, and whoever walks to attend a gathering of knowledge, Allah will ease his path to Paradise." },
-  { "id": "q46-15", "context": "The ustaz says Allah values the sacrifice of a mother who bears hardship upon hardship in pregnancy and childbirth. The verse number is not mentioned. (reference identified; verse number not mentioned)" },
-  { "id": "h3", "context": "The ustaz says this is certain because the hadith is sahih, and the sunnah is to fast and rejoice on Mondays.", "translation": "A Bedouin asked the Prophet ﷺ why he fasted on Mondays. He replied that it was the day he was born and the day he was appointed to receive the first revelation." },
-  { "id": "h4", "context": "The ustaz says historians and sirah scholars agree that the birth year was the Year of the Elephant.", "translation": "The Prophet ﷺ said that he was born in the Year of the Elephant." },
-  { "id": "h6", "context": "The ustaz mentions this while criticising expressions or poems that the Prophet himself did not allow.", "translation": "The Prophet ﷺ was very careful about being praised and exalted, and warned against becoming like the Christians, who raised a prophet to be the son of God." },
-  { "id": "h5", "context": "The ustaz says this hadith is in Sahih Bukhari but disputed; some scholars take it as evidence, others reject that understanding. It is mentioned as information only, with no general recommendation drawn from it.", "translation": "Abu Lahab freed Thuwaybah out of joy at the birth of the Prophet ﷺ. Al-Abbas later dreamed that in the Fire, Abu Lahab was given relief on Mondays because of that joy." },
-  { "id": "h7", "context": "The ustaz says its chain is good, and concludes that names matter and one's father's name should not be changed.", "translation": "The Prophet ﷺ said that on the Day of Judgement you will be called by your names and your fathers' names, so make your names good." },
-  { "id": "h9", "context": "Mentioned while discussing guidance on choosing names, which also encourages the names of the prophets.", "translation": "The Prophet ﷺ said that the best names are Abdullah and Abdurrahman." },
-  { "id": "h8", "context": "The ustaz says names that purify oneself are forbidden, and the Prophet also changed Asiyah to Jamilah and Huzn to Sahl; the family that refused to change the name Huzn is said to have remained in grief.", "translation": "The Prophet ﷺ forbade naming a girl Barrah, saying do not claim purity for yourselves, for Allah knows best who is righteous among you, and suggested the name Zaynab." },
-  { "id": "h10", "context": "The ustaz says this hadith is disputed, and scholars differ on whether it is literal or a vision; it cannot be settled, and it does not affect faith.", "translation": "When the Prophet ﷺ was born, his mother saw a light come out of her womb that lit up as far as Sham." },
-  { "id": "q18-110", "context": "The Prophet ﷺ said he was a man like us who received revelation; the ustaz cites it to reject exaggerated reverence. The verse number is not mentioned. (reference identified; verse number not mentioned)" }
+  {
+   "id": "h2",
+   "context": "The ustaz mentions it in the opening of the lecture.",
+   "translation": "The Prophet ﷺ said that in gatherings of knowledge, tranquillity descends and the sins of those present are forgiven, and whoever walks to attend a gathering of knowledge, Allah will ease his path to Paradise."
+  },
+  {
+   "id": "q46-15",
+   "context": "The ustaz says Allah values the sacrifice of a mother who bears hardship upon hardship in pregnancy and childbirth. The verse number is not mentioned. (reference identified; verse number not mentioned)",
+   "translation": "We have commanded man to be good to his parents: his mother struggled to carry him and struggled to give birth to him- his bearing and weaning took a full thirty months. When he has grown to manhood and reached the age of forty he [may] say, ‘Lord, help me to be truly grateful for Your favours to me and to my parents; help me to do good work that pleases You; make my offspring good. I turn to You; I am one of those who devote themselves to You.’",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "h3",
+   "context": "The ustaz says this is certain because the hadith is sahih, and the sunnah is to fast and rejoice on Mondays.",
+   "translation": "A Bedouin asked the Prophet ﷺ why he fasted on Mondays. He replied that it was the day he was born and the day he was appointed to receive the first revelation."
+  },
+  {
+   "id": "h4",
+   "context": "The ustaz says historians and sirah scholars agree that the birth year was the Year of the Elephant.",
+   "translation": "The Prophet ﷺ said that he was born in the Year of the Elephant."
+  },
+  {
+   "id": "h6",
+   "context": "The ustaz mentions this while criticising expressions or poems that the Prophet himself did not allow.",
+   "translation": "The Prophet ﷺ was very careful about being praised and exalted, and warned against becoming like the Christians, who raised a prophet to be the son of God."
+  },
+  {
+   "id": "h5",
+   "context": "The ustaz says this hadith is in Sahih Bukhari but disputed; some scholars take it as evidence, others reject that understanding. It is mentioned as information only, with no general recommendation drawn from it.",
+   "translation": "Abu Lahab freed Thuwaybah out of joy at the birth of the Prophet ﷺ. Al-Abbas later dreamed that in the Fire, Abu Lahab was given relief on Mondays because of that joy."
+  },
+  {
+   "id": "h7",
+   "context": "The ustaz says its chain is good, and concludes that names matter and one's father's name should not be changed.",
+   "translation": "The Prophet ﷺ said that on the Day of Judgement you will be called by your names and your fathers' names, so make your names good."
+  },
+  {
+   "id": "h9",
+   "context": "Mentioned while discussing guidance on choosing names, which also encourages the names of the prophets.",
+   "translation": "The Prophet ﷺ said that the best names are Abdullah and Abdurrahman."
+  },
+  {
+   "id": "h8",
+   "context": "The ustaz says names that purify oneself are forbidden, and the Prophet also changed Asiyah to Jamilah and Huzn to Sahl; the family that refused to change the name Huzn is said to have remained in grief.",
+   "translation": "The Prophet ﷺ forbade naming a girl Barrah, saying do not claim purity for yourselves, for Allah knows best who is righteous among you, and suggested the name Zaynab."
+  },
+  {
+   "id": "h10",
+   "context": "The ustaz says this hadith is disputed, and scholars differ on whether it is literal or a vision; it cannot be settled, and it does not affect faith.",
+   "translation": "When the Prophet ﷺ was born, his mother saw a light come out of her womb that lit up as far as Sham."
+  },
+  {
+   "id": "q18-110",
+   "context": "The Prophet ﷺ said he was a man like us who received revelation; the ustaz cites it to reject exaggerated reverence. The verse number is not mentioned. (reference identified; verse number not mentioned)",
+   "translation": "Say, ‘I am only a human being, like you, to whom it has been revealed that your God is One. Anyone who fears to meet his Lord should do good deeds and give no one a share in the worship due to his Lord.",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  }
  ],
  "sirah": {
   "era": "The birth of the Prophet ﷺ in the Year of the Elephant, in Mecca",
   "summary": "This episode covers events around the Prophet's ﷺ birth: Abdullah's marriage and death, the day and year of birth, those who welcomed him, the naming by Abdul Muttalib, and the dispute over the date.",
   "events": [
-   { "id": "e0", "label": "Marriage", "title": "Abdullah marries Aminah", "desc": "After Abdullah was ransomed with a hundred camels; their exact ages are not known." },
-   { "id": "e1", "label": "Death", "title": "Abdullah dies in Yathrib", "desc": "The Prophet was still two months in the womb; Abdullah was buried in the Banu Najjar quarter." },
-   { "id": "e2", "label": "Birth", "title": "The Prophet is born on a Monday", "desc": "A sahih hadith in Muslim states that the day of birth and of the first revelation was Monday." },
-   { "id": "e3", "label": "Year", "title": "The Year of the Elephant", "desc": "According to the strongest narration, the Prophet was born about fifty days after the elephant army incident." },
-   { "id": "e4", "label": "Welcome", "title": "Welcomed by Umm Ayman", "desc": "Besides Umm Ayman, Thuwaybah and a woman named Ashifah are mentioned in some sirah accounts." },
-   { "id": "e5", "label": "Naming", "title": "Abdul Muttalib names him Muhammad", "desc": "Abdul Muttalib took the Prophet to the Kaaba, prayed, and named him Muhammad so that he would always be praised on earth and in the heavens." },
-   { "id": "e6", "label": "Custom", "title": "Circumcised and given the aqiqah by Abdul Muttalib", "desc": "According to the sirah records, Abdul Muttalib circumcised, named and performed the aqiqah for the Prophet." }
+   {
+    "id": "e0",
+    "label": "Marriage",
+    "title": "Abdullah marries Aminah",
+    "desc": "After Abdullah was ransomed with a hundred camels; their exact ages are not known."
+   },
+   {
+    "id": "e1",
+    "label": "Death",
+    "title": "Abdullah dies in Yathrib",
+    "desc": "The Prophet was still two months in the womb; Abdullah was buried in the Banu Najjar quarter."
+   },
+   {
+    "id": "e2",
+    "label": "Birth",
+    "title": "The Prophet is born on a Monday",
+    "desc": "A sahih hadith in Muslim states that the day of birth and of the first revelation was Monday."
+   },
+   {
+    "id": "e3",
+    "label": "Year",
+    "title": "The Year of the Elephant",
+    "desc": "According to the strongest narration, the Prophet was born about fifty days after the elephant army incident."
+   },
+   {
+    "id": "e4",
+    "label": "Welcome",
+    "title": "Welcomed by Umm Ayman",
+    "desc": "Besides Umm Ayman, Thuwaybah and a woman named Ashifah are mentioned in some sirah accounts."
+   },
+   {
+    "id": "e5",
+    "label": "Naming",
+    "title": "Abdul Muttalib names him Muhammad",
+    "desc": "Abdul Muttalib took the Prophet to the Kaaba, prayed, and named him Muhammad so that he would always be praised on earth and in the heavens."
+   },
+   {
+    "id": "e6",
+    "label": "Custom",
+    "title": "Circumcised and given the aqiqah by Abdul Muttalib",
+    "desc": "According to the sirah records, Abdul Muttalib circumcised, named and performed the aqiqah for the Prophet."
+   }
   ]
  },
  "mindmap": {
@@ -109,51 +409,135 @@
   "detail": "What is certain, the disputed date, the naming and its social impact.",
   "children": [
    {
-    "id": "m1", "label": "Before the birth", "detail": "Abdullah, Aminah and the pregnancy.",
+    "id": "m1",
+    "label": "Before the birth",
+    "detail": "Abdullah, Aminah and the pregnancy.",
     "children": [
-     { "id": "m1a", "label": "Marriage of Abdullah and Aminah", "detail": "After being ransomed with a hundred camels." },
-     { "id": "m1b", "label": "Abdullah's death", "detail": "When the Prophet was two months in the womb." },
-     { "id": "m1c", "label": "Aminah's pregnancy", "detail": "Unusually easy." }
+     {
+      "id": "m1a",
+      "label": "Marriage of Abdullah and Aminah",
+      "detail": "After being ransomed with a hundred camels."
+     },
+     {
+      "id": "m1b",
+      "label": "Abdullah's death",
+      "detail": "When the Prophet was two months in the womb."
+     },
+     {
+      "id": "m1c",
+      "label": "Aminah's pregnancy",
+      "detail": "Unusually easy."
+     }
     ]
    },
    {
-    "id": "m2", "label": "What is certain", "detail": "The day and year of birth.",
+    "id": "m2",
+    "label": "What is certain",
+    "detail": "The day and year of birth.",
     "children": [
-     { "id": "m2a", "label": "Monday", "detail": "Sahih hadith in Muslim." },
-     { "id": "m2b", "label": "Year of the Elephant", "detail": "Historians agree." },
-     { "id": "m2c", "label": "Influence of the birth year", "detail": "Shapes a generation's character." }
+     {
+      "id": "m2a",
+      "label": "Monday",
+      "detail": "Sahih hadith in Muslim."
+     },
+     {
+      "id": "m2b",
+      "label": "Year of the Elephant",
+      "detail": "Historians agree."
+     },
+     {
+      "id": "m2c",
+      "label": "Influence of the birth year",
+      "detail": "Shapes a generation's character."
+     }
     ]
    },
    {
-    "id": "m3", "label": "Date and celebration", "detail": "A disagreement not worth prolonging.",
+    "id": "m3",
+    "label": "Date and celebration",
+    "detail": "A disagreement not worth prolonging.",
     "children": [
-     { "id": "m3a", "label": "About ten opinions", "detail": "12 Rabi' al-Awwal chosen by Ibn Ishaq." },
-     { "id": "m3b", "label": "Origin of the maulid", "detail": "Began under the Fatimids." },
-     { "id": "m3c", "label": "Focus on the productive", "detail": "A balanced attitude." }
+     {
+      "id": "m3a",
+      "label": "About ten opinions",
+      "detail": "12 Rabi' al-Awwal chosen by Ibn Ishaq."
+     },
+     {
+      "id": "m3b",
+      "label": "Origin of the maulid",
+      "detail": "Began under the Fatimids."
+     },
+     {
+      "id": "m3c",
+      "label": "Focus on the productive",
+      "detail": "A balanced attitude."
+     }
     ]
    },
    {
-    "id": "m4", "label": "The day of birth", "detail": "Those who welcomed him and the naming.",
+    "id": "m4",
+    "label": "The day of birth",
+    "detail": "Those who welcomed him and the naming.",
     "children": [
-     { "id": "m4a", "label": "Umm Ayman", "detail": "Among the first to welcome him." },
-     { "id": "m4b", "label": "Thuwaybah", "detail": "Abu Lahab's slave and the Prophet's wet nurse." },
-     { "id": "m4c", "label": "The name Muhammad", "detail": "Named by Abdul Muttalib." }
+     {
+      "id": "m4a",
+      "label": "Umm Ayman",
+      "detail": "Among the first to welcome him."
+     },
+     {
+      "id": "m4b",
+      "label": "Thuwaybah",
+      "detail": "Abu Lahab's slave and the Prophet's wet nurse."
+     },
+     {
+      "id": "m4c",
+      "label": "The name Muhammad",
+      "detail": "Named by Abdul Muttalib."
+     }
     ]
    },
    {
-    "id": "m5", "label": "Social impact of names", "detail": "Names shape character.",
+    "id": "m5",
+    "label": "Social impact of names",
+    "detail": "Names shape character.",
     "children": [
-     { "id": "m5a", "label": "Choose good names", "detail": "We are called by our names on the Day of Judgement." },
-     { "id": "m5b", "label": "Protect lineage", "detail": "Don't change your father's name." },
-     { "id": "m5c", "label": "Forbidden names", "detail": "Self-purifying or imitating the opposed." }
+     {
+      "id": "m5a",
+      "label": "Choose good names",
+      "detail": "We are called by our names on the Day of Judgement."
+     },
+     {
+      "id": "m5b",
+      "label": "Protect lineage",
+      "detail": "Don't change your father's name."
+     },
+     {
+      "id": "m5c",
+      "label": "Forbidden names",
+      "detail": "Self-purifying or imitating the opposed."
+     }
     ]
    },
    {
-    "id": "m6", "label": "Miraculous stories and conclusion", "detail": "The Prophet was a human being.",
+    "id": "m6",
+    "label": "Miraculous stories and conclusion",
+    "detail": "The Prophet was a human being.",
     "children": [
-     { "id": "m6a", "label": "Unsourced stories", "detail": "Not needed for faith." },
-     { "id": "m6b", "label": "Light from the womb", "detail": "A disputed hadith." },
-     { "id": "m6c", "label": "The Prophet was human", "detail": "I am a man like you who received revelation." }
+     {
+      "id": "m6a",
+      "label": "Unsourced stories",
+      "detail": "Not needed for faith."
+     },
+     {
+      "id": "m6b",
+      "label": "Light from the womb",
+      "detail": "A disputed hadith."
+     },
+     {
+      "id": "m6c",
+      "label": "The Prophet was human",
+      "detail": "I am a man like you who received revelation."
+     }
     ]
    }
   ]
