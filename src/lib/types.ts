@@ -52,6 +52,8 @@ export type Notes = {
   series: string
   episode: number
   duration: number
+  /** Set when an English overlay was applied. */
+  translated?: boolean
   summary: string
   keyPoints: string[]
   chapters: Chapter[]

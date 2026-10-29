@@ -51,11 +51,11 @@ function EpisodeCard({ item, badge }: { item: Item; badge?: string }) {
 
 /** A peek at real notes: the episode's progress and one verse, so visitors see what they get. */
 function HeroPreview({ item }: { item: Item }) {
-  const { t } = useT()
+  const { t, lang } = useT()
   const [notes, setNotes] = useState<Notes | null>(null)
   useEffect(() => {
-    loadNotes(item.series.slug, item.ep.id).then(setNotes).catch(() => {})
-  }, [item])
+    loadNotes(item.series.slug, item.ep.id, lang).then(setNotes).catch(() => {})
+  }, [item, lang])
   const verse = notes?.dalil.find((d) => d.kind === 'quran' && d.arabic)
   const chapters = notes?.chapters.slice(2, 4) ?? []
   return (

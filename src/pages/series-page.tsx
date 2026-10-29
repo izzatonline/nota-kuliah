@@ -172,8 +172,8 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
   }, [slug, episode.id])
 
   useEffect(() => {
-    loadNotes(slug, episode.id).then(setNotes).catch((e) => setError(e.message))
-  }, [slug, episode.id])
+    loadNotes(slug, episode.id, lang).then(setNotes).catch((e) => setError(e.message))
+  }, [slug, episode.id, lang])
 
   useEffect(() => {
     document.title = `${episode.title} · Nota Kuliah`
@@ -246,7 +246,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
                   <Button size="sm" variant="ghost" onClick={() => setDismissed(true)}>{t('resume.restart')}</Button>
                 </div>
               )}
-              {lang === 'en' && <p className="mb-4 rounded-lg border border-gold/30 bg-gold-soft px-3 py-2 text-xs text-gold">{t('enNotice')}</p>}
+              {lang === 'en' && notes && !notes.translated && <p className="mb-4 rounded-lg border border-gold/30 bg-gold-soft px-3 py-2 text-xs text-gold">{t('enNotice')}</p>}
               {error && <p className="text-sm text-destructive">{error}</p>}
               {!notes && !error && <Skeleton className="h-64 w-full rounded-xl" />}
               {notes && (
