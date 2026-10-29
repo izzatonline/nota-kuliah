@@ -174,7 +174,8 @@
    "season": 1,
    "duration": 1717,
    "views": 39000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-10-29T14:08:23"
   },
   {
    "id": "ep16",
