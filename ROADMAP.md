@@ -11,16 +11,16 @@
 - Pipeline `scripts/pipeline.py`: fetch, transcribe (with loop check), draft notes with Claude, build (quotes become timestamps)
 
 ## Next
-1. **More episodes.** Ep 36, Ep 1 and Ep 40 are the most watched, so they are the best next candidates.
+1. **More episodes.** Ep 31, Ep 6, Ep 7 are the most watched without notes, so they are the next candidates.
 2. **English notes.** The interface is bilingual. Notes are translated per episode as `notes.en.json` (`scripts/english_notes.py`); every episode so far has one; new episodes need theirs added.
-3. Notes for the remaining 48 episodes of the series.
+3. Notes for the remaining 32 episodes of the series (17 of 49 done).
 4. Hadith verification: work through [docs/hadith-review.md](docs/hadith-review.md), checking Arabic text, source and
    grade against a hadith source. The checklist is generated, so it shrinks as entries are verified.
 5. Contribution guide and a "how to add an episode" section in the README.
 
 6. **Share with family.** A share button per episode and per section (WhatsApp, copy link) that sends a short summary plus
    the link, so a husband can send a lesson to his wife, a father to his children.
-7. **Real logo**, and the real repository link in the footer (`src/config.ts`).
+7. The real repository link in the footer (`src/config.ts`).
 8. **Popular episodes** are ranked by YouTube views for now. Later: our own reading counts.
 
 ## Principles
