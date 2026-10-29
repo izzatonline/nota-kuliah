@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import { BookOpen, ExternalLink, History, Landmark, Languages, Lightbulb, Library, Network, ScrollText, Users, type LucideIcon } from 'lucide-react'
+import { BookOpen, ExternalLink, ListOrdered, History, Landmark, Languages, Lightbulb, Library, Network, ScrollText, Users, type LucideIcon } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
@@ -14,7 +14,7 @@ import { ScrollRow } from '@/components/scroll-tabs'
 import { EpisodeSidebar } from '@/components/episode-list'
 import { ChapterScroll, NowPlaying, Video } from '@/components/video-panel'
 import { PlayerContext } from '@/components/player-context'
-import { BooksTab, DalilTab, GlossaryTab, LessonsTab, Overview, PeopleTab, SirahTab, type TabKey } from '@/components/notes-tabs'
+import { BooksTab, DalilTab, GlossaryTab, LessonsTab, Overview, PeopleTab, SirahTab, TopicsTab, nowTabs, type TabKey } from '@/components/notes-tabs'
 import { MindMap } from '@/components/mindmap'
 import { ShareMenu } from '@/components/share-menu'
 import { epPath, fmt, loadIndex, loadNotes, startEpisode, youtubeUrl } from '@/lib/data'
@@ -24,6 +24,7 @@ import { useYouTube } from '@/lib/youtube'
 import type { Episode, Notes, SeriesIndex } from '@/lib/types'
 
 const TABS: { key: TabKey; Icon: LucideIcon; count?: (n: Notes) => number }[] = [
+  { key: 'topik', Icon: ListOrdered, count: (n) => n.chapters.length },
   { key: 'ringkasan', Icon: BookOpen },
   { key: 'dalil', Icon: ScrollText, count: (n) => n.dalil.length },
   { key: 'kitab', Icon: Library, count: (n) => n.books.filter((b) => !b.suggested).length },
@@ -123,7 +124,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
   const epLabel = episode.number ? t('ep', { n: episode.number }) : t('sidebar.prolog')
   const [notes, setNotes] = useState<Notes | null>(null)
   const [error, setError] = useState('')
-  const [tab, setTab] = useState<TabKey>('ringkasan')
+  const [tab, setTab] = useState<TabKey>('topik')
   const mount = useRef<HTMLDivElement>(null)
   const yt = useYouTube(episode.youtubeId, mount)
 
@@ -179,6 +180,9 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
     document.title = `${episode.title} · Nota Kuliah`
   }, [episode.title])
 
+  // Tabs whose content the ustaz is discussing right now get a dot, so you know where to look.
+  const live = useMemo(() => (notes ? nowTabs(notes, yt.time) : new Set<TabKey>()), [notes, yt.time])
+
   const gutter = 'px-3 @xl:px-5 @3xl:px-8'
   const bleed = '-mx-3 px-3 @xl:-mx-5 @xl:px-5 @3xl:-mx-8 @3xl:px-8'
 
@@ -217,9 +221,12 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
                       onMouseDown={(e) => e.currentTarget.setAttribute('data-pointer', 'true')}
                       onKeyDown={(e) => e.currentTarget.removeAttribute('data-pointer')}
                       onBlur={(e) => e.currentTarget.removeAttribute('data-pointer')}
-                      className="group -mb-px gap-2 rounded-none data-[pointer=true]:focus-visible:ring-0 focus-visible:ring-inset focus-visible:ring-offset-0 border-b-2 border-transparent px-3 py-3 text-muted-foreground shadow-none transition-colors hover:text-foreground data-[state=active]:border-primary data-[state=active]:bg-transparent data-[state=active]:text-foreground data-[state=active]:shadow-none"
+                      className="group gap-2 rounded-none data-[pointer=true]:focus-visible:ring-0 focus-visible:ring-inset focus-visible:ring-offset-0 border-b-2 border-transparent px-3 py-3 text-muted-foreground shadow-none transition-colors hover:text-foreground data-[state=active]:border-primary data-[state=active]:bg-transparent data-[state=active]:text-foreground data-[state=active]:shadow-none"
                     >
-                      <Icon className="size-4" />
+                      <span className="relative">
+                        <Icon className="size-4" />
+                        {live.has(key) && tab !== key && <span className="absolute -right-1 -top-1 size-2 animate-pulse rounded-full bg-primary ring-2 ring-background" />}
+                      </span>
                       {t(`tab.${key}` as Key)}
                       {count && notes && (
                         <span className="rounded-full bg-muted px-1.5 py-px text-[10px] font-medium tabular-nums text-muted-foreground group-data-[state=active]:bg-primary/10">
@@ -251,6 +258,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
               {!notes && !error && <Skeleton className="h-64 w-full rounded-xl" />}
               {notes && (
                 <>
+                  <TabsContent value="topik" className="mt-0"><TopicsTab notes={notes} /></TabsContent>
                   <TabsContent value="ringkasan" className="mt-0"><Overview notes={notes} go={setTab} /></TabsContent>
                   <TabsContent value="dalil" className="mt-0"><DalilTab notes={notes} /></TabsContent>
                   <TabsContent value="kitab" className="mt-0"><BooksTab notes={notes} /></TabsContent>

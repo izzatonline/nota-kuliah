@@ -1,16 +1,16 @@
-import { useState, type ReactNode } from 'react'
-import { LifeBuoy, Lightbulb, ShieldAlert, ShieldCheck } from 'lucide-react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
+import { LifeBuoy, Library, Lightbulb, ShieldAlert, ShieldCheck } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
 import { usePlayer } from '@/components/player-context'
-import { TimeLink, useIsNow } from '@/components/time-link'
-import { ChapterList } from '@/components/video-panel'
+import { NOW_RING, TimeLink, useIsNow } from '@/components/time-link'
+import { fmt } from '@/lib/data'
 import { useT } from '@/lib/i18n'
 import type { Book, Dalil, Lesson, Notes, Person, SirahEvent, Term } from '@/lib/types'
 
-export type TabKey = 'ringkasan' | 'dalil' | 'kitab' | 'tokoh' | 'sirah' | 'pengajaran' | 'peta' | 'istilah'
+export type TabKey = 'topik' | 'ringkasan' | 'dalil' | 'kitab' | 'tokoh' | 'sirah' | 'pengajaran' | 'peta' | 'istilah'
 
 const Heading = ({ children, hint }: { children: ReactNode; hint?: string }) => (
   <div className="mb-3 mt-1">
@@ -19,9 +19,95 @@ const Heading = ({ children, hint }: { children: ReactNode; hint?: string }) => 
   </div>
 )
 
-function NowBadge() {
+export function NowBadge() {
   const { t } = useT()
-  return <Badge className="animate-pulse">{t('now')}</Badge>
+  return (
+    <Badge className="gap-1.5 pl-2">
+      <span className="relative flex size-1.5">
+        <span className="absolute inline-flex size-full animate-ping rounded-full bg-primary-foreground/70" />
+        <span className="relative inline-flex size-1.5 rounded-full bg-primary-foreground" />
+      </span>
+      {t('now')}
+    </Badge>
+  )
+}
+
+/** Which tabs hold something the ustaz is discussing at this moment (same windows as the cards use). */
+export function nowTabs(n: Notes, time: number): Set<TabKey> {
+  const at = (t: number | null, span: number) => t !== null && time >= t && time < t + span
+  const s = new Set<TabKey>()
+  if (n.dalil.some((d) => at(d.t, 40))) s.add('dalil')
+  if (n.books.some((b) => !b.suggested && at(b.t, 60))) s.add('kitab')
+  if (n.people.some((p) => at(p.t, 60))) s.add('tokoh')
+  if (n.lessons.some((l) => at(l.t, 60))) s.add('pengajaran')
+  if (n.glossary.some((g) => at(g.t, 60))) s.add('istilah')
+  return s
+}
+
+/* ------------------------------------------------------------ Topik utama */
+export function TopicsTab({ notes }: { notes: Notes }) {
+  const { time, playing, seek } = usePlayer()
+  const { t } = useT()
+  const active = notes.chapters.findLastIndex((c) => c.start <= time)
+  const refs = useRef<(HTMLLIElement | null)[]>([])
+
+  // Follow the video: bring the current topic into view when it changes, but only while playing so browsing
+  // while paused is left alone.
+  useEffect(() => {
+    if (playing && active >= 0) refs.current[active]?.scrollIntoView({ block: 'nearest', behavior: 'smooth' })
+  }, [active, playing])
+
+  return (
+    <div>
+      <Heading hint={t('topics.hint')}>{t('topics')}</Heading>
+      <ol className="space-y-2.5">
+        {notes.chapters.map((c, i) => {
+          const now = i === active
+          const pct = now ? Math.min(100, Math.max(0, ((time - c.start) / (c.end - c.start)) * 100)) : 0
+          const dalil = notes.dalil.filter((d) => d.t >= c.start && d.t < c.end)
+          const books = notes.books.filter((b) => !b.suggested && b.t !== null && b.t >= c.start && b.t < c.end)
+          return (
+            <li key={c.id} ref={(el) => (refs.current[i] = el)}>
+              <div className={cn('overflow-hidden rounded-xl border bg-card transition-all', now && NOW_RING)}>
+                <button onClick={() => seek(c.start)} className="flex w-full gap-3 p-4 text-left">
+                  <span className={cn('mt-0.5 grid size-7 shrink-0 place-items-center rounded-full text-xs font-medium', now ? 'bg-primary text-primary-foreground' : 'bg-muted text-muted-foreground')}>{i + 1}</span>
+                  <span className="min-w-0 flex-1 space-y-1">
+                    <span className="flex flex-wrap items-center justify-between gap-x-3 gap-y-1">
+                      <span className="flex flex-wrap items-center gap-2">
+                        <span className="font-medium leading-snug">{c.title}</span>
+                        {now && <NowBadge />}
+                      </span>
+                      <span className="font-mono text-xs text-muted-foreground">{fmt(c.start)} – {fmt(c.end)}</span>
+                    </span>
+                    <span className="block text-sm leading-relaxed text-muted-foreground">{c.summary}</span>
+                  </span>
+                </button>
+                {(dalil.length > 0 || books.length > 0) && (
+                  <div className="flex flex-wrap gap-1.5 px-4 pb-3 pl-14">
+                    {dalil.map((d) => (
+                      <button key={d.id} onClick={() => seek(d.t)}>
+                        <Badge variant={d.kind === 'quran' ? 'gold' : 'secondary'} className="cursor-pointer hover:opacity-80">{d.ref}</Badge>
+                      </button>
+                    ))}
+                    {books.map((b) => (
+                      <button key={b.id} onClick={() => seek(b.t!)}>
+                        <Badge variant="outline" className="cursor-pointer hover:bg-accent"><Library className="mr-1 size-3" />{b.title}</Badge>
+                      </button>
+                    ))}
+                  </div>
+                )}
+                {now && (
+                  <div className="h-1 bg-muted">
+                    <div className="h-full bg-primary transition-[width] duration-500" style={{ width: `${pct}%` }} />
+                  </div>
+                )}
+              </div>
+            </li>
+          )
+        })}
+      </ol>
+    </div>
+  )
 }
 
 /* ------------------------------------------------------------- Ringkasan */
@@ -85,10 +171,6 @@ export function Overview({ notes, go }: { notes: Notes; go: (t: TabKey) => void 
         </ol>
       </section>
 
-      <section className="@3xl:hidden">
-        <Heading hint={t('topics.hint')}>{t('topics')}</Heading>
-        <ChapterList notes={notes} />
-      </section>
     </div>
   )
 }
@@ -98,7 +180,7 @@ function DalilCard({ d }: { d: Dalil }) {
   const { t } = useT()
   const now = useIsNow(d.t, 40)
   return (
-    <Card className={cn('transition-shadow', now && 'ring-2 ring-primary/50')}>
+    <Card className={cn('transition-shadow', now && NOW_RING)}>
       <CardContent className="space-y-3 p-4">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="flex flex-wrap items-center gap-2">
@@ -156,10 +238,13 @@ export function DalilTab({ notes }: { notes: Notes }) {
 function BookCard({ b }: { b: Book }) {
   const now = useIsNow(b.t, 60)
   return (
-    <Card className={cn('h-full', now && 'ring-2 ring-primary/50')}>
+    <Card className={cn('h-full', now && NOW_RING)}>
       <CardContent className="flex h-full flex-col gap-2 p-4">
         <div className="flex items-start justify-between gap-2">
-          <Badge variant={b.suggested ? 'gold' : 'secondary'}>{b.kind}</Badge>
+          <div className="flex items-center gap-2">
+            <Badge variant={b.suggested ? 'gold' : 'secondary'}>{b.kind}</Badge>
+            {now && <NowBadge />}
+          </div>
           {b.t !== null && <TimeLink t={b.t} />}
         </div>
         <p className="font-medium leading-snug">{b.title}</p>
@@ -199,13 +284,13 @@ const initials = (n: string) => n.split(/\s+/).filter((w) => /^[A-Za-z]/.test(w)
 function PersonRow({ p }: { p: Person }) {
   const now = useIsNow(p.t, 60)
   return (
-    <Card className={cn(now && 'ring-2 ring-primary/50')}>
+    <Card className={cn(now && NOW_RING)}>
       <CardContent className="flex gap-3 p-4">
         <div className="grid size-10 shrink-0 place-items-center rounded-full bg-secondary text-sm font-semibold text-secondary-foreground">{initials(p.name)}</div>
         <div className="min-w-0 flex-1 space-y-1">
           <div className="flex flex-wrap items-center justify-between gap-2">
             <div>
-              <p className="font-medium leading-snug">{p.name}</p>
+              <p className="flex flex-wrap items-center gap-2 font-medium leading-snug">{p.name}{now && <NowBadge />}</p>
               <p className="text-xs text-muted-foreground">{p.role}</p>
             </div>
             <TimeLink t={p.t} />
@@ -235,7 +320,7 @@ function Event({ e, active, last }: { e: SirahEvent; active: boolean; last: bool
       <span className={cn('absolute left-0 top-1 grid size-6 place-items-center rounded-full border-2 bg-background', active ? 'border-primary' : 'border-border')}>
         <span className={cn('size-2 rounded-full', active ? 'bg-primary' : 'bg-muted-foreground/40')} />
       </span>
-      <div className={cn('rounded-xl border bg-card p-4 transition-shadow', active && 'ring-2 ring-primary/50')}>
+      <div className={cn('rounded-xl border bg-card p-4 transition-shadow', active && NOW_RING)}>
         <div className="mb-1 flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-2">
             <Badge variant="secondary">{e.label}</Badge>
@@ -277,12 +362,15 @@ export function SirahTab({ notes }: { notes: Notes }) {
 function LessonCard({ l, n }: { l: Lesson; n: number }) {
   const now = useIsNow(l.t, 60)
   return (
-    <Card className={cn(now && 'ring-2 ring-primary/50')}>
+    <Card className={cn(now && NOW_RING)}>
       <CardContent className="flex gap-3 p-4">
         <span className="grid size-7 shrink-0 place-items-center rounded-full bg-primary text-xs font-medium text-primary-foreground">{n}</span>
         <div className="min-w-0 flex-1 space-y-1.5">
           <div className="flex flex-wrap items-center justify-between gap-2">
-            <Badge variant="secondary">{l.kind}</Badge>
+            <div className="flex items-center gap-2">
+              <Badge variant="secondary">{l.kind}</Badge>
+              {now && <NowBadge />}
+            </div>
             <TimeLink t={l.t} />
           </div>
           <p className="font-medium leading-snug">{l.title}</p>
@@ -317,10 +405,10 @@ export function LessonsTab({ notes }: { notes: Notes }) {
 function TermCard({ t }: { t: Term }) {
   const now = useIsNow(t.t, 60)
   return (
-    <Card className={cn(now && 'ring-2 ring-primary/50')}>
+    <Card className={cn(now && NOW_RING)}>
       <CardContent className="space-y-1.5 p-4">
         <div className="flex items-start justify-between gap-2">
-          <p className="font-medium">{t.term}</p>
+          <p className="flex flex-wrap items-center gap-2 font-medium">{t.term}{now && <NowBadge />}</p>
           <TimeLink t={t.t} />
         </div>
         {t.arabic && (

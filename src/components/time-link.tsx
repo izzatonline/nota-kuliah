@@ -24,6 +24,9 @@ export function TimeLink({ t, className }: { t: number; className?: string }) {
   )
 }
 
+/** Shining border for whatever the ustaz is talking about right now. */
+export const NOW_RING = 'border-primary/60 bg-primary/5 shadow-[0_0_0_1px_hsl(var(--primary)/0.55),0_0_16px_-3px_hsl(var(--primary)/0.5)]'
+
 /** True while the video is within `span` seconds after `t`. */
 export function useIsNow(t: number | null, span = 45) {
   const { time } = usePlayer()
