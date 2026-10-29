@@ -82,13 +82,20 @@ The pipeline gives a good draft, not a finished work. Before sharing notes, read
 hadith entries marked "Teks perlu disemak" (run `python3 scripts/hadith_checklist.py` to list them all in
 [docs/hadith-review.md](docs/hadith-review.md)), and check any numbers or statistics the speaker quoted.
 
+## English notes
+
+An episode's English notes live in `notes.en.json` beside `notes.json`. It holds only translated text, keyed by the same
+ids, so a translation can never change a timestamp, Arabic text or source. Quran translations stay as fetched.
+`python3 scripts/english_notes.py skeleton ep5` prints the text to translate and
+`python3 scripts/english_notes.py check` validates every overlay. Episodes without one show Malay, with a notice.
+
 ## Project layout
 
 ```
 src/                 React app (Vite, React Router, Tailwind, shadcn/ui)
 scripts/pipeline.py  the pipeline
 scripts/prompts/     the prompt that tells Claude what notes to write
-public/series/       series list, one index.json per series, one notes.json per episode (published)
+public/series/       series list, one index.json per series, one notes.json per episode, optional notes.en.json (published)
 data/quran-cache.json  Quran text fetched so far (public text)
 private/             audio and transcripts, per series (git-ignored)
 ```
