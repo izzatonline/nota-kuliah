@@ -38,6 +38,11 @@ class EnglishNotes(unittest.TestCase):
         self.assertTrue(any("keyPoints" in e for e in errors))
         self.assertTrue(any("untranslated" in e for e in errors))
 
+    def test_published_overlays_are_valid(self):
+        for ep_dir in en.episode_dirs():
+            with self.subTest(ep=ep_dir.name):
+                self.assertEqual(en.check(ep_dir) or [], [])
+
 
 if __name__ == "__main__":
     unittest.main()

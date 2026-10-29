@@ -12,7 +12,7 @@
 
 ## Next
 1. **More episodes.** Ep 36, Ep 1 and Ep 40 are the most watched, so they are the best next candidates.
-2. **English notes.** The interface is bilingual. Notes are translated per episode as `notes.en.json` (`scripts/english_notes.py`); Ep 5 is done, the rest are Malay until translated.
+2. **English notes.** The interface is bilingual. Notes are translated per episode as `notes.en.json` (`scripts/english_notes.py`); every episode so far has one; new episodes need theirs added.
 3. Notes for the remaining 48 episodes of the series.
 4. Hadith verification: work through [docs/hadith-review.md](docs/hadith-review.md), checking Arabic text, source and
    grade against a hadith source. The checklist is generated, so it shrinks as entries are verified.
