@@ -418,11 +418,39 @@
    "context": "Antara pengasas Madinah yang disebut ustaz, dikenali juga sebagai Abu Umamah."
   },
   {
+   "id": "p10",
+   "name": "Auf bin Harith",
+   "role": "Pemuda Khazraj, salah seorang daripada enam",
+   "t": 1504,
+   "context": "Disebut ustaz antara enam pemuda Yathrib yang pertama bertemu Nabi SAW."
+  },
+  {
+   "id": "p11",
+   "name": "Rafi' bin Malik",
+   "role": "Pemuda Khazraj, salah seorang daripada enam",
+   "t": 1506,
+   "context": "Disebut ustaz antara enam pemuda Yathrib yang pertama bertemu Nabi SAW."
+  },
+  {
    "id": "p2",
    "name": "Jabir bin Abdullah bin Ri'ab",
    "role": "Salah seorang daripada enam pemuda",
    "t": 1507,
    "context": "Tidak datang pada Perjanjian Aqabah pertama; ustaz membezakannya daripada Jabir bin Abdullah yang masyhur."
+  },
+  {
+   "id": "p12",
+   "name": "Qutbah",
+   "role": "Pemuda Khazraj, salah seorang daripada enam",
+   "t": 1507,
+   "context": "Disebut ustaz dengan nama pertama sahaja, antara enam pemuda Yathrib yang pertama bertemu Nabi SAW."
+  },
+  {
+   "id": "p13",
+   "name": "Uqbah",
+   "role": "Pemuda Khazraj, salah seorang daripada enam",
+   "t": 1507,
+   "context": "Disebut ustaz dengan nama pertama sahaja, antara enam pemuda Yathrib yang pertama bertemu Nabi SAW."
   },
   {
    "id": "p4",

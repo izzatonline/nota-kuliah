@@ -34,7 +34,10 @@ no markdown fences, no commentary.
 - suggested: 0 to 4 real, well-known works for further reading on the same topics. Only titles you are certain exist.
   Empty array if unsure. These carry no `at`.
 - people: companions, prophets, scholars, imams, authors the speaker named, with `role` and what the speaker said or
-  attributed to them.
+  attributed to them. When the speaker counts out a group ("enam pemuda", "dua belas naqib", "sepuluh sahabat") and then
+  names its members, list every member he names, one entry each, even when the transcript spells a name badly. Do not
+  sample or merge them. Spell a name as best you can; if he gives only a first name, give only that.
+- Apply the same rule to books and dalil: when the speaker reads out a list of them, capture the whole list.
 - sirah: where this lecture sits in the life of the Prophet SAW. `era` (short phrase), `summary` (1 to 2 sentences).
   Do not state dates unless the speaker did. `events`: 3 to 8, each with `label`, `title`, `desc`; `at` and `approx`
   only if it happens in this lecture. If the lecture is not about the sirah, use era "Bukan kuliah sirah" and events [].

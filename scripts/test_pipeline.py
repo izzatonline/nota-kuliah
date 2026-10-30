@@ -107,6 +107,25 @@ class HelperTests(unittest.TestCase):
         self.assertTrue(text.splitlines()[-1].startswith("[62:05]"))
 
 
+class ListGapTests(unittest.TestCase):
+    NAMED = segs(
+        (0, "Nabi bertemu dengan 6 orang pemuda"),
+        (4, "As'ad Ibn Zurarah, Auf Ibn Harith, Rafi' Ibn Malik"),
+        (8, "Qutbah, Uqbah dan Jabir bin Abdillah bin Ri'ab"),
+    )
+
+    def test_warns_when_a_counted_list_of_names_is_only_partly_in_the_notes(self):
+        warnings = pipeline.list_gaps(self.NAMED, [{"t": 4}, {"t": 8}])
+        self.assertEqual(len(warnings), 1)
+        self.assertIn("only 2", warnings[0])
+
+    def test_quiet_when_every_named_person_is_in_the_notes(self):
+        self.assertEqual(pipeline.list_gaps(self.NAMED, [{"t": 4}] * 6), [])
+
+    def test_a_bare_count_without_names_is_ignored(self):
+        self.assertEqual(pipeline.list_gaps(segs((0, "Kita baru enam orang sahaja"), (5, "dan teruskan")), []), [])
+
+
 class AssembleTests(unittest.TestCase):
     """The draft-to-notes step, with the Quran lookup replaced so no network is needed."""
 

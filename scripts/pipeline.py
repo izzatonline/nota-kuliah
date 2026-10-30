@@ -547,6 +547,31 @@ def update_index(meta, notes):
     path.write_text(json.dumps(index, ensure_ascii=False, indent=1))
 
 
+COUNT_WORDS = {"tiga": 3, "empat": 4, "lima": 5, "enam": 6, "tujuh": 7, "lapan": 8, "sembilan": 9, "sepuluh": 10, "dua belas": 12}
+COUNT_RE = re.compile(r"\b(" + "|".join(sorted(COUNT_WORDS, key=len, reverse=True)) + r"|[3-9]|1[0-2])\s+(?:orang|pemuda|sahabat|nama)\b", re.I)
+NAME_MARKER_RE = re.compile(r"\b(?:ibn|bin|binti|abu|ummu)\b", re.I)
+
+
+def list_gaps(segs, people, window=120):
+    """Warn when the speaker counts out a group ("enam orang", "dua belas") and then names them, but fewer people
+    than the count sit in the notes. Only fires when the next two minutes hold about as many name markers
+    (ibn, bin, abu) as the count, so a bare "kita baru enam orang" does not trigger it."""
+    out, seen = [], []
+    for i, (start, _, text) in enumerate(segs):
+        m = COUNT_RE.search(text)
+        if not m or any(abs(start - s) < window for s in seen):
+            continue
+        word = m.group(1).lower()
+        n = COUNT_WORDS.get(word) or int(word)
+        near = " ".join(t for s, _, t in segs[i:] if s < start + window)
+        markers = len(NAME_MARKER_RE.findall(near))
+        listed = sum(1 for p in people if start - 30 <= p["t"] < start + window)
+        if markers >= n - 1 and listed < n:
+            seen.append(start)
+            out.append(f"{int(start // 60)}:{int(start % 60):02d} says {m.group(0)!r} then names people, but only {listed} are in the notes")
+    return out
+
+
 def stage_build(workdir, args):
     meta = load_meta(workdir)
     for f in ("draft.json", "transcript.json"):
@@ -555,6 +580,7 @@ def stage_build(workdir, args):
     draft = json.loads((workdir / "draft.json").read_text())
     loc = Locator(load_segments(workdir / "transcript.json"))
     notes, warnings = assemble(draft, meta, loc, args)
+    warnings += [f"people: {w}" for w in list_gaps(load_segments(workdir / "transcript.json"), notes["people"])]
 
     out = Path(args.out) if args.out else LECTURES / meta["id"] / "notes.json"
     out.parent.mkdir(parents=True, exist_ok=True)
