@@ -118,7 +118,7 @@ export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compac
       {refs.length > 0 && (
         <div className={cn('hidden flex-wrap gap-1.5 pt-1 sm:flex', compact && 'sm:hidden @3xl:flex')}>
           {refs.slice(0, 5).map((d) => (
-            <button key={d.id} onClick={() => seek(d.t)}>
+            <button key={d.id} onClick={() => seek(d.t)} className="flex">
               <Badge variant={d.kind === 'quran' ? 'gold' : 'secondary'} className="cursor-pointer hover:opacity-80">
                 {d.ref}
               </Badge>

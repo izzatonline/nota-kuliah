@@ -85,12 +85,12 @@ export function TopicsTab({ notes }: { notes: Notes }) {
                 {(dalil.length > 0 || books.length > 0) && (
                   <div className="flex flex-wrap gap-1.5 px-4 pb-3 pl-14">
                     {dalil.map((d) => (
-                      <button key={d.id} onClick={() => seek(d.t)}>
+                      <button key={d.id} onClick={() => seek(d.t)} className="flex">
                         <Badge variant={d.kind === 'quran' ? 'gold' : 'secondary'} className="cursor-pointer hover:opacity-80">{d.ref}</Badge>
                       </button>
                     ))}
                     {books.map((b) => (
-                      <button key={b.id} onClick={() => seek(b.t!)}>
+                      <button key={b.id} onClick={() => seek(b.t!)} className="flex">
                         <Badge variant="outline" className="cursor-pointer hover:bg-accent"><Library className="mr-1 size-3" />{b.title}</Badge>
                       </button>
                     ))}
