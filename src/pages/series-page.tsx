@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import { BookOpen, ExternalLink, ListOrdered, History, Landmark, Languages, Lightbulb, Library, Network, ScrollText, Users, type LucideIcon } from 'lucide-react'
+import { Bell, BellOff, BookOpen, ExternalLink, ListOrdered, History, Landmark, Languages, Lightbulb, Library, Network, ScrollText, Users, type LucideIcon } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
@@ -17,10 +17,13 @@ import { PlayerContext } from '@/components/player-context'
 import { BooksTab, DalilTab, GlossaryTab, LessonsTab, Overview, PeopleTab, SirahTab, TopicsTab, nowTabs, type TabKey } from '@/components/notes-tabs'
 import { MindMap } from '@/components/mindmap'
 import { ShareMenu } from '@/components/share-menu'
+import { Toaster } from '@/components/ui/sonner'
+import { useMentionToasts, type Mention } from '@/components/mention-toasts'
 import { epPath, fmt, loadIndex, loadNotes, startEpisode, youtubeUrl } from '@/lib/data'
 import { getLast, getProgress, markVisited, saveTime } from '@/lib/progress'
 import { useT, type Key } from '@/lib/i18n'
 import { useYouTube } from '@/lib/youtube'
+import { useIsMobile } from '@/hooks/use-mobile'
 import type { Episode, Notes, SeriesIndex } from '@/lib/types'
 
 const TABS: { key: TabKey; Icon: LucideIcon; count?: (n: Notes) => number }[] = [
@@ -126,6 +129,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
   const [error, setError] = useState('')
   const [tab, setTab] = useState<TabKey>('topik')
   const mount = useRef<HTMLDivElement>(null)
+  const notesCol = useRef<HTMLDivElement>(null) // the scrolling notes column
   const yt = useYouTube(episode.youtubeId, mount)
   // Audio mode (mobile): the video shrinks to a thumbnail so the notes get the screen.
   const [compact, setCompact] = useState(() => {
@@ -142,6 +146,45 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
       } catch {}
       return !c
     })
+
+  // --- toasts when the ustaz mentions a dalil, kitab or tokoh ---
+  const isMobile = useIsMobile()
+  const [toasts, setToasts] = useState(() => {
+    try {
+      return localStorage.getItem('nk:toasts') !== '0'
+    } catch {
+      return true
+    }
+  })
+  const toggleToasts = () =>
+    setToasts((on) => {
+      try {
+        localStorage.setItem('nk:toasts', on ? '0' : '1')
+      } catch {}
+      return !on
+    })
+  // Tapping a toast opens the item's tab, then scrolls to it and flashes it (the card may not be mounted yet).
+  const [focus, setFocus] = useState<{ tab: TabKey; id: string; n: number } | null>(null)
+  const openMention = useCallback((m: Mention) => {
+    setTab(m.tab)
+    setFocus((f) => ({ tab: m.tab, id: `${m.tab}:${m.id}`, n: (f?.n ?? 0) + 1 }))
+  }, [])
+  useEffect(() => {
+    if (!focus) return
+    let tries = 0
+    const find = () => {
+      const el = notesCol.current?.querySelector<HTMLElement>(`[data-item="${focus.id}"]`)
+      if (!el) return tries++ < 10 ? window.setTimeout(find, 50) : undefined
+      const calm = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      el.scrollIntoView({ block: 'center', behavior: calm ? 'auto' : 'smooth' })
+      el.classList.remove('nk-flash')
+      void el.offsetWidth
+      el.classList.add('nk-flash')
+      window.setTimeout(() => el.classList.remove('nk-flash'), 2200)
+    }
+    const id = window.setTimeout(find, 30)
+    return () => window.clearTimeout(id)
+  }, [focus])
 
   // --- remembering where the visitor was ---
   const saved = useMemo(() => getProgress(slug, episode.id), [slug, episode.id])
@@ -196,6 +239,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
   }, [episode.title])
 
   // Tabs whose content the ustaz is discussing right now get a dot, so you know where to look.
+  useMentionToasts(notes, yt.time, yt.playing, toasts, openMention)
   const live = useMemo(() => (notes ? nowTabs(notes, yt.time) : new Set<TabKey>()), [notes, yt.time])
 
   const gutter = 'px-3 @xl:px-5 @3xl:px-8'
@@ -226,6 +270,9 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
                     {notes?.speaker ?? 'Ustaz Azlan Shah NK'} · {series} · {epLabel}
                   </p>
                 </div>
+                <Button variant="ghost" size="icon" className="size-8 shrink-0" onClick={toggleToasts} aria-pressed={toasts} aria-label={t(toasts ? 'mention.off' : 'mention.on')} title={t(toasts ? 'mention.off' : 'mention.on')}>
+                  {toasts ? <Bell /> : <BellOff />}
+                </Button>
                 {notes && <ShareMenu slug={slug} episodeId={episode.id} notes={notes} />}
               </div>
               <ScrollRow activeKey={tab} className={`mt-2 border-b ${bleed}`}>
@@ -258,7 +305,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
               </ScrollRow>
             </div>
 
-            <div className={`min-h-0 flex-1 overflow-y-auto py-4 @3xl:py-6 ${gutter}`}>
+            <div ref={notesCol} className={`min-h-0 flex-1 overflow-y-auto py-4 @3xl:py-6 ${gutter}`}>
               {notes && saved && !sharedT && !dismissed && saved.t > 20 && saved.t < notes.duration - 30 && yt.time < saved.t - 15 && (
                 <div className="mb-4 flex flex-wrap items-center gap-3 rounded-xl border border-primary/30 bg-primary/5 p-3">
                   <div className="grid size-9 shrink-0 place-items-center rounded-lg bg-primary/10 text-primary"><History className="size-4" /></div>
@@ -279,7 +326,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
                 <>
                   <TabsContent value="topik" className="mt-0"><TopicsTab notes={notes} /></TabsContent>
                   <TabsContent value="ringkasan" className="mt-0"><Overview notes={notes} go={setTab} /></TabsContent>
-                  <TabsContent value="dalil" className="mt-0"><DalilTab notes={notes} /></TabsContent>
+                  <TabsContent value="dalil" className="mt-0"><DalilTab notes={notes} focusId={focus?.tab === 'dalil' ? focus.id : undefined} /></TabsContent>
                   <TabsContent value="kitab" className="mt-0"><BooksTab notes={notes} /></TabsContent>
                   <TabsContent value="tokoh" className="mt-0"><PeopleTab notes={notes} /></TabsContent>
                   <TabsContent value="sirah" className="mt-0"><SirahTab notes={notes} /></TabsContent>
@@ -293,6 +340,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
           </Tabs>
         </div>
       </div>
+    <Toaster position={isMobile ? 'bottom-center' : 'bottom-right'} visibleToasts={2} offset={isMobile ? 16 : 24} />
     </PlayerContext.Provider>
   )
 }

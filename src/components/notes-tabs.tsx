@@ -180,7 +180,7 @@ function DalilCard({ d }: { d: Dalil }) {
   const { t } = useT()
   const now = useIsNow(d.t, 40)
   return (
-    <Card className={cn('transition-shadow', now && NOW_RING)}>
+    <Card data-item={`dalil:${d.id}`} className={cn('transition-shadow', now && NOW_RING)}>
       <CardContent className="space-y-3 p-4">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="flex flex-wrap items-center gap-2">
@@ -211,9 +211,13 @@ function DalilCard({ d }: { d: Dalil }) {
   )
 }
 
-export function DalilTab({ notes }: { notes: Notes }) {
+export function DalilTab({ notes, focusId }: { notes: Notes; focusId?: string }) {
   const { t } = useT()
   const [f, setF] = useState<'all' | 'quran' | 'hadith'>('all')
+  // A toast may point at an evidence the current filter hides.
+  useEffect(() => {
+    if (focusId) setF('all')
+  }, [focusId])
   const items = [...notes.dalil].filter((d) => f === 'all' || d.kind === f).sort((a, b) => a.t - b.t)
   const opts = [
     ['all', `${t('all')} (${notes.dalil.length})`],
@@ -238,7 +242,7 @@ export function DalilTab({ notes }: { notes: Notes }) {
 function BookCard({ b }: { b: Book }) {
   const now = useIsNow(b.t, 60)
   return (
-    <Card className={cn('h-full', now && NOW_RING)}>
+    <Card data-item={`kitab:${b.id}`} className={cn('h-full', now && NOW_RING)}>
       <CardContent className="flex h-full flex-col gap-2 p-4">
         <div className="flex items-start justify-between gap-2">
           <div className="flex items-center gap-2">
@@ -284,7 +288,7 @@ const initials = (n: string) => n.split(/\s+/).filter((w) => /^[A-Za-z]/.test(w)
 function PersonRow({ p }: { p: Person }) {
   const now = useIsNow(p.t, 60)
   return (
-    <Card className={cn(now && NOW_RING)}>
+    <Card data-item={`tokoh:${p.id}`} className={cn(now && NOW_RING)}>
       <CardContent className="flex gap-3 p-4">
         <div className="grid size-10 shrink-0 place-items-center rounded-full bg-secondary text-sm font-semibold text-secondary-foreground">{initials(p.name)}</div>
         <div className="min-w-0 flex-1 space-y-1">

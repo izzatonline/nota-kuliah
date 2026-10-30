@@ -92,3 +92,11 @@
     transition-duration: 0.01ms !important;
   }
 }
+
+/* A card the visitor was just sent to from a toast. */
+@keyframes nk-flash {
+  0%, 55% { box-shadow: 0 0 0 3px hsl(var(--primary) / 0.7), 0 0 20px 2px hsl(var(--primary) / 0.45); }
+  100% { box-shadow: 0 0 0 0 hsl(var(--primary) / 0); }
+}
+.nk-flash { animation: nk-flash 2.2s ease-out; }
+@media (prefers-reduced-motion: reduce) { .nk-flash { animation-duration: 0.01s; outline: 2px solid hsl(var(--primary)); outline-offset: 2px; } }
