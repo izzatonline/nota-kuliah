@@ -130,7 +130,7 @@ export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compac
   )
 }
 
-/** `titlesOnly` keeps just the number and title; the Main topics tab already carries the summaries. */
+/** `titlesOnly` drops the summaries (the Main topics tab already carries them) but keeps the number, title and start time. */
 export function ChapterList({ notes, className, titlesOnly }: { notes: Notes; className?: string; titlesOnly?: boolean }) {
   const { time, seek } = usePlayer()
   const active = notes.chapters.findLastIndex((c) => c.start <= time)
@@ -152,7 +152,7 @@ export function ChapterList({ notes, className, titlesOnly }: { notes: Notes; cl
             <span className="min-w-0 flex-1">
               <span className="flex items-baseline justify-between gap-2">
                 <span className="text-sm font-medium leading-snug">{c.title}</span>
-                {!titlesOnly && <span className="font-mono text-xs text-muted-foreground">{fmt(c.start)}</span>}
+                <span className="shrink-0 font-mono text-xs text-muted-foreground">{fmt(c.start)}</span>
               </span>
               {!titlesOnly && <span className="mt-0.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">{c.summary}</span>}
             </span>
