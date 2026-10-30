@@ -3,6 +3,7 @@ import { ChevronLeft, ChevronRight, Headphones, Pause, Play, Video as VideoIcon 
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { ScrollArea } from '@/components/ui/scroll-area'
+import { Clamp } from '@/components/clamp'
 import { cn } from '@/lib/utils'
 import { fmt } from '@/lib/data'
 import { usePlayer } from '@/components/player-context'
@@ -81,7 +82,7 @@ export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compac
           <p className="text-[11px] font-medium uppercase tracking-[0.14em] text-muted-foreground">
             {t('now')} · {idx + 1}/{notes.chapters.length}
           </p>
-          <p className="truncate text-sm font-medium">{c.title}</p>
+          <Clamp as="p" text={c.title} className="block truncate text-sm font-medium" />
         </div>
         <Button variant="ghost" size="icon" className="size-8 shrink-0" disabled={idx === notes.chapters.length - 1} onClick={() => seek(notes.chapters[idx + 1].start)} aria-label={t('nextChapter')}>
           <ChevronRight />

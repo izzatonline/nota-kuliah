@@ -8,7 +8,7 @@ import { Separator } from '@/components/ui/separator'
 import { Skeleton } from '@/components/ui/skeleton'
 import { SidebarInset, SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
-import { Breadcrumb, BreadcrumbItem, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from '@/components/ui/breadcrumb'
+import { Breadcrumb, BreadcrumbItem, BreadcrumbList, BreadcrumbSeparator } from '@/components/ui/breadcrumb'
 import { HeaderActions } from '@/components/header-actions'
 import { ScrollRow } from '@/components/scroll-tabs'
 import { EpisodeSidebar } from '@/components/episode-list'
@@ -17,6 +17,7 @@ import { PlayerContext } from '@/components/player-context'
 import { BooksTab, DalilTab, GlossaryTab, LessonsTab, Overview, PeopleTab, SirahTab, TopicsTab, nowTabs, type TabKey } from '@/components/notes-tabs'
 import { MindMap } from '@/components/mindmap'
 import { ShareMenu } from '@/components/share-menu'
+import { Clamp } from '@/components/clamp'
 import { ColumnResizer, DEFAULT_WIDTH } from '@/components/column-resizer'
 import { Toaster } from '@/components/ui/sonner'
 import { useMentionToasts, type Mention } from '@/components/mention-toasts'
@@ -90,7 +91,7 @@ export function SeriesPage() {
               <BreadcrumbSeparator className="hidden xl:block" />
               <BreadcrumbItem className="min-w-0 gap-2">
                 <Badge variant="secondary" className="shrink-0 font-mono">{epLabel}</Badge>
-                <BreadcrumbPage className="line-clamp-2 whitespace-normal text-sm leading-tight sm:line-clamp-1 sm:text-base">{episode.title}</BreadcrumbPage>
+                <Clamp text={episode.title} className="line-clamp-2 whitespace-normal text-sm font-normal leading-tight text-foreground sm:line-clamp-1 sm:text-base" />
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
@@ -292,7 +293,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
             <div className={`shrink-0 bg-background pt-3 @3xl:pt-5 ${gutter}`}>
               <div className="flex items-start gap-3">
                 <div className="min-w-0 flex-1">
-                  <h1 className="line-clamp-2 text-lg font-semibold leading-snug tracking-tight @3xl:line-clamp-1 @3xl:text-2xl">{notes?.title ?? episode.title}</h1>
+                  <Clamp as="h1" text={notes?.title ?? episode.title} className="line-clamp-2 text-lg font-semibold leading-snug tracking-tight @3xl:line-clamp-1 @3xl:text-2xl" />
                   <p className="mb-3 hidden truncate text-sm text-muted-foreground @xl:block">
                     {notes?.speaker ?? 'Ustaz Azlan Shah NK'} · {series} · {epLabel}
                   </p>

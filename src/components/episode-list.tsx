@@ -7,6 +7,7 @@ import {
   SidebarMenuButton, SidebarMenuItem, SidebarRail, useSidebar,
 } from '@/components/ui/sidebar'
 import { Input } from '@/components/ui/input'
+import { Clamp } from '@/components/clamp'
 import { cn } from '@/lib/utils'
 import { fmt } from '@/lib/data'
 import { useT } from '@/lib/i18n'
@@ -89,7 +90,7 @@ export function EpisodeSidebar({ index, activeId, onSelect }: Props) {
                           {e.number ?? 'P'}
                         </span>
                         <span className="min-w-0 flex-1 group-data-[collapsible=icon]:hidden">
-                          <span className={cn('line-clamp-2 whitespace-normal text-sm leading-snug', !e.hasNotes && !active && 'text-muted-foreground')}>{e.title}</span>
+                          <Clamp text={e.title} className={cn('line-clamp-2 whitespace-normal text-sm leading-snug', !e.hasNotes && !active && 'text-muted-foreground')} />
                           <span className="mt-0.5 flex items-center gap-2 text-xs font-normal text-muted-foreground">
                             {e.duration ? fmt(e.duration) : ''}
                             {e.hasNotes && (
