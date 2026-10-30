@@ -72,7 +72,13 @@ export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compac
   const refs = notes.dalil.filter((d) => d.t >= c.start && d.t < c.end)
 
   return (
-    <div className="space-y-2 rounded-xl border bg-card p-3 shadow-sm">
+    <div
+      className={cn(
+        'rounded-xl border bg-card shadow-sm',
+        // In audio mode on mobile the card is as tall as the thumbnail beside it and its controls are centred in it.
+        compact ? 'flex flex-col justify-center p-2 @3xl:block @3xl:space-y-2 @3xl:p-3' : 'space-y-2 p-3',
+      )}
+    >
       {/* In audio mode on mobile the Main topics tab already shows where we are, so the title row is dropped. */}
       <div className={cn('items-center gap-2', compact ? 'hidden @3xl:flex' : 'flex')}>
         <Button variant="ghost" size="icon" className="size-8 shrink-0" disabled={idx === 0} onClick={() => seek(notes.chapters[idx - 1].start)} aria-label={t('prevChapter')}>

@@ -284,14 +284,14 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
         >
           {/* video column */}
           <div className="relative shrink-0 space-y-2 bg-background pb-2 @3xl:flex @3xl:min-h-0 @3xl:flex-col @3xl:gap-3 @3xl:space-y-0 @3xl:border-r @3xl:p-4 @3xl:pb-0">
-            <div className={compact ? 'flex items-start gap-2 px-3 pt-1 @3xl:contents' : 'contents'}>
+            <div className={compact ? 'flex items-stretch gap-2 px-3 pt-1 @3xl:contents' : 'contents'}>
               <Video mount={mount} compact={compact} onCompact={toggleCompact} />
-              <div className={compact ? 'min-w-0 flex-1 @3xl:flex-none @3xl:px-0' : 'px-3 @3xl:px-0'}>
+              <div className={compact ? 'min-w-0 flex-1 [&>*]:h-full @3xl:flex-none @3xl:px-0 @3xl:[&>*]:h-auto' : 'px-3 @3xl:px-0'}>
                 {notes ? <NowPlaying notes={notes} compact={compact} onCompact={toggleCompact} /> : <Skeleton className="h-16 w-full rounded-xl" />}
               </div>
             </div>
             {compact && notes && (
-              <div className="px-4 pb-1 @3xl:hidden">
+              <div className="px-3 pb-1 @3xl:hidden">
                 <SeekBar duration={notes.duration} />
               </div>
             )}
