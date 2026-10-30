@@ -100,3 +100,10 @@
 }
 .nk-flash { animation: nk-flash 2.2s ease-out; }
 @media (prefers-reduced-motion: reduce) { .nk-flash { animation-duration: 0.01s; outline: 2px solid hsl(var(--primary)); outline-offset: 2px; } }
+
+/* Seek slider for audio mode: a thick track and a thumb big enough for a finger. */
+.nk-range { -webkit-appearance: none; appearance: none; height: 2.5rem; background: transparent; cursor: pointer; touch-action: none; }
+.nk-range::-webkit-slider-runnable-track { height: 8px; border-radius: 9999px; background: hsl(var(--muted-foreground) / 0.3); }
+.nk-range::-moz-range-track { height: 8px; border-radius: 9999px; background: hsl(var(--muted-foreground) / 0.3); }
+.nk-range::-webkit-slider-thumb { -webkit-appearance: none; margin-top: -9px; width: 26px; height: 26px; border-radius: 9999px; background: hsl(var(--primary)); border: 3px solid hsl(var(--background)); box-shadow: 0 1px 4px rgb(0 0 0 / 0.35); }
+.nk-range::-moz-range-thumb { width: 20px; height: 20px; border-radius: 9999px; background: hsl(var(--primary)); border: 3px solid hsl(var(--background)); box-shadow: 0 1px 4px rgb(0 0 0 / 0.35); }

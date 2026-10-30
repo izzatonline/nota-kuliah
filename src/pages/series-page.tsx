@@ -12,7 +12,7 @@ import { Breadcrumb, BreadcrumbItem, BreadcrumbList, BreadcrumbPage, BreadcrumbS
 import { HeaderActions } from '@/components/header-actions'
 import { ScrollRow } from '@/components/scroll-tabs'
 import { EpisodeSidebar } from '@/components/episode-list'
-import { ChapterScroll, NowPlaying, Video } from '@/components/video-panel'
+import { ChapterScroll, NowPlaying, SeekBar, Video } from '@/components/video-panel'
 import { PlayerContext } from '@/components/player-context'
 import { BooksTab, DalilTab, GlossaryTab, LessonsTab, Overview, PeopleTab, SirahTab, TopicsTab, nowTabs, type TabKey } from '@/components/notes-tabs'
 import { MindMap } from '@/components/mindmap'
@@ -257,6 +257,11 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
                 {notes ? <NowPlaying notes={notes} compact={compact} onCompact={toggleCompact} /> : <Skeleton className="h-16 w-full rounded-xl" />}
               </div>
             </div>
+            {compact && notes && (
+              <div className="px-4 pb-1 @3xl:hidden">
+                <SeekBar duration={notes.duration} />
+              </div>
+            )}
             <div className="hidden min-h-0 flex-1 @3xl:flex @3xl:flex-col">{notes && <ChapterScroll notes={notes} />}</div>
           </div>
 

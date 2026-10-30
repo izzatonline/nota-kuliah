@@ -32,7 +32,7 @@ export function Video({ mount, compact, onCompact }: { mount: RefObject<HTMLDivE
 }
 
 /** Seek slider for audio mode, where the video is too small to scrub. The video only jumps when the thumb is released. */
-function SeekBar({ duration }: { duration: number }) {
+export function SeekBar({ duration }: { duration: number }) {
   const { time, seek } = usePlayer()
   const { t } = useT()
   const [drag, setDrag] = useState<number | null>(null)
@@ -42,7 +42,7 @@ function SeekBar({ duration }: { duration: number }) {
     setDrag(null)
   }
   return (
-    <div className="flex items-center gap-2 px-1">
+    <div className="flex items-center gap-3">
       <span className="w-11 shrink-0 text-right font-mono text-[11px] tabular-nums text-muted-foreground">{fmt(value)}</span>
       <input
         type="range"
@@ -55,7 +55,7 @@ function SeekBar({ duration }: { duration: number }) {
         onKeyUp={commit}
         onBlur={commit}
         aria-label={t('seekBar')}
-        className="h-6 min-w-0 flex-1 cursor-pointer accent-[hsl(var(--primary))]"
+        className="nk-range min-w-0 flex-1"
       />
       <span className="w-11 shrink-0 font-mono text-[11px] tabular-nums text-muted-foreground">{fmt(duration)}</span>
     </div>
@@ -88,7 +88,7 @@ export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compac
         </Button>
       </div>
       {compact && (
-        <div className="space-y-1 @3xl:hidden">
+        <div className="@3xl:hidden">
           <div className="flex items-center justify-between gap-1">
             <Button variant="ghost" size="icon" className="size-9" disabled={idx === 0} onClick={() => seek(notes.chapters[idx - 1].start)} aria-label={t('prevChapter')}>
               <ChevronLeft />
@@ -103,7 +103,6 @@ export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compac
               <VideoIcon className="size-4" />
             </Button>
           </div>
-          <SeekBar duration={notes.duration} />
         </div>
       )}
       <div className={cn('h-1 overflow-hidden rounded-full bg-muted', compact && 'hidden @3xl:block')}>
