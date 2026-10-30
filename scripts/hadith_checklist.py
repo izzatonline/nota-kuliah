@@ -87,6 +87,8 @@ def render():
         "How to check one (see also CONTRIBUTING.md): find it on sunnah.com or dorar.net, copy the Arabic and the",
         "reference from the source, make sure our Malay translation says the same, and write the grade from the source.",
         "The search links are starting points only. Never mark an entry verified from memory.",
+        "With a hadithapi.com key, `python3 scripts/hadith_lookup.py --ep ep45` writes candidate matches to the",
+        "git-ignored private/hadith-lookup.md. They are leads too: compare each one yourself.",
         "",
         "| How easy | Entries |",
         "| --- | --- |",

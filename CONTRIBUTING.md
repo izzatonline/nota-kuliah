@@ -53,4 +53,9 @@ The list of hadith still to check is [docs/hadith-review.md](docs/hadith-review.
 5. Never mark an entry verified from memory, and never copy a grade from somewhere that does not cite its source.
    If the ustaz himself said the hadith is weak, keep that in the entry.
 
+With a hadithapi.com key in `.env.local` (`HADITHAPI_KEY=...`, git-ignored), `python3 scripts/hadith_lookup.py --ep ep45`
+searches for candidates and writes them to `private/hadith-lookup.md`, which is not committed. The match percentage is how many
+of our words the candidate shares. Below 50% it is a weak lead. A grade from the API is a lead, not a ruling: confirm it on
+sunnah.com or dorar.net.
+
 Entries from Bukhari or Muslim are the quickest. Start with those, then the ones where the lecture named no source.

@@ -2,6 +2,10 @@ node_modules
 dist
 .claude/settings.local.json
 
+# API keys (for example HADITHAPI_KEY for scripts/hadith_lookup.py). Never commit these.
+.env
+.env.*
+
 # Raw audio and transcripts are never published. They are only an intermediate
 # step for generating notes. Keep them in a private/ folder or outside the repo.
 private/
