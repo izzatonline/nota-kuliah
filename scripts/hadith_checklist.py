@@ -7,7 +7,10 @@ A reviewer ticks an entry after checking its Arabic text, source and grade again
 source, then sets "verified": true (and fixes the fields) in that episode's notes.json.
 """
 import json
+import re
+from collections import Counter
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parent.parent
 SERIES = ROOT / "public" / "series"
@@ -20,6 +23,40 @@ def stamp(seconds):
     return f"{h}:{m:02d}:{s % 60:02d}" if h else f"{m}:{s % 60:02d}"
 
 
+def source_class(d):
+    """How easy the entry is to check: a Bukhari or Muslim source is quick, an unnamed source takes a search."""
+    source = (d.get("source") or "").lower()
+    if re.search(r"bukhari|muslim", source):
+        return "Bukhari or Muslim"
+    if not source or "tidak disebut" in source:
+        return "No source named"
+    return "Other source named"
+
+
+DIACRITICS = re.compile(r"[\u064b-\u065f\u0670\u06d6-\u06ed]")
+
+
+def lookup_links(d, english):
+    """Starting points for a reviewer: sunnah.com for the English words, dorar.net for the Arabic words.
+    They are searches, not answers. The reviewer still compares the text and the grade by eye."""
+    links = []
+    words = re.findall(r"[A-Za-z']+", english or "")
+    if len(words) >= 4:
+        links.append(f"[sunnah.com]({'https://sunnah.com/search?q=' + quote(' '.join(words[:8]))})")
+    arabic = DIACRITICS.sub("", d.get("arabic") or "").split()
+    if len(arabic) >= 3:
+        links.append(f"[dorar.net]({'https://dorar.net/hadith/search?q=' + quote(' '.join(arabic[:6]))})")
+    return " · ".join(links)
+
+
+def english_translations(notes_file):
+    """The English overlay's hadith translations by id, empty when the episode has none yet."""
+    en = notes_file.parent / "notes.en.json"
+    if not en.exists():
+        return {}
+    return {d["id"]: d.get("translation", "") for d in json.loads(en.read_text()).get("dalil", [])}
+
+
 def unverified():
     """Yield (series title, notes, hadith) for each unverified hadith, in series and episode order."""
     for index_file in sorted(SERIES.glob("*/index.json")):
@@ -28,6 +65,7 @@ def unverified():
         found = []
         for notes_file in index_file.parent.glob("*/notes.json"):
             notes = json.loads(notes_file.read_text())
+            notes["_english"] = english_translations(notes_file)
             found.append(notes)
         for notes in sorted(found, key=lambda n: order.get(n["id"], 999)):
             for d in notes.get("dalil", []):
@@ -45,6 +83,14 @@ def render():
         f"{len(rows)} hadith entries are still marked \"Teks perlu disemak\". For each one, check the Arabic text,",
         "the source and the grade against a hadith source, then fix the entry in the episode's `notes.json` and set",
         "`\"verified\": true`. Re-run the script and it drops off this list.",
+        "",
+        "How to check one (see also CONTRIBUTING.md): find it on sunnah.com or dorar.net, copy the Arabic and the",
+        "reference from the source, make sure our Malay translation says the same, and write the grade from the source.",
+        "The search links are starting points only. Never mark an entry verified from memory.",
+        "",
+        "| How easy | Entries |",
+        "| --- | --- |",
+        *[f"| {k} | {v} |" for k, v in sorted(Counter(source_class(d) for _, _, d in rows).items())],
     ]
     current = None
     for series, notes, d in rows:
@@ -58,6 +104,7 @@ def render():
             f"  - Arabic: {d.get('arabic') or '(none)'}",
             f"  - Terjemahan: {d.get('translation', '')}",
             f"  - Perawi: {d.get('narrator', '')} · Sumber: {d.get('source', '')} · Darjat: {d.get('grade') or 'belum dinilai'}",
+            f"  - Semak: {source_class(d)}" + (f" · {links}" if (links := lookup_links(d, notes['_english'].get(d['id']))) else ""),
         ]
     return "\n".join(lines) + "\n", len(rows)
 
