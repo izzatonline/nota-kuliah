@@ -1,3 +1,4 @@
+import { GripVertical } from 'lucide-react'
 import { useRef, type KeyboardEvent, type PointerEvent } from 'react'
 import { useT } from '@/lib/i18n'
 
@@ -48,7 +49,11 @@ export function ColumnResizer({ grid, onChange }: { grid: React.RefObject<HTMLEl
       onKeyDown={key}
       className="group absolute inset-y-0 -right-1.5 z-10 hidden w-3 cursor-col-resize touch-none select-none outline-none @3xl:block"
     >
-      <span className="absolute inset-y-0 left-1/2 w-0.5 -translate-x-1/2 bg-primary/0 transition-colors group-hover:bg-primary/50 group-focus-visible:bg-primary group-active:bg-primary" />
+      <span className="absolute inset-y-0 left-1/2 w-px -translate-x-1/2 bg-transparent transition-colors group-hover:w-0.5 group-hover:bg-primary/60 group-focus-visible:w-0.5 group-focus-visible:bg-primary group-active:w-0.5 group-active:bg-primary" />
+      {/* the grip is always visible so it is clear the line can be dragged */}
+      <span className="absolute left-1/2 top-1/2 grid h-10 w-4 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full border bg-card text-muted-foreground shadow-sm transition-colors group-hover:border-primary/60 group-hover:bg-primary group-hover:text-primary-foreground group-focus-visible:bg-primary group-focus-visible:text-primary-foreground group-active:bg-primary group-active:text-primary-foreground">
+        <GripVertical className="size-3.5" />
+      </span>
     </div>
   )
 }
