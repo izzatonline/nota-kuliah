@@ -228,13 +228,13 @@
    "kind": "hadith",
    "ref": "Nabi dilahirkan pada tahun gajah",
    "t": 1666,
-   "arabic": null,
+   "arabic": "وُلِدْتُ أَنَا وَرَسُولُ اللَّهِ، صلى الله عليه وسلم عَامَ الْفِيلِ",
    "translation": "Nabi Muhammad SAW dilahirkan pada tahun gajah.",
    "context": "Ustaz menyebut banyak hadis menyatakan kelahiran baginda pada tahun itu.",
-   "narrator": "Tidak disebut dalam kuliah",
-   "source": "Sumber tidak disebut dalam kuliah",
-   "grade": null,
-   "verified": false
+   "narrator": "Qais bin Makhramah RA",
+   "source": "Jami` at-Tirmidhi 3619 (Kitab 49, Hadis 15)",
+   "grade": "Sahih (Darussalam); kata At-Tirmidhi: hasan gharib",
+   "verified": true
   },
   {
    "id": "q106-4",
