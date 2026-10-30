@@ -254,7 +254,7 @@ export function LangProvider({ children }: { children: ReactNode }) {
       const saved = localStorage.getItem('nota-lang')
       if (saved === 'ms' || saved === 'en') return saved
     } catch {}
-    return navigator.language.toLowerCase().startsWith('ms') ? 'ms' : 'en'
+    return 'ms' // Malay is the default; the visitor's own choice is remembered above
   })
   useEffect(() => {
     document.documentElement.lang = lang
