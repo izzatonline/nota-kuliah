@@ -348,14 +348,16 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
               {notes && saved && !sharedT && !dismissed && saved.t > 20 && saved.t < notes.duration - 30 && yt.time < saved.t - 15 && (
                 <div className="mb-4 flex flex-wrap items-center gap-3 rounded-xl border border-primary/30 bg-primary/5 p-3">
                   <div className="grid size-9 shrink-0 place-items-center rounded-lg bg-primary/10 text-primary"><History className="size-4" /></div>
-                  <div className="min-w-0 flex-1">
+                  <div className="min-w-[11rem] flex-1">
                     <p className="text-sm font-medium">{t('resume.title')}</p>
                     <p className="truncate text-xs text-muted-foreground">
                       {fmt(saved.t)} · {t('resume.section', { title: notes.chapters.findLast((c) => c.start <= saved.t)?.title ?? '' })}
                     </p>
                   </div>
-                  <Button size="sm" onClick={() => yt.seek(saved.t)}>{t('resume.from', { t: fmt(saved.t) })}</Button>
-                  <Button size="sm" variant="ghost" onClick={() => setDismissed(true)}>{t('resume.restart')}</Button>
+                  <div className="flex items-center gap-2">
+                    <Button size="sm" onClick={() => yt.seek(saved.t)}>{t('resume.from', { t: fmt(saved.t) })}</Button>
+                    <Button size="sm" variant="ghost" onClick={() => setDismissed(true)}>{t('resume.restart')}</Button>
+                  </div>
                 </div>
               )}
               {lang === 'en' && notes && !notes.translated && <p className="mb-4 rounded-lg border border-gold/30 bg-gold-soft px-3 py-2 text-xs text-gold">{t('enNotice')}</p>}
