@@ -379,7 +379,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
           </Tabs>
         </div>
       </div>
-    <Toaster position={isMobile ? 'bottom-center' : 'bottom-right'} visibleToasts={2} offset={isMobile ? 16 : 24} />
+    <Toaster position={isMobile ? 'bottom-center' : 'bottom-right'} visibleToasts={3} offset={isMobile ? 16 : 24} />
     </PlayerContext.Provider>
   )
 }

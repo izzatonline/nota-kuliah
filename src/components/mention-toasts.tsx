@@ -22,7 +22,7 @@ const MAX_STEP = 3
  * Shows a toast when playback reaches a dalil, kitab or tokoh from the notes.
  * - each item is shown once per visit;
  * - nothing shows while paused, buffering or scrubbing, or after a seek (the clock restarts from where it landed);
- * - one toast per kind at a time, so a burst of names replaces itself instead of piling up.
+ * - every item gets its own toast and they stack (the Toaster shows the newest three), so a burst of names is not missed.
  */
 export function useMentionToasts(notes: Notes | null, time: number, playing: boolean, enabled: boolean, open: (m: Mention) => void) {
   const { t } = useT()
@@ -44,9 +44,8 @@ export function useMentionToasts(notes: Notes | null, time: number, playing: boo
       if (m.t <= from || m.t > time || shown.current.has(key)) continue
       shown.current.add(key)
       toast(m.label, {
-        id: `mention-${m.tab}`,
         description: t(`mention.${m.tab}` as Key),
-        duration: 6000,
+        duration: 8000,
         action: { label: t('mention.view'), onClick: () => openRef.current(m) },
       })
     }
