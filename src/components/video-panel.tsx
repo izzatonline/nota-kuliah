@@ -1,4 +1,4 @@
-import { type RefObject } from 'react'
+import { useState, type RefObject } from 'react'
 import { ChevronLeft, ChevronRight, Headphones, Pause, Play, Video as VideoIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -31,6 +31,37 @@ export function Video({ mount, compact, onCompact }: { mount: RefObject<HTMLDivE
   )
 }
 
+/** Seek slider for audio mode, where the video is too small to scrub. The video only jumps when the thumb is released. */
+function SeekBar({ duration }: { duration: number }) {
+  const { time, seek } = usePlayer()
+  const { t } = useT()
+  const [drag, setDrag] = useState<number | null>(null)
+  const value = Math.min(duration, drag ?? time)
+  const commit = () => {
+    if (drag !== null) seek(drag)
+    setDrag(null)
+  }
+  return (
+    <div className="flex items-center gap-2 px-1">
+      <span className="w-11 shrink-0 text-right font-mono text-[11px] tabular-nums text-muted-foreground">{fmt(value)}</span>
+      <input
+        type="range"
+        min={0}
+        max={Math.floor(duration)}
+        step={1}
+        value={Math.floor(value)}
+        onChange={(e) => setDrag(Number(e.target.value))}
+        onPointerUp={commit}
+        onKeyUp={commit}
+        onBlur={commit}
+        aria-label={t('seekBar')}
+        className="h-6 min-w-0 flex-1 cursor-pointer accent-[hsl(var(--primary))]"
+      />
+      <span className="w-11 shrink-0 font-mono text-[11px] tabular-nums text-muted-foreground">{fmt(duration)}</span>
+    </div>
+  )
+}
+
 export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compact: boolean; onCompact: () => void }) {
   const { time, seek, playing, toggle } = usePlayer()
   const { t } = useT()
@@ -41,7 +72,8 @@ export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compac
 
   return (
     <div className="space-y-2 rounded-xl border bg-card p-3 shadow-sm">
-      <div className="flex items-center gap-2">
+      {/* In audio mode on mobile the Main topics tab already shows where we are, so the title row is dropped. */}
+      <div className={cn('items-center gap-2', compact ? 'hidden @3xl:flex' : 'flex')}>
         <Button variant="ghost" size="icon" className="size-8 shrink-0" disabled={idx === 0} onClick={() => seek(notes.chapters[idx - 1].start)} aria-label={t('prevChapter')}>
           <ChevronLeft />
         </Button>
@@ -56,22 +88,29 @@ export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compac
         </Button>
       </div>
       {compact && (
-        <div className="flex items-center justify-between gap-2 @3xl:hidden">
-          <Button size="sm" className="h-8 gap-1.5" onClick={toggle}>
-            {playing ? <Pause className="size-4" /> : <Play className="size-4" />}
-            {playing ? t('pause') : t('play')}
-          </Button>
-          <Button variant="ghost" size="sm" className="h-8 gap-1.5 text-muted-foreground" onClick={onCompact} aria-label={t('showVideo')}>
-            <VideoIcon className="size-4" />
-            {t('showVideo')}
-          </Button>
+        <div className="space-y-1 @3xl:hidden">
+          <div className="flex items-center justify-between gap-1">
+            <Button variant="ghost" size="icon" className="size-9" disabled={idx === 0} onClick={() => seek(notes.chapters[idx - 1].start)} aria-label={t('prevChapter')}>
+              <ChevronLeft />
+            </Button>
+            <Button size="icon" className="size-9" onClick={toggle} aria-label={playing ? t('pause') : t('play')}>
+              {playing ? <Pause className="size-4" /> : <Play className="size-4" />}
+            </Button>
+            <Button variant="ghost" size="icon" className="size-9" disabled={idx === notes.chapters.length - 1} onClick={() => seek(notes.chapters[idx + 1].start)} aria-label={t('nextChapter')}>
+              <ChevronRight />
+            </Button>
+            <Button variant="ghost" size="icon" className="size-9 text-muted-foreground" onClick={onCompact} aria-label={t('showVideo')} title={t('showVideo')}>
+              <VideoIcon className="size-4" />
+            </Button>
+          </div>
+          <SeekBar duration={notes.duration} />
         </div>
       )}
-      <div className="h-1 overflow-hidden rounded-full bg-muted">
+      <div className={cn('h-1 overflow-hidden rounded-full bg-muted', compact && 'hidden @3xl:block')}>
         <div className="h-full rounded-full bg-primary transition-[width] duration-500" style={{ width: `${pct}%` }} />
       </div>
       {refs.length > 0 && (
-        <div className="hidden flex-wrap gap-1.5 pt-1 sm:flex">
+        <div className={cn('hidden flex-wrap gap-1.5 pt-1 sm:flex', compact && 'sm:hidden @3xl:flex')}>
           {refs.slice(0, 5).map((d) => (
             <button key={d.id} onClick={() => seek(d.t)}>
               <Badge variant={d.kind === 'quran' ? 'gold' : 'secondary'} className="cursor-pointer hover:opacity-80">
