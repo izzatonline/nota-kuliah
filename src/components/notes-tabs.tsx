@@ -191,7 +191,15 @@ function DalilCard({ d }: { d: Dalil }) {
           <TimeLink t={d.t} />
         </div>
         {d.arabic && (
-          <p dir="rtl" lang="ar" className="font-arabic text-right text-[1.7rem] leading-[2.1] sm:text-3xl sm:leading-[2.2]">
+          <p
+            dir="rtl"
+            lang="ar"
+            className={cn(
+              'font-arabic text-right',
+              // A whole narration would fill the screen at the size of a short quote.
+              d.arabic.length > 300 ? 'text-xl leading-[2.1] sm:text-2xl sm:leading-[2.2]' : 'text-[1.7rem] leading-[2.1] sm:text-3xl sm:leading-[2.2]',
+            )}
+          >
             {d.arabic}
           </p>
         )}
