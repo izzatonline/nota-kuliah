@@ -294,13 +294,13 @@
    "kind": "hadith",
    "ref": "Hadis: Khalil",
    "t": 2108,
-   "arabic": null,
+   "arabic": "وَلَوْ كُنْتُ مُتَّخِذًا خَلِيلاً مِنْ أُمَّتِي لاَتَّخَذْتُ أَبَا بَكْرٍ",
    "translation": "Kalaulah aku boleh mengambil seorang khalil, nescaya aku mengambil Abu Bakar. Tetapi Allah telah mengambil aku sebagai khalil.",
    "context": "Khalil ialah sahabat paling rapat, gelaran yang hanya dimiliki Nabi Ibrahim dan Nabi Muhammad SAW.",
-   "narrator": "Tidak disebut dalam kuliah",
-   "source": "Sumber tidak disebut dalam kuliah",
-   "grade": null,
-   "verified": false
+   "narrator": "Abu Sa'id al-Khudri RA",
+   "source": "Sahih al-Bukhari 466 (Kitab 8, Hadis 114)",
+   "grade": "Sahih",
+   "verified": true
   },
   {
    "id": "q2-128",
