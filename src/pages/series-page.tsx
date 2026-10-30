@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { Bell, BellOff, BookOpen, ExternalLink, ListOrdered, History, Landmark, Languages, Lightbulb, Library, Network, ScrollText, Users, type LucideIcon } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
@@ -17,6 +17,7 @@ import { PlayerContext } from '@/components/player-context'
 import { BooksTab, DalilTab, GlossaryTab, LessonsTab, Overview, PeopleTab, SirahTab, TopicsTab, nowTabs, type TabKey } from '@/components/notes-tabs'
 import { MindMap } from '@/components/mindmap'
 import { ShareMenu } from '@/components/share-menu'
+import { ColumnResizer, DEFAULT_WIDTH } from '@/components/column-resizer'
 import { Toaster } from '@/components/ui/sonner'
 import { useMentionToasts, type Mention } from '@/components/mention-toasts'
 import { epPath, fmt, loadIndex, loadNotes, startEpisode, youtubeUrl } from '@/lib/data'
@@ -147,6 +148,22 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
       return !c
     })
 
+  // Desktop: the divider between video and notes can be dragged. The width is kept in this browser.
+  const grid = useRef<HTMLDivElement>(null)
+  const [videoW, setVideoW] = useState<number | null>(() => {
+    try {
+      return Number(localStorage.getItem('nk:videoW')) || null
+    } catch {
+      return null
+    }
+  })
+  useEffect(() => {
+    try {
+      if (videoW) localStorage.setItem('nk:videoW', String(videoW))
+      else localStorage.removeItem('nk:videoW')
+    } catch {}
+  }, [videoW])
+
   // --- toasts when the ustaz mentions a dalil, kitab or tokoh ---
   const isMobile = useIsMobile()
   const [toasts, setToasts] = useState(() => {
@@ -248,9 +265,13 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
   return (
     <PlayerContext.Provider value={{ time: yt.time, playing: yt.playing, seek: yt.seek, toggle: yt.toggle }}>
       <div className="@container min-h-0 flex-1">
-        <div className="flex h-full flex-col @3xl:grid @3xl:grid-cols-[clamp(280px,36%,420px)_minmax(0,1fr)]">
+        <div
+          ref={grid}
+          style={{ '--vw': videoW ? `${videoW}px` : DEFAULT_WIDTH } as CSSProperties}
+          className="flex h-full flex-col @3xl:grid @3xl:grid-cols-[min(var(--vw),calc(100%_-_380px))_minmax(0,1fr)]"
+        >
           {/* video column */}
-          <div className="shrink-0 space-y-2 bg-background pb-2 @3xl:flex @3xl:min-h-0 @3xl:flex-col @3xl:gap-3 @3xl:space-y-0 @3xl:border-r @3xl:p-4 @3xl:pb-0">
+          <div className="relative shrink-0 space-y-2 bg-background pb-2 @3xl:flex @3xl:min-h-0 @3xl:flex-col @3xl:gap-3 @3xl:space-y-0 @3xl:border-r @3xl:p-4 @3xl:pb-0">
             <div className={compact ? 'flex items-start gap-2 px-3 pt-1 @3xl:contents' : 'contents'}>
               <Video mount={mount} compact={compact} onCompact={toggleCompact} />
               <div className={compact ? 'min-w-0 flex-1 @3xl:flex-none @3xl:px-0' : 'px-3 @3xl:px-0'}>
@@ -263,6 +284,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
               </div>
             )}
             <div className="hidden min-h-0 flex-1 @3xl:flex @3xl:flex-col">{notes && <ChapterScroll notes={notes} />}</div>
+            <ColumnResizer grid={grid} onChange={setVideoW} />
           </div>
 
           {/* notes column: title and tabs stay put, only the content scrolls */}
