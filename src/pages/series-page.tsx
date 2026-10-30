@@ -127,6 +127,21 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
   const [tab, setTab] = useState<TabKey>('topik')
   const mount = useRef<HTMLDivElement>(null)
   const yt = useYouTube(episode.youtubeId, mount)
+  // Audio mode (mobile): the video shrinks to a thumbnail so the notes get the screen.
+  const [compact, setCompact] = useState(() => {
+    try {
+      return localStorage.getItem('nk:compact') === '1'
+    } catch {
+      return false
+    }
+  })
+  const toggleCompact = () =>
+    setCompact((c) => {
+      try {
+        localStorage.setItem('nk:compact', c ? '0' : '1')
+      } catch {}
+      return !c
+    })
 
   // --- remembering where the visitor was ---
   const saved = useMemo(() => getProgress(slug, episode.id), [slug, episode.id])
@@ -187,13 +202,17 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
   const bleed = '-mx-3 px-3 @xl:-mx-5 @xl:px-5 @3xl:-mx-8 @3xl:px-8'
 
   return (
-    <PlayerContext.Provider value={{ time: yt.time, playing: yt.playing, seek: yt.seek }}>
+    <PlayerContext.Provider value={{ time: yt.time, playing: yt.playing, seek: yt.seek, toggle: yt.toggle }}>
       <div className="@container min-h-0 flex-1">
         <div className="flex h-full flex-col @3xl:grid @3xl:grid-cols-[clamp(280px,36%,420px)_minmax(0,1fr)]">
           {/* video column */}
           <div className="shrink-0 space-y-2 bg-background pb-2 @3xl:flex @3xl:min-h-0 @3xl:flex-col @3xl:gap-3 @3xl:space-y-0 @3xl:border-r @3xl:p-4 @3xl:pb-0">
-            <Video mount={mount} />
-            <div className="px-3 @3xl:px-0">{notes ? <NowPlaying notes={notes} /> : <Skeleton className="h-16 w-full rounded-xl" />}</div>
+            <div className={compact ? 'flex items-start gap-2 px-3 pt-1 @3xl:contents' : 'contents'}>
+              <Video mount={mount} compact={compact} onCompact={toggleCompact} />
+              <div className={compact ? 'min-w-0 flex-1 @3xl:px-0' : 'px-3 @3xl:px-0'}>
+                {notes ? <NowPlaying notes={notes} compact={compact} onCompact={toggleCompact} /> : <Skeleton className="h-16 w-full rounded-xl" />}
+              </div>
+            </div>
             <div className="hidden min-h-0 flex-1 @3xl:flex @3xl:flex-col">{notes && <ChapterScroll notes={notes} />}</div>
           </div>
 

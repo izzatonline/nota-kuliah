@@ -1,5 +1,5 @@
 import { type RefObject } from 'react'
-import { ChevronLeft, ChevronRight } from 'lucide-react'
+import { ChevronLeft, ChevronRight, Headphones, Pause, Play, Video as VideoIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { ScrollArea } from '@/components/ui/scroll-area'
@@ -9,16 +9,30 @@ import { usePlayer } from '@/components/player-context'
 import { useT } from '@/lib/i18n'
 import type { Notes } from '@/lib/types'
 
-export function Video({ mount }: { mount: RefObject<HTMLDivElement> }) {
+export function Video({ mount, compact, onCompact }: { mount: RefObject<HTMLDivElement>; compact: boolean; onCompact: () => void }) {
+  const { t } = useT()
   return (
-    <div className="overflow-hidden bg-black @3xl:rounded-xl @3xl:border">
-      <div ref={mount} className="mx-auto aspect-video h-[min(34vh,56.25cqw)] @3xl:h-auto @3xl:w-full [&_iframe]:size-full" />
+    <div className={cn('relative overflow-hidden bg-black @3xl:rounded-xl @3xl:border', compact && 'w-28 shrink-0 rounded-lg @3xl:w-auto')}>
+      <div
+        ref={mount}
+        className={cn('mx-auto aspect-video @3xl:h-auto @3xl:w-full [&_iframe]:size-full', compact ? 'w-full' : 'h-[min(34vh,56.25cqw)]')}
+      />
+      {!compact && (
+        <button
+          onClick={onCompact}
+          aria-label={t('audioMode')}
+          title={t('audioMode')}
+          className="absolute right-2 top-2 grid size-8 place-items-center rounded-full bg-black/60 text-white backdrop-blur @3xl:hidden"
+        >
+          <Headphones className="size-4" />
+        </button>
+      )}
     </div>
   )
 }
 
-export function NowPlaying({ notes }: { notes: Notes }) {
-  const { time, seek } = usePlayer()
+export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compact: boolean; onCompact: () => void }) {
+  const { time, seek, playing, toggle } = usePlayer()
   const { t } = useT()
   const idx = Math.max(0, notes.chapters.findLastIndex((c) => c.start <= time))
   const c = notes.chapters[idx]
@@ -41,6 +55,18 @@ export function NowPlaying({ notes }: { notes: Notes }) {
           <ChevronRight />
         </Button>
       </div>
+      {compact && (
+        <div className="flex items-center justify-between gap-2 @3xl:hidden">
+          <Button size="sm" className="h-8 gap-1.5" onClick={toggle}>
+            {playing ? <Pause className="size-4" /> : <Play className="size-4" />}
+            {playing ? t('pause') : t('play')}
+          </Button>
+          <Button variant="ghost" size="sm" className="h-8 gap-1.5 text-muted-foreground" onClick={onCompact} aria-label={t('showVideo')}>
+            <VideoIcon className="size-4" />
+            {t('showVideo')}
+          </Button>
+        </div>
+      )}
       <div className="h-1 overflow-hidden rounded-full bg-muted">
         <div className="h-full rounded-full bg-primary transition-[width] duration-500" style={{ width: `${pct}%` }} />
       </div>

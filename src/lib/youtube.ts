@@ -95,5 +95,12 @@ export function useYouTube(videoId: string, mount: RefObject<HTMLDivElement>) {
     [ready, videoId],
   )
 
-  return { time, playing, ready, seek }
+  const toggle = useCallback(() => {
+    const p = player.current
+    if (!p || !ready) return
+    if (p.getPlayerState() === 1) p.pauseVideo()
+    else p.playVideo()
+  }, [ready])
+
+  return { time, playing, ready, seek, toggle }
 }
