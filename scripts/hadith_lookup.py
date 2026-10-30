@@ -161,10 +161,10 @@ def render_entry(notes, d, english, cands):
     if not cands:
         return "\n".join(lines + ["No candidate found. Search by hand (see docs/hadith-review.md).", ""])
     for score, h in cands:
-        ref = f"{h['book']['bookName']} {h['hadithNumber']}"
+        ref = f"{(h.get('book') or {}).get('bookName') or h.get('bookSlug', '')} {h['hadithNumber']}"
         lines += [
-            f"- **{ref}** · {h.get('status') or 'no grade'} · match {score:.0%}{' (weak lead)' if score < 0.5 else ''} · {h.get('englishNarrator', '').strip()}",
-            f"  - English: {h.get('hadithEnglish', '').strip()[:400]}",
+            f"- **{ref}** · {h.get('status') or 'no grade'} · match {score:.0%}{' (weak lead)' if score < 0.5 else ''} · {(h.get('englishNarrator') or '').strip()}",
+            f"  - English: {(h.get('hadithEnglish') or '').strip()[:400]}",
             f"  - Arabic (with the chain): {(h.get('hadithArabic') or '').strip()}",
         ]
     return "\n".join(lines + [""])

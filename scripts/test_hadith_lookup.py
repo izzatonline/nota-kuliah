@@ -53,6 +53,13 @@ class LookupTests(unittest.TestCase):
         found = hadith_lookup.candidates("wisdom is the lost property of the believer", "Sahih Bukhari", "k", search=fake)
         self.assertEqual(found[0][1]["bookSlug"], "al-tirmidhi")
 
+    def test_missing_fields_in_an_answer_do_not_break_the_report(self):
+        sparse = {"bookSlug": "sahih-muslim", "hadithNumber": "7", "hadithEnglish": None, "englishNarrator": None, "hadithArabic": None, "status": None, "book": None}
+        text = hadith_lookup.render_entry({"id": "ep1"}, {"id": "h1", "ref": "r", "translation": "t"}, "english", [(0.1, sparse)])
+        self.assertIn("sahih-muslim 7", text)
+        self.assertIn("no grade", text)
+        self.assertEqual(hadith_lookup.candidates("some words here", None, "k", search=lambda p, k: [sparse])[0][1], sparse)
+
     def test_the_key_never_appears_in_rendered_output(self):
         notes = {"id": "ep45"}
         text = hadith_lookup.render_entry(notes, {"id": "h0", "ref": "r", "translation": "t"}, "english", [(0.5, hadith("3930", "The day of Bu'ath"))])
