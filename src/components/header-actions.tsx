@@ -1,4 +1,4 @@
-import { ExternalLink, MoreHorizontal, Moon, Sun } from 'lucide-react'
+import { ExternalLink, MoreHorizontal, Moon, Search, Sun } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import {
   DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuRadioGroup, DropdownMenuRadioItem,
@@ -6,14 +6,17 @@ import {
 } from '@/components/ui/dropdown-menu'
 import { LanguageSwitch } from '@/components/language-switch'
 import { ThemeToggle, useTheme } from '@/components/theme'
+import { shortcutLabel, useSearch } from '@/components/search-palette'
 import { useT, type Lang } from '@/lib/i18n'
 
 /** Header buttons. On small screens they collapse into one menu so the episode title keeps the room. */
 export function HeaderActions({ watchUrl }: { watchUrl: string }) {
   const { t, lang, setLang } = useT()
   const { theme, toggle } = useTheme()
+  const { open } = useSearch()
   return (
     <>
+      <SearchButton onClick={open} label={t('search.button')} />
       <div className="hidden items-center gap-2 sm:flex">
         <LanguageSwitch />
         <Button asChild variant="outline" size="sm" className="shrink-0 max-lg:size-8 max-lg:p-0">
@@ -52,5 +55,16 @@ export function HeaderActions({ watchUrl }: { watchUrl: string }) {
         </DropdownMenu>
       </div>
     </>
+  )
+}
+
+/** Opens the search palette. The shortcut hint only shows where there is room for it. */
+export function SearchButton({ onClick, label }: { onClick: () => void; label: string }) {
+  return (
+    <Button variant="outline" size="sm" onClick={onClick} aria-label={label} className="shrink-0 gap-2 text-muted-foreground max-sm:size-8 max-sm:p-0">
+      <Search />
+      <span className="hidden lg:inline">{label}</span>
+      <kbd className="hidden rounded border bg-muted px-1.5 py-0.5 font-mono text-[10px] lg:inline">{shortcutLabel()}</kbd>
+    </Button>
   )
 }

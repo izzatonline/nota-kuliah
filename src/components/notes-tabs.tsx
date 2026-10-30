@@ -68,7 +68,7 @@ export function TopicsTab({ notes }: { notes: Notes }) {
           const books = notes.books.filter((b) => !b.suggested && b.t !== null && b.t >= c.start && b.t < c.end)
           return (
             <li key={c.id} ref={(el) => (refs.current[i] = el)}>
-              <div className={cn('overflow-hidden rounded-xl border bg-card transition-all', now && NOW_RING)}>
+              <div data-item={`topik:${c.id}`} className={cn('overflow-hidden rounded-xl border bg-card transition-all', now && NOW_RING)}>
                 <button onClick={() => seek(c.start)} className="flex w-full gap-3 p-4 text-left">
                   <span className={cn('mt-0.5 grid size-7 shrink-0 place-items-center rounded-full text-xs font-medium', now ? 'bg-primary text-primary-foreground' : 'bg-muted text-muted-foreground')}>{i + 1}</span>
                   <span className="min-w-0 flex-1 space-y-1">
@@ -366,7 +366,7 @@ export function SirahTab({ notes }: { notes: Notes }) {
 function LessonCard({ l, n }: { l: Lesson; n: number }) {
   const now = useIsNow(l.t, 60)
   return (
-    <Card className={cn(now && NOW_RING)}>
+    <Card data-item={`pengajaran:${l.id}`} className={cn(now && NOW_RING)}>
       <CardContent className="flex gap-3 p-4">
         <span className="grid size-7 shrink-0 place-items-center rounded-full bg-primary text-xs font-medium text-primary-foreground">{n}</span>
         <div className="min-w-0 flex-1 space-y-1.5">
@@ -409,7 +409,7 @@ export function LessonsTab({ notes }: { notes: Notes }) {
 function TermCard({ t }: { t: Term }) {
   const now = useIsNow(t.t, 60)
   return (
-    <Card className={cn(now && NOW_RING)}>
+    <Card data-item={`istilah:${t.id}`} className={cn(now && NOW_RING)}>
       <CardContent className="space-y-1.5 p-4">
         <div className="flex items-start justify-between gap-2">
           <p className="flex flex-wrap items-center gap-2 font-medium">{t.term}{now && <NowBadge />}</p>

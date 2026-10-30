@@ -8,6 +8,8 @@ import { BrandLink } from '@/components/brand'
 import { LanguageSwitch } from '@/components/language-switch'
 import { SiteFooter } from '@/components/site-footer'
 import { ThemeToggle } from '@/components/theme'
+import { SearchButton } from '@/components/header-actions'
+import { useSearch } from '@/components/search-palette'
 import { epPath, fmt, loadAllSeries, loadNotes } from '@/lib/data'
 import { useT } from '@/lib/i18n'
 import { getLast, getProgress } from '@/lib/progress'
@@ -143,6 +145,7 @@ function ContinueCard({ all }: { all: SeriesIndex[] }) {
 }
 
 export function LandingPage() {
+  const { open } = useSearch()
   const { t, lang } = useT()
   const [all, setAll] = useState<SeriesIndex[] | null>(null)
   useEffect(() => {
@@ -175,6 +178,7 @@ export function LandingPage() {
               <Link to={`/${first.series.slug}`}>{t('nav.episodes')}</Link>
             </Button>
           )}
+          <SearchButton onClick={open} label={t('search.button')} />
           <LanguageSwitch />
           <ThemeToggle />
         </div>

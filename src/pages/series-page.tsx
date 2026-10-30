@@ -204,6 +204,17 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
     return () => window.clearTimeout(id)
   }, [focus])
 
+  // Search sends the visitor here with the card to open. Do it once the notes are in, for each navigation.
+  const nav = useLocation()
+  const handledNav = useRef('')
+  useEffect(() => {
+    const f = (nav.state as { focus?: { tab: TabKey; id: string } } | null)?.focus
+    if (!f || !notes || handledNav.current === nav.key) return
+    handledNav.current = nav.key
+    setTab(f.tab)
+    setFocus((cur) => ({ tab: f.tab, id: f.id, n: (cur?.n ?? 0) + 1 }))
+  }, [nav, notes])
+
   // --- remembering where the visitor was ---
   const saved = useMemo(() => getProgress(slug, episode.id), [slug, episode.id])
   const [dismissed, setDismissed] = useState(false)
