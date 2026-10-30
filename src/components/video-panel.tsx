@@ -85,7 +85,8 @@ export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compac
   )
 }
 
-export function ChapterList({ notes, className }: { notes: Notes; className?: string }) {
+/** `titlesOnly` keeps just the number and title; the Main topics tab already carries the summaries. */
+export function ChapterList({ notes, className, titlesOnly }: { notes: Notes; className?: string; titlesOnly?: boolean }) {
   const { time, seek } = usePlayer()
   const active = notes.chapters.findLastIndex((c) => c.start <= time)
   return (
@@ -95,19 +96,20 @@ export function ChapterList({ notes, className }: { notes: Notes; className?: st
           <button
             onClick={() => seek(c.start)}
             className={cn(
-              'flex w-full gap-3 rounded-lg px-3 py-2.5 text-left transition-colors hover:bg-accent',
+              'flex w-full gap-3 rounded-lg px-3 text-left transition-colors hover:bg-accent',
+              titlesOnly ? 'items-center py-1.5' : 'py-2.5',
               i === active && 'bg-accent ring-1 ring-primary/30',
             )}
           >
-            <span className={cn('mt-0.5 grid size-6 shrink-0 place-items-center rounded-full text-[11px] font-medium', i === active ? 'bg-primary text-primary-foreground' : 'bg-muted text-muted-foreground')}>
+            <span className={cn('grid size-6 shrink-0 place-items-center rounded-full text-[11px] font-medium', !titlesOnly && 'mt-0.5', i === active ? 'bg-primary text-primary-foreground' : 'bg-muted text-muted-foreground')}>
               {i + 1}
             </span>
             <span className="min-w-0 flex-1">
               <span className="flex items-baseline justify-between gap-2">
                 <span className="text-sm font-medium leading-snug">{c.title}</span>
-                <span className="font-mono text-xs text-muted-foreground">{fmt(c.start)}</span>
+                {!titlesOnly && <span className="font-mono text-xs text-muted-foreground">{fmt(c.start)}</span>}
               </span>
-              <span className="mt-0.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">{c.summary}</span>
+              {!titlesOnly && <span className="mt-0.5 line-clamp-2 text-xs leading-relaxed text-muted-foreground">{c.summary}</span>}
             </span>
           </button>
         </li>
@@ -122,7 +124,7 @@ export function ChapterScroll({ notes }: { notes: Notes }) {
     <ScrollArea className="min-h-0 flex-1">
       <div className="p-1.5 pb-4">
         <p className="px-3 pb-2 text-[11px] font-medium uppercase tracking-[0.14em] text-muted-foreground">{t('topics')}</p>
-        <ChapterList notes={notes} />
+        <ChapterList notes={notes} titlesOnly />
       </div>
     </ScrollArea>
   )
