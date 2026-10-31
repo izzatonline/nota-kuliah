@@ -207,7 +207,16 @@ function DalilCard({ d }: { d: Dalil }) {
         <p className="text-sm leading-relaxed text-muted-foreground">{d.context}</p>
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 border-t pt-3 text-xs text-muted-foreground">
           {d.narrator && <span>{t('narrator')}: {d.narrator}</span>}
-          <span>{t('source')}: {d.source}</span>
+          <span>
+            {t('source')}:{' '}
+            {d.sourceUrl ? (
+              <a href={d.sourceUrl} target="_blank" rel="noopener noreferrer" className="underline decoration-dotted underline-offset-2 hover:text-foreground">
+                {d.source}
+              </a>
+            ) : (
+              d.source
+            )}
+          </span>
           {d.grade && <Badge variant="outline">{d.grade}</Badge>}
           <span className={cn('ml-auto inline-flex items-center gap-1', d.verified ? 'text-primary' : 'text-gold')}>
             {d.verified ? <ShieldCheck className="size-3.5" /> : <ShieldAlert className="size-3.5" />}

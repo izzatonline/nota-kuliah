@@ -49,7 +49,8 @@ The list of hadith still to check is [docs/hadith-review.md](docs/hadith-review.
 2. Copy the Arabic text (the matn, without the chain) and the reference from the source. Do not retype Arabic.
 3. Check that our Malay translation says what the hadith says, and fix it if not. The English overlay follows.
 4. Write the source with its number (for example "Sahih al-Bukhari 3930 (Kitab 63, Hadis 155)"), the narrator and the
-   grade from the source, then set `"verified": true` in the episode's `notes.json`.
+   grade from the source, add `"sourceUrl"` with the page you checked (for example `https://sunnah.com/bukhari:3930`),
+   then set `"verified": true` in the episode's `notes.json`. The card shows the source as a link to that page.
 5. Never mark an entry verified from memory, and never copy a grade from somewhere that does not cite its source.
    If the ustaz himself said the hadith is weak, keep that in the entry.
 

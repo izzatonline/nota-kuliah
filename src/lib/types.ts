@@ -25,6 +25,8 @@ export type Dalil = {
   context: string
   narrator?: string
   source: string
+  /** Page of the verified source (sunnah.com), set only once the entry has been checked against it. */
+  sourceUrl?: string
   grade?: string | null
   verified: boolean
 }
