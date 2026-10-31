@@ -1,0 +1,610 @@
+{
+ "id": "ep12",
+ "youtubeId": "KYOfuWbUgII",
+ "title": "Perperangan Al-Fijar & Perjanjian Al-Fudhul",
+ "speaker": "Ustaz Azlan Shah NK",
+ "series": "Sirah Impak Sosial",
+ "episode": 12,
+ "duration": 2522,
+ "summary": "Ustaz Azlan menceritakan dua babak Nabi SAW pada usia 14 hingga awal 20-an sebelum bertemu Khadijah: Perang Al-Fijar yang berpunca daripada pertikaian tender dagangan lalu berakhir dengan pembunuhan di bulan haram, dan Perjanjian Hilf Al-Fudul yang menegakkan pembelaan terhadap orang yang dizalimi. Daripada perang itu Nabi SAW dilatih dengan daya tahan dan keutamaan kepada keamanan, manakala daripada perjanjian itu lahir komitmen kepada keadilan yang Nabi SAW pegang sepanjang hayat.",
+ "keyPoints": [
+  "Perang Al-Fijar tercetus kerana pertikaian tender dagangan yang berakhir dengan pembunuhan di bulan haram, lalu menarik seluruh kabilah bergaduh kerana mentaliti kepuakan.",
+  "Pengalaman melihat perang membentuk daya tahan Nabi SAW dan sikap mengutamakan keamanan apabila konflik tercetus.",
+  "Perang berlanjutan sekitar empat hingga lima tahun sebelum diselesaikan dengan rundingan dan bayaran diat.",
+  "Hilf Al-Fudul ialah perjanjian untuk sentiasa membela orang yang dizalimi, siapa pun yang menzaliminya, termasuk kabilah sendiri.",
+  "Nabi SAW menyatakan beliau lebih suka menyertai perjanjian itu daripada unta merah, dan akan menyertainya lagi jika dipanggil selepas Islam.",
+  "Seorang Muslim tidak sepatutnya bersikap 'none of my business' terhadap kezaliman, dan boleh bekerja sama dengan sesiapa atas prinsip keadilan selagi tidak bercanggah dengan syariat."
+ ],
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "Pengenalan: latihan karakter sejak kecil",
+   "start": 0,
+   "end": 127,
+   "summary": "Ustaz mengimbas elemen pembentukan karakter Nabi SAW sejak kecil dan memperkenalkan dua babak sebelum Khadijah."
+  },
+  {
+   "id": "c2",
+   "title": "Perang Al-Fijar dan maksud namanya",
+   "start": 127,
+   "end": 212,
+   "summary": "Perang berlaku ketika Nabi SAW berusia 14 atau 15 tahun menurut Ibn Hisham, dan dinamakan perang yang buruk."
+  },
+  {
+   "id": "c3",
+   "title": "Tender Nu'man dan pembunuhan Urwah",
+   "start": 212,
+   "end": 449,
+   "summary": "Pertikaian tender mengangkut barang ke pasar Ukaz antara Al-Barrat dan Urwah berakhir dengan pembunuhan."
+  },
+  {
+   "id": "c4",
+   "title": "Mentaliti kepuakan dan bulan haram",
+   "start": 449,
+   "end": 649,
+   "summary": "Pertikaian kecil menyeret seluruh kabilah, dan pembunuhan berlaku pada bulan haram serta melanggar tanah haram."
+  },
+  {
+   "id": "c5",
+   "title": "Peranan Nabi SAW dalam peperangan",
+   "start": 649,
+   "end": 913,
+   "summary": "Peperangan berlanjutan empat hingga lima tahun; para ulama berbeza pendapat tentang sejauh mana Nabi SAW terlibat."
+  },
+  {
+   "id": "c6",
+   "title": "Pelajaran daripada hidup dalam perang",
+   "start": 913,
+   "end": 1165,
+   "summary": "Kanak-kanak yang melalui perang membentuk daya tahan; Nabi SAW belajar mengutamakan keamanan."
+  },
+  {
+   "id": "c7",
+   "title": "Kesan konflik dan bahaya rekrutmen ekstrem",
+   "start": 1165,
+   "end": 1386,
+   "summary": "Ustaz mengaitkan kesan pengalaman konflik dengan anak muda yang direkrut oleh kumpulan ekstrem dan trauma rumah tangga."
+  },
+  {
+   "id": "c8",
+   "title": "Berakhirnya perang dan permulaan Hilf Al-Fudul",
+   "start": 1386,
+   "end": 1576,
+   "summary": "Perang diselesaikan melalui rundingan dan diat, kemudian berlaku peristiwa yang membawa kepada perjanjian pada usia Nabi SAW sekitar 20 tahun."
+  },
+  {
+   "id": "c9",
+   "title": "Kisah pedagang Yaman dan Ash bin Wail",
+   "start": 1576,
+   "end": 1914,
+   "summary": "Seorang pedagang Yaman ditipu oleh Ash bin Wail dan mengadu melalui syair di Jabal Abi Qubais."
+  },
+  {
+   "id": "c10",
+   "title": "Zubair dan termeterainya perjanjian",
+   "start": 1914,
+   "end": 2027,
+   "summary": "Zubair bin Abdul Muttalib menghimpunkan beberapa kabilah di rumah Abdullah bin Jud'an untuk membela orang yang dizalimi."
+  },
+  {
+   "id": "c11",
+   "title": "Maksud Fudul dan kedudukan 'none of my business'",
+   "start": 2027,
+   "end": 2197,
+   "summary": "Nama perjanjian dikaitkan dengan kebaikan, dan Ustaz menegaskan kewajipan menentang kezaliman sekurang-kurangnya dengan hati."
+  },
+  {
+   "id": "c12",
+   "title": "Sabda Nabi SAW tentang perjanjian dan pelajaran keadilan",
+   "start": 2197,
+   "end": 2522,
+   "summary": "Nabi SAW menyatakan lebih suka perjanjian itu daripada unta merah; Ustaz menghuraikan keterlibatan sosial Muslim merentasi isu."
+  }
+ ],
+ "dalil": [
+  {
+   "id": "q2-198",
+   "kind": "quran",
+   "ref": "Al-Baqara 2:198",
+   "t": 1501,
+   "arabic": "لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَبْتَغُوا۟ فَضْلًۭا مِّن رَّبِّكُمْ ۚ فَإِذَآ أَفَضْتُم مِّنْ عَرَفَٰتٍۢ فَٱذْكُرُوا۟ ٱللَّهَ عِندَ ٱلْمَشْعَرِ ٱلْحَرَامِ ۖ وَٱذْكُرُوهُ كَمَا هَدَىٰكُمْ وَإِن كُنتُم مِّن قَبْلِهِۦ لَمِنَ ٱلضَّآلِّينَ",
+   "translation": "Tidaklah menjadi salah, kamu mencari limpah kurnia dari Tuhan kamu (dengan meneruskan perniagaan ketika mengerjakan Haji). Kemudian apabila kamu bertolak turun dari padang Arafah (menuju ke Muzdalifah) maka sebutlah nama Allah (dengan doa,\"talbiah\" dan tasbih) di tempat Masy'ar Al-Haraam (di Muzdalifah), dan ingatlah kepada Allah dengan menyebutnya sebagaimana Ia telah memberikan petunjuk hidayah kepadamu; dan sesungguhnya kamu sebelum itu adalah dari golongan orang-orang yang salah jalan ibadatnya.",
+   "context": "Ustaz menyebut bahawa Allah SWT membenarkan berniaga ketika mengerjakan haji. (rujukan dikenal pasti, nombor ayat tidak disebut)",
+   "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
+   "verified": true
+  },
+  {
+   "id": "h1",
+   "kind": "hadith",
+   "ref": "Mengubah kemungkaran dengan tangan, lisan dan hati",
+   "t": 2072,
+   "arabic": null,
+   "translation": "Sesiapa yang melihat kemungkaran hendaklah mengubahnya dengan tangannya; jika tidak mampu maka dengan lisannya; jika tidak mampu maka dengan hatinya, dan itulah selemah-lemah iman.",
+   "context": "Dijadikan hujah bahawa sikap 'none of my business' terhadap kezaliman tidak dibenarkan.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Sumber tidak disebut dalam kuliah",
+   "grade": null,
+   "verified": false
+  },
+  {
+   "id": "h0",
+   "kind": "hadith",
+   "ref": "Hadir perjanjian di rumah Abdullah bin Jud'an",
+   "t": 2188,
+   "arabic": null,
+   "translation": "Aku telah menyaksikan satu perjanjian di rumah Abdullah bin Jud'an; aku lebih suka menyertainya daripada unta merah, dan jika aku dijemput sekali lagi dalam Islam, aku akan pergi.",
+   "context": "Nabi SAW mengimbau Hilf Al-Fudul dan menyatakan nilai perjanjian itu.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Sumber tidak disebut dalam kuliah",
+   "grade": null,
+   "verified": false
+  }
+ ],
+ "books": [
+  {
+   "id": "b1",
+   "title": "Encyclopedia Sirah",
+   "author": "Syekh Tariq Soedan",
+   "kind": "Sirah",
+   "t": 909,
+   "context": "Dirujuk bagi pandangan bahawa Nabi SAW belajar mengutamakan keamanan daripada peristiwa perang ini."
+  }
+ ],
+ "people": [
+  {
+   "id": "p1",
+   "name": "Ibn Hisham",
+   "role": "Ulama sirah",
+   "t": 143,
+   "context": "Disebut sebagai sumber bahawa Nabi SAW berusia 14 atau 15 tahun ketika Perang Al-Fijar."
+  },
+  {
+   "id": "p2",
+   "name": "Nu'man bin Mundhir",
+   "role": "Raja Hirah dan pedagang besar",
+   "t": 212,
+   "context": "Membuka tender untuk mengangkut barangnya dari Hirah ke pasar Ukaz."
+  },
+  {
+   "id": "p3",
+   "name": "Al-Barrat bin Qais",
+   "role": "Pemohon tender dari Qais Ailan",
+   "t": 285,
+   "context": "Marah kerana kalah tender lalu membunuh Urwah dan merompak barangnya."
+  },
+  {
+   "id": "p4",
+   "name": "Urwah bin Utbah",
+   "role": "Pemohon tender dari kabilah Hawazin",
+   "t": 292,
+   "context": "Memenangi tender dan kemudian dibunuh oleh Al-Barrat."
+  },
+  {
+   "id": "p5",
+   "name": "Ibn Kathir",
+   "role": "Ulama sirah terkemuka",
+   "t": 1253,
+   "context": "Antara ulama yang menyebut kisah peperangan ini."
+  },
+  {
+   "id": "p6",
+   "name": "Az-Zahabi",
+   "role": "Ulama sirah terkemuka",
+   "t": 1253,
+   "context": "Antara ulama yang menyebut kisah peperangan ini."
+  },
+  {
+   "id": "p7",
+   "name": "Ash bin Wail",
+   "role": "Tokoh Quraish",
+   "t": 1576,
+   "context": "Menahan bayaran barang pedagang Yaman kerana yakin tiada siapa berani menegurnya."
+  },
+  {
+   "id": "p8",
+   "name": "Zubair bin Abdul Muttalib",
+   "role": "Bapa saudara Nabi SAW",
+   "t": 1890,
+   "context": "Tersentuh dengan syair pedagang Yaman lalu menghimpunkan kabilah untuk membuat perjanjian."
+  },
+  {
+   "id": "p9",
+   "name": "Abdullah bin Jud'an",
+   "role": "Tuan rumah pertemuan perjanjian",
+   "t": 1941,
+   "context": "Perjanjian dimeterai di rumahnya."
+  },
+  {
+   "id": "p10",
+   "name": "Abu Kuhafa",
+   "role": "Ketua Bani Taim, ayah Abu Bakar",
+   "t": 2006,
+   "context": "Menyertai perjanjian bersama Abu Bakar."
+  },
+  {
+   "id": "p11",
+   "name": "Abu Bakar As-Siddiq",
+   "role": "Sahabat Nabi SAW",
+   "t": 2009,
+   "context": "Dibawa menyertai perjanjian sebagai orang muda; Ustaz menyebut mereka berkawan baik sejak muda."
+  }
+ ],
+ "sirah": {
+  "era": "Remaja hingga awal 20-an sebelum bertemu Khadijah",
+  "summary": "Dua peristiwa penting pada usia muda Nabi SAW iaitu penglibatan dalam Perang Al-Fijar dan penyertaan dalam Perjanjian Hilf Al-Fudul.",
+  "events": [
+   {
+    "id": "e0",
+    "label": "Pencetus",
+    "title": "Pertikaian tender dan pembunuhan Urwah",
+    "desc": "Al-Barrat membunuh Urwah kerana kalah tender dagangan ke pasar Ukaz.",
+    "t": 371
+   },
+   {
+    "id": "e1",
+    "label": "Perang Al-Fijar",
+    "title": "Perang di bulan dan tanah haram",
+    "desc": "Pertumpahan darah berlaku pada bulan haram dan berlanjutan ke tanah haram selama empat hingga lima tahun.",
+    "t": 649
+   },
+   {
+    "id": "e2",
+    "label": "Peranan Nabi SAW",
+    "title": "Menolong pakcik-pakcik dalam peperangan",
+    "desc": "Para ulama berbeza pendapat sama ada Nabi SAW hanya mengutip anak panah atau turut memanah.",
+    "t": 685
+   },
+   {
+    "id": "e3",
+    "label": "Penyelesaian",
+    "title": "Rundingan dan diat",
+    "desc": "Selepas sekitar lima tahun, Quraish menawarkan bayaran diat kepada Qais Ailan.",
+    "t": 1386
+   },
+   {
+    "id": "e4",
+    "label": "Pengaduan",
+    "title": "Syair pedagang Yaman di Jabal Abi Qubais",
+    "desc": "Pedagang yang ditipu Ash bin Wail mengadu secara terbuka melalui syair.",
+    "t": 1687
+   },
+   {
+    "id": "e5",
+    "label": "Hilf Al-Fudul",
+    "title": "Perjanjian membela yang dizalimi",
+    "desc": "Empat kabilah berhimpun di rumah Abdullah bin Jud'an dan bersepakat membela orang yang dizalimi.",
+    "t": 1941
+   },
+   {
+    "id": "e6",
+    "label": "Meterai",
+    "title": "Mencelup tangan dalam minyak wangi",
+    "desc": "Perjanjian dimeterai dengan menyapu tangan berminyak wangi pada kain Kaabah.",
+    "t": 2134
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "l1",
+   "title": "Mentaliti kepuakan itu jahiliah",
+   "kind": "Sosial",
+   "body": "Menyokong 'pihak kita' tanpa menilai betul atau salah ialah perangai jahiliah yang kini muncul semula di media sosial.",
+   "t": 449
+  },
+  {
+   "id": "l2",
+   "title": "Hormati bulan dan tanah haram",
+   "kind": "Ibadah",
+   "body": "Empat bulan haram iaitu Rejab, Zulkaedah, Zulhijjah dan Muharram dipersetujui sebagai tempoh tidak berperang.",
+   "t": 510
+  },
+  {
+   "id": "l3",
+   "title": "Daya tahan dibentuk oleh pengalaman sukar",
+   "kind": "Akhlak",
+   "body": "Kanak-kanak yang hidup dalam zon perang membina daya tahan luar biasa, dan Nabi SAW turut dilatih dalam suasana sebegitu.",
+   "t": 1114
+  },
+  {
+   "id": "l4",
+   "title": "Utamakan keamanan dalam konflik",
+   "kind": "Akhlak",
+   "body": "Nabi SAW tidak suka menyimbah minyak ke dalam api dan sentiasa mencari titik untuk mewujudkan keamanan.",
+   "t": 930
+  },
+  {
+   "id": "l5",
+   "title": "Belajar sejarah daripada yang melaluinya",
+   "kind": "Sosial",
+   "body": "Elakkan memprovokasi dengan peristiwa lampau yang tidak difahami; dengarlah pengalaman orang yang pernah melaluinya.",
+   "t": 1051
+  },
+  {
+   "id": "l6",
+   "title": "Beri perhatian kepada kesihatan jiwa anak muda",
+   "kind": "Sosial",
+   "body": "Anak muda yang direkrut kumpulan ekstrem sering bermasalah psikologi dan kekurangan kasih sayang, bukan semata-mata kerana keyakinan agama.",
+   "t": 1175
+  },
+  {
+   "id": "l7",
+   "title": "Kesan keganasan rumah tangga pada anak",
+   "kind": "Sosial",
+   "body": "Anak yang melihat ayah memukul ibu boleh mengulangi tingkah laku itu tanpa sedar walaupun berazam sebaliknya.",
+   "t": 1236
+  },
+  {
+   "id": "l8",
+   "title": "Berdagang semasa haji dibenarkan",
+   "kind": "Ibadah",
+   "body": "Musim haji turut menjadi peluang berniaga dan bertemu orang dari pelbagai negara, selaras dengan semangat Quran.",
+   "t": 1497
+  },
+  {
+   "id": "l9",
+   "title": "Pembelaan terhadap yang lemah tanpa pilih bulu",
+   "kind": "Akhlak",
+   "body": "Membela orang yang dizalimi walaupun penzaliminya daripada kabilah sendiri adalah dasar Hilf Al-Fudul.",
+   "t": 1969
+  },
+  {
+   "id": "l10",
+   "title": "'None of my business' bukan sikap beriman",
+   "kind": "Akidah",
+   "body": "Membenci kezaliman sekurang-kurangnya dalam hati ialah selemah-lemah iman; tidak rasa apa-apa bererti tiada iman.",
+   "t": 2120
+  },
+  {
+   "id": "l11",
+   "title": "Keadilan sebagai prinsip Islam",
+   "kind": "Akhlak",
+   "body": "Seorang Muslim boleh bekerja dengan sesiapa selagi atas prinsip keadilan dan tidak bercanggah dengan syariat.",
+   "t": 2286
+  },
+  {
+   "id": "l12",
+   "title": "Aktivisme tidak terhad kepada isu berlabel agama",
+   "kind": "Dakwah",
+   "body": "Membela haiwan dan menjaga alam sekitar, termasuk usaha kitar semula di masjid, juga termasuk dalam keadilan.",
+   "t": 2434
+  }
+ ],
+ "glossary": [
+  {
+   "id": "g1",
+   "term": "Harbul Fijar",
+   "arabic": null,
+   "meaning": "Perang yang dinamakan 'buruk' kerana dilakukan melanggar bulan dan tanah haram.",
+   "t": 132
+  },
+  {
+   "id": "g2",
+   "term": "Fujur",
+   "arabic": null,
+   "meaning": "Kederhakaan atau keburukan, asal nama Al-Fijar.",
+   "t": 150
+  },
+  {
+   "id": "g3",
+   "term": "Bulan haram",
+   "arabic": null,
+   "meaning": "Empat bulan yang tidak boleh berperang atau menumpahkan darah: Muharram, Rejab, Zulkaedah dan Zulhijjah.",
+   "t": 543
+  },
+  {
+   "id": "g4",
+   "term": "Tanah haram",
+   "arabic": null,
+   "meaning": "Kawasan suci Makkah yang tidak boleh dicemari dengan pertumpahan darah.",
+   "t": 590
+  },
+  {
+   "id": "g6",
+   "term": "Diat",
+   "arabic": null,
+   "meaning": "Bayaran ganti rugi bagi nyawa atau kecederaan.",
+   "t": 1386
+  },
+  {
+   "id": "g5",
+   "term": "Asabiyah",
+   "arabic": null,
+   "meaning": "Fanatik kepuakan, menyokong kumpulan sendiri tanpa mengira benar atau salah.",
+   "t": 1395
+  },
+  {
+   "id": "g7",
+   "term": "Hilf Al-Fudul",
+   "arabic": null,
+   "meaning": "Perjanjian untuk membela orang yang dizalimi, dimeterai di rumah Abdullah bin Jud'an.",
+   "t": 2024
+  },
+  {
+   "id": "g8",
+   "term": "Fudul",
+   "arabic": null,
+   "meaning": "Kebaikan; Ustaz juga menyebut pendapat bahawa ia membawa maksud 'none of your business' dalam ejekan orang yang menolak.",
+   "t": 2027
+  },
+  {
+   "id": "g9",
+   "term": "Unta merah",
+   "arabic": null,
+   "meaning": "Unta yang jarang dan paling mahal, perumpamaan harta berharga.",
+   "t": 2209
+  }
+ ],
+ "mindmap": {
+  "id": "root",
+  "label": "Al-Fijar dan Hilf Al-Fudul",
+  "t": 0,
+  "detail": "Dua babak Nabi SAW sebelum bertemu Khadijah.",
+  "children": [
+   {
+    "id": "m1",
+    "label": "Punca Perang Al-Fijar",
+    "t": 371,
+    "detail": "Tender dagangan membawa kepada pembunuhan.",
+    "children": [
+     {
+      "id": "m1a",
+      "label": "Tender Nu'man",
+      "t": 260,
+      "detail": "Angkut barang ke pasar Ukaz."
+     },
+     {
+      "id": "m1b",
+      "label": "Al-Barrat dan Urwah",
+      "t": 285,
+      "detail": "Persaingan berakhir dengan pembunuhan."
+     },
+     {
+      "id": "m1c",
+      "label": "Langgar bulan dan tanah haram",
+      "t": 589,
+      "detail": "Dua kemuliaan dilanggar."
+     }
+    ]
+   },
+   {
+    "id": "m2",
+    "label": "Mentaliti kepuakan",
+    "t": 449,
+    "detail": "Pertikaian kecil menarik seluruh kabilah.",
+    "children": [
+     {
+      "id": "m2a",
+      "label": "Tak kira betul atau salah",
+      "t": 451,
+      "detail": "Asalkan orang kita lawan orang dia."
+     },
+     {
+      "id": "m2b",
+      "label": "Versi hari ini",
+      "t": 461,
+      "detail": "Pergaduhan media sosial."
+     }
+    ]
+   },
+   {
+    "id": "m3",
+    "label": "Nabi SAW dalam perang",
+    "t": 674,
+    "detail": "Penglibatan baginda dipertikai ulama.",
+    "children": [
+     {
+      "id": "m3a",
+      "label": "Mengutip anak panah",
+      "t": 749,
+      "detail": "Membantu pakcik-pakcik."
+     },
+     {
+      "id": "m3b",
+      "label": "Mungkin turut memanah",
+      "t": 782,
+      "detail": "Menjelang akhir perang."
+     }
+    ]
+   },
+   {
+    "id": "m4",
+    "label": "Pelajaran karakter",
+    "t": 913,
+    "detail": "Daya tahan dan keamanan.",
+    "children": [
+     {
+      "id": "m4a",
+      "label": "Daya tahan",
+      "t": 1114,
+      "detail": "Kanak-kanak zon perang."
+     },
+     {
+      "id": "m4b",
+      "label": "Mencari keamanan",
+      "t": 955,
+      "detail": "Contoh Al-Hudaybiyah."
+     },
+     {
+      "id": "m4c",
+      "label": "Kesan trauma",
+      "t": 1165,
+      "detail": "Rekrutmen ekstrem dan rumah tangga."
+     }
+    ]
+   },
+   {
+    "id": "m5",
+    "label": "Kisah pedagang Yaman",
+    "t": 1576,
+    "detail": "Pencetus Hilf Al-Fudul.",
+    "children": [
+     {
+      "id": "m5a",
+      "label": "Ash bin Wail menafikan bayaran",
+      "t": 1607,
+      "detail": "Yakin dilindungi kabilah."
+     },
+     {
+      "id": "m5b",
+      "label": "Syair di Jabal Abi Qubais",
+      "t": 1687,
+      "detail": "Pengaduan terbuka."
+     }
+    ]
+   },
+   {
+    "id": "m6",
+    "label": "Perjanjian Hilf Al-Fudul",
+    "t": 1941,
+    "detail": "Pembelaan terhadap yang dizalimi.",
+    "children": [
+     {
+      "id": "m6a",
+      "label": "Empat kabilah",
+      "t": 1949,
+      "detail": "Hanya empat daripada sepuluh setuju."
+     },
+     {
+      "id": "m6b",
+      "label": "Dua pemuda",
+      "t": 1990,
+      "detail": "Nabi SAW dan Abu Bakar menyertai."
+     },
+     {
+      "id": "m6c",
+      "label": "Dimeterai dengan minyak wangi",
+      "t": 2134,
+      "detail": "Tangan disapu pada kain Kaabah."
+     }
+    ]
+   },
+   {
+    "id": "m7",
+    "label": "Pengajaran keadilan",
+    "t": 2300,
+    "detail": "Nilai yang dipegang seumur hidup.",
+    "children": [
+     {
+      "id": "m7a",
+      "label": "Lebih baik daripada unta merah",
+      "t": 2197,
+      "detail": "Nabi SAW akan menyertainya lagi."
+     },
+     {
+      "id": "m7b",
+      "label": "Bukan 'none of my business'",
+      "t": 2120,
+      "detail": "Tolak kezaliman sekurang-kurangnya dengan hati."
+     },
+     {
+      "id": "m7c",
+      "label": "Aktivisme luas",
+      "t": 2434,
+      "detail": "Haiwan dan alam sekitar."
+     }
+    ]
+   }
+  ]
+ }
+}
