@@ -1181,5 +1181,82 @@
   "ayah": 6,
   "arabic": "كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ",
   "translation": "Ingatlah! Sesungguhnya jenis manusia tetap melampaui batas (yang sepatutnya atau yang sewajibnya),"
+ },
+ "2:264": {
+  "surah": "Al-Baqara",
+  "surahArabic": "سُورَةُ البَقَرَةِ",
+  "ayah": 264,
+  "arabic": "يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُبْطِلُوا۟ صَدَقَٰتِكُم بِٱلْمَنِّ وَٱلْأَذَىٰ كَٱلَّذِى يُنفِقُ مَالَهُۥ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ ۖ فَمَثَلُهُۥ كَمَثَلِ صَفْوَانٍ عَلَيْهِ تُرَابٌۭ فَأَصَابَهُۥ وَابِلٌۭ فَتَرَكَهُۥ صَلْدًۭا ۖ لَّا يَقْدِرُونَ عَلَىٰ شَىْءٍۢ مِّمَّا كَسَبُوا۟ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْكَٰفِرِينَ",
+  "translation": "Wahai orang-orang yang beriman! Jangan rosakkan (pahala amal) sedekah kamu dengan perkataan membangkit-bangkit dan (kelakuan yang) menyakiti, seperti (rosaknya pahala amal sedekah) orang yang membelanjakan hartanya kerana hendak menunjuk-nunjuk kepada manusia (riak), dan ia pula tidak beriman kepada Allah dan hari akhirat. Maka bandingan orang itu ialah seperti batu licin yang ada tanah di atasnya, kemudian batu itu ditimpa hujan lebat, lalu ditinggalkannya bersih licin (tidak bertanah lagi). (Demikianlah juga halnya orang-orang yang kafir dan riak itu) mereka tidak akan mendapat sesuatu (pahala) pun dari apa yang mereka usahakan. Dan (ingatlah), Allah tidak akan memberi petunjuk kepada kaum yang kafir."
+ },
+ "68:2": {
+  "surah": "Al-Qalam",
+  "surahArabic": "سُورَةُ القَلَمِ",
+  "ayah": 2,
+  "arabic": "مَآ أَنتَ بِنِعْمَةِ رَبِّكَ بِمَجْنُونٍۢ",
+  "translation": "Engkau (wahai Muhammad) - dengan sebab nikmat pemberian Tuhanmu - bukanlah seorang gila (sebagaimana yang dituduh oleh kaum musyrik, bahkan engkau adalah seorang yang bijaksana)."
+ },
+ "73:1": {
+  "surah": "Al-Muzzammil",
+  "surahArabic": "سُورَةُ المُزَّمِّلِ",
+  "ayah": 1,
+  "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ يَٰٓأَيُّهَا ٱلْمُزَّمِّلُ",
+  "translation": "Wahai orang yang berselimut!."
+ },
+ "74:1": {
+  "surah": "Al-Muddaththir",
+  "surahArabic": "سُورَةُ المُدَّثِّرِ",
+  "ayah": 1,
+  "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ يَٰٓأَيُّهَا ٱلْمُدَّثِّرُ",
+  "translation": "Wahai orang yang berselimut!"
+ },
+ "74:2": {
+  "surah": "Al-Muddaththir",
+  "surahArabic": "سُورَةُ المُدَّثِّرِ",
+  "ayah": 2,
+  "arabic": "قُمْ فَأَنذِرْ",
+  "translation": "Bangunlah serta berilah peringatan dan amaran (kepada umat manusia)."
+ },
+ "74:3": {
+  "surah": "Al-Muddaththir",
+  "surahArabic": "سُورَةُ المُدَّثِّرِ",
+  "ayah": 3,
+  "arabic": "وَرَبَّكَ فَكَبِّرْ",
+  "translation": "Dan Tuhanmu, maka ucaplah dan ingatlah kebesaranNya!"
+ },
+ "74:4": {
+  "surah": "Al-Muddaththir",
+  "surahArabic": "سُورَةُ المُدَّثِّرِ",
+  "ayah": 4,
+  "arabic": "وَثِيَابَكَ فَطَهِّرْ",
+  "translation": "Dan pakaianmu, maka hendaklah engkau bersihkan."
+ },
+ "74:5": {
+  "surah": "Al-Muddaththir",
+  "surahArabic": "سُورَةُ المُدَّثِّرِ",
+  "ayah": 5,
+  "arabic": "وَٱلرُّجْزَ فَٱهْجُرْ",
+  "translation": "Dan segala kejahatan, maka hendaklah engkau jauhi."
+ },
+ "74:6": {
+  "surah": "Al-Muddaththir",
+  "surahArabic": "سُورَةُ المُدَّثِّرِ",
+  "ayah": 6,
+  "arabic": "وَلَا تَمْنُن تَسْتَكْثِرُ",
+  "translation": "Dan janganlah engkau memberi (sesuatu, dengan tujuan hendak) mendapat lebih banyak daripadanya."
+ },
+ "74:7": {
+  "surah": "Al-Muddaththir",
+  "surahArabic": "سُورَةُ المُدَّثِّرِ",
+  "ayah": 7,
+  "arabic": "وَلِرَبِّكَ فَٱصْبِرْ",
+  "translation": "Dan bagi (menjalankan perintah) Tuhanmu, maka hendaklah engkau bersabar (terhadap tentangan musuh)!"
+ },
+ "96:19": {
+  "surah": "Al-Alaq",
+  "surahArabic": "سُورَةُ العَلَقِ",
+  "ayah": 19,
+  "arabic": "كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩",
+  "translation": "Ingatlah! Janganlah engkau (wahai Muhammad) menurut kehendaknya, dan (sebaliknya) sujudlah dan dampingkanlah dirimu kepada Allah (dengan taat dan beramal soleh)!"
  }
 }

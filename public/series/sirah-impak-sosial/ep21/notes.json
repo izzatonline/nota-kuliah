@@ -1,0 +1,591 @@
+{
+ "id": "ep21",
+ "youtubeId": "UDKUwKToBL8",
+ "title": "10 Muslim & ibadah terawal",
+ "speaker": "Ustaz Azlan Shah NK",
+ "series": "Sirah Impak Sosial",
+ "episode": 21,
+ "duration": 2074,
+ "summary": "Ustaz Azlan menceritakan sepuluh orang terawal memeluk Islam dan bagaimana dakwah bermula secara tertutup. Khadijah RA ialah orang pertama, diikuti Ali (berusia sekitar 10 tahun), Zaid bin Harithah, dan Abu Bakar yang kemudian membawa Uthman, Zubair, Abdul Rahman bin Auf, Talhah dan Sa'ad bin Abi Waqqas. Ustaz turut menyentuh solat dua rakaat yang diajar Jibril, hubungan keluarga yang menyokong dakwah, rumah Al-Arqam sebagai markas, dan petunjuk bahawa perubahan besar sering bermula daripada kelompok kecil yang berpegang dengan kebenaran.",
+ "keyPoints": [
+  "Khadijah RA ialah orang pertama memeluk Islam dan orang pertama yang diajar Nabi SAW solat.",
+  "Solat awal ialah dua rakaat sebelum matahari terbit dan selepas matahari terbenam, menurut hadis Aisyah.",
+  "Ali bin Abi Talib, ketika itu sekitar 10 tahun, memeluk Islam selepas mengambil satu malam berfikir.",
+  "Abu Bakar tidak teragak-agak menerima Islam dan membawa sebahagian besar sepuluh sahabat yang dijanjikan syurga.",
+  "Rumah Al-Arqam, daripada kabilah Abu Jahal, menjadi markas dakwah tertutup selama sekitar tiga tahun.",
+  "Perubahan besar bermula daripada kelompok kecil yang berpegang kepada kebenaran, dan bilangan yang sedikit bukan ukuran benar atau salah."
+ ],
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "Ulangkaji dan senarai orang terawal",
+   "start": 0,
+   "end": 146,
+   "summary": "Ustaz menyambung selepas surah-surah awal dan memperkenalkan senarai orang pertama memeluk Islam."
+  },
+  {
+   "id": "c2",
+   "title": "Khadijah orang pertama",
+   "start": 146,
+   "end": 301,
+   "summary": "Khadijah beriman tanpa ragu dan menjadi pendukung utama dakwah."
+  },
+  {
+   "id": "c3",
+   "title": "Solat pertama dan wuduk",
+   "start": 301,
+   "end": 635,
+   "summary": "Jibril mengajar wuduk dan solat dua rakaat; Khadijah solat bersama Nabi SAW."
+  },
+  {
+   "id": "c4",
+   "title": "Ali bin Abi Talib memeluk Islam",
+   "start": 635,
+   "end": 709,
+   "summary": "Ali bertanya, diajak kepada Allah yang satu dan memeluk Islam keesokan harinya."
+  },
+  {
+   "id": "c5",
+   "title": "Riwayat Abu Talib melihat mereka solat",
+   "start": 709,
+   "end": 846,
+   "summary": "Riwayat Ibn Hisham tentang Al-Abbas dan Abu Talib melihat Nabi SAW, Khadijah dan Ali solat."
+  },
+  {
+   "id": "c6",
+   "title": "Zaid bin Harithah dan wanita dalam rumah Nabi SAW",
+   "start": 846,
+   "end": 966,
+   "summary": "Zaid memeluk Islam; kisah wanita rumah tangga jarang disebut dalam riwayat."
+  },
+  {
+   "id": "c7",
+   "title": "Abu Bakar As-Siddiq",
+   "start": 966,
+   "end": 1137,
+   "summary": "Sahabat karib Nabi SAW yang menerima tanpa ragu dan mempunyai kemahiran interpersonal."
+  },
+  {
+   "id": "c8",
+   "title": "Pakar genealogi dan peniaga berintegriti",
+   "start": 1137,
+   "end": 1275,
+   "summary": "Abu Bakar pakar keturunan, tulus berniaga dan menggunakan rangkaiannya untuk dakwah."
+  },
+  {
+   "id": "c9",
+   "title": "Uthman, Zubair, Abdul Rahman bin Auf",
+   "start": 1275,
+   "end": 1443,
+   "summary": "Tiga yang pertama dibawa Abu Bakar kepada Nabi SAW."
+  },
+  {
+   "id": "c10",
+   "title": "Talhah, Sa'ad dan Abu Ubaidah",
+   "start": 1443,
+   "end": 1622,
+   "summary": "Kisah rahib di Busra dan mimpi Sa'ad membawa mereka kepada Islam."
+  },
+  {
+   "id": "c11",
+   "title": "Sepuluh orang dan Al-Arqam",
+   "start": 1622,
+   "end": 1704,
+   "summary": "Senarai sepuluh orang terawal dan rumah Al-Arqam dijadikan markas."
+  },
+  {
+   "id": "c12",
+   "title": "Dakwah tertutup tiga tahun",
+   "start": 1704,
+   "end": 1956,
+   "summary": "Taktik membina pangkalan dahulu dan meminta orang menunggu sebelum menzahirkan Islam."
+  },
+  {
+   "id": "c13",
+   "title": "Kelompok kecil yang memandu perubahan",
+   "start": 1956,
+   "end": 2074,
+   "summary": "Hadis Islam bermula asing dan sosiologi perubahan oleh kelompok kecil."
+  }
+ ],
+ "dalil": [
+  {
+   "id": "q73-2",
+   "kind": "quran",
+   "ref": "Al-Muzzammil 73:2",
+   "t": 246,
+   "arabic": "قُمِ ٱلَّيْلَ إِلَّا قَلِيلًۭا",
+   "translation": "Bangunlah sembahyang Tahajjud pada waktu malam, selain dari sedikit masa (yang tak dapat tidak untuk berehat),",
+   "context": "Perintah qiyam malam kepada Nabi SAW yang disebut ketika menanya apa ibadah Nabi SAW pada awal. (rujukan dikenal pasti, nombor ayat tidak disebut)",
+   "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
+   "verified": true
+  },
+  {
+   "id": "h0",
+   "kind": "hadith",
+   "ref": "Solat pertama difardukan dua rakaat",
+   "t": 295,
+   "arabic": null,
+   "translation": "Solat yang mula-mula difardukan ialah dua rakaat, dua rakaat sebelum matahari terbit dan dua rakaat selepas matahari terbenam.",
+   "context": "Solat awal sebelum solat lima waktu diwajibkan.",
+   "narrator": "Aisyah RA",
+   "source": "Sumber tidak disebut dalam kuliah",
+   "grade": "Sahih",
+   "verified": false
+  },
+  {
+   "id": "h2",
+   "kind": "hadith",
+   "ref": "Riwayat Ibn Hisham tentang Al-Abbas dan Abu Talib",
+   "t": 688,
+   "arabic": null,
+   "translation": "Al-Abbas melihat Nabi SAW solat dengan Khadijah di belakang dan Ali di sebelah kanan; Abu Talib berkata ia agama yang diada-adakan anak saudaranya.",
+   "context": "Riwayat sirah yang dianggap munasabah tetapi tidak dapat dipastikan kesahihannya.",
+   "narrator": "Al-Abbas",
+   "source": "Ibn Hisham",
+   "grade": null,
+   "verified": false
+  },
+  {
+   "id": "h1",
+   "kind": "hadith",
+   "ref": "Islam bermula asing dan akan kembali asing",
+   "t": 1956,
+   "arabic": null,
+   "translation": "Islam bermula dalam keadaan asing dan akan kembali asing; maka beruntunglah orang-orang yang asing.",
+   "context": "Dikaitkan dengan hakikat bahawa orang yang berpegang kepada kebenaran sering sedikit.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Sumber tidak disebut dalam kuliah",
+   "grade": null,
+   "verified": false
+  }
+ ],
+ "books": [
+  {
+   "id": "b1",
+   "title": "As-Sirah An-Nabawiyyah (Syekh Ali As-Sallabi)",
+   "author": "Ali Muhammad As-Sallabi",
+   "kind": "Sirah",
+   "t": 189,
+   "context": "Mengandungi bab tentang peranan penting Khadijah dalam permulaan dakwah."
+  },
+  {
+   "id": "b2",
+   "title": "Sirah Ibn Hisham",
+   "author": "Ibn Hisham",
+   "kind": "Sirah",
+   "t": 588,
+   "context": "Sumber riwayat dialog Ali dan Nabi SAW dan riwayat Al-Abbas."
+  }
+ ],
+ "people": [
+  {
+   "id": "p1",
+   "name": "Khadijah RA",
+   "role": "Orang pertama memeluk Islam",
+   "t": 146,
+   "context": "Beriman tanpa ragu dan orang pertama diajar solat oleh Nabi SAW."
+  },
+  {
+   "id": "p2",
+   "name": "Ali bin Abi Talib",
+   "role": "Anak saudara Nabi SAW, ketika itu sekitar 10 tahun",
+   "t": 446,
+   "context": "Memeluk Islam keesokan harinya selepas mengambil satu malam berfikir."
+  },
+  {
+   "id": "p4",
+   "name": "Al-Abbas",
+   "role": "Bapa saudara Nabi SAW",
+   "t": 688,
+   "context": "Perawi riwayat Ibn Hisham tentang melihat mereka solat."
+  },
+  {
+   "id": "p3",
+   "name": "Abu Talib",
+   "role": "Bapa saudara Nabi SAW",
+   "t": 697,
+   "context": "Melihat Nabi SAW, Khadijah dan Ali solat tetapi tidak faham."
+  },
+  {
+   "id": "p5",
+   "name": "Zaid bin Harithah",
+   "role": "Anak angkat Nabi SAW",
+   "t": 846,
+   "context": "Orang ketiga memeluk Islam selepas Khadijah dan Ali."
+  },
+  {
+   "id": "p6",
+   "name": "Abu Bakar As-Siddiq",
+   "role": "Sahabat karib dua tahun lebih muda",
+   "t": 966,
+   "context": "Menerima tanpa ragu dan membawa sebahagian besar sepuluh sahabat."
+  },
+  {
+   "id": "p7",
+   "name": "Uthman bin Affan",
+   "role": "Sahabat dan khalifah",
+   "t": 1277,
+   "context": "Memeluk Islam atas ajakan Abu Bakar."
+  },
+  {
+   "id": "p8",
+   "name": "Az-Zubair bin Al-Awwam",
+   "role": "Sepupu Khadijah",
+   "t": 1332,
+   "context": "Dipengaruhi Abu Bakar ketika masih muda."
+  },
+  {
+   "id": "p9",
+   "name": "Abdul Rahman bin Auf",
+   "role": "Peniaga besar, nama asal Abdul Amr",
+   "t": 1364,
+   "context": "Sudah mendengar tentang Nabi akhir zaman semasa ke Syam."
+  },
+  {
+   "id": "p10",
+   "name": "Talhah bin Ubaidillah",
+   "role": "Dari Bani Taim",
+   "t": 1406,
+   "context": "Seorang rahib di Busra bertanya sama ada Ahmad sudah keluar."
+  },
+  {
+   "id": "p11",
+   "name": "Sa'ad bin Abi Waqqas",
+   "role": "Sahabat",
+   "t": 1517,
+   "context": "Memeluk Islam selepas bermimpi cahaya yang membawanya kepada Abu Bakar."
+  },
+  {
+   "id": "p12",
+   "name": "Abu Ubaidah",
+   "role": "Sahabat",
+   "t": 1585,
+   "context": "Antara sepuluh orang terawal."
+  },
+  {
+   "id": "p13",
+   "name": "Al-Arqam bin Abi Al-Arqam",
+   "role": "Pemuda berusia sekitar 13 tahun",
+   "t": 1631,
+   "context": "Rumahnya dijadikan markas dakwah."
+  },
+  {
+   "id": "p14",
+   "name": "Abu Lahab",
+   "role": "Bapa saudara Nabi SAW",
+   "t": 1752,
+   "context": "Menyedari pergerakan itu dan anak-anaknya kelak menceraikan anak Nabi SAW."
+  }
+ ],
+ "sirah": {
+  "era": "Dakwah tertutup, tahun-tahun awal kenabian",
+  "summary": "Sepuluh orang terawal memeluk Islam dan Nabi SAW membina pangkalan di rumah Al-Arqam.",
+  "events": [
+   {
+    "id": "e0",
+    "label": "Wuduk dan solat",
+    "title": "Jibril mengajar wuduk dan solat",
+    "desc": "Khadijah orang pertama diajar solat oleh Nabi SAW.",
+    "t": 387
+   },
+   {
+    "id": "e1",
+    "label": "Ali",
+    "title": "Ali bertanya dan memeluk Islam",
+    "desc": "Ali mengambil satu malam berfikir sebelum bersyahadah.",
+    "t": 641
+   },
+   {
+    "id": "e2",
+    "label": "Zaid",
+    "title": "Zaid memeluk Islam",
+    "desc": "Anak angkat yang memilih kekal bersama Nabi SAW.",
+    "t": 859
+   },
+   {
+    "id": "e3",
+    "label": "Abu Bakar",
+    "title": "Abu Bakar menerima serta-merta",
+    "desc": "Sahabat karib yang tidak ragu.",
+    "t": 1054
+   },
+   {
+    "id": "e4",
+    "label": "Pengislaman berantai",
+    "title": "Uthman, Zubair, Abdul Rahman, Talhah, Sa'ad",
+    "desc": "Majoriti sepuluh sahabat masuk Islam melalui Abu Bakar.",
+    "t": 1595
+   },
+   {
+    "id": "e5",
+    "label": "Markas",
+    "title": "Rumah Al-Arqam dijadikan pangkalan",
+    "desc": "Berada di kabilah Abu Jahal yang tidak dicurigai.",
+    "t": 1657
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "l1",
+   "title": "Sokongan keluarga memulakan dakwah",
+   "kind": "Dakwah",
+   "body": "Khadijah yang percaya tanpa syarat ialah hadiah Allah supaya dakwah dapat bermula.",
+   "t": 228
+  },
+  {
+   "id": "l2",
+   "title": "Anak belajar solat daripada melihat ibu bapa",
+   "kind": "Ibadah",
+   "body": "Ali bertanya kerana melihat Nabi SAW solat; ramai anak hari ini tidak pernah melihat ibu bapa solat.",
+   "t": 475
+  },
+  {
+   "id": "l3",
+   "title": "Tidak terlewat untuk mula bersolat",
+   "kind": "Ibadah",
+   "body": "Sesiapa yang belum solat boleh memulakannya hari ini.",
+   "t": 543
+  },
+  {
+   "id": "l4",
+   "title": "Beri ruang berfikir",
+   "kind": "Adab",
+   "body": "Nabi SAW membenarkan Ali mengambil satu malam untuk berfikir sebelum memeluk Islam.",
+   "t": 625
+  },
+  {
+   "id": "l5",
+   "title": "Jaringan dan kemahiran interpersonal membantu dakwah",
+   "kind": "Dakwah",
+   "body": "Abu Bakar menggunakan pengetahuan genealogi dan integriti perniagaannya untuk mendekati tokoh bermutu.",
+   "t": 1243
+  },
+  {
+   "id": "l6",
+   "title": "Bina pangkalan dahulu",
+   "kind": "Dakwah",
+   "body": "Nabi SAW menyusun taktik dengan membina base sebelum mengumumkan secara terbuka.",
+   "t": 1708
+  },
+  {
+   "id": "l7",
+   "title": "Perubahan bermula daripada kelompok kecil",
+   "kind": "Sosial",
+   "body": "Kelompok kecil yang berpegang dengan kebenaran menggerakkan perubahan.",
+   "t": 1943
+  },
+  {
+   "id": "l8",
+   "title": "Bilangan bukan ukuran kebenaran",
+   "kind": "Akidah",
+   "body": "Ramai atau sedikit bukan tanda benar; tandanya ialah kebenaran yang dibawa.",
+   "t": 2022
+  }
+ ],
+ "glossary": [
+  {
+   "id": "g3",
+   "term": "Genealogi",
+   "arabic": null,
+   "meaning": "Ilmu keturunan dan hubungan kabilah, kepakaran Abu Bakar.",
+   "t": 1072
+  },
+  {
+   "id": "g4",
+   "term": "Ahmad",
+   "arabic": null,
+   "meaning": "Nama Nabi SAW seperti yang disebut dalam kitab terdahulu.",
+   "t": 1456
+  },
+  {
+   "id": "g6",
+   "term": "Bushra",
+   "arabic": null,
+   "meaning": "Berita gembira atau isyarat tentang kedatangan nabi yang diberikan dalam kitab terdahulu.",
+   "t": 1464
+  },
+  {
+   "id": "g5",
+   "term": "Markas",
+   "arabic": null,
+   "meaning": "Pangkalan dakwah, iaitu rumah Al-Arqam.",
+   "t": 1646
+  },
+  {
+   "id": "g2",
+   "term": "Dakwah tertutup",
+   "arabic": null,
+   "meaning": "Dakwah yang disampaikan secara tertutup dan tidak diumumkan kepada umum, bukan dirahsiakan.",
+   "t": 1685
+  },
+  {
+   "id": "g1",
+   "term": "Ghuraba'",
+   "arabic": null,
+   "meaning": "Orang-orang yang asing, mereka yang berpegang pada kebenaran ketika majoriti menyimpang.",
+   "t": 1960
+  }
+ ],
+ "mindmap": {
+  "id": "root",
+  "label": "Orang terawal memeluk Islam",
+  "t": 0,
+  "detail": "Sepuluh orang dan dakwah tertutup.",
+  "children": [
+   {
+    "id": "m1",
+    "label": "Khadijah",
+    "t": 146,
+    "detail": "Orang pertama.",
+    "children": [
+     {
+      "id": "m1a",
+      "label": "Percaya tanpa ragu",
+      "t": 161,
+      "detail": "Pendukung utama."
+     },
+     {
+      "id": "m1b",
+      "label": "Diajar solat",
+      "t": 387,
+      "detail": "Pertama diajar solat."
+     }
+    ]
+   },
+   {
+    "id": "m2",
+    "label": "Solat awal",
+    "t": 301,
+    "detail": "Dua rakaat.",
+    "children": [
+     {
+      "id": "m2a",
+      "label": "Waktu",
+      "t": 317,
+      "detail": "Sebelum terbit dan terbenam."
+     },
+     {
+      "id": "m2b",
+      "label": "Wuduk daripada Jibril",
+      "t": 273,
+      "detail": "Diajar tata cara."
+     }
+    ]
+   },
+   {
+    "id": "m3",
+    "label": "Ali dan Zaid",
+    "t": 545,
+    "detail": "Dalam rumah Nabi SAW.",
+    "children": [
+     {
+      "id": "m3a",
+      "label": "Ali berfikir semalaman",
+      "t": 635,
+      "detail": "Keesokan harinya bersyahadah."
+     },
+     {
+      "id": "m3b",
+      "label": "Zaid",
+      "t": 846,
+      "detail": "Memilih Nabi SAW."
+     }
+    ]
+   },
+   {
+    "id": "m4",
+    "label": "Abu Bakar",
+    "t": 966,
+    "detail": "Pembawa sahabat.",
+    "children": [
+     {
+      "id": "m4a",
+      "label": "Pakar genealogi",
+      "t": 1072,
+      "detail": "Kenal keturunan."
+     },
+     {
+      "id": "m4b",
+      "label": "Peniaga berintegriti",
+      "t": 1179,
+      "detail": "Dipercayai ramai."
+     },
+     {
+      "id": "m4c",
+      "label": "Menerima serta-merta",
+      "t": 1054,
+      "detail": "Tanpa ragu."
+     }
+    ]
+   },
+   {
+    "id": "m5",
+    "label": "Sahabat dibawa Abu Bakar",
+    "t": 1595,
+    "detail": "Antara sepuluh dijanjikan syurga.",
+    "children": [
+     {
+      "id": "m5a",
+      "label": "Uthman dan Zubair",
+      "t": 1275,
+      "detail": "Mudah menerima."
+     },
+     {
+      "id": "m5b",
+      "label": "Abdul Rahman dan Talhah",
+      "t": 1443,
+      "detail": "Petunjuk rahib."
+     },
+     {
+      "id": "m5c",
+      "label": "Sa'ad",
+      "t": 1535,
+      "detail": "Mimpi cahaya."
+     }
+    ]
+   },
+   {
+    "id": "m6",
+    "label": "Dakwah tertutup",
+    "t": 1721,
+    "detail": "Sekitar tiga tahun.",
+    "children": [
+     {
+      "id": "m6a",
+      "label": "Rumah Al-Arqam",
+      "t": 1622,
+      "detail": "Markas."
+     },
+     {
+      "id": "m6b",
+      "label": "Quraish perasan",
+      "t": 1738,
+      "detail": "Tetapi tidak bertindak."
+     }
+    ]
+   },
+   {
+    "id": "m7",
+    "label": "Kelompok kecil",
+    "t": 1943,
+    "detail": "Penggerak perubahan.",
+    "children": [
+     {
+      "id": "m7a",
+      "label": "Islam bermula asing",
+      "t": 1956,
+      "detail": "Hadis ghuraba'."
+     },
+     {
+      "id": "m7b",
+      "label": "Bilangan bukan petanda",
+      "t": 2022,
+      "detail": "Kebenaran ukurannya."
+     }
+    ]
+   }
+  ]
+ }
+}
