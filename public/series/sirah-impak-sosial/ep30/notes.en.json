@@ -1,0 +1,536 @@
+{
+ "summary": "Ustaz Azlan tells the story of Surah An-Najm: in Ramadan the Prophet SAW suddenly recited it at the Sacred Mosque and everyone present, Quraysh included, prostrated except Umayyah ibn Khalaf. Quraysh then invented the 'gharaniq verses' story to save face, and a false report that Quraysh had become Muslim reached the emigrants in Abyssinia. Some returned; Uthman ibn Maz'un took Al-Walid's protection but gave it back and had his eye bruised. The second migration followed, with 83 men and 28 women led by Ja'far. The ustaz walks through the Quraysh envoys (Amr ibn Al-As and Abdullah ibn Abi Rabi'ah) to the Najashi, Ja'far's speech, the recitation of Surah Maryam, the Najashi's ruling, how he became king, the Prophet's letter, and the Prophet's absentee funeral prayer for him.",
+ "keyPoints": [
+  "The Prophet SAW recited Surah An-Najm suddenly and all present prostrated except Umayyah ibn Khalaf, who only took soil to his forehead.",
+  "Quraysh saved face with the gharaniq story; the false news that Quraysh were Muslim reached Abyssinia and some emigrants returned.",
+  "Uthman ibn Maz'un gave up Al-Walid's protection because he would not live in peace while his companions were tortured.",
+  "The second migration was 83 men and 28 women under Ja'far ibn Abi Talib.",
+  "The Quraysh envoys won over the Najashi's ministers with gifts, but the Najashi refused to rule before hearing Ja'far.",
+  "Ja'far gave a crafted speech summing up Islam and recited Surah Maryam, stating that Isa is a servant of Allah and His word; the Najashi drew a line on a stick and guaranteed their safety.",
+  "The Najashi accepted Islam in secret, and the Prophet SAW prayed over him in absentia when he died."
+ ],
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "Opening and the setting of episode 30",
+   "summary": "Review and introduction to the epic event before Ja'far speaks to the Najashi."
+  },
+  {
+   "id": "c2",
+   "title": "The Prophet SAW recites Surah An-Najm",
+   "summary": "In Ramadan at the Sacred Mosque, a sudden recitation captivates the crowd."
+  },
+  {
+   "id": "c3",
+   "title": "Verses 55-62 and the blessings of Quraysh",
+   "summary": "Allah reminds them of the blessings of security and prosperity and warns against arrogance."
+  },
+  {
+   "id": "c4",
+   "title": "Everyone prostrates except Umayyah",
+   "summary": "They could not control themselves and fell in prostration; the Quran's miracle is compared with the miracle of Musa."
+  },
+  {
+   "id": "c5",
+   "title": "The gharaniq story",
+   "summary": "Quraysh made up an excuse to hide their embarrassment and a false report reached Abyssinia."
+  },
+  {
+   "id": "c6",
+   "title": "The emigrants return and Uthman ibn Maz'un",
+   "summary": "They returned out of longing for the Prophet SAW; Uthman was protected by Al-Walid then returned it."
+  },
+  {
+   "id": "c7",
+   "title": "Labid and the bruised eye",
+   "summary": "Uthman corrected a line of Labid's poetry and was struck until his eye was bruised."
+  },
+  {
+   "id": "c8",
+   "title": "Who stayed and who went back",
+   "summary": "The list of companions who stayed in Makkah and those who went back to Abyssinia."
+  },
+  {
+   "id": "c9",
+   "title": "The second migration",
+   "summary": "83 men and 28 women, including Ja'far, Asma' and Umm Habibah."
+  },
+  {
+   "id": "c10",
+   "title": "The Quraysh envoys and social capital",
+   "summary": "Amr and Abdullah were sent, and how social capital relates to leadership."
+  },
+  {
+   "id": "c11",
+   "title": "Amr's case before the Najashi",
+   "summary": "He labelled the emigrants foolish youths who brought a new religion."
+  },
+  {
+   "id": "c12",
+   "title": "Ja'far's speech and the recitation of Maryam",
+   "summary": "Ja'far sums up jahiliyyah and Islam, then recites Maryam until the Najashi weeps."
+  },
+  {
+   "id": "c13",
+   "title": "The second round and the Najashi's ruling",
+   "summary": "On Isa; the Najashi drew a line on a stick, guaranteed safety and refused the bribe."
+  },
+  {
+   "id": "c14",
+   "title": "The Najashi as king, the Prophet's letter and his death",
+   "summary": "How the Najashi was sold as a slave, the exchange of letters, the Nile war and the absentee funeral prayer."
+  }
+ ],
+ "books": [
+  {
+   "id": "b1",
+   "context": "The main source today, including the 83 men and 28 women and the Prophet's letter."
+  },
+  {
+   "id": "b2",
+   "context": "Mentions a weak report of the Prophet SAW asking those who came from Abyssinia."
+  },
+  {
+   "id": "b3",
+   "context": "A sirah book with a geopolitical lens that analyses the Najashi's beliefs."
+  },
+  {
+   "id": "b4",
+   "context": "Cited on the Prophet's leadership being trained through observation."
+  }
+ ],
+ "people": [
+  {
+   "id": "p1",
+   "role": "King of Abyssinia",
+   "context": "A just king who guaranteed the emigrants' safety and accepted Islam in secret."
+  },
+  {
+   "id": "p2",
+   "role": "Quraysh noble",
+   "context": "Did not prostrate at An-Najm; only took soil to his forehead."
+  },
+  {
+   "id": "p3",
+   "role": "Leader of the first group",
+   "context": "Returned Al-Walid's protection and was struck until his eye was bruised."
+  },
+  {
+   "id": "p4",
+   "role": "Wife of Uthman ibn Maz'un",
+   "context": "Later carried the Prophet's proposals to Sawdah and Aishah."
+  },
+  {
+   "id": "p5",
+   "role": "Makkan elite, father of Khalid",
+   "context": "Gave protection to Uthman ibn Maz'un."
+  },
+  {
+   "id": "p6",
+   "role": "Invited poet",
+   "context": "His verse was corrected by Uthman."
+  },
+  {
+   "id": "p7",
+   "role": "Leader and spokesman of the second migration",
+   "context": "Spoke before the Najashi and recited Surah Maryam."
+  },
+  {
+   "id": "p8",
+   "role": "Wife of Ja'far",
+   "context": "Praised by the Prophet SAW for migrating twice."
+  },
+  {
+   "id": "p9",
+   "role": "Emigrant and daughter of Abu Sufyan",
+   "context": "Later married to the Prophet SAW through the Najashi's representation."
+  },
+  {
+   "id": "p10",
+   "role": "Quraysh envoy and later conqueror of Egypt",
+   "context": "Sent gifts, lobbied the ministers and later accepted Islam."
+  },
+  {
+   "id": "p11",
+   "role": "Quraysh envoy",
+   "context": "Accompanied Amr and tried to go home when they lost."
+  },
+  {
+   "id": "p12",
+   "role": "Grandfather of the Prophet SAW",
+   "context": "Gave the Prophet early exposure to Makkan leadership."
+  },
+  {
+   "id": "p13",
+   "role": "Young commander",
+   "context": "Appointed general by the Prophet SAW at sixteen."
+  },
+  {
+   "id": "p14",
+   "role": "Narrator of the Abyssinia account",
+   "context": "Told of the anxiety during the Najashi's war."
+  },
+  {
+   "id": "p15",
+   "role": "Companion",
+   "context": "Swam across the Nile to bring news of the Najashi's victory."
+  },
+  {
+   "id": "p16",
+   "role": "Tabi'i who never met the Prophet SAW",
+   "context": "An example of believing without meeting the Prophet."
+  }
+ ],
+ "lessons": [
+  {
+   "id": "l1",
+   "title": "Allah preserves the Quran's miracle",
+   "body": "The Quran's miracle lasts until the Last Day, unlike miracles only witnessed at the time."
+  },
+  {
+   "id": "l2",
+   "title": "Read to understand",
+   "body": "Learn the meaning of what is recited in prayer so the miracle is felt."
+  },
+  {
+   "id": "l3",
+   "title": "Longing for the Prophet SAW above homeland",
+   "body": "The emigrants returned out of longing for the Prophet SAW, above longing for family."
+  },
+  {
+   "id": "l4",
+   "title": "Solidarity over comfort",
+   "body": "Uthman gave up protection because it was unfair for him to be safe while companions were tortured."
+  },
+  {
+   "id": "l5",
+   "title": "Islamic brotherhood over tribal ties",
+   "body": "The bond of Islam is higher than the bond of family."
+  },
+  {
+   "id": "l6",
+   "title": "Social capital and exposure",
+   "body": "Company and exposure build leadership, like Amr and the Prophet with Abdul Muttalib."
+  },
+  {
+   "id": "l7",
+   "title": "Understand lobbying",
+   "body": "Lobbying behind power shapes policy; Amr won the ministers before meeting the king."
+  },
+  {
+   "id": "l8",
+   "title": "A well-crafted speech",
+   "body": "Ja'far began with before-and-after, avoided sensitive issues and stated what Islam is."
+  },
+  {
+   "id": "l9",
+   "title": "Say what Islam is, not only what it is not",
+   "body": "Ja'far only said Isa is a servant and word of Allah without attacking."
+  },
+  {
+   "id": "l10",
+   "title": "A just leader refuses bribes",
+   "body": "The Najashi returned the gifts because Allah took no bribe from him."
+  },
+  {
+   "id": "l11",
+   "title": "Every small good is multiplied",
+   "body": "The Najashi's kindness flows to African Muslims and Egyptian scholars today."
+  }
+ ],
+ "glossary": [
+  {
+   "id": "g1",
+   "meaning": "Prostration made when reciting or hearing a verse of prostration."
+  },
+  {
+   "id": "g2",
+   "meaning": "The 'satanic verses' tale tied to An-Najm; Quraysh used it to avoid embarrassment."
+  },
+  {
+   "id": "g3",
+   "meaning": "Protection given by a tribal leader, like a passport."
+  },
+  {
+   "id": "g4",
+   "meaning": "An Abyssinian word meaning safe and fully protected."
+  },
+  {
+   "id": "g5",
+   "meaning": "The Abyssinian Orthodox Christian tradition, whose name means 'tawhid' in their language."
+  },
+  {
+   "id": "g6",
+   "meaning": "Relationships and exposure that open opportunities."
+  }
+ ],
+ "dalil": [
+  {
+   "id": "h0",
+   "context": "Muslim, from Abu Hurairah; the companions prayed with four takbirs.",
+   "translation": "Today a righteous man has died; stand and pray for your brother Ashamah."
+  },
+  {
+   "id": "q53-1",
+   "context": "Surah An-Najm, recited suddenly by the Prophet SAW at the Sacred Mosque.",
+   "translation": "By the star when it sets!",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q53-55",
+   "context": "Which of your Lord's blessings do you doubt?",
+   "translation": "Which then of your Lord’s blessings do you deny?",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q53-57",
+   "context": "The near Hour has drawn close.",
+   "translation": "The imminent Hour draws near",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q53-59",
+   "context": "A rebuke to those who are amazed at the Quran while laughing at it.",
+   "translation": "Do you [people] marvel at this?",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q53-62",
+   "context": "Prostrate to Allah and worship Him; the prostration of recitation.",
+   "translation": "Bow down before God and worship.",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q54-17",
+   "context": "Allah made the Quran easy for remembrance.",
+   "translation": "We have made it easy to learn lessons from the Quran: will anyone take heed?",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "h11",
+   "context": "Sahih Bukhari via Ibn Abbas; Uthman was struck until his eye was bruised.",
+   "translation": "Labid said 'everything besides Allah is false'; Uthman agreed, but objected to 'every blessing will vanish', since the blessings of paradise will not vanish."
+  },
+  {
+   "id": "h9",
+   "context": "Answer to Umar, who teased Asma' that they were closer to the Prophet SAW.",
+   "translation": "The Prophet SAW told Asma' bint Umays that they had migrated twice."
+  },
+  {
+   "id": "h10",
+   "context": "A weak report cited in the sirah books.",
+   "translation": "Uthman was the first to migrate with his family since Lut AS."
+  },
+  {
+   "id": "q5-83",
+   "context": "The verse said to refer to the Najashi: eyes overflowing with tears at the truth.",
+   "translation": "and when they listen to what has been sent down to the Messenger, you will see their eyes overflowing with tears because they recognize the Truth [in it]. They say, ‘Our Lord, we believe, so count us amongst the witnesses.",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q3-64",
+   "context": "The call to a common word in the Prophet's letter to the Najashi.",
+   "translation": "Say, ‘People of the Book, let us arrive at a statement that is common to us all: we worship God alone, we ascribe no partner to Him, and none of us takes others beside God as lords.’ If they turn away, say, ‘Witness our devotion to Him.’",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  }
+ ],
+ "sirah": {
+  "era": "Fifth to sixth year of prophethood",
+  "summary": "The An-Najm event, return from Abyssinia, the second migration and the talks at the Najashi's court.",
+  "events": [
+   {
+    "id": "e0",
+    "label": "An-Najm",
+    "title": "Mass prostration at the Sacred Mosque",
+    "desc": "Quraysh were captivated and prostrated except Umayyah."
+   },
+   {
+    "id": "e1",
+    "label": "False report",
+    "title": "Emigrants return",
+    "desc": "Some returned out of longing and thinking Quraysh had become Muslim."
+   },
+   {
+    "id": "e2",
+    "label": "Uthman ibn Maz'un",
+    "title": "Protection returned",
+    "desc": "His eye was bruised for defending Labid's line."
+   },
+   {
+    "id": "e3",
+    "label": "Second migration",
+    "title": "83 men and 28 women",
+    "desc": "Ja'far appointed leader."
+   },
+   {
+    "id": "e4",
+    "label": "The court",
+    "title": "Ja'far's speech",
+    "desc": "Surah Maryam moved the Najashi."
+   },
+   {
+    "id": "e5",
+    "label": "Najashi's guarantee",
+    "title": "The 'shuyum' decree",
+    "desc": "Anyone harming them would be punished; the gifts were returned."
+   },
+   {
+    "id": "e6",
+    "label": "The Najashi's war",
+    "title": "Zubair brings news of victory",
+    "desc": "The Najashi defeated his opponents."
+   }
+  ]
+ },
+ "mindmap": {
+  "id": "root",
+  "label": "Migration to Abyssinia and the Najashi",
+  "detail": "From An-Najm to the funeral prayer.",
+  "children": [
+   {
+    "id": "m1",
+    "label": "Surah An-Najm",
+    "detail": "Mass prostration.",
+    "children": [
+     {
+      "id": "m1a",
+      "label": "Sudden recitation",
+      "detail": "At the Sacred Mosque."
+     },
+     {
+      "id": "m1b",
+      "label": "Everyone prostrates",
+      "detail": "Except Umayyah."
+     },
+     {
+      "id": "m1c",
+      "label": "The gharaniq story",
+      "detail": "Saving face."
+     }
+    ]
+   },
+   {
+    "id": "m2",
+    "label": "The emigrants return",
+    "detail": "False news.",
+    "children": [
+     {
+      "id": "m2a",
+      "label": "Longing for the Prophet SAW",
+      "detail": "Above homeland."
+     },
+     {
+      "id": "m2b",
+      "label": "Uthman ibn Maz'un",
+      "detail": "Returns protection."
+     },
+     {
+      "id": "m2c",
+      "label": "Labid and the bruised eye",
+      "detail": "A line of poetry."
+     }
+    ]
+   },
+   {
+    "id": "m3",
+    "label": "Second migration",
+    "detail": "Over 100 people.",
+    "children": [
+     {
+      "id": "m3a",
+      "label": "Ja'far as leader",
+      "detail": "Spokesman."
+     },
+     {
+      "id": "m3b",
+      "label": "Asma' and Umm Habibah",
+      "detail": "Notable names."
+     }
+    ]
+   },
+   {
+    "id": "m4",
+    "label": "Quraysh envoys",
+    "detail": "Lobbying.",
+    "children": [
+     {
+      "id": "m4a",
+      "label": "Amr and Abdullah",
+      "detail": "Sons of diplomats."
+     },
+     {
+      "id": "m4b",
+      "label": "Leather gifts",
+      "detail": "Bribes for ministers."
+     },
+     {
+      "id": "m4c",
+      "label": "Amr's case",
+      "detail": "Foolish youths."
+     }
+    ]
+   },
+   {
+    "id": "m5",
+    "label": "Ja'far's speech",
+    "detail": "Summing up Islam.",
+    "children": [
+     {
+      "id": "m5a",
+      "label": "Jahiliyyah to Islam",
+      "detail": "A Messenger from among us."
+     },
+     {
+      "id": "m5b",
+      "label": "Surah Maryam",
+      "detail": "The Najashi weeps."
+     }
+    ]
+   },
+   {
+    "id": "m6",
+    "label": "Second round",
+    "detail": "On Isa.",
+    "children": [
+     {
+      "id": "m6a",
+      "label": "Isa, servant and word of Allah",
+      "detail": "Without attacking."
+     },
+     {
+      "id": "m6b",
+      "label": "The line on the stick",
+      "detail": "Same as the Najashi's belief."
+     },
+     {
+      "id": "m6c",
+      "label": "Refusing the bribe",
+      "detail": "Gifts returned."
+     }
+    ]
+   },
+   {
+    "id": "m7",
+    "label": "The Najashi",
+    "detail": "A just king.",
+    "children": [
+     {
+      "id": "m7a",
+      "label": "Rise to the throne",
+      "detail": "Once sold as a slave."
+     },
+     {
+      "id": "m7b",
+      "label": "Exchange of letters",
+      "detail": "He declared Islam."
+     },
+     {
+      "id": "m7c",
+      "label": "Absentee funeral prayer",
+      "detail": "By the Prophet SAW."
+     }
+    ]
+   }
+  ]
+ }
+}
