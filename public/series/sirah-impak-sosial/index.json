@@ -227,7 +227,8 @@
    "season": 2,
    "duration": 4087,
    "views": 30000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T01:15:24"
   },
   {
    "id": "ep19",
@@ -237,7 +238,8 @@
    "season": 2,
    "duration": 5235,
    "views": 29000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T01:23:12"
   },
   {
    "id": "ep20",
