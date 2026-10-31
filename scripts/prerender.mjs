@@ -22,7 +22,19 @@ const clip = (s, n = 155) => {
 
 const shell = readFileSync(join(dist, 'index.html'), 'utf8')
 
-function page({ path, title, description, body, index = true }) {
+/** ISO 8601 duration, such as PT1H4M52S, for structured data. */
+const isoDuration = (sec) => {
+  const s = Math.max(0, Math.round(sec))
+  return `PT${s >= 3600 ? Math.floor(s / 3600) + 'H' : ''}${Math.floor((s % 3600) / 60)}M${s % 60}S`
+}
+const ORG = { '@type': 'Organization', name: NAME, url: SITE + '/' }
+const crumbs = (items) => ({
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map(([name, path], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE + path })),
+})
+
+function page({ path, title, description, body, index = true, jsonLd = [] }) {
   const url = SITE + path
   const head = [
     `<meta name="description" content="${esc(description)}" />`,
@@ -35,6 +47,8 @@ function page({ path, title, description, body, index = true }) {
     `<meta property="og:description" content="${esc(description)}" />`,
     `<meta property="og:url" content="${esc(url)}" />`,
     `<meta name="twitter:card" content="summary" />`,
+    // "<" is escaped so that text from the notes can never close the script tag.
+    ...jsonLd.map((d) => `<script type="application/ld+json">${JSON.stringify(d).replace(/</g, '\\u003c')}</script>`),
   ]
     .filter(Boolean)
     .join('\n    ')
@@ -62,6 +76,7 @@ page({
     `<h1>${NAME}</h1><p>${esc(landingDescription)}</p><ul>` +
     all.map((s) => `<li><a href="/${s.slug}">${esc(s.series.title)}</a> · ${esc(s.series.speaker)}</li>`).join('') +
     '</ul>',
+  jsonLd: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: NAME, url: SITE + '/', inLanguage: ['ms', 'en'], description: landingDescription, publisher: ORG }],
 })
 entries.push({ path: '/' })
 
@@ -81,6 +96,7 @@ for (const s of all) {
         .map((e) => `<li><a href="/${slug}/${e.id}">${esc(label(e))}: ${esc(e.title)}</a></li>`)
         .join('') +
       '</ol>',
+    jsonLd: [crumbs([[NAME, '/'], [series.title, `/${slug}`]])],
   })
   entries.push({ path: `/${slug}` })
   pages++
@@ -106,6 +122,30 @@ for (const s of all) {
           `<p>${esc(n.summary)}</p><h2>Topik utama</h2><ol>` +
           n.chapters.map((c) => `<li><strong>${esc(c.title)}</strong>: ${esc(c.summary)}</li>`).join('') +
           '</ol>',
+        jsonLd: [
+          {
+            '@context': 'https://schema.org',
+            '@type': 'Article',
+            headline: n.title,
+            description: clip(n.summary, 300),
+            url: SITE + path,
+            inLanguage: 'ms',
+            ...(e.notesAddedAt && { dateModified: e.notesAddedAt.slice(0, 10) }),
+            author: ORG,
+            publisher: ORG,
+            // The notes are ours; the lecture they summarise is the speaker's and stays on YouTube.
+            isBasedOn: {
+              '@type': 'VideoObject',
+              name: n.title,
+              url: `https://www.youtube.com/watch?v=${e.youtubeId}`,
+              embedUrl: `https://www.youtube.com/embed/${e.youtubeId}`,
+              thumbnailUrl: `https://i.ytimg.com/vi/${e.youtubeId}/hqdefault.jpg`,
+              ...(e.duration && { duration: isoDuration(e.duration) }),
+              creator: { '@type': 'Person', name: n.speaker },
+            },
+          },
+          crumbs([[NAME, '/'], [series.title, `/${slug}`], [`${label(e)}: ${n.title}`, path]]),
+        ],
       })
       entries.push({ path, lastmod: e.notesAddedAt?.slice(0, 10) })
     }
