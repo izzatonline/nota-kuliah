@@ -315,7 +315,8 @@
    "season": 2,
    "duration": 4635,
    "views": 19000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T01:58:50"
   },
   {
    "id": "ep27",
@@ -325,7 +326,8 @@
    "season": 2,
    "duration": 5148,
    "views": 22000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T02:05:40"
   },
   {
    "id": "ep28",

@@ -1,0 +1,547 @@
+{
+ "summary": "Ustaz Azlan corrects several slips from the previous episode, then tells the story behind Surah Al-Kawthar when Abu Lahab rejoiced at the death of the Prophet's SAW son. He explains Quraysh's character-assassination campaign: calling the Prophet SAW mad, a sorcerer, a poet and a liar, and creating inferiority among poor followers by mocking them. Stories include Umar hearing Surah Al-Haqqah first-hand, and Al-Walid ibn Al-Mughirah's admission of the Quran's beauty answered by Al-Muddaththir verses 11-26. He closes with a preview of the phase of physical intimidation and the family of Yasir.",
+ "keyPoints": [
+  "Surah Al-Kawthar came down to console the Prophet SAW when Abu Lahab greeted the death of his son with 'cut off'.",
+  "After failing to stop the Quran, Quraysh turned to character assassination though they knew he was the most honest.",
+  "The labels used were mad, sorcerer, poet, soothsayer and liar; Quranic verses exposed each of them.",
+  "Quraysh created inferiority among the followers by mocking the poor and different.",
+  "Umar heard the Prophet SAW recite Al-Haqqah behind the Kaaba's covering and felt Islam enter his heart, though the chain is weak.",
+  "Al-Walid ibn Al-Mughirah admitted the Quran's beauty but chose to reject it out of interest, so Allah exposed his plotting.",
+  "The best defence is to explain what the Quran is, not merely deny the accusations."
+ ],
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "Corrections from the previous episode",
+   "summary": "The ustaz corrects points on the white days, Abdullah ibn Ubayy ibn Salul and Sa'd's words."
+  },
+  {
+   "id": "c2",
+   "title": "A fact about Ammar and Yasir's family",
+   "summary": "The only companion both of whose parents were Muslim at the Hijrah."
+  },
+  {
+   "id": "c3",
+   "title": "The story behind Surah Al-Kawthar",
+   "summary": "The Prophet's SAW son died, Abu Lahab cheered, and Allah sent down Al-Kawthar."
+  },
+  {
+   "id": "c4",
+   "title": "The Pool of Al-Kawthar and the meaning of 'cut off'",
+   "summary": "The river of Paradise and the name Muhammad that is never cut off."
+  },
+  {
+   "id": "c5",
+   "title": "The shift to character assassination",
+   "summary": "After failing to block and confuse, Quraysh attacked the messenger."
+  },
+  {
+   "id": "c6",
+   "title": "The Prophet's SAW character cannot be killed",
+   "summary": "Allah asks whether they will not think, in Yunus 16."
+  },
+  {
+   "id": "c7",
+   "title": "The label 'mad'",
+   "summary": "Al-Qalam 2 and 51 and Al-Hijr 6 answer the charge of madness."
+  },
+  {
+   "id": "c8",
+   "title": "The labels sorcerer and liar",
+   "summary": "Surah Sad 4 and the analogy of magic and today's media."
+  },
+  {
+   "id": "c9",
+   "title": "Inferiority complex and mockery",
+   "summary": "Al-An'am 53, Al-Kahf 28 and Al-Mutaffifin 29-33."
+  },
+  {
+   "id": "c10",
+   "title": "Umar hears Al-Haqqah",
+   "summary": "Umar slipped behind the Kaaba's covering and heard the Prophet SAW recite Al-Haqqah."
+  },
+  {
+   "id": "c11",
+   "title": "Utbah ibn Rabi'ah and Fussilat",
+   "summary": "A preview of Utbah, who was stunned and covered the Prophet's SAW mouth."
+  },
+  {
+   "id": "c12",
+   "title": "Al-Walid ibn Al-Mughirah and the 'press conference'",
+   "summary": "Al-Walid praised the Quran, was pressed by Abu Jahl, and Allah exposed his plot in Al-Muddaththir."
+  },
+  {
+   "id": "c13",
+   "title": "Physical intimidation and Yasir's family",
+   "summary": "A preview of the torture phase and the story of Ammar, Sumayyah and Yasir."
+  },
+  {
+   "id": "c14",
+   "title": "Q&A: the Quran and sirah explain each other",
+   "summary": "Thoughts on the Quran's answers and the pressures new Muslims face."
+  }
+ ],
+ "books": [
+  {
+   "id": "b1",
+   "context": "Contains the story of Umar hearing Al-Haqqah and a chapter on the torture of the weak and the elite."
+  },
+  {
+   "id": "b2",
+   "context": "Source of Al-Walid's story from Al-Mustadrak of Al-Hakim."
+  },
+  {
+   "id": "b3",
+   "context": "Describes Umar as a unique figure who loved ancestral tradition and Makkah."
+  },
+  {
+   "id": "b4",
+   "context": "A film on Kiai Haji Ahmad Dahlan, founder of Muhammadiyah, who was labelled and rejected by society."
+  }
+ ],
+ "people": [
+  {
+   "id": "p1",
+   "role": "Uncle of the Prophet SAW",
+   "context": "Cheered the death of the Prophet's SAW son with 'cut off'."
+  },
+  {
+   "id": "p2",
+   "role": "Companion",
+   "context": "The only companion whose parents were both Muslim at the Hijrah."
+  },
+  {
+   "id": "p3",
+   "role": "Ammar's parents",
+   "context": "The first martyrs in Islam."
+  },
+  {
+   "id": "p4",
+   "role": "Chief of the hypocrites in Madinah",
+   "context": "Corrected: he was the hypocrite, not Abdullah ibn Umm Maktum."
+  },
+  {
+   "id": "p5",
+   "role": "Noble companion",
+   "context": "The Prophet's SAW muezzin, left in charge of Madinah."
+  },
+  {
+   "id": "p6",
+   "role": "Storyteller",
+   "context": "Disrupted people coming to hear the Prophet SAW."
+  },
+  {
+   "id": "p7",
+   "role": "Young Quraysh man not yet Muslim",
+   "context": "Heard Al-Haqqah from behind the Kaaba's covering."
+  },
+  {
+   "id": "p8",
+   "role": "Quraysh negotiator",
+   "context": "Was stunned by Fussilat and covered the Prophet's SAW mouth."
+  },
+  {
+   "id": "p9",
+   "role": "Quraysh political figure, father of Khalid",
+   "context": "Praised the Quran, was pressed by Abu Jahl and called it sorcery."
+  },
+  {
+   "id": "p10",
+   "role": "Campaign manager",
+   "context": "Pressed Al-Walid to issue a statement discrediting the Quran."
+  },
+  {
+   "id": "p11",
+   "role": "Son of Al-Walid",
+   "context": "Later accepted Islam and became the Sword of Allah."
+  },
+  {
+   "id": "p12",
+   "role": "Sirah scholar",
+   "context": "Explained Umar's character."
+  },
+  {
+   "id": "p13",
+   "role": "Companion tortured with fire",
+   "context": "Tortured by a woman."
+  },
+  {
+   "id": "p14",
+   "role": "Companion",
+   "context": "Not Roman; slave of Abdullah ibn Jud'an who knew the Prophet SAW before prophethood."
+  },
+  {
+   "id": "p15",
+   "role": "Companion",
+   "context": "Later freed many slaves and was pressed by his father; Allah answered in Al-Layl."
+  }
+ ],
+ "lessons": [
+  {
+   "id": "l1",
+   "title": "Correct mistakes honestly",
+   "body": "The ustaz corrects slips, especially those touching the names of companions."
+  },
+  {
+   "id": "l2",
+   "title": "The Prophet's SAW name is not cut off",
+   "body": "Muhammad is the most given name in the world; it is his haters who are cut off."
+  },
+  {
+   "id": "l3",
+   "title": "The Prophet's SAW character cannot be killed",
+   "body": "No one who lived with him found a flaw."
+  },
+  {
+   "id": "l4",
+   "title": "Beware labels as a tactic",
+   "body": "The more labels thrown, the more people fear without hearing the real message."
+  },
+  {
+   "id": "l5",
+   "title": "Reformers are often labelled",
+   "body": "Those who bring change are often called agents or mad."
+  },
+  {
+   "id": "l6",
+   "title": "The best defence is explaining what the Quran is",
+   "body": "The Quran answers accusations by stating what it is, not only by denying."
+  },
+  {
+   "id": "l7",
+   "title": "Listen for yourself before judging",
+   "body": "Most opponents have never heard the real message; Umar heard first-hand and was moved."
+  },
+  {
+   "id": "l8",
+   "title": "Weak reports may be used in sirah with conditions",
+   "body": "A weak report is not fabricated; it can be told in sirah with rules."
+  },
+  {
+   "id": "l9",
+   "title": "Knowing the truth is not accepting it",
+   "body": "Al-Walid admitted the Quran is not man's words but rejected it out of interest."
+  },
+  {
+   "id": "l10",
+   "title": "Stand as a minority",
+   "body": "Under pressure to hide identity, choose 'fight' over 'flight'."
+  },
+  {
+   "id": "l11",
+   "title": "Sirah and Quran explain each other",
+   "body": "Understanding sirah helps understand the Quran and vice versa."
+  }
+ ],
+ "glossary": [
+  {
+   "id": "g1",
+   "meaning": "Abundant good; also the river and pool of the Prophet SAW in Paradise."
+  },
+  {
+   "id": "g2",
+   "meaning": "Cut off, without a male line to carry the name."
+  },
+  {
+   "id": "g3",
+   "meaning": "To drop and sideline a person from public acceptance, the modern term for character assassination."
+  },
+  {
+   "id": "g4",
+   "meaning": "A lasting feeling of inferiority, especially among minorities."
+  },
+  {
+   "id": "g5",
+   "meaning": "A hadith weak in its chain but not fabricated."
+  },
+  {
+   "id": "g6",
+   "meaning": "Physical pressure and threats to frighten."
+  }
+ ],
+ "dalil": [
+  {
+   "id": "q108-1",
+   "context": "Allah gave the Prophet SAW Al-Kawthar. (reference identified, verse number not stated)",
+   "translation": "We have truly given abundance to you [Prophet]––",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "h2",
+   "context": "The meaning of Al-Kawthar explained.",
+   "translation": "Al-Kawthar is a river in Paradise and the Prophet's SAW pool; its width is a month's journey, its water whiter than milk and sweeter than musk, its cups like the stars, and whoever drinks will never be thirsty."
+  },
+  {
+   "id": "q108-3",
+   "context": "It is the one who hates the Prophet SAW who is cut off. (reference identified, verse number not stated)",
+   "translation": "it is the one who hates you who has been cut off.",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q10-16",
+   "context": "The Prophet SAW lived among them all his life before the Quran; will they not reflect?",
+   "translation": "Say, ‘If God had so willed, I would not have recited it to you, nor would He have made it known to you. I lived a whole lifetime among you before it came to me. How can you not use your reason?’",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q68-2",
+   "context": "You are not mad, by the grace of your Lord. (reference identified, verse number not stated)",
+   "translation": "Your Lord’s grace does not make you [Prophet] a madman:",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q68-51",
+   "context": "Their hostile glances nearly make the Prophet SAW slip as they say he is mad.",
+   "translation": "The disbelievers almost strike you down with their looks when they hear the Quran. They say, ‘He must be mad!’",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q15-6",
+   "context": "They said, 'O you to whom the Reminder was sent, you are mad.'",
+   "translation": "They say, ‘Receiver of this Quran! You are definitely mad.",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q38-4",
+   "context": "They marvel at a warner from among them and call him a sorcerer and a liar.",
+   "translation": "The disbelievers think it strange that a prophet of their own people has come to warn them: they say, ‘He is just a lying sorcerer.",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q6-53",
+   "context": "The wealthy of Quraysh mocked the poor followers.",
+   "translation": "We have made some of them a test for others, to make the disbelievers say, ‘Is it these men that God has favoured among us?’ Does God not know best who are the grateful ones?",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q18-28",
+   "context": "Allah tells the Prophet SAW to stay patient with those who call on their Lord morning and evening. (reference identified, verse number not stated)",
+   "translation": "Content yourself with those who pray to their Lord morning and evening, seeking His approval, and do not let your eyes turn away from them out of desire for the attractions of this worldly life: do not yield to those whose hearts We have made heedless of Our Quran, those who follow their own low desires, those whose ways are unbridled.",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q83-29",
+   "context": "The wrongdoers laughed at the believers.",
+   "translation": "The wicked used to laugh at the believers––",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "h18",
+   "context": "A consolation for the minority who hold on to their faith.",
+   "translation": "Islam began as a stranger and will return as a stranger, so blessed are the strangers."
+  },
+  {
+   "id": "h19",
+   "context": "Shows the level of Umar's intelligence and strength.",
+   "translation": "If Umar had lived in the time of Banu Israel he would have been a prophet."
+  },
+  {
+   "id": "q69-40",
+   "context": "The Quran is the word of a noble messenger, not the word of a poet; recited when Umar was listening.",
+   "translation": "this [Quran] is the speech of an honoured messenger,",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q69-42",
+   "context": "Nor is it the word of a soothsayer.",
+   "translation": "nor the words of a soothsayer- how little you reflect!",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q69-44",
+   "context": "Had the Prophet SAW invented sayings in Our name, We would have cut his aorta. (reference identified, verse number not stated)",
+   "translation": "if [the Prophet] had attributed some fabrication to Us,",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q41-1",
+   "context": "Utbah was stunned by the beginning of Fussilat and covered the Prophet's SAW mouth.",
+   "translation": "Ha Mim",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q74-11",
+   "context": "Allah answered Al-Walid in Al-Muddaththir verses 11-26.",
+   "translation": "[Prophet], leave Me to deal with the one I created helpless,",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q74-18",
+   "context": "Al-Walid thought and plotted accusations against the Quran. (reference identified, verse number not stated)",
+   "translation": "He planned and plotted––",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q74-24",
+   "context": "Al-Walid concluded the Quran was sorcery. (reference identified, verse number not stated)",
+   "translation": "and said, ‘This is just old sorcery,",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "h20",
+   "context": "Linked to Khabbab's torture with fire.",
+   "translation": "In our religion we may not treat or kill with fire; it is only Allah's right."
+  }
+ ],
+ "sirah": {
+  "era": "The third and fourth years of prophethood",
+  "summary": "Quraysh launched character assassination of the Prophet SAW and made his followers feel inferior.",
+  "events": [
+   {
+    "id": "e0",
+    "label": "Al-Kawthar",
+    "title": "Abu Lahab celebrates the death of the Prophet's SAW son",
+    "desc": "Allah sent Al-Kawthar to console the Prophet SAW."
+   },
+   {
+    "id": "e1",
+    "label": "Character campaign",
+    "title": "Mad, sorcerer, poet and liar",
+    "desc": "They labelled the Prophet SAW though they knew he was honest."
+   },
+   {
+    "id": "e2",
+    "label": "Inferiority",
+    "title": "Mocking the poor followers",
+    "desc": "Wealthy Quraysh belittled the weak companions."
+   },
+   {
+    "id": "e3",
+    "label": "Umar",
+    "title": "Hearing Al-Haqqah",
+    "desc": "Umar heard the Prophet SAW recite from behind the Kaaba's covering."
+   },
+   {
+    "id": "e4",
+    "label": "Al-Walid",
+    "title": "Admission and press conference",
+    "desc": "Al-Walid was pressed to deny the Quran and concluded it was sorcery."
+   },
+   {
+    "id": "e5",
+    "label": "Intimidation",
+    "title": "The phase of physical torture begins",
+    "desc": "Abu Jahl moved the nobles to press openly."
+   }
+  ]
+ },
+ "mindmap": {
+  "id": "root",
+  "label": "Assassinating the Prophet's SAW character",
+  "detail": "Quraysh's tactics after failing to block the Quran.",
+  "children": [
+   {
+    "id": "m1",
+    "label": "Surah Al-Kawthar",
+    "detail": "The death of a son.",
+    "children": [
+     {
+      "id": "m1a",
+      "label": "Abu Lahab cheers",
+      "detail": "Cut off."
+     },
+     {
+      "id": "m1b",
+      "label": "The Pool of Al-Kawthar",
+      "detail": "River of Paradise."
+     }
+    ]
+   },
+   {
+    "id": "m2",
+    "label": "Labels and accusations",
+    "detail": "Four labels.",
+    "children": [
+     {
+      "id": "m2a",
+      "label": "Mad",
+      "detail": "Al-Qalam and Al-Hijr."
+     },
+     {
+      "id": "m2b",
+      "label": "Sorcerer and liar",
+      "detail": "Sad 4."
+     },
+     {
+      "id": "m2c",
+      "label": "Poet and soothsayer",
+      "detail": "Al-Haqqah."
+     }
+    ]
+   },
+   {
+    "id": "m3",
+    "label": "Inferiority",
+    "detail": "Mockery of followers.",
+    "children": [
+     {
+      "id": "m3a",
+      "label": "Al-An'am 53",
+      "detail": "The rich mock."
+     },
+     {
+      "id": "m3b",
+      "label": "Al-Kahf and Al-Mutaffifin",
+      "detail": "Be patient with them."
+     }
+    ]
+   },
+   {
+    "id": "m4",
+    "label": "Umar",
+    "detail": "Hearing first-hand.",
+    "children": [
+     {
+      "id": "m4a",
+      "label": "The Kaaba's covering",
+      "detail": "He slipped in."
+     },
+     {
+      "id": "m4b",
+      "label": "Al-Haqqah 40-52",
+      "detail": "Not poet or soothsayer."
+     }
+    ]
+   },
+   {
+    "id": "m5",
+    "label": "Al-Walid",
+    "detail": "Admission and rejection.",
+    "children": [
+     {
+      "id": "m5a",
+      "label": "Not man's words",
+      "detail": "Early praise."
+     },
+     {
+      "id": "m5b",
+      "label": "Abu Jahl's pressure",
+      "detail": "No fitting label."
+     },
+     {
+      "id": "m5c",
+      "label": "Al-Muddaththir 11-26",
+      "detail": "Allah exposed his plot."
+     }
+    ]
+   },
+   {
+    "id": "m6",
+    "label": "The next phase",
+    "detail": "Intimidation.",
+    "children": [
+     {
+      "id": "m6a",
+      "label": "Yasir's family",
+      "detail": "Ammar, Sumayyah, Yasir."
+     },
+     {
+      "id": "m6b",
+      "label": "Khabbab and fire",
+      "detail": "Torture with fire."
+     }
+    ]
+   }
+  ]
+ }
+}
