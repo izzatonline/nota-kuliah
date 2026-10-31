@@ -46,7 +46,12 @@ function page({ path, title, description, body, index = true, jsonLd = [] }) {
     `<meta property="og:title" content="${esc(title)}" />`,
     `<meta property="og:description" content="${esc(description)}" />`,
     `<meta property="og:url" content="${esc(url)}" />`,
-    `<meta name="twitter:card" content="summary" />`,
+    `<meta property="og:image" content="${SITE}/og.jpg" />`,
+    `<meta property="og:image:width" content="1200" />`,
+    `<meta property="og:image:height" content="630" />`,
+    `<meta property="og:image:alt" content="${esc(NAME)}: nota Sirah Impak Sosial, Ustaz Azlan Shah NK" />`,
+    `<meta name="twitter:card" content="summary_large_image" />`,
+    `<meta name="twitter:image" content="${SITE}/og.jpg" />`,
     // "<" is escaped so that text from the notes can never close the script tag.
     ...jsonLd.map((d) => `<script type="application/ld+json">${JSON.stringify(d).replace(/</g, '\\u003c')}</script>`),
   ]
