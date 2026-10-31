@@ -1,0 +1,600 @@
+{
+ "id": "ep24",
+ "youtubeId": "2yFZX4AuIuM",
+ "title": "Strategi Dakwah Terbuka & Kecaman Pertama",
+ "speaker": "Ustaz Azlan Shah NK",
+ "series": "Sirah Impak Sosial",
+ "episode": 24,
+ "duration": 2378,
+ "summary": "Ustaz Azlan menceritakan permulaan dakwah terbuka selepas tiga tahun dakwah tertutup. Nabi SAW menerima perintah Surah Asy-Syu'ara ayat 214 untuk memberi peringatan kepada kerabat terdekat, lalu mengadakan dua jamuan untuk Bani Hashim yang digagalkan Abu Lahab, kecuali Ali yang menyatakan sokongan. Seterusnya Nabi SAW naik Bukit Safa memanggil seluruh Quraish, menguji kejujuran baginda dengan soalan tentera di belakang bukit, menyampaikan amaran, lalu dicela Abu Lahab dan turunlah Surah Al-Masad. Ustaz turut menghuraikan kesan terhadap anak-anak perempuan Nabi SAW dan nasib Abu Lahab serta isterinya.",
+ "keyPoints": [
+  "Dakwah terbuka bermula selepas Allah memerintahkan Nabi SAW memberi peringatan kepada kerabat terdekat dalam Asy-Syu'ara ayat 214.",
+  "Berdakwah kepada kerabat lebih sukar dan lebih menyakitkan berbanding orang luar.",
+  "Jamuan pertama digagalkan Abu Lahab; pada jamuan kedua Nabi SAW membaca khutbatul hajah dan hanya Ali yang menyatakan sokongan.",
+  "Di Bukit Safa Nabi SAW menyeru seluruh kabilah dan Quraish mengakui kejujuran baginda sebelum amaran diberikan.",
+  "Abu Lahab mencela Nabi SAW dan turun Surah Al-Masad yang membongkar nasibnya dan isterinya.",
+  "Anak-anak Abu Lahab menceraikan Ruqayyah dan Ummu Kulthum atas suruhan bapa, dan Nabi SAW berdoa terhadap Utaibah.",
+  "Pemimpin yang berdakwah harus mengurus jangkaan dan menerima penolakan sebagai sebahagian jalan para nabi."
+ ],
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "Ulangan penutup dan pembukaan",
+   "start": 0,
+   "end": 115,
+   "summary": "Kuliah dibuka dengan klip penghujung peristiwa Safa dan Abu Lahab, kemudian memulakan bab selepas tiga tahun."
+  },
+  {
+   "id": "c2",
+   "title": "Setiap perkara besar bermula kecil",
+   "start": 115,
+   "end": 271,
+   "summary": "Ustaz berkongsi pengalaman sekolah yang bermula daripada kayu terpakai dan nasihat kepada anak muda tentang kesabaran."
+  },
+  {
+   "id": "c3",
+   "title": "Perintah Asy-Syu'ara 214",
+   "start": 271,
+   "end": 362,
+   "summary": "Ayat memerintahkan memberi peringatan kepada kerabat terdekat."
+  },
+  {
+   "id": "c4",
+   "title": "Berdakwah kepada kerabat lebih sukar",
+   "start": 362,
+   "end": 481,
+   "summary": "Kerabat sendiri paling menyakitkan; hanya Abu Lahab yang disebut khas dalam satu surah."
+  },
+  {
+   "id": "c5",
+   "title": "Urus jangkaan dan kisah para nabi",
+   "start": 481,
+   "end": 594,
+   "summary": "Surah Asy-Syu'ara menceritakan nabi terdahulu supaya Nabi SAW dan sahabat tidak berharap diterima ramai."
+  },
+  {
+   "id": "c6",
+   "title": "Jamuan pertama Bani Hashim",
+   "start": 594,
+   "end": 792,
+   "summary": "Ali menyediakan sup kambing untuk 45 orang; makanan mencukupi tetapi Abu Lahab membubarkan majlis."
+  },
+  {
+   "id": "c7",
+   "title": "Jamuan kedua dan khutbatul hajah",
+   "start": 792,
+   "end": 1005,
+   "summary": "Nabi SAW berucap ketika makan, membaca khutbatul hajah dan menyampaikan kenabian serta kebangkitan."
+  },
+  {
+   "id": "c8",
+   "title": "Reaksi keluarga: Abu Talib dan Ali",
+   "start": 1005,
+   "end": 1255,
+   "summary": "Abu Talib memberi ruang tetapi tidak meninggalkan agama datuknya; hanya Ali yang berjanji menyokong."
+  },
+  {
+   "id": "c9",
+   "title": "Bukit Safa",
+   "start": 1255,
+   "end": 1473,
+   "summary": "Nabi SAW memanggil semua kabilah dan menguji kepercayaan mereka dengan soalan tentang tentera."
+  },
+  {
+   "id": "c10",
+   "title": "Amaran dan pemergian Abu Lahab",
+   "start": 1473,
+   "end": 1671,
+   "summary": "Nabi SAW memanggil nama kabilah dan keluarganya dan menegaskan tidak dapat melindungi sesiapa daripada azab; Abu Lahab mencela."
+  },
+  {
+   "id": "c11",
+   "title": "Surah Al-Masad dan Abu Lahab",
+   "start": 1671,
+   "end": 1859,
+   "summary": "Makna Lahab, hubungan keluarga yang berubah dan perceraian anak-anak Nabi SAW."
+  },
+  {
+   "id": "c12",
+   "title": "Doa terhadap Utaibah dan Ummu Jamil",
+   "start": 1859,
+   "end": 2170,
+   "summary": "Utaibah dibunuh singa; Ummu Jamil menyakiti Nabi SAW dengan kempen dan duri."
+  },
+  {
+   "id": "c13",
+   "title": "Kesudahan Abu Lahab dan penutup",
+   "start": 2170,
+   "end": 2378,
+   "summary": "Abu Lahab mati dengan hina; ustaz menutup dengan renungan tentang menghadapi penolakan."
+  }
+ ],
+ "dalil": [
+  {
+   "id": "q26-214",
+   "kind": "quran",
+   "ref": "Ash-Shu'araa 26:214",
+   "t": 268,
+   "arabic": "وَأَنذِرْ عَشِيرَتَكَ ٱلْأَقْرَبِينَ",
+   "translation": "Dan berilah peringatan serta amaran kepada kaum kerabatmu yang dekat.",
+   "context": "Perintah memberi peringatan kepada kerabat terdekat, menandai permulaan dakwah terbuka.",
+   "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
+   "verified": true
+  },
+  {
+   "id": "h4",
+   "kind": "hadith",
+   "ref": "Khutbatul hajah",
+   "t": 799,
+   "arabic": null,
+   "translation": "Segala puji bagi Allah; kami memuji-Nya, memohon pertolongan, petunjuk dan keampunan-Nya, dan berlindung dengan Allah daripada kejahatan diri dan keburukan amal kami; sesiapa yang diberi petunjuk Allah, tiada yang menyesatkannya; aku bersaksi tiada Tuhan selain Allah dan Muhammad hamba serta rasul-Nya.",
+   "context": "Dibaca Nabi SAW ketika memulakan ucapan pada jamuan kedua; ustaz membacanya setiap kali memulakan kuliah.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Ibn Hisham",
+   "grade": null,
+   "verified": false
+  },
+  {
+   "id": "h5",
+   "kind": "hadith",
+   "ref": "Ucapan Nabi SAW kepada Bani Hashim",
+   "t": 871,
+   "arabic": null,
+   "translation": "Seorang pemimpin tidak akan mendustakan keluarganya; demi Allah aku utusan Allah kepada kamu dan seluruh manusia; kamu akan mati seperti kamu tidur dan dibangkitkan seperti kamu bangun, lalu dihisab, dan hanya ada syurga atau neraka yang kekal.",
+   "context": "Dirujuk daripada riwayat sirah Ibn Hisham.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Ibn Hisham",
+   "grade": null,
+   "verified": false
+  },
+  {
+   "id": "h6",
+   "kind": "hadith",
+   "ref": "Seruan Nabi SAW di Bukit Safa",
+   "t": 1345,
+   "arabic": null,
+   "translation": "Jika aku beritahu bahawa di belakang bukit ini ada tentera yang bersedia menyerang, adakah kamu bertindak? Mereka menjawab ya; lalu Nabi SAW berkata, aku pemberi peringatan tentang azab yang dahsyat dan menyeru agar menyelamatkan diri daripada api neraka.",
+   "context": "Ucapan Nabi SAW di Safa yang dipanggil 'Ya Sabahah'.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Sumber tidak disebut dalam kuliah",
+   "grade": null,
+   "verified": false
+  },
+  {
+   "id": "q78-2",
+   "kind": "quran",
+   "ref": "An-Naba 78:2",
+   "t": 1421,
+   "arabic": "عَنِ ٱلنَّبَإِ ٱلْعَظِيمِ",
+   "translation": "Tentang berita yang besar, (berita kebangkitan manusia hidup semula menerima balasannya).",
+   "context": "Surah An-Naba' sebagai 'berita besar' yang menuntut tindakan, dikaitkan dengan peringatan Nabi SAW. (rujukan dikenal pasti, nombor ayat tidak disebut)",
+   "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
+   "verified": true
+  },
+  {
+   "id": "q111-1",
+   "kind": "quran",
+   "ref": "Al-Masad 111:1",
+   "t": 1618,
+   "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ تَبَّتْ يَدَآ أَبِى لَهَبٍۢ وَتَبَّ",
+   "translation": "Binasalah kedua-dua tangan Abu lahab, dan binasalah ia bersama!",
+   "context": "Surah Al-Masad turun selepas Abu Lahab mencela Nabi SAW di Safa. (rujukan dikenal pasti, nombor ayat tidak disebut)",
+   "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
+   "verified": true
+  },
+  {
+   "id": "h7",
+   "kind": "hadith",
+   "ref": "Doa terhadap Utaibah",
+   "t": 1859,
+   "arabic": null,
+   "translation": "Ya Allah, kuasakan ke atasnya seekor daripada anjing-Mu.",
+   "context": "Nabi SAW berdoa selepas Utaibah menyakiti baginda; Utaibah kemudian dibunuh singa.",
+   "narrator": "Tidak disebut dalam kuliah",
+   "source": "Kitab tafsir",
+   "grade": "Dikuatkan sebahagian ulama",
+   "verified": false
+  },
+  {
+   "id": "q108-1",
+   "kind": "quran",
+   "ref": "Al-Kawthar 108:1",
+   "t": 2001,
+   "arabic": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ إِنَّآ أَعْطَيْنَٰكَ ٱلْكَوْثَرَ",
+   "translation": "Sesungguhnya Kami telah mengurniakan kepadamu (wahai Muhammad) kebaikan yang banyak (di dunia dan di akhirat).",
+   "context": "Surah Al-Kauthar turun apabila Abu Lahab meraikan kematian anak Nabi SAW dengan 'terputus'. (rujukan dikenal pasti, nombor ayat tidak disebut)",
+   "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
+   "verified": true
+  }
+ ],
+ "books": [],
+ "people": [
+  {
+   "id": "p1",
+   "name": "Abu Lahab",
+   "role": "Bapa saudara Nabi SAW",
+   "t": 8,
+   "context": "Menggagalkan jamuan dan mencela Nabi SAW di Safa; satu surah dikhususkan untuknya."
+  },
+  {
+   "id": "p10",
+   "name": "Abu Jahal",
+   "role": "Gangster Quraish",
+   "t": 418,
+   "context": "Disebut antara musuh Nabi SAW tetapi tidak sampai ditentukan nasibnya."
+  },
+  {
+   "id": "p3",
+   "name": "Ali bin Abi Talib",
+   "role": "Anak angkat Nabi SAW, sekitar 10 tahun",
+   "t": 594,
+   "context": "Menyediakan jamuan dan menjadi satu-satunya yang menyatakan sokongan."
+  },
+  {
+   "id": "p6",
+   "name": "Safiyyah",
+   "role": "Ibu saudara Nabi SAW",
+   "t": 864,
+   "context": "Hadir dalam perhimpunan keluarga."
+  },
+  {
+   "id": "p4",
+   "name": "Abu Talib",
+   "role": "Bapa saudara Nabi SAW",
+   "t": 990,
+   "context": "Memberi ruang tetapi tidak meninggalkan agama Abdul Muttalib."
+  },
+  {
+   "id": "p5",
+   "name": "Al-Abbas",
+   "role": "Bapa saudara Nabi SAW",
+   "t": 1062,
+   "context": "Isterinya memeluk Islam selepas peristiwa jamuan."
+  },
+  {
+   "id": "p7",
+   "name": "Utbah dan Utaibah",
+   "role": "Anak-anak Abu Lahab",
+   "t": 1752,
+   "context": "Menceraikan Ruqayyah dan Ummu Kulthum atas suruhan bapa; Utaibah kemudian dimakan singa."
+  },
+  {
+   "id": "p8",
+   "name": "Ruqayyah dan Ummu Kulthum",
+   "role": "Anak perempuan Nabi SAW",
+   "t": 1752,
+   "context": "Dikahwinkan dengan anak Abu Lahab lalu diceraikan."
+  },
+  {
+   "id": "p2",
+   "name": "Ummu Jamil",
+   "role": "Isteri Abu Lahab",
+   "t": 1906,
+   "context": "Adik Abu Sufyan; menyakiti Nabi SAW dengan kempen dan perbuatan jahat."
+  },
+  {
+   "id": "p9",
+   "name": "Abu Bakar As-Siddiq",
+   "role": "Sahabat",
+   "t": 2008,
+   "context": "Diam ketika Ummu Jamil menghina; Allah menutup pandangannya daripada melihat Nabi SAW."
+  }
+ ],
+ "sirah": {
+  "era": "Permulaan dakwah terbuka selepas tiga tahun",
+  "summary": "Nabi SAW memulakan dakwah kepada kerabat dan seluruh Makkah dan menghadapi penolakan Abu Lahab.",
+  "events": [
+   {
+    "id": "e0",
+    "label": "Perintah",
+    "title": "Asy-Syu'ara 214",
+    "desc": "Nabi SAW diperintahkan memberi peringatan kepada kerabat terdekat.",
+    "t": 271
+   },
+   {
+    "id": "e1",
+    "label": "Jamuan 1",
+    "title": "Abu Lahab membubarkan majlis",
+    "desc": "Selepas makan, Abu Lahab bangun dan bersurai.",
+    "t": 726
+   },
+   {
+    "id": "e2",
+    "label": "Jamuan 2",
+    "title": "Khutbatul hajah dan hanya Ali menyokong",
+    "desc": "Nabi SAW menyeru, keluarga senyap, Ali berjanji menolong.",
+    "t": 1090
+   },
+   {
+    "id": "e3",
+    "label": "Bukit Safa",
+    "title": "Seruan kepada seluruh Makkah",
+    "desc": "Nabi SAW menguji kepercayaan dan menyampaikan amaran.",
+    "t": 1255
+   },
+   {
+    "id": "e4",
+    "label": "Al-Masad",
+    "title": "Abu Lahab dicela",
+    "desc": "Turun surah yang mengecam Abu Lahab dan isterinya.",
+    "t": 1614
+   },
+   {
+    "id": "e5",
+    "label": "Perceraian",
+    "title": "Utbah dan Utaibah menceraikan anak Nabi SAW",
+    "desc": "Utaibah menghina Nabi SAW dan Nabi SAW berdoa.",
+    "t": 1752
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "l1",
+   "title": "Mulakan kecil dan bersabar",
+   "kind": "Sosial",
+   "body": "Sekolah dan institusi besar bermula daripada langkah kecil; jangan tergesa-gesa melompat.",
+   "t": 115
+  },
+  {
+   "id": "l2",
+   "title": "Kerabat paling sukar didakwahi",
+   "kind": "Dakwah",
+   "body": "Menyampaikan kebenaran dalam keluarga lebih susah dan menyakitkan daripada orang luar.",
+   "t": 362
+  },
+  {
+   "id": "l3",
+   "title": "Urus jangkaan dalam dakwah",
+   "kind": "Dakwah",
+   "body": "Semua nabi ditentang; motivasinya ialah menyampaikan kerana Allah, bukan untuk disenangi ramai.",
+   "t": 519
+  },
+  {
+   "id": "l4",
+   "title": "Berikan yang terbaik kepada keluarga dahulu",
+   "kind": "Akhlak",
+   "body": "Produk yang baik akan ditawarkan kepada keluarga dahulu; jika tidak, ada tanda penipuan.",
+   "t": 904
+  },
+  {
+   "id": "l5",
+   "title": "Menguji kredibiliti sebelum menyampaikan",
+   "kind": "Dakwah",
+   "body": "Nabi SAW memastikan Quraish mengakui kejujurannya sebelum memberi amaran.",
+   "t": 1359
+  },
+  {
+   "id": "l6",
+   "title": "Berita penting menuntut tindakan",
+   "kind": "Akidah",
+   "body": "Nabak ialah berita penting yang mesti disampaikan dan ditindaklanjuti.",
+   "t": 1425
+  },
+  {
+   "id": "l7",
+   "title": "Kekerabatan tidak menyelamatkan",
+   "kind": "Akidah",
+   "body": "Nabi SAW tidak dapat melindungi Fatimah dan keluarga daripada azab; setiap orang memilih sendiri.",
+   "t": 1508
+  },
+  {
+   "id": "l8",
+   "title": "Sakit apabila anak diperlakukan hina",
+   "kind": "Adab",
+   "body": "Perceraian di khalayak bertujuan menjatuhkan semangat Nabi SAW; baginda hanya membalas apabila keluarganya disakiti.",
+   "t": 1805
+  },
+  {
+   "id": "l9",
+   "title": "Tangani penolakan",
+   "kind": "Dakwah",
+   "body": "Renungkan strategi, sumber, dan cara menghadapi penolakan; semak semula orang yang pernah kita tinggalkan.",
+   "t": 2331
+  }
+ ],
+ "glossary": [
+  {
+   "id": "g3",
+   "term": "Bani Hashim",
+   "arabic": null,
+   "meaning": "Kabilah Nabi SAW yang tinggal di 'seksyen tujuh'.",
+   "t": 585
+  },
+  {
+   "id": "g1",
+   "term": "Khutbatul hajah",
+   "arabic": null,
+   "meaning": "Khutbah pembukaan Nabi SAW yang dibaca setiap kali memulakan ucapan.",
+   "t": 795
+  },
+  {
+   "id": "g2",
+   "term": "Ya Sabahah",
+   "arabic": null,
+   "meaning": "Seruan pagi yang menarik perhatian seperti 'awas, bahaya'.",
+   "t": 1258
+  },
+  {
+   "id": "g5",
+   "term": "Nabak",
+   "arabic": null,
+   "meaning": "Berita besar yang menuntut tindakan.",
+   "t": 1425
+  },
+  {
+   "id": "g4",
+   "term": "Lahab",
+   "arabic": null,
+   "meaning": "Nyalaan api; digunakan untuk Abu Lahab yang berwajah kemerah-merahan.",
+   "t": 1671
+  },
+  {
+   "id": "g6",
+   "term": "Honorable enemy",
+   "arabic": null,
+   "meaning": "Penentang yang masih ada ruang dipertimbangkan, seperti Abu Talib dan Al-Abbas.",
+   "t": 2263
+  }
+ ],
+ "mindmap": {
+  "id": "root",
+  "label": "Dakwah terbuka bermula",
+  "t": 0,
+  "detail": "Jamuan, Safa dan Abu Lahab.",
+  "children": [
+   {
+    "id": "m1",
+    "label": "Perintah Syu'ara 214",
+    "t": 271,
+    "detail": "Mulai kerabat.",
+    "children": [
+     {
+      "id": "m1a",
+      "label": "Kerabat paling sukar",
+      "t": 362,
+      "detail": "Paling menyakitkan."
+     },
+     {
+      "id": "m1b",
+      "label": "Kisah nabi terdahulu",
+      "t": 481,
+      "detail": "Urus jangkaan."
+     }
+    ]
+   },
+   {
+    "id": "m2",
+    "label": "Jamuan pertama",
+    "t": 594,
+    "detail": "Digagalkan Abu Lahab.",
+    "children": [
+     {
+      "id": "m2a",
+      "label": "Sup kambing Ali",
+      "t": 611,
+      "detail": "Cukup untuk 45 orang."
+     },
+     {
+      "id": "m2b",
+      "label": "Abu Lahab bangun",
+      "t": 726,
+      "detail": "Majlis bersurai."
+     }
+    ]
+   },
+   {
+    "id": "m3",
+    "label": "Jamuan kedua",
+    "t": 792,
+    "detail": "Khutbatul hajah.",
+    "children": [
+     {
+      "id": "m3a",
+      "label": "Ucapan Nabi SAW",
+      "t": 871,
+      "detail": "Kenabian dan kebangkitan."
+     },
+     {
+      "id": "m3b",
+      "label": "Reaksi Abu Talib",
+      "t": 1007,
+      "detail": "Memberi ruang."
+     },
+     {
+      "id": "m3c",
+      "label": "Hanya Ali menyokong",
+      "t": 1114,
+      "detail": "Ditertawakan pakcik."
+     }
+    ]
+   },
+   {
+    "id": "m4",
+    "label": "Bukit Safa",
+    "t": 1255,
+    "detail": "Seruan umum.",
+    "children": [
+     {
+      "id": "m4a",
+      "label": "Ujian tentera di belakang bukit",
+      "t": 1359,
+      "detail": "Mereka mempercayai Nabi SAW."
+     },
+     {
+      "id": "m4b",
+      "label": "Amaran azab",
+      "t": 1473,
+      "detail": "Tidak dapat melindungi sesiapa."
+     },
+     {
+      "id": "m4c",
+      "label": "Abu Lahab mencela",
+      "t": 1571,
+      "detail": "Orang bersurai."
+     }
+    ]
+   },
+   {
+    "id": "m5",
+    "label": "Surah Al-Masad",
+    "t": 1671,
+    "detail": "Pembelaan Allah.",
+    "children": [
+     {
+      "id": "m5a",
+      "label": "Nama dan wajah Lahab",
+      "t": 1679,
+      "detail": "Kemerah-merahan."
+     },
+     {
+      "id": "m5b",
+      "label": "Anak diceraikan",
+      "t": 1766,
+      "detail": "Ruqayyah dan Ummu Kulthum."
+     }
+    ]
+   },
+   {
+    "id": "m6",
+    "label": "Ummu Jamil",
+    "t": 1906,
+    "detail": "Isteri yang setia.",
+    "children": [
+     {
+      "id": "m6a",
+      "label": "Kempen dan duri",
+      "t": 2056,
+      "detail": "Menyakiti Nabi SAW."
+     },
+     {
+      "id": "m6b",
+      "label": "Abu Bakar diam",
+      "t": 2045,
+      "detail": "Pandangan ditutup."
+     }
+    ]
+   },
+   {
+    "id": "m7",
+    "label": "Kesudahan dan renungan",
+    "t": 2170,
+    "detail": "Menangani penolakan.",
+    "children": [
+     {
+      "id": "m7a",
+      "label": "Abu Lahab mati hina",
+      "t": 2120,
+      "detail": "Mayat dibakar dalam lubang."
+     },
+     {
+      "id": "m7b",
+      "label": "Persoalan untuk kita",
+      "t": 2331,
+      "detail": "Strategi dan penolakan."
+     }
+    ]
+   }
+  ]
+ }
+}
