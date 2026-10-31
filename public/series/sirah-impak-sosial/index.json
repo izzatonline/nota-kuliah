@@ -205,7 +205,8 @@
    "season": 1,
    "duration": 2557,
    "views": 31000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T01:01:55"
   },
   {
    "id": "prolog-t53UBNhT4AE",
@@ -215,7 +216,8 @@
    "season": 2,
    "duration": 5278,
    "views": 18000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T01:09:35"
   },
   {
    "id": "ep18",
