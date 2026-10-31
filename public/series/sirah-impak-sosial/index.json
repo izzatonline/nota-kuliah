@@ -271,7 +271,8 @@
    "season": 2,
    "duration": 4941,
    "views": 31000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T01:36:35"
   },
   {
    "id": "ep23",
@@ -281,7 +282,8 @@
    "season": 2,
    "duration": 3167,
    "views": 18000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T01:40:59"
   },
   {
    "id": "ep24",
