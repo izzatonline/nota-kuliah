@@ -63,14 +63,15 @@ function page({ path, title, description, body, index = true, jsonLd = [] }) {
 
 const entries = [] // for the sitemap
 
-const landingDescription =
-  'Nota kuliah Islam di sebelah video YouTube: topik berserta masa, dalil, rujukan dan pengajaran. Percuma, sumber terbuka, dalam Bahasa Melayu dan English.'
 const seriesSlugs = read('series/index.json').series
 const all = seriesSlugs.map((slug) => ({ slug, ...read(`series/${slug}/index.json`) }))
+// Searchers look for the series and the speaker by name, so the landing page says both.
+const featured = all.map((s) => `${s.series.title} oleh ${s.series.speaker}`).join(', ')
+const landingDescription = `Nota ${featured} di sebelah video YouTube: topik berserta masa, dalil, rujukan dan pengajaran. Percuma, sumber terbuka, dalam Bahasa Melayu dan English.`
 
 page({
   path: '/',
-  title: `${NAME}: nota kuliah agama dengan masa, dalil dan pengajaran`,
+  title: `${NAME}: nota ${all.map((s) => `${s.series.title} ${s.series.speaker}`).join(', ')} dengan masa dan dalil`,
   description: landingDescription,
   body:
     `<h1>${NAME}</h1><p>${esc(landingDescription)}</p><ul>` +
