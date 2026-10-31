@@ -172,7 +172,8 @@
    "season": 1,
    "duration": 3007,
    "views": 24000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T00:55:00"
   },
   {
    "id": "ep15",
@@ -193,7 +194,8 @@
    "season": 1,
    "duration": 2468,
    "views": 25000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T00:58:17"
   },
   {
    "id": "ep17",
