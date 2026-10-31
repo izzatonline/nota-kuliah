@@ -1,5 +1,7 @@
 node_modules
 dist
+# Built by scripts/search-index.mjs
+public/search/
 .claude/settings.local.json
 
 # API keys (for example HADITHAPI_KEY for scripts/hadith_lookup.py). Never commit these.

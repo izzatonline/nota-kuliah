@@ -1,72 +1,18 @@
-import { loadAllSeries, loadNotes } from '@/lib/data'
 import type { Lang } from '@/lib/i18n'
-import type { Notes, SeriesIndex } from '@/lib/types'
+import { entry, norm, type Entry, type Kind, type Row } from '@/lib/search-entries'
 
-export type Kind = 'episode' | 'topik' | 'dalil' | 'kitab' | 'tokoh' | 'pengajaran' | 'istilah'
-/** Result groups, in the order they are listed. */
-export const KINDS: Kind[] = ['episode', 'tokoh', 'kitab', 'dalil', 'topik', 'pengajaran', 'istilah']
-
-export type Entry = {
-  key: string
-  kind: Kind
-  slug: string
-  epId: string
-  epNumber: number | null
-  title: string
-  body: string
-  /** Normalised title and body, what the query is matched against. */
-  hay: string
-  titleHay: string
-  /** The card to open and flash on the episode page (none for an episode). */
-  itemId?: string
-  order: number
-}
-
-/** Lower case, accents and apostrophes removed and other punctuation turned into spaces, so "Mus'ab" is found by "musab". */
-export const norm = (s: string) =>
-  s.normalize('NFD').replace(/[\u0300-\u036f\u064b-\u065f]/g, '').toLowerCase().replace(/['\u2018\u2019\u02bb\u02bc\u02bf`]/g, '').replace(/[^\p{L}\p{N}\s]/gu, ' ').replace(/\s+/g, ' ').trim()
-
-const entry = (e: Omit<Entry, 'hay' | 'titleHay' | 'key'>, id: string): Entry => ({
-  ...e,
-  key: `${e.slug}/${e.epId}/${e.kind}/${id}`,
-  titleHay: norm(e.title),
-  hay: norm(`${e.title} ${e.body}`),
-})
-
-function fromNotes(slug: string, epId: string, epNumber: number | null, n: Notes, order: number): Entry[] {
-  const base = { slug, epId, epNumber, order }
-  const at = (kind: Kind, id: string) => ({ ...base, kind, itemId: `${kind}:${id}` })
-  return [
-    ...n.chapters.map((c) => entry({ ...at('topik', c.id), title: c.title, body: c.summary }, c.id)),
-    ...n.dalil.map((d) => entry({ ...at('dalil', d.id), title: d.ref, body: [d.translation, d.context, d.narrator, d.source].filter(Boolean).join(' ') }, d.id)),
-    ...n.books.map((b) => entry({ ...at('kitab', b.id), title: b.title, body: [b.author, b.context].filter(Boolean).join(' ') }, b.id)),
-    ...n.people.map((p) => entry({ ...at('tokoh', p.id), title: p.name, body: `${p.role} ${p.context}` }, p.id)),
-    ...n.lessons.map((l) => entry({ ...at('pengajaran', l.id), title: l.title, body: l.body }, l.id)),
-    ...n.glossary.map((g) => entry({ ...at('istilah', g.id), title: g.term, body: [g.arabic, g.meaning].filter(Boolean).join(' ') }, g.id)),
-  ]
-}
+export { KINDS, norm, type Entry, type Kind } from '@/lib/search-entries'
 
 const cache = new Map<Lang, Promise<Entry[]>>()
 
-/** Every episode title and every item of every episode's notes. Fetched once per language, the first time search opens. */
+/** Every episode title and every item of every episode's notes, from the index `scripts/search-index.mjs` builds. Fetched once per language, the first time search opens. */
 export function loadEntries(lang: Lang): Promise<Entry[]> {
   let p = cache.get(lang)
   if (!p) {
-    p = (async () => {
-      const all: SeriesIndex[] = await loadAllSeries()
-      const out: Entry[] = []
-      for (const idx of all) {
-        const eps = [...idx.episodes].reverse()
-        eps.forEach((ep, i) => out.push(entry({ kind: 'episode', slug: idx.series.slug, epId: ep.id, epNumber: ep.number, title: ep.title, body: '', order: i }, ep.id)))
-        const notes = await Promise.allSettled(eps.filter((e) => e.hasNotes).map((e) => loadNotes(idx.series.slug, e.id, lang).then((n) => [e, n] as const)))
-        for (const r of notes) {
-          if (r.status !== 'fulfilled') continue
-          const [ep, n] = r.value
-          out.push(...fromNotes(idx.series.slug, ep.id, ep.number, n, eps.indexOf(ep)))
-        }
-      }
-      return out
-    })()
+    p = fetch(`/search/${lang}.json`).then(async (r) => {
+      if (!r.ok || !r.headers.get('content-type')?.includes('json')) throw new Error('no search index')
+      return ((await r.json()) as Row[]).map((row) => entry(row))
+    })
     p.catch(() => cache.delete(lang)) // a failed load can be tried again
     cache.set(lang, p)
   }

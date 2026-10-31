@@ -24,7 +24,7 @@ npm run dev
 
 Pages: `/` is the landing page, `/<series>` opens a series at its newest notes, `/<series>/<episode>` opens one episode, for
 example `/sirah-impak-sosial/ep41`. The app reads `public/series/index.json` (list of series),
-`public/series/<series>/index.json` (episodes) and `public/series/<series>/<ep>/notes.json` (the notes). When you deploy,
+`public/series/<series>/index.json` (episodes) and `public/series/<series>/<ep>/notes.json` (the notes). `npm run dev` and `npm run build` first run `npm run search-index`, which writes `public/search/<lang>.json` (generated, not committed) for the Cmd/Ctrl+K search; after editing notes while the dev server runs, run it again. When you deploy,
 the host must serve `index.html` for unknown paths (a single-page-app rewrite). `public/_redirects` covers Cloudflare Pages (the site is hosted there).
 
 ## Add an episode
