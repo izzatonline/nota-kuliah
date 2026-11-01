@@ -1,0 +1,340 @@
+{
+ "summary": "This is a tadabbur class on Surah Al-Alaq in a mosque in Ramadan. The ustaz presents the Quran as the word of Allah, revealed in Arabic over 23 years and preserved by Allah, then recalls the Hira event and the meaning of ummi. He then reflects on the first five verses of Surah Al-Alaq: reading in the name of the Lord who created, man made from alaq through stages of 40, 40 and 40 days until the soul is breathed in, and four things written: lifespan, provision, deeds and final end. He also explains the Most Generous Lord who taught by the pen, and that people keep learning throughout life. The lecture closes with questions and a quiz.",
+ "keyPoints": [
+  "The Quran was revealed in Arabic over 23 years and Allah protects it from any alteration.",
+  "The Prophet SAW could not read because he was ummi, but Jibril delivered the first five verses of Al-Alaq and he memorised them.",
+  "The first verse commands reading in the name of the Lord who created, not a lord made by people.",
+  "Man was created from alaq, and after 120 days the soul is breathed in and four things are written: lifespan, provision, deeds and final end.",
+  "Allah taught man by the pen and people keep learning all their lives."
+ ],
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "Opening and the Al-Um Mosque",
+   "summary": "The ustaz recalls the history of idols and introduces the Al-Um Mosque, meaning mother, linked to ummi."
+  },
+  {
+   "id": "c2",
+   "title": "The Quran is the word of Allah",
+   "summary": "The Quran is Allah's word. It was once written on animal skins and wood, and compiled by Abu Bakr after the Prophet SAW died."
+  },
+  {
+   "id": "c3",
+   "title": "Thirty juz, one hundred and fourteen surahs",
+   "summary": "The Quran has 30 juz and 114 surahs, beginning with Al-Fatihah and ending with An-Nas."
+  },
+  {
+   "id": "c4",
+   "title": "Twenty-three years, in Arabic",
+   "summary": "The Quran came down bit by bit over 23 years in Arabic and is protected by Allah from change."
+  },
+  {
+   "id": "c5",
+   "title": "How revelation came",
+   "summary": "Revelation sometimes came like the sound of a bell, so heavy that a camel knelt or a companion's leg felt like breaking."
+  },
+  {
+   "id": "c6",
+   "title": "The Cave of Hira and the meaning of ummi",
+   "summary": "At 39 years 6 months he began to dream and withdrew to the cave, answering I am ummi when told to read."
+  },
+  {
+   "id": "c7",
+   "title": "The Arabs' strong memory",
+   "summary": "The Arabs did not read but memorised the lineages of people and of their camels and horses."
+  },
+  {
+   "id": "c8",
+   "title": "Surah 96 and the basmalah",
+   "summary": "Every surah starts with Bismillah except At-Tawbah, because it concerns Allah's anger at shirk."
+  },
+  {
+   "id": "c9",
+   "title": "Verse one: read in the name of your Lord",
+   "summary": "Read anything but in the name of Allah who created everything, from the greatest to the smallest cell."
+  },
+  {
+   "id": "c10",
+   "title": "Verse two: from alaq",
+   "summary": "Allah created man from a clot, and the Rabb is the Lord who creates, owns and sustains."
+  },
+  {
+   "id": "c11",
+   "title": "From earth and alaq to the soul's blowing",
+   "summary": "Adam was created from earth, while his children come from alaq. Every 40 days it changes until 120 days when the angel breathes in the soul."
+  },
+  {
+   "id": "c12",
+   "title": "Four things that are written",
+   "summary": "When the soul is breathed in Allah writes lifespan, provision, deeds and whether the end is happy or wretched."
+  },
+  {
+   "id": "c13",
+   "title": "Verses three and four: the Most Generous and the pen",
+   "summary": "Allah repeats the command to read and mentions His generosity, then teaching by the pen. Writing develops knowledge and Prophet Idris was the first to write."
+  },
+  {
+   "id": "c14",
+   "title": "Verse five: lifelong learning",
+   "summary": "Allah taught man what he did not know, so we never stop learning and we write to remember."
+  },
+  {
+   "id": "c15",
+   "title": "Questions about the heart",
+   "summary": "Pupils ask about the baby's and mother's hearts, and the ustaz explains the heart and oxygen."
+  },
+  {
+   "id": "c16",
+   "title": "Sirah quiz",
+   "summary": "The class closes with a quiz on the idols, the mosque, the Quran and the Prophet's story, with prizes for correct answers."
+  }
+ ],
+ "dalil": [
+  {
+   "id": "q96-1",
+   "context": "The ustaz recites and explains the first verse of Surah Al-Alaq.",
+   "translation": "Read! In the name of your Lord who created:",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q96-2",
+   "context": "He created man from a clinging clot.",
+   "translation": "He created manfrom a clinging form.",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q96-3",
+   "context": "Read, and your Lord is the Most Generous.",
+   "translation": "Read! Your Lord is the Most Bountiful One",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q96-4",
+   "context": "Who taught by the pen.",
+   "translation": "who taught by [means of] the pen,",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q96-5",
+   "context": "He taught man what he did not know.",
+   "translation": "who taught man what he did not know.",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q2-185",
+   "context": "The ustaz recites the verse that Ramadan is the month the Quran was sent down.",
+   "translation": "It was in the month of Ramadan that the Quran was revealed as guidance for mankind, clear messages giving guidance and distinguishing between right and wrong. So any one of you who is present that month should fast, and anyone who is ill or on a journey should make up for the lost days by fasting on other days later. God wants ease for you, not hardship. He wants you to complete the prescribed period and to glorify Him for having guided you, so that you may be thankful.",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "h6",
+   "translation": "The Prophet SAW said man is gathered in the womb forty days as a drop, forty days as a clot, forty days as a lump of flesh, then the angel breathes in the soul and writes provision, lifespan, deeds and whether wretched or happy.",
+   "context": "The ustaz cites the Prophet's words on the stages of the embryo. He does not name a narrator or source."
+  },
+  {
+   "id": "h7",
+   "translation": "The Prophet SAW said Allah created Adam from a handful of earth of varied colours, so Adam's children come in different colours and temperaments.",
+   "context": "The ustaz relays the Prophet's words on the origin of people's colours and temperaments. He does not name a narrator or source."
+  }
+ ],
+ "books": [],
+ "people": [
+  {
+   "id": "p1",
+   "role": "The first caliph",
+   "context": "Compiled the Quran after the Prophet SAW died."
+  },
+  {
+   "id": "p2",
+   "role": "The angel of revelation",
+   "context": "Embraced the Prophet SAW three times and delivered the first five verses of Al-Alaq."
+  },
+  {
+   "id": "p3",
+   "role": "The first human",
+   "context": "Created from earth of varied colours, not from alaq."
+  },
+  {
+   "id": "p4",
+   "role": "The first prophet to write",
+   "context": "Taught by Allah to write with the pen."
+  },
+  {
+   "id": "p5",
+   "role": "Prophet",
+   "context": "His story is mentioned most in the Quran."
+  }
+ ],
+ "sirah": {
+  "era": "The start of revelation: reflecting on Surah Al-Alaq",
+  "summary": "This lecture revisits the first revelation at the Cave of Hira and reflects on the first five verses of Surah Al-Alaq.",
+  "events": [
+   {
+    "id": "e0",
+    "label": "Dreams",
+    "title": "True dreams begin",
+    "desc": "At 39 years 6 months he began to dream and seek answers."
+   },
+   {
+    "id": "e1",
+    "label": "Embrace",
+    "title": "Jibril embraces him",
+    "desc": "The angel embraced him until he could hardly breathe and said read."
+   },
+   {
+    "id": "e2",
+    "label": "Verses",
+    "title": "The first five verses are delivered",
+    "desc": "The third time Jibril delivered the first verses of Al-Alaq."
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "l1",
+   "title": "Reading in Allah's name",
+   "body": "All reading and knowledge should begin with the name of the Lord who created."
+  },
+  {
+   "id": "l2",
+   "title": "The Quran is preserved by Allah",
+   "body": "No one can alter a letter, word or surah of the Quran."
+  },
+  {
+   "id": "l3",
+   "title": "Allah creates and sustains",
+   "body": "The Rabb is the Lord who creates and keeps sustaining His servant until death."
+  },
+  {
+   "id": "l4",
+   "title": "Reflect on our origin",
+   "body": "We come from a clot of nothing, and Allah made us knowing humans."
+  },
+  {
+   "id": "l5",
+   "title": "Lifespan, provision, deeds and end are written",
+   "body": "Allah writes four things when the soul is breathed in, but He does not force us and we make our choices."
+  },
+  {
+   "id": "l6",
+   "title": "Giving thanks for blessings",
+   "body": "We are given many blessings such as eyes, ears, food and legs to run."
+  },
+  {
+   "id": "l7",
+   "title": "Writing binds knowledge",
+   "body": "Writing down what we learn helps us remember it."
+  },
+  {
+   "id": "l8",
+   "title": "Lifelong learning",
+   "body": "We never stop learning even when old."
+  }
+ ],
+ "glossary": [
+  {
+   "id": "g1",
+   "meaning": "Unable to read and write, like a newborn baby."
+  },
+  {
+   "id": "g2",
+   "meaning": "Read, meaning to gather letters into words and sentences."
+  },
+  {
+   "id": "g3",
+   "meaning": "A clot that clings in the womb, like a leech."
+  },
+  {
+   "id": "g4",
+   "meaning": "The Lord who creates, owns and sustains."
+  },
+  {
+   "id": "g5",
+   "meaning": "One of the 30 parts of the Quran."
+  },
+  {
+   "id": "g6",
+   "meaning": "The phrase Bismillahirrahmanirrahim, in the name of Allah the Most Gracious, Most Merciful."
+  }
+ ],
+ "mindmap": {
+  "id": "root",
+  "label": "Reflecting on Surah Al-Alaq",
+  "detail": "The first five verses of revelation.",
+  "children": [
+   {
+    "id": "m1",
+    "label": "About the Quran",
+    "detail": "Allah's preserved word.",
+    "children": [
+     {
+      "id": "m1a",
+      "label": "30 juz, 114 surahs",
+      "detail": "Al-Fatihah to An-Nas."
+     },
+     {
+      "id": "m1b",
+      "label": "23 years in Arabic",
+      "detail": "Unchanged."
+     }
+    ]
+   },
+   {
+    "id": "m2",
+    "label": "The first revelation",
+    "detail": "Hira and ummi.",
+    "children": [
+     {
+      "id": "m2a",
+      "label": "The embrace and read",
+      "detail": "I am ummi."
+     },
+     {
+      "id": "m2b",
+      "label": "Arab memory",
+      "detail": "Lineages and camels."
+     }
+    ]
+   },
+   {
+    "id": "m3",
+    "label": "Verses 1 to 3",
+    "detail": "Creating and being generous.",
+    "children": [
+     {
+      "id": "m3a",
+      "label": "In the Lord's name",
+      "detail": "Creator of all."
+     },
+     {
+      "id": "m3b",
+      "label": "From alaq",
+      "detail": "Stages of 40 days."
+     },
+     {
+      "id": "m3c",
+      "label": "Four things written",
+      "detail": "Lifespan, provision, deeds, end."
+     }
+    ]
+   },
+   {
+    "id": "m4",
+    "label": "Verses 4 and 5",
+    "detail": "Knowledge and the pen.",
+    "children": [
+     {
+      "id": "m4a",
+      "label": "The pen teaches",
+      "detail": "Idris first wrote."
+     },
+     {
+      "id": "m4b",
+      "label": "Lifelong learning",
+      "detail": "Never stop learning."
+     }
+    ]
+   }
+  ]
+ }
+}
