@@ -1,0 +1,295 @@
+{
+ "series": {
+  "slug": "sirah-kanak-kanak",
+  "title": "Sirah Kanak-kanak",
+  "speaker": "Ustaz Azlan Shah NK",
+  "playlist": "https://www.youtube.com/playlist?list=PLNkHHi4NJZyqJA4LMubU3HyvyHknxJUm0",
+  "description": {
+   "ms": "Kisah hidup Nabi Muhammad SAW dari kelahiran hingga peristiwa Taif dan Isra', diceritakan dengan bahasa mudah untuk kanak-kanak dan keluarga, oleh Ustaz Azlan Shah NK.",
+   "en": "The life of the Prophet Muhammad SAW from his birth to Taif and the Isra', told in simple language for children and families by Ustaz Azlan Shah NK."
+  }
+ },
+ "episodes": [
+  {
+   "id": "ep1",
+   "youtubeId": "XlMDDdulSU8",
+   "number": 1,
+   "title": "Serangan Tentera Bergajah",
+   "season": 1,
+   "duration": 1481,
+   "views": 45000,
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T21:42:07"
+  },
+  {
+   "id": "ep2",
+   "youtubeId": "eMYNrZWcaow",
+   "number": 2,
+   "title": "Kisah Luar Biasa Moyang, Datuk dan Ayah kepada Nabi Muhammad SAW",
+   "season": 1,
+   "duration": 1678,
+   "views": 26000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep3",
+   "youtubeId": "omHemLvX5NE",
+   "number": 3,
+   "title": "Kisah Ghulam Pendakwah Muda (Ashabul Ukhdud)",
+   "season": 1,
+   "duration": 1710,
+   "views": 21000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep4",
+   "youtubeId": "x3jZmxEsYQg",
+   "number": 4,
+   "title": "Kelahiran dan Penyusuan Nabi Muhammad SAW",
+   "season": 1,
+   "duration": 1808,
+   "views": 19000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep5",
+   "youtubeId": "zZD1O79DqIU",
+   "number": 5,
+   "title": "Kehilangan ibu dan datuk kesayangan",
+   "season": 1,
+   "duration": 1792,
+   "views": 17000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep6",
+   "youtubeId": "o_JZZnyMZMY",
+   "number": 6,
+   "title": "Hidup bersama Abu Talib Sekeluarga",
+   "season": 1,
+   "duration": 1595,
+   "views": 14000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep7",
+   "youtubeId": "25DQf1FMDUQ",
+   "number": 7,
+   "title": "Nabi Muhammad ke Syam bersama Abu Talib",
+   "season": 1,
+   "duration": 1718,
+   "views": 13000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep8",
+   "youtubeId": "ocaSu-VjLAY",
+   "number": 8,
+   "title": "Perperangan Al-Fijar & Perjanjian Al-Fudhul",
+   "season": 1,
+   "duration": 2459,
+   "views": 12000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep9",
+   "youtubeId": "NF7RI6xBg_Y",
+   "number": 9,
+   "title": "Perkahwinan dengan Khadijah RA & Anak-anak Nabi Muhammad SAW",
+   "season": 1,
+   "duration": 1959,
+   "views": 12000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep10",
+   "youtubeId": "Ip0hWy9mV5I",
+   "number": 10,
+   "title": "Pembinaan semula Ka’bah & Sejarah Hajar Al-Aswad",
+   "season": 1,
+   "duration": 2029,
+   "views": 12000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep11",
+   "youtubeId": "e9ju95bxBm8",
+   "number": 11,
+   "title": "Penerimaan Wahyu Pertama",
+   "season": 1,
+   "duration": 1855,
+   "views": 11000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep12",
+   "youtubeId": "lwRu7Ru9YUo",
+   "number": 12,
+   "title": "Kisah Berhala Pertama di Ka'bah (Khas Ramadan)",
+   "season": 1,
+   "duration": 1843,
+   "views": 13000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep13",
+   "youtubeId": "wX_Wt3oSSL8",
+   "number": 13,
+   "title": "Tadabbur Surah Al-‘Alaq",
+   "season": 1,
+   "duration": 3416,
+   "views": 19000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep14",
+   "youtubeId": "pgPzkQQUST8",
+   "number": 14,
+   "title": "Tadabbur Surah Al-Qadr: Kisah Nabi Muhammad dilindungi Malaikat Jibril AS",
+   "season": 1,
+   "duration": 1276,
+   "views": 17000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep15",
+   "youtubeId": "XvsiviX9NPo",
+   "number": 15,
+   "title": "Kisah Nabi Muhammad Terima Wahyu Pertama",
+   "season": 1,
+   "duration": 2311,
+   "views": 7700,
+   "hasNotes": false
+  },
+  {
+   "id": "ep16",
+   "youtubeId": "8bz49o7uUx4",
+   "number": 16,
+   "title": "Nabi SAW Sedih Wahyu Terputus",
+   "season": 1,
+   "duration": 2082,
+   "views": 8100,
+   "hasNotes": false
+  },
+  {
+   "id": "ep17",
+   "youtubeId": "CF6rVrLSv5U",
+   "number": 17,
+   "title": "Nabi Muhammad SAW Mulakan Dakwah Secara Terbuka",
+   "season": 1,
+   "duration": 2219,
+   "views": 7600,
+   "hasNotes": false
+  },
+  {
+   "id": "ep18",
+   "youtubeId": "V8bZKXYmG-E",
+   "number": 18,
+   "title": "Ejekkan dan Cacian Menghujani Nabi Muhammad SAW",
+   "season": 1,
+   "duration": 1784,
+   "views": 7800,
+   "hasNotes": false
+  },
+  {
+   "id": "ep19",
+   "youtubeId": "OqK4TNMWdls",
+   "number": 19,
+   "title": "Penyiksaan terhadap Sahabat Nabi Muhammad SAW",
+   "season": 1,
+   "duration": 2506,
+   "views": 7700,
+   "hasNotes": false
+  },
+  {
+   "id": "ep20",
+   "youtubeId": "UEFfArw9ERY",
+   "number": 20,
+   "title": "Penyiksaan Terhadap Golongan Berharta & Berpangkat",
+   "season": 1,
+   "duration": 1846,
+   "views": 9600,
+   "hasNotes": false
+  },
+  {
+   "id": "ep21",
+   "youtubeId": "_zB_XnLc0Xg",
+   "number": 21,
+   "title": "Para Sahabat Hijrah ke Habasyah",
+   "season": 1,
+   "duration": 3500,
+   "views": 12000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep22",
+   "youtubeId": "mxoDes-svXQ",
+   "number": 22,
+   "title": "Kisah Lelaki Paling Kaya di Mekkah",
+   "season": 1,
+   "duration": 2246,
+   "views": 18000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep23",
+   "youtubeId": "jPuQPNAsCoY",
+   "number": 23,
+   "title": "Kisah Hamzah RA Memeluk Islam",
+   "season": 1,
+   "duration": 2385,
+   "views": 16000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep24",
+   "youtubeId": "98CnOgVIpX4",
+   "number": 24,
+   "title": "Kisah Umar Al Khattab RA Peluk Islam",
+   "season": 1,
+   "duration": 2596,
+   "views": 13000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep25",
+   "youtubeId": "gK504PEFOpo",
+   "number": 25,
+   "title": "Boikot ke atas Keluarga Nabi SAW dan Umat Islam",
+   "season": 1,
+   "duration": 2657,
+   "views": 7200,
+   "hasNotes": false
+  },
+  {
+   "id": "ep26",
+   "youtubeId": "Oa-jxRxfsqs",
+   "number": 26,
+   "title": "Tahun Kesedihan Nabi Muhammad SAW",
+   "season": 1,
+   "duration": 1853,
+   "views": 11000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep27",
+   "youtubeId": "qEm-7nPraKk",
+   "number": 27,
+   "title": "Nabi SAW berdakwah di Kota Taif",
+   "season": 1,
+   "duration": 2108,
+   "views": 19000,
+   "hasNotes": false
+  },
+  {
+   "id": "ep28",
+   "youtubeId": "cR3ZyQ3VAqg",
+   "number": 28,
+   "title": "Dari Taif ke Langit Tertinggi",
+   "season": 1,
+   "duration": 3117,
+   "views": 19000,
+   "hasNotes": false
+  }
+ ]
+}
