@@ -238,7 +238,8 @@
    "season": 1,
    "duration": 3500,
    "views": 12000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-02T00:21:59"
   },
   {
    "id": "ep22",
@@ -248,7 +249,8 @@
    "season": 1,
    "duration": 2246,
    "views": 18000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-02T00:25:01"
   },
   {
    "id": "ep23",
@@ -258,7 +260,8 @@
    "season": 1,
    "duration": 2385,
    "views": 16000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-02T00:28:41"
   },
   {
    "id": "ep24",
@@ -268,7 +271,8 @@
    "season": 1,
    "duration": 2596,
    "views": 13000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-02T00:33:16"
   },
   {
    "id": "ep25",
