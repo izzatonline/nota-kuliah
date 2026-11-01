@@ -8,16 +8,18 @@ import { LanguageSwitch } from '@/components/language-switch'
 import { ThemeToggle, useTheme } from '@/components/theme'
 import { shortcutLabel, useSearch } from '@/components/search-palette'
 import { useT, type Lang } from '@/lib/i18n'
+import { useShortScreen } from '@/hooks/use-short-screen'
 
 /** Header buttons. On small screens they collapse into one menu so the episode title keeps the room. */
 export function HeaderActions({ watchUrl }: { watchUrl: string }) {
   const { t, lang, setLang } = useT()
   const { theme, toggle } = useTheme()
   const { open } = useSearch()
+  const short = useShortScreen() // held sideways the top bar is crowded, so the same menu as on a small phone
   return (
     <>
       <SearchButton onClick={open} label={t('search.button')} />
-      <div className="hidden items-center gap-2 sm:flex">
+      {!short && <div className="hidden items-center gap-2 sm:flex">
         <LanguageSwitch />
         <Button asChild variant="outline" size="sm" className="shrink-0 max-lg:size-8 max-lg:p-0">
           <a href={watchUrl} target="_blank" rel="noreferrer" aria-label={t('header.watch')}>
@@ -26,9 +28,9 @@ export function HeaderActions({ watchUrl }: { watchUrl: string }) {
           </a>
         </Button>
         <ThemeToggle />
-      </div>
+      </div>}
 
-      <div className="sm:hidden">
+      <div className={short ? undefined : 'sm:hidden'}>
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="ghost" size="icon" className="size-9" aria-label={t('header.more')}>

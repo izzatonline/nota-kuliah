@@ -9,7 +9,7 @@ import { copy, episodeUrl, shareText, telegramUrl, whatsappUrl } from '@/lib/sha
 import type { Notes } from '@/lib/types'
 
 /** Share the episode with family and friends: the link plus a short summary of the key points. */
-export function ShareMenu({ slug, episodeId, notes }: { slug: string; episodeId: string; notes: Notes }) {
+export function ShareMenu({ slug, episodeId, notes, iconOnly }: { slug: string; episodeId: string; notes: Notes; iconOnly?: boolean }) {
   const { t } = useT()
   const { time } = usePlayer()
   const [copied, setCopied] = useState(false)
@@ -31,9 +31,9 @@ export function ShareMenu({ slug, episodeId, notes }: { slug: string; episodeId:
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" size="sm" className="shrink-0 gap-1.5">
+        <Button variant={iconOnly ? 'ghost' : 'outline'} size={iconOnly ? 'icon' : 'sm'} className={iconOnly ? 'size-9 shrink-0 text-muted-foreground' : 'shrink-0 gap-1.5'} aria-label={t('share.label')}>
           {copied ? <Check className="text-primary" /> : <Share2 />}
-          <span className="hidden sm:inline">{copied ? t('share.copied') : t('share.label')}</span>
+          {!iconOnly && <span className="hidden sm:inline">{copied ? t('share.copied') : t('share.label')}</span>}
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-64">

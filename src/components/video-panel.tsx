@@ -1,4 +1,4 @@
-import { useState, type RefObject } from 'react'
+import { useState, type ReactNode, type RefObject } from 'react'
 import { ChevronLeft, ChevronRight, Headphones, Pause, Play, Video as VideoIcon } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -64,7 +64,8 @@ export function SeekBar({ duration }: { duration: number }) {
   )
 }
 
-export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compact: boolean; onCompact: () => void }) {
+/** `extra` is shown at the end of the audio-mode controls when the screen is short (the notes' bell and share buttons). */
+export function NowPlaying({ notes, compact, onCompact, extra }: { notes: Notes; compact: boolean; onCompact: () => void; extra?: ReactNode }) {
   const { time, seek, playing, toggle } = usePlayer()
   const { t } = useT()
   const short = useShortScreen() // held sideways the seek bar joins the card, to save a row
@@ -111,6 +112,7 @@ export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compac
             <Button variant="ghost" size="icon" className="size-9 text-muted-foreground" onClick={onCompact} aria-label={t('showVideo')} title={t('showVideo')}>
               <VideoIcon className="size-4" />
             </Button>
+            {short && extra}
           </div>
           {short && <SeekBar duration={notes.duration} />}
         </div>

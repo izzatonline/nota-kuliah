@@ -309,7 +309,19 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
             <div className={audio ? 'flex items-stretch gap-2 px-3 pt-1 @3xl:contents' : 'contents'}>
               <Video mount={mount} compact={audio} onCompact={toggleCompact} />
               <div className={audio ? 'min-w-0 flex-1 [&>*]:h-full @3xl:flex-none @3xl:px-0 @3xl:[&>*]:h-auto' : 'mt-2 px-3 @3xl:mt-0 @3xl:px-0'}>
-                {notes ? <NowPlaying notes={notes} compact={audio} onCompact={toggleCompact} /> : <Skeleton className="h-16 w-full rounded-xl" />}
+                {notes ? <NowPlaying
+                    notes={notes}
+                    compact={audio}
+                    onCompact={toggleCompact}
+                    extra={
+                      <>
+                        <Button variant="ghost" size="icon" className="size-9 text-muted-foreground" onClick={toggleToasts} aria-pressed={toasts} aria-label={t(toasts ? 'mention.off' : 'mention.on')} title={t(toasts ? 'mention.off' : 'mention.on')}>
+                          {toasts ? <Bell /> : <BellOff />}
+                        </Button>
+                        <ShareMenu slug={slug} episodeId={episode.id} notes={notes} iconOnly />
+                      </>
+                    }
+                  /> : <Skeleton className="h-16 w-full rounded-xl" />}
               </div>
             </div>
             {audio && !short && notes && (
@@ -324,7 +336,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
           {/* notes column: title and tabs stay put, only the content scrolls */}
           <Tabs value={tab} onValueChange={(v) => setTab(v as TabKey)} className="flex min-h-0 min-w-0 flex-1 flex-col">
             <div className={`shrink-0 bg-background pt-3 @3xl:pt-5 short:pt-2 ${gutter}`}>
-              <div className="flex items-start gap-3">
+              <div className="flex items-start gap-3 short:hidden">
                 <div className="min-w-0 flex-1">
                   <Clamp as="h1" text={notes?.title ?? episode.title} className="line-clamp-2 text-lg font-semibold leading-snug tracking-tight @3xl:line-clamp-1 @3xl:text-2xl short:line-clamp-1 short:text-sm" />
                   <p className="mb-3 hidden truncate text-sm text-muted-foreground @xl:block short:hidden">
