@@ -38,7 +38,7 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Pr
 
   return (
     <Sidebar collapsible="icon" className="border-sidebar-border">
-      <SidebarHeader className="gap-4 p-3 group-data-[collapsible=icon]:p-2">
+      <SidebarHeader className="gap-4 p-3 group-data-[collapsible=icon]:p-2 short:gap-2 short:p-2">
         <Link to="/" className="flex items-center gap-2.5 rounded-lg outline-none focus-visible:ring-2 focus-visible:ring-sidebar-ring group-data-[collapsible=icon]:justify-center" aria-label="Nota Kuliah">
           <NKMark />
           <div className="min-w-0 leading-tight group-data-[collapsible=icon]:hidden">
@@ -46,8 +46,8 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Pr
             <p className="truncate text-xs text-muted-foreground">{t('brand.tagline')}</p>
           </div>
         </Link>
-        <div className="space-y-3 group-data-[collapsible=icon]:hidden">
-          <div className="rounded-lg border bg-card px-3 py-2">
+        <div className="space-y-3 group-data-[collapsible=icon]:hidden short:space-y-2">
+          <div className="rounded-lg border bg-card px-3 py-2 short:hidden">
             <p className="text-sm font-medium leading-snug">{index.series.title}</p>
             <p className="text-xs text-muted-foreground">
               {index.series.speaker} · {t('sidebar.episodes', { n: index.episodes.length })} · {t('sidebar.withNotes', { n: withNotes })}

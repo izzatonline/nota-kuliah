@@ -47,8 +47,10 @@ const TABS: { key: TabKey; Icon: LucideIcon; count?: (n: Notes) => number }[] = 
 function CollapseWhenShort() {
   const { setOpen } = useSidebar()
   const short = useShortScreen()
+  const done = useRef(false) // setOpen changes whenever the sidebar does, so collapse only once, not on every change
   useEffect(() => {
-    if (short) setOpen(false)
+    if (short && !done.current) setOpen(false)
+    done.current = short
   }, [short, setOpen])
   return null
 }
