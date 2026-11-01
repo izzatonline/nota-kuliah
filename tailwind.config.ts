@@ -7,6 +7,10 @@ export default {
   content: ["./index.html", "./src/**/*.{ts,tsx}"],
   theme: {
   	extend: {
+  		screens: {
+  			// a phone held sideways: wide enough, but too short for tall layouts
+  			short: { raw: '(max-height: 520px)' }
+  		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

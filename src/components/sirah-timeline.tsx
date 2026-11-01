@@ -12,7 +12,6 @@ type Item = { ep: Episode; phase: number; x: number; year?: number }
 
 const STEP = 96 // distance between two episodes on the line
 const PAD = 120 // room before the first and after the last episode
-const CARD = 152 // width of an episode card; wider than STEP, so cards alternate above and below the line
 const hueStyle = (h: number) => ({ '--h': h }) as CSSProperties
 /** The colour of a period, one value for light and one for dark, both taken from the period's hue. */
 const DOT = 'bg-[hsl(var(--h)_58%_40%)] dark:bg-[hsl(var(--h)_55%_62%)]'
@@ -136,15 +135,15 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
         <Dialog.Overlay className="fixed inset-0 z-50 bg-black/60 backdrop-blur-[2px] data-[state=open]:animate-in data-[state=open]:fade-in-0" />
         <Dialog.Content
           aria-describedby="nk-tl-desc"
-          className="fixed inset-2 z-50 flex flex-col overflow-hidden rounded-2xl border bg-popover text-popover-foreground shadow-2xl outline-none data-[state=open]:animate-in data-[state=open]:fade-in-0 data-[state=open]:zoom-in-95 sm:inset-6 lg:inset-x-[5vw] lg:inset-y-[7vh]"
+          className="fixed inset-2 z-50 flex flex-col overflow-hidden rounded-2xl border bg-popover text-popover-foreground shadow-2xl outline-none data-[state=open]:animate-in data-[state=open]:fade-in-0 data-[state=open]:zoom-in-95 sm:inset-6 lg:inset-x-[5vw] lg:inset-y-[7vh] short:inset-1 short:rounded-xl"
         >
-          <div className="flex items-start gap-3 border-b px-4 py-3 sm:px-6 sm:py-4">
+          <div className="flex items-start gap-3 border-b px-4 py-3 sm:px-6 sm:py-4 short:py-1.5">
             <div className="min-w-0 flex-1">
-              <Dialog.Title className="flex items-center gap-2 text-lg font-semibold leading-tight sm:text-xl">
+              <Dialog.Title className="flex items-center gap-2 text-lg font-semibold leading-tight sm:text-xl short:text-base">
                 <Milestone className="size-5 shrink-0 text-[hsl(var(--gold))]" />
                 {t('timeline.button')}
               </Dialog.Title>
-              <Dialog.Description id="nk-tl-desc" className="mt-1 text-sm text-muted-foreground">{t('timeline.subtitle')}</Dialog.Description>
+              <Dialog.Description id="nk-tl-desc" className="mt-1 text-sm text-muted-foreground short:hidden">{t('timeline.subtitle')}</Dialog.Description>
             </div>
             <Dialog.Close className="grid size-8 shrink-0 place-items-center rounded-md text-muted-foreground transition-colors hover:bg-accent hover:text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring" aria-label={t('timeline.close')}>
               <X className="size-4" />
@@ -152,7 +151,7 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
           </div>
 
           {data && model && (
-            <div className="flex items-center gap-1 border-b px-3 py-2 sm:px-5" role="group" aria-label={t('timeline.jump')}>
+            <div className="flex items-center gap-1 border-b px-3 py-2 sm:px-5 short:py-1" role="group" aria-label={t('timeline.jump')}>
               <div className="flex min-w-0 flex-1 gap-1.5 overflow-x-auto py-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
                 {data.phases.map((p, k) => (
                   <button
@@ -197,10 +196,10 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
                       e.stopPropagation()
                     }
                   }}
-                  className="h-full min-h-[380px] cursor-grab select-none overflow-x-auto overflow-y-hidden active:cursor-grabbing"
+                  className="h-full min-h-[380px] short:min-h-0 cursor-grab select-none overflow-x-auto overflow-y-hidden active:cursor-grabbing"
                   tabIndex={-1}
                 >
-                  <div className="relative h-full min-h-[380px]" style={{ width: model.width }}>
+                  <div className="relative h-full min-h-[380px] short:min-h-0" style={{ width: model.width }}>
                     {/* the periods: a tint behind each, and its name pinned to the bottom while it is in view */}
                     {data.phases.map((p, k) => {
                       const s = model.spans[k]
@@ -210,9 +209,9 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
                           style={{ ...hueStyle(p.hue), left: s.from, width: s.to - s.from }}
                           className="absolute inset-y-0 border-l border-[hsl(var(--h)_55%_50%/0.28)] bg-[hsl(var(--h)_60%_50%/0.06)] first:border-l-0"
                         >
-                          <div className="sticky left-0 flex w-max max-w-[min(100%,20rem)] flex-col px-3 pt-3">
+                          <div className="sticky left-0 flex w-max max-w-[min(100%,20rem)] flex-col px-3 pt-3 short:pt-1">
                             <span className={cn('text-[13px] font-semibold leading-tight', INK)}>{p[lang]}</span>
-                            <span className="text-[11px] text-muted-foreground">
+                            <span className="text-[11px] text-muted-foreground short:hidden">
                               {t('sidebar.episodes', { n: s.count })}
                               {s.years && ` · ${t('timeline.year', { y: s.years[0] })}${s.years[1] !== s.years[0] ? `–${s.years[1]}` : ''}`}
                             </span>
@@ -243,8 +242,8 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
             )}
           </div>
 
-          <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 border-t px-4 py-2.5 text-[11px] text-muted-foreground sm:px-6">
-            <span>{t('timeline.hint')}</span>
+          <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 border-t px-4 py-2.5 text-[11px] text-muted-foreground sm:px-6 short:py-1">
+            <span className="short:hidden">{t('timeline.hint')}</span>
             <span>{t('timeline.disclaimer')}</span>
           </div>
         </Dialog.Content>
@@ -277,12 +276,12 @@ function Node({ item, up, phase, birth, slug, current, latest, onGo }: { item: I
         onClick={() => onGo(ep.id)}
         title={ep.title}
         className={cn(
-          'group absolute z-20 flex -translate-x-1/2 flex-col gap-1 rounded-xl border bg-card p-2.5 text-left shadow-sm outline-none transition-all hover:-translate-y-0.5 hover:shadow-lg focus-visible:ring-2 focus-visible:ring-ring',
+          'group absolute z-20 flex w-[152px] -translate-x-1/2 flex-col gap-1 rounded-xl border bg-card p-2.5 text-left short:w-[136px] short:gap-0.5 short:p-1.5 shadow-sm outline-none transition-all hover:-translate-y-0.5 hover:shadow-lg focus-visible:ring-2 focus-visible:ring-ring',
           'hover:border-[hsl(var(--h)_55%_50%/0.7)]',
           current && 'border-[hsl(var(--h)_55%_45%)] ring-2 ring-[hsl(var(--h)_55%_50%/0.5)]',
           !ep.hasNotes && 'opacity-60',
         )}
-        style={{ left: x, width: CARD, ...(up ? { bottom: 'calc(50% + 28px)' } : { top: 'calc(50% + 28px)' }) }}
+        style={{ left: x, ...(up ? { bottom: 'calc(50% + 28px)' } : { top: 'calc(50% + 28px)' }) }}
       >
         <span className="flex flex-wrap items-center gap-x-1.5 gap-y-0.5">
           <span className={cn('font-mono text-[11px] font-semibold', INK)}>{label}</span>
@@ -290,9 +289,9 @@ function Node({ item, up, phase, birth, slug, current, latest, onGo }: { item: I
           {!current && latest && <span className="rounded bg-[hsl(var(--gold-soft))] px-1 text-[10px] font-medium leading-4 text-[hsl(var(--gold))]">{t('timeline.latest')}</span>}
           {!ep.hasNotes && <span className="text-[10px] text-muted-foreground">{t('timeline.noNotes')}</span>}
         </span>
-        <span className="line-clamp-3 text-[12.5px] font-medium leading-snug">{ep.title}</span>
+        <span className="line-clamp-3 text-[12.5px] font-medium leading-snug short:line-clamp-2 short:text-[11.5px]">{ep.title}</span>
         {(when || played) && (
-          <span className="flex items-center justify-between gap-1 text-[10.5px] text-muted-foreground">
+          <span className="flex items-center justify-between gap-1 text-[10.5px] text-muted-foreground short:hidden">
             <span>{when}</span>
             {played && <Check className="size-3 shrink-0 text-[hsl(var(--h)_55%_40%)] dark:text-[hsl(var(--h)_55%_65%)]" aria-label={t('timeline.played')} />}
           </span>
