@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Separator } from '@/components/ui/separator'
 import { Skeleton } from '@/components/ui/skeleton'
-import { SidebarInset, SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
+import { SidebarInset, SidebarProvider, SidebarTrigger, useSidebar } from '@/components/ui/sidebar'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Breadcrumb, BreadcrumbItem, BreadcrumbList, BreadcrumbSeparator } from '@/components/ui/breadcrumb'
 import { HeaderActions } from '@/components/header-actions'
@@ -28,6 +28,7 @@ import { getLast, getProgress, markVisited, saveTime } from '@/lib/progress'
 import { useT, type Key } from '@/lib/i18n'
 import { useYouTube } from '@/lib/youtube'
 import { useIsMobile } from '@/hooks/use-mobile'
+import { useShortScreen } from '@/hooks/use-short-screen'
 import type { Episode, Notes, SeriesIndex } from '@/lib/types'
 
 const TABS: { key: TabKey; Icon: LucideIcon; count?: (n: Notes) => number }[] = [
@@ -41,6 +42,16 @@ const TABS: { key: TabKey; Icon: LucideIcon; count?: (n: Notes) => number }[] = 
   { key: 'peta', Icon: Network },
   { key: 'istilah', Icon: Languages },
 ]
+
+/** On a short screen the sidebar starts as the narrow rail, so the lecture gets the width. */
+function CollapseWhenShort() {
+  const { setOpen } = useSidebar()
+  const short = useShortScreen()
+  useEffect(() => {
+    if (short) setOpen(false)
+  }, [short, setOpen])
+  return null
+}
 
 export function SeriesPage() {
   const { t } = useT()
@@ -81,6 +92,7 @@ export function SeriesPage() {
 
   return (
     <SidebarProvider className="h-dvh min-h-0">
+      <CollapseWhenShort />
       <EpisodeSidebar index={index} activeId={episode.id} onSelect={select} onOpenTimeline={TIMELINE_SERIES.includes(slug) ? () => setTimeline(true) : undefined} />
       <SidebarInset className="min-h-0 overflow-hidden">
         <header className="flex h-14 shrink-0 items-center gap-2 border-b bg-background/80 px-3 backdrop-blur sm:px-4">
@@ -138,6 +150,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
   const notesCol = useRef<HTMLDivElement>(null) // the scrolling notes column
   const yt = useYouTube(episode.youtubeId, mount)
   // Audio mode (mobile): the video shrinks to a thumbnail so the notes get the screen.
+  const short = useShortScreen() // held sideways: the video sits beside the notes instead of above them
   const [compact, setCompact] = useState(() => {
     try {
       return localStorage.getItem('nk:compact') === '1'
@@ -145,6 +158,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
       return false
     }
   })
+  const audio = compact && !short
   const toggleCompact = () =>
     setCompact((c) => {
       try {
@@ -284,17 +298,17 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
         <div
           ref={grid}
           style={{ '--vw': videoW ? `${videoW}px` : DEFAULT_WIDTH } as CSSProperties}
-          className="flex h-full flex-col @3xl:grid @3xl:grid-cols-[min(var(--vw),calc(100%_-_380px))_minmax(0,1fr)]"
+          className="flex h-full flex-col @3xl:grid @3xl:grid-cols-[min(var(--vw),calc(100%_-_380px))_minmax(0,1fr)] short:grid short:grid-cols-[minmax(0,40%)_minmax(0,1fr)]"
         >
           {/* video column */}
-          <div className="relative shrink-0 space-y-2 bg-background pb-2 @3xl:flex @3xl:min-h-0 @3xl:flex-col @3xl:gap-3 @3xl:space-y-0 @3xl:border-r @3xl:p-4 @3xl:pb-0">
-            <div className={compact ? 'flex items-stretch gap-2 px-3 pt-1 @3xl:contents' : 'contents'}>
-              <Video mount={mount} compact={compact} onCompact={toggleCompact} />
-              <div className={compact ? 'min-w-0 flex-1 [&>*]:h-full @3xl:flex-none @3xl:px-0 @3xl:[&>*]:h-auto' : 'mt-2 px-3 @3xl:mt-0 @3xl:px-0'}>
-                {notes ? <NowPlaying notes={notes} compact={compact} onCompact={toggleCompact} /> : <Skeleton className="h-16 w-full rounded-xl" />}
+          <div className="relative shrink-0 space-y-2 bg-background pb-2 @3xl:flex @3xl:min-h-0 @3xl:flex-col @3xl:gap-3 @3xl:space-y-0 @3xl:border-r @3xl:p-4 @3xl:pb-0 short:flex short:min-h-0 short:flex-col short:gap-2 short:space-y-0 short:overflow-y-auto short:border-r short:p-2 short:pb-0">
+            <div className={audio ? 'flex items-stretch gap-2 px-3 pt-1 @3xl:contents' : 'contents'}>
+              <Video mount={mount} compact={audio} onCompact={toggleCompact} />
+              <div className={audio ? 'min-w-0 flex-1 [&>*]:h-full @3xl:flex-none @3xl:px-0 @3xl:[&>*]:h-auto' : 'mt-2 px-3 @3xl:mt-0 @3xl:px-0 short:mt-0 short:px-0'}>
+                {notes ? <NowPlaying notes={notes} compact={audio} onCompact={toggleCompact} /> : <Skeleton className="h-16 w-full rounded-xl" />}
               </div>
             </div>
-            {compact && notes && (
+            {audio && notes && (
               <div className="px-3 pb-1 @3xl:hidden">
                 <SeekBar duration={notes.duration} />
               </div>
@@ -305,11 +319,11 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
 
           {/* notes column: title and tabs stay put, only the content scrolls */}
           <Tabs value={tab} onValueChange={(v) => setTab(v as TabKey)} className="flex min-h-0 min-w-0 flex-1 flex-col">
-            <div className={`shrink-0 bg-background pt-3 @3xl:pt-5 ${gutter}`}>
+            <div className={`shrink-0 bg-background pt-3 @3xl:pt-5 short:pt-2 ${gutter}`}>
               <div className="flex items-start gap-3">
                 <div className="min-w-0 flex-1">
-                  <Clamp as="h1" text={notes?.title ?? episode.title} className="line-clamp-2 text-lg font-semibold leading-snug tracking-tight @3xl:line-clamp-1 @3xl:text-2xl" />
-                  <p className="mb-3 hidden truncate text-sm text-muted-foreground @xl:block">
+                  <Clamp as="h1" text={notes?.title ?? episode.title} className="line-clamp-2 text-lg font-semibold leading-snug tracking-tight @3xl:line-clamp-1 @3xl:text-2xl short:line-clamp-1 short:text-base" />
+                  <p className="mb-3 hidden truncate text-sm text-muted-foreground @xl:block short:hidden">
                     {notes?.speaker ?? 'Ustaz Azlan Shah NK'} · {series} · {epLabel}
                   </p>
                 </div>
@@ -330,7 +344,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
                       onMouseDown={(e) => e.currentTarget.setAttribute('data-pointer', 'true')}
                       onKeyDown={(e) => e.currentTarget.removeAttribute('data-pointer')}
                       onBlur={(e) => e.currentTarget.removeAttribute('data-pointer')}
-                      className="group gap-2 rounded-none data-[pointer=true]:focus-visible:ring-0 focus-visible:ring-inset focus-visible:ring-offset-0 border-b-2 border-transparent px-3 py-3 text-muted-foreground shadow-none transition-colors hover:text-foreground data-[state=active]:border-primary data-[state=active]:bg-transparent data-[state=active]:text-foreground data-[state=active]:shadow-none"
+                      className="group gap-2 rounded-none data-[pointer=true]:focus-visible:ring-0 focus-visible:ring-inset focus-visible:ring-offset-0 border-b-2 border-transparent px-3 py-3 short:py-2 text-muted-foreground shadow-none transition-colors hover:text-foreground data-[state=active]:border-primary data-[state=active]:bg-transparent data-[state=active]:text-foreground data-[state=active]:shadow-none"
                     >
                       <span className="relative">
                         <Icon className="size-4" />
