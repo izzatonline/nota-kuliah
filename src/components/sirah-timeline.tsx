@@ -40,6 +40,8 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
   const [scroller, setScroller] = useState<HTMLDivElement | null>(null)
   const [here, setHere] = useState(0) // the phase in the middle of the view
   const chips = useRef<HTMLDivElement>(null)
+  // A period the visitor just picked stays highlighted while the timeline glides to it, until they move the timeline themselves.
+  const picked = useRef<number | null>(null)
 
   useEffect(() => {
     let live = true
@@ -85,6 +87,7 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
 
   const syncPhase = useCallback(() => {
     if (!scroller || !model) return
+    if (picked.current != null) return setHere(picked.current)
     const mid = scroller.scrollLeft + scroller.clientWidth / 2
     const k = model.spans.findIndex((s) => mid < s.to)
     setHere(k < 0 ? model.spans.length - 1 : k)
@@ -98,7 +101,11 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
       raf = requestAnimationFrame(syncPhase)
     }
     // A mouse wheel moves the line sideways, since there is nothing to scroll up or down.
+    const release = () => {
+      picked.current = null
+    }
     const wheel = (e: WheelEvent) => {
+      release()
       if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
         scroller.scrollLeft += e.deltaY
         e.preventDefault()
@@ -106,10 +113,14 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
     }
     scroller.addEventListener('scroll', on, { passive: true })
     scroller.addEventListener('wheel', wheel, { passive: false })
+    scroller.addEventListener('touchstart', release, { passive: true })
+    scroller.addEventListener('pointerdown', release, { passive: true })
     return () => {
       cancelAnimationFrame(raf)
       scroller.removeEventListener('scroll', on)
       scroller.removeEventListener('wheel', wheel)
+      scroller.removeEventListener('touchstart', release)
+      scroller.removeEventListener('pointerdown', release)
     }
   }, [scroller, syncPhase])
 
@@ -134,8 +145,16 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
     onClose()
     onSelect(id)
   }
-  const by = (dir: number) => scroller?.scrollBy({ left: dir * Math.max(300, scroller.clientWidth * 0.7), behavior: 'smooth' })
-  const jump = (k: number) => model && scroller?.scrollTo({ left: Math.max(0, model.spans[k].first - 40), behavior: 'smooth' })
+  const by = (dir: number) => {
+    picked.current = null
+    scroller?.scrollBy({ left: dir * Math.max(300, scroller.clientWidth * 0.7), behavior: 'smooth' })
+  }
+  const jump = (k: number) => {
+    if (!model) return
+    picked.current = k
+    setHere(k)
+    scroller?.scrollTo({ left: Math.max(0, model.spans[k].first - 40), behavior: 'smooth' })
+  }
 
   return (
     <Dialog.Root open onOpenChange={(o) => !o && onClose()}>
