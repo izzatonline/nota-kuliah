@@ -135,13 +135,14 @@
    "kind": "hadith",
    "ref": "Puasa terbaik selepas Ramadan ialah Muharram",
    "t": 578,
-   "arabic": null,
+   "arabic": "أَفْضَلُ الصِّيَامِ، بَعْدَ رَمَضَانَ، شَهْرُ اللهِ الْمُحَرَّمُ، وَأَفْضَلُ الصَّلَاةِ، بَعْدَ الْفَرِيضَةِ، صَلَاةُ اللَّيْلِ",
    "translation": "Puasa yang paling afdal selepas Ramadan ialah puasa pada bulan Allah, Muharram.",
    "context": "Muharram disebut sebagai bulan Allah.",
-   "narrator": "Tidak disebut dalam kuliah",
-   "source": "Muslim",
-   "grade": null,
-   "verified": false
+   "narrator": "Abu Hurairah RA",
+   "source": "Sahih Muslim 1163a",
+   "grade": "Sahih",
+   "verified": true,
+   "sourceUrl": "https://sunnah.com/muslim:1163a"
   },
   {
    "id": "h2",

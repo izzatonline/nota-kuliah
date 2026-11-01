@@ -198,13 +198,14 @@
    "kind": "hadith",
    "ref": "Hadis: Allah merahmati ibu Ismail",
    "t": 1168,
-   "arabic": null,
-   "translation": "Moga Allah merahmati ibu Ismail. Kalaulah dia tidak menakung air itu, nescaya zam-zam menjadi mata air yang mengalir.",
+   "arabic": "يَرْحَمُ اللَّهُ أُمَّ إِسْمَاعِيلَ، لَوْلاَ أَنَّهَا عَجِلَتْ لَكَانَ زَمْزَمُ عَيْنًا مَعِينًا",
+   "translation": "Moga Allah merahmati ibu Ismail. Kalaulah dia tidak tergesa-gesa (menakung air itu), nescaya zam-zam menjadi mata air yang mengalir.",
    "context": "Bahagian daripada hadis Ibn Abbas yang sama.",
    "narrator": "Abdullah bin Abbas RA",
-   "source": "Sahih Bukhari",
+   "source": "Sahih al-Bukhari 3362-3363",
    "grade": "Sahih",
-   "verified": false
+   "verified": true,
+   "sourceUrl": "https://sunnah.com/bukhari:3362"
   },
   {
    "id": "h12",

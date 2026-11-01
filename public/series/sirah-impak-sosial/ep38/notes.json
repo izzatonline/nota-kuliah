@@ -355,13 +355,14 @@
    "kind": "hadith",
    "ref": "Masjid pertama dibina di bumi",
    "t": 2500,
-   "arabic": null,
+   "arabic": "قُلْتُ يَا رَسُولَ اللَّهِ. أَىُّ مَسْجِدٍ وُضِعَ أَوَّلُ قَالَ \" الْمَسْجِدُ الْحَرَامُ \". قُلْتُ ثُمَّ أَىٌّ قَالَ \" ثُمَّ الْمَسْجِدُ الأَقْصَى \". قُلْتُ كَمْ كَانَ بَيْنَهُمَا قَالَ \" أَرْبَعُونَ",
    "translation": "Abu Dharr bertanya masjid pertama dibina, Nabi SAW menjawab Masjid Al-Haram, kemudian Masjid Al-Aqsa, dengan jarak 40 tahun.",
    "context": "Ustaz menerangkan ulama menyatakan Adam AS membina keduanya, dan Ibrahim AS membinanya semula.",
    "narrator": "Abu Dharr al-Ghifari RA",
-   "source": "Sahih Bukhari",
-   "grade": null,
-   "verified": false
+   "source": "Sahih al-Bukhari 3425",
+   "grade": "Sahih",
+   "verified": true,
+   "sourceUrl": "https://sunnah.com/bukhari:3425"
   },
   {
    "id": "h19",
