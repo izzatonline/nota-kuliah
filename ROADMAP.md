@@ -10,11 +10,13 @@
 - Remembers the last episode and position in this browser (local storage): continue card on the landing page and a resume banner in the notes
 - Hadith cards link a verified hadith to its sunnah.com page (`sourceUrl`); search runs on one prebuilt index per language (`scripts/search-index.mjs`)
 - Pipeline `scripts/pipeline.py`: fetch, transcribe (with loop check), draft notes with Claude, build (quotes become timestamps)
+- Second series, Sirah Kanak-kanak (Ustaz Azlan Shah NK, 28 episodes so far): Ep 1 to 5 done, each with an English overlay. The landing page, search results and the breadcrumb (series name menu) handle more than one series
 
 ## Next
-1. **More episodes.** All 49 episodes of Sirah Impak Sosial now have notes. Next: a second series (see `views` in `index.json` for ideas).
+1. **More episodes.** All 49 episodes of Sirah Impak Sosial now have notes. Sirah Kanak-kanak is under way (5 of 28): next is Ep 6, then oldest first. Later series: Tadabbur Impak Sosial (4 videos), then picks from Kuliah Khas.
+   Reuse hadith already verified in the first series with `scripts/reuse_hadith.py`. Add Sirah Kanak-kanak to `TIMELINE_SERIES` once it has a `timeline.json`.
 2. **English notes.** The interface is bilingual. Notes are translated per episode as `notes.en.json` (`scripts/english_notes.py`); every episode so far has one; new episodes need theirs added.
-3. Notes for the series are complete (49 of 49 done).
+3. Notes for Sirah Impak Sosial are complete (49 of 49 done). Sirah Kanak-kanak: 5 of 28.
 4. Hadith verification: work through [docs/hadith-review.md](docs/hadith-review.md), checking Arabic text, source and
    grade against a hadith source. The checklist is generated, so it shrinks as entries are verified.
 5. Contribution guide and a "how to add an episode" section in the README.
