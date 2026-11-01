@@ -297,7 +297,8 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
 
   return (
     <PlayerContext.Provider value={{ time: yt.time, playing: yt.playing, seek: yt.seek, toggle: yt.toggle }}>
-      <div className="@container min-h-0 flex-1">
+      {/* held sideways the container queries are switched off, so even a wide phone gets the stacked audio layout */}
+      <div className="@container min-h-0 flex-1 short:[container-type:normal]">
         <div
           ref={grid}
           style={{ '--vw': videoW ? `${videoW}px` : DEFAULT_WIDTH } as CSSProperties}
