@@ -10,6 +10,7 @@ import { SidebarInset, SidebarProvider, SidebarTrigger } from '@/components/ui/s
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Breadcrumb, BreadcrumbItem, BreadcrumbList, BreadcrumbSeparator } from '@/components/ui/breadcrumb'
 import { HeaderActions } from '@/components/header-actions'
+import { TimelineButton } from '@/components/sirah-timeline'
 import { ScrollRow } from '@/components/scroll-tabs'
 import { EpisodeSidebar } from '@/components/episode-list'
 import { ChapterScroll, NowPlaying, SeekBar, Video } from '@/components/video-panel'
@@ -19,6 +20,7 @@ import { MindMap } from '@/components/mindmap'
 import { ShareMenu } from '@/components/share-menu'
 import { Clamp } from '@/components/clamp'
 import { ColumnResizer, DEFAULT_WIDTH } from '@/components/column-resizer'
+import { TIMELINE_SERIES } from '@/config'
 import { Toaster } from '@/components/ui/sonner'
 import { useMentionToasts, type Mention } from '@/components/mention-toasts'
 import { epPath, fmt, loadIndex, loadNotes, startEpisode, youtubeUrl } from '@/lib/data'
@@ -95,6 +97,7 @@ export function SeriesPage() {
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
+          {TIMELINE_SERIES.includes(slug) && <TimelineButton index={index} activeId={episode.id} onSelect={select} />}
           <HeaderActions watchUrl={youtubeUrl(episode.youtubeId)} />
         </header>
 

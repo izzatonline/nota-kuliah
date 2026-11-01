@@ -1,0 +1,130 @@
+{
+ "birthYear": 570,
+ "phases": [
+  {
+   "id": "pengenalan",
+   "hue": 165,
+   "start": "prolog-DJgUaYRBf6k",
+   "ms": "Pengenalan",
+   "en": "Introduction"
+  },
+  {
+   "id": "latar",
+   "hue": 30,
+   "start": "ep1",
+   "ms": "Latar Mekah",
+   "en": "Mecca before the Prophet"
+  },
+  {
+   "id": "kelahiran",
+   "hue": 15,
+   "start": "ep5",
+   "ms": "Kelahiran & kanak-kanak",
+   "en": "Birth & childhood"
+  },
+  {
+   "id": "remaja",
+   "hue": 195,
+   "start": "ep11",
+   "ms": "Belia & dewasa muda",
+   "en": "Youth & early adulthood"
+  },
+  {
+   "id": "wahyu",
+   "hue": 255,
+   "start": "prolog-t53UBNhT4AE",
+   "ms": "Wahyu pertama",
+   "en": "The first revelation"
+  },
+  {
+   "id": "dakwah",
+   "hue": 140,
+   "start": "ep23",
+   "ms": "Dakwah rahsia & terbuka",
+   "en": "Secret & open call"
+  },
+  {
+   "id": "tekanan",
+   "hue": 350,
+   "start": "ep25",
+   "ms": "Tekanan & penyiksaan",
+   "en": "Pressure & persecution"
+  },
+  {
+   "id": "habsyah",
+   "hue": 300,
+   "start": "ep29",
+   "ms": "Hijrah ke Habsyah",
+   "en": "Migration to Abyssinia"
+  },
+  {
+   "id": "boikot",
+   "hue": 85,
+   "start": "ep32",
+   "ms": "Boikot & kehilangan",
+   "en": "The boycott & the losses"
+  },
+  {
+   "id": "duka",
+   "hue": 225,
+   "start": "ep34",
+   "ms": "Tahun kesedihan & Taif",
+   "en": "Year of sorrow & Ta'if"
+  },
+  {
+   "id": "isra",
+   "hue": 45,
+   "start": "ep38",
+   "ms": "Isra' & Mi'raj",
+   "en": "Isra' & Mi'raj"
+  },
+  {
+   "id": "hijrah",
+   "hue": 120,
+   "start": "ep44",
+   "ms": "Menuju Hijrah",
+   "en": "Towards the Hijrah"
+  }
+ ],
+ "years": {
+  "ep4": 570,
+  "ep5": 570,
+  "ep6": 570,
+  "ep7": 572,
+  "ep8": 574,
+  "ep9": 576,
+  "ep10": 582,
+  "ep12": 590,
+  "ep13": 595,
+  "ep16": 605,
+  "ep18": 610,
+  "ep19": 610,
+  "ep20": 611,
+  "ep21": 611,
+  "ep23": 611,
+  "ep24": 613,
+  "ep25": 613,
+  "ep26": 614,
+  "ep27": 614,
+  "ep28": 614,
+  "ep29": 614,
+  "ep30": 615,
+  "ep31": 615,
+  "ep32": 616,
+  "ep33": 619,
+  "ep34": 619,
+  "ep35": 619,
+  "ep36": 619,
+  "ep37": 619,
+  "ep38": 621,
+  "ep39": 621,
+  "ep40": 621,
+  "ep41": 621,
+  "ep42": 621,
+  "ep43": 621,
+  "ep44": 621,
+  "ep45": 621,
+  "ep46": 621,
+  "ep47": 622
+ }
+}

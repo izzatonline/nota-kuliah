@@ -3,3 +3,6 @@ export const REPO_URL = 'https://github.com/izzatonline/nota-kuliah'
 
 /** Sister project for people who teach the Quran. */
 export const QURANSLIDE_URL = 'https://quranslide.com'
+
+/** Series that have a `timeline.json` next to their index, so their page shows the timeline button. */
+export const TIMELINE_SERIES = ['sirah-impak-sosial']

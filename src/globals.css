@@ -107,3 +107,34 @@
 .nk-range::-moz-range-track { height: 8px; border-radius: 9999px; background: hsl(var(--muted-foreground) / 0.3); }
 .nk-range::-webkit-slider-thumb { -webkit-appearance: none; margin-top: -9px; width: 26px; height: 26px; border-radius: 9999px; background: hsl(var(--primary)); border: 3px solid hsl(var(--background)); box-shadow: 0 1px 4px rgb(0 0 0 / 0.35); }
 .nk-range::-moz-range-thumb { width: 20px; height: 20px; border-radius: 9999px; background: hsl(var(--primary)); border: 3px solid hsl(var(--background)); box-shadow: 0 1px 4px rgb(0 0 0 / 0.35); }
+
+/* The timeline button: a light runs around its border, with a soft glow behind it. */
+@property --nk-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+@keyframes nk-spin { to { --nk-angle: 360deg; } }
+.nk-shine { position: relative; isolation: isolate; border-radius: 9999px; }
+.nk-shine::before,
+.nk-shine::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  z-index: -1;
+  border-radius: inherit;
+  background: conic-gradient(from var(--nk-angle), hsl(var(--border)) 0 55%, hsl(var(--gold)) 74%, hsl(45 100% 88%) 86%, hsl(var(--gold)) 94%, hsl(var(--border)) 100%);
+  animation: nk-spin 3.2s linear infinite;
+}
+.nk-shine::before {
+  padding: 2px;
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  z-index: 1;
+  pointer-events: none;
+}
+.nk-shine::after { filter: blur(9px); opacity: 0.55; }
+@media (prefers-reduced-motion: reduce) {
+  .nk-shine::before, .nk-shine::after { animation: none; --nk-angle: 45deg; }
+}
