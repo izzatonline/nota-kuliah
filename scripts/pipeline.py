@@ -72,9 +72,9 @@ def clean_title(title):
     'Prolog | Sirah Impak Sosial | Kehidupan Nabi' becomes 'Prolog: Kehidupan Nabi'.
     """
     m = re.match(r"^Ep\s*(\d+)\s*[:|]?\s*(.*)$", title)
-    body = m.group(2) if m else title
-    drop = re.compile(r"^(Sirah Impak Sosial|Sirah Nabi Muhammad SAW|Ustaz Azlan Shah( NK)?|Azlan Shah NK|"
-                      r"Kisah Kehidupan Nabi Muhammad SAW|Season 2 Finale.*)$", re.I)
+    body = re.sub(r"\s*\(Kanak-kanak\)\s*$", "", m.group(2) if m else title)
+    drop = re.compile(r"^(Sirah Impak Sosial|Sirah Nabi Muhammad SAW( \(Kanak-kanak\))?|Sirah Kanak-kanak|Siri Sirah Kanak-kanak|"
+                      r"Ustaz Azlan Shah( NK)?|Azlan Shah NK|Kisah Kehidupan Nabi Muhammad SAW|Season 2 Finale.*)$", re.I)
     parts = [p.strip() for p in body.split("|") if p.strip() and not drop.match(p.strip())]
     if not parts:
         return title
