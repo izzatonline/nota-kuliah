@@ -73,7 +73,8 @@
    "season": 1,
    "duration": 1595,
    "views": 14000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T23:34:32"
   },
   {
    "id": "ep7",
@@ -83,7 +84,8 @@
    "season": 1,
    "duration": 1718,
    "views": 13000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T23:36:58"
   },
   {
    "id": "ep8",
@@ -93,7 +95,8 @@
    "season": 1,
    "duration": 2459,
    "views": 12000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T23:40:19"
   },
   {
    "id": "ep9",
@@ -103,7 +106,8 @@
    "season": 1,
    "duration": 1959,
    "views": 12000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T23:43:19"
   },
   {
    "id": "ep10",
@@ -113,7 +117,8 @@
    "season": 1,
    "duration": 2029,
    "views": 12000,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-01T23:46:06"
   },
   {
    "id": "ep11",
@@ -172,7 +177,7 @@
    "title": "Nabi SAW Sedih Wahyu Terputus",
    "season": 1,
    "duration": 2082,
-   "views": 8100,
+   "views": 8200,
    "hasNotes": false
   },
   {
