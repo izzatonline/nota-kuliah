@@ -1,0 +1,433 @@
+{
+ "summary": "This lecture tells the period after the first revelation until the revelation paused. The ustaz recalls Khadijah and Waraqah, who died soon after, then the Prophet SAW saw Jibril with six hundred wings and ran home asking to be covered, and Surah Al-Muzzammil came down commanding night prayer. Jibril taught wudu and the two daily prayers, and a few early believers joined, including Ali, Zaid, Abu Bakr, Abdurrahman ibn Auf, Uthman and Sa'd. When revelation paused he grew sad until Surah Ad-Duha came down to comfort him: Allah had not abandoned him, the Hereafter is better, He sheltered him as an orphan, guided and enriched him, then taught to care for orphans, not rebuke beggars and to proclaim the Lord's blessings. After three years of quiet calling, Allah would command open preaching.",
+ "keyPoints": [
+  "The Prophet SAW saw Jibril with six hundred wings filling the sky and ran home asking to be covered.",
+  "Surah Al-Muzzammil commanded him to rise for night prayer, and Jibril taught wudu and the two prayers.",
+  "Revelation paused for some time until he grew sad and worried that Allah had abandoned him.",
+  "Surah Ad-Duha comforted him: Allah had not abandoned or hated him, and the Hereafter is better.",
+  "Allah taught not to rebuke the orphan, not to drive away the beggar and to proclaim the Lord's blessings."
+ ],
+ "chapters": [
+  {
+   "id": "c1",
+   "title": "Opening and recap",
+   "summary": "The ustaz continues the class and recalls the first revelation and the Prophet running home."
+  },
+  {
+   "id": "c2",
+   "title": "Khadijah, Waraqah and An-Namus",
+   "summary": "Khadijah took him to the elderly, blind Waraqah, who said it was the Namus that came to Prophet Musa."
+  },
+  {
+   "id": "c3",
+   "title": "Jibril with six hundred wings",
+   "summary": "Waraqah died. Then in the desert he saw Jibril as large as the sky with six hundred wings, fell and ran home."
+  },
+  {
+   "id": "c4",
+   "title": "Surah Al-Muzzammil",
+   "summary": "He asked to be covered and Allah revealed surah 73, calling him O you who are wrapped and telling him to rise for night prayer."
+  },
+  {
+   "id": "c5",
+   "title": "Wudu and the two prayers",
+   "summary": "Jibril taught wudu and prayer, at first two times, before sunrise and sunset."
+  },
+  {
+   "id": "c6",
+   "title": "Revelation pauses",
+   "summary": "After some time revelation stopped and he was anxious because Waraqah was gone and he had no one to ask."
+  },
+  {
+   "id": "c7",
+   "title": "The earliest believers",
+   "summary": "Ali saw him pray with Khadijah, and the adopted Zaid ibn Harithah also believed."
+  },
+  {
+   "id": "c8",
+   "title": "Zaid and Abu Bakr",
+   "summary": "The ustaz repeats Zaid's story, then Abu Bakr bravely became the first friend to follow and brought Abdurrahman, Uthman and Sa'd to Islam."
+  },
+  {
+   "id": "c9",
+   "title": "He grows sad",
+   "summary": "Revelation was cut off for so long that he worried Jibril did not like him."
+  },
+  {
+   "id": "c10",
+   "title": "Surah Ad-Duha",
+   "summary": "Jibril returned with Surah Ad-Duha, which means the soft morning light."
+  },
+  {
+   "id": "c11",
+   "title": "By the morning light and the night",
+   "summary": "Allah swears by the bright morning and the silent night to soothe a sad heart."
+  },
+  {
+   "id": "c12",
+   "title": "Allah has not abandoned him",
+   "summary": "Allah affirmed He had not abandoned or hated him, and that the Hereafter is better than this world."
+  },
+  {
+   "id": "c13",
+   "title": "Orphan, guidance and sufficiency",
+   "summary": "Allah reminded him he was sheltered as an orphan, guided when searching and made self-sufficient."
+  },
+  {
+   "id": "c14",
+   "title": "Do not rebuke the orphan or beggar",
+   "summary": "Allah commands not to rebuke the orphan or drive away the beggar, and to give kindly."
+  },
+  {
+   "id": "c15",
+   "title": "Proclaim your Lord's blessings",
+   "summary": "The blessings of knowledge and the Quran should be shared, and the ustaz tells of a doctor who became the answer to a mother's prayer."
+  },
+  {
+   "id": "c16",
+   "title": "Three years of quiet calling",
+   "summary": "He called quietly from age 40 to 43 before being commanded to preach openly."
+  }
+ ],
+ "dalil": [
+  {
+   "id": "q73-1",
+   "context": "The ustaz recites the call to the Prophet SAW wrapped in his cloak.",
+   "translation": "You [Prophet], enfolded in your cloak!",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q73-2",
+   "context": "Rise to pray at night, except a little.",
+   "translation": "Stay up throughout the night, all but a small part of it,",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q93-1",
+   "context": "The ustaz explains Allah's oath by the morning brightness.",
+   "translation": "By the morning brightness",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q93-2",
+   "context": "By the night when it is still.",
+   "translation": "and by the night when it grows still,",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q93-4",
+   "context": "And the Hereafter is better for you than the first life.",
+   "translation": "and the future will be better for you than the past;",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q93-6",
+   "context": "Did He not find you an orphan and give you shelter?",
+   "translation": "Did He not find you an orphan and shelter you?",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q93-7",
+   "context": "He found you lost and guided you.",
+   "translation": "Did He not find you lost and guide you?",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q93-8",
+   "context": "He found you in need and made you self-sufficient.",
+   "translation": "Did He not find you in need and make you self-sufficient?",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q93-9",
+   "context": "So as for the orphan, do not oppress.",
+   "translation": "So do not be harsh with the orphan",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q93-10",
+   "context": "As for the one who asks, do not repel.",
+   "translation": "and do not chide the one who asks for help;",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  },
+  {
+   "id": "q93-11",
+   "context": "And proclaim the blessing of your Lord.",
+   "translation": "talk about the blessings of your Lord.",
+   "source": "api.quran.com: M.A.S. Abdel Haleem (English)"
+  }
+ ],
+ "books": [
+  {
+   "id": "b1",
+   "context": "The ustaz reads a side story from this Quran translation about a doctor."
+  }
+ ],
+ "people": [
+  {
+   "id": "p1",
+   "role": "Wife of the Prophet SAW",
+   "context": "Held him and took him to Waraqah."
+  },
+  {
+   "id": "p2",
+   "role": "Khadijah's elderly, blind cousin",
+   "context": "Read the Gospel and Torah, recognised An-Namus and died a few days later."
+  },
+  {
+   "id": "p3",
+   "role": "The angel of revelation",
+   "context": "Appeared with six hundred wings, taught wudu and prayer, and brought Surah Ad-Duha."
+  },
+  {
+   "id": "p4",
+   "role": "Wet nurse of the Prophet SAW",
+   "context": "Mentioned in comparing the distance of the Prophet's retreat."
+  },
+  {
+   "id": "p5",
+   "role": "The first child to follow",
+   "context": "Saw the Prophet SAW and Khadijah pray and joined them."
+  },
+  {
+   "id": "p6",
+   "role": "Adopted son of the Prophet SAW",
+   "context": "Khadijah's gift, chose to stay with the Prophet SAW and later believed."
+  },
+  {
+   "id": "p7",
+   "role": "Zaid's father",
+   "context": "Glad that his son was freed from slavery."
+  },
+  {
+   "id": "p8",
+   "role": "The first friend to believe",
+   "context": "Bravely followed when others were afraid and brought his friends to Islam."
+  },
+  {
+   "id": "p9",
+   "role": "Companion, formerly named Abdul Amr or Abdul Shams",
+   "context": "Brought to Islam by Abu Bakr."
+  },
+  {
+   "id": "p10",
+   "role": "Companion",
+   "context": "Brought to Islam by Abu Bakr."
+  },
+  {
+   "id": "p11",
+   "role": "Companion",
+   "context": "Brought to Islam by Abu Bakr."
+  }
+ ],
+ "sirah": {
+  "era": "After the first revelation: the pause and Ad-Duha",
+  "summary": "This lecture covers Surah Al-Muzzammil, the two prayers, the pause in revelation, Surah Ad-Duha and the start of quiet calling.",
+  "events": [
+   {
+    "id": "e0",
+    "label": "Jibril",
+    "title": "Jibril appears with six hundred wings",
+    "desc": "He fell and ran home."
+   },
+   {
+    "id": "e1",
+    "label": "Muzzammil",
+    "title": "Surah Al-Muzzammil is revealed",
+    "desc": "Allah told him to rise for night prayer."
+   },
+   {
+    "id": "e2",
+    "label": "Pause",
+    "title": "Revelation pauses",
+    "desc": "He was anxious and sad when revelation stopped."
+   },
+   {
+    "id": "e3",
+    "label": "Early believers",
+    "title": "Ali, Zaid and Abu Bakr believe",
+    "desc": "A few early people believed quietly."
+   },
+   {
+    "id": "e4",
+    "label": "Ad-Duha",
+    "title": "Surah Ad-Duha is revealed",
+    "desc": "Jibril returned with Surah Ad-Duha, which comforted him."
+   },
+   {
+    "id": "e5",
+    "label": "Quiet",
+    "title": "Three years of quiet calling",
+    "desc": "He called quietly from age 40 to 43."
+   }
+  ]
+ },
+ "lessons": [
+  {
+   "id": "l1",
+   "title": "Allah does not abandon His servant",
+   "body": "Even when we are sad, Allah does not abandon or hate us."
+  },
+  {
+   "id": "l2",
+   "title": "The Hereafter is better than this world",
+   "body": "What awaits is better, including for those tested in this world."
+  },
+  {
+   "id": "l3",
+   "title": "Paradise never becomes dull",
+   "body": "The pleasures of paradise grow ever better and never become dull like toys on earth."
+  },
+  {
+   "id": "l4",
+   "title": "Remember Allah's past favours",
+   "body": "Allah reminded him: did I not find you an orphan and shelter you, lost and guide you."
+  },
+  {
+   "id": "l5",
+   "title": "The Quran is guidance",
+   "body": "When we have a problem we open the Quran to find answers."
+  },
+  {
+   "id": "l6",
+   "title": "Do not oppress the orphan",
+   "body": "Orphans should be cared for and comforted, not scolded or troubled."
+  },
+  {
+   "id": "l7",
+   "title": "Do not drive away beggars",
+   "body": "Give kindly and do not demean the one who asks."
+  },
+  {
+   "id": "l8",
+   "title": "Spreading Allah's blessings",
+   "body": "The blessing of knowledge and Islam should be shared with others."
+  },
+  {
+   "id": "l9",
+   "title": "Allah chooses us as an answer to prayer",
+   "body": "The doctor's story shows Allah can make us a means of answering another's prayer."
+  },
+  {
+   "id": "l10",
+   "title": "Teaching those with fewer resources",
+   "body": "Children who can read may teach poor neighbours to read the Arabic alphabet."
+  }
+ ],
+ "glossary": [
+  {
+   "id": "g1",
+   "meaning": "The one wrapped in his cloak, Allah's address to the Prophet SAW."
+  },
+  {
+   "id": "g2",
+   "meaning": "The morning when the sun rises softly before it is harsh."
+  },
+  {
+   "id": "g3",
+   "meaning": "Guidance, namely the Quran Jibril brought."
+  },
+  {
+   "id": "g4",
+   "meaning": "To make self-sufficient, so the Prophet SAW did not need much."
+  },
+  {
+   "id": "g5",
+   "meaning": "Allah's favours such as knowledge, comfort and the Quran."
+  },
+  {
+   "id": "g6",
+   "meaning": "The interval when revelation paused for a while after the first."
+  }
+ ],
+ "mindmap": {
+  "id": "root",
+  "label": "The pause and Surah Ad-Duha",
+  "detail": "From sadness to comfort.",
+  "children": [
+   {
+    "id": "m1",
+    "label": "After the first revelation",
+    "detail": "Muzzammil and prayer.",
+    "children": [
+     {
+      "id": "m1a",
+      "label": "Jibril's 600 wings",
+      "detail": "The Prophet ran home."
+     },
+     {
+      "id": "m1b",
+      "label": "Al-Muzzammil",
+      "detail": "Rise for night prayer."
+     },
+     {
+      "id": "m1c",
+      "label": "Wudu and two prayers",
+      "detail": "Taught by Jibril."
+     }
+    ]
+   },
+   {
+    "id": "m2",
+    "label": "Revelation pauses",
+    "detail": "The Prophet grieved.",
+    "children": [
+     {
+      "id": "m2a",
+      "label": "Early believers",
+      "detail": "Ali, Zaid, Abu Bakr."
+     },
+     {
+      "id": "m2b",
+      "label": "Fear of being left",
+      "detail": "Jibril did not come."
+     }
+    ]
+   },
+   {
+    "id": "m3",
+    "label": "Ad-Duha",
+    "detail": "Allah's consolation.",
+    "children": [
+     {
+      "id": "m3a",
+      "label": "Not abandoned",
+      "detail": "Allah does not hate."
+     },
+     {
+      "id": "m3b",
+      "label": "The Hereafter is better",
+      "detail": "And a paradise that never dulls."
+     },
+     {
+      "id": "m3c",
+      "label": "Three past favours",
+      "detail": "Orphan, guidance, sufficiency."
+     }
+    ]
+   },
+   {
+    "id": "m4",
+    "label": "Three instructions",
+    "detail": "Orphan, beggar, blessings.",
+    "children": [
+     {
+      "id": "m4a",
+      "label": "Do not rebuke the orphan",
+      "detail": "Care for and comfort."
+     },
+     {
+      "id": "m4b",
+      "label": "Do not drive off the beggar",
+      "detail": "Give kindly."
+     },
+     {
+      "id": "m4c",
+      "label": "Spread blessings",
+      "detail": "The doctor's story."
+     }
+    ]
+   }
+  ]
+ }
+}
