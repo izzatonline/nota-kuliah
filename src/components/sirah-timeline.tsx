@@ -153,7 +153,11 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
     if (!model) return
     picked.current = k
     setHere(k)
-    scroller?.scrollTo({ left: Math.max(0, model.spans[k].first - 40), behavior: 'smooth' })
+    // A period that fits is centred; one wider than the view starts at the left edge.
+    const { from, to } = model.spans[k]
+    const w = scroller?.clientWidth ?? 0
+    const left = to - from <= w - 80 ? (from + to) / 2 - w / 2 : from - 24
+    scroller?.scrollTo({ left: Math.max(0, left), behavior: 'smooth' })
   }
 
   return (
