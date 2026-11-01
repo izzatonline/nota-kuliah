@@ -152,7 +152,8 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
   const notesCol = useRef<HTMLDivElement>(null) // the scrolling notes column
   const yt = useYouTube(episode.youtubeId, mount)
   // Audio mode (mobile): the video shrinks to a thumbnail so the notes get the screen.
-  const short = useShortScreen() // held sideways: the video sits beside the notes instead of above them
+  const short = useShortScreen() // held sideways there is no room for the video above the notes, so it starts as audio mode
+  const [videoWanted, setVideoWanted] = useState(false) // the visitor asked for the video back while held sideways
   const [compact, setCompact] = useState(() => {
     try {
       return localStorage.getItem('nk:compact') === '1'
@@ -160,9 +161,9 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
       return false
     }
   })
-  const audio = compact && !short
+  const audio = short ? !videoWanted : compact
   const toggleCompact = () =>
-    setCompact((c) => {
+    short ? setVideoWanted((v) => !v) : setCompact((c) => {
       try {
         localStorage.setItem('nk:compact', c ? '0' : '1')
       } catch {}
@@ -300,13 +301,13 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
         <div
           ref={grid}
           style={{ '--vw': videoW ? `${videoW}px` : DEFAULT_WIDTH } as CSSProperties}
-          className="flex h-full flex-col @3xl:grid @3xl:grid-cols-[min(var(--vw),calc(100%_-_380px))_minmax(0,1fr)] short:grid short:grid-cols-[minmax(0,40%)_minmax(0,1fr)]"
+          className="flex h-full flex-col @3xl:grid @3xl:grid-cols-[min(var(--vw),calc(100%_-_380px))_minmax(0,1fr)]"
         >
           {/* video column */}
-          <div className="relative shrink-0 space-y-2 bg-background pb-2 @3xl:flex @3xl:min-h-0 @3xl:flex-col @3xl:gap-3 @3xl:space-y-0 @3xl:border-r @3xl:p-4 @3xl:pb-0 short:flex short:min-h-0 short:flex-col short:gap-2 short:space-y-0 short:overflow-y-auto short:border-r short:p-2 short:pb-0">
+          <div className="relative shrink-0 space-y-2 bg-background pb-2 @3xl:flex @3xl:min-h-0 @3xl:flex-col @3xl:gap-3 @3xl:space-y-0 @3xl:border-r @3xl:p-4 @3xl:pb-0">
             <div className={audio ? 'flex items-stretch gap-2 px-3 pt-1 @3xl:contents' : 'contents'}>
               <Video mount={mount} compact={audio} onCompact={toggleCompact} />
-              <div className={audio ? 'min-w-0 flex-1 [&>*]:h-full @3xl:flex-none @3xl:px-0 @3xl:[&>*]:h-auto' : 'mt-2 px-3 @3xl:mt-0 @3xl:px-0 short:mt-0 short:px-0'}>
+              <div className={audio ? 'min-w-0 flex-1 [&>*]:h-full @3xl:flex-none @3xl:px-0 @3xl:[&>*]:h-auto' : 'mt-2 px-3 @3xl:mt-0 @3xl:px-0'}>
                 {notes ? <NowPlaying notes={notes} compact={audio} onCompact={toggleCompact} /> : <Skeleton className="h-16 w-full rounded-xl" />}
               </div>
             </div>

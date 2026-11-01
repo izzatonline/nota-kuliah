@@ -13,17 +13,17 @@ import type { Notes } from '@/lib/types'
 export function Video({ mount, compact, onCompact }: { mount: RefObject<HTMLDivElement>; compact: boolean; onCompact: () => void }) {
   const { t } = useT()
   return (
-    <div className={cn('relative overflow-hidden bg-black @3xl:rounded-xl @3xl:border short:rounded-lg', compact && 'w-28 shrink-0 rounded-lg @3xl:w-auto')}>
+    <div className={cn('relative overflow-hidden bg-black @3xl:rounded-xl @3xl:border', compact && 'w-28 shrink-0 rounded-lg @3xl:w-auto')}>
       <div
         ref={mount}
-        className={cn('mx-auto aspect-video @3xl:h-auto @3xl:w-full short:h-auto short:w-full [&_iframe]:size-full', compact ? 'w-full' : 'h-[min(34vh,56.25cqw)]')}
+        className={cn('mx-auto aspect-video @3xl:h-auto @3xl:w-full [&_iframe]:size-full', compact ? 'w-full' : 'h-[min(34vh,56.25cqw)]')}
       />
       {!compact && (
         <button
           onClick={onCompact}
           aria-label={t('audioMode')}
           title={t('audioMode')}
-          className="absolute right-2 top-2 grid size-8 place-items-center rounded-full bg-black/60 text-white backdrop-blur @3xl:hidden short:hidden"
+          className="absolute right-2 top-2 grid size-8 place-items-center rounded-full bg-black/60 text-white backdrop-blur @3xl:hidden"
         >
           <Headphones className="size-4" />
         </button>
