@@ -12,9 +12,9 @@
 - Pipeline `scripts/pipeline.py`: fetch, transcribe (with loop check), draft notes with Claude, build (quotes become timestamps)
 
 ## Next
-1. **More episodes.** Ep 11 and Ep 34 now have notes (27 of 49 episodes). Next candidates: the most watched episodes without notes (see `views` in `public/series/sirah-impak-sosial/index.json`).
+1. **More episodes.** All 49 episodes of Sirah Impak Sosial now have notes. Next: a second series (see `views` in `index.json` for ideas).
 2. **English notes.** The interface is bilingual. Notes are translated per episode as `notes.en.json` (`scripts/english_notes.py`); every episode so far has one; new episodes need theirs added.
-3. Notes for the remaining 22 episodes of the series (27 of 49 done).
+3. Notes for the series are complete (49 of 49 done).
 4. Hadith verification: work through [docs/hadith-review.md](docs/hadith-review.md), checking Arabic text, source and
    grade against a hadith source. The checklist is generated, so it shrinks as entries are verified.
 5. Contribution guide and a "how to add an episode" section in the README.
