@@ -266,13 +266,13 @@ export function LandingPage() {
             <h2 className="mb-5 text-2xl font-semibold tracking-tight">{t('series.title')}</h2>
             <div className="grid gap-4 md:grid-cols-2">
               {all.map((s) => (
-                <Link key={s.series.slug} to={`/${s.series.slug}`} className="group rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-ring">
-                  <Card className="transition-all group-hover:border-primary/40 group-hover:shadow-md">
-                    <CardContent className="space-y-2 p-6">
+                <Link key={s.series.slug} to={`/${s.series.slug}`} className="group block rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-ring">
+                  <Card className="h-full transition-all group-hover:border-primary/40 group-hover:shadow-md">
+                    <CardContent className="flex h-full flex-col gap-2 p-6">
                       <p className="text-lg font-semibold tracking-tight">{s.series.title}</p>
                       <p className="text-sm text-muted-foreground">{s.series.speaker} · {t('sidebar.episodes', { n: s.episodes.length })} · {t('sidebar.withNotes', { n: s.episodes.filter((e) => e.hasNotes).length })}</p>
                       <p className="text-sm leading-relaxed text-muted-foreground">{s.series.description[lang]}</p>
-                      <span className="inline-flex items-center gap-1 pt-1 text-sm font-medium text-primary">{t('series.open')} <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" /></span>
+                      <span className="mt-auto inline-flex items-center gap-1 pt-1 text-sm font-medium text-primary">{t('series.open')} <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" /></span>
                     </CardContent>
                   </Card>
                 </Link>
