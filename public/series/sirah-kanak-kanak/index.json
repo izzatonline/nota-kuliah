@@ -183,7 +183,8 @@
    "season": 1,
    "duration": 2082,
    "views": 8200,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-02T00:04:19"
   },
   {
    "id": "ep17",
@@ -193,7 +194,8 @@
    "season": 1,
    "duration": 2219,
    "views": 7600,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-02T00:07:38"
   },
   {
    "id": "ep18",
@@ -203,7 +205,8 @@
    "season": 1,
    "duration": 1784,
    "views": 7800,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-02T00:09:40"
   },
   {
    "id": "ep19",
@@ -213,7 +216,8 @@
    "season": 1,
    "duration": 2506,
    "views": 7700,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-02T00:13:44"
   },
   {
    "id": "ep20",
@@ -223,7 +227,8 @@
    "season": 1,
    "duration": 1846,
    "views": 9600,
-   "hasNotes": false
+   "hasNotes": true,
+   "notesAddedAt": "2026-11-02T00:16:21"
   },
   {
    "id": "ep21",
