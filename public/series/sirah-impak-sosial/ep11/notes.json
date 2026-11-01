@@ -207,13 +207,14 @@
    "kind": "hadith",
    "ref": "Tiada nabi diutus melainkan penggembala kambing",
    "t": 1831,
-   "arabic": null,
+   "arabic": "مَا بَعَثَ اللَّهُ نَبِيًّا إِلاَّ رَعَى الْغَنَمَ \". فَقَالَ أَصْحَابُهُ وَأَنْتَ فَقَالَ \" نَعَمْ كُنْتُ أَرْعَاهَا عَلَى قَرَارِيطَ",
    "translation": "Allah tidak mengutus seorang nabi melainkan dia penggembala kambing. Para sahabat bertanya, dan engkau juga wahai Rasulullah? Baginda menjawab, ya, aku menggembala kambing penduduk Mekah untuk beberapa sen upah.",
    "context": "Nabi SAW mula menjadi pengembala sejak berpindah ke rumah Abu Talib pada usia lapan tahun, menurut satu riwayat yang disebut ustaz.",
-   "narrator": "Tidak disebut dalam kuliah",
-   "source": "Sumber tidak disebut dalam kuliah",
-   "grade": null,
-   "verified": false
+   "narrator": "Abu Hurairah RA",
+   "source": "Sahih al-Bukhari 2262",
+   "grade": "Sahih",
+   "verified": true,
+   "sourceUrl": "https://sunnah.com/bukhari:2262"
   },
   {
    "id": "h7",

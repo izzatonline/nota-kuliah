@@ -118,13 +118,14 @@
    "kind": "hadith",
    "ref": "Mengubah kemungkaran dengan tangan, lisan dan hati",
    "t": 2072,
-   "arabic": null,
+   "arabic": "مَنْ رَأَى مِنْكُمْ مُنْكَرًا فَلْيُغَيِّرْهُ بِيَدِهِ فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ فَإِنْ لَمْ يَسْتَطِعْ فَبِقَلْبِهِ وَذَلِكَ أَضْعَفُ الإِيمَانِ",
    "translation": "Sesiapa yang melihat kemungkaran hendaklah mengubahnya dengan tangannya; jika tidak mampu maka dengan lisannya; jika tidak mampu maka dengan hatinya, dan itulah selemah-lemah iman.",
    "context": "Dijadikan hujah bahawa sikap 'none of my business' terhadap kezaliman tidak dibenarkan.",
-   "narrator": "Tidak disebut dalam kuliah",
-   "source": "Sumber tidak disebut dalam kuliah",
-   "grade": null,
-   "verified": false
+   "narrator": "Abu Sa'id al-Khudri RA",
+   "source": "Sahih Muslim 49a",
+   "grade": "Sahih",
+   "verified": true,
+   "sourceUrl": "https://sunnah.com/muslim:49a"
   },
   {
    "id": "h0",

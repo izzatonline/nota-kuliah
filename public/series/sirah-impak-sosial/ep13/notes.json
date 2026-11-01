@@ -148,13 +148,14 @@
    "kind": "hadith",
    "ref": "Safar sebahagian daripada azab",
    "t": 1062,
-   "arabic": null,
+   "arabic": "السَّفَرُ قِطْعَةٌ مِنَ الْعَذَابِ يَمْنَعُ أَحَدَكُمْ نَوْمَهُ وَطَعَامَهُ وَشَرَابَهُ فَإِذَا قَضَى أَحَدُكُمْ نَهْمَتَهُ مِنْ وَجْهِهِ فَلْيُعَجِّلْ إِلَى أَهْلِهِ",
    "translation": "Safar ialah sebahagian daripada azab; ia menghalang seseorang daripada makan, minum dan tidurnya. Apabila selesai urusan safarnya, hendaklah dia segera pulang kepada keluarganya.",
    "context": "Dikaitkan dengan hakikat bahawa safar menguji dan menzahirkan karakter sebenar seseorang.",
-   "narrator": "Tidak disebut dalam kuliah",
-   "source": "Bukhari dan Muslim",
-   "grade": null,
-   "verified": false
+   "narrator": "Abu Hurairah RA",
+   "source": "Sahih Muslim 1927",
+   "grade": "Sahih",
+   "verified": true,
+   "sourceUrl": "https://sunnah.com/muslim:1927"
   },
   {
    "id": "h3",
