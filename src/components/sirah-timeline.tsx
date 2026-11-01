@@ -39,6 +39,7 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
   const [failed, setFailed] = useState(false)
   const [scroller, setScroller] = useState<HTMLDivElement | null>(null)
   const [here, setHere] = useState(0) // the phase in the middle of the view
+  const chips = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     let live = true
@@ -74,6 +75,13 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
     const cur = model.items.find((i) => i.ep.id === activeId)
     if (cur) scroller.scrollTo({ left: Math.max(0, cur.x - scroller.clientWidth / 2) })
   }, [scroller, model, activeId])
+
+  // The period names follow the timeline: the one in view is kept in the middle of its row.
+  useEffect(() => {
+    const row = chips.current
+    const chip = row?.querySelector<HTMLElement>(`[data-phase="${here}"]`)
+    if (row && chip) row.scrollTo({ left: chip.offsetLeft - row.clientWidth / 2 + chip.offsetWidth / 2, behavior: 'smooth' })
+  }, [here, model])
 
   const syncPhase = useCallback(() => {
     if (!scroller || !model) return
@@ -152,11 +160,12 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
 
           {data && model && (
             <div className="flex items-center gap-1 border-b px-3 py-2 sm:px-5 short:py-1" role="group" aria-label={t('timeline.jump')}>
-              <div className="flex min-w-0 flex-1 gap-1.5 overflow-x-auto py-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+              <div ref={chips} className="relative flex min-w-0 flex-1 gap-1.5 overflow-x-auto py-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
                 {data.phases.map((p, k) => (
                   <button
                     key={p.id}
                     type="button"
+                    data-phase={k}
                     onClick={() => jump(k)}
                     aria-current={here === k}
                     style={hueStyle(p.hue)}
@@ -170,12 +179,6 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
                   </button>
                 ))}
               </div>
-              <button type="button" onClick={() => by(-1)} aria-label="←" className="hidden size-8 shrink-0 place-items-center rounded-md border text-muted-foreground transition-colors hover:bg-accent hover:text-foreground sm:grid">
-                <ChevronLeft className="size-4" />
-              </button>
-              <button type="button" onClick={() => by(1)} aria-label="→" className="hidden size-8 shrink-0 place-items-center rounded-md border text-muted-foreground transition-colors hover:bg-accent hover:text-foreground sm:grid">
-                <ChevronRight className="size-4" />
-              </button>
             </div>
           )}
 
@@ -238,6 +241,12 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
                 </div>
                 <div className="pointer-events-none absolute inset-y-0 left-0 w-6 bg-gradient-to-r from-popover to-transparent" />
                 <div className="pointer-events-none absolute inset-y-0 right-0 w-6 bg-gradient-to-l from-popover to-transparent" />
+                <button type="button" onClick={() => by(-1)} aria-label="←" className="absolute left-2 top-1/2 z-30 hidden size-9 -translate-y-1/2 place-items-center rounded-full border bg-popover/90 text-muted-foreground shadow-md backdrop-blur transition-colors hover:bg-accent hover:text-foreground sm:grid">
+                  <ChevronLeft className="size-4" />
+                </button>
+                <button type="button" onClick={() => by(1)} aria-label="→" className="absolute right-2 top-1/2 z-30 hidden size-9 -translate-y-1/2 place-items-center rounded-full border bg-popover/90 text-muted-foreground shadow-md backdrop-blur transition-colors hover:bg-accent hover:text-foreground sm:grid">
+                  <ChevronRight className="size-4" />
+                </button>
               </>
             )}
           </div>
