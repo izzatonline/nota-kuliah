@@ -143,3 +143,8 @@
 @media (max-height: 520px) {
   .nk-range { height: 1.75rem; }
 }
+
+/* The ring that swells out of the current episode's dot on the timeline. */
+@keyframes nk-ring { 0% { transform: scale(0.8); opacity: 0.7; } 100% { transform: scale(2.6); opacity: 0; } }
+.nk-ring { animation: nk-ring 2.4s cubic-bezier(0.2, 0.6, 0.3, 1) infinite; }
+@media (prefers-reduced-motion: reduce) { .nk-ring { animation: none; opacity: 0.25; transform: scale(1.6); } }

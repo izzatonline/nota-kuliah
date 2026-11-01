@@ -279,7 +279,14 @@ function Node({ item, up, phase, birth, slug, current, latest, onGo }: { item: I
         {played && ep.hasNotes && !current && <Check className="size-2.5" strokeWidth={4} />}
         {current && <span className="size-2 rounded-full bg-white" />}
       </span>
-      {current && <span className="absolute z-0 size-9 -translate-x-1/2 -translate-y-1/2 animate-ping rounded-full bg-[hsl(var(--h)_60%_50%/0.35)]" style={{ left: x, top: '50%' }} aria-hidden />}
+      {current && (
+        // two soft rings that swell and fade out of the dot, one after the other. The wrapper has no size and the rings
+        // are placed with offsets, since the animation moves them with `transform` and that would undo a centring one.
+        <span className="absolute z-0 size-0" style={{ left: x, top: '50%' }} aria-hidden>
+          <span className="nk-ring absolute -left-3 -top-3 size-6 rounded-full bg-[hsl(var(--h)_60%_50%/0.45)]" />
+          <span className="nk-ring absolute -left-3 -top-3 size-6 rounded-full bg-[hsl(var(--h)_60%_50%/0.45)] [animation-delay:1.2s]" />
+        </span>
+      )}
       <button
         type="button"
         onClick={() => onGo(ep.id)}
