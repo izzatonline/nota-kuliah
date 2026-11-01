@@ -135,13 +135,14 @@
    "kind": "hadith",
    "ref": "Tapak kaki Bilal di syurga",
    "t": 1512,
-   "arabic": null,
+   "arabic": "يَا بِلاَلُ حَدِّثْنِي بِأَرْجَى عَمَلٍ عَمِلْتَهُ فِي الإِسْلاَمِ، فَإِنِّي سَمِعْتُ دَفَّ نَعْلَيْكَ بَيْنَ يَدَىَّ فِي الْجَنَّةِ",
    "translation": "Aku mendengar bunyi tapak kaki Bilal di syurga.",
    "context": "Ganjaran Bilal selepas seksaan, dan azan pertama yang dikumandangkan.",
-   "narrator": "Tidak disebut dalam kuliah",
-   "source": "Sumber tidak disebut dalam kuliah",
-   "grade": null,
-   "verified": false
+   "narrator": "Abu Hurairah RA",
+   "source": "Sahih al-Bukhari 1149",
+   "grade": "Sahih",
+   "verified": true,
+   "sourceUrl": "https://sunnah.com/bukhari:1149"
   },
   {
    "id": "q92-18",

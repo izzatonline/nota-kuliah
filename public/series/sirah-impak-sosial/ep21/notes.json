@@ -151,13 +151,14 @@
    "kind": "hadith",
    "ref": "Islam bermula asing dan akan kembali asing",
    "t": 1956,
-   "arabic": null,
+   "arabic": "إِنَّ الْإِسْلَامَ بَدَأَ غَرِيبًا وَسَيَعُودُ غَرِيبًا كَمَا بَدَأَ، فَطُوبَى لِلْغُرَبَاءِ",
    "translation": "Islam bermula dalam keadaan asing dan akan kembali asing; maka beruntunglah orang-orang yang asing.",
    "context": "Dikaitkan dengan hakikat bahawa orang yang berpegang kepada kebenaran sering sedikit.",
-   "narrator": "Tidak disebut dalam kuliah",
-   "source": "Sumber tidak disebut dalam kuliah",
-   "grade": null,
-   "verified": false
+   "narrator": "Abdullah bin Mas'ud RA",
+   "source": "Jami' at-Tirmidhi 2629",
+   "grade": "Sahih (Darussalam)",
+   "verified": true,
+   "sourceUrl": "https://sunnah.com/tirmidhi:2629"
   }
  ],
  "books": [

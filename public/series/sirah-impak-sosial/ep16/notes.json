@@ -169,13 +169,14 @@
    "kind": "hadith",
    "ref": "Hajar Aswad akan menjadi saksi",
    "t": 1791,
-   "arabic": null,
+   "arabic": "وَاللَّهِ لَيَبْعَثَنَّهُ اللَّهُ يَوْمَ الْقِيَامَةِ لَهُ عَيْنَانِ يُبْصِرُ بِهِمَا، وَلِسَانٌ يَنْطِقُ بِهِ يَشْهَدُ عَلَى مَنِ اسْتَلَمَهُ بِحَقٍّ",
    "translation": "Demi Allah, Allah akan membangkitkan batu itu pada hari kiamat; ia mempunyai dua mata yang melihat dan lidah yang berbicara, menjadi saksi kepada sesiapa yang menyentuhnya.",
    "context": "Hadis tentang kedudukan batu itu pada hari kiamat.",
-   "narrator": "Ibn Abbas",
-   "source": "Tirmidhi, Ibn Majah, Imam Ahmad",
+   "narrator": "Abdullah bin Abbas RA",
+   "source": "Jami' at-Tirmidhi 961",
    "grade": "Hasan",
-   "verified": false
+   "verified": true,
+   "sourceUrl": "https://sunnah.com/tirmidhi:961"
   },
   {
    "id": "h5",
