@@ -169,7 +169,8 @@ export function LandingPage() {
     { Icon: Users, k: 'why.2' },
     { Icon: BookOpenCheck, k: 'why.3' },
   ] as const
-  const first = all?.[0]
+  // With one series the browse buttons open it; with several they scroll to the series list.
+  const browseTo = all && all.length === 1 ? `/${all[0].series.slug}` : '#series'
   const withTimeline = all?.find((s) => TIMELINE_SERIES.includes(s.series.slug))
 
   return (
@@ -178,9 +179,9 @@ export function LandingPage() {
         <div className="mx-auto flex h-14 max-w-6xl items-center gap-2 px-4 sm:px-6">
           <BrandLink />
           <div className="flex-1" />
-          {first && (
+          {all && all.length > 0 && (
             <Button asChild variant="ghost" size="sm" className="hidden sm:inline-flex">
-              <Link to={`/${first.series.slug}`}>{t('nav.episodes')}</Link>
+              {browseTo === '#series' ? <a href="#series">{t('nav.episodes')}</a> : <Link to={browseTo}>{t('nav.episodes')}</Link>}
             </Button>
           )}
           <SearchButton onClick={open} label={t('search.button')} />
@@ -205,9 +206,9 @@ export function LandingPage() {
                       <Link to={epPath(latest.series.slug, latest.ep.id)}>{t('hero.cta.start')} <ArrowRight /></Link>
                     </Button>
                   )}
-                  {first && (
+                  {all && all.length > 0 && (
                     <Button asChild variant="outline">
-                      <Link to={`/${first.series.slug}`}>{t('hero.cta.browse')}</Link>
+                      {browseTo === '#series' ? <a href="#series">{t('hero.cta.browse')}</a> : <Link to={browseTo}>{t('hero.cta.browse')}</Link>}
                     </Button>
                   )}
                   {withTimeline && <TimelineButton onClick={() => setTimeline(true)} className="h-10" />}
@@ -261,7 +262,7 @@ export function LandingPage() {
 
         {/* series */}
         {all && all.length > 0 && (
-          <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+          <section id="series" className="mx-auto max-w-6xl scroll-mt-16 px-4 py-12 sm:px-6">
             <h2 className="mb-5 text-2xl font-semibold tracking-tight">{t('series.title')}</h2>
             <div className="grid gap-4 md:grid-cols-2">
               {all.map((s) => (
