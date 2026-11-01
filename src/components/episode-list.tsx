@@ -8,14 +8,15 @@ import {
 } from '@/components/ui/sidebar'
 import { Input } from '@/components/ui/input'
 import { Clamp } from '@/components/clamp'
+import { TimelineButton } from '@/components/sirah-timeline'
 import { cn } from '@/lib/utils'
 import { fmt } from '@/lib/data'
 import { useT } from '@/lib/i18n'
 import type { Episode, SeriesIndex } from '@/lib/types'
 
-type Props = { index: SeriesIndex; activeId: string; onSelect: (id: string) => void }
+type Props = { index: SeriesIndex; activeId: string; onSelect: (id: string) => void; onOpenTimeline?: () => void }
 
-export function EpisodeSidebar({ index, activeId, onSelect }: Props) {
+export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Props) {
   const { t } = useT()
   const { setOpenMobile } = useSidebar()
   const [q, setQ] = useState('')
@@ -52,6 +53,15 @@ export function EpisodeSidebar({ index, activeId, onSelect }: Props) {
               {index.series.speaker} · {t('sidebar.episodes', { n: index.episodes.length })} · {t('sidebar.withNotes', { n: withNotes })}
             </p>
           </div>
+          {onOpenTimeline && (
+            <TimelineButton
+              className="w-full"
+              onClick={() => {
+                setOpenMobile(false)
+                onOpenTimeline()
+              }}
+            />
+          )}
           <div className="relative">
             <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
             <Input value={q} onChange={(e) => setQ(e.target.value)} placeholder={t('sidebar.search')} className="h-9 bg-background pl-9" />

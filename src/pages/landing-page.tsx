@@ -1,15 +1,17 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { ArrowRight, BookOpenCheck, Clock, Eye, FileText, Headphones, History, Play, Users } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { BrandLink } from '@/components/brand'
 import { LanguageSwitch } from '@/components/language-switch'
+import { TimelineButton, TimelineDialog } from '@/components/sirah-timeline'
 import { SiteFooter } from '@/components/site-footer'
 import { ThemeToggle } from '@/components/theme'
 import { SearchButton } from '@/components/header-actions'
 import { useSearch } from '@/components/search-palette'
+import { TIMELINE_SERIES } from '@/config'
 import { epPath, fmt, loadAllSeries, loadNotes } from '@/lib/data'
 import { useT } from '@/lib/i18n'
 import { getLast, getProgress } from '@/lib/progress'
@@ -147,7 +149,9 @@ function ContinueCard({ all }: { all: SeriesIndex[] }) {
 export function LandingPage() {
   const { open } = useSearch()
   const { t, lang } = useT()
+  const navigate = useNavigate()
   const [all, setAll] = useState<SeriesIndex[] | null>(null)
+  const [timeline, setTimeline] = useState(false)
   useEffect(() => {
     document.title = 'Nota Kuliah'
     loadAllSeries().then(setAll).catch(() => setAll([]))
@@ -166,6 +170,7 @@ export function LandingPage() {
     { Icon: BookOpenCheck, k: 'why.3' },
   ] as const
   const first = all?.[0]
+  const withTimeline = all?.find((s) => TIMELINE_SERIES.includes(s.series.slug))
 
   return (
     <div className="min-h-dvh overflow-y-auto bg-background">
@@ -205,6 +210,7 @@ export function LandingPage() {
                       <Link to={`/${first.series.slug}`}>{t('hero.cta.browse')}</Link>
                     </Button>
                   )}
+                  {withTimeline && <TimelineButton onClick={() => setTimeline(true)} className="h-10" />}
                 </div>
               </div>
               {latest && <div className="hidden lg:block"><HeroPreview item={latest} /></div>}
@@ -275,6 +281,7 @@ export function LandingPage() {
         )}
       </main>
       <SiteFooter />
+      {timeline && withTimeline && <TimelineDialog index={withTimeline} activeId={getLast()?.slug === withTimeline.series.slug ? getLast()!.ep : ''} onSelect={(id) => navigate(epPath(withTimeline.series.slug, id))} onClose={() => setTimeline(false)} />}
     </div>
   )
 }

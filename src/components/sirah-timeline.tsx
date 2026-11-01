@@ -19,26 +19,21 @@ const DOT = 'bg-[hsl(var(--h)_58%_40%)] dark:bg-[hsl(var(--h)_55%_62%)]'
 const INK = 'text-[hsl(var(--h)_60%_32%)] dark:text-[hsl(var(--h)_60%_72%)]'
 
 /** The button that opens the timeline. Its border is lit by a light that runs around it, to be noticed. */
-export function TimelineButton({ index, activeId, onSelect }: { index: SeriesIndex; activeId: string; onSelect: (id: string) => void }) {
+export function TimelineButton({ onClick, className }: { onClick: () => void; className?: string }) {
   const { t } = useT()
-  const [open, setOpen] = useState(false)
   return (
-    <>
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        aria-label={t('timeline.button')}
-        className="nk-shine inline-flex h-8 shrink-0 items-center gap-2 bg-background px-2.5 text-sm font-medium text-foreground outline-none transition-colors hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring sm:px-3.5"
-      >
-        <Milestone className="size-4 text-[hsl(var(--gold))]" />
-        <span className="hidden sm:inline">{t('timeline.button')}</span>
-      </button>
-      {open && <TimelineDialog index={index} activeId={activeId} onSelect={onSelect} onClose={() => setOpen(false)} />}
-    </>
+    <button
+      type="button"
+      onClick={onClick}
+      className={cn('nk-shine inline-flex h-9 shrink-0 items-center justify-center gap-2 bg-background px-4 text-sm font-medium text-foreground outline-none transition-colors hover:bg-accent focus-visible:ring-2 focus-visible:ring-ring', className)}
+    >
+      <Milestone className="size-4 text-[hsl(var(--gold))]" />
+      {t('timeline.button')}
+    </button>
   )
 }
 
-function TimelineDialog({ index, activeId, onSelect, onClose }: { index: SeriesIndex; activeId: string; onSelect: (id: string) => void; onClose: () => void }) {
+export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: SeriesIndex; activeId: string; onSelect: (id: string) => void; onClose: () => void }) {
   const { t, lang } = useT()
   const slug = index.series.slug
   const [data, setData] = useState<TimelineData | null>(null)

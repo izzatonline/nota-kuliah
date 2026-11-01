@@ -10,7 +10,7 @@ import { SidebarInset, SidebarProvider, SidebarTrigger } from '@/components/ui/s
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Breadcrumb, BreadcrumbItem, BreadcrumbList, BreadcrumbSeparator } from '@/components/ui/breadcrumb'
 import { HeaderActions } from '@/components/header-actions'
-import { TimelineButton } from '@/components/sirah-timeline'
+import { TimelineDialog } from '@/components/sirah-timeline'
 import { ScrollRow } from '@/components/scroll-tabs'
 import { EpisodeSidebar } from '@/components/episode-list'
 import { ChapterScroll, NowPlaying, SeekBar, Video } from '@/components/video-panel'
@@ -48,6 +48,7 @@ export function SeriesPage() {
   const navigate = useNavigate()
   const [index, setIndex] = useState<SeriesIndex | null>(null)
   const [error, setError] = useState(false)
+  const [timeline, setTimeline] = useState(false) // the sirah timeline, opened from the sidebar
 
   useEffect(() => {
     setIndex(null)
@@ -80,7 +81,7 @@ export function SeriesPage() {
 
   return (
     <SidebarProvider className="h-dvh min-h-0">
-      <EpisodeSidebar index={index} activeId={episode.id} onSelect={select} />
+      <EpisodeSidebar index={index} activeId={episode.id} onSelect={select} onOpenTimeline={TIMELINE_SERIES.includes(slug) ? () => setTimeline(true) : undefined} />
       <SidebarInset className="min-h-0 overflow-hidden">
         <header className="flex h-14 shrink-0 items-center gap-2 border-b bg-background/80 px-3 backdrop-blur sm:px-4">
           <SidebarTrigger className="-ml-1 shrink-0" />
@@ -97,12 +98,12 @@ export function SeriesPage() {
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
-          {TIMELINE_SERIES.includes(slug) && <TimelineButton index={index} activeId={episode.id} onSelect={select} />}
           <HeaderActions watchUrl={youtubeUrl(episode.youtubeId)} />
         </header>
 
         {episode.hasNotes ? <Lecture key={episode.id} slug={slug} episode={episode} series={index.series.title} /> : <NoNotes episode={episode} />}
       </SidebarInset>
+      {timeline && <TimelineDialog index={index} activeId={episode.id} onSelect={select} onClose={() => setTimeline(false)} />}
     </SidebarProvider>
   )
 }
