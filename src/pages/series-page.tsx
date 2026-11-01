@@ -11,6 +11,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Breadcrumb, BreadcrumbItem, BreadcrumbList, BreadcrumbSeparator } from '@/components/ui/breadcrumb'
 import { HeaderActions } from '@/components/header-actions'
 import { TimelineDialog } from '@/components/sirah-timeline'
+import { SeriesSwitch } from '@/components/series-switch'
 import { ScrollRow } from '@/components/scroll-tabs'
 import { EpisodeSidebar } from '@/components/episode-list'
 import { ChapterScroll, NowPlaying, SeekBar, Video } from '@/components/video-panel'
@@ -102,10 +103,14 @@ export function SeriesPage() {
           <Separator orientation="vertical" className="mx-1 h-5" />
           <Breadcrumb className="min-w-0 flex-1">
             <BreadcrumbList className="flex-nowrap gap-1.5 whitespace-nowrap sm:gap-2">
-              <BreadcrumbItem className="hidden xl:inline-flex">{index.series.title}</BreadcrumbItem>
+              <BreadcrumbItem className="hidden xl:inline-flex"><SeriesSwitch current={index.series} /></BreadcrumbItem>
               <BreadcrumbSeparator className="hidden xl:block" />
-              <BreadcrumbItem className="hidden xl:inline-flex">{t('sidebar.season', { n: episode.season })}</BreadcrumbItem>
-              <BreadcrumbSeparator className="hidden xl:block" />
+              {new Set(index.episodes.map((e) => e.season)).size > 1 && (
+                <>
+                  <BreadcrumbItem className="hidden xl:inline-flex">{t('sidebar.season', { n: episode.season })}</BreadcrumbItem>
+                  <BreadcrumbSeparator className="hidden xl:block" />
+                </>
+              )}
               <BreadcrumbItem className="min-w-0 gap-2">
                 <Badge variant="secondary" className="shrink-0 font-mono">{epLabel}</Badge>
                 <Clamp text={episode.title} className="line-clamp-2 whitespace-normal text-sm font-normal leading-tight text-foreground sm:line-clamp-1 sm:text-base" />
