@@ -97,7 +97,7 @@ export function SeriesPage() {
       <CollapseWhenShort />
       <EpisodeSidebar index={index} activeId={episode.id} onSelect={select} onOpenTimeline={TIMELINE_SERIES.includes(slug) ? () => setTimeline(true) : undefined} />
       <SidebarInset className="min-h-0 overflow-hidden">
-        <header className="flex h-14 shrink-0 items-center gap-2 border-b bg-background/80 px-3 backdrop-blur sm:px-4">
+        <header className="flex h-14 shrink-0 items-center gap-2 border-b bg-background/80 px-3 backdrop-blur short:h-11 sm:px-4">
           <SidebarTrigger className="-ml-1 shrink-0" />
           <Separator orientation="vertical" className="mx-1 h-5" />
           <Breadcrumb className="min-w-0 flex-1">
@@ -312,7 +312,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
                 {notes ? <NowPlaying notes={notes} compact={audio} onCompact={toggleCompact} /> : <Skeleton className="h-16 w-full rounded-xl" />}
               </div>
             </div>
-            {audio && notes && (
+            {audio && !short && notes && (
               <div className="px-3 pb-1 @3xl:hidden">
                 <SeekBar duration={notes.duration} />
               </div>
@@ -326,7 +326,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
             <div className={`shrink-0 bg-background pt-3 @3xl:pt-5 short:pt-2 ${gutter}`}>
               <div className="flex items-start gap-3">
                 <div className="min-w-0 flex-1">
-                  <Clamp as="h1" text={notes?.title ?? episode.title} className="line-clamp-2 text-lg font-semibold leading-snug tracking-tight @3xl:line-clamp-1 @3xl:text-2xl short:line-clamp-1 short:text-base" />
+                  <Clamp as="h1" text={notes?.title ?? episode.title} className="line-clamp-2 text-lg font-semibold leading-snug tracking-tight @3xl:line-clamp-1 @3xl:text-2xl short:line-clamp-1 short:text-sm" />
                   <p className="mb-3 hidden truncate text-sm text-muted-foreground @xl:block short:hidden">
                     {notes?.speaker ?? 'Ustaz Azlan Shah NK'} · {series} · {epLabel}
                   </p>

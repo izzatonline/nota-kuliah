@@ -138,3 +138,8 @@
 @media (prefers-reduced-motion: reduce) {
   .nk-shine::before, .nk-shine::after { animation: none; --nk-angle: 45deg; }
 }
+
+/* Held sideways there is little height: a slimmer seek slider. */
+@media (max-height: 520px) {
+  .nk-range { height: 1.75rem; }
+}

@@ -8,6 +8,7 @@ import { cn } from '@/lib/utils'
 import { fmt } from '@/lib/data'
 import { usePlayer } from '@/components/player-context'
 import { useT } from '@/lib/i18n'
+import { useShortScreen } from '@/hooks/use-short-screen'
 import type { Notes } from '@/lib/types'
 
 export function Video({ mount, compact, onCompact }: { mount: RefObject<HTMLDivElement>; compact: boolean; onCompact: () => void }) {
@@ -66,6 +67,7 @@ export function SeekBar({ duration }: { duration: number }) {
 export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compact: boolean; onCompact: () => void }) {
   const { time, seek, playing, toggle } = usePlayer()
   const { t } = useT()
+  const short = useShortScreen() // held sideways the seek bar joins the card, to save a row
   const idx = Math.max(0, notes.chapters.findLastIndex((c) => c.start <= time))
   const c = notes.chapters[idx]
   const pct = Math.min(100, Math.max(0, ((time - c.start) / (c.end - c.start)) * 100))
@@ -110,6 +112,7 @@ export function NowPlaying({ notes, compact, onCompact }: { notes: Notes; compac
               <VideoIcon className="size-4" />
             </Button>
           </div>
+          {short && <SeekBar duration={notes.duration} />}
         </div>
       )}
       <div className={cn('h-1 overflow-hidden rounded-full bg-muted', compact && 'hidden @3xl:block')}>
