@@ -1,0 +1,182 @@
+{
+ "id": "ep24",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "How old was Umar bin Al-Khattab when he embraced Islam?",
+   "options": [
+    "15 or 16",
+    "25 or 26",
+    "40",
+    "60"
+   ],
+   "explain": "Umar was a sturdy young man of 25 or 26."
+  },
+  {
+   "id": "q2",
+   "q": "Which surah did Umar hear from behind the Kaaba's covering?",
+   "options": [
+    "Taha",
+    "Al-Haqqah",
+    "Al-Alaq",
+    "Al-Fil"
+   ],
+   "explain": "Umar slipped behind the cloth of the Kaaba and was spellbound hearing Al-Haqqah."
+  },
+  {
+   "id": "q3",
+   "q": "Who told Umar about his sister's belief in order to stop him?",
+   "options": [
+    "Nu'aym",
+    "Khabbab",
+    "Hamzah",
+    "Abu Jahal"
+   ],
+   "explain": "Nu'aym hid his Islam and told Umar so that he would not kill the Prophet SAW."
+  },
+  {
+   "id": "q4",
+   "q": "How did Umar feel when he accidentally struck his sister until she bled?",
+   "options": [
+    "Pleased",
+    "Ashamed and regretful",
+    "Indifferent",
+    "Angrier"
+   ],
+   "explain": "Umar was ashamed and sorry, and wanted to read the pages his sister had been reading."
+  },
+  {
+   "id": "q5",
+   "q": "Which surah softened Umar's heart?",
+   "options": [
+    "Al-Masad",
+    "Taha",
+    "Al-Kawthar",
+    "Al-Fil"
+   ],
+   "explain": "Reciting Taha changed Umar, who had wanted to kill the Prophet SAW."
+  },
+  {
+   "id": "q6",
+   "q": "Where did Umar pronounce the shahada?",
+   "options": [
+    "At the Kaaba",
+    "At Dar al-Arqam",
+    "In Abyssinia",
+    "At Abu Jahal's house"
+   ],
+   "explain": "Umar became a Muslim before the Prophet SAW at Dar al-Arqam."
+  },
+  {
+   "id": "q7",
+   "q": "What does Al-Faruq, Umar's title, mean?",
+   "options": [
+    "The one who separates truth from falsehood",
+    "The praised one",
+    "The strong one",
+    "The trusted one"
+   ],
+   "explain": "Al-Faruq was Umar's title from the Prophet SAW."
+  },
+  {
+   "id": "q8",
+   "q": "Who led the two rows of Muslims to the Kaaba to pray openly?",
+   "options": [
+    "Abu Bakr and Ali",
+    "Bilal and Ammar",
+    "Khabbab and Zaid",
+    "Hamzah and Umar"
+   ],
+   "explain": "Two rows led by Hamzah and Umar moved to the Kaaba."
+  },
+  {
+   "id": "q9",
+   "q": "The first ten days of Dhul-Hijjah are the days Allah loves most of the year.",
+   "explain": "True. The ustaz reminded of this at the start of the lecture."
+  },
+  {
+   "id": "q10",
+   "q": "Umar began to change when he heard the Prophet SAW's recitation himself, not just what others said.",
+   "explain": "True. Do not quarrel without understanding. Listen for yourself first."
+  },
+  {
+   "id": "q11",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Umar pronounces the shahada"
+    },
+    {
+     "id": "b",
+     "text": "Umar reads Surah Taha"
+    },
+    {
+     "id": "c",
+     "text": "Umar hears Surah Al-Haqqah"
+    },
+    {
+     "id": "d",
+     "text": "Umar strikes his sister"
+    },
+    {
+     "id": "e",
+     "text": "Nu'aym stops Umar"
+    }
+   ],
+   "explain": "Umar heard Al-Haqqah, was stopped by Nu'aym, struck his sister, read Taha, then pronounced the shahada."
+  },
+  {
+   "id": "q12",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Dhul-Hijjah"
+    },
+    {
+     "id": "b",
+     "text": "Al-Haqqah"
+    },
+    {
+     "id": "c",
+     "text": "Sha'ir (poetry)"
+    },
+    {
+     "id": "d",
+     "text": "Khalifah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Poetry composed musically"
+    },
+    {
+     "id": "2",
+     "text": "The month of Hajj"
+    },
+    {
+     "id": "3",
+     "text": "The successor leader of the Prophet SAW"
+    },
+    {
+     "id": "4",
+     "text": "The 69th surah"
+    }
+   ],
+   "explain": "Dhul-Hijjah is the month of Hajj, Al-Haqqah is the 69th surah, sha'ir is poetry, and a khalifah is the Prophet's successor."
+  },
+  {
+   "id": "q13",
+   "q": "Someone seems impossible to ever accept the truth. What lesson does Umar's story give?",
+   "options": [
+    "Leave him forever",
+    "Guidance is only for the poor",
+    "Guidance is not impossible, he could become a pillar of Islam",
+    "Do not pray for him"
+   ],
+   "explain": "Someone who seems impossible to embrace Islam can become a strengthener of Islam."
+  }
+ ]
+}
