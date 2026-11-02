@@ -1,0 +1,171 @@
+{
+ "id": "ep11",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "At what age did the Prophet SAW begin withdrawing to seek guidance?",
+   "options": [
+    "30",
+    "35",
+    "38",
+    "40"
+   ],
+   "explain": "At 38 he began to withdraw to seek guidance."
+  },
+  {
+   "id": "q2",
+   "q": "Where did the Prophet SAW practise tahannuth?",
+   "options": [
+    "Inside the Kaaba",
+    "In Abu Talib's house",
+    "In the Cave of Hira on Jabal Nur",
+    "At Ukaz Market"
+   ],
+   "explain": "He stayed for days, sometimes a month, in a small cave on Jabal Nur."
+  },
+  {
+   "id": "q3",
+   "q": "What does tahannuth mean?",
+   "options": [
+    "Trading far away",
+    "Withdrawing to worship and reflect",
+    "Memorising poetry",
+    "Fighting in a sacred month"
+   ],
+   "explain": "Tahannuth is withdrawing to worship and reflect, like the Prophet in the Cave of Hira."
+  },
+  {
+   "id": "q4",
+   "q": "Who climbed the hill to bring supplies and wrap him in a blanket without asking questions?",
+   "options": [
+    "Aminah",
+    "Khadijah",
+    "Fatimah",
+    "Halimah"
+   ],
+   "explain": "Khadijah supported him without questioning."
+  },
+  {
+   "id": "q5",
+   "q": "How many times did Jibril embrace him before delivering the first verses?",
+   "options": [
+    "Once",
+    "Twice",
+    "Three times",
+    "Four times"
+   ],
+   "explain": "He was embraced three times and told to read."
+  },
+  {
+   "id": "q6",
+   "q": "What was the first word of revelation in Surah Al-Alaq?",
+   "options": [
+    "Wrap yourself",
+    "Arise",
+    "Stand up",
+    "Read"
+   ],
+   "explain": "The first verse, Al-Alaq 96:1, tells him to read in the name of his Lord who created."
+  },
+  {
+   "id": "q7",
+   "q": "In which month did the Quran begin to be revealed?",
+   "options": [
+    "Muharram",
+    "Rabi' al-Awwal",
+    "Ramadan",
+    "Dhul-Hijjah"
+   ],
+   "explain": "The Quran began to be revealed in Ramadan, possibly on an odd night such as the 21st."
+  },
+  {
+   "id": "q8",
+   "q": "What did Khadijah do when he came home frightened?",
+   "options": [
+    "Wrapped him in a blanket and held him until his breathing calmed",
+    "Scolded him",
+    "Told him to be quiet",
+    "Called a soothsayer"
+   ],
+   "explain": "Khadijah wrapped him up and held him until his breathing was calm."
+  },
+  {
+   "id": "q9",
+   "q": "The Arabs were known for strong memories because they memorised lineages and poetry.",
+   "explain": "True. That is why they could memorise the Quran easily."
+  },
+  {
+   "id": "q10",
+   "q": "Although rich and famous, the Prophet SAW no longer helped the poor.",
+   "explain": "False. He always helped those in need in Makkah."
+  },
+  {
+   "id": "q11",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The first revelation comes"
+    },
+    {
+     "id": "b",
+     "text": "He practises tahannuth in the Cave of Hira"
+    },
+    {
+     "id": "c",
+     "text": "He returns home and Khadijah wraps him"
+    },
+    {
+     "id": "d",
+     "text": "His dreams come true"
+    },
+    {
+     "id": "e",
+     "text": "He begins to withdraw"
+    }
+   ],
+   "explain": "He withdrew, practised tahannuth, his dreams came true, the revelation came, and he returned to be wrapped by Khadijah."
+  },
+  {
+   "id": "q12",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Jabal Nur"
+    },
+    {
+     "id": "b",
+     "text": "Cave of Hira"
+    },
+    {
+     "id": "c",
+     "text": "Revelation (wahy)"
+    },
+    {
+     "id": "d",
+     "text": "Laylatul Qadr"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A small cave that fits only one person"
+    },
+    {
+     "id": "2",
+     "text": "The noble night among the last ten nights of Ramadan"
+    },
+    {
+     "id": "3",
+     "text": "The Mountain of Light"
+    },
+    {
+     "id": "4",
+     "text": "Allah's message conveyed to the prophets"
+    }
+   ],
+   "explain": "Jabal Nur is the Mountain of Light, Hira a small cave on it, wahy is Allah's message, and Laylatul Qadr is the noble night in Ramadan."
+  }
+ ]
+}
