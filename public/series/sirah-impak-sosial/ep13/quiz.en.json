@@ -1,0 +1,144 @@
+{
+ "id": "ep13",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What is mudarabah?",
+   "options": [
+    "A partnership of capital-owner and worker with an agreed profit ratio",
+    "A kind of wedding gift",
+    "A peace treaty",
+    "A feast"
+   ],
+   "explain": "The investor bears the monetary loss and the worker bears the loss of time and effort."
+  },
+  {
+   "id": "q2",
+   "q": "What ratio did Khadijah offer in the mudarabah?",
+   "options": [
+    "50-50",
+    "90-10",
+    "10-90",
+    "No ratio"
+   ],
+   "explain": "Khadijah offered 50-50 to take her goods to Sham."
+  },
+  {
+   "id": "q3",
+   "q": "Why does safar carry the meaning of unveiling?",
+   "options": [
+    "Because the road is open",
+    "Because camels run",
+    "Because it is in the desert",
+    "Because travel reveals a person's true character"
+   ],
+   "explain": "Ask someone who has travelled with a person to judge his character."
+  },
+  {
+   "id": "q4",
+   "q": "Who was the go-between who conveyed Khadijah's wish to the Prophet SAW?",
+   "options": [
+    "Maysarah",
+    "Fatimah",
+    "Nafisah",
+    "Hala"
+   ],
+   "explain": "Nafisah conveyed it politely and protected the dignity of both parties."
+  },
+  {
+   "id": "q5",
+   "q": "Who delivered the proposal to Khadijah's family?",
+   "options": [
+    "Abu Lahab alone",
+    "Abu Talib and Hamzah",
+    "Abu Bakr and Umar",
+    "Ali and Zayd"
+   ],
+   "explain": "The proposal was delivered in verse, since Khadijah's father had died."
+  },
+  {
+   "id": "q6",
+   "q": "What was the Prophet's SAW mahr to Khadijah?",
+   "options": [
+    "100 camels",
+    "A thousand dinars",
+    "A house",
+    "20 young camels"
+   ],
+   "explain": "The mahr is the husband's obligatory gift to his wife."
+  },
+  {
+   "id": "q7",
+   "q": "What does the hadith advise about marrying off a daughter?",
+   "options": [
+    "Choose the most famous",
+    "Delay forever",
+    "Marry her to one whose religion and character you are pleased with",
+    "Choose only the richest"
+   ],
+   "explain": "Make the lawful easy and do not set excessive material expectations."
+  },
+  {
+   "id": "q8",
+   "q": "The report of the proposal to Umm Hani before prophethood is an authentic report.",
+   "explain": "False. Scholars reject it and it cannot be accepted. Check the authenticity of sirah reports."
+  },
+  {
+   "id": "q9",
+   "q": "Khadijah rejected wealthy suitors because character is everything.",
+   "explain": "True. Character matters more than wealth."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Ijab and qabul"
+    },
+    {
+     "id": "b",
+     "text": "Wali"
+    },
+    {
+     "id": "c",
+     "text": "Walimah"
+    },
+    {
+     "id": "d",
+     "text": "Dhun-Nurayn"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A wedding feast"
+    },
+    {
+     "id": "2",
+     "text": "Possessor of two lights, the title of Uthman"
+    },
+    {
+     "id": "3",
+     "text": "Offer and acceptance in the marriage contract"
+    },
+    {
+     "id": "4",
+     "text": "The guardian who gives a woman in marriage"
+    }
+   ],
+   "explain": "Ijab and qabul are offer and acceptance, the wali is the woman's guardian, walimah is the feast, and Dhun-Nurayn is Uthman's title."
+  },
+  {
+   "id": "q11",
+   "q": "The Prophet SAW informed his uncles first before proposing. What is the lesson?",
+   "options": [
+    "Marriage needs no family",
+    "Respect family in matters of marriage",
+    "Keep it secret from family",
+    "Ignore family opinion"
+   ],
+   "explain": "The proposal was brought by Abu Talib and Hamzah."
+  }
+ ]
+}
