@@ -12,8 +12,9 @@ import { QuizRunner } from '@/components/quiz/quiz-runner'
 import { CompactFooter } from '@/components/site-footer'
 import { epPath, loadIndex } from '@/lib/data'
 import { useT } from '@/lib/i18n'
-import { loadQuiz, loadSeriesPool, SERIES_QUESTIONS, toItems, type Item } from '@/lib/quiz'
+import { CHALLENGE_QUESTIONS, CHALLENGE_SECONDS, loadQuiz, loadSeriesPool, SERIES_QUESTIONS, toItems, type Item, type SeriesMode } from '@/lib/quiz'
 import { MasteryRing } from '@/components/quiz/mastery-ring'
+import { ModePicker } from '@/components/quiz/mode-picker'
 import { quizKey } from '@/lib/quiz-progress'
 import type { SeriesIndex } from '@/lib/types'
 
@@ -25,6 +26,8 @@ export function QuizPage() {
   const [index, setIndex] = useState<SeriesIndex | null>(null)
   const [pool, setPool] = useState<Item[] | null>(null)
   const [failed, setFailed] = useState(false)
+  const [mode, setMode] = useState<SeriesMode>('mix')
+  const [range, setRange] = useState<[number, number]>([0, 0])
 
   useEffect(() => {
     setIndex(null)
@@ -57,6 +60,16 @@ export function QuizPage() {
 
   if (failed || (index && epId && !episode)) return <Navigate to={failed ? '/' : `/${slug}`} replace />
 
+  const quizEps = index?.episodes.filter((e) => e.hasQuiz) ?? []
+  const lastEp = Math.max(0, quizEps.length - 1)
+  const from = Math.min(range[0], lastEp)
+  const to = range[1] === 0 && range[0] === 0 ? lastEp : Math.min(range[1], lastEp)
+  const inRange = new Set(quizEps.slice(from, to + 1).map((e) => e.id))
+  const seriesPool = !epId && pool ? (mode === 'range' ? pool.filter((p) => inRange.has(p.epId)) : pool) : pool
+  const seriesTake = mode === 'challenge' ? CHALLENGE_QUESTIONS : SERIES_QUESTIONS
+  const seriesIntro = mode === 'challenge'
+    ? t('quiz.mode.challengeHint', { s: CHALLENGE_SECONDS })
+    : t('quiz.seriesIntro', { n: Math.min(seriesTake, seriesPool?.length ?? 0) })
   const back = epId ? { to: epPath(slug, epId), label: t('quiz.backToNotes') } : { to: `/${slug}`, label: t('quiz.backToSeries') }
 
   return (
@@ -82,13 +95,29 @@ export function QuizPage() {
           <QuizRunner
             // a new language or quiz starts clean
             key={`${slug}/${epId ?? ''}/${lang}`}
-            storeKey={quizKey(slug, epId)}
+            storeKey={quizKey(slug, epId ?? (mode === 'mix' ? undefined : `_series:${mode}`))}
             title={epId ? (episode?.title ?? '') : t('quiz.seriesName', { series: index?.series.title ?? '' })}
-            intro={epId ? t('quiz.intro') : t('quiz.seriesIntro', { n: Math.min(SERIES_QUESTIONS, pool.length) })}
-            pool={pool}
-            take={epId ? undefined : SERIES_QUESTIONS}
+            intro={epId ? t('quiz.intro') : seriesIntro}
+            pool={epId ? pool : seriesPool ?? pool}
+            take={epId ? undefined : seriesTake}
+            timed={!epId && mode === 'challenge' ? CHALLENGE_SECONDS : undefined}
             back={back}
-            extra={!epId && index ? <MasteryRing slug={slug} epIds={index.episodes.filter((e) => e.hasQuiz).map((e) => e.id)} /> : undefined}
+            extra={
+              !epId && index ? (
+                <div className="space-y-4">
+                  <MasteryRing slug={slug} epIds={quizEps.map((e) => e.id)} />
+                  <ModePicker
+                    mode={mode}
+                    onMode={setMode}
+                    episodes={quizEps.map((e) => ({ id: e.id, label: e.number ? t('ep', { n: e.number }) : t('sidebar.prolog') }))}
+                    from={from}
+                    to={to}
+                    onRange={(f, tt) => setRange([f, tt])}
+                    rangeCount={seriesPool?.length ?? 0}
+                  />
+                </div>
+              ) : undefined
+            }
           />
         )}
         </main>

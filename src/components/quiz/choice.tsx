@@ -28,7 +28,7 @@ export function ChoiceQuestion({ shown, locked, response, onSubmit }: Props) {
       : (shown.order ?? []).map((i) => ({ key: i, text: (q as { options: string[] }).options[i] }))
 
   const isRight = (k: number | boolean) => (q.type === 'multi' ? q.answer.includes(k as number) : q.type !== 'order' && q.type !== 'match' && q.answer === k)
-  const chosen = (k: number | boolean) => (multi ? (locked ? (response as number[]) : picked).includes(k as number) : locked && response === k)
+  const chosen = (k: number | boolean) => (multi ? (locked ? ((response as number[] | null) ?? []) : picked).includes(k as number) : locked && response === k)
 
   const press = (k: number | boolean) => {
     if (locked) return

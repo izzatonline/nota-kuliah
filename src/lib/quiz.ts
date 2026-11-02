@@ -6,6 +6,12 @@ import { overlay } from './overlay'
 export const PASS_MARK = 0.7
 export const POINTS_PER_CORRECT = 10
 export const SERIES_QUESTIONS = 20
+export const CHALLENGE_QUESTIONS = 10
+/** Seconds per question in Cabaran. The speed bonus exists only there: 1 point for every 3 seconds left, so at most 5. */
+export const CHALLENGE_SECONDS = 15
+export const speedBonus = (secondsLeft: number) => Math.ceil(Math.max(0, secondsLeft) / 3)
+
+export type SeriesMode = 'mix' | 'range' | 'challenge'
 
 /** A question as it is played: where it came from, so the learner can watch that moment again. */
 export type Item = { uid: string; q: Question; epId: string; youtubeId: string }
@@ -122,9 +128,9 @@ export type Tally = { correct: number; answered: number; streak: number; points:
 export const emptyTally: Tally = { correct: 0, answered: 0, streak: 0, points: 0, bonus: 0 }
 
 /** 10 points per correct answer; the third answer in a row adds 5, the fifth adds 10. A wrong answer breaks the streak. */
-export function addResult(t: Tally, ok: boolean): Tally {
+export function addResult(t: Tally, ok: boolean, speed = 0): Tally {
   const streak = ok ? t.streak + 1 : 0
-  const bonus = ok ? (streak === 3 ? 5 : streak === 5 ? 10 : 0) : 0
+  const bonus = (ok ? (streak === 3 ? 5 : streak === 5 ? 10 : 0) : 0) + (ok ? speed : 0)
   return {
     correct: t.correct + (ok ? 1 : 0),
     answered: t.answered + 1,
