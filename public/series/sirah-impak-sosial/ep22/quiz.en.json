@@ -1,0 +1,145 @@
+{
+ "id": "ep22",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "On what date is the Day of Tarwiyah?",
+   "options": [
+    "8 Dhul-Hijjah",
+    "9 Dhul-Hijjah",
+    "10 Dhul-Hijjah",
+    "1 Muharram"
+   ],
+   "explain": "The Day of Tarwiyah is 8 Dhul-Hijjah, a day before Arafah."
+  },
+  {
+   "id": "q2",
+   "q": "How did Prophet Ibrahim AS call his father, who kept the house of idols?",
+   "options": [
+    "Gently",
+    "With curses",
+    "With force",
+    "By staying silent"
+   ],
+   "explain": "Ibrahim and Muhammad did not answer with curses; they stated the truth without hatred."
+  },
+  {
+   "id": "q3",
+   "q": "What does Al-Hujurat 49:13 stress about people?",
+   "options": [
+    "Arabs are nobler",
+    "The rich are nobler",
+    "The old are nobler",
+    "No people is superior to another; the noblest is the most God-fearing"
+   ],
+   "explain": "The brotherhood of humankind was stressed in the sermon at Arafah."
+  },
+  {
+   "id": "q4",
+   "q": "What does the ustaz advise about fasting on Arafah?",
+   "options": [
+    "Forbidden",
+    "Only for men",
+    "A very good sunnah, do not make obligatory what is not",
+    "Obligatory for everyone"
+   ],
+   "explain": "Fasting on Arafah is for those not performing Hajj."
+  },
+  {
+   "id": "q5",
+   "q": "What is meant by sacrificing until it feels heavy?",
+   "options": [
+    "Giving a little from excess",
+    "Giving something you love until you feel the sacrifice",
+    "Giving what you do not want",
+    "Not giving"
+   ],
+   "explain": "Not just a little from the leftovers."
+  },
+  {
+   "id": "q6",
+   "q": "Hajj and umrah should be made into social media content.",
+   "explain": "False. Worship is not content; focus must stay on worship."
+  },
+  {
+   "id": "q7",
+   "q": "Ibrahim and Muhammad answered opponents with curses.",
+   "explain": "False. They kept asking forgiveness for their people."
+  },
+  {
+   "id": "q8",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The sermon at Arafah"
+    },
+    {
+     "id": "b",
+     "text": "The Prophet SAW calls out to Quraysh"
+    },
+    {
+     "id": "c",
+     "text": "Hundreds of thousands of companions camp outside Madinah"
+    },
+    {
+     "id": "d",
+     "text": "The Prophet SAW prays until sunset and drinks milk"
+    }
+   ],
+   "explain": "The call to Quraysh, then the Hajj: the companions camped, prayed at Arafah and the sermon was given."
+  },
+  {
+   "id": "q9",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Khutbat al-hajah"
+    },
+    {
+     "id": "b",
+     "text": "Fiqh"
+    },
+    {
+     "id": "c",
+     "text": "Day of Arafah"
+    },
+    {
+     "id": "d",
+     "text": "Ajam"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Non-Arab"
+    },
+    {
+     "id": "2",
+     "text": "9 Dhul-Hijjah, the peak day of Hajj"
+    },
+    {
+     "id": "3",
+     "text": "Deep understanding"
+    },
+    {
+     "id": "4",
+     "text": "The opening sermon recited by the Prophet SAW"
+    }
+   ],
+   "explain": "Khutbat al-hajah is the opening sermon, fiqh is deep understanding, Arafah is 9 Dhul-Hijjah, and ajam means non-Arab."
+  },
+  {
+   "id": "q10",
+   "q": "The main problem is not a lack of knowledge but a lack of what?",
+   "options": [
+    "Books",
+    "Time",
+    "Teachers",
+    "Courage to take the first step"
+   ],
+   "explain": "Knowledge must be followed by action."
+  }
+ ]
+}
