@@ -1,0 +1,160 @@
+{
+ "id": "ep2",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What was the real name of Hashim, the Prophet's ancestor?",
+   "options": [
+    "Syaibah",
+    "Amr",
+    "Salma",
+    "Abdul Manaf"
+   ],
+   "explain": "Hashim was the Prophet's ancestor, and his real name was Amr."
+  },
+  {
+   "id": "q2",
+   "q": "Why was Amr called Hashim?",
+   "options": [
+    "Because he crumbled bread into soup for the pilgrims",
+    "Because his hair was white",
+    "Because he was born in Yathrib",
+    "Because he dug up Zamzam"
+   ],
+   "explain": "Hashama means to crumble bread into soup. That is how Amr came to be called Hashim."
+  },
+  {
+   "id": "q3",
+   "q": "Who brought Shaybah from Yathrib to Makkah?",
+   "options": [
+    "Abdullah",
+    "Al-Muttalib, the brother of Hashim",
+    "Umm Ayman",
+    "Abdul Manaf"
+   ],
+   "explain": "Al-Muttalib brought Shaybah to Makkah, and people called him Abdul Muttalib."
+  },
+  {
+   "id": "q4",
+   "q": "What was the old name of Madinah?",
+   "options": [
+    "Gaza",
+    "Syam",
+    "Yathrib",
+    "Yaman"
+   ],
+   "explain": "Yathrib is the old name of Madinah."
+  },
+  {
+   "id": "q5",
+   "q": "How did Abdul Muttalib find the well of Zamzam again?",
+   "options": [
+    "From a soothsayer",
+    "Through the azlam arrows",
+    "Through a dream over four nights",
+    "Shown by the Jurhum Arabs"
+   ],
+   "explain": "After a dream over four nights, Abdul Muttalib dug where he was shown and found Zamzam."
+  },
+  {
+   "id": "q6",
+   "q": "How many camels were given to ransom Abdullah?",
+   "options": [
+    "Sepuluh",
+    "Lima puluh",
+    "Seratus",
+    "Seribu"
+   ],
+   "explain": "The azlam arrow landed on the camels once a hundred had been set down, so Abdullah was saved."
+  },
+  {
+   "id": "q7",
+   "q": "Abdul Muttalib vowed to sacrifice one son if he was given ten sons.",
+   "explain": "True. After the dispute over Zamzam, he vowed to sacrifice one son if he was given ten sons."
+  },
+  {
+   "id": "q8",
+   "q": "Abdullah died in Gaza.",
+   "explain": "False. It was Hashim who died in Gaza. Abdullah died in Yathrib on his way back from Sham."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abdullah is ransomed with a hundred camels"
+    },
+    {
+     "id": "b",
+     "text": "Shaybah is brought to Makkah"
+    },
+    {
+     "id": "c",
+     "text": "Abdul Muttalib makes his vow about ten sons"
+    },
+    {
+     "id": "d",
+     "text": "Abdullah marries Aminah"
+    },
+    {
+     "id": "e",
+     "text": "Zamzam is found again"
+    }
+   ],
+   "explain": "Shaybah was brought to Makkah, Zamzam was found, the vow was made, Abdullah was ransomed, and then he married Aminah."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Hashama"
+    },
+    {
+     "id": "b",
+     "text": "Yathrib"
+    },
+    {
+     "id": "c",
+     "text": "Nazar (vow)"
+    },
+    {
+     "id": "d",
+     "text": "Azlam"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Arrows cast to make a decision"
+    },
+    {
+     "id": "2",
+     "text": "A promise to Allah to do something"
+    },
+    {
+     "id": "3",
+     "text": "To crumble bread into soup"
+    },
+    {
+     "id": "4",
+     "text": "The old name of Madinah"
+    }
+   ],
+   "explain": "Hashama is crumbling bread into soup, Yathrib is the old name of Madinah, a nazar is a promise to Allah, and azlam are arrows used to decide."
+  },
+  {
+   "id": "q11",
+   "q": "The water ran out in the desert, but Abdul Muttalib refused to give up. What attitude can we take from this?",
+   "options": [
+    "Blame other people",
+    "Stop and go home",
+    "Go to a soothsayer",
+    "Keep trying and never give up"
+   ],
+   "explain": "Abdul Muttalib did not give up, and Allah inspired him with the place of water."
+  }
+ ]
+}
