@@ -90,6 +90,11 @@ class HelperTests(unittest.TestCase):
         raw = "Ep 42: Solat Teras Keseimbangan Hidup | Sirah Impak Sosial | Ustaz Azlan Shah NK"
         self.assertEqual(pipeline.clean_title(raw), "Solat Teras Keseimbangan Hidup")
 
+    def test_clean_title_drops_the_kanak_kanak_suffix_and_series_names(self):
+        self.assertEqual(pipeline.clean_title("Ep 4 | Kelahiran dan Penyusuan Nabi Muhammad SAW (Kanak-kanak)"), "Kelahiran dan Penyusuan Nabi Muhammad SAW")
+        self.assertEqual(pipeline.clean_title("Ep 1 | Serangan Tentera Bergajah | Sirah Nabi Muhammad SAW (Kanak-kanak)"), "Serangan Tentera Bergajah")
+        self.assertEqual(pipeline.clean_title("Ep 23: Kisah Hamzah RA Memeluk Islam | Siri Sirah Kanak-kanak | Ustaz Azlan Shah NK"), "Kisah Hamzah RA Memeluk Islam")
+
     def test_clean_title_keeps_every_part_of_an_unnumbered_episode(self):
         raw = "Prolog | Sirah Impak Sosial | Kehidupan Nabi Muhammad SAW"
         self.assertEqual(pipeline.clean_title(raw), "Prolog: Kehidupan Nabi Muhammad SAW")

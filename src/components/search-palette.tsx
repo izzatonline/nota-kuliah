@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { Command } from 'cmdk'
 import * as Dialog from '@radix-ui/react-dialog'
 import { BookOpen, Landmark, Languages, Lightbulb, Library, ListOrdered, ScrollText, Search, Users, type LucideIcon } from 'lucide-react'
-import { epPath } from '@/lib/data'
+import { epPath, loadAllSeries } from '@/lib/data'
 import { useT, type Key } from '@/lib/i18n'
 import { KINDS, loadEntries, search, snippet, type Entry, type Kind } from '@/lib/search'
 import { cn } from '@/lib/utils'
@@ -47,6 +47,11 @@ function SearchDialog({ open, onOpenChange }: { open: boolean; onOpenChange: (o:
   const [q, setQ] = useState('')
   const [entries, setEntries] = useState<Entry[] | null>(null)
   const [failed, setFailed] = useState(false)
+  const [seriesTitles, setSeriesTitles] = useState<Record<string, string>>({})
+  useEffect(() => {
+    if (!open) return
+    loadAllSeries().then((all) => setSeriesTitles(Object.fromEntries(all.map((s) => [s.series.slug, s.series.title])))).catch(() => {})
+  }, [open])
 
   // The notes of every episode are fetched the first time the palette opens, not on page load.
   useEffect(() => {
@@ -105,7 +110,7 @@ function SearchDialog({ open, onOpenChange }: { open: boolean; onOpenChange: (o:
                   className="[&_[cmdk-group-heading]]:px-3 [&_[cmdk-group-heading]]:pb-1 [&_[cmdk-group-heading]]:pt-2 [&_[cmdk-group-heading]]:text-[11px] [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:uppercase [&_[cmdk-group-heading]]:tracking-[0.14em] [&_[cmdk-group-heading]]:text-muted-foreground"
                 >
                   {items.map((e) => (
-                    <Result key={e.key} e={e} q={q} onSelect={() => go(e)} />
+                    <Result key={e.key} e={e} q={q} series={Object.keys(seriesTitles).length > 1 ? seriesTitles[e.slug] : undefined} onSelect={() => go(e)} />
                   ))}
                 </Command.Group>
               ))}
@@ -117,7 +122,7 @@ function SearchDialog({ open, onOpenChange }: { open: boolean; onOpenChange: (o:
   )
 }
 
-function Result({ e, q, onSelect }: { e: Entry; q: string; onSelect: () => void }) {
+function Result({ e, q, series, onSelect }: { e: Entry; q: string; series?: string; onSelect: () => void }) {
   const { t } = useT()
   const Icon = ICONS[e.kind]
   const where = e.epNumber ? t('ep', { n: e.epNumber }) : t('sidebar.prolog')
@@ -133,7 +138,10 @@ function Result({ e, q, onSelect }: { e: Entry; q: string; onSelect: () => void 
         <span className="block truncate font-medium">{e.title}</span>
         {sub && <span className="block truncate text-xs text-muted-foreground">{sub}</span>}
       </span>
-      <span className="mt-0.5 shrink-0 font-mono text-[11px] text-muted-foreground">{where}</span>
+      <span className="mt-0.5 shrink-0 text-right font-mono text-[11px] text-muted-foreground">
+        {series && <span className="block font-sans">{series}</span>}
+        {where}
+      </span>
     </Command.Item>
   )
 }

@@ -72,7 +72,7 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Pr
       <SidebarContent ref={listRef}>
         {groups.map(([season, eps]) => (
           <SidebarGroup key={season}>
-            <SidebarGroupLabel className="uppercase tracking-[0.14em]">{t('sidebar.season', { n: season })}</SidebarGroupLabel>
+            {new Set(index.episodes.map((e) => e.season)).size > 1 && <SidebarGroupLabel className="uppercase tracking-[0.14em]">{t('sidebar.season', { n: season })}</SidebarGroupLabel>}
             <SidebarGroupContent>
               <SidebarMenu>
                 {eps.map((e) => {

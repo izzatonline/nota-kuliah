@@ -14,7 +14,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DROP = re.compile(
-    r"^(Sirah Impak Sosial|Sirah Nabi Muhammad SAW|Ustaz Azlan Shah( NK)?|Azlan Shah NK|"
+    r"^(Sirah Impak Sosial|Sirah Nabi Muhammad SAW|Sirah Nabi Muhammad SAW \(Kanak-kanak\)|Siri Sirah Kanak-kanak|"
+    r"Sirah Kanak-kanak|\(?Kanak-kanak\)?|Ustaz Azlan Shah( NK)?|Azlan Shah NK|"
     r"Kisah Kehidupan Nabi Muhammad SAW|Season 2 Finale.*)$",
     re.I,
 )
@@ -44,7 +45,7 @@ for line in out:
     title, dur = rest.rsplit("|", 1)
     m = re.match(r"^Ep\s*(\d+)\s*[:|]?\s*(.*)$", title)
     number = int(m.group(1)) if m else None
-    body = m.group(2) if m else title
+    body = re.sub(r"\s*\(Kanak-kanak\)\s*$", "", m.group(2)) if m else title
     parts = [p.strip() for p in body.split("|") if p.strip() and not DROP.match(p.strip())]
     clean = ": ".join(parts) if number is None or (len(parts) > 1 and number == 22) else parts[0] if parts else title
     ep_id = f"ep{number}" if number else "prolog-" + vid
@@ -54,7 +55,7 @@ for line in out:
         "youtubeId": vid,
         "number": number,
         "title": clean,
-        "season": 2 if (number or 0) >= 18 or "Musim Ke-2" in title else 1,
+        "season": 2 if args.slug == "sirah-impak-sosial" and ((number or 0) >= 18 or "Musim Ke-2" in title) else 1,
         "duration": int(float(dur)) if dur not in ("NA", "None") else None,
         "views": int(float(views)) if views not in ("NA", "None") else None,
         "hasNotes": has_notes,

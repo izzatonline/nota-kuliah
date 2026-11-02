@@ -169,7 +169,8 @@ export function LandingPage() {
     { Icon: Users, k: 'why.2' },
     { Icon: BookOpenCheck, k: 'why.3' },
   ] as const
-  const first = all?.[0]
+  // With one series the browse buttons open it; with several they scroll to the series list.
+  const browseTo = all && all.length === 1 ? `/${all[0].series.slug}` : '#series'
   const withTimeline = all?.find((s) => TIMELINE_SERIES.includes(s.series.slug))
 
   return (
@@ -178,9 +179,9 @@ export function LandingPage() {
         <div className="mx-auto flex h-14 max-w-6xl items-center gap-2 px-4 sm:px-6">
           <BrandLink />
           <div className="flex-1" />
-          {first && (
+          {all && all.length > 0 && (
             <Button asChild variant="ghost" size="sm" className="hidden sm:inline-flex">
-              <Link to={`/${first.series.slug}`}>{t('nav.episodes')}</Link>
+              {browseTo === '#series' ? <a href="#series">{t('nav.episodes')}</a> : <Link to={browseTo}>{t('nav.episodes')}</Link>}
             </Button>
           )}
           <SearchButton onClick={open} label={t('search.button')} />
@@ -205,9 +206,9 @@ export function LandingPage() {
                       <Link to={epPath(latest.series.slug, latest.ep.id)}>{t('hero.cta.start')} <ArrowRight /></Link>
                     </Button>
                   )}
-                  {first && (
+                  {all && all.length > 0 && (
                     <Button asChild variant="outline">
-                      <Link to={`/${first.series.slug}`}>{t('hero.cta.browse')}</Link>
+                      {browseTo === '#series' ? <a href="#series">{t('hero.cta.browse')}</a> : <Link to={browseTo}>{t('hero.cta.browse')}</Link>}
                     </Button>
                   )}
                   {withTimeline && <TimelineButton onClick={() => setTimeline(true)} className="h-10" />}
@@ -261,17 +262,17 @@ export function LandingPage() {
 
         {/* series */}
         {all && all.length > 0 && (
-          <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+          <section id="series" className="mx-auto max-w-6xl scroll-mt-16 px-4 py-12 sm:px-6">
             <h2 className="mb-5 text-2xl font-semibold tracking-tight">{t('series.title')}</h2>
             <div className="grid gap-4 md:grid-cols-2">
               {all.map((s) => (
-                <Link key={s.series.slug} to={`/${s.series.slug}`} className="group rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-ring">
-                  <Card className="transition-all group-hover:border-primary/40 group-hover:shadow-md">
-                    <CardContent className="space-y-2 p-6">
+                <Link key={s.series.slug} to={`/${s.series.slug}`} className="group block rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-ring">
+                  <Card className="h-full transition-all group-hover:border-primary/40 group-hover:shadow-md">
+                    <CardContent className="flex h-full flex-col gap-2 p-6">
                       <p className="text-lg font-semibold tracking-tight">{s.series.title}</p>
                       <p className="text-sm text-muted-foreground">{s.series.speaker} · {t('sidebar.episodes', { n: s.episodes.length })} · {t('sidebar.withNotes', { n: s.episodes.filter((e) => e.hasNotes).length })}</p>
                       <p className="text-sm leading-relaxed text-muted-foreground">{s.series.description[lang]}</p>
-                      <span className="inline-flex items-center gap-1 pt-1 text-sm font-medium text-primary">{t('series.open')} <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" /></span>
+                      <span className="mt-auto inline-flex items-center gap-1 pt-1 text-sm font-medium text-primary">{t('series.open')} <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" /></span>
                     </CardContent>
                   </Card>
                 </Link>

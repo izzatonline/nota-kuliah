@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """English notes are an overlay: notes.en.json holds only the translated text, keyed by id.
 
-Run: python3 scripts/english_notes.py skeleton <ep>   # Malay text to translate, as JSON on stdout
+Run: python3 scripts/english_notes.py skeleton <series>/<ep>   # Malay text to translate, as JSON on stdout
      python3 scripts/english_notes.py quran [<ep>]    # fill in the English Quran translation of each verse
      python3 scripts/english_notes.py check [<ep>]    # validate overlays against the Malay notes
 
@@ -137,13 +137,18 @@ def merge_quran(ep_dir):
 
 
 def episode_dirs(ep=None):
-    return [d for d in sorted(SERIES.glob("*/*")) if (d / "notes.json").exists() and (ep is None or d.name == ep)]
+    """Episodes with notes. `ep` is an id such as ep1 (every series) or <series>/<id> such as sirah-kanak-kanak/ep1."""
+    return [d for d in sorted(SERIES.glob("*/*")) if (d / "notes.json").exists() and (ep is None or ep in (d.name, f"{d.parent.name}/{d.name}"))]
 
 
 def main(argv):
     cmd, ep = (argv + [None, None])[1:3]
     if cmd == "skeleton" and ep:
-        for d in episode_dirs(ep):
+        dirs = episode_dirs(ep)
+        if len(dirs) > 1:
+            print(f"{ep} is in more than one series, use <series>/{ep}: " + ", ".join(f"{d.parent.name}/{d.name}" for d in dirs), file=sys.stderr)
+            return 1
+        for d in dirs:
             print(json.dumps(skeleton(json.loads((d / "notes.json").read_text())), ensure_ascii=False, indent=1))
             return 0
         print(f"no notes for {ep}", file=sys.stderr)
