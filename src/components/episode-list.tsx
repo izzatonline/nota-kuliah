@@ -72,7 +72,7 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline, quiz
               <ArrowLeft className="size-4" aria-hidden /> {t('quiz.toLectures')}
             </Link>
           )}
-          {index.episodes.some((e) => e.hasQuiz) && (
+          {index.episodes.some((e) => e.hasQuiz) && !(quizOnly && !activeId) && (
             <Link
               to={`/${index.series.slug}/quiz`}
               onClick={() => setOpenMobile(false)}

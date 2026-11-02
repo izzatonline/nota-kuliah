@@ -5,6 +5,8 @@ import { Button } from '@/components/ui/button'
 import { Skeleton } from '@/components/ui/skeleton'
 import { EpisodeSidebar } from '@/components/episode-list'
 import { Separator } from '@/components/ui/separator'
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator } from '@/components/ui/breadcrumb'
+import { Badge } from '@/components/ui/badge'
 import { SidebarInset, SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar'
 import { LanguageSwitch } from '@/components/language-switch'
 import { ThemeToggle } from '@/components/theme'
@@ -79,7 +81,25 @@ export function QuizPage() {
         <header className="sticky top-0 z-10 flex h-14 shrink-0 items-center gap-2 border-b bg-background/80 px-3 backdrop-blur sm:px-4">
           <SidebarTrigger className="-ml-1 shrink-0" />
           <Separator orientation="vertical" className="mx-1 h-5" />
-          <span className="min-w-0 flex-1 truncate text-sm font-medium">{index?.series.title}</span>
+          <Breadcrumb className="min-w-0 flex-1">
+            <BreadcrumbList className="flex-nowrap gap-1.5 whitespace-nowrap sm:gap-2">
+              <BreadcrumbItem className="min-w-0">
+                <BreadcrumbLink asChild className="truncate"><Link to={`/${slug}`}>{index?.series.title}</Link></BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              {epId && episode && (
+                <>
+                  <BreadcrumbItem className="hidden min-w-0 gap-2 sm:inline-flex">
+                    <Link to={epPath(slug, epId)} className="inline-flex min-w-0 items-center gap-2 hover:text-foreground">
+                      <Badge variant="secondary" className="shrink-0 font-mono">{episode.number ? t('ep', { n: episode.number }) : t('sidebar.prolog')}</Badge>
+                    </Link>
+                  </BreadcrumbItem>
+                  <BreadcrumbSeparator className="hidden sm:block" />
+                </>
+              )}
+              <BreadcrumbItem><BreadcrumbPage>{epId ? t('quiz.crumb') : t('quiz.seriesTitle')}</BreadcrumbPage></BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
           <LanguageSwitch />
           <ThemeToggle />
         </header>
