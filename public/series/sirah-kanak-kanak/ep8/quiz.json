@@ -1,0 +1,254 @@
+{
+ "id": "ep8",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah tugas Nabi SAW semasa Perang Al-Fijar?",
+   "options": [
+    "Mengutip anak panah untuk bapa saudaranya",
+    "Memimpin tentera",
+    "Menjaga unta",
+    "Menulis laporan perang"
+   ],
+   "answer": 0,
+   "explain": "Pada usia 15 tahun baginda mengutip anak panah untuk bapa saudaranya.",
+   "t": 473,
+   "source": "events:e1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah yang mencetuskan Perang Al-Fijar?",
+   "options": [
+    "Rebutan zam-zam",
+    "Pembunuhan Urwah dalam bulan haram",
+    "Penipuan terhadap peniaga Yaman",
+    "Rampasan unta"
+   ],
+   "answer": 1,
+   "explain": "Al-Barrad membunuh Urwah dalam bulan haram, lalu tercetus perang antara kabilah. Itulah sebab ia dinamakan Al-Fijar.",
+   "t": 99,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Bagaimanakah Perang Al-Fijar berakhir?",
+   "options": [
+    "Satu pihak menang",
+    "Quraisy bersetuju membayar diat",
+    "Mereka berpindah ke Madinah",
+    "Mereka berebut pasar"
+   ],
+   "answer": 1,
+   "explain": "Quraisy bersetuju membayar diat, iaitu pampasan, lalu perang berhenti dan perniagaan serta haji selamat.",
+   "t": 689,
+   "source": "events:e2",
+   "level": 2
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Dari manakah peniaga yang ditipu oleh Al-As bin Wail?",
+   "options": [
+    "Syam",
+    "Mesir",
+    "Yaman",
+    "Yathrib"
+   ],
+   "answer": 2,
+   "explain": "Peniaga dari Yaman itu ditipu dan merayu kepada orang Quraisy, sehingga lahir perjanjian.",
+   "t": 804,
+   "source": "people:p5",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Di rumah siapakah Perjanjian Hilf Al-Fudul dibuat?",
+   "options": [
+    "Abu Talib",
+    "Abdullah bin Jud'an",
+    "Al-As bin Wail",
+    "Khadijah"
+   ],
+   "answer": 1,
+   "explain": "Abdullah bin Jud'an menghimpunkan ketua kabilah di rumahnya untuk membuat perjanjian itu.",
+   "t": 1184,
+   "source": "people:p7",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Siapakah anak muda bersama Nabi SAW yang menyertai Hilf Al-Fudul?",
+   "options": [
+    "Ali",
+    "Hamzah",
+    "Amr bin Al-As",
+    "Abu Bakar As-Siddiq"
+   ],
+   "answer": 3,
+   "explain": "Nabi SAW dan Abu Bakar yang berumur 18 tahun ialah dua anak muda yang menyertainya.",
+   "t": 1267,
+   "source": "people:p8",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Siapakah yang menawarkan Nabi SAW menguruskan perniagaannya?",
+   "options": [
+    "Hala binti Khuwailid",
+    "Khadijah binti Khuwailid",
+    "Hind",
+    "Maisarah"
+   ],
+   "answer": 1,
+   "explain": "Khadijah, peniaga wanita yang kaya, menawarkan baginda menjadi pengurus perniagaannya.",
+   "t": 1661,
+   "source": "people:p10",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Perang Al-Fijar berlarutan selama empat tahun.",
+   "answer": true,
+   "explain": "Betul. Perang itu berlarutan empat tahun dan bermula hanya kerana pergaduhan dua orang.",
+   "t": 450,
+   "source": "chapters:c4",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Peserta Hilf Al-Fudul berjanji menegur pelaku zalim walaupun dia daripada kumpulan mereka sendiri.",
+   "answer": true,
+   "explain": "Betul. Perjanjian itu berpihak kepada keadilan, bukan kepada kumpulan sendiri.",
+   "t": 1293,
+   "source": "lessons:l6",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Khadijah menawarkan kerja kepada baginda"
+    },
+    {
+     "id": "b",
+     "text": "Perang Al-Fijar bermula"
+    },
+    {
+     "id": "c",
+     "text": "Baginda ke Syam bersama Maisarah"
+    },
+    {
+     "id": "d",
+     "text": "Perang berakhir dengan diat"
+    },
+    {
+     "id": "e",
+     "text": "Perjanjian Hilf Al-Fudul"
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "e",
+    "a",
+    "c"
+   ],
+   "explain": "Perang bermula dan berakhir dengan diat, kemudian Hilf Al-Fudul, lalu Khadijah menawarkan kerja dan baginda ke Syam.",
+   "t": 99,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Pasar Ukaz"
+    },
+    {
+     "id": "b",
+     "text": "Bulan haram"
+    },
+    {
+     "id": "c",
+     "text": "Mudarabah"
+    },
+    {
+     "id": "d",
+     "text": "Hilf Al-Fudul"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Bulan yang diharamkan berperang"
+    },
+    {
+     "id": "2",
+     "text": "Perjanjian untuk membela orang yang dizalimi"
+    },
+    {
+     "id": "3",
+     "text": "Pasar besar tempat pesta jual beli orang Arab"
+    },
+    {
+     "id": "4",
+     "text": "Perkongsian perniagaan: modal dan kerja, untung dibahagi"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "1"
+    ],
+    [
+     "c",
+     "4"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Pasar Ukaz ialah pasar besar, bulan haram diharamkan berperang, mudarabah ialah perkongsian perniagaan, dan Hilf Al-Fudul perjanjian membela yang lemah.",
+   "t": 127,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Anda nampak kawan dibuli di sekolah dan tiada siapa menolong. Apakah teladan daripada Hilf Al-Fudul?",
+   "options": [
+    "Berdiam diri kerana bukan urusan kita",
+    "Ikut membuli",
+    "Membela orang yang lemah",
+    "Menyalahkan kawan itu"
+   ],
+   "answer": 2,
+   "explain": "Perjanjian itu berikrar tidak membiarkan orang lemah dizalimi. Nabi SAW bersama dalam perjanjian itu.",
+   "t": 1280,
+   "source": "lessons:l5",
+   "level": 3
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "id": "ep8",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What was the Prophet's SAW job during the Fijar War?",
+   "options": [
+    "Collecting arrows for his uncles",
+    "Leading the army",
+    "Looking after camels",
+    "Writing war reports"
+   ],
+   "explain": "At the age of 15 he collected arrows for his uncles."
+  },
+  {
+   "id": "q2",
+   "q": "What sparked the Fijar War?",
+   "options": [
+    "A dispute over Zamzam",
+    "The killing of Urwah in a sacred month",
+    "The cheating of a Yemeni merchant",
+    "The seizing of camels"
+   ],
+   "explain": "Al-Barrad killed Urwah in a sacred month, and war broke out between the tribes. That is why it was called Al-Fijar."
+  },
+  {
+   "id": "q3",
+   "q": "How did the Fijar War end?",
+   "options": [
+    "One side won",
+    "Quraysh agreed to pay diyah (blood money)",
+    "They moved to Madinah",
+    "They fought over the market"
+   ],
+   "explain": "Quraysh agreed to pay diyah, compensation, and the war stopped, keeping trade and Hajj safe."
+  },
+  {
+   "id": "q4",
+   "q": "Where was the merchant cheated by Al-As bin Wail from?",
+   "options": [
+    "Syam",
+    "Mesir",
+    "Yaman",
+    "Yathrib"
+   ],
+   "explain": "The merchant from Yemen was cheated and appealed to the Quraysh, which led to the pact."
+  },
+  {
+   "id": "q5",
+   "q": "In whose house was the Hilf Al-Fudul pact made?",
+   "options": [
+    "Abu Talib",
+    "Abdullah bin Jud'an",
+    "Al-As bin Wail",
+    "Khadijah"
+   ],
+   "explain": "Abdullah bin Jud'an gathered the tribal leaders at his house to make the pact."
+  },
+  {
+   "id": "q6",
+   "q": "Who was the young man who joined the Hilf Al-Fudul together with the Prophet SAW?",
+   "options": [
+    "Ali",
+    "Hamzah",
+    "Amr bin Al-As",
+    "Abu Bakr As-Siddiq"
+   ],
+   "explain": "The Prophet SAW and Abu Bakr, who was 18, were the two young men who joined it."
+  },
+  {
+   "id": "q7",
+   "q": "Who offered the Prophet SAW the management of her business?",
+   "options": [
+    "Hala bint Khuwaylid",
+    "Khadijah bint Khuwaylid",
+    "Hind",
+    "Maisarah"
+   ],
+   "explain": "Khadijah, a wealthy businesswoman, offered him the job of managing her business."
+  },
+  {
+   "id": "q8",
+   "q": "The Fijar War dragged on for four years.",
+   "explain": "True. It dragged on for four years and began with just a quarrel between two men."
+  },
+  {
+   "id": "q9",
+   "q": "The members of Hilf Al-Fudul promised to rebuke a wrongdoer even if he was from their own group.",
+   "explain": "True. The pact stood for justice, not for one's own group."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Khadijah offers him a job"
+    },
+    {
+     "id": "b",
+     "text": "The Fijar War begins"
+    },
+    {
+     "id": "c",
+     "text": "He goes to Sham with Maisarah"
+    },
+    {
+     "id": "d",
+     "text": "The war ends with diyah"
+    },
+    {
+     "id": "e",
+     "text": "The Hilf Al-Fudul pact"
+    }
+   ],
+   "explain": "The war began and ended with diyah, then came Hilf Al-Fudul, then Khadijah offered the job and he went to Sham."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Ukaz Market"
+    },
+    {
+     "id": "b",
+     "text": "Sacred month"
+    },
+    {
+     "id": "c",
+     "text": "Mudarabah"
+    },
+    {
+     "id": "d",
+     "text": "Hilf Al-Fudul"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A month in which fighting was forbidden"
+    },
+    {
+     "id": "2",
+     "text": "A pact to defend the wronged"
+    },
+    {
+     "id": "3",
+     "text": "The great market where Arabs held trading fairs"
+    },
+    {
+     "id": "4",
+     "text": "A business partnership: capital and work, profit shared"
+    }
+   ],
+   "explain": "Ukaz is the great market, a sacred month forbids fighting, mudarabah is a business partnership, and Hilf Al-Fudul is a pact to defend the weak."
+  },
+  {
+   "id": "q12",
+   "q": "You see a friend being bullied at school and nobody helps. What example does Hilf Al-Fudul give?",
+   "options": [
+    "Stay silent because it is not our business",
+    "Join in",
+    "Stand up for the weak",
+    "Blame your friend"
+   ],
+   "explain": "The pact pledged never to leave the weak to be wronged. The Prophet SAW took part in it."
+  }
+ ]
+}
