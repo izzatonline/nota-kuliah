@@ -1,0 +1,160 @@
+{
+ "id": "ep1",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Why does this series begin with Prophet Ibrahim AS?",
+   "options": [
+    "Because Ibrahim was born in Makkah",
+    "Because Prophet Muhammad SAW was born in Ibrahim's time",
+    "Because the Prophet SAW described himself as the answer to Ibrahim's prayer",
+    "Because the Kaabah was built by Prophet Muhammad SAW"
+   ],
+   "explain": "The Prophet SAW described himself as the answer to his father Ibrahim's prayer, so the place and the time must be understood first."
+  },
+  {
+   "id": "q2",
+   "q": "According to the opening of this lecture, which two blessings do people forget the most?",
+   "options": [
+    "Wealth and status",
+    "Good health and free time",
+    "Family and friends",
+    "Knowledge and lifespan"
+   ],
+   "explain": "Good health and free time. We often appreciate them only when they run low."
+  },
+  {
+   "id": "q3",
+   "q": "After being sure that Allah would not let them be lost, what did Hajar do?",
+   "options": [
+    "Waited, trusting in Allah",
+    "Ran back and forth between Safa and Marwah looking for water",
+    "Followed Ibrahim home",
+    "Asked the Jurhum Arabs for help"
+   ],
+   "explain": "Hajar still made the effort, going back and forth seven times between Safa and Marwah, and then the water of Zamzam gushed forth."
+  },
+  {
+   "id": "q4",
+   "q": "What is the name of the ritual of Hajj and Umrah that commemorates Hajar's search for water?",
+   "options": [
+    "Manasik",
+    "Sa'i",
+    "Tauriah",
+    "Istirja'"
+   ],
+   "explain": "Sa'i is walking seven times between Safa and Marwah. Hajar's unseen effort was raised by Allah into a rite of worship."
+  },
+  {
+   "id": "q5",
+   "q": "Which tribe came and asked Hajar to let them settle in Makkah?",
+   "options": [
+    "Khuza'ah",
+    "Rome",
+    "Jurhum",
+    "Ad and Thamud"
+   ],
+   "explain": "The Jurhum Arabs came from Yemen asking to settle, and Hajar made clear that the water was hers."
+  },
+  {
+   "id": "q6",
+   "q": "Why did Amr bin Luhayy bring the idol Hubal from Rome to Makkah?",
+   "options": [
+    "Because Prophet Ismail AS told him to",
+    "Because the Jurhum asked him to",
+    "Because he wanted to protect the trade caravans",
+    "Because he felt inferior when he saw how advanced Rome was"
+   ],
+   "explain": "Amr bin Luhayy admired Rome's progress and brought back its idol. The ustaz links it to our habit of assuming outsiders know better."
+  },
+  {
+   "id": "q7",
+   "q": "Prophet Ibrahim's prayer for his descendants put provision before prayer and faith.",
+   "explain": "False. Prophet Ibrahim's prayer put his descendants' prayer and faith before provision."
+  },
+  {
+   "id": "q8",
+   "q": "Prophet Ibrahim's prayer for a messenger to be sent was answered after about 2,000 years.",
+   "explain": "True. That prayer, Al-Baqarah 129, took more than 2,000 years before Prophet Muhammad SAW was sent."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Ibrahim and Ismail build the Kaabah"
+    },
+    {
+     "id": "b",
+     "text": "Hajar and Ismail are left in the valley"
+    },
+    {
+     "id": "c",
+     "text": "Amr bin Luhayy brings Hubal to Makkah"
+    },
+    {
+     "id": "d",
+     "text": "The Jurhum Arabs settle in Makkah"
+    },
+    {
+     "id": "e",
+     "text": "Sa'i between Safa and Marwah, and Zamzam gushes forth"
+    }
+   ],
+   "explain": "Hajar and Ismail were left, Zamzam gushed forth, the Jurhum settled, Ibrahim and Ismail built the Kaabah, and much later Hubal was brought to Makkah."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Tauriah"
+    },
+    {
+     "id": "b",
+     "text": "Sa'i"
+    },
+    {
+     "id": "c",
+     "text": "Tawakkul"
+    },
+    {
+     "id": "d",
+     "text": "Khalilullah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Allah's closest friend"
+    },
+    {
+     "id": "2",
+     "text": "A statement with two meanings"
+    },
+    {
+     "id": "3",
+     "text": "Entrusting the matter to Allah after making the effort"
+    },
+    {
+     "id": "4",
+     "text": "Walking seven times between Safa and Marwah"
+    }
+   ],
+   "explain": "Tauriah is a statement with two meanings, sa'i is walking between Safa and Marwah, tawakkul is entrusting the matter to Allah after making the effort, and Khalilullah is Allah's closest friend."
+  },
+  {
+   "id": "q11",
+   "q": "You have tried your very best to find halal provision but have not succeeded yet. Which attitude best matches Hajar's tawakkul?",
+   "options": [
+    "Keep striving with everything you have, then leave the rest to Allah",
+    "Stop trying, because everything is already decided",
+    "Take a haram route to succeed quickly",
+    "Blame fate for being unfair"
+   ],
+   "explain": "True tawakkul is maximum effort, with the rest left to Allah. Hajar was sure, yet still went to Safa and Marwah."
+  }
+ ]
+}

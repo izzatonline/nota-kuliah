@@ -1,0 +1,238 @@
+{
+ "id": "ep1",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Siapakah moyang Nabi SAW yang memulakan perdagangan antara Syam dan Yaman?",
+   "options": [
+    "Abdul Muttalib",
+    "Hashim",
+    "Abdullah",
+    "Abraha"
+   ],
+   "answer": 1,
+   "explain": "Hashim ialah moyang Nabi SAW. Beliau memulakan perdagangan antara Syam dan Yaman sehingga Mekah yang miskin menjadi kaya.",
+   "t": 115,
+   "source": "people:p1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah nama gereja besar yang dibina Abraha untuk menyaingi Kaabah?",
+   "options": [
+    "Zam-zam",
+    "Syam",
+    "Kulais",
+    "Quraisy"
+   ],
+   "answer": 2,
+   "explain": "Kulais ialah gereja besar yang dibina Abraha di Yaman untuk menyaingi Kaabah.",
+   "t": 405,
+   "source": "glossary:g5",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah yang diminta Abdul Muttalib daripada Abraha?",
+   "options": [
+    "Gereja Kulais",
+    "Untanya dikembalikan",
+    "Gajah Mahmud",
+    "Barang dagangan dari Syam"
+   ],
+   "answer": 1,
+   "explain": "Abdul Muttalib hanya meminta untanya kembali, kerana Kaabah ada Tuhan yang menjaganya.",
+   "t": 860,
+   "source": "people:p2",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Mengapakah Abdul Muttalib hanya meminta untanya dan tidak merayu supaya Kaabah dilindungi?",
+   "options": [
+    "Kerana beliau takut kepada gajah",
+    "Kerana orang Mekah mahu berdamai dengan Abraha",
+    "Kerana Kaabah sudah rosak",
+    "Kerana Kaabah ada Tuhan yang menjaganya"
+   ],
+   "answer": 3,
+   "explain": "Abdul Muttalib berkata Kaabah ada Tuhan yang akan menjaganya, dan Allah SWT benar-benar melindunginya.",
+   "t": 964,
+   "source": "lessons:l1",
+   "level": 2
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah nama gajah yang enggan bergerak ke arah Kaabah?",
+   "options": [
+    "Ababil",
+    "Sijjil",
+    "Mahmud",
+    "Kulais"
+   ],
+   "answer": 2,
+   "explain": "Gajah bernama Mahmud tidak mahu menghala ke Kaabah walaupun dipukul dan dicucuk.",
+   "t": 1046,
+   "source": "events:e5",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Surah manakah yang merakamkan kisah tentera bergajah?",
+   "options": [
+    "Al-Ikhlas",
+    "Al-Fatihah",
+    "Al-Fil",
+    "Al-Kauthar"
+   ],
+   "answer": 2,
+   "explain": "Surah Al-Fil merakamkan kisah tentera bergajah yang berlaku sebelum Nabi SAW lahir.",
+   "t": 1380,
+   "source": "lessons:l10",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Abdul Muttalib berdoa di pintu Kaabah selepas penduduk Mekah naik ke lereng bukit.",
+   "answer": true,
+   "explain": "Betul. Penduduk Mekah naik ke lereng bukit, lalu Abdul Muttalib memegang pintu Kaabah dan berdoa kepada Allah.",
+   "t": 1009,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Peristiwa tentera bergajah berlaku selepas Nabi SAW lahir.",
+   "answer": false,
+   "explain": "Salah. Peristiwa itu berlaku ketika Nabi SAW masih dalam kandungan Aminah, beberapa bulan sahaja. Itulah sebabnya ia dipanggil tahun Gajah.",
+   "t": 728,
+   "source": "lessons:l9",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abraha membina gereja Kulais"
+    },
+    {
+     "id": "b",
+     "text": "Hashim memulakan perdagangan ke Mekah"
+    },
+    {
+     "id": "c",
+     "text": "Burung ababil membinasakan tentera Abraha"
+    },
+    {
+     "id": "d",
+     "text": "Abdul Muttalib berdoa di pintu Kaabah"
+    },
+    {
+     "id": "e",
+     "text": "Abraha berazam meruntuhkan Kaabah"
+    }
+   ],
+   "answer": [
+    "b",
+    "a",
+    "e",
+    "d",
+    "c"
+   ],
+   "explain": "Hashim menjadikan Mekah kaya, Abraha membina Kulais lalu berazam meruntuhkan Kaabah, Abdul Muttalib berdoa, dan akhirnya Allah menghantar burung ababil.",
+   "t": 293,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Kulais"
+    },
+    {
+     "id": "b",
+     "text": "Ababil"
+    },
+    {
+     "id": "c",
+     "text": "Sijjil"
+    },
+    {
+     "id": "d",
+     "text": "Tahun Gajah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Batu panas dan tajam yang dilontar"
+    },
+    {
+     "id": "2",
+     "text": "Tahun serangan tentera bergajah, tahun kelahiran Nabi SAW"
+    },
+    {
+     "id": "3",
+     "text": "Gereja yang dibina Abraha di Yaman"
+    },
+    {
+     "id": "4",
+     "text": "Burung yang dihantar Allah membawa batu panas"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Kulais ialah gereja Abraha, ababil ialah burung yang dihantar Allah, sijjil ialah batu panas yang dilontar, dan Tahun Gajah ialah tahun kelahiran Nabi SAW.",
+   "t": 1166,
+   "source": "glossary:g6",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "mcq",
+   "q": "Abraha sangat marah lalu berazam meruntuhkan Kaabah. Apakah pengajaran untuk kita apabila rasa marah?",
+   "options": [
+    "Marah dan dendam boleh membawa kemusnahan, seperti yang berlaku kepada Abraha",
+    "Marah menjadikan kita kuat dan dihormati",
+    "Marah membantu kita menang",
+    "Marah ialah tanda berani"
+   ],
+   "answer": 0,
+   "explain": "Abraha marah dan berdendam, lalu binasa bersama tenteranya. Marah dan dendam membawa kemusnahan.",
+   "t": 479,
+   "source": "lessons:l5",
+   "level": 3
+  }
+ ]
+}
