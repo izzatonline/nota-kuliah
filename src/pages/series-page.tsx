@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import { Bell, BellOff, BookOpen, ExternalLink, ListOrdered, History, Landmark, Languages, Lightbulb, Library, Network, ScrollText, Users, type LucideIcon } from 'lucide-react'
+import { Bell, BellOff, BookOpen, ExternalLink, ListOrdered, History, Landmark, Languages, Lightbulb, Library, Network, ScrollText, Trophy, Users, type LucideIcon } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
@@ -26,6 +26,7 @@ import { Toaster } from '@/components/ui/sonner'
 import { useMentionToasts, type Mention } from '@/components/mention-toasts'
 import { epPath, fmt, loadIndex, loadNotes, startEpisode, youtubeUrl } from '@/lib/data'
 import { getLast, getProgress, markVisited, saveTime } from '@/lib/progress'
+import { QuizCta } from '@/components/quiz/quiz-cta'
 import { useT, type Key } from '@/lib/i18n'
 import { useYouTube } from '@/lib/youtube'
 import { useIsMobile } from '@/hooks/use-mobile'
@@ -42,6 +43,7 @@ const TABS: { key: TabKey; Icon: LucideIcon; count?: (n: Notes) => number }[] = 
   { key: 'pengajaran', Icon: Lightbulb, count: (n) => n.lessons.length },
   { key: 'peta', Icon: Network },
   { key: 'istilah', Icon: Languages },
+  { key: 'kuiz', Icon: Trophy },
 ]
 
 /** On a short screen the sidebar starts as the narrow rail, so the lecture gets the width. */
@@ -355,7 +357,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
               </div>
               <ScrollRow activeKey={tab} className={`mt-2 border-b ${bleed}`}>
                 <TabsList className="h-auto w-max min-w-full justify-start gap-1 rounded-none bg-transparent p-0">
-                  {TABS.map(({ key, Icon, count }) => (
+                  {TABS.filter(({ key }) => key !== 'kuiz' || episode.hasQuiz).map(({ key, Icon, count }) => (
                     <TabsTrigger
                       key={key}
                       value={key}
@@ -413,6 +415,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
                   <TabsContent value="pengajaran" className="mt-0"><LessonsTab notes={notes} /></TabsContent>
                   <TabsContent value="peta" className="mt-0"><MindMap root={notes.mindmap} /></TabsContent>
                   <TabsContent value="istilah" className="mt-0"><GlossaryTab notes={notes} /></TabsContent>
+                  {episode.hasQuiz && <TabsContent value="kuiz" className="mt-0"><QuizCta slug={slug} episodeId={episode.id} /></TabsContent>}
                 </>
               )}
               <p className="mt-10 border-t pt-4 text-xs leading-relaxed text-muted-foreground">{t('disclaimer')}</p>

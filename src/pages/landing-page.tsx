@@ -270,7 +270,7 @@ export function LandingPage() {
                   <Card className="h-full transition-all group-hover:border-primary/40 group-hover:shadow-md">
                     <CardContent className="flex h-full flex-col gap-2 p-6">
                       <p className="text-lg font-semibold tracking-tight">{s.series.title}</p>
-                      <p className="text-sm text-muted-foreground">{s.series.speaker} · {t('sidebar.episodes', { n: s.episodes.length })} · {t('sidebar.withNotes', { n: s.episodes.filter((e) => e.hasNotes).length })}</p>
+                      <p className="text-sm text-muted-foreground">{s.series.speaker} · {t('sidebar.episodes', { n: s.episodes.length })} · {t('sidebar.withNotes', { n: s.episodes.filter((e) => e.hasNotes).length })}{s.episodes.some((e) => e.hasQuiz) ? ` · ${t('quiz.badge')} ${s.episodes.filter((e) => e.hasQuiz).length}` : ''}</p>
                       <p className="text-sm leading-relaxed text-muted-foreground">{s.series.description[lang]}</p>
                       <span className="mt-auto inline-flex items-center gap-1 pt-1 text-sm font-medium text-primary">{t('series.open')} <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" /></span>
                     </CardContent>

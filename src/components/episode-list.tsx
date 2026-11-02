@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { Heart, Home, Search, FileText } from 'lucide-react'
+import { Heart, Home, Search, FileText, Trophy, Check } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { NKMark } from '@/components/brand'
 import {
@@ -12,6 +12,7 @@ import { TimelineButton } from '@/components/sirah-timeline'
 import { cn } from '@/lib/utils'
 import { fmt } from '@/lib/data'
 import { useT } from '@/lib/i18n'
+import { getRecord, quizKey } from '@/lib/quiz-progress'
 import type { Episode, SeriesIndex } from '@/lib/types'
 
 type Props = { index: SeriesIndex; activeId: string; onSelect: (id: string) => void; onOpenTimeline?: () => void }
@@ -62,6 +63,15 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Pr
               }}
             />
           )}
+          {index.episodes.some((e) => e.hasQuiz) && (
+            <Link
+              to={`/${index.series.slug}/quiz`}
+              onClick={() => setOpenMobile(false)}
+              className="flex h-9 w-full items-center justify-center gap-2 rounded-md border bg-background px-4 text-sm font-medium outline-none transition-colors hover:bg-accent focus-visible:ring-2 focus-visible:ring-sidebar-ring"
+            >
+              <Trophy className="size-4 text-[hsl(var(--gold))]" aria-hidden /> {t('quiz.card')}
+            </Link>
+          )}
           <div className="relative">
             <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
             <Input value={q} onChange={(e) => setQ(e.target.value)} placeholder={t('sidebar.search')} className="h-9 bg-background pl-9" />
@@ -103,6 +113,7 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Pr
                           <Clamp text={e.title} className={cn('line-clamp-2 whitespace-normal text-sm leading-snug', !e.hasNotes && !active && 'text-muted-foreground')} />
                           <span className="mt-0.5 flex items-center gap-2 text-xs font-normal text-muted-foreground">
                             {e.duration ? fmt(e.duration) : ''}
+                            {e.hasQuiz && <QuizBadge slug={index.series.slug} epId={e.id} />}
                             {e.hasNotes && (
                               <span className="inline-flex items-center gap-1 rounded bg-primary/10 px-1.5 py-px text-[10px] font-medium text-primary">
                                 <FileText className="size-3" /> {t('sidebar.notes')}
@@ -134,5 +145,17 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Pr
       </SidebarFooter>
       <SidebarRail />
     </Sidebar>
+  )
+}
+
+/** Shown in the sidebar when an episode has a quiz: a tick once it was passed, else the best score. */
+function QuizBadge({ slug, epId }: { slug: string; epId: string }) {
+  const { t } = useT()
+  const rec = getRecord(quizKey(slug, epId))
+  return (
+    <span className="inline-flex items-center gap-1 rounded bg-[hsl(var(--gold-soft))] px-1.5 py-px text-[10px] font-medium text-[hsl(var(--gold))]">
+      {rec?.passed ? <Check className="size-3" aria-hidden /> : <Trophy className="size-3" aria-hidden />}
+      {rec?.best ? `${rec.best.correct}/${rec.best.total}` : t('quiz.badge')}
+    </span>
   )
 }
