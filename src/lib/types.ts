@@ -7,6 +7,7 @@ export type Episode = {
   duration: number | null
   views?: number | null
   hasNotes: boolean
+  hasQuiz?: boolean
   notesAddedAt?: string
 }
 export type SeriesIndex = {
@@ -69,3 +70,26 @@ export type Notes = {
   /** Support information for episodes that touch on self-harm. Not part of the lecture. */
   careNote?: { title: string; body: string; items: { name: string; contact: string }[]; source: string }
 }
+
+/* ---------------------------------------------------------------- Quiz */
+type QuizBase = {
+  id: string
+  q: string
+  explain: string
+  /** Seconds into the lecture where the answer is taught. */
+  t: number
+  /** The note item the question came from, such as `lessons:l2`. */
+  source: string
+  /** 1 recall, 2 understanding, 3 application. */
+  level: 1 | 2 | 3
+}
+export type Choice = { id: string; text: string }
+export type McqQuestion = QuizBase & { type: 'mcq'; options: string[]; answer: number }
+export type TfQuestion = QuizBase & { type: 'tf'; answer: boolean }
+export type MultiQuestion = QuizBase & { type: 'multi'; options: string[]; answer: number[] }
+/** `items` are listed in any order; `answer` holds their ids in the right order. */
+export type OrderQuestion = QuizBase & { type: 'order'; items: Choice[]; answer: string[] }
+/** `answer` holds `[left id, right id]` pairs. */
+export type MatchQuestion = QuizBase & { type: 'match'; left: Choice[]; right: Choice[]; answer: [string, string][] }
+export type Question = McqQuestion | TfQuestion | MultiQuestion | OrderQuestion | MatchQuestion
+export type Quiz = { id: string; questions: Question[] }
