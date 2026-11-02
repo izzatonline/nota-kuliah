@@ -1,0 +1,149 @@
+{
+ "id": "ep24",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What is the command in Ash-Shu'ara 26:214?",
+   "options": [
+    "Warn your nearest kinsfolk",
+    "Fight Quraysh",
+    "Migrate",
+    "Stay silent"
+   ],
+   "explain": "This command began the open call to the family."
+  },
+  {
+   "id": "q2",
+   "q": "Who was the only one to declare support at the family feast?",
+   "options": [
+    "Ali",
+    "Abu Talib",
+    "Al-Abbas",
+    "Safiyyah"
+   ],
+   "explain": "Ali prepared the feast and promised to help."
+  },
+  {
+   "id": "q3",
+   "q": "What did Abu Lahab do after eating at the first feast?",
+   "options": [
+    "Embraced Islam",
+    "Spoke in support",
+    "Hosted a feast",
+    "Got up and broke up the gathering"
+   ],
+   "explain": "The feast failed."
+  },
+  {
+   "id": "q4",
+   "q": "What did Utbah and Utaybah, sons of Abu Lahab, do?",
+   "options": [
+    "Joined the call",
+    "Migrated",
+    "Divorced Ruqayyah and Umm Kulthum at their father's urging",
+    "Embraced Islam"
+   ],
+   "explain": "The public divorce was meant to break the Prophet's morale."
+  },
+  {
+   "id": "q5",
+   "q": "What is an \"honorable enemy\"?",
+   "options": [
+    "A king",
+    "An opponent still open to consideration, like Abu Talib and Al-Abbas",
+    "The cruellest enemy",
+    "A close friend"
+   ],
+   "explain": "Not all opponents are the same."
+  },
+  {
+   "id": "q6",
+   "q": "Kinship alone saves a person from punishment.",
+   "explain": "False. The Prophet SAW could not shield family from punishment; each person chooses."
+  },
+  {
+   "id": "q7",
+   "q": "The Prophet SAW made sure Quraysh affirmed his honesty before giving the warning.",
+   "explain": "True. Credibility was tested before the message was delivered."
+  },
+  {
+   "id": "q8",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abu Lahab is condemned in a surah"
+    },
+    {
+     "id": "b",
+     "text": "Only Ali supports"
+    },
+    {
+     "id": "c",
+     "text": "The command of Ash-Shu'ara 214"
+    },
+    {
+     "id": "d",
+     "text": "Abu Lahab breaks up the feast"
+    },
+    {
+     "id": "e",
+     "text": "The call to all of Makkah"
+    }
+   ],
+   "explain": "The command, the first feast broken up, Ali's support, the call to all Makkah, and then Abu Lahab was condemned."
+  },
+  {
+   "id": "q9",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Banu Hashim"
+    },
+    {
+     "id": "b",
+     "text": "Ya Sabahah"
+    },
+    {
+     "id": "c",
+     "text": "Naba'"
+    },
+    {
+     "id": "d",
+     "text": "Lahab"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A morning cry that grabs attention"
+    },
+    {
+     "id": "2",
+     "text": "A blazing flame"
+    },
+    {
+     "id": "3",
+     "text": "The clan of the Prophet SAW"
+    },
+    {
+     "id": "4",
+     "text": "Great news that demands action"
+    }
+   ],
+   "explain": "Banu Hashim is his clan, ya sabahah is a morning cry, naba' is great news, and lahab is a blazing flame."
+  },
+  {
+   "id": "q10",
+   "q": "What do schools and great institutions begin from?",
+   "options": [
+    "Leaping straight in",
+    "Lots of money",
+    "Power",
+    "Small steps and patience"
+   ],
+   "explain": "Start small and be patient."
+  }
+ ]
+}
