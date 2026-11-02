@@ -319,7 +319,8 @@
    "duration": 1853,
    "views": 11000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:41:37"
+   "notesAddedAt": "2026-11-02T00:41:37",
+   "hasQuiz": true
   },
   {
    "id": "ep27",
@@ -330,7 +331,8 @@
    "duration": 2108,
    "views": 19000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:45:03"
+   "notesAddedAt": "2026-11-02T00:45:03",
+   "hasQuiz": true
   },
   {
    "id": "ep28",
@@ -341,7 +343,8 @@
    "duration": 3117,
    "views": 19000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:50:18"
+   "notesAddedAt": "2026-11-02T00:50:18",
+   "hasQuiz": true
   }
  ]
 }

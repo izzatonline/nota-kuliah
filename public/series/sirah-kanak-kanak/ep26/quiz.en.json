@@ -1,0 +1,171 @@
+{
+ "id": "ep26",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Why was that year called the Year of Sorrow?",
+   "options": [
+    "Because Abu Talib and Khadijah died and the Prophet SAW was deeply grieved",
+    "Because of a flood",
+    "Because the Kaaba collapsed",
+    "Because of a great war"
+   ],
+   "explain": "The Year of Sorrow was the year Abu Talib and Khadijah died."
+  },
+  {
+   "id": "q2",
+   "q": "What was Abu Talib's real name?",
+   "options": [
+    "Abdul Manaf bin Abdul Muttalib",
+    "Talib bin Hashim",
+    "Amr bin Hisham",
+    "Shaybah"
+   ],
+   "explain": "Abu Talib looked after him from the age of eight."
+  },
+  {
+   "id": "q3",
+   "q": "Who handled the burial of Abu Talib on the Prophet's SAW instruction?",
+   "options": [
+    "Hamzah",
+    "Abu Bakr",
+    "Ali",
+    "Zaid"
+   ],
+   "explain": "Ali embraced Islam at seven and handled his father's burial."
+  },
+  {
+   "id": "q4",
+   "q": "According to Al-Qasas 28:56, who holds guidance?",
+   "options": [
+    "The Prophet SAW",
+    "Allah",
+    "Parents",
+    "The chiefs"
+   ],
+   "explain": "Allah makes clear that guidance is His alone. Even the Prophet SAW could not force someone he loved."
+  },
+  {
+   "id": "q5",
+   "q": "What was Khadijah's role for the Prophet SAW after he was insulted?",
+   "options": [
+    "She told him to stop",
+    "She left him",
+    "She stayed silent",
+    "She was the place he came home to be comforted"
+   ],
+   "explain": "Khadijah comforted him every day."
+  },
+  {
+   "id": "q6",
+   "q": "Where was Khadijah buried?",
+   "options": [
+    "In Taif",
+    "In Abyssinia",
+    "Al-Ma'allah",
+    "In Madinah"
+   ],
+   "explain": "The Prophet SAW shrouded and buried her at Al-Ma'allah, the cemetery of Makkah."
+  },
+  {
+   "id": "q7",
+   "q": "About how old was Fatimah when her mother died?",
+   "options": [
+    "Around fifteen",
+    "Around nine or ten",
+    "Around two",
+    "Around twenty"
+   ],
+   "explain": "Fatimah was still small when her mother died."
+  },
+  {
+   "id": "q8",
+   "q": "The Prophet SAW could force someone he loved to embrace Islam.",
+   "explain": "False. Guidance belongs to Allah. Our job is only to convey."
+  },
+  {
+   "id": "q9",
+   "q": "After Khadijah died, the Prophet SAW gave gifts to her friends and always praised her.",
+   "explain": "True. He remembered and honoured those who had done good."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abu Talib dies"
+    },
+    {
+     "id": "b",
+     "text": "The boycott is ended"
+    },
+    {
+     "id": "c",
+     "text": "The Prophet SAW remembers Khadijah"
+    },
+    {
+     "id": "d",
+     "text": "Khadijah dies"
+    },
+    {
+     "id": "e",
+     "text": "Abu Talib falls ill"
+    }
+   ],
+   "explain": "The boycott ended, Abu Talib fell ill and died, then Khadijah died, and he remembered her."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Year of Sorrow"
+    },
+    {
+     "id": "b",
+     "text": "Nazak"
+    },
+    {
+     "id": "c",
+     "text": "Hidayah"
+    },
+    {
+     "id": "d",
+     "text": "Al-Ma'allah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The state of being near death"
+    },
+    {
+     "id": "2",
+     "text": "Guidance that only Allah gives"
+    },
+    {
+     "id": "3",
+     "text": "A cemetery in Makkah"
+    },
+    {
+     "id": "4",
+     "text": "The year Abu Talib and Khadijah died"
+    }
+   ],
+   "explain": "The Year of Sorrow was the year of both deaths, nazak is near death, hidayah is guidance from Allah, and Al-Ma'allah is the Makkan cemetery."
+  },
+  {
+   "id": "q12",
+   "q": "We were born into Muslim families. How should we speak to someone struggling with family who are not yet Muslim?",
+   "options": [
+    "Talk lightly as though it is nothing",
+    "Speak with compassion and be grateful for our ease",
+    "Blame them",
+    "Avoid them"
+   ],
+   "explain": "New Muslims struggle because loved ones are not yet Muslim, so speak with compassion."
+  }
+ ]
+}
