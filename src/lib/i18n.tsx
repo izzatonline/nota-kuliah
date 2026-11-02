@@ -204,6 +204,7 @@ const ms = {
   'quiz.card': 'Kuiz siri',
   'quiz.cardBody': 'Soalan campuran daripada {n} episod yang ada kuiz.',
   'quiz.badge': 'Kuiz',
+  'quiz.mastery': 'Lulus {c} daripada {n} episod',
   'quiz.live': 'Soalan {i} daripada {n}',
   'quiz.motion': 'Skor disimpan dalam pelayar ini sahaja.',
 }
@@ -410,6 +411,7 @@ const en: typeof ms = {
   'quiz.card': 'Series quiz',
   'quiz.cardBody': 'Mixed questions from the {n} episodes that have a quiz.',
   'quiz.badge': 'Quiz',
+  'quiz.mastery': 'Passed {c} of {n} episodes',
   'quiz.live': 'Question {i} of {n}',
   'quiz.motion': 'Scores are kept in this browser only.',
 }

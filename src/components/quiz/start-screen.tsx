@@ -1,11 +1,12 @@
+import type { ReactNode } from 'react'
 import { History, Play, Trophy } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useT } from '@/lib/i18n'
 import type { QuizRecord } from '@/lib/quiz-progress'
 
-type Props = { title: string; intro: string; count: number; record: QuizRecord | null; revise: number; onStart: () => void; onRevise: () => void }
+type Props = { title: string; intro: string; count: number; record: QuizRecord | null; revise: number; extra?: ReactNode; onStart: () => void; onRevise: () => void }
 
-export function StartScreen({ title, intro, count, record, revise, onStart, onRevise }: Props) {
+export function StartScreen({ title, intro, count, record, revise, extra, onStart, onRevise }: Props) {
   const { t } = useT()
   return (
     <div className="mx-auto max-w-xl space-y-6 py-4 text-center">
@@ -15,6 +16,7 @@ export function StartScreen({ title, intro, count, record, revise, onStart, onRe
         <p className="text-sm text-muted-foreground">{t('quiz.questions', { n: count })}</p>
       </div>
       <p className="mx-auto max-w-md text-pretty text-muted-foreground">{intro}</p>
+      {extra}
       <div className="mx-auto flex max-w-sm flex-col gap-1 rounded-xl border bg-card p-4 text-sm">
         {record?.best ? (
           <>

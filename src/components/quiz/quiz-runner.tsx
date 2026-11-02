@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { ArrowRight, Check, ExternalLink, Flame, X } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { youtubeUrl } from '@/lib/data'
@@ -23,13 +23,15 @@ type Props = {
   /** Play only this many questions, drawn evenly from the pool (the series quiz). All of them when omitted. */
   take?: number
   back: { to: string; label: string }
+  /** Shown on the start screen, such as the mastery ring of the series quiz. */
+  extra?: ReactNode
 }
 
 type Round = { shown: Shown[]; seed: number; revision: boolean }
 type Answer = { ok: boolean; response: Response }
 
 /** Start screen, one question at a time with instant feedback, then the result. */
-export function QuizRunner({ storeKey, title, intro, pool, take, back }: Props) {
+export function QuizRunner({ storeKey, title, intro, pool, take, back, extra }: Props) {
   const { t } = useT()
   const [round, setRound] = useState<Round | null>(null)
   const [i, setI] = useState(0)
@@ -70,7 +72,7 @@ export function QuizRunner({ storeKey, title, intro, pool, take, back }: Props) 
   }, [round, finished, answers, tally, total, storeKey])
 
   if (!round) {
-    return <StartScreen title={title} intro={intro} count={take ? Math.min(take, pool.length) : pool.length} record={record} revise={revise.length} onStart={startAll} onRevise={startWrong} />
+    return <StartScreen title={title} intro={intro} count={take ? Math.min(take, pool.length) : pool.length} record={record} revise={revise.length} extra={extra} onStart={startAll} onRevise={startWrong} />
   }
 
   if (finished) {

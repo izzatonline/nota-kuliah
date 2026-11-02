@@ -15,9 +15,9 @@ import { useT } from '@/lib/i18n'
 import { getRecord, quizKey } from '@/lib/quiz-progress'
 import type { Episode, SeriesIndex } from '@/lib/types'
 
-type Props = { index: SeriesIndex; activeId: string; onSelect: (id: string) => void; onOpenTimeline?: () => void }
+type Props = { index: SeriesIndex; activeId: string; onSelect: (id: string) => void; onOpenTimeline?: () => void; /** The quiz page lists only the episodes that have a quiz. */ quizOnly?: boolean }
 
-export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Props) {
+export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline, quizOnly }: Props) {
   const { t } = useT()
   const { setOpenMobile } = useSidebar()
   const [q, setQ] = useState('')
@@ -29,11 +29,11 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Pr
 
   const groups = useMemo(() => {
     const needle = q.trim().toLowerCase()
-    const match = (e: Episode) => !needle || e.title.toLowerCase().includes(needle) || String(e.number ?? 'prolog').includes(needle)
+    const match = (e: Episode) => (!quizOnly || e.hasQuiz) && (!needle || e.title.toLowerCase().includes(needle) || String(e.number ?? 'prolog').includes(needle))
     const bySeason = new Map<number, Episode[]>()
     for (const e of [...index.episodes].reverse().filter(match)) bySeason.set(e.season, [...(bySeason.get(e.season) ?? []), e])
     return [...bySeason.entries()].sort((a, b) => b[0] - a[0])
-  }, [index, q])
+  }, [index, q, quizOnly])
 
   const withNotes = index.episodes.filter((e) => e.hasNotes).length
 
