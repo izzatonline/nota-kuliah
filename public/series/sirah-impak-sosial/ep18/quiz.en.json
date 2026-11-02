@@ -1,0 +1,160 @@
+{
+ "id": "ep18",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What is Dar an-Nadwah?",
+   "options": [
+    "The assembly hall of Makkah's leaders, like a parliament",
+    "The cave for tahannuth",
+    "Ukaz market",
+    "Khadijah's house"
+   ],
+   "explain": "Dar an-Nadwah was where Quraysh leaders gathered."
+  },
+  {
+   "id": "q2",
+   "q": "Who are the hanifs or ahnaf?",
+   "options": [
+    "Upright people who do not worship idols",
+    "Fire-worshippers",
+    "Rich merchants",
+    "Magicians"
+   ],
+   "explain": "Ahnaf is the plural of hanif."
+  },
+  {
+   "id": "q3",
+   "q": "What does tahannuth mean according to this lecture?",
+   "options": [
+    "Becoming a hermit forever",
+    "Trading far away",
+    "Fighting",
+    "Withdrawing to leave sin and indecency"
+   ],
+   "explain": "Tahannuth is not asceticism; he kept engaging with society."
+  },
+  {
+   "id": "q4",
+   "q": "How long did the Prophet's true dreams occur before revelation?",
+   "options": [
+    "Ten years",
+    "Three days",
+    "Six months",
+    "A week"
+   ],
+   "explain": "What he dreamed came true the next day."
+  },
+  {
+   "id": "q5",
+   "q": "How many times did Jibril embrace the Prophet SAW while commanding 'Iqra'?",
+   "options": [
+    "Never",
+    "Three times",
+    "Once",
+    "Seven times"
+   ],
+   "explain": "Jibril embraced him three times."
+  },
+  {
+   "id": "q6",
+   "q": "How did Khadijah test whether it was an angel?",
+   "options": [
+    "She first called Waraqah",
+    "She asked Abu Bakr",
+    "She prayed all night",
+    "She asked the Prophet SAW to sit on her lap"
+   ],
+   "explain": "Khadijah stayed calm and sought answers while the Prophet SAW was afraid."
+  },
+  {
+   "id": "q7",
+   "q": "Tahannuth means cutting off from society.",
+   "explain": "False. He withdrew while continuing to engage with society."
+  },
+  {
+   "id": "q8",
+   "q": "Allah promised to preserve the Quran so that no one can change a letter or word.",
+   "explain": "True. Revelation is preserved."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The Prophet SAW runs to Khadijah"
+    },
+    {
+     "id": "b",
+     "text": "True dreams"
+    },
+    {
+     "id": "c",
+     "text": "Jibril embraces the Prophet SAW"
+    },
+    {
+     "id": "d",
+     "text": "He begins going to the Cave of Hira"
+    },
+    {
+     "id": "e",
+     "text": "Tahannuth in the cave"
+    }
+   ],
+   "explain": "He began going to Hira, true dreams, tahannuth, Jibril embraced him, then he ran to Khadijah."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Nabi"
+    },
+    {
+     "id": "b",
+     "text": "Rasul"
+    },
+    {
+     "id": "c",
+     "text": "Wahy"
+    },
+    {
+     "id": "d",
+     "text": "Ru'ya sadiqa"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A true dream, the first form of revelation"
+    },
+    {
+     "id": "2",
+     "text": "A gift from Allah, a swift signal"
+    },
+    {
+     "id": "3",
+     "text": "The recipient of important news he must convey"
+    },
+    {
+     "id": "4",
+     "text": "The bearer of a new law"
+    }
+   ],
+   "explain": "A nabi receives news, a rasul brings a new law, wahy is Allah's gift, and ru'ya sadiqa is the true dream."
+  },
+  {
+   "id": "q11",
+   "q": "Learning religion without any change in oneself is merely what?",
+   "options": [
+    "Struggle",
+    "Asceticism",
+    "Entertainment",
+    "Complete worship"
+   ],
+   "explain": "Read the sirah in order to change."
+  }
+ ]
+}
