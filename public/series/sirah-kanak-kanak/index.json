@@ -115,7 +115,8 @@
    "duration": 1959,
    "views": 12000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T23:43:19"
+   "notesAddedAt": "2026-11-01T23:43:19",
+   "hasQuiz": true
   },
   {
    "id": "ep10",
@@ -126,7 +127,8 @@
    "duration": 2029,
    "views": 12000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T23:46:06"
+   "notesAddedAt": "2026-11-01T23:46:06",
+   "hasQuiz": true
   },
   {
    "id": "ep11",
@@ -137,7 +139,8 @@
    "duration": 1855,
    "views": 11000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T23:48:42"
+   "notesAddedAt": "2026-11-01T23:48:42",
+   "hasQuiz": true
   },
   {
    "id": "ep12",
