@@ -1,0 +1,149 @@
+{
+ "id": "ep46",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What did the twelve young men of Yathrib ask of the Prophet SAW after the first pledge of Aqabah?",
+   "options": [
+    "A teacher who would teach the Quran and lead prayer",
+    "A commander",
+    "Wealth",
+    "A king"
+   ],
+   "explain": "The two most basic things: the Quran and prayer."
+  },
+  {
+   "id": "q2",
+   "q": "Who came to drive Mus'ab away but believed after hearing the Quran?",
+   "options": [
+    "Usayd and Sa'd bin Mu'adh",
+    "Abu Jahal",
+    "Al-Akhnas",
+    "Abu Lahab"
+   ],
+   "explain": "They believed after hearing the Quran."
+  },
+  {
+   "id": "q3",
+   "q": "What are the right qualities of a caller to Islam according to the ustaz?",
+   "options": [
+    "A degree only",
+    "Wealth",
+    "Lineage",
+    "Command of the Quran, interpersonal skill, character and wisdom, not just a degree"
+   ],
+   "explain": "Choose a caller with the right qualities."
+  },
+  {
+   "id": "q4",
+   "q": "Why did the Prophet SAW send young Mus'ab together with the more senior Abdullah bin Umm Maktum?",
+   "options": [
+    "Because they were rich",
+    "Because they were brothers",
+    "To balance youthful zeal with senior maturity",
+    "Because they were the only ones available"
+   ],
+   "explain": "Balance young enthusiasm with senior maturity."
+  },
+  {
+   "id": "q5",
+   "q": "What did As'ad advise Mus'ab when a good opportunity opened?",
+   "options": [
+    "Rest",
+    "Purify the intention",
+    "Seek fame",
+    "Ask for payment"
+   ],
+   "explain": "Be sincere from the start."
+  },
+  {
+   "id": "q6",
+   "q": "What is the warning about love of popularity for a caller?",
+   "options": [
+    "Seek popularity",
+    "Take pride in followers",
+    "It is harmless",
+    "Guard yourself against love of popularity"
+   ],
+   "explain": "A caller can easily feel people accepted Islam because of his skill."
+  },
+  {
+   "id": "q7",
+   "q": "Mus'ab asked to be heard first and promised to leave if they disliked it.",
+   "explain": "True. Offer to be heard first with confidence."
+  },
+  {
+   "id": "q8",
+   "q": "A caller may work casually without phases and planning.",
+   "explain": "False. Work systematically; Mus'ab and As'ad mapped out phases."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "As'ad gathers forty for Friday prayer"
+    },
+    {
+     "id": "b",
+     "text": "Twelve young men ask for a teacher"
+    },
+    {
+     "id": "c",
+     "text": "Usayd and Sa'd embrace Islam"
+    },
+    {
+     "id": "d",
+     "text": "Mus'ab and Abdullah are sent"
+    },
+    {
+     "id": "e",
+     "text": "Dar al-Arqam at As'ad's house"
+    }
+   ],
+   "explain": "The request for a teacher, Mus'ab was sent, As'ad's house became the base, Usayd and Sa'd believed, then Friday prayer."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Al-Muqri"
+    },
+    {
+     "id": "b",
+     "text": "Naqi' al-Khadimat"
+    },
+    {
+     "id": "c",
+     "text": "Fiqh of minorities"
+    },
+    {
+     "id": "d",
+     "text": "Shuhrah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Minority jurisprudence"
+    },
+    {
+     "id": "2",
+     "text": "Love of fame"
+    },
+    {
+     "id": "3",
+     "text": "One who teaches the Quran, Mus'ab's title"
+    },
+    {
+     "id": "4",
+     "text": "An open area near Madinah where Friday prayer was held"
+    }
+   ],
+   "explain": "Al-Muqri is the Quran teacher, Naqi' al-Khadimat is the Friday site, fiqh aqalliyat is minority fiqh, and shuhrah is love of fame."
+  }
+ ]
+}
