@@ -1,0 +1,254 @@
+{
+ "id": "ep7",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Berapakah umur Nabi SAW ketika mengikut Abu Talib ke Syam?",
+   "options": [
+    "Sembilan tahun",
+    "Dua belas tahun",
+    "Lima belas tahun",
+    "Dua puluh tahun"
+   ],
+   "answer": 1,
+   "explain": "Abu Talib melembut hati dan membenarkan baginda yang berusia 12 tahun ikut.",
+   "t": 449,
+   "source": "events:e1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah nama sebenar Abu Talib?",
+   "options": [
+    "Abdul Muttalib",
+    "Talib",
+    "Abdul Manaf",
+    "Amr"
+   ],
+   "answer": 2,
+   "explain": "Nama sebenar Abu Talib ialah Abdul Manaf. Beliau seorang peniaga yang miskin.",
+   "t": 59,
+   "source": "people:p1",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah isteri Abu Talib yang menjaga Nabi SAW seperti ibu?",
+   "options": [
+    "Fatimah binti Asad",
+    "Aminah",
+    "Ummu Hani",
+    "Halimah"
+   ],
+   "answer": 0,
+   "explain": "Fatimah binti Asad menjaga baginda, kemudian memeluk Islam dan berhijrah ke Madinah.",
+   "t": 130,
+   "source": "people:p2",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah nama bandar singgahan kafilah di jalan ke Syam tempat mereka bertemu rahib Bahira?",
+   "options": [
+    "Gaza",
+    "Busra",
+    "Yathrib",
+    "Al-Abwa'"
+   ],
+   "answer": 1,
+   "explain": "Busra ialah bandar singgahan kafilah di jalan ke Syam.",
+   "t": 652,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Siapakah Bahira?",
+   "options": [
+    "Pendeta atau rahib di Busra",
+    "Raja Syam",
+    "Peniaga dari Mekah",
+    "Penggembala kambing"
+   ],
+   "answer": 0,
+   "explain": "Bahira ialah pendeta yang membaca kitab-kitab lama dan mengenali tanda kenabian.",
+   "t": 686,
+   "source": "people:p11",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah nasihat Bahira kepada Abu Talib?",
+   "options": [
+    "Membawa baginda terus ke Syam",
+    "Membawa baginda pulang ke Mekah",
+    "Meninggalkan baginda di Busra",
+    "Menyerahkan baginda kepada pendeta"
+   ],
+   "answer": 1,
+   "explain": "Bahira menasihati Abu Talib supaya tidak membawa baginda ke Syam dan pulang ke Mekah.",
+   "t": 1033,
+   "source": "events:e5",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Mengapakah Nabi SAW tertidur apabila hendak mendengar nyanyian?",
+   "options": [
+    "Kerana baginda keletihan",
+    "Kerana Allah menjaga baginda daripada perkara yang merosakkan hati dan akhlak",
+    "Kerana nyanyian itu perlahan",
+    "Kerana Abu Talib menyuruhnya tidur"
+   ],
+   "answer": 1,
+   "explain": "Dua malam berturut-turut baginda tertidur sebelum sempat mendengarnya. Allah memelihara hamba-Nya yang dikehendaki.",
+   "t": 1365,
+   "source": "lessons:l1",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Unta mempunyai bulu mata seperti wiper yang melindungi matanya, tanda ciptaan Allah.",
+   "answer": true,
+   "explain": "Betul. Ustaz mengajak kita memerhati ciptaan Allah, seperti unta.",
+   "t": 500,
+   "source": "lessons:l5",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Semua pengkaji sirah menerima kisah Bahira tanpa sebarang keraguan.",
+   "answer": false,
+   "explain": "Salah. Sebahagian pengkaji ragu tentang kisah ini kerana Abu Talib tidak memeluk Islam. Perbezaan pandangan dalam sirah memang ada.",
+   "t": 1186,
+   "source": "lessons:l8",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Bahira menjemput semua orang makan"
+    },
+    {
+     "id": "b",
+     "text": "Baginda tinggal di rumah Abu Talib"
+    },
+    {
+     "id": "c",
+     "text": "Bahira memberi amaran kepada Abu Talib"
+    },
+    {
+     "id": "d",
+     "text": "Awan menaungi rombongan"
+    },
+    {
+     "id": "e",
+     "text": "Abu Talib membenarkan baginda ikut ke Syam"
+    }
+   ],
+   "answer": [
+    "b",
+    "e",
+    "d",
+    "a",
+    "c"
+   ],
+   "explain": "Baginda tinggal di rumah Abu Talib, ikut ke Syam, awan menaungi rombongan, Bahira menjemput makan dan memberi amaran.",
+   "t": 279,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Syam"
+    },
+    {
+     "id": "b",
+     "text": "Busra"
+    },
+    {
+     "id": "c",
+     "text": "Taurat"
+    },
+    {
+     "id": "d",
+     "text": "Ahmad"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Bandar singgahan kafilah di jalan ke Syam"
+    },
+    {
+     "id": "2",
+     "text": "Kitab yang diturunkan kepada Nabi Musa AS"
+    },
+    {
+     "id": "3",
+     "text": "Nama nabi akhir zaman yang diberitahu Nabi Isa"
+    },
+    {
+     "id": "4",
+     "text": "Kawasan utara, arah perjalanan dagang musim panas"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "1"
+    ],
+    [
+     "c",
+     "2"
+    ],
+    [
+     "d",
+     "3"
+    ]
+   ],
+   "explain": "Syam ialah kawasan utara, Busra bandar singgahan, Taurat kitab Nabi Musa, dan Ahmad nama nabi akhir zaman yang disebut Nabi Isa.",
+   "t": 565,
+   "source": "glossary:g7",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Anda terpandang gambar yang tidak elok di majalah atau pusat membeli-belah. Apakah yang patut dilakukan?",
+   "options": [
+    "Terus melihatnya",
+    "Menutup atau menukarnya dan menjaga pandangan",
+    "Menunjukkannya kepada kawan",
+    "Mengambil gambarnya"
+   ],
+   "answer": 1,
+   "explain": "Ustaz mengajar kita menjaga pandangan dengan menutup dan menukar gambar yang tidak elok, seperti Nabi SAW dipelihara daripada perkara itu.",
+   "t": 1536,
+   "source": "lessons:l3",
+   "level": 3
+  }
+ ]
+}
