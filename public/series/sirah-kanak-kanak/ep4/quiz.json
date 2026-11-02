@@ -1,0 +1,254 @@
+{
+ "id": "ep4",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Pada hari apakah Nabi SAW dilahirkan?",
+   "options": [
+    "Jumaat",
+    "Isnin",
+    "Khamis",
+    "Ahad"
+   ],
+   "answer": 1,
+   "explain": "Tarikh tepat tidak diketahui, tetapi tahun Gajah, hari Isnin dan bulan Rabiul Awal diketahui dengan yakin.",
+   "t": 749,
+   "source": "lessons:l4",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Siapakah yang menyambut kelahiran Nabi SAW?",
+   "options": [
+    "Halimah",
+    "Thuwaibah",
+    "Ummu Aiman",
+    "Syahimah"
+   ],
+   "answer": 2,
+   "explain": "Baginda lahir cukup bulan dan disambut Ummu Aiman, hamba yang menjaga Aminah.",
+   "t": 613,
+   "source": "events:e3",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah maksud nama Muhammad?",
+   "options": [
+    "Yang terpuji",
+    "Yang yatim",
+    "Yang diberkati",
+    "Anak Abdullah"
+   ],
+   "answer": 0,
+   "explain": "Muhammad bermaksud yang terpuji, daripada akar kata yang sama dengan Ahmad.",
+   "t": 971,
+   "source": "glossary:g5",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Siapakah yang menamakan baginda Muhammad?",
+   "options": [
+    "Aminah",
+    "Abu Talib",
+    "Abdul Muttalib, datuknya",
+    "Halimah"
+   ],
+   "answer": 2,
+   "explain": "Abdul Muttalib menamakan cucunya Muhammad di hadapan Kaabah. Nama itu jarang digunakan orang Arab ketika itu.",
+   "t": 933,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Siapakah ibu susuan Nabi SAW dari Bani Sa'ad?",
+   "options": [
+    "Thuwaibah",
+    "Halimah As-Sa'diyah",
+    "Ummu Aiman",
+    "Aminah"
+   ],
+   "answer": 1,
+   "explain": "Halimah datang ke Mekah mencari bayi untuk disusukan dan mengambil bayi Muhammad.",
+   "t": 1447,
+   "source": "events:e5",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Mengapakah bayi dihantar ke kampung untuk disusukan?",
+   "options": [
+    "Kerana Mekah tiada wanita yang boleh menyusukan",
+    "Kerana ibu bapa tidak sayang",
+    "Kerana Kaabah tidak sesuai untuk bayi",
+    "Kerana udara dan airnya bersih dan bahasa Arabnya asli"
+   ],
+   "answer": 3,
+   "explain": "Udara dan air di kampung bersih, dan bahasa Arab di sana asli, maka bahasa Arab Nabi SAW sangat hebat.",
+   "t": 1242,
+   "source": "lessons:l7",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Dengan apakah malaikat membasuh hati Nabi SAW?",
+   "options": [
+    "Air zam-zam",
+    "Air laut",
+    "Susu",
+    "Air hujan"
+   ],
+   "answer": 0,
+   "explain": "Ketika baginda berusia lebih tiga tahun, malaikat membelah dada baginda dan membasuh hatinya dengan air zam-zam.",
+   "t": 1704,
+   "source": "events:e7",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Abdullah wafat selepas Nabi SAW dilahirkan.",
+   "answer": false,
+   "explain": "Salah. Abdullah wafat di Yathrib ketika bayi dalam kandungan Aminah baru dua bulan.",
+   "t": 491,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Halimah mengambil bayi Muhammad walaupun tiada orang lain mahu, lalu rezekinya bertambah.",
+   "answer": true,
+   "explain": "Betul. Halimah mengambil bayi yatim itu, lalu susu dan ternakannya bertambah.",
+   "t": 1447,
+   "source": "events:e5",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Nabi SAW dilahirkan"
+    },
+    {
+     "id": "b",
+     "text": "Malaikat membelah dada baginda"
+    },
+    {
+     "id": "c",
+     "text": "Abdullah berkahwin dengan Aminah"
+    },
+    {
+     "id": "d",
+     "text": "Halimah mengambil bayi Muhammad"
+    },
+    {
+     "id": "e",
+     "text": "Abdullah wafat di Yathrib"
+    }
+   ],
+   "answer": [
+    "c",
+    "e",
+    "a",
+    "d",
+    "b"
+   ],
+   "explain": "Abdullah berkahwin dengan Aminah dan wafat, baginda lahir, Halimah mengambilnya, dan kemudian dadanya dibelah.",
+   "t": 102,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Yatim"
+    },
+    {
+     "id": "b",
+     "text": "Khatan"
+    },
+    {
+     "id": "c",
+     "text": "Bani Sa'ad"
+    },
+    {
+     "id": "d",
+     "text": "Ibu susuan"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Wanita kampung yang menyusukan bayi orang bandar"
+    },
+    {
+     "id": "2",
+     "text": "Anak yang ayahnya telah meninggal dunia"
+    },
+    {
+     "id": "3",
+     "text": "Perkampungan luar Mekah tempat Nabi SAW disusukan"
+    },
+    {
+     "id": "4",
+     "text": "Berkhatan"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "2"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "3"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Yatim ialah anak yang kehilangan ayah, khatan ialah berkhatan, Bani Sa'ad ialah kampung penyusuan baginda, dan ibu susuan ialah wanita yang menyusukan bayi.",
+   "t": 538,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Seorang kawan anda kehilangan ayahnya. Berdasarkan pengajaran episod ini, apakah yang patut kita lakukan?",
+   "options": [
+    "Mengambil berat tentang mereka kerana mereka mudah berasa keseorangan",
+    "Membiarkan mereka sendirian",
+    "Menjauhi mereka",
+    "Berharap mereka cepat lupa"
+   ],
+   "answer": 0,
+   "explain": "Anak yatim mudah berasa keseorangan, maka mereka perlu dijaga.",
+   "t": 538,
+   "source": "lessons:l1",
+   "level": 3
+  }
+ ]
+}
