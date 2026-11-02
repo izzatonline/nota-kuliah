@@ -1,0 +1,144 @@
+{
+ "id": "ep10",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "How old was the Prophet SAW when he wanted to go to Sham with Abu Talib?",
+   "options": [
+    "12",
+    "5",
+    "20",
+    "30"
+   ],
+   "explain": "At age 12 he begged not to be left behind."
+  },
+  {
+   "id": "q2",
+   "q": "What is meant by a daif hadith?",
+   "options": [
+    "A weak hadith that does not meet the conditions of sahih or hasan",
+    "A fabricated hadith",
+    "The soundest hadith",
+    "A hadith qudsi"
+   ],
+   "explain": "The Tirmidhi hadith about Bahira is graded daif."
+  },
+  {
+   "id": "q3",
+   "q": "What did Ibn Kathir and adh-Dhahabi conclude about the reports of the Bahira story?",
+   "options": [
+    "All are authentic",
+    "All are fabricated",
+    "They did not mention it",
+    "There is no strong report"
+   ],
+   "explain": "They analysed all reports and found none strong, so we need not turn it into a polemic."
+  },
+  {
+   "id": "q4",
+   "q": "Who are orientalists in the context of this lecture?",
+   "options": [
+    "Christian monks",
+    "Hanif scholars",
+    "Western scholars of the East and Islam",
+    "Merchants from the East"
+   ],
+   "explain": "Some orientalists tried to prove the Prophet SAW took knowledge from monks."
+  },
+  {
+   "id": "q5",
+   "q": "What was the Hilf al-Fudul?",
+   "options": [
+    "The name of a mountain",
+    "An important pact the Prophet SAW joined in his twenties",
+    "A kind of idol",
+    "The name of a market"
+   ],
+   "explain": "Hilf al-Fudul was an important pact in Makkan society."
+  },
+  {
+   "id": "q6",
+   "q": "What happened when he wanted to listen to singing as a youth?",
+   "options": [
+    "He stayed until the end",
+    "He ran home",
+    "He danced",
+    "He fell asleep until morning"
+   ],
+   "explain": "Allah protected the Prophet SAW before prophethood from indecency."
+  },
+  {
+   "id": "q7",
+   "q": "Who is a Hanif?",
+   "options": [
+    "A follower of Judaism",
+    "A guide",
+    "One who does not worship idols and seeks the religion of Prophet Ibrahim",
+    "A fire-worshipper"
+   ],
+   "explain": "A Hanif who went against the tide can be an example."
+  },
+  {
+   "id": "q8",
+   "q": "The Prophet SAW did not learn about Jews and Christians from any monk; it was all revelation.",
+   "explain": "True. The Prophet's knowledge came from revelation."
+  },
+  {
+   "id": "q9",
+   "q": "The ustaz says the Prophet SAW struck a child just once.",
+   "explain": "False. The Prophet SAW never struck a child, not even once."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Busra"
+    },
+    {
+     "id": "b",
+     "text": "Rahib"
+    },
+    {
+     "id": "c",
+     "text": "People of the Book"
+    },
+    {
+     "id": "d",
+     "text": "Sign of prophethood"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A Christian monk living at a place of worship"
+    },
+    {
+     "id": "2",
+     "text": "Jews and Christians who have earlier scriptures"
+    },
+    {
+     "id": "3",
+     "text": "A caravan stop on the Syrian border"
+    },
+    {
+     "id": "4",
+     "text": "A mark on the Prophet's back in the Tirmidhi report"
+    }
+   ],
+   "explain": "Busra is a caravan stop, a rahib is a Christian monk, Ahl al-Kitab are Jews and Christians, and the sign of prophethood is the mark on his back in the Tirmidhi report."
+  },
+  {
+   "id": "q11",
+   "q": "Your child has a confusing first experience. What does the ustaz advise?",
+   "options": [
+    "Tell them to keep quiet",
+    "Be the place your child can talk, don't shut your eyes",
+    "Pretend nothing happened",
+    "Get angry and punish"
+   ],
+   "explain": "Parents should not bury their heads like an ostrich."
+  }
+ ]
+}
