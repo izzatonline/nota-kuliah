@@ -1,0 +1,144 @@
+{
+ "id": "prolog-DJgUaYRBf6k",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "How many pilgrims joined the Prophet SAW in the Farewell Hajj?",
+   "options": [
+    "About 124,000",
+    "About 1,000",
+    "About 300",
+    "About 12"
+   ],
+   "explain": "The Prophet's only Hajj, three months before he died."
+  },
+  {
+   "id": "q2",
+   "q": "What did the Farewell Sermon abolish regarding riba?",
+   "options": [
+    "The riba of the Jahiliyyah",
+    "All trade",
+    "Taxes",
+    "Endowments"
+   ],
+   "explain": "The Farewell Sermon abolished the riba of jahiliyyah."
+  },
+  {
+   "id": "q3",
+   "q": "Who faces the severest trials according to the hadith?",
+   "options": [
+    "The rich",
+    "Kings",
+    "Merchants",
+    "The prophets"
+   ],
+   "explain": "Whatever problem we have exists in the life of the Prophet SAW."
+  },
+  {
+   "id": "q4",
+   "q": "What small share does change start with according to this lecture?",
+   "options": [
+    "About 50 percent",
+    "Everyone",
+    "About 3 percent",
+    "About 90 percent"
+   ],
+   "explain": "Of 124,000 companions, only about 300 are said to have joined Badr."
+  },
+  {
+   "id": "q5",
+   "q": "What did the Prophet SAW do when a Bedouin urinated in the mosque?",
+   "options": [
+    "Drove him out",
+    "Held back the companions and advised him gently",
+    "Scolded him",
+    "Struck him"
+   ],
+   "explain": "Deal with difficult people with wisdom."
+  },
+  {
+   "id": "q6",
+   "q": "What distinguished Abu Jahal from believers though all wore robes and turbans?",
+   "options": [
+    "Clothing",
+    "Race",
+    "Wealth",
+    "Character"
+   ],
+   "explain": "Look at the essence, not labels or clothes."
+  },
+  {
+   "id": "q7",
+   "q": "What is prophetic parenting?",
+   "options": [
+    "Neglecting children",
+    "Punishing children",
+    "Parenting that begins with love and trust, then religion",
+    "Forcing children to pray"
+   ],
+   "explain": "A child must feel most loved before being taught prayer."
+  },
+  {
+   "id": "q8",
+   "q": "The companions had no concept of retirement.",
+   "explain": "True. They maximised their lives for Islam."
+  },
+  {
+   "id": "q9",
+   "q": "Age and physical ability are an excuse to stop striving.",
+   "explain": "False. Abu Ayyub Al-Ansari struggled until almost 90."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Hajjat al-Wada'"
+    },
+    {
+     "id": "b",
+     "text": "Wahn"
+    },
+    {
+     "id": "c",
+     "text": "Ghaflah"
+    },
+    {
+     "id": "d",
+     "text": "Circle of influence"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The sphere of things we can directly influence"
+    },
+    {
+     "id": "2",
+     "text": "The Prophet's Farewell Hajj"
+    },
+    {
+     "id": "3",
+     "text": "Extreme heedlessness"
+    },
+    {
+     "id": "4",
+     "text": "Love of the world and fear of death"
+    }
+   ],
+   "explain": "Hajjat al-Wada' is the farewell Hajj, wahn is love of the world and fear of death, ghaflah is heedlessness, and the circle of influence is what we can directly affect."
+  },
+  {
+   "id": "q11",
+   "q": "Many things worry us. What does the ustaz advise?",
+   "options": [
+    "Blame others",
+    "Focus on our own circle of influence",
+    "Worry about everything",
+    "Ignore it all"
+   ],
+   "explain": "Do not be busy with too many things."
+  }
+ ]
+}
