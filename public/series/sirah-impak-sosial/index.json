@@ -42,7 +42,8 @@
    "duration": 2186,
    "views": 45000,
    "hasNotes": true,
-   "notesAddedAt": "2026-10-29T04:11:13"
+   "notesAddedAt": "2026-10-29T04:11:13",
+   "hasQuiz": true
   },
   {
    "id": "ep3",
@@ -53,7 +54,8 @@
    "duration": 3116,
    "views": 45000,
    "hasNotes": true,
-   "notesAddedAt": "2026-10-29T04:16:13"
+   "notesAddedAt": "2026-10-29T04:16:13",
+   "hasQuiz": true
   },
   {
    "id": "ep4",
@@ -64,7 +66,8 @@
    "duration": 1906,
    "views": 35000,
    "hasNotes": true,
-   "notesAddedAt": "2026-10-29T14:06:50"
+   "notesAddedAt": "2026-10-29T14:06:50",
+   "hasQuiz": true
   },
   {
    "id": "ep5",
