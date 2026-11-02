@@ -1,0 +1,254 @@
+{
+ "id": "ep21",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Siapakah raja Kristian Habasyah yang adil?",
+   "options": [
+    "An-Najasyi",
+    "Abraha",
+    "Amr bin Al-As",
+    "Al-Walid"
+   ],
+   "answer": 0,
+   "explain": "An-Najasyi ialah gelaran raja Habasyah, nama sebenarnya Ashamah.",
+   "t": 611,
+   "source": "people:p1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Di manakah Habasyah?",
+   "options": [
+    "Negeri Afrika di seberang Laut Merah, kini Ethiopia dan Eritrea",
+    "Di utara Syam",
+    "Di Yaman",
+    "Di sebelah Madinah"
+   ],
+   "answer": 0,
+   "explain": "Habasyah di seberang Laut Merah, tempat hijrah pertama.",
+   "t": 785,
+   "source": "glossary:g7",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Berapa orang sahabat yang berhijrah dalam rombongan pertama ke Habasyah?",
+   "options": [
+    "Empat",
+    "Enam belas",
+    "Seratus",
+    "Sepuluh ribu"
+   ],
+   "answer": 1,
+   "explain": "Enam belas sahabat menyeberang Laut Merah dari Jeddah pada malam hari.",
+   "t": 1310,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Siapakah suami Ruqayyah binti Muhammad yang berhijrah bersamanya?",
+   "options": [
+    "Ja'far",
+    "Uthman bin Affan",
+    "Mus'ab",
+    "Umar"
+   ],
+   "answer": 1,
+   "explain": "Uthman dan Ruqayyah berhijrah ke Habasyah bersama.",
+   "t": 1347,
+   "source": "people:p4",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Siapakah yang dihantar Quraisy dengan hadiah mahal untuk meminta Najasyi memulangkan umat Islam?",
+   "options": [
+    "Abu Jahal",
+    "Umar",
+    "Abu Lahab",
+    "Amr bin Al-As"
+   ],
+   "answer": 3,
+   "explain": "Amr bin Al-As seorang pendebat, tetapi gagal.",
+   "t": 1653,
+   "source": "events:e1",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Siapakah yang dipilih menjadi jurucakap umat Islam di hadapan raja?",
+   "options": [
+    "Mus'ab bin Umair",
+    "Ja'far bin Abi Talib",
+    "Uthman bin Affan",
+    "Abu Bakar"
+   ],
+   "answer": 1,
+   "explain": "Ja'far, sepupu Nabi SAW, berucap di hadapan Najasyi.",
+   "t": 2119,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Surah manakah yang dibaca Ja'far sehingga Najasyi menangis?",
+   "options": [
+    "Al-Fil",
+    "Maryam",
+    "Al-Kahf",
+    "Az-Zumar"
+   ],
+   "answer": 1,
+   "explain": "Ja'far memilih Surah Maryam kerana Najasyi seorang Kristian yang memuliakan Maryam.",
+   "t": 2476,
+   "source": "lessons:l5",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "mcq",
+   "q": "Apakah yang dilakukan Najasyi terhadap hadiah daripada Amr?",
+   "options": [
+    "Menerimanya",
+    "Memulangkan semuanya",
+    "Membahagikan kepada rakyat",
+    "Menyimpannya"
+   ],
+   "answer": 1,
+   "explain": "Rasuah tidak mengubah keadilan. Najasyi memulangkan semua hadiah.",
+   "t": 2868,
+   "source": "lessons:l2",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Para sahabat sujud kepada raja Najasyi sebagai penghormatan.",
+   "answer": false,
+   "explain": "Salah. Sujud hanya kepada Allah.",
+   "t": 2152,
+   "source": "lessons:l6",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "tf",
+   "q": "Najasyi mendengar kedua-dua pihak sebelum membuat keputusan.",
+   "answer": true,
+   "explain": "Betul. Raja yang adil tidak menurut sebelah pihak sahaja.",
+   "t": 1969,
+   "source": "lessons:l1",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Ja'far membaca Surah Maryam"
+    },
+    {
+     "id": "b",
+     "text": "Najasyi menolak menyerahkan umat Islam"
+    },
+    {
+     "id": "c",
+     "text": "Enam belas sahabat berhijrah"
+    },
+    {
+     "id": "d",
+     "text": "Ja'far dipilih berucap"
+    },
+    {
+     "id": "e",
+     "text": "Amr bin Al-As membawa hadiah"
+    }
+   ],
+   "answer": [
+    "c",
+    "e",
+    "d",
+    "a",
+    "b"
+   ],
+   "explain": "Sahabat berhijrah, Amr membawa hadiah, Ja'far dipilih, membaca Maryam, dan Najasyi menolak menyerahkan mereka.",
+   "t": 1310,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q12",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Hijaz"
+    },
+    {
+     "id": "b",
+     "text": "Laut Merah"
+    },
+    {
+     "id": "c",
+     "text": "Sahabat"
+    },
+    {
+     "id": "d",
+     "text": "Pendebat"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Orang yang pandai meyakinkan orang dalam perbahasan"
+    },
+    {
+     "id": "2",
+     "text": "Wilayah tempat Mekah berada"
+    },
+    {
+     "id": "3",
+     "text": "Orang yang bertemu Nabi SAW, beriman dan mati dalam Islam"
+    },
+    {
+     "id": "4",
+     "text": "Laut antara Hijaz dan Afrika"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "2"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "3"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Hijaz wilayah Mekah, Laut Merah memisahkan Hijaz dan Afrika, sahabat bertemu Nabi SAW dan beriman, dan pendebat pandai meyakinkan.",
+   "t": 695,
+   "source": "glossary:g3",
+   "level": 1
+  }
+ ]
+}

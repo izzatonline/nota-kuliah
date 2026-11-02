@@ -1,0 +1,171 @@
+{
+ "id": "ep21",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Who was the just Christian king of Abyssinia?",
+   "options": [
+    "An-Najashi",
+    "Abraha",
+    "Amr bin Al-As",
+    "Al-Walid"
+   ],
+   "explain": "An-Najashi was the title of the king of Abyssinia, whose real name was Ashamah."
+  },
+  {
+   "id": "q2",
+   "q": "Where was Abyssinia?",
+   "options": [
+    "An African land across the Red Sea, now Ethiopia and Eritrea",
+    "North of Sham",
+    "In Yemen",
+    "Next to Madinah"
+   ],
+   "explain": "Abyssinia lay across the Red Sea, the place of the first migration."
+  },
+  {
+   "id": "q3",
+   "q": "How many companions migrated in the first group to Abyssinia?",
+   "options": [
+    "Four",
+    "Sixteen",
+    "A hundred",
+    "Ten thousand"
+   ],
+   "explain": "Sixteen companions crossed the Red Sea from Jeddah at night."
+  },
+  {
+   "id": "q4",
+   "q": "Who was the husband of Ruqayyah bint Muhammad who migrated with her?",
+   "options": [
+    "Ja'far",
+    "Uthman bin Affan",
+    "Mus'ab",
+    "Umar"
+   ],
+   "explain": "Uthman and Ruqayyah migrated to Abyssinia together."
+  },
+  {
+   "id": "q5",
+   "q": "Who did Quraysh send with costly gifts to ask Najashi to return the Muslims?",
+   "options": [
+    "Abu Jahal",
+    "Umar",
+    "Abu Lahab",
+    "Amr bin Al-As"
+   ],
+   "explain": "Amr bin Al-As was a debater, but he failed."
+  },
+  {
+   "id": "q6",
+   "q": "Who was chosen as the Muslims' spokesman before the king?",
+   "options": [
+    "Mus'ab bin Umayr",
+    "Ja'far bin Abi Talib",
+    "Uthman bin Affan",
+    "Abu Bakr"
+   ],
+   "explain": "Ja'far, the Prophet's cousin, spoke before Najashi."
+  },
+  {
+   "id": "q7",
+   "q": "Which surah did Ja'far recite that made Najashi weep?",
+   "options": [
+    "Al-Fil",
+    "Maryam",
+    "Al-Kahf",
+    "Az-Zumar"
+   ],
+   "explain": "Ja'far chose Surah Maryam because Najashi was a Christian who honoured Maryam."
+  },
+  {
+   "id": "q8",
+   "q": "What did Najashi do with the gifts from Amr?",
+   "options": [
+    "Accepted them",
+    "Returned them all",
+    "Shared them with his people",
+    "Kept them"
+   ],
+   "explain": "A bribe does not change justice. Najashi returned all the gifts."
+  },
+  {
+   "id": "q9",
+   "q": "The companions prostrated to King Najashi out of respect.",
+   "explain": "False. Prostration is for Allah alone."
+  },
+  {
+   "id": "q10",
+   "q": "Najashi listened to both sides before deciding.",
+   "explain": "True. A just king does not side with one party only."
+  },
+  {
+   "id": "q11",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Ja'far recites Surah Maryam"
+    },
+    {
+     "id": "b",
+     "text": "Najashi refuses to hand over the Muslims"
+    },
+    {
+     "id": "c",
+     "text": "Sixteen companions migrate"
+    },
+    {
+     "id": "d",
+     "text": "Ja'far is chosen to speak"
+    },
+    {
+     "id": "e",
+     "text": "Amr bin Al-As brings gifts"
+    }
+   ],
+   "explain": "The companions migrated, Amr brought gifts, Ja'far was chosen, recited Maryam, and Najashi refused to hand them over."
+  },
+  {
+   "id": "q12",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Hijaz"
+    },
+    {
+     "id": "b",
+     "text": "Red Sea"
+    },
+    {
+     "id": "c",
+     "text": "Companion"
+    },
+    {
+     "id": "d",
+     "text": "Debater"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A person skilled at convincing others in debate"
+    },
+    {
+     "id": "2",
+     "text": "The region where Makkah lies"
+    },
+    {
+     "id": "3",
+     "text": "One who met the Prophet SAW, believed and died in Islam"
+    },
+    {
+     "id": "4",
+     "text": "The sea between Hijaz and Africa"
+    }
+   ],
+   "explain": "Hijaz is the region of Makkah, the Red Sea lies between Hijaz and Africa, a companion met and believed in the Prophet SAW, and a debater is good at persuading."
+  }
+ ]
+}
