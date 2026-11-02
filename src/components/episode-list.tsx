@@ -1,16 +1,16 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { Heart, Home, Search, FileText, Trophy, Check } from 'lucide-react'
+import { Heart, Home, Search, FileText, Trophy, Check, BookOpen, ArrowLeft } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { NKMark } from '@/components/brand'
 import {
   Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarHeader, SidebarMenu,
-  SidebarMenuButton, SidebarMenuItem, SidebarRail, useSidebar,
+  SidebarMenuAction, SidebarMenuButton, SidebarMenuItem, SidebarRail, useSidebar,
 } from '@/components/ui/sidebar'
 import { Input } from '@/components/ui/input'
 import { Clamp } from '@/components/clamp'
 import { TimelineButton } from '@/components/sirah-timeline'
 import { cn } from '@/lib/utils'
-import { fmt } from '@/lib/data'
+import { epPath, fmt } from '@/lib/data'
 import { useT } from '@/lib/i18n'
 import { getRecord, quizKey } from '@/lib/quiz-progress'
 import type { Episode, SeriesIndex } from '@/lib/types'
@@ -63,6 +63,15 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline, quiz
               }}
             />
           )}
+          {quizOnly && (
+            <Link
+              to={activeId ? epPath(index.series.slug, activeId) : `/${index.series.slug}`}
+              onClick={() => setOpenMobile(false)}
+              className="flex h-9 w-full items-center justify-center gap-2 rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground outline-none transition-colors hover:bg-primary/90 focus-visible:ring-2 focus-visible:ring-sidebar-ring"
+            >
+              <ArrowLeft className="size-4" aria-hidden /> {t('quiz.toLectures')}
+            </Link>
+          )}
           {index.episodes.some((e) => e.hasQuiz) && (
             <Link
               to={`/${index.series.slug}/quiz`}
@@ -98,7 +107,7 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline, quiz
                           onSelect(e.id)
                           setOpenMobile(false)
                         }}
-                        className="h-auto items-start gap-3 py-2 group-data-[collapsible=icon]:!p-1"
+                        className={cn('h-auto items-start gap-3 py-2 group-data-[collapsible=icon]:!p-1', quizOnly && 'pr-8')}
                       >
                         <span
                           className={cn(
@@ -122,6 +131,13 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline, quiz
                           </span>
                         </span>
                       </SidebarMenuButton>
+                      {quizOnly && (
+                        <SidebarMenuAction asChild showOnHover={false} className="top-2 group-data-[collapsible=icon]:hidden" title={t('quiz.openNotes', { title: e.title })}>
+                          <Link to={epPath(index.series.slug, e.id)} aria-label={t('quiz.openNotes', { title: e.title })} onClick={() => setOpenMobile(false)}>
+                            <BookOpen />
+                          </Link>
+                        </SidebarMenuAction>
+                      )}
                     </SidebarMenuItem>
                   )
                 })}
