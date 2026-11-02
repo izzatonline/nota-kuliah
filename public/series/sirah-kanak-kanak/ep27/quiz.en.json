@@ -1,0 +1,171 @@
+{
+ "id": "ep27",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Who accompanied the Prophet SAW on foot to Taif?",
+   "options": [
+    "Ali",
+    "Zaid bin Harithah",
+    "Abu Bakr",
+    "Hamzah"
+   ],
+   "explain": "He walked quietly with Zaid."
+  },
+  {
+   "id": "q2",
+   "q": "How is the city of Taif described?",
+   "options": [
+    "A cool high city full of fruit and roses",
+    "A hot desert",
+    "A seaside port",
+    "A cave in the mountains"
+   ],
+   "explain": "Taif was a resort of the people of Makkah."
+  },
+  {
+   "id": "q3",
+   "q": "Who was the slave from Nineveh who embraced Islam in Rabi'ah's orchard?",
+   "options": [
+    "Zaid",
+    "Addas",
+    "Bilal",
+    "Mut'im"
+   ],
+   "explain": "Addas was astonished that the Prophet knew about Prophet Yunus, and embraced Islam."
+  },
+  {
+   "id": "q4",
+   "q": "What astonished Addas so that he embraced Islam?",
+   "options": [
+    "A gift of gold",
+    "Hearing Bismillah and that he knew of Prophet Yunus",
+    "Seeing a miracle of a mountain",
+    "His master's order"
+   ],
+   "explain": "The name of Allah opened Addas's heart."
+  },
+  {
+   "id": "q5",
+   "q": "What did Zaid do when stones were thrown at the Prophet SAW?",
+   "options": [
+    "Ran away",
+    "Shielded him with his hands and face",
+    "Threw back",
+    "Called an army"
+   ],
+   "explain": "Zaid risked himself to protect the Prophet."
+  },
+  {
+   "id": "q6",
+   "q": "Who embraced Islam after hearing the Prophet SAW pray at night?",
+   "options": [
+    "The jinn",
+    "Angels",
+    "Addas",
+    "The leaders of Taif"
+   ],
+   "explain": "Allah gave help after the trial, including jinn who believed."
+  },
+  {
+   "id": "q7",
+   "q": "Who protected him on re-entering Makkah although not a Muslim?",
+   "options": [
+    "Abu Jahal",
+    "Mut'im bin Adi",
+    "Abu Lahab",
+    "Utbah"
+   ],
+   "explain": "Mut'im brought him into Makkah with his armed sons."
+  },
+  {
+   "id": "q8",
+   "q": "The Prophet SAW went to the local leaders, asked permission and conveyed his message politely.",
+   "explain": "True. That is the etiquette of visiting."
+  },
+  {
+   "id": "q9",
+   "q": "The Prophet SAW was sent as a mercy to all the worlds.",
+   "explain": "True. This is stated in Al-Anbiya 21:107."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "He is protected by Mut'im"
+    },
+    {
+     "id": "b",
+     "text": "Addas embraces Islam"
+    },
+    {
+     "id": "c",
+     "text": "He sets out for Taif"
+    },
+    {
+     "id": "d",
+     "text": "Stones are thrown at him"
+    },
+    {
+     "id": "e",
+     "text": "He takes refuge in an orchard"
+    }
+   ],
+   "explain": "He set out for Taif, was stoned, took refuge in an orchard, Addas embraced Islam, and finally he was protected by Mut'im."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Taif"
+    },
+    {
+     "id": "b",
+     "text": "Nineveh"
+    },
+    {
+     "id": "c",
+     "text": "Jinn"
+    },
+    {
+     "id": "d",
+     "text": "Protection (jiwar)"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A guarantee of safety from a protector"
+    },
+    {
+     "id": "2",
+     "text": "A city in Iraq, home of Prophet Yunus"
+    },
+    {
+     "id": "3",
+     "text": "Beings of another realm"
+    },
+    {
+     "id": "4",
+     "text": "A cool high city"
+    }
+   ],
+   "explain": "Taif is a cool high city, Nineveh was the city of Prophet Yunus, jinn are beings of another realm, and jiwar is a guarantee of safety."
+  },
+  {
+   "id": "q12",
+   "q": "You have lost the two people you relied on most, but there is still work to do. What example does the Prophet SAW give?",
+   "options": [
+    "Stop for good",
+    "Keep striving despite accusation and loss",
+    "Blame others",
+    "Avoid everyone"
+   ],
+   "explain": "The Prophet SAW kept striving though blamed and having lost his two pillars."
+  }
+ ]
+}
