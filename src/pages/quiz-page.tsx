@@ -7,7 +7,7 @@ import { BrandLink } from '@/components/brand'
 import { LanguageSwitch } from '@/components/language-switch'
 import { ThemeToggle } from '@/components/theme'
 import { QuizRunner } from '@/components/quiz/quiz-runner'
-import { SiteFooter } from '@/components/site-footer'
+import { CompactFooter } from '@/components/site-footer'
 import { epPath, loadIndex } from '@/lib/data'
 import { useT } from '@/lib/i18n'
 import { loadQuiz, loadSeriesPool, SERIES_QUESTIONS, toItems, type Item } from '@/lib/quiz'
@@ -85,7 +85,7 @@ export function QuizPage() {
           />
         )}
       </main>
-      <SiteFooter />
+      <CompactFooter />
     </div>
   )
 }

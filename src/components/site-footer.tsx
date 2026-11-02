@@ -3,6 +3,23 @@ import { Button } from '@/components/ui/button'
 import { QURANSLIDE_URL, REPO_URL } from '@/config'
 import { useT } from '@/lib/i18n'
 
+/** One quiet line for pages that are about a task, such as the quiz: the two outbound links only. */
+export function CompactFooter() {
+  const { t } = useT()
+  return (
+    <footer className="border-t">
+      <div className="mx-auto flex max-w-xl flex-wrap items-center justify-center gap-x-5 gap-y-1 px-4 py-3 text-xs text-muted-foreground">
+        <a href={QURANSLIDE_URL} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 hover:text-foreground">
+          <Presentation className="size-3.5" aria-hidden /> {t('qs.cta')} <ArrowUpRight className="size-3" aria-hidden />
+        </a>
+        <a href={REPO_URL} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 hover:text-foreground">
+          <Github className="size-3.5" aria-hidden /> {t('footer.source')}
+        </a>
+      </div>
+    </footer>
+  )
+}
+
 export function SiteFooter() {
   const { t } = useT()
   return (
