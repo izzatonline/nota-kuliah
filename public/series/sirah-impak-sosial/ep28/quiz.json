@@ -1,0 +1,222 @@
+{
+ "id": "ep28",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Mengapakah Quraish membiarkan Nabi SAW selama 40 tahun tetapi mula menentang kemudian?",
+   "options": [
+    "Kerana baginda mula mencabar sistem, bukan hanya ritual",
+    "Kerana baginda berhijrah",
+    "Kerana baginda kaya",
+    "Kerana baginda berperang"
+   ],
+   "answer": 0,
+   "explain": "Kritik sistem, bukan hanya ritual.",
+   "t": 474,
+   "source": "lessons:l2",
+   "level": 2
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Berapa peratus yang teguh mencukupi untuk perubahan menurut kuliah ini?",
+   "options": [
+    "Kira-kira dua peratus",
+    "Sembilan puluh peratus",
+    "Lima puluh peratus",
+    "Semua orang"
+   ],
+   "answer": 0,
+   "explain": "Perubahan boleh berlaku dengan kira-kira dua peratus yang sanggup berkorban.",
+   "t": 647,
+   "source": "lessons:l4",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah maksud mudzammam, panggilan Ummu Jamil kepada Muhammad?",
+   "options": [
+    "Yang terpuji",
+    "Yang jujur",
+    "Yang kuat",
+    "Yang dicela"
+   ],
+   "answer": 3,
+   "explain": "Muhammad bermaksud terpuji; mudzammam ialah ejekan.",
+   "t": 3169,
+   "source": "glossary:g6",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah pesanan tentang kemerdekaan jiwa dan identiti?",
+   "options": [
+    "Menilai diri mengikut penjajah",
+    "Meniru sepenuhnya",
+    "Bangga dengan bahasa, makanan dan budaya sendiri",
+    "Tolak semua budaya sendiri"
+   ],
+   "answer": 2,
+   "explain": "Jangan menilai diri berdasarkan penjajah.",
+   "t": 1032,
+   "source": "lessons:l5",
+   "level": 2
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah yang dilakukan para sahabat sebagai tanda rindu kepada Nabi SAW?",
+   "options": [
+    "Berkumpul di satu tempat",
+    "Menyebar ke seluruh dunia, bukan hanya menangis di makam",
+    "Hanya menangis di makam",
+    "Berhenti beramal"
+   ],
+   "answer": 1,
+   "explain": "Rindu Nabi SAW perlu dengan tindakan.",
+   "t": 551,
+   "source": "lessons:l3",
+   "level": 2
+  },
+  {
+   "id": "q6",
+   "type": "tf",
+   "q": "Membela etnik sendiri sentiasa salah dalam Islam.",
+   "answer": false,
+   "explain": "Salah. Membela tidak salah, tetapi memandang hina dan menimbulkan permusuhan ialah jahili.",
+   "t": 1395,
+   "source": "lessons:l6",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Riba melebarkan jurang antara kaya dan miskin, berbeza dengan zakat yang menutupnya.",
+   "answer": true,
+   "explain": "Betul. Riba memiskinkan secara sistemik.",
+   "t": 2488,
+   "source": "lessons:l8",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Matahari di tangan kanan"
+    },
+    {
+     "id": "b",
+     "text": "Najis dan duri diletakkan"
+    },
+    {
+     "id": "c",
+     "text": "Nabi SAW menyeru Qulu La ilaha illallah"
+    },
+    {
+     "id": "d",
+     "text": "Majlis elit menuntut baginda dihentikan"
+    },
+    {
+     "id": "e",
+     "text": "Uthman, Abu Bakar dan Talhah diikat"
+    }
+   ],
+   "answer": [
+    "c",
+    "b",
+    "e",
+    "d",
+    "a"
+   ],
+   "explain": "Menyeru, najis dan duri, sahabat diikat, majlis elit menuntut, lalu jawapan matahari di tangan kanan.",
+   "t": 2829,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q9",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Muhaddithat"
+    },
+    {
+     "id": "b",
+     "text": "Maritime Silk Road"
+    },
+    {
+     "id": "c",
+     "text": "Riba"
+    },
+    {
+     "id": "d",
+     "text": "Al-Ma'un"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Wanita periwayat hadis"
+    },
+    {
+     "id": "2",
+     "text": "Bantuan kecil yang dihalang oleh orang kedekut"
+    },
+    {
+     "id": "3",
+     "text": "Faedah yang memperlebar jurang kaya dan miskin"
+    },
+    {
+     "id": "4",
+     "text": "Laluan sutera laut dari timur ke Arab"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "1"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "3"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Muhaddithat wanita periwayat hadis, Maritime Silk Road laluan laut, riba memperlebar jurang, dan Al-Ma'un bantuan kecil.",
+   "t": 329,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "mcq",
+   "q": "Anda melihat kemiskinan di sekeliling. Apakah teladan Nabi SAW?",
+   "options": [
+    "Menunggu struktur berubah",
+    "Tidak peduli",
+    "Menyalahkan si miskin",
+    "Membantu dahulu sambil mencabar struktur"
+   ],
+   "answer": 3,
+   "explain": "Jangan menunggu struktur selesai sebelum membantu.",
+   "t": 2286,
+   "source": "lessons:l9",
+   "level": 3
+  }
+ ]
+}
