@@ -485,7 +485,8 @@
    "duration": 4865,
    "views": 33000,
    "hasNotes": true,
-   "notesAddedAt": "2026-10-30T02:15:30"
+   "notesAddedAt": "2026-10-30T02:15:30",
+   "hasQuiz": true
   },
   {
    "id": "ep39",
@@ -496,7 +497,8 @@
    "duration": 5104,
    "views": 31000,
    "hasNotes": true,
-   "notesAddedAt": "2026-10-30T02:19:59"
+   "notesAddedAt": "2026-10-30T02:19:59",
+   "hasQuiz": true
   },
   {
    "id": "ep40",
@@ -507,7 +509,8 @@
    "duration": 4426,
    "views": 64000,
    "hasNotes": true,
-   "notesAddedAt": "2026-10-29T01:07:39"
+   "notesAddedAt": "2026-10-29T01:07:39",
+   "hasQuiz": true
   },
   {
    "id": "ep41",
@@ -518,7 +521,8 @@
    "duration": 4711,
    "views": 39000,
    "hasNotes": true,
-   "notesAddedAt": "2026-10-28"
+   "notesAddedAt": "2026-10-28",
+   "hasQuiz": true
   },
   {
    "id": "ep42",

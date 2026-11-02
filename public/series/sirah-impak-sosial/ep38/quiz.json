@@ -1,0 +1,200 @@
+{
+ "id": "ep38",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah akibat menolak peristiwa Isra'?",
+   "options": [
+    "Menolak ayat Al-Quran yang menyebutnya",
+    "Tiada apa-apa",
+    "Menerima hadis lebih kuat",
+    "Menjadi lebih yakin"
+   ],
+   "answer": 0,
+   "explain": "Isra' disebut dalam Al-Isra' 17:1, maka menolaknya menolak ayat Allah.",
+   "t": 299,
+   "source": "lessons:l2",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Dengan konteks manakah peristiwa Isra' Mi'raj perlu difahami?",
+   "options": [
+    "Konteks teks, konteks hidup Nabi SAW dan Baitul Maqdis",
+    "Hanya konteks sains",
+    "Tiada konteks",
+    "Hanya konteks politik"
+   ],
+   "answer": 0,
+   "explain": "Tiga konteks membantu memahami peristiwa ini.",
+   "t": 346,
+   "source": "lessons:l3",
+   "level": 2
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah maksud Subhanallah menurut kuliah ini?",
+   "options": [
+    "Memuji manusia",
+    "Sekadar terkejut",
+    "Nama sebuah masjid",
+    "Menyucikan Allah dan mengakui akal tidak menjangkau hakikat"
+   ],
+   "answer": 3,
+   "explain": "Akal tidak menjangkau hakikat, maka bertasbih.",
+   "t": 1875,
+   "source": "lessons:l5",
+   "level": 2
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah keajaiban peristiwa Isra' Mi'raj menurut kuliah ini?",
+   "options": [
+    "Ia hanya khayalan",
+    "Ia cerita rekaan",
+    "Ia dialami jasad dan roh, dan bukan mimpi",
+    "Ia hanya mimpi"
+   ],
+   "answer": 2,
+   "explain": "Perjalanan dengan jasad dan roh.",
+   "t": 1889,
+   "source": "lessons:l6",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah yang dipilih Nabi SAW antara susu dan arak?",
+   "options": [
+    "Tiada satu pun",
+    "Susu yang bersih, menguatkan dan menyegarkan",
+    "Arak",
+    "Kedua-duanya"
+   ],
+   "answer": 1,
+   "explain": "Pilih yang suci dan menjernihkan.",
+   "t": 2687,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah hubungan solat dengan mi'raj bagi kita?",
+   "options": [
+    "Solat tiada kaitan",
+    "Kita menunggu Buraq",
+    "Solat diganti zikir",
+    "Solat ialah mi'raj kita"
+   ],
+   "answer": 3,
+   "explain": "Kita boleh mi'raj ketika solat, ibadah yang Allah bawa terus kepada Nabi SAW.",
+   "t": 4180,
+   "source": "lessons:l14",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Semua riwayat tentang Isra' Mi'raj dapat disusun dengan sempurna menjadi satu urutan.",
+   "answer": false,
+   "explain": "Salah. Para sahabat menceritakan bahagian yang mereka ingat, maka bertenanglah.",
+   "t": 1377,
+   "source": "lessons:l4",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Semua nabi membawa risalah yang sama dan bersolat dengan rukuk dan sujud.",
+   "answer": true,
+   "explain": "Betul. Keseragaman risalah para nabi.",
+   "t": 4244,
+   "source": "lessons:l9",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Isra'"
+    },
+    {
+     "id": "b",
+     "text": "Mi'raj"
+    },
+    {
+     "id": "c",
+     "text": "Baitul Maqdis"
+    },
+    {
+     "id": "d",
+     "text": "Hijr Ismail"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Kenaikan ke langit"
+    },
+    {
+     "id": "2",
+     "text": "Perjalanan malam dari Masjidil Haram ke Masjidil Aqsa"
+    },
+    {
+     "id": "3",
+     "text": "Kawasan separuh bulatan di sisi Kaabah"
+    },
+    {
+     "id": "4",
+     "text": "Kawasan di Palestin tempat Masjid Al-Aqsa"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "2"
+    ],
+    [
+     "b",
+     "1"
+    ],
+    [
+     "c",
+     "4"
+    ],
+    [
+     "d",
+     "3"
+    ]
+   ],
+   "explain": "Isra' perjalanan malam, mi'raj kenaikan, Baitul Maqdis kawasan Al-Aqsa, dan Hijr Ismail separuh bulatan di sisi Kaabah.",
+   "t": 267,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "mcq",
+   "q": "Solat yang diautopilot atau dilengahkan menunjukkan apa?",
+   "options": [
+    "Kita sudah sempurna",
+    "Solat tidak perlu",
+    "Krisis terbesar ialah hubungan dengan Allah terputus",
+    "Tiada apa-apa"
+   ],
+   "answer": 2,
+   "explain": "Hidupkan solat dan perbaiki hubungan dengan Allah.",
+   "t": 4688,
+   "source": "lessons:l15",
+   "level": 3
+  }
+ ]
+}
