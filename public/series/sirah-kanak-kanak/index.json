@@ -199,7 +199,8 @@
    "duration": 2082,
    "views": 8200,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:04:19"
+   "notesAddedAt": "2026-11-02T00:04:19",
+   "hasQuiz": true
   },
   {
    "id": "ep17",
@@ -210,7 +211,8 @@
    "duration": 2219,
    "views": 7600,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:07:38"
+   "notesAddedAt": "2026-11-02T00:07:38",
+   "hasQuiz": true
   },
   {
    "id": "ep18",
@@ -221,7 +223,8 @@
    "duration": 1784,
    "views": 7800,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:09:40"
+   "notesAddedAt": "2026-11-02T00:09:40",
+   "hasQuiz": true
   },
   {
    "id": "ep19",
