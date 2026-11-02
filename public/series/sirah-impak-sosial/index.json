@@ -210,7 +210,8 @@
    "duration": 2468,
    "views": 25000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T00:58:17"
+   "notesAddedAt": "2026-11-01T00:58:17",
+   "hasQuiz": true
   },
   {
    "id": "ep17",
@@ -221,7 +222,8 @@
    "duration": 2557,
    "views": 31000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T01:01:55"
+   "notesAddedAt": "2026-11-01T01:01:55",
+   "hasQuiz": true
   },
   {
    "id": "prolog-t53UBNhT4AE",
@@ -243,7 +245,8 @@
    "duration": 4087,
    "views": 30000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T01:15:24"
+   "notesAddedAt": "2026-11-01T01:15:24",
+   "hasQuiz": true
   },
   {
    "id": "ep19",

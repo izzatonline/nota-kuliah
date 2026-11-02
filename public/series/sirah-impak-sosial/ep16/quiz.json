@@ -1,0 +1,238 @@
+{
+ "id": "ep16",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Wang daripada sumber manakah yang ditolak Quraish untuk membina Kaabah?",
+   "options": [
+    "Pelacuran, judi, riba dan curi",
+    "Perdagangan halal",
+    "Sedekah",
+    "Hasil pertanian"
+   ],
+   "answer": 0,
+   "explain": "Quraish menolak dana haram. Pembinaan perlu dana suci.",
+   "t": 809,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah yang dibeli daripada kapal Rom yang terkandas di Jeddah?",
+   "options": [
+    "Batu, kayu dan arkitek Bakum",
+    "Senjata",
+    "Hamba",
+    "Berhala"
+   ],
+   "answer": 0,
+   "explain": "Kapal untuk gereja terkandas lalu bahannya digunakan untuk Kaabah.",
+   "t": 962,
+   "source": "events:e3",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Mengapakah projek perobohan Kaabah akhirnya dimulakan oleh Al-Walid?",
+   "options": [
+    "Kerana Abu Talib menyuruh",
+    "Kerana banjir lagi",
+    "Kerana perang",
+    "Selepas tiada azab pada malam itu"
+   ],
+   "answer": 3,
+   "explain": "Orang lain menunggu sehari sebelum meneruskan.",
+   "t": 1213,
+   "source": "events:e4",
+   "level": 2
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah perubahan pada bentuk Kaabah selepas pembinaan Quraish?",
+   "options": [
+    "Dipindahkan ke Taif",
+    "Dihias berhala baharu",
+    "Dikecilkan, diberi bumbung dan pintunya ditinggikan",
+    "Dibesarkan tanpa bumbung"
+   ],
+   "answer": 2,
+   "explain": "Hijr Ismail diasingkan, Kaabah diberi bumbung dan pintu ditinggikan.",
+   "t": 2122,
+   "source": "events:e7",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah Multazam?",
+   "options": [
+    "Nama arkitek",
+    "Kawasan antara Hajar Aswad dan pintu Kaabah, tempat mustajab berdoa",
+    "Sebuah berhala",
+    "Pasar di Mekah"
+   ],
+   "answer": 1,
+   "explain": "Multazam ialah tempat mustajab berdoa.",
+   "t": 2309,
+   "source": "glossary:g4",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah pesanan ustaz tentang mencium Hajar Aswad?",
+   "options": [
+    "Mesti berasak sehingga sampai",
+    "Hajar Aswad boleh disembah",
+    "Jangan melihatnya",
+    "Tidak perlu berasak atau menyakiti orang lain, boleh menunjuk dengan tangan"
+   ],
+   "answer": 3,
+   "explain": "Hajar Aswad hanyalah batu.",
+   "t": 1958,
+   "source": "lessons:l8",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Setiap kabilah memegang penjuru kain dan Nabi SAW meletakkan Hajar Aswad.",
+   "answer": true,
+   "explain": "Betul. Penyelesaian yang inklusif tanpa sesiapa terkeluar.",
+   "t": 1578,
+   "source": "events:e6",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Ruang dalam Kaabah dipenuhi berhala.",
+   "answer": false,
+   "explain": "Salah. Ruang dalam Kaabah kosong dengan tiang sahaja.",
+   "t": 2379,
+   "source": "lessons:l12",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Nabi SAW menyelesaikan dengan kain"
+    },
+    {
+     "id": "b",
+     "text": "Dana suci dikumpul"
+    },
+    {
+     "id": "c",
+     "text": "Al-Walid memulakan perobohan"
+    },
+    {
+     "id": "d",
+     "text": "Kaabah rapuh dan dicuri"
+    },
+    {
+     "id": "e",
+     "text": "Perebutan Hajar Aswad"
+    }
+   ],
+   "answer": [
+    "d",
+    "b",
+    "c",
+    "e",
+    "a"
+   ],
+   "explain": "Kaabah rapuh, dana suci dikumpul, Al-Walid memulakan, perebutan berlaku, dan Nabi SAW menyelesaikan dengan kain.",
+   "t": 741,
+   "source": "events:e1",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Qadbatara"
+    },
+    {
+     "id": "b",
+     "text": "Restoration"
+    },
+    {
+     "id": "c",
+     "text": "Al-Amin"
+    },
+    {
+     "id": "d",
+     "text": "Hijr Ismail"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Pemuliharaan, bukan roboh dan bina balik"
+    },
+    {
+     "id": "2",
+     "text": "Yang paling dipercayai"
+    },
+    {
+     "id": "3",
+     "text": "Ungkapan telah terputus"
+    },
+    {
+     "id": "4",
+     "text": "Kawasan berpagar separuh bulat di sisi Kaabah"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "1"
+    ],
+    [
+     "c",
+     "2"
+    ],
+    [
+     "d",
+     "4"
+    ]
+   ],
+   "explain": "Qadbatara ungkapan terputus, restoration pemuliharaan, Al-Amin yang paling dipercayai, dan Hijr Ismail kawasan separuh bulat.",
+   "t": 351,
+   "source": "glossary:g6",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "mcq",
+   "q": "Anda perlu menyelesaikan perebutan antara beberapa kumpulan. Apakah teladan daripada Nabi SAW?",
+   "options": [
+    "Membiarkan mereka bergaduh",
+    "Menunda selama-lamanya",
+    "Penyelesaian yang melibatkan semua pihak",
+    "Memilih satu kumpulan sahaja"
+   ],
+   "answer": 2,
+   "explain": "Dengan kain, setiap kabilah turut serta.",
+   "t": 1578,
+   "source": "lessons:l7",
+   "level": 3
+  }
+ ]
+}
