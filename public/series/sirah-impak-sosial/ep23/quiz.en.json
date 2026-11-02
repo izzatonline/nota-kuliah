@@ -1,0 +1,149 @@
+{
+ "id": "ep23",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "How old was Al-Arqam bin Abi Al-Arqam when his house became the headquarters?",
+   "options": [
+    "13 to 16",
+    "30",
+    "50",
+    "5"
+   ],
+   "explain": "His house was sheltered in the Banu Makhzum area."
+  },
+  {
+   "id": "q2",
+   "q": "Who taught the Quran to Fatimah bint Al-Khattab and Said?",
+   "options": [
+    "Khabbab bin Al-Arat",
+    "Bilal",
+    "Suhaib",
+    "Abdullah bin Mas'ud"
+   ],
+   "explain": "Khabbab taught them as part of a group of mentors."
+  },
+  {
+   "id": "q3",
+   "q": "What was the Prophet's SAW instruction to the companions in the early phase about answering wrongdoing?",
+   "options": [
+    "Retaliate at once",
+    "Move to Sham",
+    "Stay silent forever",
+    "Be patient and do not retaliate physically"
+   ],
+   "explain": "Even with strength, the companions were not allowed to retaliate."
+  },
+  {
+   "id": "q4",
+   "q": "What was the focus of the 13 years in Makkah?",
+   "options": [
+    "Warfare",
+    "Trade",
+    "Tawhid, Paradise, Hell, character and justice",
+    "Detailed legal rulings"
+   ],
+   "explain": "Build the foundation of faith before the rulings."
+  },
+  {
+   "id": "q5",
+   "q": "What is social capital?",
+   "options": [
+    "Weapons",
+    "Relationships and mentors that help people grow",
+    "Cash",
+    "Land"
+   ],
+   "explain": "A mentor who invests in a relationship can change a life."
+  },
+  {
+   "id": "q6",
+   "q": "What did the Prophet SAW build in his companions more than talent?",
+   "options": [
+    "Wealth",
+    "Rank",
+    "Lineage",
+    "Character"
+   ],
+   "explain": "He also made use of each one's strengths."
+  },
+  {
+   "id": "q7",
+   "q": "The early followers came from only one class and one tribe.",
+   "explain": "False. They came from many statuses, tribes and nations."
+  },
+  {
+   "id": "q8",
+   "q": "Change happens gradually, from the individual up to the state.",
+   "explain": "True. A gradual process is a universal law."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Dar al-Arqam is chosen"
+    },
+    {
+     "id": "b",
+     "text": "Abu Bakr brings five key companions"
+    },
+    {
+     "id": "c",
+     "text": "Sa'd strikes a polytheist"
+    },
+    {
+     "id": "d",
+     "text": "The Yemeni man is asked to go home and wait"
+    },
+    {
+     "id": "e",
+     "text": "A group of mentors teach"
+    }
+   ],
+   "explain": "Abu Bakr brought five companions, the Yemeni was asked to wait, mentors taught, Sa'd struck, and Dar al-Arqam was chosen."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Da'wah fardiyyah"
+    },
+    {
+     "id": "b",
+     "text": "Silent believer"
+    },
+    {
+     "id": "c",
+     "text": "Tawakkul"
+    },
+    {
+     "id": "d",
+     "text": "Dar al-Arqam"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Relying wholly on Allah"
+    },
+    {
+     "id": "2",
+     "text": "The headquarters house and first school of Islam"
+    },
+    {
+     "id": "3",
+     "text": "Individual da'wah"
+    },
+    {
+     "id": "4",
+     "text": "One who embraced Islam but does not register or show it"
+    }
+   ],
+   "explain": "Da'wah fardiyyah is individual da'wah, a silent believer does not show it, tawakkul is reliance on Allah, and Dar al-Arqam was the headquarters."
+  }
+ ]
+}
