@@ -1,0 +1,169 @@
+{
+ "id": "ep36",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah nasihat tentang mempelajari doa untuk resah dan sedih yang diajar Nabi SAW?",
+   "options": [
+    "Pelajari dan hafal doa ini kerana Nabi SAW menyuruh",
+    "Tidak perlu dipelajari",
+    "Hanya untuk ulama",
+    "Hanya dibaca sekali"
+   ],
+   "answer": 0,
+   "explain": "Sahabat bertanya sama ada perlu mempelajarinya dan baginda menyuruh.",
+   "t": 417,
+   "source": "lessons:l1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Kepada siapakah kita patut meluahkan kesedihan terus?",
+   "options": [
+    "Allah, dan tidak salah berkongsi dengan kawan",
+    "Tiada siapa",
+    "Media sosial semata-mata",
+    "Orang yang tidak dikenali"
+   ],
+   "answer": 0,
+   "explain": "Mencari pendengar yang boleh meminjamkan telinga itu tidak salah.",
+   "t": 673,
+   "source": "lessons:l2",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah yang dilakukan syaitan ketika kita ditimpa musibah?",
+   "options": [
+    "Menjauhi kita",
+    "Menolong kita",
+    "Tidak berbuat apa-apa",
+    "Bekerja lebih masa menanam keputusasaan dan tuduhan terhadap takdir"
+   ],
+   "answer": 3,
+   "explain": "Waspada ketika sedih: syaitan paling aktif.",
+   "t": 1130,
+   "source": "lessons:l5",
+   "level": 2
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah adab doa yang disebut dalam kuliah ini?",
+   "options": [
+    "Menuntut",
+    "Tidak berdoa",
+    "Tundukkan diri dahulu sebelum meminta",
+    "Meminta dengan sombong"
+   ],
+   "answer": 2,
+   "explain": "Meminta dengan sombong lalu berkata Tuhan tidak mendengar bukan adab doa.",
+   "t": 1368,
+   "source": "lessons:l6",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Siapakah yang menentukan nama-nama Allah?",
+   "options": [
+    "Para raja",
+    "Allah sendiri, kita tidak menambah",
+    "Ulama sahaja",
+    "Sesiapa yang mahu"
+   ],
+   "answer": 1,
+   "explain": "Kita hanya menamakan Allah dengan nama yang Allah sendiri namakan.",
+   "t": 1450,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah beza huzn dan ham?",
+   "options": [
+    "Huzn untuk lelaki, ham untuk wanita",
+    "Tiada beza",
+    "Huzn ialah gembira",
+    "Huzn sedih pada yang telah berlaku, ham resah tentang yang akan datang"
+   ],
+   "answer": 3,
+   "explain": "Bezakan huzn dan ham.",
+   "t": 1950,
+   "source": "lessons:l9",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Apakah pengajaran apabila Nabi SAW bertanya mengapa Abu Umamah duduk di masjid?",
+   "options": [
+    "Tinggalkan masjid selama-lamanya",
+    "Tidak berdoa",
+    "Berdoa tetapi juga bangkit, jangan berserah tanpa usaha",
+    "Duduk sahaja"
+   ],
+   "answer": 2,
+   "explain": "Doa mesti disertai usaha.",
+   "t": 2273,
+   "source": "lessons:l10",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "mcq",
+   "q": "Apakah yang patut kita lakukan apabila melihat seseorang kelihatan tidak seperti biasa?",
+   "options": [
+    "Menyebarkan",
+    "Peka dan bertanya, seperti Nabi SAW",
+    "Mengabaikan",
+    "Mengejek"
+   ],
+   "answer": 1,
+   "explain": "Nabi SAW melihat dan bertanya apabila nampak sahabat tidak seperti biasa.",
+   "t": 2227,
+   "source": "lessons:l11",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "mcq",
+   "q": "Mengapakah media sosial menyukarkan kita bersyukur?",
+   "options": [
+    "Kerana ia mahal",
+    "Kerana ia sunyi",
+    "Kerana ia tidak wujud",
+    "Kerana kita sentiasa melihat orang yang lebih senang"
+   ],
+   "answer": 3,
+   "explain": "Lihat orang yang lebih susah dalam urusan dunia.",
+   "t": 2764,
+   "source": "lessons:l12",
+   "level": 3
+  },
+  {
+   "id": "q10",
+   "type": "tf",
+   "q": "Ujian menundukkan hati dan mengingatkan kita bahawa kita hamba.",
+   "answer": true,
+   "explain": "Betul. Apabila merasa berkuasa lalu semuanya hilang, kita diingatkan.",
+   "t": 777,
+   "source": "lessons:l3",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "tf",
+   "q": "Quran ialah penawar, tetapi perlu didoakan agar menyentuh hati.",
+   "answer": true,
+   "explain": "Betul. Membaca tanpa doa ini mungkin tidak menyentuh hati.",
+   "t": 1698,
+   "source": "lessons:l8",
+   "level": 1
+  }
+ ]
+}
