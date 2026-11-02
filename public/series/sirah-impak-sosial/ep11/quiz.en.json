@@ -1,0 +1,144 @@
+{
+ "id": "ep11",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What work did every prophet do according to the hadith?",
+   "options": [
+    "Tending sheep",
+    "Trading",
+    "Farming rice",
+    "Carpentry"
+   ],
+   "explain": "No prophet was sent except that he tended sheep."
+  },
+  {
+   "id": "q2",
+   "q": "Where did the Prophet SAW say he used to tend sheep?",
+   "options": [
+    "Ajyad",
+    "Sham",
+    "Taif",
+    "Yathrib"
+   ],
+   "explain": "He said he tended sheep at Ajyad, an area still known today."
+  },
+  {
+   "id": "q3",
+   "q": "Why did the Prophet SAW work as a shepherd?",
+   "options": [
+    "Because there was no other work in Makkah",
+    "Because he wanted to become rich",
+    "Because Al-Abbas told him to",
+    "To help Abu Talib, who was struggling and poor"
+   ],
+   "explain": "He earned a living by his own hard work because Abu Talib's family was struggling."
+  },
+  {
+   "id": "q4",
+   "q": "What does ra'in mean?",
+   "options": [
+    "A traveller",
+    "A painter",
+    "A shepherd, one responsible for his flock",
+    "A trader"
+   ],
+   "explain": "This includes leaders and heads of families."
+  },
+  {
+   "id": "q5",
+   "q": "What does mas'ul mean?",
+   "options": [
+    "The oldest person",
+    "One who is responsible and will be questioned",
+    "A special and noble person",
+    "The wealthiest person"
+   ],
+   "explain": "Mas'ul is not a term of privilege, but a responsibility that will be questioned."
+  },
+  {
+   "id": "q6",
+   "q": "What did the dirty work of tending sheep cultivate?",
+   "options": [
+    "Arrogance",
+    "Laziness",
+    "Harshness",
+    "Compassion and humility"
+   ],
+   "explain": "This compassion made his followers love him."
+  },
+  {
+   "id": "q7",
+   "q": "What is said about the circadian rhythm and the sunnah?",
+   "options": [
+    "It is unrelated",
+    "Sleeping late is better",
+    "Prayer times and early sleep match the body's biological clock",
+    "It contradicts the sunnah"
+   ],
+   "explain": "Align life with the cycle of the sun."
+  },
+  {
+   "id": "q8",
+   "q": "A shepherd's gentleness means he is weak.",
+   "explain": "False. He must be brave alone and strong, yet gentle."
+  },
+  {
+   "id": "q9",
+   "q": "The Prophet SAW was trained from childhood to earn a living by his own hard work with no dependency mindset.",
+   "explain": "True. Work and do not depend on handouts."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Uzlah"
+    },
+    {
+     "id": "b",
+     "text": "Tadabbur"
+    },
+    {
+     "id": "c",
+     "text": "Minimalist"
+    },
+    {
+     "id": "d",
+     "text": "Mas'ul"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Withdrawing to reflect"
+    },
+    {
+     "id": "2",
+     "text": "Reflecting deeply on the meaning behind words"
+    },
+    {
+     "id": "3",
+     "text": "Living with only what is essential"
+    },
+    {
+     "id": "4",
+     "text": "One responsible who will be questioned"
+    }
+   ],
+   "explain": "Uzlah is withdrawing, tadabbur is deep reflection, minimalism is living with the essential, and mas'ul is the one responsible."
+  },
+  {
+   "id": "q11",
+   "q": "Each of us is a shepherd who will be questioned. What is the right attitude to our responsibility?",
+   "options": [
+    "Avoid responsibility",
+    "Realise our responsibility and begin with ourselves",
+    "Hand it to others",
+    "Only leaders are responsible"
+   ],
+   "explain": "Leadership is a responsibility we will be questioned about."
+  }
+ ]
+}
