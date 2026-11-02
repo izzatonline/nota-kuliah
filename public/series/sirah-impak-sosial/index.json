@@ -78,7 +78,8 @@
    "duration": 2848,
    "views": 39000,
    "hasNotes": true,
-   "notesAddedAt": "2026-10-29T04:27:50"
+   "notesAddedAt": "2026-10-29T04:27:50",
+   "hasQuiz": true
   },
   {
    "id": "ep6",
@@ -89,7 +90,8 @@
    "duration": 2240,
    "views": 34000,
    "hasNotes": true,
-   "notesAddedAt": "2026-10-29T21:22:08"
+   "notesAddedAt": "2026-10-29T21:22:08",
+   "hasQuiz": true
   },
   {
    "id": "ep7",
@@ -100,7 +102,8 @@
    "duration": 2452,
    "views": 34000,
    "hasNotes": true,
-   "notesAddedAt": "2026-10-29T21:24:51"
+   "notesAddedAt": "2026-10-29T21:24:51",
+   "hasQuiz": true
   },
   {
    "id": "ep8",
