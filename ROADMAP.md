@@ -12,6 +12,8 @@
 - Pipeline `scripts/pipeline.py`: fetch, transcribe (with loop check), draft notes with Claude, build (quotes become timestamps)
 - Second series, Sirah Kanak-kanak (Ustaz Azlan Shah NK, 28 episodes): all 28 done, each with an English overlay. The landing page, search results and the breadcrumb (series name menu) handle more than one series
 
+- Quizzes: one per episode for every series (77 episodes, each with an English overlay), plus a series quiz with three modes (Campuran, Ikut episod, Cabaran). Scores stay in the browser; `scripts/quiz.py check` validates them against the notes
+
 ## Next
 1. **More episodes.** All 49 episodes of Sirah Impak Sosial now have notes. Sirah Kanak-kanak is complete (28 of 28). Later series: Tadabbur Impak Sosial (4 videos), then picks from Kuliah Khas.
    Reuse hadith already verified in the first series with `scripts/reuse_hadith.py`. Add Sirah Kanak-kanak to `TIMELINE_SERIES` once it has a `timeline.json`.
