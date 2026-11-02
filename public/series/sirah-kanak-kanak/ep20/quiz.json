@@ -1,0 +1,254 @@
+{
+ "id": "ep20",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Bagaimanakah keluarga Uthman bin Affan menyeksanya?",
+   "options": [
+    "Menggulungnya dengan tikar lalu membakarnya",
+    "Mengurungnya di gua",
+    "Menghalaunya ke padang pasir",
+    "Merampas rumahnya"
+   ],
+   "answer": 0,
+   "explain": "Keluarganya menyeksanya supaya meninggalkan Nabi SAW, tetapi beliau tidak meninggalkan baginda.",
+   "t": 262,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Dari manakah asal Suhaib Ar-Rumi?",
+   "options": [
+    "Rom",
+    "Habasyah",
+    "Yaman",
+    "Syam"
+   ],
+   "answer": 0,
+   "explain": "Suhaib ialah sahabat dari Rom yang dipukul hingga tidak sedarkan diri.",
+   "t": 293,
+   "source": "people:p5",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Mengapakah Mus'ab bin Umair terkenal di Mekah?",
+   "options": [
+    "Kerana dia seorang panglima",
+    "Kerana dia seorang hamba",
+    "Kerana dia seorang pendeta",
+    "Kerana pakaian, wangian dan suaranya yang indah"
+   ],
+   "answer": 3,
+   "explain": "Mus'ab ialah pemuda kaya, ibarat influencer di Mekah.",
+   "t": 424,
+   "source": "people:p6",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah yang menarik hati Mus'ab kepada Islam?",
+   "options": [
+    "Hadiah daripada Nabi SAW",
+    "Ketabahan sahabat yang diseksa",
+    "Janji harta",
+    "Paksaan keluarga"
+   ],
+   "answer": 1,
+   "explain": "Mus'ab menyaksikan ketabahan Bilal dan lain-lain, dan hatinya yang bersih menerima kebenaran.",
+   "t": 531,
+   "source": "lessons:l2",
+   "level": 2
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Siapakah yang mengadu kepada ibu Mus'ab bahawa anaknya telah memeluk Islam?",
+   "options": [
+    "Abu Talib",
+    "Uthman bin Talhah",
+    "Suhaib",
+    "Khabbab"
+   ],
+   "answer": 1,
+   "explain": "Uthman bin Talhah melihat Mus'ab solat lalu mengadu kepada ibunya.",
+   "t": 1104,
+   "source": "events:e3",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah yang dilakukan ibu Mus'ab apabila mengetahui anaknya memeluk Islam?",
+   "options": [
+    "Memeluk Islam juga",
+    "Merantai dan mengurungnya dalam bilik kecil",
+    "Menghalaunya terus",
+    "Membawanya ke Syam"
+   ],
+   "answer": 1,
+   "explain": "Mus'ab dirantai dalam bilik kecil dengan makanan sedikit, tetapi dia tidak berpatah balik.",
+   "t": 1200,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Apakah balasan Allah kepada Ummu Anmar yang membakar Khabbab?",
+   "options": [
+    "Dia menjadi kaya",
+    "Tiada apa-apa berlaku",
+    "Dia ditimpa penyakit yang dirawat dengan api",
+    "Dia memeluk Islam"
+   ],
+   "answer": 2,
+   "explain": "Orang yang zalim dibalas Allah.",
+   "t": 893,
+   "source": "lessons:l6",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Nabi SAW menyuruh Mus'ab merahsiakan Islamnya seketika kerana pelbagai ancaman.",
+   "answer": true,
+   "explain": "Betul. Ada hikmah merahsiakan seketika.",
+   "t": 939,
+   "source": "lessons:l4",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Mus'ab sanggup meninggalkan Nabi SAW demi mendapatkan hartanya semula.",
+   "answer": false,
+   "explain": "Salah. Mus'ab menyuruh mereka mengambil semua harta tetapi tidak mahu meninggalkan Nabi SAW.",
+   "t": 1375,
+   "source": "lessons:l5",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Mus'ab dikurung"
+    },
+    {
+     "id": "b",
+     "text": "Uthman digulung dan dibakar"
+    },
+    {
+     "id": "c",
+     "text": "Nabi SAW menjawab Abu Talib"
+    },
+    {
+     "id": "d",
+     "text": "Mus'ab memeluk Islam"
+    },
+    {
+     "id": "e",
+     "text": "Uthman bin Talhah mengadu kepada ibu"
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "e",
+    "a",
+    "c"
+   ],
+   "explain": "Uthman diseksa, Mus'ab memeluk Islam, diadukan, dikurung, dan akhirnya Nabi SAW menjawab Abu Talib.",
+   "t": 262,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Syahid"
+    },
+    {
+     "id": "b",
+     "text": "Khalifah"
+    },
+    {
+     "id": "c",
+     "text": "Tikar mengkuang"
+    },
+    {
+     "id": "d",
+     "text": "Darul Arqam"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Rumah rahsia tempat Nabi SAW mengajar sahabat"
+    },
+    {
+     "id": "2",
+     "text": "Orang yang mati mempertahankan agamanya"
+    },
+    {
+     "id": "3",
+     "text": "Pengganti Nabi SAW memimpin umat"
+    },
+    {
+     "id": "4",
+     "text": "Tikar yang dianyam daripada daun"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "2"
+    ],
+    [
+     "b",
+     "3"
+    ],
+    [
+     "c",
+     "4"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Syahid mati mempertahankan agama, khalifah pengganti Nabi SAW, tikar mengkuang dianyam daripada daun, dan Darul Arqam rumah rahsia.",
+   "t": 119,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Seorang yang kaya dan berpangkat pun diuji. Apakah pengajaran daripada kisah ini?",
+   "options": [
+    "Hanya orang lemah yang diuji",
+    "Bukan hanya yang lemah, orang kaya dan berpangkat pun diuji",
+    "Orang kaya tidak pernah diuji",
+    "Ujian tanda Allah murka"
+   ],
+   "answer": 1,
+   "explain": "Uthman dan Mus'ab ialah orang berpangkat dan kaya yang turut diseksa.",
+   "t": 155,
+   "source": "lessons:l1",
+   "level": 3
+  }
+ ]
+}
