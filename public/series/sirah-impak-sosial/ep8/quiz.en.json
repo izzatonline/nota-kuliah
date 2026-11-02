@@ -1,0 +1,156 @@
+{
+ "id": "ep8",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What does \"slow growth childhood\" mean?",
+   "options": [
+    "A childhood that develops slowly and is not rushed",
+    "A child who is slow to learn",
+    "A slow school",
+    "Stunted physical growth"
+   ],
+   "explain": "Do not rush early education; even in the Prophet's time children were not pushed to write and memorise early."
+  },
+  {
+   "id": "q2",
+   "q": "Who was Shaymaa to the Prophet SAW and how did he recognise her after the conquest of Makkah?",
+   "options": [
+    "His foster sister, by the bite mark on her back",
+    "His wet nurse, by her voice",
+    "A cousin, by her dress",
+    "An uncle, by his ring"
+   ],
+   "explain": "Shaymaa was captured after the conquest of Makkah and recognised by the bite mark on her back."
+  },
+  {
+   "id": "q3",
+   "q": "At what age was Anas bin Malik sent by his mother to serve the Prophet SAW?",
+   "options": [
+    "Two",
+    "Twenty",
+    "Forty",
+    "Ten"
+   ],
+   "explain": "Anas served ten years without ever being scolded harshly."
+  },
+  {
+   "id": "q4",
+   "q": "How much longer did Halimah plead to keep him in the village?",
+   "options": [
+    "Twenty years",
+    "Two hours",
+    "Two years",
+    "Two days"
+   ],
+   "explain": "Halimah saw a child who brought blessing and was mature."
+  },
+  {
+   "id": "q5",
+   "q": "What effect does housework have according to the long-term research the ustaz mentioned?",
+   "options": [
+    "It makes them weak",
+    "Children who do chores are more successful and stable as adults",
+    "It harms their studies",
+    "No effect"
+   ],
+   "explain": "Chores build adult success."
+  },
+  {
+   "id": "q6",
+   "q": "What do children learn through playing with friends?",
+   "options": [
+    "Only running",
+    "Only competing",
+    "Nothing",
+    "Waiting their turn, reading body language and responding"
+   ],
+   "explain": "Play builds emotional and social intelligence."
+  },
+  {
+   "id": "q7",
+   "q": "Parents must act as referee in every quarrel between children.",
+   "explain": "False. Let children settle conflicts themselves so they learn to apologise."
+  },
+  {
+   "id": "q8",
+   "q": "Toys that over-direct play limit a child's imagination.",
+   "explain": "True. Give children room to play freely."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "A new life in Makkah"
+    },
+    {
+     "id": "b",
+     "text": "Halimah pleads for two more years"
+    },
+    {
+     "id": "c",
+     "text": "The Prophet SAW plays in Banu Sa'd"
+    },
+    {
+     "id": "d",
+     "text": "Halimah sends him to Aminah"
+    }
+   ],
+   "explain": "He played in the village, Halimah pleaded, she sent him home, and he began a new life in Makkah."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Chutzpah"
+    },
+    {
+     "id": "b",
+     "text": "Free play"
+    },
+    {
+     "id": "c",
+     "text": "Overprotective"
+    },
+    {
+     "id": "d",
+     "text": "Conflict resolution"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Shielding a child so much they cannot take risks"
+    },
+    {
+     "id": "2",
+     "text": "The skill of settling disputes"
+    },
+    {
+     "id": "3",
+     "text": "Courage and resilience"
+    },
+    {
+     "id": "4",
+     "text": "Open play without adult direction"
+    }
+   ],
+   "explain": "Chutzpah is courage, free play is open play, overprotective means shielding too much, and conflict resolution is the skill of settling disputes."
+  },
+  {
+   "id": "q11",
+   "q": "Your child wants to try something a little risky but safe. What does the ustaz advise?",
+   "options": [
+    "Do it for the child",
+    "Scold the child",
+    "Give room to take risks so the child becomes independent and confident",
+    "Forbid it completely"
+   ],
+   "explain": "Over-protecting causes anxiety and loss of confidence."
+  }
+ ]
+}
