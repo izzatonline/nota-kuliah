@@ -1,0 +1,171 @@
+{
+ "id": "ep35",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What was Al-Lat?",
+   "options": [
+    "The greatest idol of the people of Taif",
+    "A mountain's name",
+    "A market's name",
+    "A leader's name"
+   ],
+   "explain": "It was decked with jewels and gold."
+  },
+  {
+   "id": "q2",
+   "q": "How did the Prophet SAW travel to Taif?",
+   "options": [
+    "On foot about 150 km with Zaid, quietly",
+    "On horseback",
+    "With a large caravan",
+    "By ship"
+   ],
+   "explain": "He went without a mount so as not to be noticed."
+  },
+  {
+   "id": "q3",
+   "q": "Why was Taif chosen as a target of da'wah?",
+   "options": [
+    "It was the nearest",
+    "It had no leaders",
+    "It was already Muslim",
+    "It was an independent political and economic centre"
+   ],
+   "explain": "Choosing da'wah targets strategically."
+  },
+  {
+   "id": "q4",
+   "q": "What does Rabb al-Mustad'afin mean in the Prophet's SAW prayer at Taif?",
+   "options": [
+    "Lord of kings",
+    "Lord of mountains",
+    "Lord of the weak",
+    "Lord of the rich"
+   ],
+   "explain": "A title in his prayer at Taif."
+  },
+  {
+   "id": "q5",
+   "q": "What is the supplication of Dhun-Nun?",
+   "options": [
+    "The traveller's prayer",
+    "The prayer of Prophet Yunus: there is no god but You, glory to You, I was among the wrongdoers",
+    "The prayer for eating",
+    "The prayer for sleeping"
+   ],
+   "explain": "In hardship, pray with the prayer of Prophet Yunus."
+  },
+  {
+   "id": "q6",
+   "q": "What eventually happened to Taif?",
+   "options": [
+    "It was destroyed",
+    "It was abandoned",
+    "It stayed idolatrous",
+    "It became fully Muslim and a place of learning"
+   ],
+   "explain": "Patience in da'wah finally bore fruit."
+  },
+  {
+   "id": "q7",
+   "q": "What hurt more than stones, according to scholars?",
+   "options": [
+    "The heat of the sun",
+    "Hunger",
+    "The replies of the Taif leaders",
+    "The rain"
+   ],
+   "explain": "Words can hurt more than stones."
+  },
+  {
+   "id": "q8",
+   "q": "Guidance depends on a person's closeness to the Prophet SAW.",
+   "explain": "False. Even Abu Talib, who raised him, did not embrace Islam."
+  },
+  {
+   "id": "q9",
+   "q": "In the digital age we too can be stone-throwers when we cancel and bring people down.",
+   "explain": "True. Don't be a stone-thrower in the digital age."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The Thaqif delegation embraces Islam"
+    },
+    {
+     "id": "b",
+     "text": "Stoned until Qarn al-Tha'alib"
+    },
+    {
+     "id": "c",
+     "text": "Walking to Taif"
+    },
+    {
+     "id": "d",
+     "text": "Meeting Addas"
+    },
+    {
+     "id": "e",
+     "text": "Staying ten days and meeting three leaders"
+    }
+   ],
+   "explain": "He walked to Taif, met the leaders, was stoned, met Addas, and eventually Taif embraced Islam."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Aam al-Huzn"
+    },
+    {
+     "id": "b",
+     "text": "Umm abiha"
+    },
+    {
+     "id": "c",
+     "text": "Qawl az-zur"
+    },
+    {
+     "id": "d",
+     "text": "Thaqif"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The tribe of the people of Taif"
+    },
+    {
+     "id": "2",
+     "text": "False and vile speech"
+    },
+    {
+     "id": "3",
+     "text": "Mother of her father, Fatimah's title"
+    },
+    {
+     "id": "4",
+     "text": "The Year of Sorrow"
+    }
+   ],
+   "explain": "Aam al-Huzn is the Year of Sorrow, Umm abiha is Fatimah's title, qawl az-zur is false speech, and Thaqif is Taif's tribe."
+  },
+  {
+   "id": "q12",
+   "q": "The Prophet SAW accepted initial terms such as two prayers a day for new Muslims. What is the lesson?",
+   "options": [
+    "Ignore them",
+    "Make it easy for those new to Islam",
+    "Demand everything at once",
+    "Reject them"
+   ],
+   "explain": "Ease the way for those new to Islam."
+  }
+ ]
+}

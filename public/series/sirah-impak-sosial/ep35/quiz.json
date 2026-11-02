@@ -1,0 +1,254 @@
+{
+ "id": "ep35",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah Al-Lat?",
+   "options": [
+    "Berhala terbesar penduduk Taif",
+    "Nama gunung",
+    "Nama pasar",
+    "Nama pemimpin"
+   ],
+   "answer": 0,
+   "explain": "Berhala itu dihias dengan permata dan emas.",
+   "t": 1288,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Bagaimanakah Nabi SAW menuju Taif?",
+   "options": [
+    "Berjalan kaki kira-kira 150 km bersama Zaid secara senyap",
+    "Menunggang kuda",
+    "Dengan kafilah besar",
+    "Menaiki kapal"
+   ],
+   "answer": 0,
+   "explain": "Keluar tanpa tunggangan supaya tidak disedari.",
+   "t": 1145,
+   "source": "events:e3",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Mengapakah Taif dipilih sebagai sasaran dakwah?",
+   "options": [
+    "Ia paling dekat",
+    "Ia tiada pemimpin",
+    "Ia sudah Islam",
+    "Ia pusat politik dan ekonomi yang berdikari"
+   ],
+   "answer": 3,
+   "explain": "Memilih sasaran dakwah dengan strategi.",
+   "t": 1444,
+   "source": "lessons:l6",
+   "level": 2
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah maksud Rabbul Mustad'afin dalam doa Nabi SAW di Taif?",
+   "options": [
+    "Tuhan raja",
+    "Tuhan gunung",
+    "Tuhan orang-orang yang lemah",
+    "Tuhan orang kaya"
+   ],
+   "answer": 2,
+   "explain": "Gelaran dalam doa baginda di Taif.",
+   "t": 2317,
+   "source": "glossary:g5",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah doa Dzun-Nun?",
+   "options": [
+    "Doa musafir",
+    "Doa Nabi Yunus: tiada tuhan selain Engkau, Maha Suci Engkau, aku antara yang zalim",
+    "Doa makan",
+    "Doa tidur"
+   ],
+   "answer": 1,
+   "explain": "Dalam kesukaran, berdoa dengan doa Nabi Yunus.",
+   "t": 3310,
+   "source": "dalil:q21-87",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah yang berlaku kepada Taif akhirnya?",
+   "options": [
+    "Ia dimusnahkan",
+    "Ia ditinggalkan",
+    "Ia kekal menyembah berhala",
+    "Ia menjadi Muslim sepenuhnya dan tempat ilmu"
+   ],
+   "answer": 3,
+   "explain": "Kesabaran dakwah akhirnya berbuah.",
+   "t": 3730,
+   "source": "lessons:l12",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Apakah yang lebih menyakitkan daripada batu menurut ulama?",
+   "options": [
+    "Panas matahari",
+    "Lapar",
+    "Jawapan pemimpin Taif",
+    "Hujan"
+   ],
+   "answer": 2,
+   "explain": "Kata-kata boleh lebih menyakitkan daripada batu.",
+   "t": 1914,
+   "source": "lessons:l8",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Hidayah bergantung pada kedekatan seseorang dengan Nabi SAW.",
+   "answer": false,
+   "explain": "Salah. Abu Talib yang membesarkan baginda pun tidak memeluk Islam.",
+   "t": 3198,
+   "source": "lessons:l9",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Di zaman digital kita juga boleh menjadi pelontar batu apabila membatalkan dan menjatuhkan orang.",
+   "answer": true,
+   "explain": "Betul. Jangan jadi pelontar batu di zaman digital.",
+   "t": 4019,
+   "source": "lessons:l14",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Delegasi Thaqif memeluk Islam"
+    },
+    {
+     "id": "b",
+     "text": "Dilontar batu hingga Qarn al-Tha'alib"
+    },
+    {
+     "id": "c",
+     "text": "Berjalan kaki ke Taif"
+    },
+    {
+     "id": "d",
+     "text": "Bertemu Addas"
+    },
+    {
+     "id": "e",
+     "text": "Tinggal sepuluh hari dan bertemu tiga pemimpin"
+    }
+   ],
+   "answer": [
+    "c",
+    "e",
+    "b",
+    "d",
+    "a"
+   ],
+   "explain": "Berjalan ke Taif, bertemu pemimpin, dilontar batu, bertemu Addas, dan akhirnya Taif memeluk Islam.",
+   "t": 1145,
+   "source": "events:e3",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Amul Huzn"
+    },
+    {
+     "id": "b",
+     "text": "Ummu abiha"
+    },
+    {
+     "id": "c",
+     "text": "Qaul az-zur"
+    },
+    {
+     "id": "d",
+     "text": "Thaqif"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Kabilah penduduk Taif"
+    },
+    {
+     "id": "2",
+     "text": "Perkataan dusta dan keji"
+    },
+    {
+     "id": "3",
+     "text": "Ibu kepada ayahnya, gelaran Fatimah"
+    },
+    {
+     "id": "4",
+     "text": "Tahun kesedihan"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "3"
+    ],
+    [
+     "c",
+     "2"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Amul Huzn tahun kesedihan, ummu abiha gelaran Fatimah, qaul az-zur perkataan dusta, dan Thaqif kabilah Taif.",
+   "t": 179,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Nabi SAW menerima tawaran awal seperti solat dua waktu bagi yang baru memeluk Islam. Apakah pengajarannya?",
+   "options": [
+    "Abaikan mereka",
+    "Permudahkan orang yang baru memeluk Islam",
+    "Tuntut semuanya segera",
+    "Tolak mereka"
+   ],
+   "answer": 1,
+   "explain": "Permudahkan orang yang baru memeluk Islam.",
+   "t": 4450,
+   "source": "lessons:l15",
+   "level": 3
+  }
+ ]
+}
