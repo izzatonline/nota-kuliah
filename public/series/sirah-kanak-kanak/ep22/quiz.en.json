@@ -1,0 +1,171 @@
+{
+ "id": "ep22",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Why was Al-Walid called Al-Wahid, the single one?",
+   "options": [
+    "Because he alone bore the cost of the Kaaba's covering",
+    "Because he never married",
+    "Because he was an only child",
+    "Because he lived alone"
+   ],
+   "explain": "Al-Walid alone bore the cost of the Kaaba's covering, the decorated cloth over the Kaaba."
+  },
+  {
+   "id": "q2",
+   "q": "What happened when the Prophet SAW recited Surah An-Najm before the Kaaba?",
+   "options": [
+    "Everyone prostrated except Al-Walid",
+    "Everyone ran away",
+    "Nobody listened",
+    "Everyone embraced Islam"
+   ],
+   "explain": "Al-Walid was captivated by the Quran but was arrogant and refused to prostrate."
+  },
+  {
+   "id": "q3",
+   "q": "Who was the blind companion who came to learn the Quran, leading to the revelation of Surah Abasa?",
+   "options": [
+    "Mus'ab bin Umayr",
+    "Abdullah Ibn Umm Maktum",
+    "Khabbab",
+    "Bilal"
+   ],
+   "explain": "Allah told him to give attention to the one who truly wanted to learn."
+  },
+  {
+   "id": "q4",
+   "q": "What label did Al-Walid finally choose for the Prophet SAW?",
+   "options": [
+    "Liar",
+    "Madman",
+    "Sorcerer",
+    "Merchant"
+   ],
+   "explain": "Al-Walid rejected liar and madman, then chose sorcery. The Prophet's own enemies admitted he was neither a liar nor insane."
+  },
+  {
+   "id": "q5",
+   "q": "Why did some companions return from Abyssinia to Makkah?",
+   "options": [
+    "Because Najashi expelled them",
+    "Because of a false report that Makkah had become Muslim",
+    "Because they ran out of food",
+    "Because the Prophet SAW summoned them"
+   ],
+   "explain": "The report was untrue and caused hardship. We must be careful with news."
+  },
+  {
+   "id": "q6",
+   "q": "What did Mus'ab do when his mother offered him wealth to leave the Prophet SAW?",
+   "options": [
+    "He accepted",
+    "He refused and did not leave him",
+    "He lied",
+    "He ran to Sham"
+   ],
+   "explain": "Mus'ab was driven out without wealth wearing patched clothes, but his faith came first."
+  },
+  {
+   "id": "q7",
+   "q": "Where was Abu Bakr beaten by a crowd until he was bruised?",
+   "options": [
+    "In the Arqam house",
+    "In front of the Kaaba",
+    "In Abyssinia",
+    "In Sham"
+   ],
+   "explain": "Abu Bakr was beaten by a crowd in front of the Kaaba."
+  },
+  {
+   "id": "q8",
+   "q": "What title would later be given to Khalid bin Al-Walid?",
+   "options": [
+    "Al-Amin",
+    "As-Sadiq",
+    "Sword of Allah",
+    "Al-Wahid"
+   ],
+   "explain": "Khalid was trained in riding and archery, later embraced Islam and was called the Sword of Allah."
+  },
+  {
+   "id": "q9",
+   "q": "The report that everyone in Makkah had embraced Islam was true.",
+   "explain": "False. The report was false and caused suffering."
+  },
+  {
+   "id": "q10",
+   "q": "The more Abu Jahal forbade people from listening, the more wanted to hear the Prophet SAW.",
+   "explain": "True. Prohibition increased people's interest."
+  },
+  {
+   "id": "q11",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abu Bakr is beaten"
+    },
+    {
+     "id": "b",
+     "text": "Mus'ab is driven out by his mother"
+    },
+    {
+     "id": "c",
+     "text": "Surah An-Najm is recited"
+    },
+    {
+     "id": "d",
+     "text": "Companions return from Abyssinia"
+    },
+    {
+     "id": "e",
+     "text": "Al-Walid searches for a label for him"
+    }
+   ],
+   "explain": "An-Najm was recited, Al-Walid searched for a label, companions returned, Mus'ab was driven out, and Abu Bakr was beaten."
+  },
+  {
+   "id": "q12",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "An-Najm"
+    },
+    {
+     "id": "b",
+     "text": "Al-Wahid"
+    },
+    {
+     "id": "c",
+     "text": "Kaaba covering"
+    },
+    {
+     "id": "d",
+     "text": "Hudaybiyyah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The single one"
+    },
+    {
+     "id": "2",
+     "text": "The star, the 53rd surah"
+    },
+    {
+     "id": "3",
+     "text": "The place the Prophet SAW headed to avoid Khalid"
+    },
+    {
+     "id": "4",
+     "text": "The decorated cloth covering the Kaaba"
+    }
+   ],
+   "explain": "An-Najm means the star, Al-Wahid the single one, the kiswa the cloth covering the Kaaba, and Hudaybiyyah the place where the Prophet SAW avoided Khalid."
+  }
+ ]
+}
