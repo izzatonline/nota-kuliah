@@ -151,7 +151,8 @@
    "duration": 1843,
    "views": 13000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T23:51:05"
+   "notesAddedAt": "2026-11-01T23:51:05",
+   "hasQuiz": true
   },
   {
    "id": "ep13",
@@ -162,7 +163,8 @@
    "duration": 3416,
    "views": 19000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T23:55:41"
+   "notesAddedAt": "2026-11-01T23:55:41",
+   "hasQuiz": true
   },
   {
    "id": "ep14",
