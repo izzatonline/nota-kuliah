@@ -1,0 +1,248 @@
+{
+ "id": "ep6",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Siapakah yang diamanahkan menjaga Nabi SAW selepas Abdul Muttalib wafat?",
+   "options": [
+    "Abu Lahab",
+    "Al-Abbas",
+    "Abu Talib",
+    "Hamzah"
+   ],
+   "answer": 2,
+   "explain": "Seluruh Mekah bersedih apabila Abdul Muttalib wafat, dan baginda diamanahkan kepada Abu Talib.",
+   "t": 459,
+   "source": "events:e1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Bagaimanakah keadaan keluarga Abu Talib?",
+   "options": [
+    "Kaya dan beranak dua",
+    "Miskin dan beranak lima",
+    "Kaya dan beranak lima",
+    "Miskin dan tidak beranak"
+   ],
+   "answer": 1,
+   "explain": "Abu Talib miskin dan beranak lima, tetapi sangat menyayangi Nabi SAW melebihi anak-anaknya sendiri.",
+   "t": 562,
+   "source": "people:p2",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah yang berlaku kepada makanan yang sedikit apabila Nabi SAW makan bersama?",
+   "options": [
+    "Menjadi basi",
+    "Habis sebelum semua makan",
+    "Menjadi cukup untuk semua",
+    "Tidak disentuh sesiapa"
+   ],
+   "answer": 2,
+   "explain": "Itulah barakah: yang sedikit menjadi cukup untuk ramai.",
+   "t": 684,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Pada usia berapakah Nabi SAW mula menggembala kambing?",
+   "options": [
+    "Lima atau enam tahun",
+    "Lapan atau sembilan tahun",
+    "Sebelas tahun",
+    "Tujuh belas tahun"
+   ],
+   "answer": 1,
+   "explain": "Pada usia lapan atau sembilan tahun baginda menggembala untuk orang Mekah dengan upah beberapa sen.",
+   "t": 766,
+   "source": "events:e3",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah yang dipelajari baginda di padang pasir semasa menggembala?",
+   "options": [
+    "Berani menghadapi serigala dan malam, serta hidup sederhana",
+    "Menjadi kaya dengan cepat",
+    "Memimpin tentera",
+    "Berdagang ke Syam"
+   ],
+   "answer": 0,
+   "explain": "Di padang pasir baginda belajar berani dan hidup dengan barang yang sedikit.",
+   "t": 976,
+   "source": "lessons:l7",
+   "level": 2
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah pengajaran daripada Nabi SAW bekerja sebagai penggembala sejak kecil?",
+   "options": [
+    "Kerja kecil itu memalukan",
+    "Kerja bukan aib",
+    "Kanak-kanak tidak patut bekerja",
+    "Hanya orang miskin yang bekerja"
+   ],
+   "answer": 1,
+   "explain": "Semua nabi pernah menggembala kambing. Kerja bukan aib walaupun upahnya sedikit.",
+   "t": 766,
+   "source": "lessons:l4",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Ke manakah Nabi SAW merayu supaya dibawa bersama Abu Talib pada usia hampir 12 tahun?",
+   "options": [
+    "Yaman",
+    "Syam",
+    "Madinah",
+    "Taif"
+   ],
+   "answer": 1,
+   "explain": "Baginda merayu supaya dibawa ke Syam bersama Abu Talib.",
+   "t": 1454,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Abdul Muttalib tidak mahu makan tanpa cucunya.",
+   "answer": true,
+   "explain": "Betul. Beliau juga memeluk cucunya erat apabila baginda kembali. Itu contoh kasih datuk kepada cucu.",
+   "t": 388,
+   "source": "lessons:l1",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Semua nabi pernah menjadi penggembala kambing.",
+   "answer": true,
+   "explain": "Betul. Nabi SAW bersabda tiada nabi diutus melainkan dia pernah menggembala kambing.",
+   "t": 800,
+   "source": "dalil:h0",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "tf",
+   "q": "Nabi SAW berebut makanan dan meninggikan suara ketika makan.",
+   "answer": false,
+   "explain": "Salah. Baginda tidak berebut, tidak meninggikan suara dan menunggu orang lain mengambil dahulu.",
+   "t": 641,
+   "source": "lessons:l2",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Baginda merayu untuk ke Syam"
+    },
+    {
+     "id": "b",
+     "text": "Abdul Muttalib wafat"
+    },
+    {
+     "id": "c",
+     "text": "Baginda menggembala kambing"
+    },
+    {
+     "id": "d",
+     "text": "Baginda mencari unta datuknya"
+    },
+    {
+     "id": "e",
+     "text": "Keberkatan di rumah Abu Talib"
+    }
+   ],
+   "answer": [
+    "d",
+    "b",
+    "e",
+    "c",
+    "a"
+   ],
+   "explain": "Baginda mencari unta datuknya, datuknya wafat, keberkatan di rumah Abu Talib, kemudian menggembala, dan akhirnya mahu ke Syam.",
+   "t": 293,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q12",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Yatim piatu"
+    },
+    {
+     "id": "b",
+     "text": "Pemurah"
+    },
+    {
+     "id": "c",
+     "text": "Sepupu"
+    },
+    {
+     "id": "d",
+     "text": "Penggembala"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Anak kepada bapa saudara"
+    },
+    {
+     "id": "2",
+     "text": "Orang yang menjaga dan membimbing kambing"
+    },
+    {
+     "id": "3",
+     "text": "Anak yang kehilangan ibu dan ayah"
+    },
+    {
+     "id": "4",
+     "text": "Suka menolong dan memberi makan orang yang susah"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Yatim piatu kehilangan kedua ibu bapa, pemurah suka menolong, sepupu anak bapa saudara, dan penggembala menjaga kambing.",
+   "t": 233,
+   "source": "glossary:g2",
+   "level": 1
+  }
+ ]
+}
