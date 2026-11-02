@@ -1,0 +1,171 @@
+{
+ "id": "ep15",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "At what age was Usamah bin Zaid appointed to lead the Prophet's SAW last expedition?",
+   "options": [
+    "12",
+    "16",
+    "20",
+    "25"
+   ],
+   "explain": "Usamah, son of Zaid and Umm Ayman, was appointed at 16."
+  },
+  {
+   "id": "q2",
+   "q": "Who was the first person to believe in the Prophet SAW?",
+   "options": [
+    "Ali",
+    "Abu Bakr",
+    "Khadijah",
+    "Zaid"
+   ],
+   "explain": "Khadijah was the first to believe and she comforted him."
+  },
+  {
+   "id": "q3",
+   "q": "To whom did Khadijah take the Prophet SAW after the first revelation?",
+   "options": [
+    "Abu Talib",
+    "Waraqah bin Nawfal",
+    "Abu Bakr",
+    "Bahira"
+   ],
+   "explain": "Waraqah was Khadijah's cousin, an expert in earlier scriptures."
+  },
+  {
+   "id": "q4",
+   "q": "What old name for Jibril did Waraqah use?",
+   "options": [
+    "Ar-Ruh",
+    "Rabb",
+    "An-Namus",
+    "Iqra'"
+   ],
+   "explain": "An-Namus is the old name for Jibril who brought revelation to the prophets."
+  },
+  {
+   "id": "q5",
+   "q": "Who was the first child to believe?",
+   "options": [
+    "Talib",
+    "Ali bin Abi Talib",
+    "Zaid",
+    "Ja'far"
+   ],
+   "explain": "Ali lived with the Prophet SAW and Khadijah, saw them pray and joined them."
+  },
+  {
+   "id": "q6",
+   "q": "What did Ali say before embracing Islam?",
+   "options": [
+    "He wanted to ask Abu Talib first",
+    "He did not want to",
+    "He would wait a year",
+    "He wanted to ask Waraqah"
+   ],
+   "explain": "Ali said he needed to ask his father first. We too should ask our parents' permission."
+  },
+  {
+   "id": "q7",
+   "q": "Why did Abu Bakr believe immediately?",
+   "options": [
+    "Because he was afraid",
+    "Because he had known his friend's honesty since childhood",
+    "Because he was given wealth",
+    "Because Abu Talib told him to"
+   ],
+   "explain": "Abu Bakr believed as soon as he was told the Prophet had been appointed, because he knew his honesty."
+  },
+  {
+   "id": "q8",
+   "q": "Abu Talib embraced Islam.",
+   "explain": "False. Abu Talib told Ali to follow the Prophet SAW but did not embrace Islam himself."
+  },
+  {
+   "id": "q9",
+   "q": "Prayer was at first twice a day before it became five times.",
+   "explain": "True. Jibril taught wudu and prayer, twice a day at the start."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Waraqah dies"
+    },
+    {
+     "id": "b",
+     "text": "Abu Bakr believes"
+    },
+    {
+     "id": "c",
+     "text": "He runs home"
+    },
+    {
+     "id": "d",
+     "text": "Ali joins the prayer"
+    },
+    {
+     "id": "e",
+     "text": "He meets Waraqah"
+    }
+   ],
+   "explain": "He ran home, met Waraqah, Waraqah died, Ali joined the prayer and Abu Bakr believed."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Silaturahim"
+    },
+    {
+     "id": "b",
+     "text": "An-Namus"
+    },
+    {
+     "id": "c",
+     "text": "Fortune teller"
+    },
+    {
+     "id": "d",
+     "text": "Wudu"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A diviner who reads palms"
+    },
+    {
+     "id": "2",
+     "text": "Purification before prayer"
+    },
+    {
+     "id": "3",
+     "text": "Family ties from the same womb"
+    },
+    {
+     "id": "4",
+     "text": "The old name for Jibril"
+    }
+   ],
+   "explain": "Silaturahim is family ties, An-Namus is Jibril's old name, a fortune teller is a diviner, and wudu is purification before prayer."
+  },
+  {
+   "id": "q12",
+   "q": "You know something good and want your good friends to join in. What example does Abu Bakr give?",
+   "options": [
+    "Keep it to yourself",
+    "Invite your good friends right away",
+    "Wait until they ask",
+    "Tell them to be quiet"
+   ],
+   "explain": "Abu Bakr promptly invited his good friends to join Islam."
+  }
+ ]
+}
