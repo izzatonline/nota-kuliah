@@ -1,0 +1,167 @@
+{
+ "id": "ep7",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What does having good expectations of Allah mean?",
+   "options": [
+    "Thinking well of Allah's decree and promise, especially in hardship",
+    "Giving up effort",
+    "Fearing the decree",
+    "Asking without conviction"
+   ],
+   "explain": "Halimah took the orphan baby, confident that Allah would open the door of provision."
+  },
+  {
+   "id": "q2",
+   "q": "What did Abu Bakr RA do as a sign of conviction that his prayer would be answered?",
+   "options": [
+    "Bought the best camels for the Hijrah",
+    "Stopped praying",
+    "Just waited",
+    "Sold his camel"
+   ],
+   "explain": "True conviction comes with preparation."
+  },
+  {
+   "id": "q3",
+   "q": "What does the hadith advise about how to pray?",
+   "options": [
+    "Supplicate with a heedless heart",
+    "Supplicate only once",
+    "Do not supplicate",
+    "Supplicate with certainty that the prayer will be answered"
+   ],
+   "explain": "Allah does not accept a supplication from a heedless, unconvinced heart."
+  },
+  {
+   "id": "q4",
+   "q": "What does mustajab mean?",
+   "options": [
+    "The prayer for rain",
+    "A weak hadith",
+    "A supplication that Allah answers",
+    "A supplication that is rejected"
+   ],
+   "explain": "Mustajab is a supplication that is granted."
+  },
+  {
+   "id": "q5",
+   "q": "What is colostrum?",
+   "options": [
+    "Zamzam water",
+    "The first yellow milk, rich in nutrients and antibodies",
+    "Formula milk",
+    "Cow's milk"
+   ],
+   "explain": "Aminah nursed him for a few days and he received her colostrum."
+  },
+  {
+   "id": "q6",
+   "q": "How was Prophet Musa AS returned to his mother?",
+   "options": [
+    "Pharaoh handed him over",
+    "He ran away",
+    "The king of Abyssinia took him",
+    "The baby refused to nurse from anyone except his mother"
+   ],
+   "explain": "Allah fulfilled His promise by returning Musa to his mother."
+  },
+  {
+   "id": "q7",
+   "q": "What is breastfeeding for the child?",
+   "options": [
+    "A burden",
+    "A luxury",
+    "The child's right",
+    "Only the mother's choice"
+   ],
+   "explain": "The ustaz calls for more children to receive their right to exclusive breastfeeding."
+  },
+  {
+   "id": "q8",
+   "q": "A mother's success in breastfeeding depends much on the support of husband, family and community.",
+   "explain": "True. Breastfeeding is not the mother's job alone."
+  },
+  {
+   "id": "q9",
+   "q": "The most expensive milk certainly makes a child smarter.",
+   "explain": "False. Beware of advertisements and misinformation."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Halimah's family prospers"
+    },
+    {
+     "id": "b",
+     "text": "Halimah decides to take the orphan baby"
+    },
+    {
+     "id": "c",
+     "text": "He is nursed exclusively in Banu Sa'd"
+    },
+    {
+     "id": "d",
+     "text": "Aminah and Suwaybah nurse him"
+    }
+   ],
+   "explain": "Aminah and Suwaybah nursed him, Halimah decided, he was nursed in Banu Sa'd, and Halimah's family prospered."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Hadith qudsi"
+    },
+    {
+     "id": "b",
+     "text": "Mustajab"
+    },
+    {
+     "id": "c",
+     "text": "Istisqa prayer"
+    },
+    {
+     "id": "d",
+     "text": "Stunting"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The prayer for rain"
+    },
+    {
+     "id": "2",
+     "text": "Stunted growth due to poor nutrition"
+    },
+    {
+     "id": "3",
+     "text": "A report from Allah in the Prophet's own words"
+    },
+    {
+     "id": "4",
+     "text": "A granted supplication"
+    }
+   ],
+   "explain": "A hadith qudsi is from Allah in the Prophet's words, mustajab is an answered prayer, istisqa is the prayer for rain, and stunting is stunted growth."
+  },
+  {
+   "id": "q12",
+   "q": "You pray but your heart is heedless and unconvinced. What does this lecture advise?",
+   "options": [
+    "Pray faster",
+    "Pray with conviction and bring your heart present",
+    "Carry on as usual",
+    "Stop praying"
+   ],
+   "explain": "Du'a is a dialogue with Allah, so understand what you say and be sure it is heard."
+  }
+ ]
+}
