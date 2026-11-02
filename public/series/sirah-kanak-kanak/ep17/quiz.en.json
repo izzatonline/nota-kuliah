@@ -1,0 +1,147 @@
+{
+ "id": "ep17",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What happened to Ummu Jamil when she looked for the Prophet SAW?",
+   "options": [
+    "She saw him clearly",
+    "Allah veiled her sight from him",
+    "She got lost in the desert",
+    "She fell ill"
+   ],
+   "explain": "Allah protected His Messenger by veiling Ummu Jamil's sight so she could not see him."
+  },
+  {
+   "id": "q2",
+   "q": "Who was the only one at the second feast to say he would follow the Prophet SAW?",
+   "options": [
+    "Hamzah",
+    "Abu Bakar",
+    "Ali",
+    "Abu Talib"
+   ],
+   "explain": "At the second feast everyone was silent, and Ali said he would follow."
+  },
+  {
+   "id": "q3",
+   "q": "On which hill did the Prophet SAW call all of Makkah?",
+   "options": [
+    "Mount Uhud",
+    "Mount Safa",
+    "Jabal Nur",
+    "Mount Marwah"
+   ],
+   "explain": "He called all of Makkah on Mount Safa and Abu Lahab insulted him."
+  },
+  {
+   "id": "q4",
+   "q": "What does As-Sadiq, a title of the Prophet SAW, mean?",
+   "options": [
+    "The ever-truthful",
+    "The strong",
+    "The rich",
+    "The generous"
+   ],
+   "explain": "As-Sadiq means the ever-truthful. His people admitted he never lied."
+  },
+  {
+   "id": "q5",
+   "q": "Why was Abu Lahab called by that name?",
+   "options": [
+    "Because his face was red like a blazing fire",
+    "Because he was good at making fire",
+    "Because he lived near a volcano",
+    "Because he tended the fire"
+   ],
+   "explain": "Abu Lahab means father of the blazing flame, because his face was ruddy."
+  },
+  {
+   "id": "q6",
+   "q": "Who was Surah Al-Masad revealed about?",
+   "options": [
+    "Abu Jahal",
+    "Abu Lahab and his wife",
+    "Abu Talib",
+    "Abraha"
+   ],
+   "explain": "Allah revealed that surah about Abu Lahab and his wife."
+  },
+  {
+   "id": "q7",
+   "q": "What mocking name did Ummu Jamil use for Muhammad?",
+   "options": [
+    "Mudhammam, the reviled",
+    "Muhammad, the praised",
+    "Al-Amin",
+    "As-Sadiq"
+   ],
+   "explain": "Mudhammam means the reviled, Ummu Jamil's mocking name."
+  },
+  {
+   "id": "q8",
+   "q": "What did Sa'd bin Abi Waqqas strike the disturber with who interrupted the prayer?",
+   "options": [
+    "A sword",
+    "A camel bone",
+    "Firewood",
+    "A stone"
+   ],
+   "explain": "Sa'd was the first to shed blood in defence of the religion."
+  },
+  {
+   "id": "q9",
+   "q": "What was the Arqam house used for?",
+   "options": [
+    "A market",
+    "A secret centre for learning and worship",
+    "The home of Abu Lahab",
+    "A warehouse"
+   ],
+   "explain": "That hidden house became the centre where Muslims learned and worshipped."
+  },
+  {
+   "id": "q10",
+   "q": "Abu Lahab's wealth could not save him from punishment.",
+   "explain": "True. Surah Al-Masad says his wealth and what he earned would not benefit him."
+  },
+  {
+   "id": "q11",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Surah Al-Masad is revealed"
+    },
+    {
+     "id": "b",
+     "text": "Only Ali answers at the second feast"
+    },
+    {
+     "id": "c",
+     "text": "Abu Lahab breaks up the first feast"
+    },
+    {
+     "id": "d",
+     "text": "The Arqam house is chosen"
+    },
+    {
+     "id": "e",
+     "text": "The call on Mount Safa"
+    }
+   ],
+   "explain": "The first feast was broken up, Ali answered at the second, the call on Safa came, Al-Masad was revealed and the Arqam house was chosen."
+  },
+  {
+   "id": "q12",
+   "q": "A friend has lost a family member. What should we do, unlike Abu Lahab?",
+   "options": [
+    "Rejoice at his sadness",
+    "Offer condolences and pray for patience",
+    "Avoid him",
+    "Mock him"
+   ],
+   "explain": "We offer condolences and pray for patience, not rejoice like Abu Lahab."
+  }
+ ]
+}
