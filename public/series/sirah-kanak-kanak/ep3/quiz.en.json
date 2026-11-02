@@ -1,0 +1,171 @@
+{
+ "id": "ep3",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "How old was the Ghulam (boy) in this story?",
+   "options": [
+    "About 5",
+    "About 12 or 13",
+    "About 20",
+    "About 30"
+   ],
+   "explain": "The Ghulam was a boy of about 12 or 13."
+  },
+  {
+   "id": "q2",
+   "q": "Who taught the Ghulam to worship only Allah?",
+   "options": [
+    "The king's magician",
+    "The king's minister",
+    "The monk, a follower of Prophet Isa AS",
+    "The king"
+   ],
+   "explain": "The monk was a follower of Prophet Isa AS who taught the Ghulam tawhid."
+  },
+  {
+   "id": "q3",
+   "q": "How did the Ghulam kill the giant beast blocking the road?",
+   "options": [
+    "He shot it with an arrow",
+    "He threw a stone while praying to Allah",
+    "He called the king's soldiers",
+    "He ran away from it"
+   ],
+   "explain": "The Ghulam threw a stone while praying, and the beast died."
+  },
+  {
+   "id": "q4",
+   "q": "Who could see again after the Ghulam prayed?",
+   "options": [
+    "The monk",
+    "The magician",
+    "The king's blind minister",
+    "The king"
+   ],
+   "explain": "The blind minister believed, then the Ghulam prayed and he could see."
+  },
+  {
+   "id": "q5",
+   "q": "What did the Ghulam say when the minister offered him gifts for curing him?",
+   "options": [
+    "He wanted a bigger payment",
+    "He was afraid of the king",
+    "He cured people with magic",
+    "He cannot cure anyone, it is Allah who cures"
+   ],
+   "explain": "The Ghulam refused the gifts and made clear that Allah is the one who cures."
+  },
+  {
+   "id": "q6",
+   "q": "How was the Ghulam finally killed by the king?",
+   "options": [
+    "Burned in the trench",
+    "Thrown from the mountain",
+    "Shot with an arrow while saying the name of the Ghulam's Lord",
+    "Drowned in the sea"
+   ],
+   "explain": "The Ghulam himself taught the king to shoot him while saying the name of the Ghulam's Lord, and the people believed."
+  },
+  {
+   "id": "q7",
+   "q": "Which surah records the story of the People of the Trench?",
+   "options": [
+    "Al-Buruj",
+    "Al-Fil",
+    "Quraisy",
+    "Al-Ikhlas"
+   ],
+   "explain": "The story of those killed in the trench is mentioned in Surah Al-Buruj."
+  },
+  {
+   "id": "q8",
+   "q": "The monk and the minister were killed because they would not give up their faith.",
+   "explain": "True. The king killed them both because they refused to give up their faith."
+  },
+  {
+   "id": "q9",
+   "q": "The Ghulam wanted to become famous, rich and a king.",
+   "explain": "False. The Ghulam did not want fame, wealth or a throne. He wanted everyone to embrace Islam and enter Paradise."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The king shoots the Ghulam saying the name of Allah"
+    },
+    {
+     "id": "b",
+     "text": "The Ghulam meets the monk"
+    },
+    {
+     "id": "c",
+     "text": "The king digs the fiery trench"
+    },
+    {
+     "id": "d",
+     "text": "The blind minister is cured and believes"
+    },
+    {
+     "id": "e",
+     "text": "The monk and the minister are killed"
+    }
+   ],
+   "explain": "The Ghulam met the monk, the minister was cured, the monk and minister were killed, the Ghulam was shot, and finally the fiery trench was dug."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Ghulam"
+    },
+    {
+     "id": "b",
+     "text": "Rahib (monk)"
+    },
+    {
+     "id": "c",
+     "text": "Sihr (magic)"
+    },
+    {
+     "id": "d",
+     "text": "Ashabul Ukhdud"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The people killed in the trench"
+    },
+    {
+     "id": "2",
+     "text": "Knowledge taught by shaytan, used to deceive"
+    },
+    {
+     "id": "3",
+     "text": "A young boy"
+    },
+    {
+     "id": "4",
+     "text": "A religious teacher who withdraws to pray and teach"
+    }
+   ],
+   "explain": "A ghulam is a young boy, a rahib is a religious teacher, sihr is knowledge from shaytan, and Ashabul Ukhdud are the people killed in the trench."
+  },
+  {
+   "id": "q12",
+   "q": "You are good at drawing. Based on the story of the Ghulam, what can you do with that skill?",
+   "options": [
+    "Keep the skill to yourself",
+    "Use it to invite people to Allah",
+    "Become famous and rich",
+    "Stop because you fear being tested"
+   ],
+   "explain": "The Ghulam used his ability to call people to Allah. Other skills can be used the same way."
+  }
+ ]
+}
