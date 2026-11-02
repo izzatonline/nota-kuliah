@@ -1,0 +1,171 @@
+{
+ "id": "ep5",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Who was Shaymaa to the Prophet SAW?",
+   "options": [
+    "Wet nurse",
+    "Foster sister",
+    "Cousin",
+    "Foster mother"
+   ],
+   "explain": "Shaymaa was Halimah's daughter who carried and played with him in Banu Sa'd."
+  },
+  {
+   "id": "q2",
+   "q": "How old was the Prophet SAW when Halimah sent him back to Aminah?",
+   "options": [
+    "About two",
+    "About four",
+    "About six",
+    "About eight"
+   ],
+   "explain": "Halimah feared being blamed and sent him back to Aminah when he was about four."
+  },
+  {
+   "id": "q3",
+   "q": "Where did Aminah take him and Umm Ayman to visit Abdullah's grave?",
+   "options": [
+    "Syam",
+    "Yaman",
+    "Yathrib",
+    "Gaza"
+   ],
+   "explain": "Aminah took him and Umm Ayman to Yathrib, where they met the family of Banu Najjar."
+  },
+  {
+   "id": "q4",
+   "q": "Where did Aminah die on the way back to Makkah?",
+   "options": [
+    "Al-Abwa'",
+    "Busra",
+    "Gaza",
+    "Yathrib"
+   ],
+   "explain": "Aminah fell ill and died at Al-Abwa' in front of him, when he was six."
+  },
+  {
+   "id": "q5",
+   "q": "How old was the Prophet SAW when his grandfather Abdul Muttalib died?",
+   "options": [
+    "Four",
+    "Six",
+    "Eight",
+    "Twelve"
+   ],
+   "explain": "When he was eight, his grandfather died and entrusted him to Abu Talib."
+  },
+  {
+   "id": "q6",
+   "q": "Who looked after him after Aminah died?",
+   "options": [
+    "Halimah",
+    "Umm Ayman and Abdul Muttalib",
+    "Abu Lahab",
+    "Shaymaa"
+   ],
+   "explain": "Umm Ayman cared for him like a mother, and Abdul Muttalib gave him a special place on his seat."
+  },
+  {
+   "id": "q7",
+   "q": "To whom did Abdul Muttalib entrust the Prophet SAW before he died?",
+   "options": [
+    "Al-Abbas",
+    "Abu Lahab",
+    "Abu Talib",
+    "Hamzah"
+   ],
+   "explain": "Abu Talib was poor with many children, yet he accepted the trust of looking after him."
+  },
+  {
+   "id": "q8",
+   "q": "The Prophet SAW spread out his cloak for Halimah, who was very old, and asked her to sit.",
+   "explain": "True. That was how he honoured his wet nurse."
+  },
+  {
+   "id": "q9",
+   "q": "Halimah sent him back because she did not love him.",
+   "explain": "False. Halimah was afraid of being blamed if anything happened to the child in her care, because it was a trust."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Aminah dies at Al-Abwa'"
+    },
+    {
+     "id": "b",
+     "text": "Halimah sends him back"
+    },
+    {
+     "id": "c",
+     "text": "Abdul Muttalib dies and he goes to Abu Talib"
+    },
+    {
+     "id": "d",
+     "text": "Aminah visits Abdullah's grave in Yathrib"
+    },
+    {
+     "id": "e",
+     "text": "His grandfather looks after him"
+    }
+   ],
+   "explain": "Halimah sent him back, Aminah went to Yathrib and died at Al-Abwa', his grandfather looked after him, and then his grandfather died."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Foster siblings"
+    },
+    {
+     "id": "b",
+     "text": "Bedouin Arabs"
+    },
+    {
+     "id": "c",
+     "text": "Al-Abwa'"
+    },
+    {
+     "id": "d",
+     "text": "Foster mother"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A woman who looks after a child like a mother"
+    },
+    {
+     "id": "2",
+     "text": "A resting place for caravans, where Aminah died"
+    },
+    {
+     "id": "3",
+     "text": "Village Arabs who live in tents"
+    },
+    {
+     "id": "4",
+     "text": "Children nursed by the same woman"
+    }
+   ],
+   "explain": "Foster siblings were nursed by the same woman, Bedouins live in tents, Al-Abwa' is a caravan resting place, and a foster mother looks after a child like her own."
+  },
+  {
+   "id": "q12",
+   "q": "Someone who did a lot for you is now old. What example does the Prophet SAW give?",
+   "options": [
+    "Honour and respect them, as he did with Halimah",
+    "Forget them",
+    "Wait for them to come and ask",
+    "Hand them over to someone else"
+   ],
+   "explain": "The Prophet SAW honoured Halimah and gave special honour to Shaymaa, who had done him good."
+  }
+ ]
+}
