@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Separator } from '@/components/ui/separator'
 import { Skeleton } from '@/components/ui/skeleton'
+import { NotesSkeleton, PageSkeleton } from '@/components/loading'
 import { SidebarInset, SidebarProvider, SidebarTrigger, useSidebar } from '@/components/ui/sidebar'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Breadcrumb, BreadcrumbItem, BreadcrumbList, BreadcrumbSeparator } from '@/components/ui/breadcrumb'
@@ -81,7 +82,7 @@ export function SeriesPage() {
         </div>
       </div>
     )
-  if (!index) return <p className="p-8 text-muted-foreground">{t('loading')}</p>
+  if (!index) return <PageSkeleton />
 
   const episode = index.episodes.find((e) => e.id === epId)
   if (!epId) {
@@ -401,7 +402,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
               )}
               {lang === 'en' && notes && !notes.translated && <p className="mb-4 rounded-lg border border-gold/30 bg-gold-soft px-3 py-2 text-xs text-gold">{t('enNotice')}</p>}
               {error && <p className="text-sm text-destructive">{error}</p>}
-              {!notes && !error && <Skeleton className="h-64 w-full rounded-xl" />}
+              {!notes && !error && <NotesSkeleton />}
               {notes && (
                 <>
                   <TabsContent value="topik" className="mt-0"><TopicsTab notes={notes} /></TabsContent>

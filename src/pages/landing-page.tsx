@@ -4,6 +4,7 @@ import { ArrowRight, BookOpenCheck, Clock, Eye, FileText, Headphones, History, P
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
+import { Skeleton } from '@/components/ui/skeleton'
 import { BrandLink } from '@/components/brand'
 import { LanguageSwitch } from '@/components/language-switch'
 import { TimelineButton, TimelineDialog } from '@/components/sirah-timeline'
@@ -261,6 +262,24 @@ export function LandingPage() {
         )}
 
         {/* series */}
+        {!all && (
+          <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+            <Skeleton className="mb-5 h-8 w-48" />
+            <div role="status" className="grid gap-4 md:grid-cols-2">
+              <span className="sr-only">{t('loading')}</span>
+              {[0, 1].map((i) => (
+                <Card key={i} aria-hidden>
+                  <CardContent className="space-y-3 p-6">
+                    <Skeleton className="h-6 w-2/3" />
+                    <Skeleton className="h-4 w-1/2" />
+                    <Skeleton className="h-4 w-full" />
+                    <Skeleton className="h-4 w-4/5" />
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </section>
+        )}
         {all && all.length > 0 && (
           <section id="series" className="mx-auto max-w-6xl scroll-mt-16 px-4 py-12 sm:px-6">
             <h2 className="mb-5 text-2xl font-semibold tracking-tight">{t('series.title')}</h2>

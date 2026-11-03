@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { Command } from 'cmdk'
 import * as Dialog from '@radix-ui/react-dialog'
 import { BookOpen, Landmark, Languages, Lightbulb, Library, ListOrdered, ScrollText, Search, Users, type LucideIcon } from 'lucide-react'
+import { RowsSkeleton } from '@/components/loading'
 import { epPath, loadAllSeries } from '@/lib/data'
 import { useT, type Key } from '@/lib/i18n'
 import { KINDS, loadEntries, search, snippet, type Entry, type Kind } from '@/lib/search'
@@ -100,7 +101,7 @@ function SearchDialog({ open, onOpenChange }: { open: boolean; onOpenChange: (o:
             </div>
             <Command.List className="max-h-[min(60vh,26rem)] overflow-y-auto p-2">
               {!q.trim() && <p className="px-3 py-8 text-center text-sm text-muted-foreground">{t('search.hint')}</p>}
-              {q.trim() && !entries && !failed && <p className="px-3 py-8 text-center text-sm text-muted-foreground">{t('loading')}</p>}
+              {q.trim() && !entries && !failed && <RowsSkeleton />}
               {failed && <p className="px-3 py-8 text-center text-sm text-destructive">{t('search.failed')}</p>}
               {q.trim() && entries && !results.length && <p className="px-3 py-8 text-center text-sm text-muted-foreground">{t('search.empty', { q: q.trim() })}</p>}
               {groups.map(([kind, items]) => (
