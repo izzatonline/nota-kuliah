@@ -1,0 +1,238 @@
+{
+ "id": "ep18",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah Darun Nadwah?",
+   "options": [
+    "Dewan perhimpunan pemimpin Makkah, ibarat parlimen",
+    "Gua tempat bertahannuth",
+    "Pasar Ukaz",
+    "Rumah Khadijah"
+   ],
+   "answer": 0,
+   "explain": "Darun Nadwah ialah tempat pemimpin Quraish berhimpun.",
+   "t": 913,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Siapakah hanif atau ahnaf?",
+   "options": [
+    "Orang yang lurus dan tidak menyembah berhala",
+    "Penyembah api",
+    "Pedagang kaya",
+    "Tukang sihir"
+   ],
+   "answer": 0,
+   "explain": "Ahnaf ialah jamak bagi hanif.",
+   "t": 1384,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah maksud bertahannuth menurut kuliah ini?",
+   "options": [
+    "Bertapa selama-lamanya",
+    "Berdagang jauh",
+    "Berperang",
+    "Menyendiri untuk meninggalkan dosa dan perkara keji"
+   ],
+   "answer": 3,
+   "explain": "Bertahannuth bukan pertapaan; baginda terus bergelombang dengan masyarakat.",
+   "t": 1837,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Berapa lamakah mimpi benar Nabi SAW berlaku sebelum wahyu?",
+   "options": [
+    "Sepuluh tahun",
+    "Tiga hari",
+    "Enam bulan",
+    "Seminggu"
+   ],
+   "answer": 2,
+   "explain": "Apa yang dimimpikan berlaku keesokan harinya.",
+   "t": 1339,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Berapa kali Jibril memeluk Nabi SAW sambil menyuruh Iqra'?",
+   "options": [
+    "Tidak pernah",
+    "Tiga kali",
+    "Sekali",
+    "Tujuh kali"
+   ],
+   "answer": 1,
+   "explain": "Jibril memeluk tiga kali.",
+   "t": 3319,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Bagaimanakah Khadijah menguji sama ada yang datang itu malaikat?",
+   "options": [
+    "Dia memanggil Waraqah dahulu",
+    "Dia bertanya Abu Bakar",
+    "Dia berdoa semalaman",
+    "Dia meminta Nabi SAW duduk di pehanya"
+   ],
+   "answer": 3,
+   "explain": "Khadijah tenang dan mencari jawapan ketika Nabi SAW takut.",
+   "t": 3874,
+   "source": "events:e6",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Bertahannuth bermakna memutuskan hubungan dengan masyarakat.",
+   "answer": false,
+   "explain": "Salah. Baginda menyendiri sambil terus bergelombang dengan masyarakat.",
+   "t": 1613,
+   "source": "lessons:l6",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Allah berjanji memelihara Quran sehingga tiada siapa dapat mengubah huruf atau perkataannya.",
+   "answer": true,
+   "explain": "Betul. Wahyu terpelihara.",
+   "t": 3533,
+   "source": "lessons:l10",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Nabi SAW berlari kepada Khadijah"
+    },
+    {
+     "id": "b",
+     "text": "Mimpi yang benar"
+    },
+    {
+     "id": "c",
+     "text": "Jibril memeluk Nabi SAW"
+    },
+    {
+     "id": "d",
+     "text": "Mula pergi ke Gua Hira"
+    },
+    {
+     "id": "e",
+     "text": "Bertahannuth di gua"
+    }
+   ],
+   "answer": [
+    "d",
+    "b",
+    "e",
+    "c",
+    "a"
+   ],
+   "explain": "Ke Gua Hira, mimpi benar, bertahannuth, Jibril memeluk, lalu berlari kepada Khadijah.",
+   "t": 993,
+   "source": "events:e1",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Nabi"
+    },
+    {
+     "id": "b",
+     "text": "Rasul"
+    },
+    {
+     "id": "c",
+     "text": "Wahyu"
+    },
+    {
+     "id": "d",
+     "text": "Ru'yah sadiqah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Mimpi yang benar, bentuk wahyu pertama"
+    },
+    {
+     "id": "2",
+     "text": "Pemberian daripada Allah, isyarat yang cepat"
+    },
+    {
+     "id": "3",
+     "text": "Penerima berita penting yang wajib disampaikan"
+    },
+    {
+     "id": "4",
+     "text": "Pembawa syariat baharu"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "2"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Nabi penerima berita, rasul pembawa syariat baharu, wahyu pemberian Allah, dan ru'yah sadiqah mimpi benar.",
+   "t": 2165,
+   "source": "glossary:g4",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "mcq",
+   "q": "Belajar agama tanpa sebarang perubahan dalam diri hanyalah apa?",
+   "options": [
+    "Jihad",
+    "Zuhud",
+    "Hiburan",
+    "Ibadah penuh"
+   ],
+   "answer": 2,
+   "explain": "Baca sirah untuk mengubah.",
+   "t": 1123,
+   "source": "lessons:l4",
+   "level": 3
+  }
+ ]
+}

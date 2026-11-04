@@ -1,0 +1,222 @@
+{
+ "id": "ep23",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Berapakah umur Al-Arqam bin Abi Al-Arqam ketika rumahnya dijadikan markas?",
+   "options": [
+    "13 hingga 16 tahun",
+    "30 tahun",
+    "50 tahun",
+    "5 tahun"
+   ],
+   "answer": 0,
+   "explain": "Rumahnya terlindung di kawasan Bani Makhzum.",
+   "t": 779,
+   "source": "people:p6",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Siapakah guru Quran kepada Fatimah binti Al-Khattab dan Said?",
+   "options": [
+    "Khabbab bin Al-Arat",
+    "Bilal",
+    "Suhaib",
+    "Abdullah bin Mas'ud"
+   ],
+   "answer": 0,
+   "explain": "Khabbab mengajar mereka sebagai sebahagian kumpulan mentor.",
+   "t": 1179,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah arahan Nabi SAW kepada sahabat pada fasa awal tentang membalas kezaliman?",
+   "options": [
+    "Membalas segera",
+    "Berpindah ke Syam",
+    "Berdiam diri selama-lamanya",
+    "Bersabar dan tidak membalas secara fizikal"
+   ],
+   "answer": 3,
+   "explain": "Walaupun ada kekuatan, para sahabat tidak diizinkan membalas.",
+   "t": 1581,
+   "source": "lessons:l4",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah yang menjadi tumpuan 13 tahun di Makkah?",
+   "options": [
+    "Peperangan",
+    "Perdagangan",
+    "Tauhid, syurga, neraka, akhlak dan keadilan",
+    "Hukum-hakam terperinci"
+   ],
+   "answer": 2,
+   "explain": "Binalah asas iman sebelum hukum.",
+   "t": 1941,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah modal sosial?",
+   "options": [
+    "Senjata",
+    "Hubungan dan mentor yang menolong manusia berkembang",
+    "Wang tunai",
+    "Tanah"
+   ],
+   "answer": 1,
+   "explain": "Mentor yang melabur dalam hubungan mengubah hidup manusia.",
+   "t": 2939,
+   "source": "glossary:g5",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah yang dibina oleh Nabi SAW pada para sahabat lebih daripada bakat?",
+   "options": [
+    "Kekayaan",
+    "Pangkat",
+    "Keturunan",
+    "Karakter"
+   ],
+   "answer": 3,
+   "explain": "Baginda juga memanfaatkan kelebihan masing-masing.",
+   "t": 3043,
+   "source": "lessons:l11",
+   "level": 3
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Pengikut awal datang daripada satu kelas dan satu kaum sahaja.",
+   "answer": false,
+   "explain": "Salah. Mereka datang daripada pelbagai status, kabilah dan bangsa.",
+   "t": 965,
+   "source": "lessons:l3",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Perubahan berlaku beransur-ansur, daripada individu hingga negara.",
+   "answer": true,
+   "explain": "Betul. Gradual process ialah hukum universal.",
+   "t": 2515,
+   "source": "lessons:l9",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Darul Arqam dipilih"
+    },
+    {
+     "id": "b",
+     "text": "Abu Bakar membawa lima sahabat penting"
+    },
+    {
+     "id": "c",
+     "text": "Sa'ad memukul seorang musyrik"
+    },
+    {
+     "id": "d",
+     "text": "Lelaki Yaman diminta pulang menunggu"
+    },
+    {
+     "id": "e",
+     "text": "Kumpulan mentor mengajar"
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "e",
+    "c",
+    "a"
+   ],
+   "explain": "Abu Bakar membawa lima sahabat, lelaki Yaman diminta menunggu, mentor mengajar, Sa'ad memukul, lalu Darul Arqam dipilih.",
+   "t": 227,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Da'wah fardiyah"
+    },
+    {
+     "id": "b",
+     "text": "Silent believer"
+    },
+    {
+     "id": "c",
+     "text": "Tawakal"
+    },
+    {
+     "id": "d",
+     "text": "Darul Arqam"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Menyerahkan pergantungan sepenuhnya kepada Allah"
+    },
+    {
+     "id": "2",
+     "text": "Rumah markas dakwah dan madrasah pertama Islam"
+    },
+    {
+     "id": "3",
+     "text": "Dakwah secara individu"
+    },
+    {
+     "id": "4",
+     "text": "Orang yang memeluk Islam tetapi tidak mendaftar atau menzahirkannya"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Da'wah fardiyah dakwah individu, silent believer tidak menzahirkan, tawakal berserah kepada Allah, dan Darul Arqam markas dakwah.",
+   "t": 190,
+   "source": "glossary:g1",
+   "level": 1
+  }
+ ]
+}

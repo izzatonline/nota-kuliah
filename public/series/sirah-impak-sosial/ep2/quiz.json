@@ -1,0 +1,254 @@
+{
+ "id": "ep2",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Daripada tokoh manakah bermulanya nama Quraish?",
+   "options": [
+    "Fihir",
+    "Hashim",
+    "Qusai",
+    "Adnan"
+   ],
+   "answer": 0,
+   "explain": "Fihir merampas kuasa daripada Khuza'ah dan daripadanya bermula nama Quraish.",
+   "t": 138,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah ilaf?",
+   "options": [
+    "Perjanjian dan jaminan keselamatan dagang",
+    "Sejenis berhala",
+    "Nama telaga",
+    "Nama pasar"
+   ],
+   "answer": 0,
+   "explain": "Hashim membuat perjanjian ilaf dengan kabilah dan kuasa besar sehingga dua perjalanan dagang menjadi mungkin.",
+   "t": 638,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Ke manakah perjalanan dagang Quraish pada musim sejuk?",
+   "options": [
+    "Syam",
+    "Mesir",
+    "Rom",
+    "Yaman"
+   ],
+   "answer": 3,
+   "explain": "Musim sejuk ke Yaman dan musim panas ke Syam, disebut dalam Surah Quraish.",
+   "t": 782,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Mengapakah Amr bin Abdul Manaf digelar Hashim?",
+   "options": [
+    "Kerana berambut putih",
+    "Kerana menggali zam-zam",
+    "Kerana menghancurkan roti ke dalam kuah untuk jemaah haji",
+    "Kerana lahir di Yathrib"
+   ],
+   "answer": 2,
+   "explain": "Hashim ialah terjemahan perkataan menghancurkan roti.",
+   "t": 860,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Siapakah yang membawa pulang Syaibah dari Yathrib ke Mekah?",
+   "options": [
+    "Fihir",
+    "Al-Muttalib",
+    "Hala",
+    "Wuhaib"
+   ],
+   "answer": 1,
+   "explain": "Al-Muttalib, adik Hashim, membawa Syaibah, dan dari situ bermula nama Abdul Muttalib.",
+   "t": 1148,
+   "source": "people:p5",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Bagaimanakah Abdul Muttalib menemui semula zam-zam?",
+   "options": [
+    "Dengan anak panah azlam",
+    "Ditunjukkan oleh Fihir",
+    "Ditemui oleh pedagang",
+    "Selepas bermimpi selama empat hari lalu menggali"
+   ],
+   "answer": 3,
+   "explain": "Selepas empat hari bermimpi, dia menggali dan menemui air zam-zam.",
+   "t": 1366,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Berapa ekor unta yang ditetapkan sebagai diat selepas peristiwa tebusan Abdullah?",
+   "options": [
+    "Sepuluh",
+    "Lima puluh",
+    "Seratus",
+    "Seribu"
+   ],
+   "answer": 2,
+   "explain": "Diat ialah denda membunuh seseorang, ditetapkan seratus ekor unta.",
+   "t": 1840,
+   "source": "glossary:g7",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Mekah terletak di tengah laluan dagang dan digunakan untuk menjadikannya hab perniagaan.",
+   "answer": true,
+   "explain": "Betul. Kedudukan strategik Mekah dimanfaatkan Hashim.",
+   "t": 712,
+   "source": "lessons:l4",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Keturunan yang mulia menentukan nasib seseorang di akhirat.",
+   "answer": false,
+   "explain": "Salah. Keturunan mulia dianggap kedudukan tinggi tetapi tidak menentukan nasib akhirat.",
+   "t": 288,
+   "source": "lessons:l1",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abdul Muttalib menemui zam-zam"
+    },
+    {
+     "id": "b",
+     "text": "Hashim membuka perjanjian ilaf"
+    },
+    {
+     "id": "c",
+     "text": "Abdullah ditebus dengan seratus unta"
+    },
+    {
+     "id": "d",
+     "text": "Fihir merampas kuasa daripada Khuza'ah"
+    },
+    {
+     "id": "e",
+     "text": "Syaibah dibawa ke Mekah"
+    }
+   ],
+   "answer": [
+    "d",
+    "b",
+    "e",
+    "a",
+    "c"
+   ],
+   "explain": "Fihir, ilaf Hashim, Syaibah dibawa ke Mekah, zam-zam ditemui, kemudian Abdullah ditebus.",
+   "t": 138,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Quraish"
+    },
+    {
+     "id": "b",
+     "text": "Ilaf"
+    },
+    {
+     "id": "c",
+     "text": "Darun Nadwah"
+    },
+    {
+     "id": "d",
+     "text": "Azlam"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Anak panah untuk menentukan keputusan"
+    },
+    {
+     "id": "2",
+     "text": "Tempat perhimpunan pemimpin Mekah, seperti parlimen"
+    },
+    {
+     "id": "3",
+     "text": "Perjanjian keselamatan dagang"
+    },
+    {
+     "id": "4",
+     "text": "Nama daripada keturunan Fihir"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "3"
+    ],
+    [
+     "c",
+     "2"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Quraish nama daripada Fihir, ilaf perjanjian dagang, Darun Nadwah seperti parlimen, dan azlam anak panah keputusan.",
+   "t": 145,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Apabila rezeki anda bertambah, apakah teladan daripada Hashim?",
+   "options": [
+    "Menyimpan semuanya",
+    "Berkongsi kekayaan, seperti Hashim dengan jemaah haji",
+    "Berbangga dengan harta",
+    "Menyembunyikannya"
+   ],
+   "answer": 1,
+   "explain": "Apabila Mekah kaya, Hashim berkongsi dengan jemaah haji, dan itulah asal gelaran Hashim.",
+   "t": 837,
+   "source": "lessons:l5",
+   "level": 3
+  }
+ ]
+}

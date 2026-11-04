@@ -76,6 +76,23 @@ This also records YouTube view counts, which the landing page uses for "most wat
 python3 scripts/build_index.py sirah-impak-sosial "https://www.youtube.com/playlist?list=PLAYLIST_ID"
 ```
 
+
+## Add a quiz
+
+Every episode has a quiz next to its notes: `public/series/<series>/<ep>/quiz.json` (Malay) and an optional `quiz.en.json`
+overlay (English text only, keyed by id, like `notes.en.json`). Questions are written from the episode's `notes.json`, never from
+the transcript. The series quiz needs no extra file: it draws from the episode quizzes.
+
+1. Write 8 to 12 questions: mostly `mcq`, a few `tf`, one `order` or `match`, and one or two application questions. Each question
+   has a `source` such as `lessons:l2` or `glossary:g1` so it traces back to the notes, and a `t` (seconds) that links to the lecture.
+2. Do not ask about a hadith that is `verified: false`. For an episode with a `careNote`, ask about the lessons only.
+3. Check it: `python3 scripts/quiz.py check <series>/<ep>` (omit the argument to check every quiz). The English overlay is checked too.
+   `python3 scripts/quiz.py skeleton <series>/<ep>` prints the Malay text to translate.
+4. Set `hasQuiz` in the series index: `python3 scripts/quiz.py index <series>`.
+5. Commit one episode per commit: `feat(quiz): add Ep N quiz for <series>`.
+
+The full design is in [docs/QUIZ_PLAN.md](docs/QUIZ_PLAN.md).
+
 ## Review before publishing
 
 The pipeline gives a good draft, not a finished work. Before sharing notes, read them against the video, check the

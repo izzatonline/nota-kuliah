@@ -1,0 +1,160 @@
+{
+ "id": "ep1",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Which ancestor of the Prophet SAW started trade between Sham and Yemen?",
+   "options": [
+    "Abdul Muttalib",
+    "Hashim",
+    "Abdullah",
+    "Abraha"
+   ],
+   "explain": "Hashim was the Prophet's ancestor. He started trade between Sham and Yemen, and poor Makkah became rich."
+  },
+  {
+   "id": "q2",
+   "q": "What was the name of the great church Abraha built to rival the Kaabah?",
+   "options": [
+    "Zamzam",
+    "Sham",
+    "Kulais",
+    "Quraysh"
+   ],
+   "explain": "Kulais was the great church Abraha built in Yemen to rival the Kaabah."
+  },
+  {
+   "id": "q3",
+   "q": "What did Abdul Muttalib ask Abraha for?",
+   "options": [
+    "The Kulais church",
+    "His camels back",
+    "The elephant Mahmud",
+    "Goods from Sham"
+   ],
+   "explain": "Abdul Muttalib asked only for his camels back, because the Kaabah has a Lord who protects it."
+  },
+  {
+   "id": "q4",
+   "q": "Why did Abdul Muttalib ask only for his camels and not plead for the Kaabah?",
+   "options": [
+    "Because he was afraid of the elephants",
+    "Because the people of Makkah wanted peace with Abraha",
+    "Because the Kaabah was already damaged",
+    "Because the Kaabah has a Lord who protects it"
+   ],
+   "explain": "Abdul Muttalib said the Kaabah has a Lord who will protect it, and Allah SWT truly protected it."
+  },
+  {
+   "id": "q5",
+   "q": "What was the name of the elephant that refused to move towards the Kaabah?",
+   "options": [
+    "Ababil",
+    "Sijjil",
+    "Mahmud",
+    "Kulais"
+   ],
+   "explain": "The elephant named Mahmud would not head for the Kaabah, even when it was beaten and prodded."
+  },
+  {
+   "id": "q6",
+   "q": "Which surah records the story of the army with elephants?",
+   "options": [
+    "Al-Ikhlas",
+    "Al-Fatihah",
+    "Al-Fil",
+    "Al-Kauthar"
+   ],
+   "explain": "Surah Al-Fil records the story of the army with elephants, which happened before the Prophet SAW was born."
+  },
+  {
+   "id": "q7",
+   "q": "Abdul Muttalib prayed at the door of the Kaabah after the people of Makkah climbed the hillsides.",
+   "explain": "True. The people of Makkah went up the hillsides, and Abdul Muttalib held the door of the Kaabah and prayed to Allah."
+  },
+  {
+   "id": "q8",
+   "q": "The attack of the army with elephants happened after the Prophet SAW was born.",
+   "explain": "False. It happened while the Prophet SAW was still in Aminah's womb, only a few months along. That is why it is called the Year of the Elephant."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abraha builds the Kulais church"
+    },
+    {
+     "id": "b",
+     "text": "Hashim starts trade to Makkah"
+    },
+    {
+     "id": "c",
+     "text": "Ababil birds destroy Abraha's army"
+    },
+    {
+     "id": "d",
+     "text": "Abdul Muttalib prays at the door of the Kaabah"
+    },
+    {
+     "id": "e",
+     "text": "Abraha vows to pull down the Kaabah"
+    }
+   ],
+   "explain": "Hashim made Makkah rich, Abraha built Kulais and vowed to pull down the Kaabah, Abdul Muttalib prayed, and finally Allah sent the ababil birds."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Kulais"
+    },
+    {
+     "id": "b",
+     "text": "Ababil"
+    },
+    {
+     "id": "c",
+     "text": "Sijjil"
+    },
+    {
+     "id": "d",
+     "text": "Year of the Elephant"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Hot, sharp stones that were thrown"
+    },
+    {
+     "id": "2",
+     "text": "The year of the attack, the year the Prophet SAW was born"
+    },
+    {
+     "id": "3",
+     "text": "The church Abraha built in Yemen"
+    },
+    {
+     "id": "4",
+     "text": "The birds Allah sent carrying hot stones"
+    }
+   ],
+   "explain": "Kulais is Abraha's church, ababil are the birds Allah sent, sijjil are the hot stones that were thrown, and the Year of the Elephant is the year the Prophet SAW was born."
+  },
+  {
+   "id": "q11",
+   "q": "Abraha became furious and vowed to pull down the Kaabah. What lesson is there for us when we are angry?",
+   "options": [
+    "Anger and grudges can lead to destruction, as happened to Abraha",
+    "Anger makes us strong and respected",
+    "Anger helps us win",
+    "Anger is a sign of courage"
+   ],
+   "explain": "Abraha was angry and held a grudge, and he perished with his army. Anger and grudges lead to destruction."
+  }
+ ]
+}

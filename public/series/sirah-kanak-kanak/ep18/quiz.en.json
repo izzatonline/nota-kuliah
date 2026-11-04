@@ -1,0 +1,171 @@
+{
+ "id": "ep18",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Who protected the Prophet SAW even though he did not embrace Islam?",
+   "options": [
+    "Abu Lahab",
+    "Abu Talib",
+    "Abu Jahal",
+    "Abu Sufyan"
+   ],
+   "explain": "Abu Talib protected him and promised to keep defending him."
+  },
+  {
+   "id": "q2",
+   "q": "What was his answer when he was offered great things to stop preaching?",
+   "options": [
+    "He agreed to stop",
+    "He would not stop even if the sun and moon were placed in his hands",
+    "He asked for a year",
+    "He moved to Sham"
+   ],
+   "explain": "He would not stop until he won or perished. That is steadfastness in the call."
+  },
+  {
+   "id": "q3",
+   "q": "Why did Quraysh mock that Muhammad was \"cut off\"?",
+   "options": [
+    "Because his son Abdullah died",
+    "Because he lost his wealth",
+    "Because he moved away",
+    "Because he stopped preaching"
+   ],
+   "explain": "When his son Abdullah died, Quraysh rejoiced and said Muhammad was cut off."
+  },
+  {
+   "id": "q4",
+   "q": "What does Al-Kawthar mean?",
+   "options": [
+    "Abundant goodness",
+    "Long sorrow",
+    "Hoarded wealth",
+    "A great market"
+   ],
+   "explain": "Al-Kawthar is abundant goodness, including a river and pool in Paradise."
+  },
+  {
+   "id": "q5",
+   "q": "Which wealthy, handsome young man of Makkah embraced Islam at Dar al-Arqam?",
+   "options": [
+    "Bilal bin Rabah",
+    "Yasir",
+    "Khabbab",
+    "Mus'ab bin Umayr"
+   ],
+   "explain": "Mus'ab embraced Islam even under pressure."
+  },
+  {
+   "id": "q6",
+   "q": "What was Abyssinia (Habasyah)?",
+   "options": [
+    "A market",
+    "A Quraysh tribe",
+    "A Christian land across the sea ruled by a just king",
+    "A cave"
+   ],
+   "explain": "Habasyah was the first place of migration for the Muslims."
+  },
+  {
+   "id": "q7",
+   "q": "Who was Khalid bin Al-Walid?",
+   "options": [
+    "A chief who opposed forever",
+    "The son of Al-Walid, called the Sword of Allah",
+    "The Prophet's protector in Makkah",
+    "His uncle"
+   ],
+   "explain": "Khalid joined the Prophet SAW even though his father was hostile to him."
+  },
+  {
+   "id": "q8",
+   "q": "The Prophet SAW answered insults with harsh words.",
+   "explain": "False. He stayed gentle and invited them with kindness to be God-fearing."
+  },
+  {
+   "id": "q9",
+   "q": "The Prophet's SAW name is mentioned every moment through the adhan, while his enemies' names are forgotten.",
+   "explain": "True. That is a good name that keeps being mentioned."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Mus'ab embraces Islam"
+    },
+    {
+     "id": "b",
+     "text": "His son Abdullah dies"
+    },
+    {
+     "id": "c",
+     "text": "He refuses to stop preaching"
+    },
+    {
+     "id": "d",
+     "text": "Surah Al-Kawthar is revealed"
+    },
+    {
+     "id": "e",
+     "text": "Quraysh complain to Abu Talib"
+    }
+   ],
+   "explain": "Quraysh complained, he refused to stop, Abdullah died, Al-Kawthar was revealed and Mus'ab embraced Islam."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Al-Kawthar"
+    },
+    {
+     "id": "b",
+     "text": "Ahl al-Bayt"
+    },
+    {
+     "id": "c",
+     "text": "Nahr"
+    },
+    {
+     "id": "d",
+     "text": "Dar al-Arqam"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Sacrificing an offering"
+    },
+    {
+     "id": "2",
+     "text": "The family and descendants of the Prophet SAW"
+    },
+    {
+     "id": "3",
+     "text": "The secret headquarters of the Muslims"
+    },
+    {
+     "id": "4",
+     "text": "Abundant goodness"
+    }
+   ],
+   "explain": "Al-Kawthar is abundant goodness, Ahl al-Bayt are the Prophet's family, nahr is sacrificing an offering, and Dar al-Arqam was the secret headquarters."
+  },
+  {
+   "id": "q12",
+   "q": "Your friend has lost someone dear. What example does this story give?",
+   "options": [
+    "Rejoice like Quraysh",
+    "Stop quarrelling and apologise, not rejoice at his sorrow",
+    "Mock him",
+    "Avoid him"
+   ],
+   "explain": "Quraysh rejoiced at his grief. We should stop fighting and ask forgiveness."
+  }
+ ]
+}

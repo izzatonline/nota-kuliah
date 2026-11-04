@@ -1,0 +1,171 @@
+{
+ "id": "ep14",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Why was wine given the name karam in jahiliyyah?",
+   "options": [
+    "Because it was linked to generosity",
+    "Because it was cheap",
+    "Because it was banned",
+    "Because it came from Yemen"
+   ],
+   "explain": "The forbidden is often given a good-sounding name."
+  },
+  {
+   "id": "q2",
+   "q": "What is maitah?",
+   "options": [
+    "Carrion, an animal that died without slaughter",
+    "An idol",
+    "Gambling",
+    "Wine"
+   ],
+   "explain": "Ja'far said his people ate carrion. The ustaz advises us to watch what we eat."
+  },
+  {
+   "id": "q3",
+   "q": "Who explained the state of jahiliyyah to Najashi?",
+   "options": [
+    "Zayd",
+    "Abu Bakr",
+    "Umar",
+    "Ja'far"
+   ],
+   "explain": "Ja'far summarised his people's jahiliyyah before Najashi."
+  },
+  {
+   "id": "q4",
+   "q": "Where was Zaid bin Harithah sold as a child?",
+   "options": [
+    "Busra",
+    "Madinah",
+    "Ukaz",
+    "Taif"
+   ],
+   "explain": "Zaid was captured by raiders and sold for 400 dirhams."
+  },
+  {
+   "id": "q5",
+   "q": "Who gave Zaid to the Prophet SAW as a gift?",
+   "options": [
+    "Abu Talib",
+    "Khadijah",
+    "Hamzah",
+    "Najashi"
+   ],
+   "explain": "Khadijah gave Zaid at the time of the marriage."
+  },
+  {
+   "id": "q6",
+   "q": "Why did Zaid choose to stay with the Prophet SAW even though his father came?",
+   "options": [
+    "Because he was forced",
+    "Because of a love he had never known before",
+    "Because he was paid",
+    "Because he was afraid"
+   ],
+   "explain": "Affection shaped Zaid's choice."
+  },
+  {
+   "id": "q7",
+   "q": "What did Al-Ahzab 33:5 change about adopted children?",
+   "options": [
+    "They are attributed to the guardians",
+    "They cannot be cared for",
+    "They become slaves",
+    "They are attributed to their biological fathers, not the guardians"
+   ],
+   "explain": "Zaid went back to being known as Zaid bin Harithah."
+  },
+  {
+   "id": "q8",
+   "q": "If a person's character is still lacking, we should review his creed and worship.",
+   "explain": "True. Character is the output of Islam."
+  },
+  {
+   "id": "q9",
+   "q": "Najashi passed judgement at once without hearing the defence.",
+   "explain": "False. Najashi heard the accusation and the defence first."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Zaid chooses to stay"
+    },
+    {
+     "id": "b",
+     "text": "Zaid is given to the Prophet SAW"
+    },
+    {
+     "id": "c",
+     "text": "Zaid is declared a son at the Kaaba"
+    },
+    {
+     "id": "d",
+     "text": "Zaid is kidnapped and sold"
+    },
+    {
+     "id": "e",
+     "text": "Zaid's father meets the Prophet SAW"
+    }
+   ],
+   "explain": "Zaid was kidnapped, gifted, his father came, Zaid chose to stay, then he was declared a son at the Kaaba."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Jahiliyyah"
+    },
+    {
+     "id": "b",
+     "text": "Asnam"
+    },
+    {
+     "id": "c",
+     "text": "Silaturahim"
+    },
+    {
+     "id": "d",
+     "text": "Maysir"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Idols"
+    },
+    {
+     "id": "2",
+     "text": "Gambling"
+    },
+    {
+     "id": "3",
+     "text": "Family ties"
+    },
+    {
+     "id": "4",
+     "text": "Ignorance of knowledge and emotion"
+    }
+   ],
+   "explain": "Jahiliyyah is ignorance, asnam are idols, silaturahim is family ties and maysir is gambling."
+  },
+  {
+   "id": "q12",
+   "q": "Today, position, status and bank accounts can become what?",
+   "options": [
+    "Worship",
+    "A shield from sin",
+    "Modern idols that are worshipped",
+    "Things with no effect"
+   ],
+   "explain": "Idols are not necessarily statues."
+  }
+ ]
+}

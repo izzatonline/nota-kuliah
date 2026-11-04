@@ -1,0 +1,254 @@
+{
+ "id": "ep15",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Pada usia berapakah Usamah bin Zaid dilantik mengetuai ekspedisi terakhir Nabi SAW?",
+   "options": [
+    "12 tahun",
+    "16 tahun",
+    "20 tahun",
+    "25 tahun"
+   ],
+   "answer": 1,
+   "explain": "Usamah, anak Zaid dan Ummu Aiman, dilantik pada usia 16 tahun.",
+   "t": 218,
+   "source": "people:p1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Siapakah orang pertama yang beriman kepada Nabi SAW?",
+   "options": [
+    "Ali",
+    "Abu Bakar",
+    "Khadijah",
+    "Zaid"
+   ],
+   "answer": 2,
+   "explain": "Khadijah ialah orang pertama beriman dan menenangkan baginda.",
+   "t": 509,
+   "source": "people:p4",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Kepada siapakah Khadijah membawa Nabi SAW selepas wahyu pertama?",
+   "options": [
+    "Abu Talib",
+    "Waraqah bin Naufal",
+    "Abu Bakar",
+    "Bahira"
+   ],
+   "answer": 1,
+   "explain": "Waraqah ialah sepupu Khadijah yang pakar kitab terdahulu.",
+   "t": 873,
+   "source": "people:p5",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah nama lama bagi Jibril yang disebut Waraqah?",
+   "options": [
+    "Ar-Ruh",
+    "Rabb",
+    "An-Namus",
+    "Iqra'"
+   ],
+   "answer": 2,
+   "explain": "An-Namus ialah nama lama bagi Jibril yang menyampaikan wahyu kepada para nabi.",
+   "t": 1036,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Siapakah kanak-kanak pertama yang beriman?",
+   "options": [
+    "Talib",
+    "Ali bin Abi Talib",
+    "Zaid",
+    "Ja'far"
+   ],
+   "answer": 1,
+   "explain": "Ali tinggal bersama Nabi SAW dan Khadijah, melihat mereka solat lalu menyertai mereka.",
+   "t": 1568,
+   "source": "people:p13",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah yang dikatakan Ali sebelum memeluk Islam?",
+   "options": [
+    "Dia mahu bertanya kepada Abu Talib dahulu",
+    "Dia tidak mahu",
+    "Dia menunggu setahun",
+    "Dia mahu bertanya kepada Waraqah"
+   ],
+   "answer": 0,
+   "explain": "Ali berkata dia perlu bertanya kepada ayahnya dahulu. Kita juga patut meminta izin ibu bapa.",
+   "t": 1674,
+   "source": "lessons:l6",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Mengapakah Abu Bakar terus beriman serta-merta?",
+   "options": [
+    "Kerana dia takut",
+    "Kerana dia mengenali kejujuran sahabatnya sejak kecil",
+    "Kerana dia diberi harta",
+    "Kerana Abu Talib menyuruhnya"
+   ],
+   "answer": 1,
+   "explain": "Abu Bakar terus beriman apabila diberitahu baginda dilantik menjadi rasul, kerana mengenali kejujurannya.",
+   "t": 1926,
+   "source": "lessons:l7",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Abu Talib memeluk Islam.",
+   "answer": false,
+   "explain": "Salah. Abu Talib menyuruh Ali mengikut Nabi SAW tetapi dia sendiri tidak memeluk Islam.",
+   "t": 1522,
+   "source": "people:p9",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Solat pada mulanya dua kali sehari sebelum menjadi lima waktu.",
+   "answer": true,
+   "explain": "Betul. Jibril mengajar wuduk dan solat, dua kali sehari pada awalnya.",
+   "t": 1984,
+   "source": "lessons:l9",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Waraqah wafat"
+    },
+    {
+     "id": "b",
+     "text": "Abu Bakar beriman"
+    },
+    {
+     "id": "c",
+     "text": "Baginda berlari pulang"
+    },
+    {
+     "id": "d",
+     "text": "Ali menyertai solat"
+    },
+    {
+     "id": "e",
+     "text": "Baginda bertemu Waraqah"
+    }
+   ],
+   "answer": [
+    "c",
+    "e",
+    "a",
+    "d",
+    "b"
+   ],
+   "explain": "Baginda berlari pulang, bertemu Waraqah, Waraqah wafat, Ali menyertai solat dan Abu Bakar beriman.",
+   "t": 422,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Silaturahim"
+    },
+    {
+     "id": "b",
+     "text": "An-Namus"
+    },
+    {
+     "id": "c",
+     "text": "Tukang tilik"
+    },
+    {
+     "id": "d",
+     "text": "Wuduk"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Peramal yang membaca tapak tangan"
+    },
+    {
+     "id": "2",
+     "text": "Bersuci sebelum solat"
+    },
+    {
+     "id": "3",
+     "text": "Hubungan kekeluargaan daripada rahim yang sama"
+    },
+    {
+     "id": "4",
+     "text": "Nama lama bagi Jibril"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Silaturahim ialah hubungan keluarga, An-Namus nama lama Jibril, tukang tilik peramal, dan wuduk bersuci sebelum solat.",
+   "t": 651,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Anda tahu satu perkara baik dan mahu kawan-kawan baik menyertainya. Apakah teladan daripada Abu Bakar?",
+   "options": [
+    "Menyimpannya sendiri",
+    "Segera mengajak sahabat-sahabat yang baik",
+    "Menunggu mereka bertanya",
+    "Menyuruh mereka diam"
+   ],
+   "answer": 1,
+   "explain": "Abu Bakar segera mengajak kawan-kawannya yang baik menyertai Islam.",
+   "t": 1939,
+   "source": "lessons:l8",
+   "level": 3
+  }
+ ]
+}

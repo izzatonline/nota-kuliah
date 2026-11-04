@@ -1,0 +1,155 @@
+{
+ "id": "ep40",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What is falah according to this lecture?",
+   "options": [
+    "Success, from the word for farmer who plants and is patient",
+    "Instant victory",
+    "Wealth",
+    "Power"
+   ],
+   "explain": "We plant and are patient, that is delayed gratification."
+  },
+  {
+   "id": "q2",
+   "q": "What is waqf?",
+   "options": [
+    "A charitable gift made permanent for public benefit",
+    "A debt",
+    "A tax",
+    "A one-off gift"
+   ],
+   "explain": "In Islamic civilisation, education and healthcare were funded by waqf."
+  },
+  {
+   "id": "q3",
+   "q": "What do riba and yurbi share?",
+   "options": [
+    "Both are idol names",
+    "Both are month names",
+    "Nothing in common",
+    "Both come from the root meaning to increase"
+   ],
+   "explain": "Allah destroys riba and nurtures charity."
+  },
+  {
+   "id": "q4",
+   "q": "What is jawami' al-kalim?",
+   "options": [
+    "An angel's name",
+    "A kind of prayer",
+    "The ability to convey wide meaning in few words",
+    "A book"
+   ],
+   "explain": "Even the Prophet SAW had no words for the colours of Paradise."
+  },
+  {
+   "id": "q5",
+   "q": "What is infaq according to this lecture?",
+   "options": [
+    "Only clothing",
+    "Not only money, but energy, time and a listening ear",
+    "Only money",
+    "Only food"
+   ],
+   "explain": "Lending an ear to people's problems is also infaq."
+  },
+  {
+   "id": "q6",
+   "q": "What answered the Prophet's SAW sorrow at losing his son in Surah Al-Kawthar?",
+   "options": [
+    "The command to migrate",
+    "The command to fight",
+    "No answer",
+    "The gift of abundant good and that the hater is cut off"
+   ],
+   "explain": "Quraysh greeted him with the slogan \"Muhammad is cut off\"; Allah revealed Al-Kawthar."
+  },
+  {
+   "id": "q7",
+   "q": "What does Al-Ankabut 29:45 stress about prayer?",
+   "options": [
+    "Prayer is only ritual",
+    "Prayer is only for night",
+    "Prayer prevents indecency and wrongdoing",
+    "Prayer has no effect"
+   ],
+   "explain": "Prayer should leave a social impact."
+  },
+  {
+   "id": "q8",
+   "q": "Why does minimalism fail according to the ustaz?",
+   "options": [
+    "Because it is cheap",
+    "Because technology increasingly pushes consumption",
+    "Because it is too easy",
+    "Because it is forbidden"
+   ],
+   "explain": "Beware consumerism that turns us into zombies."
+  },
+  {
+   "id": "q9",
+   "q": "The ummah needs many talents across fields, not just doctors and engineers.",
+   "explain": "True. Value diverse talents."
+  },
+  {
+   "id": "q10",
+   "q": "The sirah is only for remembering and weeping, not for reform.",
+   "explain": "False. The sirah is a story of reform, not nostalgia."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Infaq"
+    },
+    {
+     "id": "b",
+     "text": "Fitrah"
+    },
+    {
+     "id": "c",
+     "text": "Neoliberalism"
+    },
+    {
+     "id": "d",
+     "text": "Delayed gratification"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Delaying reward: planting and being patient"
+    },
+    {
+     "id": "2",
+     "text": "The natural disposition created by Allah"
+    },
+    {
+     "id": "3",
+     "text": "Economic thinking that turns education and healthcare into business"
+    },
+    {
+     "id": "4",
+     "text": "Spending wealth, energy or time in Allah's way"
+    }
+   ],
+   "explain": "Infaq is spending wealth, energy and time, fitrah is natural disposition, neoliberalism turns education into business, and delayed gratification is delaying reward."
+  },
+  {
+   "id": "q12",
+   "q": "We judge children only by exams. What does the ustaz advise?",
+   "options": [
+    "Exams only",
+    "Ignore the children",
+    "Compare the children",
+    "Value diverse talents and create a good environment"
+   ],
+   "explain": "Judging only by exams wastes talent."
+  }
+ ]
+}

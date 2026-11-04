@@ -1,0 +1,217 @@
+{
+ "id": "ep42",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah comfort crisis?",
+   "options": [
+    "Keselesaan berlebihan menjadi krisis kerana anak tidak dilatih menghadapi kesukaran",
+    "Krisis kekurangan makanan",
+    "Krisis perang",
+    "Krisis banjir"
+   ],
+   "answer": 0,
+   "explain": "Ustaz mengaitkannya dengan generasi yang mudah rapuh.",
+   "t": 1028,
+   "source": "glossary:g5",
+   "level": 2
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah mauhibah?",
+   "options": [
+    "Pemberian atau bakat daripada Allah",
+    "Sejenis hutang",
+    "Sejenis solat",
+    "Sebuah pasar"
+   ],
+   "answer": 0,
+   "explain": "Cari kerja yang halal, sesuai bakat dan tidak merosakkan.",
+   "t": 1397,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah birrul walidain?",
+   "options": [
+    "Menjauhi ibu bapa",
+    "Mewarisi harta",
+    "Menjaga anak",
+    "Berbuat baik kepada ibu bapa, termasuk selepas mereka meninggal"
+   ],
+   "answer": 3,
+   "explain": "Jaga hubungan dengan jiran, tetamu, ibu bapa dan orang tua.",
+   "t": 2054,
+   "source": "glossary:g7",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah nurain, dua cahaya yang diberikan kepada Nabi SAW?",
+   "options": [
+    "Quran dan Taurat",
+    "Siang dan malam",
+    "Al-Fatihah dan dua ayat akhir Al-Baqarah",
+    "Matahari dan bulan"
+   ],
+   "answer": 2,
+   "explain": "Tiga anugerah termasuk lima solat dan dua ayat akhir Al-Baqarah.",
+   "t": 3431,
+   "source": "glossary:g9",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah yang membezakan hubungan manusia dengan Allah dalam solat?",
+   "options": [
+    "Tiada akses",
+    "Akses terus tanpa perantara, broker atau temu janji",
+    "Perlu perantara",
+    "Perlu temu janji"
+   ],
+   "answer": 1,
+   "explain": "Allah memberi akses terus kepada hamba-Nya.",
+   "t": 4191,
+   "source": "lessons:l15",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah beza orang sibuk yang produktif dengan yang tidak?",
+   "options": [
+    "Tiada beza",
+    "Orang sibuk sentiasa produktif",
+    "Orang produktif tidak sibuk",
+    "Sibuk tidak sama dengan produktif; ada yang bergerak ke kiri dan kanan tanpa hasil"
+   ],
+   "answer": 3,
+   "explain": "Sibuk tidak sama dengan produktif.",
+   "t": 328,
+   "source": "lessons:l2",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Jika ayah sendiri tidak menjaga solat, perintah menyuruh keluarga bersolat kurang berkesan.",
+   "answer": true,
+   "explain": "Betul. Ayah ialah teladan solat dalam keluarga.",
+   "t": 493,
+   "source": "lessons:l4",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Ibadah hanya bermula selepas bersara kerana pencen ialah berhenti bekerja.",
+   "answer": false,
+   "explain": "Salah. Seluruh hidup ialah ibadah, bukan hanya selepas pencen.",
+   "t": 1603,
+   "source": "lessons:l8",
+   "level": 2
+  },
+  {
+   "id": "q9",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Turun ke Masjid Al-Aqsa dan kembali ke Makkah"
+    },
+    {
+     "id": "b",
+     "text": "Tiga anugerah diberikan kepada Nabi SAW"
+    },
+    {
+     "id": "c",
+     "text": "Pintu langit dibuka dan malaikat turun"
+    },
+    {
+     "id": "d",
+     "text": "Bahagian terakhir Isra' Mi'raj bermula"
+    }
+   ],
+   "answer": [
+    "d",
+    "b",
+    "c",
+    "a"
+   ],
+   "explain": "Bahagian terakhir bermula, tiga anugerah, pintu langit dibuka, lalu turun ke Al-Aqsa dan pulang ke Makkah.",
+   "t": 141,
+   "source": "events:e1",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Salah (solat)"
+    },
+    {
+     "id": "b",
+     "text": "Silah"
+    },
+    {
+     "id": "c",
+     "text": "I'tikaf"
+    },
+    {
+     "id": "d",
+     "text": "Hikikomori"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Orang muda yang mengurung diri dan memutuskan hubungan"
+    },
+    {
+     "id": "2",
+     "text": "Berdiam di masjid untuk beribadah"
+    },
+    {
+     "id": "3",
+     "text": "Sambungan atau hubungan"
+    },
+    {
+     "id": "4",
+     "text": "Doa dan sambungan dengan Tuhan"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "3"
+    ],
+    [
+     "c",
+     "2"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Salah doa dan sambungan, silah hubungan, i'tikaf berdiam di masjid, dan hikikomori mengurung diri.",
+   "t": 803,
+   "source": "glossary:g1",
+   "level": 1
+  }
+ ]
+}

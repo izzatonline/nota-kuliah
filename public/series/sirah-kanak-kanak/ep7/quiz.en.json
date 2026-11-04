@@ -1,0 +1,171 @@
+{
+ "id": "ep7",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "How old was the Prophet SAW when he went to Sham with Abu Talib?",
+   "options": [
+    "Nine",
+    "Twelve",
+    "Fifteen",
+    "Twenty"
+   ],
+   "explain": "Abu Talib softened and let the twelve-year-old Prophet come along."
+  },
+  {
+   "id": "q2",
+   "q": "What was Abu Talib's real name?",
+   "options": [
+    "Abdul Muttalib",
+    "Talib",
+    "Abdul Manaf",
+    "Amr"
+   ],
+   "explain": "Abu Talib's real name was Abdul Manaf. He was a poor merchant."
+  },
+  {
+   "id": "q3",
+   "q": "Who was the wife of Abu Talib who cared for the Prophet SAW like a mother?",
+   "options": [
+    "Fatimah bint Asad",
+    "Aminah",
+    "Umm Hani",
+    "Halimah"
+   ],
+   "explain": "Fatimah bint Asad looked after him, later embraced Islam and migrated to Madinah."
+  },
+  {
+   "id": "q4",
+   "q": "What was the name of the caravan stop on the road to Sham where they met the monk Bahira?",
+   "options": [
+    "Gaza",
+    "Busra",
+    "Yathrib",
+    "Al-Abwa'"
+   ],
+   "explain": "Busra was a caravan stop on the road to Sham."
+  },
+  {
+   "id": "q5",
+   "q": "Who was Bahira?",
+   "options": [
+    "A monk or scholar in Busra",
+    "The king of Sham",
+    "A merchant from Makkah",
+    "A shepherd"
+   ],
+   "explain": "Bahira was a scholar who read the old scriptures and recognised the signs of prophethood."
+  },
+  {
+   "id": "q6",
+   "q": "What advice did Bahira give Abu Talib?",
+   "options": [
+    "Take him on to Sham",
+    "Bring him back to Makkah",
+    "Leave him in Busra",
+    "Hand him to the monks"
+   ],
+   "explain": "Bahira advised Abu Talib not to take him on to Sham and to return to Makkah."
+  },
+  {
+   "id": "q7",
+   "q": "Why did the Prophet SAW fall asleep when he wanted to listen to singing?",
+   "options": [
+    "Because he was tired",
+    "Because Allah protected him from what harms the heart and character",
+    "Because the singing was quiet",
+    "Because Abu Talib told him to sleep"
+   ],
+   "explain": "Two nights in a row he fell asleep before he could listen. Allah protects whom He wills."
+  },
+  {
+   "id": "q8",
+   "q": "A camel has eyelashes like wipers that protect its eyes, a sign of Allah's creation.",
+   "explain": "True. The ustaz invites us to observe Allah's creation, like the camel."
+  },
+  {
+   "id": "q9",
+   "q": "All sirah scholars accept the story of Bahira without any doubt.",
+   "explain": "False. Some scholars doubt the story because Abu Talib did not embrace Islam. Differences of opinion exist in the sirah."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Bahira invites everyone to eat"
+    },
+    {
+     "id": "b",
+     "text": "He lives in Abu Talib's house"
+    },
+    {
+     "id": "c",
+     "text": "Bahira warns Abu Talib"
+    },
+    {
+     "id": "d",
+     "text": "A cloud shades the caravan"
+    },
+    {
+     "id": "e",
+     "text": "Abu Talib lets him come to Sham"
+    }
+   ],
+   "explain": "He lived in Abu Talib's house, went to Sham, a cloud shaded the caravan, and Bahira invited them to eat and gave his warning."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Sham"
+    },
+    {
+     "id": "b",
+     "text": "Busra"
+    },
+    {
+     "id": "c",
+     "text": "Torah"
+    },
+    {
+     "id": "d",
+     "text": "Ahmad"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A caravan stop on the road to Sham"
+    },
+    {
+     "id": "2",
+     "text": "The scripture given to Prophet Musa AS"
+    },
+    {
+     "id": "3",
+     "text": "The name of the final prophet announced by Prophet Isa"
+    },
+    {
+     "id": "4",
+     "text": "The northern region, direction of the summer trade journey"
+    }
+   ],
+   "explain": "Sham is the northern region, Busra a caravan stop, the Torah the book of Prophet Musa, and Ahmad the name of the final prophet mentioned by Isa."
+  },
+  {
+   "id": "q12",
+   "q": "You catch sight of an inappropriate picture in a magazine or a shopping centre. What should you do?",
+   "options": [
+    "Keep looking at it",
+    "Cover or change it and guard your gaze",
+    "Show it to a friend",
+    "Take a photo of it"
+   ],
+   "explain": "The ustaz teaches us to guard our gaze by covering or changing such pictures, just as the Prophet SAW was protected from such things."
+  }
+ ]
+}

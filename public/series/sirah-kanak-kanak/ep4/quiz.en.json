@@ -1,0 +1,171 @@
+{
+ "id": "ep4",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "On which day of the week was the Prophet SAW born?",
+   "options": [
+    "Friday",
+    "Monday",
+    "Thursday",
+    "Sunday"
+   ],
+   "explain": "The exact date is not known, but the Year of the Elephant, a Monday and the month of Rabiul Awal are known with confidence."
+  },
+  {
+   "id": "q2",
+   "q": "Who received the Prophet SAW at his birth?",
+   "options": [
+    "Halimah",
+    "Thuwaibah",
+    "Umm Ayman",
+    "Shaymaa"
+   ],
+   "explain": "He was born at full term and was received by Umm Ayman, the servant who looked after Aminah."
+  },
+  {
+   "id": "q3",
+   "q": "What does the name Muhammad mean?",
+   "options": [
+    "The praised one",
+    "The orphan",
+    "The blessed one",
+    "Son of Abdullah"
+   ],
+   "explain": "Muhammad means the praised one, from the same root as Ahmad."
+  },
+  {
+   "id": "q4",
+   "q": "Who named him Muhammad?",
+   "options": [
+    "Aminah",
+    "Abu Talib",
+    "Abdul Muttalib, his grandfather",
+    "Halimah"
+   ],
+   "explain": "Abdul Muttalib named his grandson Muhammad in front of the Kaaba. The name was rarely used among the Arabs then."
+  },
+  {
+   "id": "q5",
+   "q": "Who was the Prophet's SAW wet nurse from Banu Sa'd?",
+   "options": [
+    "Thuwaibah",
+    "Halimah As-Sa'diyah",
+    "Umm Ayman",
+    "Aminah"
+   ],
+   "explain": "Halimah came to Makkah looking for a baby to nurse and took baby Muhammad."
+  },
+  {
+   "id": "q6",
+   "q": "Why were babies sent to the countryside to be nursed?",
+   "options": [
+    "Because Makkah had no women who could nurse",
+    "Because the parents did not love them",
+    "Because the Kaaba was not suitable for babies",
+    "Because the air and water were clean and the Arabic was pure"
+   ],
+   "explain": "The air and water in the village were clean and the Arabic there was pure, so the Prophet SAW had excellent Arabic."
+  },
+  {
+   "id": "q7",
+   "q": "What did the angels wash the Prophet's SAW heart with?",
+   "options": [
+    "Zamzam water",
+    "Sea water",
+    "Milk",
+    "Rainwater"
+   ],
+   "explain": "When he was just over three years old, the angels opened his chest and washed his heart with Zamzam water."
+  },
+  {
+   "id": "q8",
+   "q": "Abdullah died after the Prophet SAW was born.",
+   "explain": "False. Abdullah died in Yathrib when the baby in Aminah's womb was only two months along."
+  },
+  {
+   "id": "q9",
+   "q": "Halimah took baby Muhammad even though nobody else wanted him, and her provision grew.",
+   "explain": "True. Halimah took the orphan baby, and her milk and livestock increased."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The Prophet SAW is born"
+    },
+    {
+     "id": "b",
+     "text": "The angels open his chest"
+    },
+    {
+     "id": "c",
+     "text": "Abdullah marries Aminah"
+    },
+    {
+     "id": "d",
+     "text": "Halimah takes baby Muhammad"
+    },
+    {
+     "id": "e",
+     "text": "Abdullah dies in Yathrib"
+    }
+   ],
+   "explain": "Abdullah married Aminah and died, the Prophet was born, Halimah took him, and later his chest was opened."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Yatim (orphan)"
+    },
+    {
+     "id": "b",
+     "text": "Khatan"
+    },
+    {
+     "id": "c",
+     "text": "Banu Sa'd"
+    },
+    {
+     "id": "d",
+     "text": "Wet nurse"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A village woman who nurses a city family's baby"
+    },
+    {
+     "id": "2",
+     "text": "A child whose father has died"
+    },
+    {
+     "id": "3",
+     "text": "The village outside Makkah where the Prophet SAW was nursed"
+    },
+    {
+     "id": "4",
+     "text": "Circumcision"
+    }
+   ],
+   "explain": "A yatim is a child who lost his father, khatan is circumcision, Banu Sa'd is the village where he was nursed, and a wet nurse is the woman who nurses the baby."
+  },
+  {
+   "id": "q12",
+   "q": "A friend of yours has lost their father. Based on this episode, what should we do?",
+   "options": [
+    "Take care of them, because orphans easily feel alone",
+    "Leave them alone",
+    "Keep away from them",
+    "Hope they forget soon"
+   ],
+   "explain": "Orphans easily feel alone, so they need to be cared for."
+  }
+ ]
+}

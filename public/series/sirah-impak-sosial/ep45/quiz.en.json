@@ -1,0 +1,149 @@
+{
+ "id": "ep45",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What is hifz ad-din?",
+   "options": [
+    "Protecting religion, one of the basic aims of the Shariah",
+    "Protecting wealth",
+    "Protecting vehicles",
+    "Protecting the market"
+   ],
+   "explain": "The ustaz links it to the pledge and the prohibition of shirk."
+  },
+  {
+   "id": "q2",
+   "q": "What is followership?",
+   "options": [
+    "The ability to be a good follower",
+    "Leadership",
+    "Business",
+    "War"
+   ],
+   "explain": "We like discussing leadership but forget followership."
+  },
+  {
+   "id": "q3",
+   "q": "What was prioritised in the first pledge before rulings on war or migration?",
+   "options": [
+    "War",
+    "Immediate migration",
+    "Taxes",
+    "Changing people first before the rules"
+   ],
+   "explain": "The first pledge had no clause on war or migration."
+  },
+  {
+   "id": "q4",
+   "q": "What did the six young men show about the youth?",
+   "options": [
+    "They fought",
+    "They traded",
+    "They cared about society, not social-media-addicted zombies",
+    "They did not care"
+   ],
+   "explain": "Young people who care about society."
+  },
+  {
+   "id": "q5",
+   "q": "Why is admitting a problem important?",
+   "options": [
+    "It blames others",
+    "We can solve it only if we admit it",
+    "It is shameful",
+    "It is unimportant"
+   ],
+   "explain": "Honestly acknowledge problems."
+  },
+  {
+   "id": "q6",
+   "q": "Building a reform project starts at home since the family is the foundation of society.",
+   "explain": "True. Start from home."
+  },
+  {
+   "id": "q7",
+   "q": "Da'wah may be based on personal opinion without evidence.",
+   "explain": "False. There must be \"Allah said\" and \"the Messenger said\"."
+  },
+  {
+   "id": "q8",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "They ask for a teacher to be sent"
+    },
+    {
+     "id": "b",
+     "text": "Twelve people give the pledge"
+    },
+    {
+     "id": "c",
+     "text": "Six young Khazraj men respond"
+    },
+    {
+     "id": "d",
+     "text": "They teach their families and tribes"
+    },
+    {
+     "id": "e",
+     "text": "The six-point pledge"
+    }
+   ],
+   "explain": "Six youths responded, taught their tribes, twelve pledged, six matters were promised, and then they asked for a teacher."
+  },
+  {
+   "id": "q9",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Bu'ath"
+    },
+    {
+     "id": "b",
+     "text": "Sulbah"
+    },
+    {
+     "id": "c",
+     "text": "Pledge of Aqabah"
+    },
+    {
+     "id": "d",
+     "text": "Naqib"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A leader appointed to organise his people"
+    },
+    {
+     "id": "2",
+     "text": "The war of Aws and Khazraj before the Hijrah"
+    },
+    {
+     "id": "3",
+     "text": "The pledge of loyalty between the Prophet and the people of Yathrib"
+    },
+    {
+     "id": "4",
+     "text": "A solid foundation"
+    }
+   ],
+   "explain": "Bu'ath was the Aws–Khazraj war, sulbah is a solid base, the pledge of Aqabah was a loyalty pledge, and a naqib is an appointed leader."
+  },
+  {
+   "id": "q10",
+   "q": "What is the lesson on followership?",
+   "options": [
+    "Everyone must lead",
+    "Follow no one",
+    "Ignore leaders",
+    "Learn to be a good follower, not just discuss leadership"
+   ],
+   "explain": "The family is also a place to learn followership."
+  }
+ ]
+}

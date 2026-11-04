@@ -1,0 +1,222 @@
+{
+ "id": "ep34",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah sakinah, mawaddah dan rahmah?",
+   "options": [
+    "Ketenangan, cinta yang mendalam dan belas kasih sebagai asas rumah tangga",
+    "Tiga nama berhala",
+    "Tiga bulan haram",
+    "Tiga jenis harta"
+   ],
+   "answer": 0,
+   "explain": "Khadijah menjadi sumber ketenangan Nabi SAW.",
+   "t": 1162,
+   "source": "glossary:g6",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Bagaimanakah Nabi SAW menguruskan jenazah Khadijah memandangkan keadaan ketika itu?",
+   "options": [
+    "Nabi SAW menurunkan jenazah ke liang lahat; solat jenazah belum ada",
+    "Dikebumikan di Taif",
+    "Dibakar",
+    "Dibiarkan"
+   ],
+   "answer": 0,
+   "explain": "Belum ada solat jenazah dan memandikan jenazah pada ketika itu.",
+   "t": 1770,
+   "source": "events:e2",
+   "level": 2
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah yang dikenali Nabi SAW apabila melihat tebusan Abul Az?",
+   "options": [
+    "Pedang Hamzah",
+    "Surat Abu Talib",
+    "Cincin Abu Bakar",
+    "Rantai Khadijah"
+   ],
+   "answer": 3,
+   "explain": "Para sahabat membebaskan Abul Az dengan rantai itu.",
+   "t": 2776,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Mengapakah kata penghibur perlu dipilih dengan berhati-hati?",
+   "options": [
+    "Kerana ia dilarang",
+    "Kerana ia tidak benar",
+    "Ucapan seperti Allah akan ganti yang lebih baik mungkin menyakitkan orang yang kehilangan",
+    "Kerana tiada siapa mendengar"
+   ],
+   "answer": 2,
+   "explain": "Berhati-hati dengan kata penghibur.",
+   "t": 2472,
+   "source": "lessons:l6",
+   "level": 2
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah yang diceritakan tentang kesetiaan Nabi SAW kepada Khadijah?",
+   "options": [
+    "Tidak disebut",
+    "Walaupun poligami biasa, baginda tidak berkahwin lain semasa hayatnya",
+    "Baginda berkahwin lagi pada tahun itu",
+    "Baginda bercerai"
+   ],
+   "answer": 1,
+   "explain": "Setia kepada pasangan sepanjang hidup.",
+   "t": 4144,
+   "source": "lessons:l13",
+   "level": 2
+  },
+  {
+   "id": "q6",
+   "type": "tf",
+   "q": "Kesedihan orang yang kehilangan lebih berat selepas orang kembali kepada rutin.",
+   "answer": true,
+   "explain": "Betul. Kesedihan berlarutan lebih lama daripada hari pertama.",
+   "t": 2015,
+   "source": "lessons:l4",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Satu momen buruk atau kata-kata terakhir yang tidak manis menentukan nasib seluruh perjalanan hidup.",
+   "answer": false,
+   "explain": "Salah. Satu momen buruk tidak mentakrif seluruh perjalanan.",
+   "t": 4070,
+   "source": "lessons:l12",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Nabi SAW bermalam di Hujun"
+    },
+    {
+     "id": "b",
+     "text": "Rantai Khadijah menjadi tebusan Abul Az"
+    },
+    {
+     "id": "c",
+     "text": "Khadijah wafat"
+    },
+    {
+     "id": "d",
+     "text": "Nabi SAW mengasingkan diri"
+    },
+    {
+     "id": "e",
+     "text": "Nabi SAW menurunkan jenazah ke liang lahat"
+    }
+   ],
+   "answer": [
+    "c",
+    "e",
+    "d",
+    "b",
+    "a"
+   ],
+   "explain": "Khadijah wafat, dikebumikan, baginda mengasingkan diri, rantai menjadi tebusan, dan baginda kembali sebagai penakluk.",
+   "t": 1689,
+   "source": "events:e1",
+   "level": 2
+  },
+  {
+   "id": "q9",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Takziah"
+    },
+    {
+     "id": "b",
+     "text": "Istirja'"
+    },
+    {
+     "id": "c",
+     "text": "Al-Hajun"
+    },
+    {
+     "id": "d",
+     "text": "Amul Huzun"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Tahun kematian Abu Talib dan Khadijah"
+    },
+    {
+     "id": "2",
+     "text": "Inna lillahi wa inna ilaihi raji'un"
+    },
+    {
+     "id": "3",
+     "text": "Tempat Khadijah dikebumikan di Al-Mu'alla"
+    },
+    {
+     "id": "4",
+     "text": "Ucapan menghibur dan simpati"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "2"
+    ],
+    [
+     "c",
+     "3"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Takziah ucapan simpati, istirja' lafaz Inna lillahi, Al-Hajun tempat Khadijah dikebumikan, dan Amul Huzun tahun kesedihan.",
+   "t": 514,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "mcq",
+   "q": "Bagaimanakah kita dapat menggembirakan orang yang bersedih menurut kuliah ini?",
+   "options": [
+    "Menyuruh mereka move on",
+    "Mengelak mereka",
+    "Merakam mereka",
+    "Memahami kesedihan mereka dan berada bersama"
+   ],
+   "answer": 3,
+   "explain": "Membaca kisah-kisah ini membantu kita memahami kesedihan orang lain.",
+   "t": 4603,
+   "source": "lessons:l14",
+   "level": 3
+  }
+ ]
+}

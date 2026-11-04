@@ -1,0 +1,222 @@
+{
+ "id": "ep46",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah yang diminta dua belas pemuda Yathrib daripada Nabi SAW selepas Perjanjian Aqabah pertama?",
+   "options": [
+    "Seorang guru yang mengajar Quran dan mengimamkan solat",
+    "Seorang panglima",
+    "Harta",
+    "Seorang raja"
+   ],
+   "answer": 0,
+   "explain": "Dua perkara paling asas: Quran dan solat.",
+   "t": 414,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Siapakah yang datang untuk menghalau Mus'ab tetapi beriman selepas mendengar Quran?",
+   "options": [
+    "Usaid dan Sa'ad bin Mu'adh",
+    "Abu Jahal",
+    "Al-Akhnas",
+    "Abu Lahab"
+   ],
+   "answer": 0,
+   "explain": "Mereka beriman selepas mendengar Quran.",
+   "t": 2326,
+   "source": "events:e3",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah ciri pendakwah yang betul menurut ustaz?",
+   "options": [
+    "Ijazah sahaja",
+    "Kekayaan",
+    "Keturunan",
+    "Penguasaan Quran, interpersonal, akhlak dan hikmah, bukan ijazah sahaja"
+   ],
+   "answer": 3,
+   "explain": "Pilih pendakwah dengan ciri yang betul.",
+   "t": 727,
+   "source": "lessons:l2",
+   "level": 2
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Mengapakah Nabi SAW menghantar Mus'ab yang muda bersama Abdullah bin Ummi Maktum yang lebih senior?",
+   "options": [
+    "Kerana mereka kaya",
+    "Kerana mereka bersaudara",
+    "Untuk menyeimbangkan semangat muda dengan kematangan senior",
+    "Kerana mereka sahaja yang ada"
+   ],
+   "answer": 2,
+   "explain": "Seimbangkan semangat muda dengan kematangan senior.",
+   "t": 1641,
+   "source": "lessons:l5",
+   "level": 2
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah nasihat As'ad kepada Mus'ab ketika peluang baik terbuka?",
+   "options": [
+    "Berehat",
+    "Ikhlaskan niat",
+    "Mencari kemasyhuran",
+    "Meminta bayaran"
+   ],
+   "answer": 1,
+   "explain": "Ikhlas sejak awal.",
+   "t": 2548,
+   "source": "lessons:l8",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah pesanan tentang cinta populariti bagi pendakwah?",
+   "options": [
+    "Cari populariti",
+    "Bangga dengan pengikut",
+    "Tidak mengapa",
+    "Jaga diri daripada cinta populariti"
+   ],
+   "answer": 3,
+   "explain": "Pendakwah mudah merasakan orang menerima Islam kerana kemahirannya.",
+   "t": 4954,
+   "source": "lessons:l12",
+   "level": 3
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Mus'ab meminta didengar dahulu dan berjanji pergi jika tidak suka.",
+   "answer": true,
+   "explain": "Betul. Tawarkan mendengar dahulu dengan keyakinan.",
+   "t": 2653,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Pendakwah boleh bekerja cincai tanpa fasa dan perancangan.",
+   "answer": false,
+   "explain": "Salah. Bekerja secara sistematik; Mus'ab dan As'ad memetakan fasa-fasa.",
+   "t": 2224,
+   "source": "lessons:l6",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "As'ad mengumpulkan empat puluh orang untuk solat Jumaat"
+    },
+    {
+     "id": "b",
+     "text": "Dua belas pemuda meminta seorang guru"
+    },
+    {
+     "id": "c",
+     "text": "Usaid dan Sa'ad memeluk Islam"
+    },
+    {
+     "id": "d",
+     "text": "Mus'ab dan Abdullah dihantar"
+    },
+    {
+     "id": "e",
+     "text": "Darul Arqam di rumah As'ad"
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "e",
+    "c",
+    "a"
+   ],
+   "explain": "Permintaan guru, Mus'ab dihantar, rumah As'ad jadi pangkalan, Usaid dan Sa'ad beriman, lalu solat Jumaat.",
+   "t": 414,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Al-Muqri"
+    },
+    {
+     "id": "b",
+     "text": "Naqi' al-Khadimat"
+    },
+    {
+     "id": "c",
+     "text": "Fiqh aqalliyat"
+    },
+    {
+     "id": "d",
+     "text": "Syuhrah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Fiqh minoriti"
+    },
+    {
+     "id": "2",
+     "text": "Cinta kepopularitian"
+    },
+    {
+     "id": "3",
+     "text": "Orang yang mengajarkan Quran, gelaran Mus'ab"
+    },
+    {
+     "id": "4",
+     "text": "Tanah lapang berhampiran Madinah tempat solat Jumaat"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Al-Muqri pengajar Quran, Naqi' al-Khadimat tempat Jumaat, fiqh aqalliyat fiqh minoriti, dan syuhrah cinta populariti.",
+   "t": 2227,
+   "source": "glossary:g1",
+   "level": 1
+  }
+ ]
+}

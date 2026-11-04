@@ -1,0 +1,254 @@
+{
+ "id": "ep44",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah Dhul Majaz, Ukaz dan Majannah?",
+   "options": [
+    "Pasar-pasar besar musim haji tempat kabilah dari seluruh Semenanjung bertemu",
+    "Tiga gunung",
+    "Tiga berhala",
+    "Tiga surah"
+   ],
+   "answer": 0,
+   "explain": "Nabi SAW menemui kabilah di pasar dan perkhemahan.",
+   "t": 689,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Mengapakah Suwaid bin Samit digelar Al-Kamil?",
+   "options": [
+    "Kerana kehebatan syair dan kemuliaan keturunannya",
+    "Kerana kekayaannya",
+    "Kerana kekuatannya",
+    "Kerana usianya"
+   ],
+   "answer": 0,
+   "explain": "Nabi mendengar bacaan Suwaid dahulu sebelum menawarkan yang lebih baik.",
+   "t": 2962,
+   "source": "glossary:g4",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah Aqabah dalam kuliah ini?",
+   "options": [
+    "Sebuah gua",
+    "Sebuah pasar",
+    "Sebuah surah",
+    "Kawasan di Mina tempat Nabi SAW bertemu enam pemuda Khazraj"
+   ],
+   "answer": 3,
+   "explain": "Mereka berjiran dengan Yahudi dan melihat Nabi sebagai nabi yang disebut-sebut.",
+   "t": 3797,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah rage bait?",
+   "options": [
+    "Nama pasar",
+    "Nama doa",
+    "Hantaran yang sengaja membangkitkan marah supaya dikongsi dan dikomen",
+    "Sejenis makanan"
+   ],
+   "answer": 2,
+   "explain": "Dengar sendiri daripada orang itu, bukan tentangnya.",
+   "t": 2910,
+   "source": "glossary:g5",
+   "level": 2
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Mengapakah Abu Bakar menyediakan profil setiap kabilah?",
+   "options": [
+    "Untuk berpuisi",
+    "Supaya Nabi SAW menyesuaikan pendekatan dengan audiens",
+    "Untuk berdagang",
+    "Untuk berperang"
+   ],
+   "answer": 1,
+   "explain": "Sesuaikan pendekatan mengikut audiens.",
+   "t": 1584,
+   "source": "lessons:l5",
+   "level": 2
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah doa yang diajarkan para sahabat ketika dipuji?",
+   "options": [
+    "Doa makan",
+    "Doa safar",
+    "Tiada doa",
+    "Doa supaya tidak mabuk pujian"
+   ],
+   "answer": 3,
+   "explain": "Berhati-hati ketika dipuji.",
+   "t": 354,
+   "source": "lessons:l2",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Apakah yang dilakukan Nabi SAW walaupun diejek dan ditolak setiap kali?",
+   "options": [
+    "Membalas",
+    "Berpindah",
+    "Terus menyampaikan walaupun tidak popular",
+    "Berhenti"
+   ],
+   "answer": 2,
+   "explain": "Berani tidak disukai.",
+   "t": 235,
+   "source": "lessons:l3",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Nabi mendengar bacaan Suwaid dahulu sebelum menawarkan yang lebih baik.",
+   "answer": true,
+   "explain": "Betul. Mulakan dengan rasa ingin tahu yang tulen.",
+   "t": 3022,
+   "source": "lessons:l9",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Dakwah ialah kerja orang agama sahaja.",
+   "answer": false,
+   "explain": "Salah. Para sahabat terdiri daripada pedagang, panglima, petani dan penuntut.",
+   "t": 4413,
+   "source": "lessons:l10",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Enam menjadi dua belas setahun kemudian"
+    },
+    {
+     "id": "b",
+     "text": "Enam pemuda Khazraj menyahut"
+    },
+    {
+     "id": "c",
+     "text": "Tanpa pelindung di Makkah"
+    },
+    {
+     "id": "d",
+     "text": "Kabilah menolak"
+    },
+    {
+     "id": "e",
+     "text": "Menemui kabilah di pasar dan perkhemahan"
+    }
+   ],
+   "answer": [
+    "c",
+    "e",
+    "d",
+    "b",
+    "a"
+   ],
+   "explain": "Tanpa pelindung, menemui kabilah, ditolak, enam pemuda menyahut, dan setahun kemudian dua belas.",
+   "t": 462,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Dhul Majaz"
+    },
+    {
+     "id": "b",
+     "text": "Al-Kamil"
+    },
+    {
+     "id": "c",
+     "text": "Aqabah"
+    },
+    {
+     "id": "d",
+     "text": "Kabilah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Gelaran Suwaid bin Samit"
+    },
+    {
+     "id": "2",
+     "text": "Puak atau kaum Arab"
+    },
+    {
+     "id": "3",
+     "text": "Pasar besar musim haji"
+    },
+    {
+     "id": "4",
+     "text": "Kawasan di Mina"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "1"
+    ],
+    [
+     "c",
+     "4"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Dhul Majaz pasar, Al-Kamil gelaran Suwaid, Aqabah di Mina, dan kabilah puak Arab.",
+   "t": 689,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Dakwah kepada keluarga paling dekat paling sukar. Apakah pengajaran daripada kuliah ini?",
+   "options": [
+    "Menyalahkan keluarga",
+    "Halangan itulah jalan ke depan",
+    "Berhenti",
+    "Mengelak keluarga"
+   ],
+   "answer": 1,
+   "explain": "Tanpa halangan tiada pertumbuhan.",
+   "t": 4354,
+   "source": "lessons:l11",
+   "level": 3
+  }
+ ]
+}

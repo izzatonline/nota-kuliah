@@ -1,0 +1,160 @@
+{
+ "id": "ep12",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What does fujur, the root of the name Al-Fijar, mean?",
+   "options": [
+    "Wickedness or transgression",
+    "Justice",
+    "Trade",
+    "Peace"
+   ],
+   "explain": "The war was named \"wicked\" because it was fought in violation of the sacred months and sanctuary."
+  },
+  {
+   "id": "q2",
+   "q": "What are the sacred months?",
+   "options": [
+    "Four months in which fighting or bloodshed is forbidden",
+    "Months of big sales",
+    "Months of fasting",
+    "Months without trade"
+   ],
+   "explain": "The four sacred months are Muharram, Rajab, Dhul-Qa'dah and Dhul-Hijjah."
+  },
+  {
+   "id": "q3",
+   "q": "Who was killed in the dispute over the trade contract to Ukaz market?",
+   "options": [
+    "Zubayr",
+    "Abdullah bin Jud'an",
+    "Al-As bin Wa'il",
+    "Urwah"
+   ],
+   "explain": "Al-Barrat killed Urwah after losing the trading contract."
+  },
+  {
+   "id": "q4",
+   "q": "How did the Fijar War end?",
+   "options": [
+    "The Prophet SAW stopped it with arms",
+    "It never ended",
+    "Quraysh offered diyah after about five years",
+    "One side won outright"
+   ],
+   "explain": "Negotiation and diyah ended the war."
+  },
+  {
+   "id": "q5",
+   "q": "In whose house was the Hilf Al-Fudul sealed?",
+   "options": [
+    "Al-As bin Wa'il",
+    "Abdullah bin Jud'an",
+    "Abu Talib",
+    "Khadijah"
+   ],
+   "explain": "The Hilf Al-Fudul was a pact to defend the wronged."
+  },
+  {
+   "id": "q6",
+   "q": "Who cheated the Yemeni merchant and refused to pay?",
+   "options": [
+    "Urwah",
+    "Al-As bin Wa'il",
+    "Zubayr",
+    "Al-Barrat"
+   ],
+   "explain": "The merchant complained publicly through poetry on Mount Abi Qubays."
+  },
+  {
+   "id": "q7",
+   "q": "Trading during the Hajj season is permitted.",
+   "explain": "True. Al-Baqarah 2:198 says there is no blame in seeking the bounty of your Lord."
+  },
+  {
+   "id": "q8",
+   "q": "Supporting your own side without judging right or wrong is a jahili mentality.",
+   "explain": "True. That is asabiyyah."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The pact to defend the wronged is sealed"
+    },
+    {
+     "id": "b",
+     "text": "Urwah is killed"
+    },
+    {
+     "id": "c",
+     "text": "The Yemeni merchant complains in verse"
+    },
+    {
+     "id": "d",
+     "text": "The war ends with diyah"
+    },
+    {
+     "id": "e",
+     "text": "War breaks out in the sacred month and sanctuary"
+    }
+   ],
+   "explain": "Urwah was killed, war broke out in the sacred month, diyah ended it, the merchant complained, and the pact was sealed."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Fujur"
+    },
+    {
+     "id": "b",
+     "text": "Diyah"
+    },
+    {
+     "id": "c",
+     "text": "Asabiyyah"
+    },
+    {
+     "id": "d",
+     "text": "Red camel"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Compensation for a life or an injury"
+    },
+    {
+     "id": "2",
+     "text": "A very valuable possession"
+    },
+    {
+     "id": "3",
+     "text": "Tribal fanaticism"
+    },
+    {
+     "id": "4",
+     "text": "Wickedness"
+    }
+   ],
+   "explain": "Fujur is wickedness, diyah is compensation, asabiyyah is tribal fanaticism and the red camel is a figure for precious wealth."
+  },
+  {
+   "id": "q11",
+   "q": "What is the weakest level of faith when seeing wrongdoing?",
+   "options": [
+    "Saying it is no matter",
+    "Joining in",
+    "Pretending not to know",
+    "Hating it in the heart"
+   ],
+   "explain": "The hadith mentions changing it by hand, by tongue, and finally in the heart."
+  }
+ ]
+}

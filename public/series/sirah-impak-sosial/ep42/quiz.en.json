@@ -1,0 +1,145 @@
+{
+ "id": "ep42",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What is a \"comfort crisis\"?",
+   "options": [
+    "Excess comfort becomes a crisis because children are not trained to face hardship",
+    "A food shortage crisis",
+    "A war crisis",
+    "A flood crisis"
+   ],
+   "explain": "The ustaz links it to a generation that is easily fragile."
+  },
+  {
+   "id": "q2",
+   "q": "What is mauhibah?",
+   "options": [
+    "A gift or talent from Allah",
+    "A kind of debt",
+    "A kind of prayer",
+    "A market"
+   ],
+   "explain": "Find work that is halal, suits talent and does no harm."
+  },
+  {
+   "id": "q3",
+   "q": "What is birrul walidain?",
+   "options": [
+    "Keeping away from parents",
+    "Inheriting wealth",
+    "Raising children",
+    "Being good to parents, including after they die"
+   ],
+   "explain": "Keep ties with neighbours, guests, parents and the elderly."
+  },
+  {
+   "id": "q4",
+   "q": "What are the nurain, the two lights given to the Prophet SAW?",
+   "options": [
+    "The Quran and the Torah",
+    "Day and night",
+    "Al-Fatihah and the last two verses of Al-Baqarah",
+    "The sun and the moon"
+   ],
+   "explain": "Three gifts, including the five prayers and the last two verses of Al-Baqarah."
+  },
+  {
+   "id": "q5",
+   "q": "What marks the relationship between a person and Allah in prayer?",
+   "options": [
+    "No access",
+    "Direct access with no intermediary, broker or appointment",
+    "An intermediary is needed",
+    "An appointment is needed"
+   ],
+   "explain": "Allah gives His servant direct access."
+  },
+  {
+   "id": "q6",
+   "q": "How does a busy productive person differ from one who is not?",
+   "options": [
+    "No difference",
+    "The busy are always productive",
+    "The productive are never busy",
+    "Busy is not the same as productive; some move left and right with no output"
+   ],
+   "explain": "Busy is not the same as productive."
+  },
+  {
+   "id": "q7",
+   "q": "If the father himself does not keep his prayers, commanding the family to pray is less effective.",
+   "explain": "True. The father is the example of prayer in the family."
+  },
+  {
+   "id": "q8",
+   "q": "Worship only begins after retirement since a pension means stopping work.",
+   "explain": "False. All of life is worship, not just after retirement."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Coming down to Al-Aqsa Mosque and returning to Makkah"
+    },
+    {
+     "id": "b",
+     "text": "Three gifts are given to the Prophet SAW"
+    },
+    {
+     "id": "c",
+     "text": "A door of heaven opens and an angel descends"
+    },
+    {
+     "id": "d",
+     "text": "The last part of the Isra' Mi'raj begins"
+    }
+   ],
+   "explain": "The last part began, three gifts, the door of heaven opened, then descent to Al-Aqsa and return to Makkah."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Salah (prayer)"
+    },
+    {
+     "id": "b",
+     "text": "Silah"
+    },
+    {
+     "id": "c",
+     "text": "I'tikaf"
+    },
+    {
+     "id": "d",
+     "text": "Hikikomori"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Young people who shut themselves in and cut off contact"
+    },
+    {
+     "id": "2",
+     "text": "Staying in the mosque to worship"
+    },
+    {
+     "id": "3",
+     "text": "A connection or link"
+    },
+    {
+     "id": "4",
+     "text": "Supplication and connection with the Lord"
+    }
+   ],
+   "explain": "Salah is supplication and connection, silah is a link, i'tikaf is staying in the mosque, and hikikomori is shutting oneself in."
+  }
+ ]
+}

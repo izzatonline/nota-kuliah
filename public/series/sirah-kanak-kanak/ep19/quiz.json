@@ -1,0 +1,260 @@
+{
+ "id": "ep19",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Siapakah tuan kepada Bilal bin Rabah yang menyeksanya?",
+   "options": [
+    "Umayyah bin Khalaf",
+    "Abu Bakar",
+    "Abu Quhafah",
+    "Abul Hakam"
+   ],
+   "answer": 0,
+   "explain": "Umayyah, seorang jutawan, menyeksa Bilal kerana malu hambanya memeluk Islam.",
+   "t": 373,
+   "source": "people:p2",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah yang disebut Bilal ketika diseksa dan apakah maksudnya?",
+   "options": [
+    "Rabb, Tuhan",
+    "Ahad, Satu",
+    "Salam, Selamat",
+    "Sabar, Sabar"
+   ],
+   "answer": 1,
+   "explain": "Bilal menyebut Ahad, Allah itu satu, walaupun disebat di tengah jalan.",
+   "t": 680,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah yang membeli dan memerdekakan Bilal?",
+   "options": [
+    "Abu Bakar As-Siddiq",
+    "Umar",
+    "Nabi SAW sendiri",
+    "Khabbab"
+   ],
+   "answer": 0,
+   "explain": "Abu Bakar membayar mahal untuk membebaskan Bilal.",
+   "t": 893,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah yang berlaku kepada Zinnirah selepas dia menyatakan hanya Allah yang berkuasa?",
+   "options": [
+    "Dia dihukum lagi",
+    "Dia meninggalkan Islam",
+    "Dia berpindah ke Syam",
+    "Allah mengembalikan penglihatannya"
+   ],
+   "answer": 3,
+   "explain": "Zinnirah dipukul sehingga buta, lalu Allah memulihkan penglihatannya.",
+   "t": 1193,
+   "source": "events:e3",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah pekerjaan Khabbab yang diseksa dengan besi panas?",
+   "options": [
+    "Penggembala",
+    "Peniaga",
+    "Tukang besi",
+    "Tukang kayu"
+   ],
+   "answer": 2,
+   "explain": "Khabbab ialah tukang besi yang diseksa dengan besi panas di belakangnya.",
+   "t": 1301,
+   "source": "people:p7",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Siapakah syahid pertama dalam Islam?",
+   "options": [
+    "Yasir",
+    "Sumayyah",
+    "Zinnirah",
+    "Ammar"
+   ],
+   "answer": 1,
+   "explain": "Sumayyah ditikam Abu Jahal dan menjadi syahid pertama.",
+   "t": 1722,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Apakah keringanan bagi orang yang dipaksa mengucapkan kata kufur?",
+   "options": [
+    "Dibenarkan untuk bergurau",
+    "Dibenarkan jika dibayar",
+    "Dibenarkan jika hatinya tetap beriman",
+    "Tidak dibenarkan sama sekali"
+   ],
+   "answer": 2,
+   "explain": "Seperti Ammar yang terpaksa tetapi hatinya tetap beriman. Allah memberi keringanan.",
+   "t": 1849,
+   "source": "dalil:q16-106",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "mcq",
+   "q": "Apakah gelaran Nabi SAW kepada Abu Jahal?",
+   "options": [
+    "Bapa kebijaksanaan",
+    "Firaun umat ini",
+    "Al-Amin",
+    "Pedang Allah"
+   ],
+   "answer": 1,
+   "explain": "Orang Arab memanggilnya Abul Hakam, tetapi Nabi SAW menggelarnya Firaun umat ini.",
+   "t": 291,
+   "source": "glossary:g5",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Abu Bakar menggunakan hartanya untuk membeli barang mewah.",
+   "answer": false,
+   "explain": "Salah. Beliau menggunakan hartanya untuk menolong dan membebaskan orang yang diseksa.",
+   "t": 879,
+   "source": "lessons:l2",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Sumayyah syahid"
+    },
+    {
+     "id": "b",
+     "text": "Bilal memeluk Islam secara rahsia"
+    },
+    {
+     "id": "c",
+     "text": "Ammar terpaksa mengucapkan kata kufur"
+    },
+    {
+     "id": "d",
+     "text": "Abu Bakar membeli Bilal"
+    },
+    {
+     "id": "e",
+     "text": "Bilal disebat di tengah jalan"
+    }
+   ],
+   "answer": [
+    "b",
+    "e",
+    "d",
+    "a",
+    "c"
+   ],
+   "explain": "Bilal memeluk Islam, disebat, dibeli Abu Bakar, kemudian Sumayyah syahid dan Ammar terpaksa.",
+   "t": 512,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Ahad"
+    },
+    {
+     "id": "b",
+     "text": "Syahid"
+    },
+    {
+     "id": "c",
+     "text": "Hamba"
+    },
+    {
+     "id": "d",
+     "text": "Abul Hakam"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Orang yang dimiliki tuannya dan tidak digaji"
+    },
+    {
+     "id": "2",
+     "text": "Bapa kebijaksanaan"
+    },
+    {
+     "id": "3",
+     "text": "Orang yang mati mempertahankan agama"
+    },
+    {
+     "id": "4",
+     "text": "Satu"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "3"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Ahad bermaksud satu, syahid mati mempertahankan agama, hamba dimiliki tuannya, dan Abul Hakam bapa kebijaksanaan.",
+   "t": 298,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Kita mudah menyebut la ilaha illallah hari ini. Apakah sikap yang betul?",
+   "options": [
+    "Menyalahkan zaman",
+    "Mensyukuri kemudahan kerana generasi awal telah berkorban",
+    "Menganggapnya biasa",
+    "Tidak peduli"
+   ],
+   "answer": 1,
+   "explain": "Generasi awal berkorban supaya kita mudah menyebut kalimah syahadah.",
+   "t": 1958,
+   "source": "lessons:l5",
+   "level": 3
+  }
+ ]
+}

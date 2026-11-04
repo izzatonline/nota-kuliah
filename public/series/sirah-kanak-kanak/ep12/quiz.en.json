@@ -1,0 +1,167 @@
+{
+ "id": "ep12",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Where did Amr bin Luhay bring the idol Hubal back from?",
+   "options": [
+    "Yaman",
+    "Syam",
+    "Mesir",
+    "Yathrib"
+   ],
+   "explain": "Amr bin Luhay saw the people of Sham worshipping idols and wanted to bring one home."
+  },
+  {
+   "id": "q2",
+   "q": "What does masjid mean?",
+   "options": [
+    "A place of trade",
+    "A place to sleep",
+    "A place of prostration",
+    "A gathering place of tribes"
+   ],
+   "explain": "Masjid comes from the word sujud, so it is a place of prostration."
+  },
+  {
+   "id": "q3",
+   "q": "We face the Kaaba when praying. Whom do we worship?",
+   "options": [
+    "The Kaaba",
+    "The black stone",
+    "Prophet Ibrahim",
+    "Allah alone"
+   ],
+   "explain": "The Kaaba is the qiblah, not what is worshipped. We worship Allah alone."
+  },
+  {
+   "id": "q4",
+   "q": "What was the name of the first great idol set before the Kaaba?",
+   "options": [
+    "Lat",
+    "Uzza",
+    "Hubal",
+    "Manat"
+   ],
+   "explain": "Hubal was the first great idol at the Kaaba, brought by Amr bin Luhay."
+  },
+  {
+   "id": "q5",
+   "q": "Which new idols were made after Hubal?",
+   "options": [
+    "Lat, Uzza and Manat",
+    "Wadd and Suwa'",
+    "Nasr and Ya'uq",
+    "Yaghuth and Hubal"
+   ],
+   "explain": "Distant tribes took home new idols such as Lat, Uzza and Manat."
+  },
+  {
+   "id": "q6",
+   "q": "The five idols the ustaz mentioned come from the time of which prophet?",
+   "options": [
+    "Prophet Ibrahim",
+    "Prophet Nuh",
+    "Prophet Musa",
+    "Prophet Adam"
+   ],
+   "explain": "Five righteous men of the time of Prophet Nuh eventually became idols that were worshipped."
+  },
+  {
+   "id": "q7",
+   "q": "How did statues of righteous men end up being worshipped?",
+   "options": [
+    "They were made to remember them, then over time were worshipped",
+    "They were made by a king to frighten the people",
+    "They were brought by angels",
+    "They were built by Prophet Ibrahim"
+   ],
+   "explain": "Statues meant to remember the righteous ended up being worshipped. Exalting the righteous excessively is dangerous."
+  },
+  {
+   "id": "q8",
+   "q": "Prophet Ibrahim built the Kaaba without idols.",
+   "explain": "True. He called people to worship Allah alone."
+  },
+  {
+   "id": "q9",
+   "q": "Idols spread through tribes who came for Hajj and took new idols home.",
+   "explain": "True. Idols spread through the pilgrimage when distant tribes took them home."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Idols spread through the Hajj"
+    },
+    {
+     "id": "b",
+     "text": "Amr bin Luhay goes to Sham"
+    },
+    {
+     "id": "c",
+     "text": "The Prophet SAW reflects in the Cave of Hira"
+    },
+    {
+     "id": "d",
+     "text": "Hubal is placed at the Kaaba"
+    }
+   ],
+   "explain": "Amr bin Luhay went to Sham, Hubal was set up, idols spread, and in that darkness the Prophet SAW reflected in the Cave of Hira."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Masjid"
+    },
+    {
+     "id": "b",
+     "text": "Qiblah"
+    },
+    {
+     "id": "c",
+     "text": "Hubal"
+    },
+    {
+     "id": "d",
+     "text": "Ummi"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The direction of the Kaaba faced in prayer"
+    },
+    {
+     "id": "2",
+     "text": "Unable to read and write"
+    },
+    {
+     "id": "3",
+     "text": "A place of prostration"
+    },
+    {
+     "id": "4",
+     "text": "The first great idol at the Kaaba"
+    }
+   ],
+   "explain": "A masjid is a place of prostration, the qiblah is the direction of the Kaaba, Hubal was the first idol, and ummi means unable to read and write."
+  },
+  {
+   "id": "q12",
+   "q": "What etiquette for entering the mosque did the ustaz mention?",
+   "options": [
+    "Enter with the left foot",
+    "Enter with the right foot and recite the supplication",
+    "Enter running",
+    "Enter without a supplication"
+   ],
+   "explain": "Enter with the right foot and recite the supplication so that Allah opens the doors of mercy."
+  }
+ ]
+}

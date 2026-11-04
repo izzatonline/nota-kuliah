@@ -1,0 +1,270 @@
+{
+ "id": "ep24",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Berapakah umur Umar bin Al-Khattab ketika memeluk Islam?",
+   "options": [
+    "15 atau 16 tahun",
+    "25 atau 26 tahun",
+    "40 tahun",
+    "60 tahun"
+   ],
+   "answer": 1,
+   "explain": "Umar ialah pemuda gagah berusia 25 atau 26 tahun.",
+   "t": 279,
+   "source": "people:p1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Surah manakah yang didengar Umar di belakang kelambu Kaabah?",
+   "options": [
+    "Taha",
+    "Al-Haqqah",
+    "Al-Alaq",
+    "Al-Fil"
+   ],
+   "answer": 1,
+   "explain": "Umar menyelinap di belakang kain Kaabah dan terpegun mendengar Al-Haqqah.",
+   "t": 694,
+   "source": "events:e1",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah yang memberitahu Umar tentang adiknya yang telah beriman untuk menghalangnya?",
+   "options": [
+    "Nu'aim",
+    "Khabbab",
+    "Hamzah",
+    "Abu Jahal"
+   ],
+   "answer": 0,
+   "explain": "Nu'aim menyembunyikan Islamnya dan memberitahu Umar supaya dia tidak membunuh Nabi SAW.",
+   "t": 967,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Bagaimanakah perasaan Umar apabila terpukul adik perempuannya sehingga berdarah?",
+   "options": [
+    "Gembira",
+    "Malu dan menyesal",
+    "Tidak peduli",
+    "Marah lagi"
+   ],
+   "answer": 1,
+   "explain": "Umar malu dan menyesal, lalu ingin membaca lembaran yang dibaca adiknya.",
+   "t": 1254,
+   "source": "lessons:l3",
+   "level": 2
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Surah manakah yang melembutkan hati Umar?",
+   "options": [
+    "Al-Masad",
+    "Taha",
+    "Al-Kawthar",
+    "Al-Fil"
+   ],
+   "answer": 1,
+   "explain": "Bacaan Taha mengubah Umar yang tadinya mahu membunuh Nabi SAW.",
+   "t": 1343,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Di manakah Umar mengucap syahadah?",
+   "options": [
+    "Di Kaabah",
+    "Di Dar al-Arqam",
+    "Di Habasyah",
+    "Di rumah Abu Jahal"
+   ],
+   "answer": 1,
+   "explain": "Umar menjadi Muslim di hadapan Nabi SAW di Dar al-Arqam.",
+   "t": 1622,
+   "source": "events:e5",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Apakah maksud Al-Faruq, gelaran Umar?",
+   "options": [
+    "Yang memisahkan antara yang benar dan salah",
+    "Yang terpuji",
+    "Yang gagah",
+    "Yang dipercayai"
+   ],
+   "answer": 0,
+   "explain": "Al-Faruq ialah gelaran Umar daripada Nabi SAW.",
+   "t": 1932,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "mcq",
+   "q": "Siapakah yang mengetuai dua barisan umat Islam ke Kaabah untuk solat secara terbuka?",
+   "options": [
+    "Abu Bakar dan Ali",
+    "Bilal dan Ammar",
+    "Khabbab dan Zaid",
+    "Hamzah dan Umar"
+   ],
+   "answer": 3,
+   "explain": "Dua barisan yang diketuai Hamzah dan Umar bergerak ke Kaabah.",
+   "t": 1875,
+   "source": "events:e7",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Sepuluh hari pertama Zulhijjah ialah hari yang paling Allah sukai sepanjang tahun.",
+   "answer": true,
+   "explain": "Betul. Ustaz mengingatkan perkara ini pada pembukaan kuliah.",
+   "t": 87,
+   "source": "lessons:l8",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "tf",
+   "q": "Umar mula berubah apabila mendengar sendiri bacaan Nabi SAW, bukan hanya cerita orang lain.",
+   "answer": true,
+   "explain": "Betul. Jangan bergaduh tanpa memahami. Dengar sendiri dahulu.",
+   "t": 741,
+   "source": "lessons:l1",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Umar mengucap syahadah"
+    },
+    {
+     "id": "b",
+     "text": "Umar membaca Surah Taha"
+    },
+    {
+     "id": "c",
+     "text": "Umar mendengar Surah Al-Haqqah"
+    },
+    {
+     "id": "d",
+     "text": "Umar menyerang adiknya"
+    },
+    {
+     "id": "e",
+     "text": "Nu'aim menghalang Umar"
+    }
+   ],
+   "answer": [
+    "c",
+    "e",
+    "d",
+    "b",
+    "a"
+   ],
+   "explain": "Umar mendengar Al-Haqqah, dihalang Nu'aim, terpukul adiknya, membaca Taha, lalu mengucap syahadah.",
+   "t": 694,
+   "source": "events:e1",
+   "level": 2
+  },
+  {
+   "id": "q12",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Zulhijjah"
+    },
+    {
+     "id": "b",
+     "text": "Al-Haqqah"
+    },
+    {
+     "id": "c",
+     "text": "Syair"
+    },
+    {
+     "id": "d",
+     "text": "Khalifah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Puisi yang disusun merdu"
+    },
+    {
+     "id": "2",
+     "text": "Bulan haji"
+    },
+    {
+     "id": "3",
+     "text": "Pemimpin pengganti Nabi SAW"
+    },
+    {
+     "id": "4",
+     "text": "Surah ke-69"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "2"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "3"
+    ]
+   ],
+   "explain": "Zulhijjah bulan haji, Al-Haqqah surah ke-69, syair puisi, dan khalifah pemimpin pengganti Nabi SAW.",
+   "t": 95,
+   "source": "glossary:g6",
+   "level": 1
+  },
+  {
+   "id": "q13",
+   "type": "mcq",
+   "q": "Seseorang yang nampak mustahil menerima kebenaran. Apakah pengajaran daripada kisah Umar?",
+   "options": [
+    "Tinggalkan dia selama-lamanya",
+    "Hidayah hanya untuk orang miskin",
+    "Hidayah tidak mustahil, dia boleh menjadi penguat Islam",
+    "Jangan berdoa untuknya"
+   ],
+   "answer": 2,
+   "explain": "Orang yang nampak mustahil memeluk Islam boleh menjadi penguat Islam.",
+   "t": 2006,
+   "source": "lessons:l7",
+   "level": 3
+  }
+ ]
+}

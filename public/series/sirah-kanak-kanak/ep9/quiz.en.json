@@ -1,0 +1,171 @@
+{
+ "id": "ep9",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Who was Khadijah's male assistant who went to Sham with the Prophet SAW?",
+   "options": [
+    "Zaid",
+    "Maisarah",
+    "Hakim bin Hizam",
+    "Ali"
+   ],
+   "explain": "Maisarah accompanied him and was amazed that his character did not change even on a hard journey."
+  },
+  {
+   "id": "q2",
+   "q": "Who was the close friend of Khadijah who conveyed her wish to the Prophet SAW?",
+   "options": [
+    "Nafisa",
+    "Hala",
+    "Hind",
+    "Safiyyah"
+   ],
+   "explain": "Nafisa met him and asked why he had not yet married."
+  },
+  {
+   "id": "q3",
+   "q": "How old was the Prophet SAW when he married Khadijah?",
+   "options": [
+    "Twenty",
+    "Twenty-five",
+    "Twenty-eight",
+    "Thirty-five"
+   ],
+   "explain": "He was 25 and Khadijah was 28."
+  },
+  {
+   "id": "q4",
+   "q": "What was the Prophet's SAW mahr to Khadijah?",
+   "options": [
+    "Ten camels",
+    "Twenty young camels",
+    "A hundred camels",
+    "A thousand dirhams"
+   ],
+   "explain": "He gave twenty young camels as mahr, and Khadijah gave Zaid to him as a gift."
+  },
+  {
+   "id": "q5",
+   "q": "Who was the slave Khadijah gifted to the Prophet SAW who chose to stay with him even when his father came?",
+   "options": [
+    "Ali",
+    "Zaid bin Harithah",
+    "Hakim bin Hizam",
+    "Usamah"
+   ],
+   "explain": "Zaid refused to go home with his father because he had not met a man more loving than the Prophet SAW."
+  },
+  {
+   "id": "q6",
+   "q": "Why did the Prophet SAW take Ali from Abu Talib?",
+   "options": [
+    "Because Ali wanted to learn trade",
+    "To ease the burden on Abu Talib's poor family",
+    "Because Abu Talib was ill",
+    "Because Khadijah asked"
+   ],
+   "explain": "The Prophet SAW helped a poor family by taking Ali in as his foster son."
+  },
+  {
+   "id": "q7",
+   "q": "Of the Prophet's SAW children, who was the only one to die after him?",
+   "options": [
+    "Zainab",
+    "Ruqayyah",
+    "Ummu Kulthum",
+    "Fatimah"
+   ],
+   "explain": "Fatimah died six months after him. His other children died before him."
+  },
+  {
+   "id": "q8",
+   "q": "The Quran forbids attributing an adopted child to the adoptive father, so Zaid went back to being known as Zaid bin Harithah.",
+   "explain": "True. Verse Al-Ahzab 33:5 commands that adopted children be named after their biological fathers."
+  },
+  {
+   "id": "q9",
+   "q": "The Prophet SAW accepted ransom money from Harithah to free Zaid.",
+   "explain": "False. He refused the ransom and let Zaid choose for himself."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abu Talib and Hamzah propose"
+    },
+    {
+     "id": "b",
+     "text": "He goes to Sham with Maisarah"
+    },
+    {
+     "id": "c",
+     "text": "He takes Ali in as a foster son"
+    },
+    {
+     "id": "d",
+     "text": "Nafisa conveys Khadijah's wish"
+    },
+    {
+     "id": "e",
+     "text": "He and Khadijah are married"
+    }
+   ],
+   "explain": "He went to Sham, Nafisa conveyed the wish, Abu Talib and Hamzah proposed, they married, and then he took Ali in."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Tahirah"
+    },
+    {
+     "id": "b",
+     "text": "Proposing"
+    },
+    {
+     "id": "c",
+     "text": "Mahr"
+    },
+    {
+     "id": "d",
+     "text": "Adopted child"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A gift from a man to the woman he marries"
+    },
+    {
+     "id": "2",
+     "text": "Pure, the title of Khadijah"
+    },
+    {
+     "id": "3",
+     "text": "A child raised as one's own but not given one's lineage"
+    },
+    {
+     "id": "4",
+     "text": "Coming formally to ask for marriage"
+    }
+   ],
+   "explain": "Tahirah means pure, proposing is coming formally to ask for marriage, mahr is a gift to the wife, and an adopted child does not take the guardian's lineage."
+  },
+  {
+   "id": "q12",
+   "q": "A friend invites you to gossip about someone. What example does Khadijah give?",
+   "options": [
+    "Guard your tongue, and never gossip, mock or deceive",
+    "Gossip only a little",
+    "Gossip if the person is absent",
+    "Mock them so they know"
+   ],
+   "explain": "Khadijah never gossiped, mocked or deceived."
+  }
+ ]
+}

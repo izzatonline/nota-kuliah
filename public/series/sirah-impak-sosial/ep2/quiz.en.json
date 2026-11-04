@@ -1,0 +1,171 @@
+{
+ "id": "ep2",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "From which figure did the name Quraysh begin?",
+   "options": [
+    "Fihir",
+    "Hashim",
+    "Qusai",
+    "Adnan"
+   ],
+   "explain": "Fihr seized power from Khuza'ah and the name Quraysh began with him."
+  },
+  {
+   "id": "q2",
+   "q": "What was the ilaf?",
+   "options": [
+    "An agreement and a guarantee of safe trade",
+    "A kind of idol",
+    "The name of a well",
+    "The name of a market"
+   ],
+   "explain": "Hashim made the ilaf agreements with tribes and great powers, making two trade journeys possible."
+  },
+  {
+   "id": "q3",
+   "q": "Where did the Quraysh trade journey go in winter?",
+   "options": [
+    "Syam",
+    "Mesir",
+    "Rom",
+    "Yaman"
+   ],
+   "explain": "Winter to Yemen and summer to Sham, mentioned in Surah Quraysh."
+  },
+  {
+   "id": "q4",
+   "q": "Why was Amr bin Abdul Manaf called Hashim?",
+   "options": [
+    "Because he had white hair",
+    "Because he dug Zamzam",
+    "Because he crumbled bread into broth for the pilgrims",
+    "Because he was born in Yathrib"
+   ],
+   "explain": "Hashim derives from a word meaning to crumble bread."
+  },
+  {
+   "id": "q5",
+   "q": "Who brought Shaybah back from Yathrib to Makkah?",
+   "options": [
+    "Fihir",
+    "Al-Muttalib",
+    "Hala",
+    "Wuhaib"
+   ],
+   "explain": "Al-Muttalib, Hashim's brother, brought Shaybah, and from there the name Abdul Muttalib began."
+  },
+  {
+   "id": "q6",
+   "q": "How did Abdul Muttalib rediscover Zamzam?",
+   "options": [
+    "With the azlam arrows",
+    "Shown by Fihr",
+    "Found by a merchant",
+    "After dreaming over four days, then digging"
+   ],
+   "explain": "After four days of dreaming, he dug and found the water of Zamzam."
+  },
+  {
+   "id": "q7",
+   "q": "How many camels were set as the diyah after the ransom of Abdullah?",
+   "options": [
+    "Ten",
+    "Fifty",
+    "A hundred",
+    "A thousand"
+   ],
+   "explain": "Diyah is the compensation for killing someone, set at a hundred camels."
+  },
+  {
+   "id": "q8",
+   "q": "Makkah lay on the trade routes and was used to make it a commercial hub.",
+   "explain": "True. Hashim made use of Makkah's strategic position."
+  },
+  {
+   "id": "q9",
+   "q": "A noble lineage decides a person's fate in the Hereafter.",
+   "explain": "False. A noble lineage is a high status but does not decide one's fate in the Hereafter."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abdul Muttalib finds Zamzam"
+    },
+    {
+     "id": "b",
+     "text": "Hashim opens the ilaf agreements"
+    },
+    {
+     "id": "c",
+     "text": "Abdullah is ransomed with a hundred camels"
+    },
+    {
+     "id": "d",
+     "text": "Fihr seizes power from Khuza'ah"
+    },
+    {
+     "id": "e",
+     "text": "Shaybah is brought to Makkah"
+    }
+   ],
+   "explain": "Fihr, Hashim's ilaf, Shaybah brought to Makkah, Zamzam found, then Abdullah ransomed."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Quraysh"
+    },
+    {
+     "id": "b",
+     "text": "Ilaf"
+    },
+    {
+     "id": "c",
+     "text": "Dar an-Nadwah"
+    },
+    {
+     "id": "d",
+     "text": "Azlam"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Arrows used to decide"
+    },
+    {
+     "id": "2",
+     "text": "The gathering place of Makkah's leaders, like a parliament"
+    },
+    {
+     "id": "3",
+     "text": "Trade-security agreement"
+    },
+    {
+     "id": "4",
+     "text": "The name from the descendants of Fihr"
+    }
+   ],
+   "explain": "Quraysh is the name from Fihr, ilaf a trade-security agreement, Dar an-Nadwah a parliament-like hall, and azlam arrows of decision."
+  },
+  {
+   "id": "q12",
+   "q": "When your provision increases, what example does Hashim give?",
+   "options": [
+    "Keep it all",
+    "Share the wealth, as Hashim did with the pilgrims",
+    "Boast of the wealth",
+    "Hide it"
+   ],
+   "explain": "When Makkah grew rich, Hashim shared with the pilgrims, and that is the origin of the name Hashim."
+  }
+ ]
+}

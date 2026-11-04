@@ -10,8 +10,7 @@ import { fmt } from '@/lib/data'
 import { useT } from '@/lib/i18n'
 import type { Book, Dalil, Lesson, Notes, Person, SirahEvent, Term } from '@/lib/types'
 
-export type TabKey = 'topik' | 'ringkasan' | 'dalil' | 'kitab' | 'tokoh' | 'sirah' | 'pengajaran' | 'peta' | 'istilah'
-
+export type TabKey = 'topik' | 'ringkasan' | 'dalil' | 'kitab' | 'tokoh' | 'sirah' | 'pengajaran' | 'peta' | 'istilah' | 'kuiz'
 const Heading = ({ children, hint }: { children: ReactNode; hint?: string }) => (
   <div className="mb-3 mt-1">
     <h3 className="text-sm font-semibold tracking-tight">{children}</h3>

@@ -1,0 +1,149 @@
+{
+ "id": "ep28",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Why did Quraysh leave the Prophet SAW alone for 40 years but oppose him later?",
+   "options": [
+    "Because he began to challenge the system, not just rituals",
+    "Because he migrated",
+    "Because he was wealthy",
+    "Because he waged war"
+   ],
+   "explain": "Criticise the system, not only the rituals."
+  },
+  {
+   "id": "q2",
+   "q": "What small share of steadfast people is enough for change, according to this lecture?",
+   "options": [
+    "About two percent",
+    "Ninety percent",
+    "Fifty percent",
+    "Everyone"
+   ],
+   "explain": "Change can happen with about two percent who are ready to sacrifice."
+  },
+  {
+   "id": "q3",
+   "q": "What does mudhammam, Ummu Jamil's name for Muhammad, mean?",
+   "options": [
+    "The praised",
+    "The honest",
+    "The strong",
+    "The reviled"
+   ],
+   "explain": "Muhammad means praised; mudhammam is a mockery."
+  },
+  {
+   "id": "q4",
+   "q": "What is the advice about independence of soul and identity?",
+   "options": [
+    "Judge ourselves by the colonisers",
+    "Copy entirely",
+    "Be proud of our own language, food and culture",
+    "Reject all our own culture"
+   ],
+   "explain": "Do not measure yourself by the coloniser."
+  },
+  {
+   "id": "q5",
+   "q": "What did the companions do to show their longing for the Prophet SAW?",
+   "options": [
+    "Gathered in one place",
+    "Spread across the world, not just weep at the grave",
+    "Only wept at the grave",
+    "Stopped doing deeds"
+   ],
+   "explain": "Longing for the Prophet SAW needs action."
+  },
+  {
+   "id": "q6",
+   "q": "Defending one's own ethnic group is always wrong in Islam.",
+   "explain": "False. Defending is not wrong, but despising others and breeding enmity is jahili."
+  },
+  {
+   "id": "q7",
+   "q": "Riba widens the gap between rich and poor, unlike zakat which closes it.",
+   "explain": "True. Riba impoverishes systemically."
+  },
+  {
+   "id": "q8",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The sun in my right hand"
+    },
+    {
+     "id": "b",
+     "text": "Filth and thorns are placed"
+    },
+    {
+     "id": "c",
+     "text": "The Prophet SAW calls \"Say La ilaha illallah\""
+    },
+    {
+     "id": "d",
+     "text": "The elite council demands he be stopped"
+    },
+    {
+     "id": "e",
+     "text": "Uthman, Abu Bakr and Talha are bound"
+    }
+   ],
+   "explain": "He called out, filth and thorns, companions bound, the elite demanded, then the \"sun in my right hand\" reply."
+  },
+  {
+   "id": "q9",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Muhaddithat"
+    },
+    {
+     "id": "b",
+     "text": "Maritime Silk Road"
+    },
+    {
+     "id": "c",
+     "text": "Riba"
+    },
+    {
+     "id": "d",
+     "text": "Al-Ma'un"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Women narrators of hadith"
+    },
+    {
+     "id": "2",
+     "text": "Small aid withheld by the stingy"
+    },
+    {
+     "id": "3",
+     "text": "Interest that widens the gap between rich and poor"
+    },
+    {
+     "id": "4",
+     "text": "The sea silk route from the east to Arabia"
+    }
+   ],
+   "explain": "Muhaddithat are women narrators, the Maritime Silk Road is a sea route, riba widens the gap, and Al-Ma'un is small aid."
+  },
+  {
+   "id": "q10",
+   "q": "You see poverty all around. What is the Prophet's SAW example?",
+   "options": [
+    "Wait for the structure to change",
+    "Not care",
+    "Blame the poor",
+    "Help first while challenging the structure"
+   ],
+   "explain": "Do not wait for the structure to be fixed before helping."
+  }
+ ]
+}

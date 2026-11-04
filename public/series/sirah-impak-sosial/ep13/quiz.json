@@ -1,0 +1,216 @@
+{
+ "id": "ep13",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah mudarabah?",
+   "options": [
+    "Kerjasama pemodal dan pekerja dengan nisbah untung dipersetujui",
+    "Sejenis hadiah perkahwinan",
+    "Perjanjian damai",
+    "Jamuan"
+   ],
+   "answer": 0,
+   "explain": "Pemodal menanggung kerugian wang dan pekerja menanggung kerugian masa dan usaha.",
+   "t": 971,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah nisbah yang ditawarkan Khadijah dalam mudarabah?",
+   "options": [
+    "50-50",
+    "90-10",
+    "10-90",
+    "Tiada nisbah"
+   ],
+   "answer": 0,
+   "explain": "Khadijah menawarkan nisbah 50-50 untuk membawa dagangannya ke Syam.",
+   "t": 1004,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Mengapakah safar bermaksud menyingkap?",
+   "options": [
+    "Kerana jalan itu terbuka",
+    "Kerana unta berlari",
+    "Kerana ia di padang pasir",
+    "Kerana perjalanan menyingkap karakter sebenar seseorang"
+   ],
+   "answer": 3,
+   "explain": "Tanya orang yang pernah bermusafir dengan seseorang untuk menilai karakternya.",
+   "t": 1105,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Siapakah perantara yang menyampaikan hasrat Khadijah kepada Nabi SAW?",
+   "options": [
+    "Maisarah",
+    "Fatimah",
+    "Nafisah",
+    "Hala"
+   ],
+   "answer": 2,
+   "explain": "Nafisah menyampaikan dengan beradab dan menjaga maruah kedua-dua pihak.",
+   "t": 1404,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Siapakah yang menyampaikan lamaran kepada keluarga Khadijah?",
+   "options": [
+    "Abu Lahab sahaja",
+    "Abu Talib dan Hamzah",
+    "Abu Bakar dan Umar",
+    "Ali dan Zaid"
+   ],
+   "answer": 1,
+   "explain": "Lamaran disampaikan dengan syair, tanpa ayah Khadijah yang telah meninggal.",
+   "t": 1542,
+   "source": "events:e3",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah mahar Nabi SAW kepada Khadijah?",
+   "options": [
+    "100 ekor unta",
+    "Seribu dinar",
+    "Sebuah rumah",
+    "20 ekor unta muda"
+   ],
+   "answer": 3,
+   "explain": "Mahar ialah pemberian wajib suami kepada isteri.",
+   "t": 1685,
+   "source": "glossary:g4",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Apakah nasihat hadis tentang menikahkan anak perempuan?",
+   "options": [
+    "Pilih yang paling terkenal",
+    "Tunda selama-lamanya",
+    "Nikahkan lelaki yang diredai agama dan akhlaknya",
+    "Pilih yang paling kaya sahaja"
+   ],
+   "answer": 2,
+   "explain": "Mudahkan yang halal dan jangan letak jangkaan material berlebihan.",
+   "t": 2480,
+   "source": "dalil:h4",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Riwayat lamaran Ummu Hani sebelum kenabian ialah riwayat yang sahih.",
+   "answer": false,
+   "explain": "Salah. Ulama menolaknya dan ia tidak boleh diterima. Semak kesahihan riwayat sirah.",
+   "t": 215,
+   "source": "lessons:l1",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Khadijah menolak peminang yang kaya kerana karakter ialah segala-galanya.",
+   "answer": true,
+   "explain": "Betul. Karakter lebih utama daripada harta.",
+   "t": 734,
+   "source": "lessons:l3",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Ijab dan qabul"
+    },
+    {
+     "id": "b",
+     "text": "Wali"
+    },
+    {
+     "id": "c",
+     "text": "Walimah"
+    },
+    {
+     "id": "d",
+     "text": "Zun Nurain"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Jamuan perkahwinan"
+    },
+    {
+     "id": "2",
+     "text": "Pemilik dua cahaya, gelaran Uthman"
+    },
+    {
+     "id": "3",
+     "text": "Tawaran dan penerimaan dalam akad nikah"
+    },
+    {
+     "id": "4",
+     "text": "Penjaga wanita yang menikahkannya"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Ijab dan qabul tawaran dan penerimaan, wali penjaga wanita, walimah jamuan, dan Zun Nurain gelaran Uthman.",
+   "t": 1712,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "mcq",
+   "q": "Nabi SAW memberitahu pakciknya dahulu sebelum melamar. Apakah pengajarannya?",
+   "options": [
+    "Nikah tidak perlu keluarga",
+    "Hormati keluarga dalam urusan nikah",
+    "Rahsiakan daripada keluarga",
+    "Abaikan pendapat keluarga"
+   ],
+   "answer": 1,
+   "explain": "Lamaran dibawa oleh Abu Talib dan Hamzah.",
+   "t": 1528,
+   "source": "lessons:l9",
+   "level": 3
+  }
+ ]
+}

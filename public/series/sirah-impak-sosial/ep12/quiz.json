@@ -1,0 +1,238 @@
+{
+ "id": "ep12",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah maksud fujur, asal nama Al-Fijar?",
+   "options": [
+    "Kederhakaan atau keburukan",
+    "Keadilan",
+    "Perdagangan",
+    "Perdamaian"
+   ],
+   "answer": 0,
+   "explain": "Perang itu dinamakan buruk kerana dilakukan melanggar bulan dan tanah haram.",
+   "t": 150,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah bulan haram?",
+   "options": [
+    "Empat bulan yang tidak boleh berperang atau menumpahkan darah",
+    "Bulan jualan besar",
+    "Bulan puasa",
+    "Bulan tanpa perdagangan"
+   ],
+   "answer": 0,
+   "explain": "Empat bulan haram ialah Muharram, Rejab, Zulkaedah dan Zulhijjah.",
+   "t": 543,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah yang dibunuh akibat pertikaian tender dagangan ke pasar Ukaz?",
+   "options": [
+    "Zubair",
+    "Abdullah bin Jud'an",
+    "Ash bin Wail",
+    "Urwah"
+   ],
+   "answer": 3,
+   "explain": "Al-Barrat membunuh Urwah kerana kalah tender dagangan.",
+   "t": 371,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Bagaimanakah Perang Al-Fijar berakhir?",
+   "options": [
+    "Nabi SAW menghentikannya dengan senjata",
+    "Ia tidak pernah berakhir",
+    "Quraish menawarkan diat selepas sekitar lima tahun",
+    "Satu pihak menang mutlak"
+   ],
+   "answer": 2,
+   "explain": "Rundingan dan diat menamatkan perang.",
+   "t": 1386,
+   "source": "events:e3",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Di rumah siapakah Hilf Al-Fudul dimeterai?",
+   "options": [
+    "Ash bin Wail",
+    "Abdullah bin Jud'an",
+    "Abu Talib",
+    "Khadijah"
+   ],
+   "answer": 1,
+   "explain": "Hilf Al-Fudul ialah perjanjian untuk membela orang yang dizalimi.",
+   "t": 2024,
+   "source": "glossary:g7",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Siapakah yang menipu pedagang dari Yaman dan enggan membayarnya?",
+   "options": [
+    "Urwah",
+    "Ash bin Wail",
+    "Zubair",
+    "Al-Barrat"
+   ],
+   "answer": 1,
+   "explain": "Pedagang itu mengadu secara terbuka melalui syair di Jabal Abi Qubais.",
+   "t": 1687,
+   "source": "events:e4",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Berdagang semasa musim haji dibenarkan.",
+   "answer": true,
+   "explain": "Betul. Al-Baqarah 2:198 menyebut tiada dosa mencari kurnia Tuhan.",
+   "t": 1501,
+   "source": "dalil:q2-198",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Menyokong pihak sendiri tanpa menilai betul atau salah ialah mentaliti jahiliah.",
+   "answer": true,
+   "explain": "Betul. Itulah asabiyah.",
+   "t": 449,
+   "source": "lessons:l1",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Perjanjian membela yang dizalimi dimeterai"
+    },
+    {
+     "id": "b",
+     "text": "Urwah dibunuh"
+    },
+    {
+     "id": "c",
+     "text": "Pedagang Yaman mengadu melalui syair"
+    },
+    {
+     "id": "d",
+     "text": "Perang berakhir dengan diat"
+    },
+    {
+     "id": "e",
+     "text": "Perang berlaku di bulan dan tanah haram"
+    }
+   ],
+   "answer": [
+    "b",
+    "e",
+    "d",
+    "c",
+    "a"
+   ],
+   "explain": "Urwah dibunuh, perang di bulan haram, diat, pedagang mengadu, dan perjanjian dimeterai.",
+   "t": 371,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Fujur"
+    },
+    {
+     "id": "b",
+     "text": "Diat"
+    },
+    {
+     "id": "c",
+     "text": "Asabiyah"
+    },
+    {
+     "id": "d",
+     "text": "Unta merah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Bayaran ganti rugi bagi nyawa atau kecederaan"
+    },
+    {
+     "id": "2",
+     "text": "Harta yang sangat berharga"
+    },
+    {
+     "id": "3",
+     "text": "Fanatik kepuakan"
+    },
+    {
+     "id": "4",
+     "text": "Kederhakaan atau keburukan"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "1"
+    ],
+    [
+     "c",
+     "3"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Fujur keburukan, diat ganti rugi, asabiyah fanatik kepuakan, dan unta merah perumpamaan harta berharga.",
+   "t": 150,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "mcq",
+   "q": "Apakah tahap iman yang paling lemah apabila melihat kezaliman?",
+   "options": [
+    "Berkata tidak mengapa",
+    "Menyertainya",
+    "Berpura-pura tidak tahu",
+    "Membenci kezaliman dalam hati"
+   ],
+   "answer": 3,
+   "explain": "Hadis menyebut mengubah dengan tangan, lisan, dan akhirnya dengan hati.",
+   "t": 2072,
+   "source": "dalil:h1",
+   "level": 3
+  }
+ ]
+}

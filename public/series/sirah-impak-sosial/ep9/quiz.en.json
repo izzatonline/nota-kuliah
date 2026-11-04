@@ -1,0 +1,171 @@
+{
+ "id": "ep9",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Where did Aminah die on the way back from Yathrib?",
+   "options": [
+    "Al-Abwa'",
+    "Busra",
+    "Gaza",
+    "Taif"
+   ],
+   "explain": "Aminah fell ill and died at Al-Abwa' while the Prophet SAW was with her."
+  },
+  {
+   "id": "q2",
+   "q": "How did Abdul Muttalib treat the young Prophet SAW?",
+   "options": [
+    "He defended him on his special seat and spoke of his bright future",
+    "He told him to sit outside",
+    "He ignored him",
+    "He scolded him"
+   ],
+   "explain": "Give children room and encouraging words."
+  },
+  {
+   "id": "q3",
+   "q": "Why did Abdul Muttalib choose Abu Talib as the Prophet's guardian rather than the richer Al-Abbas or Abu Lahab?",
+   "options": [
+    "Because Abu Talib was the richest",
+    "Because Abu Talib was the oldest",
+    "Because Abu Talib had no children",
+    "Because of his character and ability to bring up a child"
+   ],
+   "explain": "Character matters more than finances when choosing a child's guardian."
+  },
+  {
+   "id": "q4",
+   "q": "Who was the Prophet's SAW second mother in Abu Talib's family?",
+   "options": [
+    "Jumanah",
+    "Halimah",
+    "Fatimah bint Asad",
+    "Umm Hani"
+   ],
+   "explain": "Fatimah bint Asad was among the earliest women to embrace Islam and migrate."
+  },
+  {
+   "id": "q5",
+   "q": "According to the Quranic definition, who counts as an orphan (yatim)?",
+   "options": [
+    "An adult without a father",
+    "A child who lost his father before puberty",
+    "A child who lost only his mother",
+    "Anyone who is poor"
+   ],
+   "explain": "Losing only a mother is not yatim in the Quranic sense, and after puberty one is no longer yatim."
+  },
+  {
+   "id": "q6",
+   "q": "What did the Prophet's SAW orphanhood train in him?",
+   "options": [
+    "Relying on wealth",
+    "Relying on his uncles",
+    "Relying on no one, not even Allah",
+    "Relying on Allah alone, not on people"
+   ],
+   "explain": "The wisdom of orphanhood trained the highest reliance on Allah."
+  },
+  {
+   "id": "q7",
+   "q": "Are orphans among the zakat recipients (asnaf)?",
+   "options": [
+    "Only male orphans",
+    "No, even if poor",
+    "No, unless he is poor",
+    "Yes, all orphans"
+   ],
+   "explain": "An orphan is not a zakat recipient unless poor. Be careful with orphans' names and wealth."
+  },
+  {
+   "id": "q8",
+   "q": "Losing only a mother makes a child an orphan (yatim) in the Quranic sense.",
+   "explain": "False. A yatim lost his father; losing both is called yatim piatu."
+  },
+  {
+   "id": "q9",
+   "q": "Caring for an orphan means eating and living with us, not merely sending money.",
+   "explain": "True. Care for orphans within your own home."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Moves to Abu Talib's house"
+    },
+    {
+     "id": "b",
+     "text": "Aminah dies at Al-Abwa'"
+    },
+    {
+     "id": "c",
+     "text": "The journey to Yathrib"
+    },
+    {
+     "id": "d",
+     "text": "The bequest to Abu Talib"
+    },
+    {
+     "id": "e",
+     "text": "Cared for by Abdul Muttalib"
+    }
+   ],
+   "explain": "To Yathrib, Aminah died, his grandfather cared for him, he was bequeathed to Abu Talib, then moved to his house."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Yatim"
+    },
+    {
+     "id": "b",
+     "text": "Yatim piatu"
+    },
+    {
+     "id": "c",
+     "text": "Baligh"
+    },
+    {
+     "id": "d",
+     "text": "Securely attached"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A child who lost his father before puberty"
+    },
+    {
+     "id": "2",
+     "text": "A child who lost both parents"
+    },
+    {
+     "id": "3",
+     "text": "Reaching adulthood in Islamic law"
+    },
+    {
+     "id": "4",
+     "text": "A child bonded to a caring, calming adult"
+    }
+   ],
+   "explain": "Yatim lost the father, yatim piatu lost both parents, baligh is adulthood, and securely attached is bonded to a caregiver."
+  },
+  {
+   "id": "q12",
+   "q": "You are caring for an orphan. What does he need most besides food and drink?",
+   "options": [
+    "No discipline",
+    "Affection and an adult he is attached to",
+    "Only money",
+    "To be left alone"
+   ],
+   "explain": "Orphans need love, not just food and drink."
+  }
+ ]
+}

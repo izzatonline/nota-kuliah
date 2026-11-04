@@ -1,0 +1,149 @@
+{
+ "id": "ep37",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What happened to Adas from Nineveh?",
+   "options": [
+    "He embraced Islam even though the Prophet did not invite him",
+    "He refused",
+    "He attacked him",
+    "He moved away"
+   ],
+   "explain": "A man from Nineveh embraced Islam."
+  },
+  {
+   "id": "q2",
+   "q": "What did a group of jinn do on hearing his Quran recitation?",
+   "options": [
+    "Embraced Islam and went back to preach",
+    "Attacked",
+    "Fled",
+    "Mocked"
+   ],
+   "explain": "Jinn are also beings with choice."
+  },
+  {
+   "id": "q3",
+   "q": "Who escorted the Prophet SAW into Makkah, armed?",
+   "options": [
+    "Abu Lahab",
+    "Abu Jahal",
+    "Al-Akhnas",
+    "Mut'im and his sons"
+   ],
+   "explain": "Mut'im announced his protection."
+  },
+  {
+   "id": "q4",
+   "q": "What did the Prophet SAW do in remembrance of Mut'im's favour?",
+   "options": [
+    "Forgot him",
+    "Refused",
+    "Said he would release the captives for his sake",
+    "Gave him authority"
+   ],
+   "explain": "Do not forget the favours of non-Muslims."
+  },
+  {
+   "id": "q5",
+   "q": "What is the lesson about living in a plural society?",
+   "options": [
+    "Copy fully",
+    "Both sides guard sensitivities and cultivate relationships",
+    "Isolate ourselves",
+    "Attack"
+   ],
+   "explain": "Living in harmony in a plural society."
+  },
+  {
+   "id": "q6",
+   "q": "How do we cooperate with people of other faiths?",
+   "options": [
+    "By abandoning tawhid",
+    "Never cooperating",
+    "By changing religion",
+    "On agreed matters without loosening tawhid"
+   ],
+   "explain": "Cooperate without loosening tawhid."
+  },
+  {
+   "id": "q7",
+   "q": "We are charged with dealing with the world of the jinn.",
+   "explain": "False. Do not be too busy with the jinn world; leave ruqyah issues to specialists."
+  },
+  {
+   "id": "q8",
+   "q": "The Quran should be heard in silence, not as background sound during chatter.",
+   "explain": "True. Ansitu, be silent and listen."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Mut'im announces his protection"
+    },
+    {
+     "id": "b",
+     "text": "A messenger to Al-Akhnas"
+    },
+    {
+     "id": "c",
+     "text": "A group of jinn embrace Islam"
+    },
+    {
+     "id": "d",
+     "text": "Stopping in the valley between Taif and Makkah"
+    },
+    {
+     "id": "e",
+     "text": "Mut'im and his sons escort him"
+    }
+   ],
+   "explain": "He stopped at Nakhlah, the jinn embraced Islam, a messenger went to Al-Akhnas, Mut'im escorted him and announced his protection."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Nakhlah"
+    },
+    {
+     "id": "b",
+     "text": "Nafar"
+    },
+    {
+     "id": "c",
+     "text": "Ansitu"
+    },
+    {
+     "id": "d",
+     "text": "Mukallaf"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A small group of three to nine"
+    },
+    {
+     "id": "2",
+     "text": "A being charged with responsibility who has free will"
+    },
+    {
+     "id": "3",
+     "text": "The fertile valley between Taif and Makkah"
+    },
+    {
+     "id": "4",
+     "text": "Be silent and listen"
+    }
+   ],
+   "explain": "Nakhlah is a fertile valley, nafar a small group, ansitu be silent and listen, and mukallaf a being charged with responsibility."
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "id": "ep3",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What two great powers clashed and flanked Makkah?",
+   "options": [
+    "Christian Rome and fire-worshipping Persia",
+    "Egypt and Abyssinia",
+    "Yemen and Sham",
+    "India and China"
+   ],
+   "explain": "Makkah sat between the clashing Rome and Persia."
+  },
+  {
+   "id": "q2",
+   "q": "The term Yahudi comes from the name of which son of Prophet Ya'qub?",
+   "options": [
+    "Yahuda (Judah)",
+    "Ishaq",
+    "Ismail",
+    "Israel"
+   ],
+   "explain": "From the name Yahuda comes the term Yahudi (Jew)."
+  },
+  {
+   "id": "q3",
+   "q": "About how old was the ghulam in this story?",
+   "options": [
+    "About 5 to 8",
+    "About 13 to 19",
+    "About 30",
+    "About 50"
+   ],
+   "explain": "A ghulam is a boy of about 13 to 19, like a lower-secondary student."
+  },
+  {
+   "id": "q4",
+   "q": "Who was the rahib in this story?",
+   "options": [
+    "A fire-worshipper",
+    "The court magician",
+    "The king of Yemen",
+    "A follower of Prophet Isa AS who still held to tawhid"
+   ],
+   "explain": "The rahib secretly taught the ghulam tawhid."
+  },
+  {
+   "id": "q5",
+   "q": "What was the dabbah in this story?",
+   "options": [
+    "A trench",
+    "A mountain",
+    "A large four-legged beast blocking the road",
+    "The king's army"
+   ],
+   "explain": "The ghulam removed the beast out of concern for the public."
+  },
+  {
+   "id": "q6",
+   "q": "What does Burj mean in the name Surah Al-Buruj?",
+   "options": [
+    "A trench",
+    "A watchtower or fortress",
+    "A valley",
+    "A falling star"
+   ],
+   "explain": "Burj evokes Allah, who records every deed."
+  },
+  {
+   "id": "q7",
+   "q": "From whom did Abraha seize power in Yemen?",
+   "options": [
+    "Najashi",
+    "Dhu Nuwas",
+    "Qusayy",
+    "Aryat"
+   ],
+   "explain": "Abraha was a general of Aryat who seized power, and his story continues into Ashab al-Fil."
+  },
+  {
+   "id": "q8",
+   "q": "The rahib taught a simple tawhid: worship Allah with no intermediaries.",
+   "explain": "True. Humans are not gods and there is no intermediary."
+  },
+  {
+   "id": "q9",
+   "q": "The ghulam accepted the minister's expensive gift as payment for the cure.",
+   "explain": "False. The ghulam refused the gift because his aim was to guide people to faith."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The people believe in the ghulam's Lord"
+    },
+    {
+     "id": "b",
+     "text": "Rome and Persia clash"
+    },
+    {
+     "id": "c",
+     "text": "The rahib and minister are killed"
+    },
+    {
+     "id": "d",
+     "text": "Abraha takes over Yemen"
+    },
+    {
+     "id": "e",
+     "text": "The Jews scatter to Yathrib"
+    }
+   ],
+   "explain": "Rome and Persia clashed, the Jews went to Yathrib, the rahib and minister were killed, the people believed, and Abraha took over Yemen."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Sihr (magic)"
+    },
+    {
+     "id": "b",
+     "text": "Fitrah"
+    },
+    {
+     "id": "c",
+     "text": "Tawriyah"
+    },
+    {
+     "id": "d",
+     "text": "Ashabul Ukhdud"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Man's original nature that recognises the truth"
+    },
+    {
+     "id": "2",
+     "text": "A phrase with two meanings"
+    },
+    {
+     "id": "3",
+     "text": "Reality appearing as A but actually B"
+    },
+    {
+     "id": "4",
+     "text": "Those who dug the trench and burned believers"
+    }
+   ],
+   "explain": "Sihr is hidden reality, fitrah is the original state, tawriyah is a two-meaning phrase, and Ashabul Ukhdud are the trench-diggers."
+  },
+  {
+   "id": "q12",
+   "q": "The people who died in this story seemed to have failed. What is the lesson about success?",
+   "options": [
+    "Success is defeating the king",
+    "Success is wealth",
+    "Success is measured by Allah's perspective",
+    "Success is living long"
+   ],
+   "explain": "Allah changes the perspective by calling them the successful ones."
+  }
+ ]
+}

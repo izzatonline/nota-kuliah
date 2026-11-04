@@ -1,0 +1,163 @@
+{
+ "id": "ep6",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Siapakah yang berselawat kepada Nabi SAW menurut kuliah ini?",
+   "options": [
+    "Allah dan para malaikat, dan kita diperintahkan melakukannya",
+    "Hanya para sahabat",
+    "Hanya para malaikat",
+    "Tiada siapa"
+   ],
+   "answer": 0,
+   "explain": "Selawat ialah ibadah yang istimewa kerana Allah dan malaikat berselawat kepada baginda.",
+   "t": 127,
+   "source": "lessons:l1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Mengapakah kita patut bersyukur dengan nikmat kesihatan zaman ini?",
+   "options": [
+    "Kerana dahulu melahirkan dan membesarkan anak menyabung nyawa, dan perubatan kini menyelamatkan ramai",
+    "Kerana tiada penyakit lagi",
+    "Kerana semua orang kaya",
+    "Kerana tiada ujian"
+   ],
+   "answer": 0,
+   "explain": "Syukuri nikmat kesihatan zaman ini.",
+   "t": 594,
+   "source": "lessons:l3",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah yang dikatakan suami Halimah apabila Halimah ragu-ragu mengambil bayi yatim itu?",
+   "options": [
+    "Tinggalkan sahaja",
+    "Tunggu tahun depan",
+    "Minta bayaran besar",
+    "Allah mungkin memberi rezeki melalui jalan lain"
+   ],
+   "answer": 3,
+   "explain": "Rezeki datang dari jalan yang tidak disangka.",
+   "t": 936,
+   "source": "lessons:l4",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah yang ditunjukkan suami Halimah apabila menenangkan isterinya?",
+   "options": [
+    "Ketakutan",
+    "Ketidakpedulian",
+    "Empati dan ketenangan",
+    "Kemarahan"
+   ],
+   "answer": 2,
+   "explain": "Suami Halimah menunjukkan empati, dan sifat hilm Halimah menjadikan rumah tenang.",
+   "t": 941,
+   "source": "lessons:l5",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah yang dibentuk apabila anak bermain bersama alam, awan, gunung dan sungai?",
+   "options": [
+    "Tiada apa-apa",
+    "Karakter dan kehalusan jiwa",
+    "Hanya kekuatan badan",
+    "Hanya kepandaian berniaga"
+   ],
+   "answer": 1,
+   "explain": "Alam membentuk jiwa dan karakter anak.",
+   "t": 1104,
+   "source": "lessons:l6",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah anak-anak menurut kuliah ini?",
+   "options": [
+    "Beban",
+    "Harta semata-mata",
+    "Perhiasan",
+    "Amanah yang akan dipersoalkan"
+   ],
+   "answer": 3,
+   "explain": "Ibu bapa perlu mencari cara memberi anak kehidupan yang lebih baik.",
+   "t": 1481,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Bilakah teknologi sewajarnya diberikan kepada anak?",
+   "options": [
+    "Sejak kecil lagi",
+    "Apabila anak sudah bersedia, bukan disumbat sejak awal",
+    "Tidak pernah",
+    "Apabila mereka merengek"
+   ],
+   "answer": 1,
+   "explain": "Teknologi ada kebaikan tetapi ada waktu dan fasanya.",
+   "t": 1784,
+   "source": "lessons:l8",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Satu dua kejadian buruk wajar digeneralisasikan sehingga anak dikurung di rumah.",
+   "answer": false,
+   "explain": "Salah. Jangan takut berlebihan sehingga menghalang anak meneroka.",
+   "t": 1642,
+   "source": "lessons:l9",
+   "level": 2
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Tiga tahun pertama kehidupan anak amat menentukan.",
+   "answer": true,
+   "explain": "Betul. Kelalaian awal akan memerlukan pemulihan kemudian.",
+   "t": 2120,
+   "source": "lessons:l11",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "mcq",
+   "q": "Siapakah yang berperanan memastikan anak-anak membesar dengan baik?",
+   "options": [
+    "Hanya ibu",
+    "Ibu bapa, sekolah dan masyarakat bersama",
+    "Hanya sekolah",
+    "Hanya kerajaan"
+   ],
+   "answer": 1,
+   "explain": "Menjaga zaman kanak-kanak ialah tanggungjawab bersama.",
+   "t": 2004,
+   "source": "lessons:l10",
+   "level": 3
+  },
+  {
+   "id": "q11",
+   "type": "tf",
+   "q": "Realiti sirah boleh dilihat hanya dengan kacamata hari ini.",
+   "answer": false,
+   "explain": "Salah. Fahami sirah dalam konteks zamannya.",
+   "t": 235,
+   "source": "lessons:l2",
+   "level": 1
+  }
+ ]
+}

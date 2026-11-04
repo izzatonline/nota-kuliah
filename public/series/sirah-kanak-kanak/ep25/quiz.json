@@ -1,0 +1,254 @@
+{
+ "id": "ep25",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah maksud boikot?",
+   "options": [
+    "Pemutusan hubungan jual beli, perkahwinan dan pergaulan",
+    "Perjanjian damai",
+    "Perayaan",
+    "Hadiah"
+   ],
+   "answer": 0,
+   "explain": "Quraisy memutuskan boikot ke atas Bani Hashim dan Bani Abdul Muttalib.",
+   "t": 418,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Berapa lamakah umat Islam terkepung di Syi'ib Abi Talib?",
+   "options": [
+    "Hampir lima tahun",
+    "Seminggu",
+    "Setahun",
+    "Sepuluh tahun"
+   ],
+   "answer": 0,
+   "explain": "Mereka tinggal berkemah terasing hampir lima tahun, menahan lapar dan dahaga.",
+   "t": 326,
+   "source": "events:e1",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah anak saudara Khadijah yang menghantar unta berisi makanan pada waktu malam?",
+   "options": [
+    "Mut'im bin Adi",
+    "Hakim bin Hizam",
+    "Zuhair",
+    "Abul Bukhtari"
+   ],
+   "answer": 1,
+   "explain": "Hakim bin Hizam menyeludup makanan dan kemudian memeluk Islam.",
+   "t": 646,
+   "source": "people:p4",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Siapakah yang menggerakkan penentangan terhadap boikot dengan memujuk orang seorang demi seorang?",
+   "options": [
+    "Abu Jahal",
+    "Hisham bin Amr",
+    "Abu Lahab",
+    "Khalid"
+   ],
+   "answer": 1,
+   "explain": "Hisham bin Amr memujuk sehingga terbentuk kumpulan yang menentang boikot.",
+   "t": 1070,
+   "source": "events:e3",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Di manakah Zuhair dan rakan-rakan bangun menolak perjanjian boikot?",
+   "options": [
+    "Di Dar al-Arqam",
+    "Di Darun Nadwah",
+    "Di Bukit Safa",
+    "Di Habasyah"
+   ],
+   "answer": 1,
+   "explain": "Darun Nadwah ialah dewan perhimpunan pembesar Quraisy di hadapan Kaabah.",
+   "t": 1368,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah yang tidak dimakan anai-anai pada perjanjian itu?",
+   "options": [
+    "Tandatangan Abu Jahal",
+    "Nama Allah, Bismillahirrahmanirrahim",
+    "Nama Abu Talib",
+    "Nama Nabi SAW"
+   ],
+   "answer": 1,
+   "explain": "Hanya nama Allah yang tinggal. Allah menghantar pertolongan dengan cara kecil.",
+   "t": 1583,
+   "source": "glossary:g5",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Siapakah satu-satunya bapa saudara Nabi SAW yang tidak menyertai kepungan?",
+   "options": [
+    "Abu Talib",
+    "Hamzah",
+    "Abu Lahab",
+    "Al-Abbas"
+   ],
+   "answer": 2,
+   "explain": "Abu Lahab menyokong Abu Jahal dan tidak ikut terkepung.",
+   "t": 2150,
+   "source": "people:p9",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Nabi SAW menyebut jasa Mut'im bin Adi walaupun dia tidak memeluk Islam.",
+   "answer": true,
+   "explain": "Betul. Kita menghargai orang yang membantu walaupun bukan Islam.",
+   "t": 1957,
+   "source": "lessons:l3",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Anai-anai yang kecil boleh membatalkan perjanjian yang besar dengan izin Allah.",
+   "answer": true,
+   "explain": "Betul. Allah menghantar pertolongan dengan cara yang kecil.",
+   "t": 1856,
+   "source": "lessons:l2",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Perjanjian dimakan anai-anai"
+    },
+    {
+     "id": "b",
+     "text": "Kumpulan penentang terbentuk"
+    },
+    {
+     "id": "c",
+     "text": "Quraisy memutuskan boikot"
+    },
+    {
+     "id": "d",
+     "text": "Boikot ditamatkan"
+    },
+    {
+     "id": "e",
+     "text": "Perjanjian digantung di Kaabah"
+    }
+   ],
+   "answer": [
+    "c",
+    "e",
+    "b",
+    "a",
+    "d"
+   ],
+   "explain": "Boikot diputuskan, perjanjian digantung, penentang terbentuk, anai-anai memakannya, dan boikot ditamatkan.",
+   "t": 260,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Boikot"
+    },
+    {
+     "id": "b",
+     "text": "Syi'ib"
+    },
+    {
+     "id": "c",
+     "text": "Darun Nadwah"
+    },
+    {
+     "id": "d",
+     "text": "Kabilah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Kaum atau suku"
+    },
+    {
+     "id": "2",
+     "text": "Dewan perhimpunan pembesar Quraisy"
+    },
+    {
+     "id": "3",
+     "text": "Pemutusan hubungan jual beli dan pergaulan"
+    },
+    {
+     "id": "4",
+     "text": "Lembah atau lorong"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "2"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Boikot memutuskan hubungan, syi'ib lembah, Darun Nadwah dewan Quraisy, dan kabilah suku.",
+   "t": 276,
+   "source": "glossary:g4",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Apakah pengajaran tentang menyokong kezaliman daripada kisah ini?",
+   "options": [
+    "Kezaliman tidak mengapa jika ramai yang buat",
+    "Kita patut berdiam diri",
+    "Hanya musuh yang boleh berbuat zalim",
+    "Lebih malang orang Islam yang menyokong kezaliman"
+   ],
+   "answer": 3,
+   "explain": "Jangan menyokong kezaliman atau mengejek pelarian.",
+   "t": 2062,
+   "source": "lessons:l4",
+   "level": 3
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "id": "ep21",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Who was the first person the Prophet SAW taught to pray?",
+   "options": [
+    "Khadijah",
+    "Ali",
+    "Abu Bakr",
+    "Zayd"
+   ],
+   "explain": "Jibril taught wudu and prayer, and Khadijah was the first to be taught."
+  },
+  {
+   "id": "q2",
+   "q": "What did Ali do before pronouncing the shahada?",
+   "options": [
+    "Took one night to think",
+    "Accepted at once",
+    "Refused",
+    "Went to Sham"
+   ],
+   "explain": "The Prophet SAW allowed Ali time to think. Give room for thought."
+  },
+  {
+   "id": "q3",
+   "q": "Who accepted Islam immediately without hesitation?",
+   "options": [
+    "Ali",
+    "Zayd",
+    "Uthman",
+    "Abu Bakr"
+   ],
+   "explain": "Abu Bakr was the close friend who did not hesitate."
+  },
+  {
+   "id": "q4",
+   "q": "What expertise of Abu Bakr helped the da'wah?",
+   "options": [
+    "Seafaring",
+    "Carpentry",
+    "Genealogy, the knowledge of lineage and tribal relations",
+    "Medicine"
+   ],
+   "explain": "Abu Bakr used his network and integrity."
+  },
+  {
+   "id": "q5",
+   "q": "Why was the house of Al-Arqam chosen as a headquarters?",
+   "options": [
+    "It belonged to Abu Talib",
+    "It lay in the clan of Abu Jahal, which was not suspected",
+    "It was the biggest",
+    "It was near the cave"
+   ],
+   "explain": "The Prophet SAW built a base before announcing publicly."
+  },
+  {
+   "id": "q6",
+   "q": "You have not been praying. What does this lecture advise?",
+   "options": [
+    "It is too late",
+    "Wait until next year",
+    "It is unnecessary",
+    "It is never too late to start today"
+   ],
+   "explain": "Whoever has not prayed can begin today."
+  },
+  {
+   "id": "q7",
+   "q": "A large number is a sign of truth.",
+   "explain": "False. Many or few is not the measure of truth."
+  },
+  {
+   "id": "q8",
+   "q": "The Prophet SAW allowed Ali time to think before embracing Islam.",
+   "explain": "True. Give room to think."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abu Bakr accepts at once"
+    },
+    {
+     "id": "b",
+     "text": "The house of Al-Arqam becomes a base"
+    },
+    {
+     "id": "c",
+     "text": "Zayd embraces Islam"
+    },
+    {
+     "id": "d",
+     "text": "Khadijah is taught to pray"
+    },
+    {
+     "id": "e",
+     "text": "Ali embraces Islam"
+    }
+   ],
+   "explain": "Khadijah, Ali, Zayd, Abu Bakr, then the house of Al-Arqam became a base."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Genealogy"
+    },
+    {
+     "id": "b",
+     "text": "Headquarters"
+    },
+    {
+     "id": "c",
+     "text": "Ghuraba'"
+    },
+    {
+     "id": "d",
+     "text": "Closed da'wah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The base of da'wah, the house of Al-Arqam"
+    },
+    {
+     "id": "2",
+     "text": "Da'wah not announced to the public"
+    },
+    {
+     "id": "3",
+     "text": "Knowledge of lineage and tribal relations"
+    },
+    {
+     "id": "4",
+     "text": "The strangers, who hold to the truth when the majority deviates"
+    }
+   ],
+   "explain": "Genealogy is the knowledge of lineage, a markaz is the base of da'wah, ghuraba' are the strangers who hold to the truth, and closed da'wah is not announced publicly."
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+{
+ "id": "ep33",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah yang ditawarkan dua puluh lima pemimpin Quraish kepada Abu Talib?",
+   "options": [
+    "Perjanjian damai muslihat",
+    "Harta",
+    "Pangkat",
+    "Pernikahan"
+   ],
+   "answer": 0,
+   "explain": "Mereka menemui Abu Talib untuk menghentikan dakwah baginda.",
+   "t": 1320,
+   "source": "events:e1",
+   "level": 2
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah satu kalimah yang jika disebut akan membuat Arab dan bukan Arab tunduk?",
+   "options": [
+    "La ilaha illallah",
+    "Bismillah",
+    "Subhanallah",
+    "Allahu akbar"
+   ],
+   "answer": 0,
+   "explain": "Kalimah tauhid.",
+   "t": 1450,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah yang ditegaskan Al-Qasas 28:56 tentang Abu Talib?",
+   "options": [
+    "Nabi SAW boleh memberi hidayah",
+    "Abu Talib dipaksa",
+    "Tiada hidayah",
+    "Hidayah milik Allah, bukan Nabi SAW"
+   ],
+   "answer": 3,
+   "explain": "Nabi SAW yang amat menyayangi Abu Talib pun tidak dapat memberinya hidayah.",
+   "t": 2195,
+   "source": "dalil:q28-56",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Siapakah yang menguruskan jenazah Abu Talib atas arahan Nabi SAW?",
+   "options": [
+    "Abu Bakar",
+    "Umar",
+    "Ali",
+    "Hamzah"
+   ],
+   "answer": 2,
+   "explain": "Ali menguruskan jenazah ayahnya.",
+   "t": 2288,
+   "source": "events:e6",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah aslama?",
+   "options": [
+    "Berpuasa",
+    "Menyerah diri, asal makna Islam",
+    "Berperang",
+    "Berdagang"
+   ],
+   "answer": 1,
+   "explain": "Abu Talib tahu kebenaran tetapi tidak menyerah diri.",
+   "t": 1891,
+   "source": "glossary:g5",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah soft spot dalam dakwah?",
+   "options": [
+    "Tempat lembut untuk tidur",
+    "Nama gunung",
+    "Nama surah",
+    "Titik lemah atau perkara yang paling bermain di fikiran seseorang"
+   ],
+   "answer": 3,
+   "explain": "Nabi SAW menawarkan kuasa kepada pemimpin yang inginkannya.",
+   "t": 1482,
+   "source": "glossary:g4",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Kita patut menekan saudara baru kerana keterujaan kita.",
+   "answer": false,
+   "explain": "Salah. Keterujaan boleh menjadi tekanan melampau pada orang yang baru merangkak.",
+   "t": 457,
+   "source": "lessons:l2",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Saudara baru kecewa dengan agamawan yang hanya hitam putih tanpa memahami keadaan mereka.",
+   "answer": true,
+   "explain": "Betul. Jangan hanya meletakkan hukum.",
+   "t": 600,
+   "source": "lessons:l4",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Tahun kesedihan"
+    },
+    {
+     "id": "b",
+     "text": "Jahiliah"
+    },
+    {
+     "id": "c",
+     "text": "Saudara baru"
+    },
+    {
+     "id": "d",
+     "text": "Darul Arqam"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Orang yang baru memeluk Islam"
+    },
+    {
+     "id": "2",
+     "text": "Pusat tempat Nabi SAW mengajar sahabat baru"
+    },
+    {
+     "id": "3",
+     "text": "Tahun kematian Abu Talib, Khadijah dan peristiwa Taif"
+    },
+    {
+     "id": "4",
+     "text": "Cara hidup yang bertentangan dengan Islam"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Tahun kesedihan merangkumi dua kewafatan dan Taif, jahiliah bertentangan dengan Islam, saudara baru orang baru memeluk Islam, dan Darul Arqam pusat pengajaran.",
+   "t": 530,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "mcq",
+   "q": "Kita yang lahir Islam. Apakah nasihat kuliah ini tentang nikmat itu?",
+   "options": [
+    "Bangga tanpa amal",
+    "Menghakimi mualaf",
+    "Menghargainya kerana kita kurang menyedari betapa banyaknya",
+    "Menganggapnya biasa"
+   ],
+   "answer": 2,
+   "explain": "Hargai nikmat lahir dalam Islam.",
+   "t": 414,
+   "source": "lessons:l1",
+   "level": 3
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "id": "ep25",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What is a boycott?",
+   "options": [
+    "Cutting off trade, marriage and social contact",
+    "A peace treaty",
+    "A festival",
+    "A gift"
+   ],
+   "explain": "Quraysh imposed a boycott on Banu Hashim and Banu Abdul Muttalib."
+  },
+  {
+   "id": "q2",
+   "q": "How long were the Muslims besieged in Shi'b Abi Talib?",
+   "options": [
+    "Almost five years",
+    "A week",
+    "A year",
+    "Ten years"
+   ],
+   "explain": "They lived in tents in isolation for almost five years, enduring hunger and thirst."
+  },
+  {
+   "id": "q3",
+   "q": "Who was Khadijah's nephew who sent a camel loaded with food at night?",
+   "options": [
+    "Mut'im bin Adi",
+    "Hakim bin Hizam",
+    "Zuhayr",
+    "Abul Bukhtari"
+   ],
+   "explain": "Hakim bin Hizam smuggled in food and later embraced Islam."
+  },
+  {
+   "id": "q4",
+   "q": "Who stirred up opposition to the boycott by persuading people one by one?",
+   "options": [
+    "Abu Jahal",
+    "Hisham bin Amr",
+    "Abu Lahab",
+    "Khalid"
+   ],
+   "explain": "Hisham bin Amr persuaded people until a group opposing the boycott was formed."
+  },
+  {
+   "id": "q5",
+   "q": "Where did Zuhayr and his companions stand up to reject the boycott agreement?",
+   "options": [
+    "At Dar al-Arqam",
+    "At Dar an-Nadwah",
+    "On Mount Safa",
+    "In Abyssinia"
+   ],
+   "explain": "Dar an-Nadwah was the assembly hall of the Quraysh chiefs in front of the Kaaba."
+  },
+  {
+   "id": "q6",
+   "q": "What did the termites not eat on the agreement?",
+   "options": [
+    "Abu Jahal's signature",
+    "The name of Allah, Bismillahir-rahmanir-rahim",
+    "The name of Abu Talib",
+    "The name of the Prophet SAW"
+   ],
+   "explain": "Only the name of Allah remained. Allah sends help in small ways."
+  },
+  {
+   "id": "q7",
+   "q": "Which of the Prophet's uncles was the only one who did not join the siege?",
+   "options": [
+    "Abu Talib",
+    "Hamzah",
+    "Abu Lahab",
+    "Al-Abbas"
+   ],
+   "explain": "Abu Lahab supported Abu Jahal and was not besieged."
+  },
+  {
+   "id": "q8",
+   "q": "The Prophet SAW mentioned the favours of Mut'im bin Adi even though he did not embrace Islam.",
+   "explain": "True. We appreciate those who help us even if they are not Muslim."
+  },
+  {
+   "id": "q9",
+   "q": "Tiny termites can undo a great agreement by Allah's permission.",
+   "explain": "True. Allah sends help in small ways."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The agreement is eaten by termites"
+    },
+    {
+     "id": "b",
+     "text": "A group of opponents forms"
+    },
+    {
+     "id": "c",
+     "text": "Quraysh decides on the boycott"
+    },
+    {
+     "id": "d",
+     "text": "The boycott is ended"
+    },
+    {
+     "id": "e",
+     "text": "The agreement is hung in the Kaaba"
+    }
+   ],
+   "explain": "The boycott was decided, the agreement hung, opponents organised, termites ate it, and the boycott ended."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Boycott"
+    },
+    {
+     "id": "b",
+     "text": "Shi'b"
+    },
+    {
+     "id": "c",
+     "text": "Dar an-Nadwah"
+    },
+    {
+     "id": "d",
+     "text": "Tribe"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A clan or tribe"
+    },
+    {
+     "id": "2",
+     "text": "The assembly hall of the Quraysh chiefs"
+    },
+    {
+     "id": "3",
+     "text": "Cutting off trade and social ties"
+    },
+    {
+     "id": "4",
+     "text": "A valley or gorge"
+    }
+   ],
+   "explain": "A boycott cuts off ties, a shi'b is a valley, Dar an-Nadwah was the Quraysh assembly hall, and a tribe is a clan."
+  },
+  {
+   "id": "q12",
+   "q": "What lesson about supporting injustice does this story give?",
+   "options": [
+    "Injustice is fine if many do it",
+    "We should stay quiet",
+    "Only enemies can commit injustice",
+    "Worse is the Muslim who supports injustice"
+   ],
+   "explain": "Do not support injustice or mock refugees."
+  }
+ ]
+}

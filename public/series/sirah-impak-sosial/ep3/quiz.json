@@ -1,0 +1,254 @@
+{
+ "id": "ep3",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah dua kuasa besar yang bertembung dan mengapit Mekah?",
+   "options": [
+    "Rom Kristian dan Parsi penyembah api",
+    "Mesir dan Habsyah",
+    "Yaman dan Syam",
+    "India dan China"
+   ],
+   "answer": 0,
+   "explain": "Mekah duduk di antara Rom dan Parsi yang bertembung.",
+   "t": 321,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Istilah Yahudi datang daripada nama anak Nabi Ya'qub yang mana?",
+   "options": [
+    "Yahud",
+    "Ishaq",
+    "Ismail",
+    "Israel"
+   ],
+   "answer": 0,
+   "explain": "Daripada nama Yahud datang istilah Yahudi.",
+   "t": 519,
+   "source": "people:p4",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Berapakah umur ghulam dalam kisah ini?",
+   "options": [
+    "Sekitar 5 hingga 8 tahun",
+    "Sekitar 13 hingga 19 tahun",
+    "Sekitar 30 tahun",
+    "Sekitar 50 tahun"
+   ],
+   "answer": 1,
+   "explain": "Ghulam ialah budak sekitar 13 hingga 19 tahun, setaraf murid menengah rendah.",
+   "t": 1000,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Siapakah rahib dalam kisah ini?",
+   "options": [
+    "Penyembah api",
+    "Tukang sihir istana",
+    "Raja Yaman",
+    "Pengikut Nabi Isa AS yang masih bertauhid"
+   ],
+   "answer": 3,
+   "explain": "Rahib mengajar ghulam tauhid secara rahsia.",
+   "t": 1113,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah dabah dalam kisah ini?",
+   "options": [
+    "Sebuah parit",
+    "Sebuah gunung",
+    "Binatang besar berkaki empat yang menghalang lalu lintas",
+    "Tentera raja"
+   ],
+   "answer": 2,
+   "explain": "Ghulam menyingkirkan dabah kerana memikirkan kepentingan orang ramai.",
+   "t": 1563,
+   "source": "glossary:g5",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah maksud Burj dalam nama Surah Al-Buruj?",
+   "options": [
+    "Parit",
+    "Menara atau kubu pengawas",
+    "Lembah",
+    "Bintang jatuh"
+   ],
+   "answer": 1,
+   "explain": "Burj menggambarkan Allah yang merakam setiap perbuatan.",
+   "t": 2731,
+   "source": "glossary:g9",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Daripada siapakah Abraha merampas kuasa di Yaman?",
+   "options": [
+    "Najasyi",
+    "Dhunawas",
+    "Qusai",
+    "Aryad"
+   ],
+   "answer": 3,
+   "explain": "Abraha ialah jeneral Aryad yang merampas kuasa, dan kisahnya bersambung dengan Ashabul Fil.",
+   "t": 2813,
+   "source": "events:e5",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Rahib mengajar tauhid yang mudah: menyembah Allah dan tiada perantaraan.",
+   "answer": true,
+   "explain": "Betul. Manusia bukan tuhan dan tiada perantaraan.",
+   "t": 1340,
+   "source": "lessons:l5",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Ghulam menerima hadiah mahal daripada menteri sebagai bayaran penyembuhan.",
+   "answer": false,
+   "explain": "Salah. Ghulam menolak hadiah kerana tujuannya mengislamkan orang.",
+   "t": 1845,
+   "source": "lessons:l10",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Rakyat beriman kepada Tuhan ghulam"
+    },
+    {
+     "id": "b",
+     "text": "Rom dan Parsi bertembung"
+    },
+    {
+     "id": "c",
+     "text": "Rahib dan menteri dibunuh"
+    },
+    {
+     "id": "d",
+     "text": "Abraha mengambil alih Yaman"
+    },
+    {
+     "id": "e",
+     "text": "Yahudi bertebaran ke Yathrib"
+    }
+   ],
+   "answer": [
+    "b",
+    "e",
+    "c",
+    "a",
+    "d"
+   ],
+   "explain": "Rom dan Parsi bertembung, Yahudi ke Yathrib, rahib dan menteri dibunuh, rakyat beriman, dan Abraha mengambil alih Yaman.",
+   "t": 321,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Sihir"
+    },
+    {
+     "id": "b",
+     "text": "Fitrah"
+    },
+    {
+     "id": "c",
+     "text": "Tauriah"
+    },
+    {
+     "id": "d",
+     "text": "Ashabul Ukhdud"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Keadaan asal manusia yang mengenali kebenaran"
+    },
+    {
+     "id": "2",
+     "text": "Ungkapan dua makna"
+    },
+    {
+     "id": "3",
+     "text": "Realiti kelihatan A tetapi sebenarnya B"
+    },
+    {
+     "id": "4",
+     "text": "Orang yang menggali parit lalu membakar orang beriman"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "1"
+    ],
+    [
+     "c",
+     "2"
+    ],
+    [
+     "d",
+     "4"
+    ]
+   ],
+   "explain": "Sihir ialah realiti yang tertutup, fitrah keadaan asal, tauriah ungkapan dua makna, dan Ashabul Ukhdud penggali parit.",
+   "t": 896,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Orang yang mati dalam kisah ini disangka gagal. Apakah pengajarannya tentang kejayaan?",
+   "options": [
+    "Kejayaan ialah mengalahkan raja",
+    "Kejayaan ialah harta",
+    "Kejayaan diukur menurut perspektif Allah",
+    "Kejayaan ialah hidup lama"
+   ],
+   "answer": 2,
+   "explain": "Allah menukar perspektif dengan menyebut mereka sebagai yang berjaya.",
+   "t": 3098,
+   "source": "lessons:l15",
+   "level": 3
+  }
+ ]
+}

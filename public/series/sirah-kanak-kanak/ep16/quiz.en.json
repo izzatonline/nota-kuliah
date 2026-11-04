@@ -1,0 +1,155 @@
+{
+ "id": "ep16",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "How many wings did Jibril have when the Prophet SAW saw him in his true form?",
+   "options": [
+    "A hundred",
+    "Three hundred",
+    "Six hundred",
+    "A thousand"
+   ],
+   "explain": "Jibril appeared with six hundred wings, and the Prophet fell and ran home."
+  },
+  {
+   "id": "q2",
+   "q": "Who read the Gospel and the Torah, recognised An-Namus and died a few days later?",
+   "options": [
+    "Abu Bakr",
+    "Waraqah bin Nawfal",
+    "Halimah",
+    "Zaid"
+   ],
+   "explain": "Waraqah was Khadijah's elderly, blind cousin."
+  },
+  {
+   "id": "q3",
+   "q": "What did Allah command in Surah Al-Muzzammil?",
+   "options": [
+    "Stand for the night prayer",
+    "Go to war",
+    "Trade",
+    "Fast for a year"
+   ],
+   "explain": "Allah told him to stand for the night prayer."
+  },
+  {
+   "id": "q4",
+   "q": "How did the Prophet SAW feel when the revelation was cut off?",
+   "options": [
+    "Happy",
+    "Angry",
+    "Restless and sad",
+    "Indifferent"
+   ],
+   "explain": "He was restless and sad when the revelation paused for a while."
+  },
+  {
+   "id": "q5",
+   "q": "Which surah did Jibril bring to comfort him after the revelation was cut off?",
+   "options": [
+    "Al-Fil",
+    "Ad-Duha",
+    "Al-Alaq",
+    "Al-Masad"
+   ],
+   "explain": "Jibril came again with Surah Ad-Duha, which calmed him."
+  },
+  {
+   "id": "q6",
+   "q": "What does Ad-Duha mean?",
+   "options": [
+    "Morning when the sun rises gently",
+    "The night",
+    "The scorching noon",
+    "The time of Fajr"
+   ],
+   "explain": "Ad-Duha is the morning when the sun rises softly and is not yet scorching."
+  },
+  {
+   "id": "q7",
+   "q": "Who was the first friend to believe and then brought his own friends to Islam?",
+   "options": [
+    "Ali",
+    "Zaid",
+    "Harithah",
+    "Abu Bakr As-Siddiq"
+   ],
+   "explain": "Abu Bakr bravely followed when others were afraid."
+  },
+  {
+   "id": "q8",
+   "q": "What did Allah remind him of about his early life?",
+   "options": [
+    "You were never tested",
+    "You were raised in a palace",
+    "Did He not find you an orphan and shelter you",
+    "You were born rich"
+   ],
+   "explain": "Allah reminded him of past favours: an orphan who was sheltered, one searching who was guided."
+  },
+  {
+   "id": "q9",
+   "q": "Allah abandoned and hated the Prophet SAW when the revelation was cut off.",
+   "explain": "False. Allah does not abandon or hate His servant even when we are sad."
+  },
+  {
+   "id": "q10",
+   "q": "The Prophet SAW preached quietly for three years, from age 40 to 43.",
+   "explain": "True. After that the call became public."
+  },
+  {
+   "id": "q11",
+   "q": "You meet a sad orphan. What should you do?",
+   "options": [
+    "Shoo or scold them",
+    "Look after and comfort them kindly",
+    "Ignore them",
+    "Tease them"
+   ],
+   "explain": "Orphans need to be cared for and comforted, not scolded or troubled."
+  },
+  {
+   "id": "q12",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Al-Muzzammil"
+    },
+    {
+     "id": "b",
+     "text": "The pause of revelation"
+    },
+    {
+     "id": "c",
+     "text": "Huda"
+    },
+    {
+     "id": "d",
+     "text": "Aghna"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Guidance, which is the Quran"
+    },
+    {
+     "id": "2",
+     "text": "To make sufficient"
+    },
+    {
+     "id": "3",
+     "text": "The one wrapped in garments"
+    },
+    {
+     "id": "4",
+     "text": "The pause when revelation stopped for a while"
+    }
+   ],
+   "explain": "Al-Muzzammil is the one wrapped in garments, the pause is a break in revelation, huda is guidance and aghna means to make sufficient."
+  }
+ ]
+}

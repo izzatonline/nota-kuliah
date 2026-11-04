@@ -1,0 +1,254 @@
+{
+ "id": "ep27",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Siapakah yang menemani Nabi SAW berjalan kaki ke Taif?",
+   "options": [
+    "Ali",
+    "Zaid bin Harithah",
+    "Abu Bakar",
+    "Hamzah"
+   ],
+   "answer": 1,
+   "explain": "Baginda berjalan kaki secara senyap bersama Zaid.",
+   "t": 377,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Bagaimanakah bandar Taif digambarkan?",
+   "options": [
+    "Bandar tinggi yang sejuk, penuh buah dan bunga ros",
+    "Padang pasir yang panas",
+    "Pelabuhan di tepi laut",
+    "Gua di gunung"
+   ],
+   "answer": 0,
+   "explain": "Taif ialah tempat peranginan orang Mekah.",
+   "t": 406,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah hamba dari Nineveh yang memeluk Islam di kebun Rabi'ah?",
+   "options": [
+    "Zaid",
+    "Adas",
+    "Bilal",
+    "Mut'im"
+   ],
+   "answer": 1,
+   "explain": "Adas terkejut baginda tahu tentang Nabi Yunus, lalu memeluk Islam.",
+   "t": 1088,
+   "source": "people:p6",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah yang membuat Adas terkejut sehingga memeluk Islam?",
+   "options": [
+    "Hadiah emas",
+    "Mendengar Bismillah dan baginda tahu tentang Nabi Yunus",
+    "Melihat mukjizat gunung",
+    "Perintah tuannya"
+   ],
+   "answer": 1,
+   "explain": "Nama Allah membuka hati Adas.",
+   "t": 1354,
+   "source": "lessons:l5",
+   "level": 2
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah yang dilakukan Zaid apabila batu dibaling kepada baginda?",
+   "options": [
+    "Melarikan diri",
+    "Melindungi baginda dengan tangan dan mukanya",
+    "Membalas baling",
+    "Memanggil tentera"
+   ],
+   "answer": 1,
+   "explain": "Zaid mempertaruhkan dirinya melindungi baginda.",
+   "t": 109,
+   "source": "lessons:l9",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Siapakah yang memeluk Islam selepas mendengar Nabi SAW solat malam?",
+   "options": [
+    "Jin",
+    "Malaikat",
+    "Adas",
+    "Pemimpin Taif"
+   ],
+   "answer": 0,
+   "explain": "Allah memberi pertolongan selepas ujian, termasuk jin yang beriman.",
+   "t": 1740,
+   "source": "dalil:q46-29",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Siapakah yang melindungi baginda masuk semula ke Mekah walaupun bukan Islam?",
+   "options": [
+    "Abu Jahal",
+    "Mut'im bin Adi",
+    "Abu Lahab",
+    "Utbah"
+   ],
+   "answer": 1,
+   "explain": "Mut'im membawa baginda masuk ke Mekah dengan anak-anak bersenjata.",
+   "t": 1838,
+   "source": "events:e7",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Nabi SAW pergi kepada pemimpin tempatan, meminta izin dan menyampaikan dengan baik.",
+   "answer": true,
+   "explain": "Betul. Itulah adab ketika bertamu.",
+   "t": 643,
+   "source": "lessons:l3",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Nabi SAW diutus sebagai rahmat bagi seluruh alam.",
+   "answer": true,
+   "explain": "Betul. Ini disebut dalam Al-Anbiya 21:107.",
+   "t": 1551,
+   "source": "dalil:q21-107",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Baginda dilindungi Mut'im"
+    },
+    {
+     "id": "b",
+     "text": "Adas memeluk Islam"
+    },
+    {
+     "id": "c",
+     "text": "Baginda keluar ke Taif"
+    },
+    {
+     "id": "d",
+     "text": "Baginda dibaling batu"
+    },
+    {
+     "id": "e",
+     "text": "Baginda berlindung di kebun"
+    }
+   ],
+   "answer": [
+    "c",
+    "d",
+    "e",
+    "b",
+    "a"
+   ],
+   "explain": "Baginda keluar ke Taif, dibaling batu, berlindung di kebun, Adas memeluk Islam, dan akhirnya dilindungi Mut'im.",
+   "t": 377,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Taif"
+    },
+    {
+     "id": "b",
+     "text": "Nineveh"
+    },
+    {
+     "id": "c",
+     "text": "Jin"
+    },
+    {
+     "id": "d",
+     "text": "Perlindungan (jiwar)"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Jaminan keselamatan daripada seorang pelindung"
+    },
+    {
+     "id": "2",
+     "text": "Kota di Iraq, tempat Nabi Yunus"
+    },
+    {
+     "id": "3",
+     "text": "Makhluk di alam lain"
+    },
+    {
+     "id": "4",
+     "text": "Bandar tinggi yang sejuk"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "2"
+    ],
+    [
+     "c",
+     "3"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Taif bandar tinggi, Nineveh kota Nabi Yunus, jin makhluk alam lain, dan jiwar jaminan keselamatan.",
+   "t": 406,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Anda kehilangan dua orang yang paling anda harapkan, tetapi masih ada tugas. Apakah teladan daripada Nabi SAW?",
+   "options": [
+    "Berhenti selama-lamanya",
+    "Terus berusaha walaupun dituduh dan kehilangan",
+    "Menyalahkan orang lain",
+    "Mengelak semua orang"
+   ],
+   "answer": 1,
+   "explain": "Nabi SAW terus berusaha walaupun dituduh menjadi punca dan kehilangan dua tonggak.",
+   "t": 2000,
+   "source": "lessons:l8",
+   "level": 3
+  }
+ ]
+}

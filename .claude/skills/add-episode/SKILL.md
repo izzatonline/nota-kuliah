@@ -13,5 +13,8 @@ Add an episode to Nota Kuliah. The default series is `sirah-impak-sosial`; for a
    `approx` "m:ss". Quran items carry only `surah:ayah`. Do not invent narrators, sources, names or numbers.
 3. **Build.** Run `python3 scripts/pipeline.py build <ep>`. Read the report. For every item "not placed by an exact quote",
    fix its `at` in `draft.json` (copy a real phrase from the transcript block near `approx`) and build again.
-4. **Report.** Tell the user the counts, any remaining warnings, and that hadith entries marked unverified need a human
+4. **Quiz.** Write the episode's quiz from `notes.json` (not the transcript) as `quiz.json` plus a `quiz.en.json` overlay, following the
+   "Add a quiz" section of the README, then run `python3 scripts/quiz.py check <series>/<ep>` and `python3 scripts/quiz.py index <series>`.
+   Never ask about a hadith that is not verified; for an episode with a `careNote`, ask about the lessons only.
+5. **Report.** Tell the user the counts, any remaining warnings, and that hadith entries marked unverified need a human
    check. Do not commit or publish `private/`; transcripts and audio are never published.
