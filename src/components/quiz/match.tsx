@@ -66,7 +66,7 @@ export function MatchQuestion({ shown, locked, response, onSubmit }: Props) {
                     !locked && 'hover:border-primary/50 hover:bg-accent',
                     !locked && (active === l.id || paired) && 'border-primary bg-primary/5',
                     active === l.id && 'ring-2 ring-primary',
-                    locked && (ok ? 'border-primary bg-primary/10' : 'border-destructive bg-destructive/10'),
+                    locked && (ok ? 'nk-pop border-primary bg-primary/10' : 'nk-shake border-destructive bg-destructive/10'),
                   )}
                 >
                   <span className="mt-0.5 grid size-6 shrink-0 place-items-center rounded-md bg-muted font-mono text-xs text-muted-foreground">{num(l.id)}</span>

@@ -9,6 +9,7 @@ import {
 } from '@/lib/quiz'
 import { getRecord, saveAttempt, saveRevision } from '@/lib/quiz-progress'
 import { ChoiceQuestion } from './choice'
+import { Burst } from './fx'
 import { MatchQuestion } from './match'
 import { OrderQuestion } from './order'
 import { ResultScreen } from './result-screen'
@@ -119,6 +120,8 @@ function Playing({ shown, n, total, tally, answer, timed, onAnswer, onNext, last
   const q = shown.item.q
   const locked = Boolean(answer)
   const heading = useRef<HTMLHeadingElement>(null)
+  const startPoints = useRef(tally.points) // points before this question, so the gain can float up
+  const gain = answer?.ok ? tally.points - startPoints.current : 0
   const next = useRef<HTMLButtonElement>(null)
   useEffect(() => heading.current?.focus(), [])
   // Cabaran: a clock per question. Running out counts as a miss.
@@ -145,8 +148,11 @@ function Playing({ shown, n, total, tally, answer, timed, onAnswer, onNext, last
           <span className="whitespace-nowrap">{t('quiz.progress', { i: n, n: total })}</span>
           <span className="flex items-center gap-3 whitespace-nowrap tabular-nums">
             {timed ? <span className={`font-medium ${left <= 5 && !locked ? 'text-destructive' : ''}`}>{t('quiz.timeLeft', { s: Math.max(0, left) })}</span> : null}
-            {tally.streak >= 2 && <span className="flex items-center gap-1 text-gold" title={t('quiz.streak', { n: tally.streak })}><Flame className="size-4" aria-hidden /><span aria-hidden>{tally.streak}</span><span className="sr-only">{t('quiz.streak', { n: tally.streak })}</span></span>}
-            <span className="font-medium text-foreground">{t('quiz.score', { p: tally.points })}</span>
+            {tally.streak >= 2 && <span className="flex items-center gap-1 text-gold" title={t('quiz.streak', { n: tally.streak })}><Flame key={tally.streak} className="nk-bump size-4" aria-hidden /><span aria-hidden>{tally.streak}</span><span className="sr-only">{t('quiz.streak', { n: tally.streak })}</span></span>}
+            <span key={tally.points} className={`relative font-medium text-foreground ${answer?.ok ? 'nk-bump' : ''}`}>
+              {t('quiz.score', { p: tally.points })}
+              {gain > 0 && <span aria-hidden className="nk-float pointer-events-none absolute -top-1 right-0 text-xs font-semibold text-primary">+{gain}</span>}
+            </span>
           </span>
         </div>
         <div role="progressbar" aria-valuemin={0} aria-valuemax={total} aria-valuenow={n - 1 + (locked ? 1 : 0)} className="h-1.5 overflow-hidden rounded-full bg-muted">
@@ -164,9 +170,9 @@ function Playing({ shown, n, total, tally, answer, timed, onAnswer, onNext, last
 
       <div aria-live="polite" role="status">
         {answer && (
-          <div className={`space-y-3 rounded-xl border p-4 ${answer.ok ? 'border-primary/40 bg-primary/5' : 'border-destructive/40 bg-destructive/5'}`}>
-            <p className={`flex items-center gap-2 font-semibold ${answer.ok ? 'text-primary' : 'text-destructive'}`}>
-              {answer.ok ? <Check className="size-5" aria-hidden /> : <X className="size-5" aria-hidden />}
+          <div className={`space-y-3 rounded-xl border p-4 ${answer.ok ? 'nk-rise border-primary/40 bg-primary/5' : 'nk-shake border-destructive/40 bg-destructive/5'}`}>
+            <p className={`relative flex items-center gap-2 font-semibold ${answer.ok ? 'text-primary' : 'text-destructive'}`}>
+              {answer.ok ? <span className="relative"><Check className="nk-check size-5" aria-hidden /><Burst /></span> : <X className="size-5" aria-hidden />}
               {answer.ok ? t('quiz.correct') : answer.response === null || answer.response === undefined ? t('quiz.timeUp') : t('quiz.wrong')}
             </p>
             <p className="text-sm leading-relaxed">{q.explain}</p>

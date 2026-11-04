@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Check, Circle, Square, SquareCheck, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { Burst } from './fx'
 import { useT } from '@/lib/i18n'
 import type { Shown } from '@/lib/quiz'
 
@@ -68,8 +69,9 @@ export function ChoiceQuestion({ shown, locked, response, onSubmit }: Props) {
                 'focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-default',
                 !locked && 'hover:border-primary/50 hover:bg-accent',
                 !locked && on && 'border-primary bg-primary/5',
-                right && 'border-primary bg-primary/10',
-                wrong && 'border-destructive bg-destructive/10',
+                right && chosen(r.key) && 'nk-pop border-primary bg-primary/10',
+                right && !chosen(r.key) && 'border-primary bg-primary/10',
+                wrong && 'nk-shake border-destructive bg-destructive/10',
                 locked && !right && !wrong && 'opacity-70',
               )}
             >
@@ -77,7 +79,7 @@ export function ChoiceQuestion({ shown, locked, response, onSubmit }: Props) {
               <span className="min-w-0 flex-1">{r.text}</span>
               {locked ? (
                 right ? (
-                  <span className="flex shrink-0 items-center gap-1 text-sm font-medium text-primary"><Check className="size-4" aria-hidden />{t('quiz.correct')}</span>
+                  <span className="relative flex shrink-0 items-center gap-1 text-sm font-medium text-primary"><Check className={cn('size-4', chosen(r.key) && 'nk-check')} aria-hidden />{t('quiz.correct')}{chosen(r.key) && <Burst />}</span>
                 ) : wrong ? (
                   <span className="flex shrink-0 items-center gap-1 text-sm font-medium text-destructive"><X className="size-4" aria-hidden />{t('quiz.wrong')}</span>
                 ) : null

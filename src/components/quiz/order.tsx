@@ -42,7 +42,7 @@ export function OrderQuestion({ shown, locked, response, onSubmit }: Props) {
                   'focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-default',
                   !locked && 'hover:border-primary/50 hover:bg-accent',
                   !locked && placed && 'border-primary bg-primary/5',
-                  locked && placed && (rightPlace ? 'border-primary bg-primary/10' : 'border-destructive bg-destructive/10'),
+                  locked && placed && (rightPlace ? 'nk-pop border-primary bg-primary/10' : 'nk-shake border-destructive bg-destructive/10'),
                 )}
               >
                 <span className={cn('mt-0.5 grid size-6 shrink-0 place-items-center rounded-md font-mono text-xs', placed ? 'bg-primary text-primary-foreground' : 'border border-dashed text-transparent')}>

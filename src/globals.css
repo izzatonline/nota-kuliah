@@ -148,3 +148,22 @@
 @keyframes nk-ring { 0% { transform: scale(0.8); opacity: 0.7; } 100% { transform: scale(2.6); opacity: 0; } }
 .nk-ring { animation: nk-ring 2.4s cubic-bezier(0.2, 0.6, 0.3, 1) infinite; }
 @media (prefers-reduced-motion: reduce) { .nk-ring { animation: none; opacity: 0.25; transform: scale(1.6); } }
+
+/* Quiz feedback: a pop for a right answer, a shake for a wrong one, a rise for the feedback panel, confetti at the end.
+   The reduced-motion rule above shortens all of these to nothing, and confetti is not rendered at all in that case. */
+@keyframes nk-pop { 0% { transform: scale(0.94); } 55% { transform: scale(1.04); } 100% { transform: scale(1); } }
+@keyframes nk-shake { 0%, 100% { transform: translateX(0); } 20% { transform: translateX(-6px); } 40% { transform: translateX(5px); } 60% { transform: translateX(-4px); } 80% { transform: translateX(3px); } }
+@keyframes nk-rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes nk-bump { 0% { transform: scale(1); } 40% { transform: scale(1.25); } 100% { transform: scale(1); } }
+@keyframes nk-float { 0% { opacity: 0; transform: translateY(6px); } 20% { opacity: 1; } 100% { opacity: 0; transform: translateY(-22px); } }
+@keyframes nk-check { 0% { transform: scale(0) rotate(-20deg); } 60% { transform: scale(1.35) rotate(6deg); } 100% { transform: scale(1) rotate(0); } }
+@keyframes nk-spark { 0% { opacity: 1; transform: rotate(var(--a)) translateY(0) scale(1); } 100% { opacity: 0; transform: rotate(var(--a)) translateY(-26px) scale(0.4); } }
+@keyframes nk-fall { 0% { transform: translate3d(0, -12vh, 0) rotate(0); opacity: 1; } 100% { transform: translate3d(var(--x), 105vh, 0) rotate(var(--r)); opacity: 0.9; } }
+.nk-pop { animation: nk-pop 0.4s cubic-bezier(0.2, 1.4, 0.4, 1) both; }
+.nk-shake { animation: nk-shake 0.45s ease-in-out both; }
+.nk-rise { animation: nk-rise 0.3s ease-out both; }
+.nk-bump { animation: nk-bump 0.35s ease-out; }
+.nk-float { animation: nk-float 1s ease-out both; }
+.nk-check { animation: nk-check 0.5s cubic-bezier(0.2, 1.4, 0.4, 1) both; }
+.nk-spark { animation: nk-spark 0.7s ease-out both; }
+.nk-confetti { animation: nk-fall var(--d) cubic-bezier(0.3, 0.1, 0.5, 1) var(--delay) both; }

@@ -6,6 +6,7 @@ import { youtubeUrl } from '@/lib/data'
 import { useT, type Key } from '@/lib/i18n'
 import { band, passed, type Item, type Tally } from '@/lib/quiz'
 import { copy } from '@/lib/share'
+import { Confetti, useCountUp, useMotion } from './fx'
 
 type Props = {
   title: string
@@ -21,6 +22,7 @@ export function ResultScreen({ title, total, tally, missed, tally: { correct }, 
   const { t } = useT()
   const ok = passed(correct, total)
   const pct = total ? Math.round((correct / total) * 100) : 0
+  const perfect = total > 0 && correct === total
   const [copied, setCopied] = useState(false)
   const head = useRef<HTMLHeadingElement>(null)
   useEffect(() => head.current?.focus(), [])
@@ -41,15 +43,10 @@ export function ResultScreen({ title, total, tally, missed, tally: { correct }, 
 
   return (
     <div className="mx-auto max-w-xl space-y-6 py-2">
+      {ok && <Confetti pieces={perfect ? 110 : 60} />}
       <div className="space-y-4 text-center">
         <h1 ref={head} tabIndex={-1} className="text-sm font-medium uppercase tracking-[0.14em] text-muted-foreground outline-none">{t('quiz.result')}</h1>
-        <div
-          role="img"
-          aria-label={`${pct}%`}
-          className={`mx-auto grid size-32 place-items-center rounded-full border-8 ${ok ? 'border-primary text-primary motion-safe:animate-in motion-safe:zoom-in-50 motion-safe:duration-500' : 'border-muted-foreground/30 text-foreground'}`}
-        >
-          <span className="text-3xl font-semibold tabular-nums">{pct}%</span>
-        </div>
+        <ScoreRing pct={pct} ok={ok} />
         <div className="space-y-1">
           <p className="text-lg font-semibold">{t('quiz.outOf', { c: correct, n: total })}</p>
           <p className="flex items-center justify-center gap-1.5 text-muted-foreground">
@@ -87,6 +84,35 @@ export function ResultScreen({ title, total, tally, missed, tally: { correct }, 
           </ul>
         </section>
       )}
+    </div>
+  )
+}
+
+/** A ring that fills while the percentage counts up. A pass pops in with a gold glow; a miss stays quiet. */
+function ScoreRing({ pct, ok }: { pct: number; ok: boolean }) {
+  const motion = useMotion()
+  const shown = useCountUp(pct)
+  const r = 58
+  const len = 2 * Math.PI * r
+  const [fill, setFill] = useState(motion ? 0 : pct)
+  useEffect(() => {
+    // one frame at zero so the ring has something to grow from
+    const id = requestAnimationFrame(() => setFill(pct))
+    return () => cancelAnimationFrame(id)
+  }, [pct])
+  return (
+    <div role="img" aria-label={`${pct}%`} className={`relative mx-auto grid size-36 place-items-center ${ok ? 'nk-pop' : ''}`}>
+      <svg viewBox="0 0 136 136" className="absolute inset-0 -rotate-90" aria-hidden>
+        <circle cx="68" cy="68" r={r} fill="none" strokeWidth="9" className="stroke-muted" />
+        <circle
+          cx="68" cy="68" r={r} fill="none" strokeWidth="9" strokeLinecap="round"
+          className={ok ? 'stroke-primary' : 'stroke-muted-foreground/50'}
+          strokeDasharray={len}
+          strokeDashoffset={len * (1 - fill / 100)}
+          style={{ transition: 'stroke-dashoffset 1.1s cubic-bezier(0.3, 0.1, 0.2, 1)', filter: ok ? 'drop-shadow(0 0 6px hsl(var(--gold) / 0.55))' : undefined }}
+        />
+      </svg>
+      <span className="text-3xl font-semibold tabular-nums">{shown}%</span>
     </div>
   )
 }
