@@ -48,7 +48,10 @@ export function MatchQuestion({ shown, locked, response, onSubmit }: Props) {
   const box = 'flex w-full items-start gap-3 rounded-xl border bg-card p-3.5 text-left text-base leading-snug outline-none transition-colors focus-visible:ring-2 focus-visible:ring-ring disabled:cursor-default'
   return (
     <div className="space-y-4">
-      <p className="text-sm text-muted-foreground">{t('quiz.matchHint')}</p>
+      <p className="text-sm text-muted-foreground">
+        <span className="sm:hidden">{t('quiz.matchHintStack')}</span>
+        <span className="hidden sm:inline">{t('quiz.matchHint')}</span>
+      </p>
       <div className="grid gap-x-4 gap-y-2.5 sm:grid-cols-2">
         <ul className="grid content-start gap-2.5">
           {left.map((l) => {
