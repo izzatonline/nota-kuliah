@@ -180,7 +180,8 @@
    "narrator": "Tidak disebut dalam kuliah",
    "source": "Sirah Ibn Hisham dan Tabaqat Ibn Sa'ad, menurut ustaz",
    "grade": "Tiada sanad bersambung, diterima ulama sirah menurut ustaz",
-   "verified": false
+   "verified": false,
+   "dua": "taif"
   },
   {
    "id": "h8",
@@ -228,7 +229,8 @@
    "translation": "Dan (sebutkanlah peristiwa) Zun-Nun, ketika ia pergi (meninggalkan kaumnya) dalam keadaan marah, yang menyebabkan ia menyangka bahawa Kami tidak akan mengenakannya kesusahan atau cubaan; (setelah berlaku kepadanya apa yang berlaku) maka ia pun menyeru dalam keadaan yang gelap-gelita dengan berkata: \"Sesungguhnya tiada Tuhan (yang dapat menolong) melainkan Engkau (ya Allah)! Maha Suci Engkau (daripada melakukan aniaya, tolongkanlah daku)! Sesungguhnya aku adalah dari orang-orang yang menganiaya diri sendiri\".",
    "context": "Doa Nabi Yunus dalam kesukaran: 'Tiada tuhan selain Engkau, Maha Suci Engkau, sesungguhnya aku termasuk orang yang zalim'. Ustaz menyebut doa ini mirip doa Nabi SAW di Taif, dan Nabi SAW bersabda sesiapa yang berdoa dengannya akan dilepaskan Allah. Nombor ayat tidak disebut. (rujukan dikenal pasti, nombor ayat tidak disebut)",
    "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
-   "verified": true
+   "verified": true,
+   "dua": "yunus"
   },
   {
    "id": "h11",
@@ -241,7 +243,8 @@
    "narrator": "Tidak disebut dalam kuliah",
    "source": "Sumber tidak disebut dalam kuliah",
    "grade": null,
-   "verified": false
+   "verified": false,
+   "dua": "yunus"
   },
   {
    "id": "q68-49",

@@ -139,7 +139,8 @@
    "translation": "Dan apabila hamba-hambaKu bertanya kepadamu mengenai Aku maka (beritahu kepada mereka): sesungguhnya Aku (Allah) sentiasa hampir (kepada mereka); Aku perkenankan permohonan orang yang berdoa apabila ia berdoa kepadaKu. Maka hendaklah mereka menyahut seruanku (dengan mematuhi perintahKu), dan hendaklah mereka beriman kepadaKu supaya mereka menjadi baik serta betul.",
    "context": "Ayat yang Allah khususkan tentang dekatnya Allah dan Dia menjawab doa. Ustaz mengaitkannya dengan Ramadan sebagai bulan doa. (rujukan dikenal pasti, nombor ayat tidak disebut)",
    "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
-   "verified": true
+   "verified": true,
+   "dua": "adab-dekat"
   },
   {
    "id": "h9",
@@ -152,7 +153,8 @@
    "narrator": "Abdullah bin Mas'ud RA",
    "source": "Musnad Ahmad",
    "grade": "Sahih",
-   "verified": false
+   "verified": false,
+   "dua": "sedih"
   },
   {
    "id": "q12-86",
@@ -189,7 +191,8 @@
    "narrator": "Abu Umamah RA (kisah)",
    "source": "Banyak riwayat, termasuk Sahih Bukhari, menurut ustaz",
    "grade": "Sahih",
-   "verified": false
+   "verified": false,
+   "dua": "resah-hutang"
   },
   {
    "id": "h15",
@@ -254,7 +257,8 @@
    "narrator": "Tidak disebut dalam kuliah",
    "source": "Sumber tidak disebut dalam kuliah",
    "grade": null,
-   "verified": false
+   "verified": false,
+   "dua": "halal"
   },
   {
    "id": "q2-155",

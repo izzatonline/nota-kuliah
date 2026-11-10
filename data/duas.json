@@ -1,0 +1,42 @@
+{
+ "_about": "The duas the Doa page lists. A dalil entry in the notes joins one with \"dua\": \"<key>\". Topics are listed in page order, and so are the duas within a topic.",
+ "topics": [
+  {"key": "musibah", "ms": "Ketika susah dan sedih", "en": "In hardship and grief"},
+  {"key": "rezeki", "ms": "Rezeki dan hutang", "en": "Provision and debt"},
+  {"key": "keluarga", "ms": "Untuk keluarga dan zuriat", "en": "For family and children"},
+  {"key": "ibadah", "ms": "Ibadah dan amalan", "en": "Worship and practice"},
+  {"key": "petunjuk", "ms": "Keampunan dan petunjuk", "en": "Forgiveness and guidance"},
+  {"key": "diri", "ms": "Menjaga diri dan nikmat", "en": "Guarding yourself and your blessings"},
+  {"key": "sirah", "ms": "Doa dalam sirah", "en": "Duas in the Sirah",
+   "hint": {"ms": "Doa yang dipanjatkan Nabi SAW dan para nabi dalam peristiwa sirah.", "en": "Duas the Prophet SAW and the prophets made during the events of the Sirah."}},
+  {"key": "adab", "ms": "Tentang doa", "en": "About making dua",
+   "hint": {"ms": "Ayat dan hadis tentang cara dan waktu berdoa.", "en": "Verses and hadith on how and when to make dua."}}
+ ],
+ "duas": [
+  {"key": "musibah", "topic": "musibah", "ms": "Doa ketika ditimpa musibah", "en": "Dua when calamity strikes"},
+  {"key": "yunus", "topic": "musibah", "ms": "Doa Nabi Yunus (Dzun-Nun)", "en": "The dua of Prophet Yunus (Dhun-Nun)"},
+  {"key": "taif", "topic": "musibah", "ms": "Doa Nabi SAW di Taif", "en": "The Prophet's dua at Taif"},
+  {"key": "sedih", "topic": "musibah", "ms": "Doa menghilangkan kesedihan", "en": "Dua to lift sadness"},
+  {"key": "resah-hutang", "topic": "rezeki", "ms": "Doa berlindung daripada resah, sedih dan hutang", "en": "Dua for refuge from worry, grief and debt"},
+  {"key": "halal", "topic": "rezeki", "ms": "Doa kecukupan dengan yang halal", "en": "Dua to be sufficed with the halal"},
+  {"key": "kecukupan", "topic": "rezeki", "ms": "Doa kecukupan, tujuh kali pagi dan petang", "en": "The dua of sufficiency, seven times morning and evening"},
+  {"key": "ibrahim-zuriat", "topic": "keluarga", "ms": "Doa Nabi Ibrahim untuk zuriatnya", "en": "Ibrahim's dua for his children"},
+  {"key": "ibrahim-muslim", "topic": "keluarga", "ms": "Doa agar kami dan zuriat kami berserah diri kepada Allah", "en": "Dua that we and our children submit to Allah"},
+  {"key": "terima-amal", "topic": "ibadah", "ms": "Doa agar amalan diterima", "en": "Dua for our deeds to be accepted"},
+  {"key": "dunia-akhirat", "topic": "ibadah", "ms": "Doa kebaikan dunia dan akhirat", "en": "Dua for good in this world and the next"},
+  {"key": "selepas-solat", "topic": "ibadah", "ms": "Doa selepas solat", "en": "Dua after prayer"},
+  {"key": "khutbatul-hajah", "topic": "ibadah", "ms": "Khutbatul hajah", "en": "Khutbat al-hajah (the opening praise)"},
+  {"key": "akhir-baqarah", "topic": "petunjuk", "ms": "Doa penutup Surah Al-Baqarah", "en": "The closing dua of Surah Al-Baqarah"},
+  {"key": "haq-batil", "topic": "petunjuk", "ms": "Doa melihat yang benar sebagai benar", "en": "Dua to see the truth as truth"},
+  {"key": "nikmat", "topic": "diri", "ms": "Doa agar nikmat tidak hilang", "en": "Dua against losing Allah's blessings"},
+  {"key": "dipuji", "topic": "diri", "ms": "Doa apabila dipuji", "en": "Dua when you are praised"},
+  {"key": "ibrahim-rasul", "topic": "sirah", "ms": "Doa Nabi Ibrahim agar diutus seorang rasul", "en": "Ibrahim's dua for a messenger"},
+  {"key": "umar", "topic": "sirah", "ms": "Doa Nabi SAW agar Islam dikuatkan dengan Umar", "en": "The Prophet's dua for Islam to be strengthened by Umar"},
+  {"key": "ibn-abbas", "topic": "sirah", "ms": "Doa Nabi SAW untuk Ibn Abbas", "en": "The Prophet's dua for Ibn Abbas"},
+  {"key": "adab-yakin", "topic": "adab", "ms": "Berdoa dengan yakin", "en": "Make dua with certainty"},
+  {"key": "adab-ibadah", "topic": "adab", "ms": "Doa ialah tulang belakang ibadah", "en": "Dua is the backbone of worship"},
+  {"key": "adab-arafah", "topic": "adab", "ms": "Sebaik-baik doa pada hari Arafah", "en": "The best dua is on the day of Arafah"},
+  {"key": "adab-dekat", "topic": "adab", "ms": "Allah dekat dan menjawab doa", "en": "Allah is near and answers dua"},
+  {"key": "adab-perlahan", "topic": "adab", "ms": "Tidak perlu meninggikan suara ketika berdoa", "en": "No need to raise your voice in dua"}
+ ]
+}

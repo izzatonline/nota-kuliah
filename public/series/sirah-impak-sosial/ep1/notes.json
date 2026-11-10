@@ -191,7 +191,8 @@
    "translation": "\"Wahai Tuhan kami! Sesungguhnya aku telah menempatkan sebahagian dari zuriat keturunanku di sebuah lembah (Tanah Suci Makkah) yang tidak tanaman padanya, di sisi rumahMu yang diharamkan mencerobohinya. Wahai Tuhan kami, (mereka ditempatkan di situ) supaya mereka mendirikan sembahyang (dan memakmurkannya dengan ibadat). Oleh itu, jadikanlah hati sebahagian dari manusia tertarik gemar kepada mereka, (supaya datang beramai-ramai ke situ), dan kurniakanlah rezeki kepada mereka dari berbagai jenis buah-buahan dan hasil tanaman, semoga mereka bersyukur.",
    "context": "Doa Nabi Ibrahim ketika meninggalkan zuriatnya di lembah tanpa tumbuhan: agar mereka mendirikan solat, hati manusia terpaut kepada mereka, dan mereka diberi rezeki supaya bersyukur. Surah dan nombor ayat tidak disebut. (rujukan dikenal pasti, nombor ayat tidak disebut)",
    "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
-   "verified": true
+   "verified": true,
+   "dua": "ibrahim-zuriat"
   },
   {
    "id": "h11",
@@ -232,7 +233,8 @@
    "source": "Sahih Muslim 918b (Kitab 11, Hadis 5)",
    "sourceUrl": "https://sunnah.com/muslim:918b",
    "grade": "Sahih",
-   "verified": true
+   "verified": true,
+   "dua": "musibah"
   },
   {
    "id": "q2-156",
@@ -278,7 +280,8 @@
    "narrator": "Tidak disebut dalam kuliah",
    "source": "Sumber tidak disebut dalam kuliah",
    "grade": null,
-   "verified": false
+   "verified": false,
+   "dua": "kecukupan"
   },
   {
    "id": "q2-127",
@@ -289,7 +292,8 @@
    "translation": "Dan (ingatlah) ketika Nabi Ibrahim bersama-sama Nabi Ismail meninggikan binaan asas-asas (tapak) Baitullah (Kaabah) itu, sambil keduanya berdoa dengan berkata: \"Wahai Tuhan kami! Terimalah daripada kami (amal kami); sesungguhnya Engkaulah yang Maha Mendengar, lagi Maha mengetahui;",
    "context": "Nabi Ibrahim dan Nabi Ismail meninggikan binaan Kaabah, lalu berdoa 'terimalah daripada kami'. Ulama berpendapat asasnya sudah ada, lalu dibina semula.",
    "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
-   "verified": true
+   "verified": true,
+   "dua": "terima-amal"
   },
   {
    "id": "h15",
@@ -314,7 +318,8 @@
    "translation": "\"Wahai Tuhan kami! Jadikanlah kami berdua: orang-orang Islam (yang berserah diri) kepadaMu, dan jadikanlah daripada keturunan kami: umat Islam (yang berserah diri) kepadamu, dan tunjukkanlah kepada kami syariat dan cara-cara ibadat kami, dan terimalah taubat kami; sesungguhnya Engkaulah Maha Penerima taubat, lagi Maha Mengasihani;",
    "context": "Doa agar dijadikan muslim, zuriat menjadi umat muslim, diajar manasik haji dan diterima taubat.",
    "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
-   "verified": true
+   "verified": true,
+   "dua": "ibrahim-muslim"
   },
   {
    "id": "q2-129",
@@ -325,7 +330,8 @@
    "translation": "\"Wahai Tuhan Kami! Utuslah kepada mereka seorang Rasul dari kalangan mereka sendiri, yang akan membacakan kepada mereka ayat-ayat (firmanMu) dan mengajarkan mereka isi kandungan Kitab (Al-Quran) serta Hikmat kebijaksanaan dan membersihkan (hati dan jiwa) mereka (dari syirik dan maksiat). Sesungguhnya Engkaulah yang Maha Kuasa, lagi Maha Bijaksana\".",
    "context": "Doa agar Allah mengutus seorang rasul daripada keturunan mereka yang membacakan ayat, mengajar Kitab dan hikmah, serta menyucikan mereka.",
    "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
-   "verified": true
+   "verified": true,
+   "dua": "ibrahim-rasul"
   },
   {
    "id": "h16",
