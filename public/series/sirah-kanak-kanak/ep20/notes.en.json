@@ -149,7 +149,12 @@
   },
   {
    "id": "p12",
-   "role": "Quraysh chiefs",
+   "role": "Quraysh chief",
+   "context": "Asked Abu Talib to stop the Prophet SAW."
+  },
+  {
+   "id": "p13",
+   "role": "Quraysh chief",
    "context": "Asked Abu Talib to stop the Prophet SAW."
   }
  ],

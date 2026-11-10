@@ -245,6 +245,7 @@
   {
    "id": "p15",
    "name": "Ja'far bin Abi Talib",
+   "person": "jafar-bin-abi-talib",
    "role": "Sepupu Nabi SAW",
    "t": 448,
    "context": "Kelak ke Habsyah pada gelombang kedua dan pulang selepas Khaybar."
@@ -252,6 +253,7 @@
   {
    "id": "p1",
    "name": "Uqbah bin Abi Mu'ait",
+   "person": "uqbah-bin-abi-muait",
    "role": "Pembesar dan diplomat Quraish",
    "t": 764,
    "context": "Mencekik Nabi SAW dan dihantar ke Yathrib."
@@ -259,6 +261,7 @@
   {
    "id": "p7",
    "name": "Amr bin Al-As",
+   "person": "amr-bin-al-as",
    "role": "Anak kepada perawi dan kelak sahabat",
    "t": 950,
    "context": "Menceritakan hadis Uqbah dan kelak diislamkan Najasyi."
@@ -266,6 +269,7 @@
   {
    "id": "p2",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Sahabat",
    "t": 1099,
    "context": "Menolong Nabi SAW, dipukul sehingga koma, dan dilindungi Ibn Daghinah."
@@ -273,6 +277,7 @@
   {
    "id": "p3",
    "name": "Ummu Khair",
+   "person": "ummu-khair",
    "role": "Ibu Abu Bakar",
    "t": 1355,
    "context": "Menjaga Abu Bakar dan membawanya ke Darul Arqam; kemudian Islam."
@@ -280,6 +285,7 @@
   {
    "id": "p5",
    "name": "Fatimah binti Al-Khattab",
+   "person": "fatimah-binti-khattab",
    "role": "Adik Umar",
    "t": 1473,
    "context": "Membantu mencari Nabi SAW dan membawa Abu Bakar secara rahsia."
@@ -287,6 +293,7 @@
   {
    "id": "p4",
    "name": "Abu Kuhafah",
+   "person": "abu-quhafah",
    "role": "Ayah Abu Bakar",
    "t": 1675,
    "context": "Memeluk Islam paling akhir ketika Fathu Makkah."
@@ -294,6 +301,7 @@
   {
    "id": "p6",
    "name": "An-Nadr bin Al-Harith",
+   "person": "an-nadr-bin-al-harith",
    "role": "Utusan Quraish",
    "t": 1877,
    "context": "Dihantar ke Yathrib bersama Uqbah untuk mendapatkan soalan ujian."
@@ -301,6 +309,7 @@
   {
    "id": "p8",
    "name": "Uthman bin Affan",
+   "person": "uthman-bin-affan",
    "role": "Sahabat",
    "t": 2823,
    "context": "Berhijrah ke Habsyah bersama Ruqayyah."
@@ -308,6 +317,7 @@
   {
    "id": "p9",
    "name": "Ruqayyah binti Muhammad",
+   "person": "ruqayyah",
    "role": "Anak Nabi SAW",
    "t": 2832,
    "context": "Berhijrah ke Habsyah bersama suaminya."
@@ -315,6 +325,7 @@
   {
    "id": "p18",
    "name": "Abu Hudhaifah bin Utbah",
+   "person": "abu-hudhaifah-bin-utbah",
    "role": "Penghijrah ke Habsyah",
    "t": 2838,
    "context": "Antara 11 lelaki gelombang pertama; isterinya Sahlah turut pergi."
@@ -322,6 +333,7 @@
   {
    "id": "p20",
    "name": "Amir bin Rabi'ah",
+   "person": "amir-bin-rabiah",
    "role": "Penghijrah ke Habsyah",
    "t": 2841,
    "context": "Suami Layla yang pergi dalam gelombang pertama."
@@ -329,6 +341,7 @@
   {
    "id": "p21",
    "name": "Abdullah bin Jahsh",
+   "person": "abdullah-bin-jahsh",
    "role": "Penghijrah ke Habsyah",
    "t": 2843,
    "context": "Disebut dalam senarai gelombang pertama bersama Ubaidullah bin Jahsh yang nasibnya tidak pasti."
@@ -336,6 +349,7 @@
   {
    "id": "p22",
    "name": "Abdurrahman bin Auf",
+   "person": "abdurrahman-bin-auf",
    "role": "Penghijrah ke Habsyah",
    "t": 2885,
    "context": "Antara gelombang pertama."
@@ -343,6 +357,7 @@
   {
    "id": "p23",
    "name": "Az-Zubair bin Al-Awwam",
+   "person": "az-zubair-bin-al-awwam",
    "role": "Penghijrah ke Habsyah",
    "t": 2892,
    "context": "Antara gelombang pertama."
@@ -350,6 +365,7 @@
   {
    "id": "p24",
    "name": "Abu Salamah",
+   "person": "abu-salamah",
    "role": "Suami Ummu Salamah",
    "t": 2894,
    "context": "Berhijrah bersama isterinya."
@@ -357,6 +373,7 @@
   {
    "id": "p10",
    "name": "Uthman bin Maz'un",
+   "person": "uthman-bin-maz-un",
    "role": "Ketua kontinjen pertama",
    "t": 2906,
    "context": "Muhajirin pertama yang meninggal di Madinah dan Nabi SAW menangis."
@@ -364,6 +381,7 @@
   {
    "id": "p11",
    "name": "Mus'ab bin Umair",
+   "person": "musab-bin-umair",
    "role": "Sahabat",
    "t": 2940,
    "context": "Kelak membuka Madinah."
@@ -371,6 +389,7 @@
   {
    "id": "p25",
    "name": "Suhaib Ar-Rumi",
+   "person": "suhaib-ar-rumi",
    "role": "Sahabat",
    "t": 2949,
    "context": "Disebut antara penghijrah awal."
@@ -378,6 +397,7 @@
   {
    "id": "p19",
    "name": "Sahlah binti Suhail",
+   "person": "sahlah-binti-suhail",
    "role": "Sahabiah",
    "t": 2959,
    "context": "Isteri Abu Hudhaifah yang berhijrah ke Habsyah."
@@ -385,6 +405,7 @@
   {
    "id": "p12",
    "name": "Layla binti Abi Hathmah",
+   "person": "layla-binti-abi-hathmah",
    "role": "Sahabiah",
    "t": 3015,
    "context": "Berkemas untuk hijrah ketika Umar lalu dan mendoakannya."
@@ -392,6 +413,7 @@
   {
    "id": "p13",
    "name": "Umar bin Al-Khattab",
+   "person": "umar-al-khattab",
    "role": "Ketika itu belum Islam",
    "t": 3023,
    "context": "Terkejut dan mendoakan keselamatan Layla."
@@ -399,6 +421,7 @@
   {
    "id": "p14",
    "name": "Ibn Daghinah",
+   "person": "ibn-daghinah",
    "role": "Ketua kabilah Al-Qarah",
    "t": 3266,
    "context": "Memberi perlindungan kepada Abu Bakar."
@@ -406,6 +429,7 @@
   {
    "id": "p16",
    "name": "Najasyi (Ashamah)",
+   "person": "najasyi",
    "role": "Raja Habsyah",
    "t": 4153,
    "context": "Raja adil yang akan diperkenalkan; dirahsiakan Islamnya."
@@ -413,6 +437,7 @@
   {
    "id": "p17",
    "name": "Umm Salamah",
+   "person": "ummu-salamah",
    "role": "Perawi kehidupan di Habsyah",
    "t": 4366,
    "context": "Menceritakan keadaan penghijrah."

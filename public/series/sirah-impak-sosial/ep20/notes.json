@@ -310,13 +310,23 @@
   {
    "id": "p1",
    "name": "Waraqah bin Naufal",
+   "person": "waraqah-bin-naufal",
    "role": "Sepupu Khadijah",
    "t": 231,
    "context": "Meninggal selepas mengesahkan kenabian Nabi SAW; Nabi SAW bermimpi dia di tempat yang baik."
   },
   {
    "id": "p4",
-   "name": "Sumayyah dan Yasir",
+   "name": "Sumayyah",
+   "person": "sumayyah",
+   "role": "Sahabat awal yang diseksa",
+   "t": 266,
+   "context": "Disebut sebagai contoh sahabat yang dijanjikan syurga bersama anak mereka Ammar."
+  },
+  {
+   "id": "p9",
+   "name": "Yasir",
+   "person": "yasir",
    "role": "Sahabat awal yang diseksa",
    "t": 266,
    "context": "Disebut sebagai contoh sahabat yang dijanjikan syurga bersama anak mereka Ammar."
@@ -324,6 +334,7 @@
   {
    "id": "p3",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Isteri Nabi SAW",
    "t": 507,
    "context": "Menceritakan hadis yang termasuk komen tabiin tentang menjatuhkan diri."
@@ -331,6 +342,7 @@
   {
    "id": "p2",
    "name": "Jabir bin Abdullah",
+   "person": "jabir-bin-abdullah",
    "role": "Sahabat dan perawi",
    "t": 546,
    "context": "Meriwayatkan sendiri kata-kata Nabi SAW tentang terputusnya wahyu."
@@ -338,6 +350,7 @@
   {
    "id": "p5",
    "name": "Ibn Abbas",
+   "person": "abdullah-bin-abbas",
    "role": "Sahabat dan pakar tafsir",
    "t": 829,
    "context": "Menyatakan Surah Al-Qalam sebagai surah kedua."
@@ -345,6 +358,7 @@
   {
    "id": "p6",
    "name": "Sayyid Qutb",
+   "person": "sayyid-qutb",
    "role": "Pentafsir",
    "t": 846,
    "context": "Berhujah Al-Qalam tidak mungkin surah kedua."
@@ -352,6 +366,7 @@
   {
    "id": "p8",
    "name": "Fatimah",
+   "person": "fatimah-az-zahra",
    "role": "Anak Nabi SAW",
    "t": 1072,
    "context": "Berselisih faham dengan Ali dalam kisah Aba Turab."
@@ -359,6 +374,7 @@
   {
    "id": "p7",
    "name": "Ali bin Abi Talib",
+   "person": "ali-bin-abi-talib",
    "role": "Menantu Nabi SAW",
    "t": 1097,
    "context": "Dipanggil 'Aba Turab' oleh Nabi SAW untuk berdamai dengan Fatimah."

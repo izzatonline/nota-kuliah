@@ -403,6 +403,7 @@
   {
    "id": "p7",
    "name": "Safiur Rahman Al-Mubarakfuri",
+   "person": "safiyyurrahman-al-mubarakfuri",
    "role": "Pengarang Ar-Rahiq Al-Makhtum",
    "t": 79,
    "context": "Ustaz menyebut pendapatnya bahawa berdasarkan analisis sejarah Hajar ialah anak seorang Fir'aun."
@@ -410,6 +411,7 @@
   {
    "id": "p1",
    "name": "Nabi Ibrahim AS",
+   "person": "ibrahim",
    "role": "Nabi, Khalilullah, bapa para nabi",
    "t": 148,
    "context": "Bapa penerokaan Mekah. Banyak diuji, banyak berhijrah, hatinya lembut, dan doanya dimustajabkan dalam diri Nabi Muhammad SAW."
@@ -417,6 +419,7 @@
   {
    "id": "p2",
    "name": "Sarah",
+   "person": "sarah",
    "role": "Isteri Nabi Ibrahim AS",
    "t": 305,
    "context": "Bersama Ibrahim ke Mesir dan hampir dikuasai Fir'aun yang menawan wanita cantik. Ustaz menyebut ada petunjuk wujudnya rasa cemburu terhadap Hajar, tetapi itu bukan sebab Hajar ditinggalkan di Mekah."
@@ -424,6 +427,7 @@
   {
    "id": "p5",
    "name": "Nabi Lut AS",
+   "person": "lut",
    "role": "Nabi",
    "t": 373,
    "context": "Pada zaman itu hanya tiga orang yang memeluk Islam selepas keluar dari kawasan asal: Ibrahim, Sarah dan Nabi Lut."
@@ -431,6 +435,7 @@
   {
    "id": "p3",
    "name": "Hajar AS",
+   "person": "hajar",
    "role": "Isteri Nabi Ibrahim, ibu Ismail",
    "t": 449,
    "context": "Hadiah Fir'aun kepada Ibrahim. Menunjukkan tawakal, usaha dan keberanian di lembah Mekah, dan usahanya diabadikan sebagai sa'i."
@@ -438,6 +443,7 @@
   {
    "id": "p6",
    "name": "Abdullah bin Abbas RA",
+   "person": "abdullah-bin-abbas",
    "role": "Sahabat, perawi hadis",
    "t": 547,
    "context": "Perawi hadis panjang dalam Sahih Bukhari tentang Hajar dan Ismail."
@@ -445,6 +451,7 @@
   {
    "id": "p4",
    "name": "Nabi Ismail AS",
+   "person": "ismail",
    "role": "Nabi, anak Ibrahim dan Hajar",
    "t": 617,
    "context": "Jawapan doa Ibrahim ('yang telah didengar'). Dibesarkan dalam kalangan Arab Jurhum dan menjadi Arab musta'ribah, kemudian membina Kaabah bersama ayahnya."
@@ -459,6 +466,7 @@
   {
    "id": "p9",
    "name": "Abu Bakar RA",
+   "person": "abu-bakar",
    "role": "Sahabat",
    "t": 2108,
    "context": "Disebut dalam hadis khalil: kalau Nabi SAW boleh mengambil seorang khalil, Baginda akan memilih Abu Bakar."
@@ -466,6 +474,7 @@
   {
    "id": "p8",
    "name": "Quraish Shihab",
+   "person": "quraish-shihab",
    "role": "Penulis Tafsir Al-Misbah",
    "t": 2253,
    "context": "Dirujuk tentang makna taubat dalam doa Ibrahim: kesedaran akan kesalahan, penyesalan dan tekad tidak mengulang."
@@ -473,6 +482,7 @@
   {
    "id": "p10",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Ummul Mu'minin",
    "t": 2361,
    "context": "Contoh ihsan: apabila memberi infak beliau memperelokkannya, kadang-kadang meletakkan wangian padanya."
@@ -480,6 +490,7 @@
   {
    "id": "p12",
    "name": "Nabi Ishak AS",
+   "person": "ishak",
    "role": "Nabi, anak Ibrahim",
    "t": 2708,
    "context": "Dikurniakan pada usia 100 tahun. Semua nabi selepas itu hingga akhir zaman, kecuali Nabi Muhammad SAW, datang daripada keturunan beliau."
@@ -487,14 +498,23 @@
   {
    "id": "p13",
    "name": "Adnan",
+   "person": "adnan",
    "role": "Moyang Nabi SAW daripada keturunan Ismail",
    "t": 2831,
    "context": "Anak Nabi Ismail yang menjadi moyang Nabi SAW dan keturunan terakhir yang dihalau dari Mekah."
   },
   {
    "id": "p14",
-   "name": "Arab Khuza'ah dan Amr bin Luhayy",
-   "role": "Kabilah yang menguasai Mekah dan ketuanya",
+   "name": "Arab Khuza'ah",
+   "role": "Kabilah yang menguasai Mekah",
+   "t": 2921,
+   "context": "Menewaskan Jurhum. Amr bin Luhayy membawa pulang berhala Hubal dari Rom dan meletakkannya di depan Kaabah, lalu mengubah suai ibadah haji."
+  },
+  {
+   "id": "p15",
+   "name": "Amr bin Luhayy",
+   "person": "amr-bin-luhay",
+   "role": "Ketua Khuza'ah",
    "t": 2921,
    "context": "Menewaskan Jurhum. Amr bin Luhayy membawa pulang berhala Hubal dari Rom dan meletakkannya di depan Kaabah, lalu mengubah suai ibadah haji."
   }

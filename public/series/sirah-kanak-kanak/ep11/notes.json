@@ -250,6 +250,7 @@
   {
    "id": "p2",
    "name": "Bakum",
+   "person": "bakum",
    "role": "Arkitek Rom",
    "t": 199,
    "context": "Arkitek yang dipanggil membina semula Kaabah."
@@ -257,6 +258,7 @@
   {
    "id": "p1",
    "name": "Abdul Muttalib",
+   "person": "abdul-muttalib",
    "role": "Datuk Nabi SAW",
    "t": 403,
    "context": "Disebut kerana Nabi SAW terkenal sebagai cucunya."
@@ -264,6 +266,7 @@
   {
    "id": "p3",
    "name": "Khadijah",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 757,
    "context": "Mendaki bukit menghantar bekalan dan menyelimutkan baginda tanpa bertanya."
@@ -271,6 +274,7 @@
   {
    "id": "p4",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat penyampai wahyu",
    "t": 1364,
    "context": "Turun dalam rupa sebenar, memeluk baginda tiga kali dan membacakan ayat pertama Al-Alaq."
@@ -278,6 +282,7 @@
   {
    "id": "p5",
    "name": "Imam Bukhari",
+   "person": "imam-bukhari",
    "role": "Pengumpul hadis",
    "t": 1463,
    "context": "Disebut sebagai contoh orang yang menghafal berjuta-juta hadis."
@@ -285,6 +290,7 @@
   {
    "id": "p6",
    "name": "Imam Syafi'i",
+   "person": "imam-syafii",
    "role": "Imam mazhab",
    "t": 1513,
    "context": "Hafalannya begitu kuat sehingga membaca sekali terus hafal dan menghafal Quran ketika kecil."

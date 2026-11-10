@@ -111,7 +111,41 @@ page({
 })
 entries.push({ path: '/doa' })
 
-let pages = 2
+// The Tokoh pages: everyone the ustaz talks about, and one page per person. A person with a single mention gets
+// noindex and no sitemap entry, so the sitemap is not full of thin pages.
+const tokoh = read('search/tokoh.ms.json')
+const epLabel = (m) => (m.epNumber ? `Ep ${m.epNumber}` : 'Prolog')
+const mentionLi = (m) =>
+  `<li><a href="/${m.slug}/${m.epId}?t=${m.person.t}">${esc(m.series)} · ${esc(epLabel(m))}: ${esc(m.epTitle)}</a>. ${esc(m.person.role)}. ${esc(m.person.context)}</li>`
+const tokohDescription = `Semua tokoh yang disebut dalam kuliah ${all.map((s) => s.series.title).join(' dan ')}: para nabi, keluarga Nabi SAW, sahabat, ulama dan lain-lain, dengan setiap kuliah dan masa mereka disebut.`
+page({
+  path: '/tokoh',
+  title: `Tokoh dalam kuliah ${all[0].series.speaker} | ${NAME}`,
+  description: clip(tokohDescription),
+  body:
+    `<h1>Tokoh dalam kuliah</h1><p>${esc(tokohDescription)}</p>` +
+    tokoh.groups
+      .map((g) => `<h2>${esc(g.title)}</h2><ul>${g.people.map((p) => `<li><a href="/tokoh/${esc(p.key)}">${esc(p.title)}</a> (${p.mentions.length})</li>`).join('')}</ul>`)
+      .join(''),
+  jsonLd: [crumbs([[NAME, '/'], ['Tokoh', '/tokoh']])],
+})
+entries.push({ path: '/tokoh' })
+let pages = 3
+for (const g of tokoh.groups)
+  for (const p of g.people) {
+    const path = `/tokoh/${p.key}`
+    const many = p.mentions.length > 1
+    page({
+      path,
+      title: `${p.title}: disebut dalam kuliah ${all[0].series.speaker} | ${NAME}`,
+      description: clip(`${p.title} (${g.title}) disebut ${p.mentions.length} kali dalam kuliah. ${p.mentions[0].person.context}`),
+      index: many,
+      body: `<h1>${esc(p.title)}</h1><p>${esc(g.title)}</p><ul>${p.mentions.map(mentionLi).join('')}</ul>`,
+      jsonLd: [crumbs([[NAME, '/'], ['Tokoh', '/tokoh'], [p.title, path]])],
+    })
+    if (many) entries.push({ path })
+    pages++
+  }
 for (const s of all) {
   const { slug, series, episodes } = s
   const withNotes = episodes.filter((e) => e.hasNotes)

@@ -165,6 +165,7 @@
   {
    "id": "p2",
    "name": "Aminah binti Wahab",
+   "person": "aminah",
    "role": "Ibu Nabi SAW",
    "t": 94,
    "context": "Isteri Abdullah, bermimpi cahaya keluar daripada perutnya dan menyerahkan Nabi SAW kepada Halimah untuk disusukan."
@@ -172,6 +173,7 @@
   {
    "id": "p1",
    "name": "Abdullah",
+   "person": "abdullah-bin-abdul-muttalib",
    "role": "Ayah Nabi SAW",
    "t": 102,
    "context": "Berkahwin dengan Aminah, membeli Barakah (Ummu Aiman), berdagang ke Syam dan wafat di Yathrib."
@@ -179,6 +181,7 @@
   {
    "id": "p3",
    "name": "Abdul Muttalib",
+   "person": "abdul-muttalib",
    "role": "Datuk Nabi SAW",
    "t": 116,
    "context": "Mengahwinkan Abdullah dengan Aminah dan menamakan cucunya Muhammad di hadapan Kaabah."
@@ -186,6 +189,7 @@
   {
    "id": "p4",
    "name": "Ummu Aiman (Barakah binti Tha'alabah)",
+   "person": "ummu-aiman",
    "role": "Hamba yang menjaga Aminah dan Nabi SAW",
    "t": 196,
    "context": "Dibeli Abdullah dari pasar semasa berumur 12 atau 13 tahun, dihadiahkan kepada Aminah dan menyambut kelahiran Nabi SAW."
@@ -193,6 +197,7 @@
   {
    "id": "p5",
    "name": "Hashim",
+   "person": "hashim",
    "role": "Moyang Nabi SAW",
    "t": 274,
    "context": "Disebut kerana kuburnya di Gaza, tempat dia wafat ketika berdagang seperti Abdullah."
@@ -200,6 +205,7 @@
   {
    "id": "p6",
    "name": "Salma",
+   "person": "salma-binti-amr",
    "role": "Nenek Abdullah dari Yathrib",
    "t": 447,
    "context": "Abdullah berhenti di kampung keluarga neneknya di Yathrib ketika demam."
@@ -207,6 +213,7 @@
   {
    "id": "p7",
    "name": "Thuwaibah",
+   "person": "thuwaibah",
    "role": "Hamba Abu Lahab dan ibu susuan Nabi SAW",
    "t": 808,
    "context": "Menyampaikan berita kelahiran kepada Abu Lahab dan Abdul Muttalib, dan menyusukan Nabi SAW seketika."
@@ -214,6 +221,7 @@
   {
    "id": "p10",
    "name": "Al-Abbas",
+   "person": "abbas-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 830,
    "context": "Disebut sebagai salah seorang abang Abdullah."
@@ -221,6 +229,7 @@
   {
    "id": "p9",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 832,
    "context": "Salah seorang abang kepada Abdullah."
@@ -228,6 +237,7 @@
   {
    "id": "p11",
    "name": "Hamzah RA",
+   "person": "hamzah",
    "role": "Bapa saudara Nabi SAW",
    "t": 834,
    "context": "Disebut bersama bapa saudara baginda yang lain."
@@ -235,6 +245,7 @@
   {
    "id": "p8",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW",
    "t": 837,
    "context": "Sangat gembira dengan kelahiran anak saudaranya, lalu memerdekakan Thuwaibah."
@@ -242,6 +253,7 @@
   {
    "id": "p12",
    "name": "Nabi Ibrahim AS",
+   "person": "ibrahim",
    "role": "Nabi",
    "t": 1079,
    "context": "Nabi SAW bersabda baginda ialah doa Ibrahim agar diutuskan seorang rasul di Mekah."
@@ -249,6 +261,7 @@
   {
    "id": "p13",
    "name": "Nabi Isa AS",
+   "person": "isa",
    "role": "Nabi",
    "t": 1089,
    "context": "Pernah memberi khabar gembira kepada kaum Nasrani tentang seorang nabi akhir zaman bernama Ahmad."
@@ -256,6 +269,7 @@
   {
    "id": "p14",
    "name": "Halimah As-Sa'diyah",
+   "person": "halimah",
    "role": "Ibu susuan Nabi SAW dari Bani Sa'ad",
    "t": 1117,
    "context": "Datang ke Mekah mencari bayi untuk disusukan, mengambil bayi Muhammad yang tiada orang mahu, lalu rezekinya bertambah."
@@ -263,6 +277,7 @@
   {
    "id": "p15",
    "name": "Al-Harith",
+   "person": "al-harith-suami-halimah",
    "role": "Suami Halimah",
    "t": 1438,
    "context": "Menyokong Halimah mengambil bayi Muhammad dan berkata mungkin Allah memberi rezeki."
@@ -270,6 +285,7 @@
   {
    "id": "p16",
    "name": "Syahimah",
+   "person": "syahimah",
    "role": "Kakak susuan Nabi SAW",
    "t": 1634,
    "context": "Anak Halimah yang bermain bersama Nabi SAW di Bani Sa'ad."

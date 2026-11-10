@@ -217,6 +217,7 @@
   {
    "id": "p2",
    "name": "Fatimah binti Asad",
+   "person": "fatimah-binti-asad",
    "role": "Isteri Abu Talib",
    "t": 356,
    "context": "Dianggap ibu kedua Nabi SAW tempat baginda meluahkan perasaan."
@@ -224,6 +225,7 @@
   {
    "id": "p1",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara dan penjaga Nabi SAW",
    "t": 362,
    "context": "Menjaga Nabi SAW selama kira-kira empat tahun, membawa baginda berdagang ke Syam, dan dilihat Nabi SAW sebagai figura ayah."
@@ -231,6 +233,7 @@
   {
    "id": "p3",
    "name": "Bahira (Buhairah)",
+   "person": "bahira",
    "role": "Rahib di Busra",
    "t": 478,
    "context": "Dalam riwayat, beliau melihat tanda kenabian pada Nabi SAW dan menasihatkan Abu Talib pulang ke Makkah, tetapi kisahnya diperselisihkan ulama."
@@ -238,6 +241,7 @@
   {
    "id": "p6",
    "name": "Imam at-Tirmidhi",
+   "person": "imam-tirmizi",
    "role": "Perawi hadis",
    "t": 687,
    "context": "Sumber paling berautoriti bagi kisah Bahira, tetapi hadisnya dinilai daif."
@@ -245,6 +249,7 @@
   {
    "id": "p4",
    "name": "Abu Bakar RA",
+   "person": "abu-bakar",
    "role": "Sahabat",
    "t": 764,
    "context": "Disebut dalam hadis Tirmidhi sebagai dihantar bersama Nabi SAW pulang, sedangkan beliau hanya muda dua tahun daripada Nabi SAW, antara sebab riwayat ditolak."
@@ -252,13 +257,23 @@
   {
    "id": "p5",
    "name": "Bilal RA",
+   "person": "bilal-bin-rabah",
    "role": "Sahabat",
    "t": 764,
    "context": "Disebut dalam hadis itu walaupun lahir kira-kira sepuluh tahun selepas Nabi SAW, maka kehadirannya meragukan."
   },
   {
    "id": "p7",
-   "name": "Ibn Kathir dan adh-Dhahabi",
+   "name": "Ibn Kathir",
+   "person": "ibn-kathir",
+   "role": "Imam sejarah dan hadis",
+   "t": 789,
+   "context": "Menganalisis semua riwayat dan menyimpulkan tiada riwayat yang kuat."
+  },
+  {
+   "id": "p8",
+   "name": "adh-Dhahabi",
+   "person": "adh-dhahabi",
    "role": "Imam sejarah dan hadis",
    "t": 789,
    "context": "Menganalisis semua riwayat dan menyimpulkan tiada riwayat yang kuat."

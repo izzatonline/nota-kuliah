@@ -131,6 +131,7 @@
   {
    "id": "p1",
    "name": "Abdul Muttalib",
+   "person": "abdul-muttalib",
    "role": "Datuk Nabi SAW",
    "t": 241,
    "context": "Menyayangi Nabi SAW, memberinya kerusi istimewa, lalu wafat selepas mengamanahkan baginda kepada Abu Talib."
@@ -138,6 +139,7 @@
   {
    "id": "p9",
    "name": "Al-Abbas",
+   "person": "abbas-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 467,
    "context": "Disebut sebagai bapa saudara lain, tetapi Nabi diamanahkan kepada Abu Talib."
@@ -145,6 +147,7 @@
   {
    "id": "p10",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW",
    "t": 467,
    "context": "Disebut bersama Al-Abbas sebagai bapa saudara lain."
@@ -152,6 +155,7 @@
   {
    "id": "p4",
    "name": "Talib",
+   "person": "talib-bin-abi-talib",
    "role": "Anak Abu Talib",
    "t": 484,
    "context": "Sepupu Nabi SAW dan sebab Abu Talib dipanggil Abu Talib."
@@ -159,6 +163,7 @@
   {
    "id": "p5",
    "name": "Aqil",
+   "person": "aqil-bin-abi-talib",
    "role": "Anak Abu Talib",
    "t": 484,
    "context": "Sepupu Nabi SAW."
@@ -166,6 +171,7 @@
   {
    "id": "p6",
    "name": "Fakhitah (Ummu Hani)",
+   "person": "ummu-hani",
    "role": "Anak Abu Talib",
    "t": 509,
    "context": "Lebih dikenali sebagai Ummu Hani."
@@ -173,6 +179,7 @@
   {
    "id": "p7",
    "name": "Ja'far",
+   "person": "jafar-bin-abi-talib",
    "role": "Anak Abu Talib",
    "t": 511,
    "context": "Sepupu Nabi SAW yang kisahnya akan didengar kemudian."
@@ -180,6 +187,7 @@
   {
    "id": "p8",
    "name": "Ali bin Abi Talib RA",
+   "person": "ali-bin-abi-talib",
    "role": "Anak Abu Talib",
    "t": 516,
    "context": "Sepupu Nabi SAW."
@@ -187,6 +195,7 @@
   {
    "id": "p2",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW yang menjaga baginda",
    "t": 562,
    "context": "Miskin dan beranak lima, tetapi sangat menyayangi Nabi SAW melebihi anak-anaknya sendiri."
@@ -194,6 +203,7 @@
   {
    "id": "p3",
    "name": "Ummu Aiman (Barakah)",
+   "person": "ummu-aiman",
    "role": "Ibu angkat Nabi SAW",
    "t": 684,
    "context": "Nama sebenarnya Barakah, bermaksud keberkatan."

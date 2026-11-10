@@ -206,6 +206,7 @@
   {
    "id": "p3",
    "name": "Hamzah",
+   "person": "hamzah",
    "role": "Singa pertama",
    "t": 25,
    "context": "Tenang apabila Umar datang dengan pedang dan memimpin satu barisan ke Kaabah."
@@ -213,6 +214,7 @@
   {
    "id": "p4",
    "name": "Layla (Ummu Abdullah)",
+   "person": "layla-ummu-abdullah",
    "role": "Sahabiah yang berhijrah",
    "t": 268,
    "context": "Berkemas untuk hijrah apabila Umar bertanya dan mendoakan mereka."
@@ -220,6 +222,7 @@
   {
    "id": "p1",
    "name": "Umar bin Al-Khattab",
+   "person": "umar-al-khattab",
    "role": "Pemuda gagah yang memeluk Islam, digelar Al-Faruq",
    "t": 279,
    "context": "Berusia 25 atau 26 tahun, mahu membunuh Nabi SAW tetapi memeluk Islam di Dar al-Arqam dan kemudian menjadi khalifah kedua."
@@ -227,6 +230,7 @@
   {
    "id": "p2",
    "name": "Abu Jahal (Amr bin Hisham)",
+   "person": "abu-jahal",
    "role": "Pembesar Quraisy",
    "t": 464,
    "context": "Menghasut Umar membunuh Nabi SAW dan memukul pintunya apabila Umar mengumumkan Islamnya."
@@ -234,6 +238,7 @@
   {
    "id": "p6",
    "name": "Fatimah binti Khattab",
+   "person": "fatimah-binti-khattab",
    "role": "Adik perempuan Umar",
    "t": 517,
    "context": "Terpukul Umar hingga berdarah apabila cuba melindungi suaminya."
@@ -241,6 +246,7 @@
   {
    "id": "p5",
    "name": "Zaid bin Khattab",
+   "person": "zaid-bin-khattab",
    "role": "Abang Umar",
    "t": 530,
    "context": "Telah memeluk Islam secara rahsia."
@@ -248,6 +254,7 @@
   {
    "id": "p9",
    "name": "Nu'aim",
+   "person": "nuaim",
    "role": "Sahabat yang menyembunyikan Islam",
    "t": 967,
    "context": "Memberitahu Umar tentang adiknya untuk menghalangnya membunuh Nabi SAW."
@@ -255,6 +262,7 @@
   {
    "id": "p7",
    "name": "Sa'id bin Zaid",
+   "person": "said-bin-zaid",
    "role": "Suami Fatimah",
    "t": 1078,
    "context": "Sahabat yang dijanjikan syurga, dipukul Umar tetapi mengingatkannya bahawa Islam mungkin benar."
@@ -262,6 +270,7 @@
   {
    "id": "p8",
    "name": "Khabbab bin Al-Arat",
+   "person": "khabbab-bin-al-arat",
    "role": "Guru Quran Fatimah",
    "t": 1105,
    "context": "Bersembunyi dalam almari lalu keluar dan memberitahu Umar tentang doa Nabi SAW."
@@ -269,6 +278,7 @@
   {
    "id": "p10",
    "name": "Al-Arqam",
+   "person": "al-arqam",
    "role": "Pemilik Dar al-Arqam",
    "t": 1503,
    "context": "Berusia sekitar 13 atau 14 tahun, rumahnya menjadi pusat rahsia."
@@ -276,6 +286,7 @@
   {
    "id": "p11",
    "name": "Jamil bin Ma'mar Al-Jumahi",
+   "person": "jamil-bin-mamar",
    "role": "Pembawa gosip Mekah",
    "t": 1703,
    "context": "Menyebarkan berita Umar memeluk Islam."
@@ -283,6 +294,7 @@
   {
    "id": "p12",
    "name": "Abdullah bin Mas'ud",
+   "person": "abdullah-bin-masud",
    "role": "Sahabat",
    "t": 1917,
    "context": "Berkata hari Umar memeluk Islam ialah hari yang paling baik di Mekah."
@@ -290,6 +302,7 @@
   {
    "id": "p13",
    "name": "Khalid bin Al-Walid",
+   "person": "khalid-bin-al-walid",
    "role": "Pedang Allah",
    "t": 2205,
    "context": "Belum memeluk Islam, akan memeluknya tiga belas tahun kemudian."

@@ -324,6 +324,7 @@
   {
    "id": "p3",
    "name": "Mut'im bin Adi",
+   "person": "mutim-bin-adi",
    "role": "Pelindung Nabi dari Quraish",
    "t": 471,
    "context": "Memberi perlindungan selepas Taif tetapi bertindak negatif selepas Nabi menceritakan perjalanan malam."
@@ -331,6 +332,7 @@
   {
    "id": "p2",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW",
    "t": 522,
    "context": "Menarik perlindungannya, mengekori Nabi di pasar dan menuduhnya pendusta; Nabi tidak membalasnya."
@@ -338,6 +340,7 @@
   {
    "id": "p1",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Sahabat",
    "t": 1546,
    "context": "Pakar salasilah Arab yang menyediakan profil kabilah, menjadi jurucakap pertama, dan mengajarkan doa apabila dipuji."
@@ -345,6 +348,7 @@
   {
    "id": "p4",
    "name": "Thumamah bin Uthal",
+   "person": "thumamah-bin-uthal",
    "role": "Ketua Bani Hanifah",
    "t": 2335,
    "context": "Diikat di masjid selama tiga hari, melihat kehidupan Muslim dan memeluk Islam tanpa dakwah langsung."
@@ -352,6 +356,7 @@
   {
    "id": "p5",
    "name": "Bahirah",
+   "person": "bahirah-bani-amir",
    "role": "Tokoh Bani Amir",
    "t": 2498,
    "context": "Mahu menerima Nabi demi menguasai Arab dan meminta jaminan kepimpinan selepas baginda."
@@ -359,6 +364,7 @@
   {
    "id": "p6",
    "name": "Suwaid bin Samit",
+   "person": "suwaid-bin-samit",
    "role": "Penyair bergelar Al-Kamil",
    "t": 2880,
    "context": "Penyair terkemuka yang mendengar Quran daripada Nabi dan memeluk Islam, lalu terbunuh di Madinah."
@@ -366,6 +372,7 @@
   {
    "id": "p7",
    "name": "Iyas bin Mu'adh",
+   "person": "iyas-bin-muadh",
    "role": "Pemuda Aus",
    "t": 3159,
    "context": "Masih kanak-kanak ketika mendengar Nabi dan menyatakan itu lebih baik daripada tujuan kedatangan mereka; meninggal sebagai Muslim."
@@ -373,6 +380,7 @@
   {
    "id": "p8",
    "name": "Dimad Al-Azdi",
+   "person": "dimad-al-azdi",
    "role": "Ahli jampi dari Yaman",
    "t": 3329,
    "context": "Berniat menjampi Nabi yang dikatakan gila, mendengar khutbatul hajah tiga kali, lalu memeluk Islam."
@@ -380,6 +388,7 @@
   {
    "id": "p9",
    "name": "Tufail bin Amr Ad-Dawsi",
+   "person": "tufail-bin-amr-ad-dawsi",
    "role": "Pemimpin kaumnya",
    "t": 3472,
    "context": "Menyumbat telinga dengan kapas supaya tidak mendengar Nabi tetapi akhirnya mendengar dan memeluk Islam."
@@ -387,6 +396,7 @@
   {
    "id": "p10",
    "name": "As'ad bin Zurarah",
+   "person": "asad-bin-zurarah",
    "role": "Pemuda Khazraj",
    "t": 3862,
    "context": "Antara enam pemuda di Aqabah, berusia sembilan belas tahun, dan kelak memulakan solat Jumaat di Madinah."
@@ -394,6 +404,7 @@
   {
    "id": "p11",
    "name": "Al-Abbas",
+   "person": "abbas-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 4229,
    "context": "Ahli perniagaan berjaringan luas yang belum memeluk Islam tetapi tidak menghalang."
@@ -401,9 +412,50 @@
   {
    "id": "p12",
    "name": "Hassan bin Thabit",
+   "person": "hassan-bin-thabit",
    "role": "Sahabat penyair Ansar",
    "t": 4392,
    "context": "Disebut sebagai contoh kepakaran para sahabat; Nabi menyuruhnya belajar salasilah Quraish daripada Abu Bakar."
+  },
+  {
+   "id": "p13",
+   "name": "Auf bin Harith",
+   "person": "auf-bin-al-harith",
+   "role": "Pemuda Khazraj, salah seorang daripada enam",
+   "t": 3897,
+   "context": "Disebut ustaz antara enam pemuda Khazraj yang bertemu Nabi SAW; nama mereka disenaraikan semula."
+  },
+  {
+   "id": "p14",
+   "name": "Rafi' bin Malik",
+   "person": "rafi-bin-malik",
+   "role": "Pemuda Khazraj, salah seorang daripada enam",
+   "t": 3899,
+   "context": "Disebut ustaz antara enam pemuda Khazraj yang bertemu Nabi SAW; nama mereka disenaraikan semula."
+  },
+  {
+   "id": "p15",
+   "name": "Qutbah",
+   "person": "qutbah-bin-amir",
+   "role": "Pemuda Khazraj, salah seorang daripada enam",
+   "t": 3900,
+   "context": "Disebut ustaz antara enam pemuda Khazraj yang bertemu Nabi SAW; nama mereka disenaraikan semula."
+  },
+  {
+   "id": "p16",
+   "name": "Uqbah",
+   "person": "uqbah-bin-amir",
+   "role": "Pemuda Khazraj, salah seorang daripada enam",
+   "t": 3900,
+   "context": "Disebut ustaz antara enam pemuda Khazraj yang bertemu Nabi SAW; nama mereka disenaraikan semula."
+  },
+  {
+   "id": "p17",
+   "name": "Jabir bin Abdullah",
+   "person": "jabir-bin-abdullah-bin-riab",
+   "role": "Pemuda Khazraj, salah seorang daripada enam",
+   "t": 3901,
+   "context": "Disebut ustaz antara enam pemuda Khazraj yang bertemu Nabi SAW; nama mereka disenaraikan semula."
   }
  ],
  "sirah": {

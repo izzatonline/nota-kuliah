@@ -407,6 +407,7 @@
   {
    "id": "p3",
    "name": "Ali Muhammad As-Sallabi",
+   "person": "ali-as-sallabi",
    "role": "Penulis sirah moden",
    "t": 888,
    "context": "Dipetik tentang sifat Aus dan Khazraj, kaedah sulbah dan titik perubahan enam pemuda."
@@ -414,6 +415,7 @@
   {
    "id": "p1",
    "name": "As'ad bin Zurarah",
+   "person": "asad-bin-zurarah",
    "role": "Pemuda Khazraj, salah seorang daripada enam",
    "t": 1501,
    "context": "Antara pengasas Madinah yang disebut ustaz, dikenali juga sebagai Abu Umamah."
@@ -421,6 +423,7 @@
   {
    "id": "p10",
    "name": "Auf bin Harith",
+   "person": "auf-bin-al-harith",
    "role": "Pemuda Khazraj, salah seorang daripada enam",
    "t": 1504,
    "context": "Disebut ustaz antara enam pemuda Yathrib yang pertama bertemu Nabi SAW."
@@ -428,6 +431,7 @@
   {
    "id": "p11",
    "name": "Rafi' bin Malik",
+   "person": "rafi-bin-malik",
    "role": "Pemuda Khazraj, salah seorang daripada enam",
    "t": 1506,
    "context": "Disebut ustaz antara enam pemuda Yathrib yang pertama bertemu Nabi SAW."
@@ -435,6 +439,7 @@
   {
    "id": "p2",
    "name": "Jabir bin Abdullah bin Ri'ab",
+   "person": "jabir-bin-abdullah-bin-riab",
    "role": "Salah seorang daripada enam pemuda",
    "t": 1507,
    "context": "Tidak datang pada Perjanjian Aqabah pertama; ustaz membezakannya daripada Jabir bin Abdullah yang masyhur."
@@ -442,6 +447,7 @@
   {
    "id": "p12",
    "name": "Qutbah",
+   "person": "qutbah-bin-amir",
    "role": "Pemuda Khazraj, salah seorang daripada enam",
    "t": 1507,
    "context": "Disebut ustaz dengan nama pertama sahaja, antara enam pemuda Yathrib yang pertama bertemu Nabi SAW."
@@ -449,6 +455,7 @@
   {
    "id": "p13",
    "name": "Uqbah",
+   "person": "uqbah-bin-amir",
    "role": "Pemuda Khazraj, salah seorang daripada enam",
    "t": 1507,
    "context": "Disebut ustaz dengan nama pertama sahaja, antara enam pemuda Yathrib yang pertama bertemu Nabi SAW."
@@ -456,6 +463,7 @@
   {
    "id": "p4",
    "name": "Abdullah bin Ummi Maktum",
+   "person": "abdullah-bin-ummi-maktum",
    "role": "Sahabat buta, sepupu Khadijah",
    "t": 1988,
    "context": "Dikaitkan dengan latar Surah Abasa dan akan dihantar ke Madinah sebagai guru."
@@ -463,6 +471,7 @@
   {
    "id": "p6",
    "name": "Khawlah binti Hakim",
+   "person": "khawlah-binti-hakim",
    "role": "Sahabiah",
    "t": 2802,
    "context": "Datang menolong Nabi berkahwin semula selepas kewafatan Khadijah; ustaz akan menjadikannya episod khas."
@@ -470,6 +479,7 @@
   {
    "id": "p14",
    "name": "Mu'adh bin Harith",
+   "person": "muadh-bin-al-harith",
    "role": "Salah seorang daripada tujuh orang baharu pada Perjanjian Aqabah pertama",
    "t": 3346,
    "context": "Disebut ustaz antara tujuh orang baharu yang menyertai lima daripada enam pemuda pertama, menjadikan dua belas orang. Ustaz berpesan nama-nama ini tidak perlu dihafal dan boleh dirujuk dalam Ar-Rahiq Al-Makhtum."
@@ -477,6 +487,7 @@
   {
    "id": "p15",
    "name": "Zakwan",
+   "person": "zakwan-bin-abd-qais",
    "role": "Salah seorang daripada tujuh orang baharu pada Perjanjian Aqabah pertama",
    "t": 3348,
    "context": "Disebut ustaz antara tujuh orang baharu yang menyertai lima daripada enam pemuda pertama, menjadikan dua belas orang. Disebut dengan nama pertama sahaja."
@@ -484,6 +495,7 @@
   {
    "id": "p16",
    "name": "Yazid bin Tha'labah",
+   "person": "yazid-bin-thalabah",
    "role": "Salah seorang daripada tujuh orang baharu pada Perjanjian Aqabah pertama",
    "t": 3351,
    "context": "Disebut ustaz antara tujuh orang baharu yang menyertai lima daripada enam pemuda pertama, menjadikan dua belas orang."
@@ -491,6 +503,7 @@
   {
    "id": "p17",
    "name": "Al-Abbas",
+   "person": "abbas-bin-ubadah",
    "role": "Salah seorang daripada tujuh orang baharu pada Perjanjian Aqabah pertama",
    "t": 3352,
    "context": "Disebut ustaz antara tujuh orang baharu yang menyertai lima daripada enam pemuda pertama, menjadikan dua belas orang. Disebut dengan nama pertama sahaja."
@@ -498,6 +511,7 @@
   {
    "id": "p18",
    "name": "Abu al-Haitham",
+   "person": "abu-al-haitham",
    "role": "Salah seorang daripada tujuh orang baharu pada Perjanjian Aqabah pertama",
    "t": 3353,
    "context": "Disebut ustaz antara tujuh orang baharu yang menyertai lima daripada enam pemuda pertama, menjadikan dua belas orang."
@@ -505,6 +519,7 @@
   {
    "id": "p19",
    "name": "Uwaim",
+   "person": "uwaim-bin-saidah",
    "role": "Salah seorang daripada tujuh orang baharu pada Perjanjian Aqabah pertama",
    "t": 3354,
    "context": "Disebut ustaz antara tujuh orang baharu yang menyertai lima daripada enam pemuda pertama, menjadikan dua belas orang. Disebut dengan nama pertama sahaja."
@@ -512,6 +527,7 @@
   {
    "id": "p5",
    "name": "Ubadah bin Samit",
+   "person": "ubadah-bin-samit",
    "role": "Sahabat, naqib Aqabah",
    "t": 3396,
    "context": "Perawi hadis perjanjian Aqabah pertama dan menyertai Badar."
@@ -519,6 +535,7 @@
   {
    "id": "p7",
    "name": "Abu Ayyub Al-Ansari",
+   "person": "abu-ayyub-al-ansari",
    "role": "Sahabat, tuan rumah Nabi di Madinah",
    "t": 4638,
    "context": "Menyatakan kepada isterinya bahawa Aisyah lebih baik daripada mereka apabila tersebar fitnah."
@@ -526,6 +543,7 @@
   {
    "id": "p8",
    "name": "Maryam AS",
+   "person": "maryam",
    "role": "Wanita salihah",
    "t": 4719,
    "context": "Contoh yang lebih takut maruahnya diaibkan daripada mati."
@@ -533,6 +551,7 @@
   {
    "id": "p9",
    "name": "Mus'ab bin Umair",
+   "person": "musab-bin-umair",
    "role": "Guru yang dihantar ke Madinah",
    "t": 5249,
    "context": "Disebut dalam teaser bersama Abdullah bin Ummi Maktum sebagai guru yang menggerakkan projek di Madinah."

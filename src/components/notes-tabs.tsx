@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react'
+import { Link } from 'react-router-dom'
 import { LifeBuoy, Library, Lightbulb, ShieldAlert, ShieldCheck } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -302,6 +303,7 @@ export function BooksTab({ notes }: { notes: Notes }) {
 const initials = (n: string) => n.split(/\s+/).filter((w) => /^[A-Za-z]/.test(w) && w.length > 2).slice(0, 2).map((w) => w[0]).join('').toUpperCase()
 
 function PersonRow({ p }: { p: Person }) {
+  const { t } = useT()
   const now = useIsNow(p.t, 60)
   return (
     <Card data-item={`tokoh:${p.id}`} className={cn(now && NOW_RING)}>
@@ -316,6 +318,11 @@ function PersonRow({ p }: { p: Person }) {
             <TimeLink t={p.t} />
           </div>
           <p className="text-sm leading-relaxed text-muted-foreground">{p.context}</p>
+          {p.person && (
+            <Link to={`/tokoh/${p.person}`} className="inline-block pt-1 text-xs font-medium text-primary underline-offset-2 hover:underline">
+              {t('tokoh.allMentions')}
+            </Link>
+          )}
         </div>
       </CardContent>
     </Card>

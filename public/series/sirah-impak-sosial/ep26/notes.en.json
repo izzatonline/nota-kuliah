@@ -112,7 +112,7 @@
   },
   {
    "id": "p3",
-   "role": "Ammar's parents",
+   "role": "Ammar's mother",
    "context": "The first martyrs in Islam."
   },
   {
@@ -174,6 +174,41 @@
    "id": "p15",
    "role": "Companion",
    "context": "Later freed many slaves and was pressed by his father; Allah answered in Al-Layl."
+  },
+  {
+   "id": "p16",
+   "role": "Ammar's father",
+   "context": "The first martyrs in Islam."
+  },
+  {
+   "id": "p17",
+   "role": "Child of the Prophet SAW",
+   "context": "The Prophet's first child with Khadijah; one of their six children."
+  },
+  {
+   "id": "p18",
+   "role": "Child of the Prophet SAW",
+   "context": "One of the six children of the Prophet SAW and Khadijah."
+  },
+  {
+   "id": "p19",
+   "role": "Child of the Prophet SAW",
+   "context": "One of the six children of the Prophet SAW and Khadijah."
+  },
+  {
+   "id": "p20",
+   "role": "Child of the Prophet SAW",
+   "context": "One of the six children of the Prophet SAW and Khadijah."
+  },
+  {
+   "id": "p21",
+   "role": "Child of the Prophet SAW",
+   "context": "One of the six children of the Prophet SAW and Khadijah."
+  },
+  {
+   "id": "p22",
+   "role": "Child of the Prophet SAW",
+   "context": "A later child of the Prophet SAW; an infant who lived only a short while before he died."
   }
  ],
  "lessons": [

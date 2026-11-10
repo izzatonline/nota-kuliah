@@ -287,6 +287,7 @@
   {
    "id": "p1",
    "name": "Qusai",
+   "person": "qusai",
    "role": "Moyang Nabi SAW",
    "t": 138,
    "context": "Mengumpulkan semula keturunan Quraish supaya tinggal berhampiran Kaabah."
@@ -294,6 +295,7 @@
   {
    "id": "p2",
    "name": "Nabi Ibrahim AS",
+   "person": "ibrahim",
    "role": "Nabi",
    "t": 434,
    "context": "Mempunyai dua anak, Ismail dan Ishaq; keturunan Ishaq ialah Bani Israel."
@@ -301,6 +303,7 @@
   {
    "id": "p3",
    "name": "Nabi Ya'qub AS (Israel)",
+   "person": "yaqub",
    "role": "Nabi",
    "t": 468,
    "context": "Dikenali juga sebagai Israel; dua belas anaknya menjadi dua belas suku Bani Israel."
@@ -308,6 +311,7 @@
   {
    "id": "p4",
    "name": "Yahud",
+   "person": "yahud",
    "role": "Anak Nabi Ya'qub",
    "t": 519,
    "context": "Daripada namanya datang istilah Yahudi, dan Quran menggunakan Yahud apabila mengecam kesesatan."
@@ -315,6 +319,7 @@
   {
    "id": "p5",
    "name": "Suhaib Ar-Rumi",
+   "person": "suhaib-ar-rumi",
    "role": "Sahabat dan perawi hadis",
    "t": 810,
    "context": "Meriwayatkan kisah ghulam dan Ashabul Ukhdud daripada Nabi SAW dalam Sahih Muslim."
@@ -322,6 +327,7 @@
   {
    "id": "p6",
    "name": "Dhunawas",
+   "person": "dhunawas",
    "role": "Raja",
    "t": 850,
    "context": "Raja daripada agama Yahudi yang menganggap dirinya tuhan, dikaitkan dengan kisah ini."
@@ -329,6 +335,7 @@
   {
    "id": "p7",
    "name": "Ghulam",
+   "person": "ghulam",
    "role": "Budak dalam hadis",
    "t": 991,
    "context": "Nama tidak disebut dalam hadis; sebahagian buku sirah menyebut Abdullah. Tampil sebagai budak yang beriman dan berkorban supaya rakyat mengenal Allah."
@@ -336,6 +343,7 @@
   {
    "id": "p8",
    "name": "Rahib",
+   "person": "rahib",
    "role": "Guru tauhid ghulam",
    "t": 1109,
    "context": "Pengikut Nabi Isa AS yang masih bertauhid, mengajar ghulam secara rahsia dan digergaji kerana mempertahankan imannya."
@@ -343,6 +351,7 @@
   {
    "id": "p9",
    "name": "Khabbab bin Arat",
+   "person": "khabbab-bin-al-arat",
    "role": "Sahabat",
    "t": 2111,
    "context": "Mengadu kepada Nabi SAW tentang penyeksaan di Mekah, lalu diingatkan kisah kaum terdahulu."
@@ -350,6 +359,7 @@
   {
    "id": "p10",
    "name": "Ammar bin Yasir",
+   "person": "ammar-bin-yasir",
    "role": "Sahabat",
    "t": 2286,
    "context": "Terpaksa mengucapkan kata yang tidak diyakininya ketika diseksa, lalu turun ayat yang membenarkannya."
@@ -357,6 +367,7 @@
   {
    "id": "p13",
    "name": "Najasyi",
+   "person": "najasyi",
    "role": "Raja Habsyah",
    "t": 2795,
    "context": "Menerima arahan Konstantinople dan menghantar tentera menentang raja Yaman."
@@ -364,6 +375,7 @@
   {
    "id": "p11",
    "name": "Aryad",
+   "person": "aryad",
    "role": "Ketua tentera Najasyi",
    "t": 2804,
    "context": "Dihantar oleh Najasyi untuk menentang raja yang zalim di Yaman dan mengambil alih pemerintahan."
@@ -371,6 +383,7 @@
   {
    "id": "p12",
    "name": "Abraha",
+   "person": "abraha",
    "role": "Jeneral Habsyah",
    "t": 2813,
    "context": "Jeneral Aryad yang kemudian melakukan rampasan kuasa; kisahnya bersambung dengan Ashabul Fil."
@@ -378,13 +391,23 @@
   {
    "id": "p14",
    "name": "Al-Tabari",
+   "person": "at-tabari",
    "role": "Ulama tafsir dan sejarah",
    "t": 2998,
    "context": "Dirujuk bahawa kisah Ashabul Ukhdud berlaku kira-kira 46 tahun sebelum Nabi SAW lahir."
   },
   {
    "id": "p15",
-   "name": "Ali bin Abi Talib dan Ibn Abbas",
+   "name": "Ali bin Abi Talib",
+   "person": "ali-bin-abi-talib",
+   "role": "Sahabat",
+   "t": 3015,
+   "context": "Dirujuk bagi pandangan bahawa pembakaran hidup-hidup berlaku di banyak tempat."
+  },
+  {
+   "id": "p16",
+   "name": "Ibn Abbas",
+   "person": "abdullah-bin-abbas",
    "role": "Sahabat",
    "t": 3015,
    "context": "Dirujuk bagi pandangan bahawa pembakaran hidup-hidup berlaku di banyak tempat."

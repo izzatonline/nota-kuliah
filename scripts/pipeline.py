@@ -37,11 +37,17 @@ QURAN_CACHE = ROOT / "data/quran-cache.json"
 CARE_NOTE = ROOT / "data/care-note.json"
 PROMPT = Path(__file__).resolve().parent / "prompts/notes.md"
 DUAS = ROOT / "data/duas.json"
+PEOPLE = ROOT / "data/people.json"
 
 
 def known_duas():
     """The duas the Doa page lists, as {key: Malay title}."""
     return {d["key"]: d["ms"] for d in json.loads(DUAS.read_text())["duas"]}
+
+
+def known_people():
+    """The people the Tokoh page lists, as {key: Malay name}."""
+    return {p["key"]: p["ms"] for p in json.loads(PEOPLE.read_text())["people"]}
 MODEL = Path(os.environ.get("WHISPER_MODEL", Path.home() / ".cache/nota-kuliah/ggml-large-v3.bin"))
 MODEL_URL = "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin"
 
@@ -279,6 +285,7 @@ def stage_draft(workdir, args):
         + f"\n\n## Lecture\nTitle: {meta['title']}\nSeries: {args.series}\nSpeaker: {args.speaker}\n"
         + f"Episode: {meta.get('number')}\nLength: {meta['duration'] // 60} minutes\n\n"
         + "## Known duas (keys for `dua`)\n" + "".join(f"- {k}: {v}\n" for k, v in known_duas().items()) + "\n"
+        + "## Known people (keys for `person`)\n" + "".join(f"- {k}: {v}\n" for k, v in known_people().items()) + "\n"
         + "## Transcript\n" + blocks_text(segs) + "\n"
     )
     prompt_file = workdir / "draft.prompt.md"
@@ -489,8 +496,16 @@ def assemble(draft, meta, loc, args):
         books.append({"id": f"s{i + 1}", "title": b["title"], "author": b.get("author"), "kind": b.get("kind", "Lain-lain"),
                       "t": None, "suggested": True, "context": b.get("context", "")})
 
-    people = [{"id": f"p{i + 1}", "name": p["name"], "role": p.get("role", ""), "t": T(f"people[{i}]", p), "context": p.get("context", "")}
-              for i, p in enumerate(draft.get("people", []))]
+    known = known_people()
+    people = []
+    for i, p in enumerate(draft.get("people", [])):
+        person = {"id": f"p{i + 1}", "name": p["name"]}
+        if p.get("person"):
+            person["person"] = p["person"]
+            if p["person"] not in known:
+                warnings.append(f"{p['name']}: person {p['person']!r} is new. Add it to data/people.json (group and name) or the Tokoh page skips it")
+        person.update({"role": p.get("role", ""), "t": T(f"people[{i}]", p), "context": p.get("context", "")})
+        people.append(person)
     people = sorted((p for p in people if p["t"] is not None), key=lambda p: p["t"])
 
     sirah_src = draft.get("sirah", {})

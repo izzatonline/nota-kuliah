@@ -158,6 +158,7 @@
   {
    "id": "p1",
    "name": "Urwah",
+   "person": "urwah-ar-rahhal",
    "role": "Peniaga yang dibunuh",
    "t": 185,
    "context": "Menawarkan harga lebih murah untuk membawa barang ke Pasar Ukaz dan dibunuh Al-Barrad."
@@ -165,6 +166,7 @@
   {
    "id": "p2",
    "name": "Al-Barrad",
+   "person": "al-barrad",
    "role": "Peniaga Quraisy yang membunuh Urwah",
    "t": 187,
    "context": "Marah kehilangan projek lalu membunuh Urwah dalam bulan haram."
@@ -172,6 +174,7 @@
   {
    "id": "p5",
    "name": "Az-Zubaidi",
+   "person": "az-zubaidi",
    "role": "Peniaga dari Yaman",
    "t": 804,
    "context": "Ditipu dan merayu kepada orang Quraisy yang akhirnya membawa kepada perjanjian itu."
@@ -179,6 +182,7 @@
   {
    "id": "p3",
    "name": "Al-As bin Wail",
+   "person": "al-as-bin-wail",
    "role": "Peniaga kaya Quraisy",
    "t": 823,
    "context": "Enggan membayar peniaga Yaman sehingga dipaksa selepas Hilf Al-Fudul. Bapa kepada Amr bin Al-As."
@@ -186,6 +190,7 @@
   {
    "id": "p4",
    "name": "Amr bin Al-As",
+   "person": "amr-bin-al-as",
    "role": "Penakluk Mesir kemudian",
    "t": 833,
    "context": "Anak Al-As bin Wail yang akan membuka Mesir."
@@ -193,6 +198,7 @@
   {
    "id": "p6",
    "name": "Zubair bin Abdul Muttalib",
+   "person": "zubair-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 1131,
    "context": "Mendengar rayuan peniaga itu dan menemui Abdullah bin Jud'an."
@@ -200,6 +206,7 @@
   {
    "id": "p7",
    "name": "Abdullah bin Jud'an",
+   "person": "abdullah-bin-judan",
    "role": "Orang tua berpengaruh",
    "t": 1184,
    "context": "Menghimpunkan ketua kabilah di rumahnya untuk membuat Hilf Al-Fudul."
@@ -207,6 +214,7 @@
   {
    "id": "p8",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Anak muda berumur 18 tahun",
    "t": 1267,
    "context": "Bersama Nabi SAW, dua orang muda yang menyertai perjanjian itu."
@@ -214,6 +222,7 @@
   {
    "id": "p10",
    "name": "Khadijah binti Khuwailid",
+   "person": "khadijah",
    "role": "Peniaga wanita kaya",
    "t": 1661,
    "context": "Mempunyai 700 unta, menawarkan Muhammad menguruskan perniagaannya, dan akhirnya tertarik kepadanya."
@@ -221,6 +230,7 @@
   {
    "id": "p11",
    "name": "Hala binti Khuwailid",
+   "person": "hala-binti-khuwailid",
    "role": "Adik Khadijah",
    "t": 1713,
    "context": "Mempunyai perniagaan kambing yang menggaji Muhammad dan menceritakan kejujurannya kepada Khadijah."
@@ -228,6 +238,7 @@
   {
    "id": "p9",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 1993,
    "context": "Menasihati baginda menerima tawaran Khadijah kerana ia peluang baik."
@@ -235,6 +246,7 @@
   {
    "id": "p12",
    "name": "Maisarah",
+   "person": "maisarah",
    "role": "Pembantu lelaki Khadijah",
    "t": 2016,
    "context": "Menemani Nabi SAW ke Syam dan menulis laporan, kagum dengan kejujurannya."
@@ -242,6 +254,7 @@
   {
    "id": "p13",
    "name": "Hind",
+   "person": "hind-anak-khadijah",
    "role": "Anak Khadijah",
    "t": 2152,
    "context": "Anak daripada suami pertama Khadijah."
@@ -249,6 +262,7 @@
   {
    "id": "p14",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Peniaga yang mahu mengahwini Khadijah",
    "t": 2190,
    "context": "Ditolak Khadijah kerana akhlaknya."
@@ -256,6 +270,7 @@
   {
    "id": "p15",
    "name": "Abu Sufyan",
+   "person": "abu-sufyan",
    "role": "Peniaga yang mahu mengahwini Khadijah",
    "t": 2190,
    "context": "Ditolak Khadijah kerana akhlaknya."

@@ -153,6 +153,26 @@
    "id": "p10",
    "role": "Friend of Zaid",
    "context": "Conveyed Zaid's greeting to the Prophet ﷺ."
+  },
+  {
+   "id": "p12",
+   "role": "A husband of Atikah bint Said, who died a martyr",
+   "context": "Atikah's first husband; a son of Al-Khattab and brother of Umar. One of her five husbands who died as martyrs."
+  },
+  {
+   "id": "p13",
+   "role": "A husband of Atikah bint Said, who died a martyr",
+   "context": "Atikah's husband after Zaid bin Khattab; a son of Abu Bakr. One of her five husbands who died as martyrs."
+  },
+  {
+   "id": "p14",
+   "role": "A husband of Atikah bint Said, who died a martyr",
+   "context": "Atikah's husband after Umar was martyred. One of her five husbands who died as martyrs."
+  },
+  {
+   "id": "p15",
+   "role": "Atikah's last husband; grandson of the Prophet SAW",
+   "context": "Atikah's last husband. She died before Hassan RA died."
   }
  ],
  "lessons": [

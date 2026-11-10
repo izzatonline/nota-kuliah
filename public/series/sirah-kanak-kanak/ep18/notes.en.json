@@ -149,7 +149,7 @@
   },
   {
    "id": "p7",
-   "role": "Sons of Abu Lahab",
+   "role": "Son of Abu Lahab",
    "context": "Betrothed to the Prophet's daughters and told to break the engagements."
   },
   {
@@ -194,7 +194,7 @@
   },
   {
    "id": "p16",
-   "role": "Grandsons of the Prophet SAW",
+   "role": "Grandson of the Prophet SAW",
    "context": "Fatimah's sons through whom the Prophet's descendants spread."
   },
   {
@@ -231,6 +231,16 @@
    "id": "p23",
    "role": "Companion who was tortured",
    "context": "Among those who would be tortured."
+  },
+  {
+   "id": "p24",
+   "role": "Son of Abu Lahab",
+   "context": "Betrothed to the Prophet's daughters and told to break the engagements."
+  },
+  {
+   "id": "p25",
+   "role": "Grandson of the Prophet SAW",
+   "context": "Fatimah's sons through whom the Prophet's descendants spread."
   }
  ],
  "sirah": {

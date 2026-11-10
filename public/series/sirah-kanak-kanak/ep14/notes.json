@@ -282,6 +282,7 @@
   {
    "id": "p1",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Pembesar Quraisy yang menentang",
    "t": 438,
    "context": "Mengancam akan memijak leher Nabi SAW yang sujud tetapi berundur ketakutan."
@@ -289,6 +290,7 @@
   {
    "id": "p3",
    "name": "Halimah",
+   "person": "halimah",
    "role": "Ibu susuan Nabi SAW",
    "t": 570,
    "context": "Mengembalikan baginda kepada Aminah selepas peristiwa pembelahan dada."
@@ -296,6 +298,7 @@
   {
    "id": "p2",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat penyampai wahyu",
    "t": 579,
    "context": "Melindungi Nabi SAW daripada Abu Jahal, membelah dadanya di Bani Sa'ad dan bertanya tentang Islam dalam rupa manusia."
@@ -303,6 +306,7 @@
   {
    "id": "p4",
    "name": "Aminah",
+   "person": "aminah",
    "role": "Ibu Nabi SAW",
    "t": 693,
    "context": "Menerima semula baginda daripada Halimah."
@@ -310,6 +314,7 @@
   {
    "id": "p5",
    "name": "Nabi Zakaria AS",
+   "person": "zakaria",
    "role": "Nabi",
    "t": 1111,
    "context": "Disebut sebagai salah seorang nabi yang pernah ditemui Jibril."

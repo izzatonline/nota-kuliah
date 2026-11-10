@@ -381,6 +381,7 @@
   {
    "id": "p15",
    "name": "Adil Salahi",
+   "person": "adil-salahi",
    "role": "Penulis sirah di UK",
    "t": 311,
    "context": "Pengarang Muhammad: Man and Prophet."
@@ -388,6 +389,7 @@
   {
    "id": "p14",
    "name": "Muhammad Quraish Shihab",
+   "person": "quraish-shihab",
    "role": "Penulis dan ulama Indonesia",
    "t": 451,
    "context": "Menolak riwayat Nabi SAW cuba menjatuhkan diri dari bukit."
@@ -395,6 +397,7 @@
   {
    "id": "p7",
    "name": "Al-Qasim",
+   "person": "qasim",
    "role": "Anak sulung Nabi SAW",
    "t": 575,
    "context": "Meninggal sebelum berusia dua tahun."
@@ -402,6 +405,7 @@
   {
    "id": "p8",
    "name": "Abdullah",
+   "person": "abdullah-anak-nabi",
    "role": "Anak lelaki Nabi SAW selepas kenabian",
    "t": 669,
    "context": "Kematiannya disambut ejekan 'terputus' oleh pakcik Nabi SAW."
@@ -409,6 +413,7 @@
   {
    "id": "p3",
    "name": "Zainab",
+   "person": "zainab-binti-muhammad",
    "role": "Anak sulung Nabi SAW",
    "t": 742,
    "context": "Berusia sekitar 10 tahun ketika wahyu bermula."
@@ -416,6 +421,7 @@
   {
    "id": "p4",
    "name": "Ruqayyah",
+   "person": "ruqayyah",
    "role": "Anak Nabi SAW",
    "t": 763,
    "context": "Berusia sekitar 8 tahun."
@@ -423,6 +429,7 @@
   {
    "id": "p5",
    "name": "Ummu Kulthum",
+   "person": "ummu-kulthum",
    "role": "Anak Nabi SAW",
    "t": 781,
    "context": "Berusia sekitar 7 tahun."
@@ -430,6 +437,7 @@
   {
    "id": "p6",
    "name": "Fatimah",
+   "person": "fatimah-az-zahra",
    "role": "Anak bongsu Nabi SAW pada ketika itu",
    "t": 794,
    "context": "Berusia sekitar 4 atau 5 tahun."
@@ -437,6 +445,7 @@
   {
    "id": "p9",
    "name": "Zaid bin Amr bin Nufail",
+   "person": "zaid-bin-amr-bin-nufail",
    "role": "Penganut hanif",
    "t": 937,
    "context": "Meninggal lima tahun sebelum wahyu; wataknya digantikan Nabi SAW."
@@ -444,6 +453,7 @@
   {
    "id": "p1",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Isteri Nabi SAW dan perawi",
    "t": 1215,
    "context": "Meriwayatkan permulaan wahyu; Nabi SAW banyak bercerita kepadanya."
@@ -451,6 +461,7 @@
   {
    "id": "p2",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 1366,
    "context": "Menyokong Nabi SAW menyendiri dan menguji sama ada yang datang malaikat atau syaitan."
@@ -458,6 +469,7 @@
   {
    "id": "p10",
    "name": "Waraqah bin Naufal",
+   "person": "waraqah-bin-naufal",
    "role": "Hanif",
    "t": 1394,
    "context": "Salah seorang daripada kira-kira empat orang hanif."
@@ -465,6 +477,7 @@
   {
    "id": "p11",
    "name": "Abdul Muttalib",
+   "person": "abdul-muttalib",
    "role": "Datuk Nabi SAW",
    "t": 1408,
    "context": "Disebut sepintas lalu pernah pergi ke Gua Hira."
@@ -472,6 +485,7 @@
   {
    "id": "p12",
    "name": "Salman Al-Farisi",
+   "person": "salman-al-farisi",
    "role": "Sahabat",
    "t": 1783,
    "context": "Menegur Abu Darda' yang berlebihan dalam ibadah."
@@ -479,6 +493,7 @@
   {
    "id": "p13",
    "name": "Abu Darda'",
+   "person": "abu-darda",
    "role": "Sahabat",
    "t": 1786,
    "context": "Berazam berpuasa dan solat sepanjang masa tetapi ditegur oleh Nabi SAW."
@@ -486,6 +501,7 @@
   {
    "id": "p16",
    "name": "Ramadan Al-Buti",
+   "person": "ramadan-al-buti",
    "role": "Ulama",
    "t": 2030,
    "context": "Berpendapat semua makhluk sudah girang menanti kenabian."
@@ -493,6 +509,7 @@
   {
    "id": "p21",
    "name": "Safiyyurrahman Al-Mubarakfuri",
+   "person": "safiyyurrahman-al-mubarakfuri",
    "role": "Penulis Ar-Rahiq Al-Makhtum",
    "t": 2375,
    "context": "Menetapkan 21 Ramadan dengan pengiraan hari Isnin."
@@ -500,6 +517,7 @@
   {
    "id": "p17",
    "name": "Ibn Qayyim Al-Jawziyyah",
+   "person": "ibn-qayyim",
    "role": "Ulama",
    "t": 2387,
    "context": "Menyenaraikan lapan bentuk turunnya wahyu."
@@ -507,6 +525,7 @@
   {
    "id": "p18",
    "name": "Dihyah Al-Kalbi",
+   "person": "dihyah-al-kalbi",
    "role": "Sahabat berwajah kacak",
    "t": 2606,
    "context": "Jibril kadang-kadang datang dalam rupanya."
@@ -514,6 +533,7 @@
   {
    "id": "p20",
    "name": "Musa AS",
+   "person": "musa",
    "role": "Nabi yang diajak berbicara oleh Allah",
    "t": 2926,
    "context": "Kalimullah, Allah berbicara langsung tetapi di bumi."
@@ -521,6 +541,7 @@
   {
    "id": "p19",
    "name": "Ibn Ishaq",
+   "person": "ibn-ishaq",
    "role": "Perawi sirah",
    "t": 3032,
    "context": "Menyebut Ramadan sebagai waktu wahyu dan merekodkan ujian Khadijah."

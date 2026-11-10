@@ -187,6 +187,7 @@
   {
    "id": "p2",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW yang menentang",
    "t": 162,
    "context": "Mencela baginda di Bukit Safa dan paling membencinya."
@@ -194,6 +195,7 @@
   {
    "id": "p3",
    "name": "Ummu Jamil",
+   "person": "ummu-jamil",
    "role": "Isteri Abu Lahab",
    "t": 177,
    "context": "Menyokong permusuhan suaminya terhadap Nabi SAW."
@@ -201,6 +203,7 @@
   {
    "id": "p1",
    "name": "Hamka",
+   "person": "hamka",
    "role": "Ulama dan pengarang Indonesia",
    "t": 209,
    "context": "Lahir 17 Februari 1908 di Maninjau, Sumatera Barat, dan menulis buku sirah yang dibaca Ustaz."
@@ -208,6 +211,7 @@
   {
    "id": "p4",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Pembesar Quraisy",
    "t": 370,
    "context": "Memimpin penentangan dan menyuruh Abu Talib menghentikan baginda."
@@ -215,6 +219,7 @@
   {
    "id": "p5",
    "name": "Abu Sufyan",
+   "person": "abu-sufyan",
    "role": "Pembesar Quraisy",
    "t": 370,
    "context": "Menentang baginda dan kemudian memeluk Islam."
@@ -222,13 +227,23 @@
   {
    "id": "p6",
    "name": "Umar bin Khattab",
+   "person": "umar-al-khattab",
    "role": "Belum memeluk Islam",
    "t": 375,
    "context": "Akan menjadi antara pembantu baginda yang paling kuat."
   },
   {
    "id": "p7",
-   "name": "Utbah dan Utaibah",
+   "name": "Utbah",
+   "person": "utbah-bin-abi-lahab",
+   "role": "Anak Abu Lahab",
+   "t": 412,
+   "context": "Ditunangkan dengan anak perempuan Nabi SAW dan disuruh memutuskan pertunangan."
+  },
+  {
+   "id": "p24",
+   "name": "Utaibah",
+   "person": "utaibah-bin-abi-lahab",
    "role": "Anak Abu Lahab",
    "t": 412,
    "context": "Ditunangkan dengan anak perempuan Nabi SAW dan disuruh memutuskan pertunangan."
@@ -236,6 +251,7 @@
   {
    "id": "p8",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara yang melindungi",
    "t": 576,
    "context": "Menjadi pelindung baginda dan berjanji terus mempertahankannya walaupun tidak memeluk Islam."
@@ -243,6 +259,7 @@
   {
    "id": "p9",
    "name": "Abdul Muttalib",
+   "person": "abdul-muttalib",
    "role": "Datuk Nabi SAW",
    "t": 612,
    "context": "Ayah Abu Talib, yang menjadikan Abu Talib dihormati."
@@ -250,6 +267,7 @@
   {
    "id": "p14",
    "name": "Abdullah (anak Nabi SAW)",
+   "person": "abdullah-anak-nabi",
    "role": "Anak lelaki Nabi SAW",
    "t": 852,
    "context": "Wafat ketika kecil dan Quraisy menjadikannya alasan mengejek."
@@ -257,6 +275,7 @@
   {
    "id": "p10",
    "name": "Al-Walid bin Al-Mughirah",
+   "person": "al-walid-bin-al-mughirah",
    "role": "Pembesar Quraisy",
    "t": 883,
    "context": "Mempunyai sebelas anak lelaki dan bergembira atas kematian anak Nabi SAW, tetapi anak-anaknya kemudian mengikut Islam."
@@ -264,6 +283,7 @@
   {
    "id": "p13",
    "name": "Qasim",
+   "person": "qasim",
    "role": "Anak Nabi SAW yang wafat",
    "t": 946,
    "context": "Anak lelaki pertama yang wafat."
@@ -271,13 +291,23 @@
   {
    "id": "p15",
    "name": "Ibrahim",
+   "person": "ibrahim-anak-nabi",
    "role": "Anak Nabi SAW yang akan wafat di Madinah",
    "t": 963,
    "context": "Disebut sebagai anak lelaki yang akan wafat di Madinah."
   },
   {
    "id": "p16",
-   "name": "Hassan dan Hussein",
+   "name": "Hassan",
+   "person": "hasan-bin-ali",
+   "role": "Cucu Nabi SAW",
+   "t": 1250,
+   "context": "Anak Fatimah yang melalui mereka keturunan Nabi SAW berkembang."
+  },
+  {
+   "id": "p25",
+   "name": "Hussein",
+   "person": "hussein",
    "role": "Cucu Nabi SAW",
    "t": 1250,
    "context": "Anak Fatimah yang melalui mereka keturunan Nabi SAW berkembang."
@@ -285,6 +315,7 @@
   {
    "id": "p17",
    "name": "Nabi Nuh AS",
+   "person": "nuh",
    "role": "Nabi",
    "t": 1342,
    "context": "Berdakwah 950 tahun tetapi hanya sekitar 80 orang yang mengikutinya."
@@ -292,6 +323,7 @@
   {
    "id": "p11",
    "name": "Khalid bin Al-Walid",
+   "person": "khalid-bin-al-walid",
    "role": "Anak Al-Walid dan Pedang Allah",
    "t": 1532,
    "context": "Menyertai Nabi SAW walaupun bapanya memusuhi baginda."
@@ -299,6 +331,7 @@
   {
    "id": "p12",
    "name": "Al-Walid bin Al-Walid",
+   "person": "al-walid-bin-al-walid",
    "role": "Abang Khalid",
    "t": 1540,
    "context": "Menyertai Nabi SAW lebih awal."
@@ -306,6 +339,7 @@
   {
    "id": "p18",
    "name": "Mus'ab bin Umair",
+   "person": "musab-bin-umair",
    "role": "Pemuda Mekah yang kaya dan kacak",
    "t": 1639,
    "context": "Memeluk Islam di Darul Arqam walaupun baginda ditekan."
@@ -313,6 +347,7 @@
   {
    "id": "p19",
    "name": "Bilal bin Rabah",
+   "person": "bilal-bin-rabah",
    "role": "Sahabat yang diseksa",
    "t": 1655,
    "context": "Antara yang akan diseksa."
@@ -320,6 +355,7 @@
   {
    "id": "p20",
    "name": "Sumayyah",
+   "person": "sumayyah",
    "role": "Sahabiah yang diseksa",
    "t": 1658,
    "context": "Antara yang akan diseksa."
@@ -327,6 +363,7 @@
   {
    "id": "p21",
    "name": "Ammar",
+   "person": "ammar-bin-yasir",
    "role": "Sahabat yang diseksa",
    "t": 1661,
    "context": "Antara yang akan diseksa."
@@ -334,6 +371,7 @@
   {
    "id": "p22",
    "name": "Yasir",
+   "person": "yasir",
    "role": "Sahabat yang diseksa",
    "t": 1661,
    "context": "Antara yang akan diseksa."
@@ -341,6 +379,7 @@
   {
    "id": "p23",
    "name": "Khabbab",
+   "person": "khabbab-bin-al-arat",
    "role": "Sahabat yang diseksa",
    "t": 1661,
    "context": "Antara yang akan diseksa."

@@ -202,6 +202,18 @@ class AssembleTests(unittest.TestCase):
         self.assertTrue(any("doa-baru" in w and "data/duas.json" in w for w in warnings))
         self.assertFalse(any("'yunus'" in w for w in warnings))
 
+    def test_person_keys_are_kept_and_a_new_one_is_reported(self):
+        known = next(iter(pipeline.known_people()))
+        d = self.draft(people=[
+            {"name": "Satu", "person": known, "role": "r", "context": "c", "at": "Jibril AS tidak boleh", "approx": "0:20"},
+            {"name": "Dua", "person": "orang-baru", "role": "r", "context": "c", "at": "Kemudian Nabi SAW sampai", "approx": "0:10"},
+            {"name": "Tiga", "role": "r", "context": "c", "at": "Aku mohon dengan semua nama", "approx": "0:30"},
+        ])
+        notes, warnings = pipeline.assemble(d, self.meta, self.loc, self.args)
+        self.assertEqual({p["name"]: p.get("person") for p in notes["people"]}, {"Satu": known, "Dua": "orang-baru", "Tiga": None})
+        self.assertTrue(any("orang-baru" in w and "data/people.json" in w for w in warnings))
+        self.assertFalse(any(repr(known) in w for w in warnings))
+
     def test_first_chapter_always_starts_at_zero_and_the_last_ends_at_the_duration(self):
         d = self.draft(chapters=[
             {"title": "A", "summary": "", "at": "Kemudian Nabi SAW sampai", "approx": "0:10"},

@@ -327,14 +327,24 @@
  "people": [
   {
    "id": "p7",
-   "name": "Abu Lahab dan Ummu Jamil",
-   "role": "Bapa saudara Nabi SAW dan isterinya",
+   "name": "Abu Lahab",
+   "person": "abu-lahab",
+   "role": "Bapa saudara Nabi SAW",
+   "t": 783,
+   "context": "Menyakiti Nabi SAW; surah Al-Masad turun."
+  },
+  {
+   "id": "p17",
+   "name": "Ummu Jamil",
+   "person": "ummu-jamil",
+   "role": "Isteri Abu Lahab",
    "t": 783,
    "context": "Menyakiti Nabi SAW; surah Al-Masad turun."
   },
   {
    "id": "p3",
    "name": "Abdullah bin Ummi Maktum",
+   "person": "abdullah-bin-ummi-maktum",
    "role": "Sahabat buta",
    "t": 1287,
    "context": "Allah menegur Nabi SAW kerana berkerut dahi kepadanya."
@@ -342,6 +352,7 @@
   {
    "id": "p1",
    "name": "Sa'ad bin Abi Waqqas",
+   "person": "saad-bin-abi-waqqas",
    "role": "Sahabat",
    "t": 1654,
    "context": "Ibunya mogok makan supaya dia meninggalkan Islam; dia tidak berganjak."
@@ -349,6 +360,7 @@
   {
    "id": "p2",
    "name": "Mus'ab bin Umair",
+   "person": "musab-bin-umair",
    "role": "Sahabat daripada keluarga kaya",
    "t": 2069,
    "context": "Dipenjara ibunya, melarikan diri ke Habsyah dan dilucutkan pakaian."
@@ -356,6 +368,7 @@
   {
    "id": "p4",
    "name": "Umar bin Al-Khattab",
+   "person": "umar-al-khattab",
    "role": "Khalifah",
    "t": 2205,
    "context": "Menaikkan gaji yang terawal masuk Islam; bimbangkan dirinya sebagai munafik."
@@ -363,6 +376,7 @@
   {
    "id": "p6",
    "name": "Abu Jahal (Amr bin Hisham)",
+   "person": "abu-jahal",
    "role": "Ketua kempen menentang Islam",
    "t": 2302,
    "context": "Digelar Abu Al-Hakam; mengatur taktik good cop bad cop."
@@ -370,6 +384,7 @@
   {
    "id": "p10",
    "name": "Al-Walid bin Al-Mughirah",
+   "person": "al-walid-bin-al-mughirah",
    "role": "Pakar syair Quraish",
    "t": 2725,
    "context": "Menafikan Quran syair, sihir atau gila."
@@ -377,13 +392,23 @@
   {
    "id": "p8",
    "name": "Abdullah bin Mas'ud",
+   "person": "abdullah-bin-masud",
    "role": "Qari sahabat",
    "t": 2836,
    "context": "Membaca Ar-Rahman di depan Kaabah dan dipukul."
   },
   {
    "id": "p9",
-   "name": "Abu Sufyan dan Al-Akhnas bin Syuraiq",
+   "name": "Abu Sufyan",
+   "person": "abu-sufyan",
+   "role": "Pemimpin Quraish",
+   "t": 3031,
+   "context": "Bersama Abu Jahal mendengar Quran pada waktu malam."
+  },
+  {
+   "id": "p18",
+   "name": "Al-Akhnas bin Syuraiq",
+   "person": "akhnas-bin-syuraiq",
    "role": "Pemimpin Quraish",
    "t": 3031,
    "context": "Bersama Abu Jahal mendengar Quran pada waktu malam."
@@ -391,6 +416,7 @@
   {
    "id": "p12",
    "name": "Hamka",
+   "person": "hamka",
    "role": "Ulama dan penulis Indonesia",
    "t": 3290,
    "context": "Dipenjara dan hampir membunuh diri sebelum membaca Tasawuf Modern."
@@ -398,6 +424,7 @@
   {
    "id": "p13",
    "name": "Siti Raham",
+   "person": "siti-raham",
    "role": "Isteri Hamka",
    "t": 3356,
    "context": "Menjual harta untuk menanggung keluarga ketika Hamka dipenjara."
@@ -405,6 +432,7 @@
   {
    "id": "p11",
    "name": "An-Nadr bin Al-Harith",
+   "person": "an-nadr-bin-al-harith",
    "role": "Penyampai cerita Parsi",
    "t": 3913,
    "context": "Membawa cerita Rustum dan penyanyi untuk mengalih perhatian daripada Quran."
@@ -412,6 +440,7 @@
   {
    "id": "p14",
    "name": "Tariq Ramadan",
+   "person": "tariq-ramadan",
    "role": "Ahli fikir",
    "t": 4325,
    "context": "Menasihatkan mulakan dengan sirah, bukan terus dengan ayat Quran."
@@ -419,6 +448,7 @@
   {
    "id": "p15",
    "name": "Huzaifah bin Al-Yaman",
+   "person": "huzaifah-bin-al-yaman",
    "role": "Sahabat penyimpan senarai munafik",
    "t": 4737,
    "context": "Umar bertanya adakah namanya dalam senarai."
@@ -426,6 +456,7 @@
   {
    "id": "p5",
    "name": "Khabbab bin Al-Arat",
+   "person": "khabbab-bin-al-arat",
    "role": "Sahabat awal",
    "t": 4814,
    "context": "Gajinya lebih besar daripada Umar dan menangis kerana bimbang nikmat dunia."
@@ -433,6 +464,7 @@
   {
    "id": "p16",
    "name": "Abdurrahman bin Auf",
+   "person": "abdurrahman-bin-auf",
    "role": "Sahabat kaya",
    "t": 4927,
    "context": "Teringat Khabbab ketika dihidang makanan sedap."

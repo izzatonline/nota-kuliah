@@ -43,7 +43,7 @@ export type Book = {
   note?: string
   suggested?: boolean
 }
-export type Person = { id: string; name: string; role: string; t: number; context: string }
+export type Person = { id: string; name: string; /** Key in data/people.json, kept in the Malay notes only. */ person?: string; role: string; t: number; context: string }
 export type SirahEvent = { id: string; label: string; title: string; t: number | null; desc: string }
 export type Lesson = { id: string; title: string; body: string; kind: string; t: number }
 export type Term = { id: string; term: string; arabic: string | null; meaning: string; t: number }
@@ -80,6 +80,12 @@ export type Dua = { key: string; title: string; mentions: DuaMention[] }
 export type DuaTopic = { key: string; title: string; hint?: string; duas: Dua[] }
 /** What `scripts/search-index.mjs` writes to `public/search/doa.<lang>.json`. */
 export type DuaIndex = { topics: DuaTopic[] }
+
+/** One time the ustaz talks about a person: the notes' entry for them in one lecture. */
+export type PersonMention = { slug: string; series: string; epId: string; epNumber: number | null; epTitle: string; person: Person }
+export type PersonEntry = { key: string; title: string; /** The other spellings in the notes, so the name filter finds them. */ aliases: string[]; mentions: PersonMention[] }
+export type PersonGroup = { key: string; title: string; people: PersonEntry[] }
+export type PersonIndex = { groups: PersonGroup[] }
 
 /* ---------------------------------------------------------------- Quiz */
 type QuizBase = {

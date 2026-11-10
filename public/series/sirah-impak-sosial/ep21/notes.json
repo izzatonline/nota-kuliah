@@ -183,6 +183,7 @@
   {
    "id": "p1",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Orang pertama memeluk Islam",
    "t": 146,
    "context": "Beriman tanpa ragu dan orang pertama diajar solat oleh Nabi SAW."
@@ -190,6 +191,7 @@
   {
    "id": "p2",
    "name": "Ali bin Abi Talib",
+   "person": "ali-bin-abi-talib",
    "role": "Anak saudara Nabi SAW, ketika itu sekitar 10 tahun",
    "t": 446,
    "context": "Memeluk Islam keesokan harinya selepas mengambil satu malam berfikir."
@@ -197,6 +199,7 @@
   {
    "id": "p4",
    "name": "Al-Abbas",
+   "person": "abbas-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 688,
    "context": "Perawi riwayat Ibn Hisham tentang melihat mereka solat."
@@ -204,6 +207,7 @@
   {
    "id": "p3",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 697,
    "context": "Melihat Nabi SAW, Khadijah dan Ali solat tetapi tidak faham."
@@ -211,6 +215,7 @@
   {
    "id": "p5",
    "name": "Zaid bin Harithah",
+   "person": "zaid-bin-harithah",
    "role": "Anak angkat Nabi SAW",
    "t": 846,
    "context": "Orang ketiga memeluk Islam selepas Khadijah dan Ali."
@@ -218,6 +223,7 @@
   {
    "id": "p6",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Sahabat karib dua tahun lebih muda",
    "t": 966,
    "context": "Menerima tanpa ragu dan membawa sebahagian besar sepuluh sahabat."
@@ -225,6 +231,7 @@
   {
    "id": "p7",
    "name": "Uthman bin Affan",
+   "person": "uthman-bin-affan",
    "role": "Sahabat dan khalifah",
    "t": 1277,
    "context": "Memeluk Islam atas ajakan Abu Bakar."
@@ -232,6 +239,7 @@
   {
    "id": "p8",
    "name": "Az-Zubair bin Al-Awwam",
+   "person": "az-zubair-bin-al-awwam",
    "role": "Sepupu Khadijah",
    "t": 1332,
    "context": "Dipengaruhi Abu Bakar ketika masih muda."
@@ -239,6 +247,7 @@
   {
    "id": "p9",
    "name": "Abdul Rahman bin Auf",
+   "person": "abdurrahman-bin-auf",
    "role": "Peniaga besar, nama asal Abdul Amr",
    "t": 1364,
    "context": "Sudah mendengar tentang Nabi akhir zaman semasa ke Syam."
@@ -246,6 +255,7 @@
   {
    "id": "p10",
    "name": "Talhah bin Ubaidillah",
+   "person": "talhah-bin-ubaidillah",
    "role": "Dari Bani Taim",
    "t": 1406,
    "context": "Seorang rahib di Busra bertanya sama ada Ahmad sudah keluar."
@@ -253,6 +263,7 @@
   {
    "id": "p11",
    "name": "Sa'ad bin Abi Waqqas",
+   "person": "saad-bin-abi-waqqas",
    "role": "Sahabat",
    "t": 1517,
    "context": "Memeluk Islam selepas bermimpi cahaya yang membawanya kepada Abu Bakar."
@@ -260,6 +271,7 @@
   {
    "id": "p12",
    "name": "Abu Ubaidah",
+   "person": "abu-ubaidah",
    "role": "Sahabat",
    "t": 1585,
    "context": "Antara sepuluh orang terawal."
@@ -267,6 +279,7 @@
   {
    "id": "p13",
    "name": "Al-Arqam bin Abi Al-Arqam",
+   "person": "al-arqam",
    "role": "Pemuda berusia sekitar 13 tahun",
    "t": 1631,
    "context": "Rumahnya dijadikan markas dakwah."
@@ -274,6 +287,7 @@
   {
    "id": "p14",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW",
    "t": 1752,
    "context": "Menyedari pergerakan itu dan anak-anaknya kelak menceraikan anak Nabi SAW."

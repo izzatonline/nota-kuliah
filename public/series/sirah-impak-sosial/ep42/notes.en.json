@@ -146,7 +146,7 @@
   },
   {
    "id": "p3",
-   "role": "The prophets",
+   "role": "Prophet",
    "context": "Their greatest worry was that their descendants would no longer establish prayer. Near death they asked 'whom will you worship after me?'."
   },
   {
@@ -198,6 +198,41 @@
    "id": "p13",
    "role": "Angel",
    "context": "Heard the sound of a heavenly door opening for the first time, and told the Prophet ﷺ."
+  },
+  {
+   "id": "p15",
+   "role": "Hadith collector",
+   "context": "Narrated the main hadiths in this lecture."
+  },
+  {
+   "id": "p16",
+   "role": "Hadith collector",
+   "context": "Narrated the main hadiths in this lecture."
+  },
+  {
+   "id": "p17",
+   "role": "Hadith collector",
+   "context": "Narrated the main hadiths in this lecture."
+  },
+  {
+   "id": "p18",
+   "role": "Prophet",
+   "context": "Their greatest worry was that their descendants would no longer establish prayer. Near death they asked 'whom will you worship after me?'."
+  },
+  {
+   "id": "p19",
+   "role": "Prophet",
+   "context": "Their greatest worry was that their descendants would no longer establish prayer. Near death they asked 'whom will you worship after me?'."
+  },
+  {
+   "id": "p20",
+   "role": "Companion of knowledge",
+   "context": "An example of a Companion who excelled in knowledge, alongside Khalid ibn al-Walid in warfare. Everyone has their own talent and does not compare themselves."
+  },
+  {
+   "id": "p21",
+   "role": "Companion of knowledge",
+   "context": "An example of a Companion who excelled in knowledge, alongside Khalid ibn al-Walid in warfare. Everyone has their own talent and does not compare themselves."
   }
  ],
  "lessons": [

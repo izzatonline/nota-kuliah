@@ -238,6 +238,7 @@
   {
    "id": "p1",
    "name": "Usamah bin Zaid",
+   "person": "usamah-bin-zaid",
    "role": "Panglima muda yang digelar kesayangan Rasulullah",
    "t": 218,
    "context": "Anak Zaid dan Ummu Aiman, dilantik mengetuai ekspedisi terakhir Nabi SAW pada usia 16 tahun."
@@ -245,6 +246,7 @@
   {
    "id": "p3",
    "name": "Ummu Aiman",
+   "person": "ummu-aiman",
    "role": "Ibu angkat Nabi SAW",
    "t": 235,
    "context": "Wanita yang membesarkan baginda dan antara yang terawal beriman."
@@ -252,6 +254,7 @@
   {
    "id": "p2",
    "name": "Zaid bin Harithah",
+   "person": "zaid-bin-harithah",
    "role": "Anak angkat Nabi SAW",
    "t": 247,
    "context": "Mengahwini Ummu Aiman, wanita daripada syurga menurut Nabi SAW."
@@ -259,6 +262,7 @@
   {
    "id": "p4",
    "name": "Khadijah",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW dan orang pertama beriman",
    "t": 509,
    "context": "Menyelimuti dan menenangkan baginda, lalu membawanya kepada Waraqah."
@@ -266,6 +270,7 @@
   {
    "id": "p8",
    "name": "Abu Dhar Al-Ghifari",
+   "person": "abu-dhar",
    "role": "Sahabat",
    "t": 796,
    "context": "Akan datang ke masjid mencari Nabi SAW dan dijemput Ali sebagai tetamu."
@@ -273,6 +278,7 @@
   {
    "id": "p5",
    "name": "Waraqah bin Naufal",
+   "person": "waraqah-bin-naufal",
    "role": "Sepupu Khadijah, pakar kitab terdahulu",
    "t": 873,
    "context": "Mengenali Jibril sebagai An-Namus, berjanji menolong baginda, kemudian wafat dalam beberapa hari."
@@ -280,6 +286,7 @@
   {
    "id": "p6",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat penyampai wahyu",
    "t": 1036,
    "context": "Dikenali dalam kitab lama sebagai An-Namus."
@@ -287,6 +294,7 @@
   {
    "id": "p7",
    "name": "Nabi Musa AS",
+   "person": "musa",
    "role": "Nabi",
    "t": 1050,
    "context": "Jibril yang datang kepada baginda dirujuk Waraqah."
@@ -294,6 +302,7 @@
   {
    "id": "p9",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 1522,
    "context": "Mempunyai empat anak lelaki dan dua anak perempuan, menyuruh Ali mengikut Nabi SAW tetapi tidak memeluk Islam."
@@ -301,6 +310,7 @@
   {
    "id": "p10",
    "name": "Talib",
+   "person": "talib-bin-abi-talib",
    "role": "Anak sulung Abu Talib",
    "t": 1537,
    "context": "Sebab Abu Talib dipanggil sedemikian."
@@ -308,6 +318,7 @@
   {
    "id": "p11",
    "name": "Aqil",
+   "person": "aqil-bin-abi-talib",
    "role": "Anak kedua Abu Talib",
    "t": 1543,
    "context": "Anak kedua Abu Talib."
@@ -315,6 +326,7 @@
   {
    "id": "p12",
    "name": "Ja'far",
+   "person": "jafar-bin-abi-talib",
    "role": "Anak ketiga Abu Talib",
    "t": 1560,
    "context": "Anak ketiga Abu Talib."
@@ -322,6 +334,7 @@
   {
    "id": "p13",
    "name": "Ali bin Abi Talib",
+   "person": "ali-bin-abi-talib",
    "role": "Kanak-kanak pertama beriman",
    "t": 1568,
    "context": "Tinggal bersama Nabi SAW dan Khadijah, melihat mereka solat lalu menyertai mereka dengan keizinan ayahnya."
@@ -329,6 +342,7 @@
   {
    "id": "p14",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Kawan baik Nabi SAW",
    "t": 1791,
    "context": "Terus beriman serta-merta dan mengislamkan sahabat-sahabatnya."
@@ -336,6 +350,7 @@
   {
    "id": "p15",
    "name": "Osman bin Affan",
+   "person": "uthman-bin-affan",
    "role": "Sahabat",
    "t": 1945,
    "context": "Antara yang diislamkan Abu Bakar."
@@ -343,6 +358,7 @@
   {
    "id": "p16",
    "name": "Abdurrahman bin Auf",
+   "person": "abdurrahman-bin-auf",
    "role": "Sahabat",
    "t": 1949,
    "context": "Antara yang diislamkan Abu Bakar."
@@ -350,6 +366,7 @@
   {
    "id": "p17",
    "name": "Sa'ad bin Abi Waqqas",
+   "person": "saad-bin-abi-waqqas",
    "role": "Sahabat",
    "t": 1949,
    "context": "Antara yang diislamkan Abu Bakar."
@@ -357,6 +374,7 @@
   {
    "id": "p18",
    "name": "Fatimah binti Asad",
+   "person": "fatimah-binti-asad",
    "role": "Isteri Abu Talib dan ibu angkat Nabi SAW",
    "t": 2067,
    "context": "Antara wanita terawal beriman dan dikebumikan Nabi SAW sendiri di Madinah."

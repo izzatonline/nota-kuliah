@@ -190,6 +190,7 @@
   {
    "id": "p1",
    "name": "Zaid bin Harithah",
+   "person": "zaid-bin-harithah",
    "role": "Anak angkat Nabi SAW",
    "t": 95,
    "context": "Enggan pulang kepada ayahnya dan memilih tinggal bersama Nabi SAW."
@@ -197,6 +198,7 @@
   {
    "id": "p2",
    "name": "Harithah",
+   "person": "harithah-ayah-zaid",
    "role": "Ayah Zaid",
    "t": 95,
    "context": "Datang mencari anaknya tetapi Zaid memilih tinggal."
@@ -204,6 +206,7 @@
   {
    "id": "p3",
    "name": "Ummu Aiman",
+   "person": "ummu-aiman",
    "role": "Penghuni rumah Nabi SAW",
    "t": 236,
    "context": "Tinggal bersama bayinya Aiman di rumah baginda."
@@ -211,6 +214,7 @@
   {
    "id": "p4",
    "name": "Ali bin Abi Talib",
+   "person": "ali-bin-abi-talib",
    "role": "Anak asuhan Nabi SAW",
    "t": 242,
    "context": "Antara penghuni rumah baginda."
@@ -218,6 +222,7 @@
   {
    "id": "p5",
    "name": "Al-Walid bin Al-Mughirah",
+   "person": "al-walid-bin-al-mughirah",
    "role": "Lelaki Makhzum yang berani",
    "t": 691,
    "context": "Orang pertama memulakan pembongkaran Kaabah dengan kapak dan berdoa memohon tidak dihukum."
@@ -225,6 +230,7 @@
   {
    "id": "p6",
    "name": "Bakum",
+   "person": "bakum",
    "role": "Arkitek Rom",
    "t": 820,
    "context": "Mengubah rekaan Kaabah menjadi segi empat tepat dengan bumbung dan pintu tinggi."
@@ -232,6 +238,7 @@
   {
    "id": "p7",
    "name": "Abu Umayyah bin Al-Mughirah",
+   "person": "abu-umayyah-bin-al-mughirah",
    "role": "Orang tertua di Mekah",
    "t": 1034,
    "context": "Mencadangkan orang pertama yang masuk pintu memutuskan pertikaian."
@@ -239,6 +246,7 @@
   {
    "id": "p8",
    "name": "Nabi Adam AS",
+   "person": "adam",
    "role": "Nabi pertama",
    "t": 1347,
    "context": "Disebut sebagai pembina asas Kaabah yang pertama."
@@ -246,6 +254,7 @@
   {
    "id": "p9",
    "name": "Nabi Ibrahim AS",
+   "person": "ibrahim",
    "role": "Nabi",
    "t": 1366,
    "context": "Membina Kaabah di atas batu asas yang sedia ada."
@@ -253,6 +262,7 @@
   {
    "id": "p10",
    "name": "Nabi Ismail AS",
+   "person": "ismail",
    "role": "Anak Nabi Ibrahim AS",
    "t": 1377,
    "context": "Membina Kaabah bersama bapanya dan menyediakan tempat untuk batu."
@@ -260,6 +270,7 @@
   {
    "id": "p11",
    "name": "Zaid bin Amr bin Nufail",
+   "person": "zaid-bin-amr-bin-nufail",
    "role": "Pencari kebenaran sebelum Islam",
    "t": 1629,
    "context": "Menolak berhala, menyelamatkan bayi perempuan, mencari nabi akhir zaman dan dibunuh perompak."
@@ -267,6 +278,7 @@
   {
    "id": "p12",
    "name": "Said bin Zaid",
+   "person": "said-bin-zaid",
    "role": "Anak Zaid bin Amr",
    "t": 1821,
    "context": "Antara yang paling awal memeluk Islam dan dijanjikan syurga."

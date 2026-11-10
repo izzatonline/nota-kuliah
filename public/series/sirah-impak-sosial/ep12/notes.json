@@ -155,6 +155,7 @@
   {
    "id": "p1",
    "name": "Ibn Hisham",
+   "person": "ibn-hisham",
    "role": "Ulama sirah",
    "t": 143,
    "context": "Disebut sebagai sumber bahawa Nabi SAW berusia 14 atau 15 tahun ketika Perang Al-Fijar."
@@ -162,6 +163,7 @@
   {
    "id": "p2",
    "name": "Nu'man bin Mundhir",
+   "person": "numan-bin-mundhir",
    "role": "Raja Hirah dan pedagang besar",
    "t": 212,
    "context": "Membuka tender untuk mengangkut barangnya dari Hirah ke pasar Ukaz."
@@ -169,6 +171,7 @@
   {
    "id": "p3",
    "name": "Al-Barrat bin Qais",
+   "person": "al-barrat-bin-qais",
    "role": "Pemohon tender dari Qais Ailan",
    "t": 285,
    "context": "Marah kerana kalah tender lalu membunuh Urwah dan merompak barangnya."
@@ -176,6 +179,7 @@
   {
    "id": "p4",
    "name": "Urwah bin Utbah",
+   "person": "urwah-bin-utbah",
    "role": "Pemohon tender dari kabilah Hawazin",
    "t": 292,
    "context": "Memenangi tender dan kemudian dibunuh oleh Al-Barrat."
@@ -183,6 +187,7 @@
   {
    "id": "p5",
    "name": "Ibn Kathir",
+   "person": "ibn-kathir",
    "role": "Ulama sirah terkemuka",
    "t": 1253,
    "context": "Antara ulama yang menyebut kisah peperangan ini."
@@ -190,6 +195,7 @@
   {
    "id": "p6",
    "name": "Az-Zahabi",
+   "person": "adh-dhahabi",
    "role": "Ulama sirah terkemuka",
    "t": 1253,
    "context": "Antara ulama yang menyebut kisah peperangan ini."
@@ -197,6 +203,7 @@
   {
    "id": "p7",
    "name": "Ash bin Wail",
+   "person": "ash-bin-wail",
    "role": "Tokoh Quraish",
    "t": 1576,
    "context": "Menahan bayaran barang pedagang Yaman kerana yakin tiada siapa berani menegurnya."
@@ -204,6 +211,7 @@
   {
    "id": "p8",
    "name": "Zubair bin Abdul Muttalib",
+   "person": "zubair-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 1890,
    "context": "Tersentuh dengan syair pedagang Yaman lalu menghimpunkan kabilah untuk membuat perjanjian."
@@ -211,6 +219,7 @@
   {
    "id": "p9",
    "name": "Abdullah bin Jud'an",
+   "person": "abdullah-bin-judan",
    "role": "Tuan rumah pertemuan perjanjian",
    "t": 1941,
    "context": "Perjanjian dimeterai di rumahnya."
@@ -218,6 +227,7 @@
   {
    "id": "p10",
    "name": "Abu Kuhafa",
+   "person": "abu-quhafah",
    "role": "Ketua Bani Taim, ayah Abu Bakar",
    "t": 2006,
    "context": "Menyertai perjanjian bersama Abu Bakar."
@@ -225,6 +235,7 @@
   {
    "id": "p11",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Sahabat Nabi SAW",
    "t": 2009,
    "context": "Dibawa menyertai perjanjian sebagai orang muda; Ustaz menyebut mereka berkawan baik sejak muda."

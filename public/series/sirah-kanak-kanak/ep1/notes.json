@@ -195,6 +195,7 @@
   {
    "id": "p1",
    "name": "Hashim",
+   "person": "hashim",
    "role": "Moyang Nabi SAW",
    "t": 115,
    "context": "Orang yang sangat pandai. Beliau memulakan perdagangan antara Syam dan Yaman yang menjadikan Mekah kaya."
@@ -202,6 +203,7 @@
   {
    "id": "p5",
    "name": "Abraha",
+   "person": "abraha",
    "role": "Raja Yaman yang beragama Kristian",
    "t": 370,
    "context": "Datang dari Afrika, membina Kulais, lalu membawa tentera bergajah untuk meruntuhkan Kaabah."
@@ -216,6 +218,7 @@
   {
    "id": "p3",
    "name": "Abdullah",
+   "person": "abdullah-bin-abdul-muttalib",
    "role": "Ayah Nabi SAW",
    "t": 724,
    "context": "Suami Aminah yang telah meninggal dunia ketika tentera bergajah datang."
@@ -223,6 +226,7 @@
   {
    "id": "p4",
    "name": "Aminah",
+   "person": "aminah",
    "role": "Ibu Nabi SAW",
    "t": 733,
    "context": "Mengandungkan Nabi SAW beberapa bulan ketika peristiwa itu dan naik ke lereng bukit bersama penduduk Mekah."
@@ -230,6 +234,7 @@
   {
    "id": "p2",
    "name": "Abdul Muttalib",
+   "person": "abdul-muttalib",
    "role": "Datuk Nabi SAW dan ketua Quraisy",
    "t": 860,
    "context": "Beliau meminta untanya daripada Abraha dan berkata Kaabah ada Tuhan yang menjaganya, lalu berdoa di pintu Kaabah."
@@ -237,6 +242,7 @@
   {
    "id": "p7",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Isteri Nabi SAW, ummul mukminin",
    "t": 1322,
    "context": "Beliau menceritakan bahawa beliau masih melihat pengemis buta di Mekah yang dahulu membantu tentera Abraha."

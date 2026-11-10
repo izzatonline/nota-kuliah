@@ -191,7 +191,16 @@
  "people": [
   {
    "id": "p12",
-   "name": "Habil dan Qabil",
+   "name": "Habil",
+   "person": "habil",
+   "role": "Anak Nabi Adam AS",
+   "t": 197,
+   "context": "Qabil membunuh Habil dan belajar menanam jenazah daripada burung gagak."
+  },
+  {
+   "id": "p13",
+   "name": "Qabil",
+   "person": "qabil",
    "role": "Anak Nabi Adam AS",
    "t": 197,
    "context": "Qabil membunuh Habil dan belajar menanam jenazah daripada burung gagak."
@@ -199,6 +208,7 @@
   {
    "id": "p1",
    "name": "Al-Walid bin Al-Mughirah",
+   "person": "al-walid-bin-al-mughirah",
    "role": "Orang paling kaya di Mekah, digelar Al-Wahid",
    "t": 453,
    "context": "Sombong, tidak memeluk Islam dan mati sebelum Perang Badar kerana kakinya luka."
@@ -206,6 +216,7 @@
   {
    "id": "p3",
    "name": "Abu Sufyan",
+   "person": "abu-sufyan",
    "role": "Pembesar Quraisy yang kaya",
    "t": 567,
    "context": "Dahulu berkongsi menanggung kelambu Kaabah."
@@ -213,6 +224,7 @@
   {
    "id": "p4",
    "name": "Umayyah bin Khalaf",
+   "person": "umayyah-bin-khalaf",
    "role": "Tuan Bilal",
    "t": 580,
    "context": "Menyeksa hambanya Bilal."
@@ -220,6 +232,7 @@
   {
    "id": "p5",
    "name": "Abdullah Ibnu Ummi Maktum",
+   "person": "abdullah-bin-ummi-maktum",
    "role": "Sahabat yang buta",
    "t": 759,
    "context": "Datang ingin belajar Quran ketika Nabi SAW bersama Al-Walid, lalu turun Surah Abasa."
@@ -227,6 +240,7 @@
   {
    "id": "p2",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Pembesar Quraisy",
    "t": 1090,
    "context": "Menghasut Al-Walid melabel Nabi SAW dan mengikutnya menyuruh orang menjauhi baginda."
@@ -234,6 +248,7 @@
   {
    "id": "p6",
    "name": "Mus'ab bin Umair",
+   "person": "musab-bin-umair",
    "role": "Sahabat yang kaya menjadi miskin",
    "t": 1324,
    "context": "Kembali ke Mekah, diusir ibunya tanpa harta dan memakai pakaian bertampal."
@@ -248,6 +263,7 @@
   {
    "id": "p8",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Sahabat utama",
    "t": 1573,
    "context": "Dipukul ramai-ramai di hadapan Kaabah sehingga lebam."
@@ -255,6 +271,7 @@
   {
    "id": "p9",
    "name": "An-Najasyi",
+   "person": "najasyi",
    "role": "Raja Habasyah yang adil",
    "t": 1755,
    "context": "Menyembunyikan keislamannya dan disolatkan secara ghaib oleh Nabi SAW."
@@ -262,6 +279,7 @@
   {
    "id": "p10",
    "name": "Khalid bin Al-Walid",
+   "person": "khalid-bin-al-walid",
    "role": "Anak Al-Walid dan panglima hebat",
    "t": 1932,
    "context": "Dilatih berkuda dan memanah, akan memeluk Islam dan digelar Pedang Allah."
@@ -269,6 +287,7 @@
   {
    "id": "p11",
    "name": "Al-Walid bin Al-Walid",
+   "person": "al-walid-bin-al-walid",
    "role": "Abang Khalid",
    "t": 2094,
    "context": "Memeluk Islam lebih awal daripada Khalid."

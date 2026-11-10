@@ -230,6 +230,7 @@
   {
    "id": "p1",
    "name": "Aminah",
+   "person": "aminah",
    "role": "Ibu Nabi SAW",
    "t": 164,
    "context": "Menyusukan baginda selama sehari dua selepas kelahiran. Ustaz menyebut satu pandangan bahawa kesihatannya tidak mengizinkan penyusuan berterusan."
@@ -237,6 +238,7 @@
   {
    "id": "p3",
    "name": "Thuaibah",
+   "person": "thuwaibah",
    "role": "Hamba Abu Lahab dan ibu susuan pertama Nabi SAW",
    "t": 293,
    "context": "Menyusukan Nabi SAW sambil menyusukan anaknya Masruh, dan juga menyusukan Hamzah RA."
@@ -244,6 +246,7 @@
   {
    "id": "p2",
    "name": "Abdul Muttalib",
+   "person": "abdul-muttalib",
    "role": "Datuk Nabi SAW",
    "t": 312,
    "context": "Mencari ibu susuan untuk baginda, dan menurut satu riwayat bertemu Halimah dan mencadangkan baginda disusukan olehnya."
@@ -251,6 +254,7 @@
   {
    "id": "p4",
    "name": "Hamzah RA",
+   "person": "hamzah",
    "role": "Sahabat dan bapa saudara Nabi SAW",
    "t": 327,
    "context": "Turut disusukan oleh Thuaibah, dan menurut satu riwayat juga dihantar ke perkampungan Bani Sa'ad."
@@ -258,6 +262,7 @@
   {
    "id": "p8",
    "name": "Ibn Qayyim",
+   "person": "ibn-qayyim",
    "role": "Ulama dan penulis Zad al-Ma'ad",
    "t": 342,
    "context": "Menyebut bahawa Nabi SAW dan Hamzah berkongsi dua ibu susuan."
@@ -265,6 +270,7 @@
   {
    "id": "p5",
    "name": "Halimah As-Sa'diah",
+   "person": "halimah",
    "role": "Ibu susuan Nabi SAW",
    "t": 360,
    "context": "Wanita dari Bani Sa'ad yang akhirnya mengambil Nabi SAW, dan keluarganya menerima keberkatan. Ustaz menyebut kemungkinan beliau memeluk Islam di hujung hayat."
@@ -272,6 +278,7 @@
   {
    "id": "p6",
    "name": "Abdullah",
+   "person": "abdullah-anak-halimah",
    "role": "Anak Halimah",
    "t": 710,
    "context": "Nama anak Halimah menurut sebahagian riwayat sirah, yang turut menyusu dengan baik di sisi Nabi SAW."
@@ -279,6 +286,7 @@
   {
    "id": "p7",
    "name": "Al-Harith",
+   "person": "al-harith-suami-halimah",
    "role": "Suami Halimah",
    "t": 936,
    "context": "Menenangkan Halimah dengan kata-kata bahawa Allah mungkin memberi rezeki melalui jalan lain apabila Halimah mengambil Nabi SAW."
@@ -286,6 +294,7 @@
   {
    "id": "p9",
    "name": "Muhammad Quraish Shihab",
+   "person": "quraish-shihab",
    "role": "Penulis sirah",
    "t": 952,
    "context": "Dalam bukunya, beliau mentafsirkan makna nama-nama di sekeliling Nabi SAW: Aminah (aman), Syaibatul Hamd (terpuji), Barakah (keberkatan) dan Halimah (hilm, sabar dan penyayang)."
@@ -293,6 +302,7 @@
   {
    "id": "p10",
    "name": "Syekh Muhammad Al-Ghazali",
+   "person": "muhammad-al-ghazali",
    "role": "Ulama, guru kepada Syekh Yusuf Al-Qaradawi",
    "t": 1110,
    "context": "Ustaz menegaskan beliau bukan Imam Al-Ghazali. Beliau menulis Fiqh as-Sirah dan menyatakan kesedihan tentang anak-anak yang jauh daripada alam."
@@ -300,6 +310,7 @@
   {
    "id": "p11",
    "name": "Jonathan Haidt",
+   "person": "jonathan-haidt",
    "role": "Pakar psikologi sosial dan penulis The Anxious Generation",
    "t": 1196,
    "context": "Mengkaji perubahan zaman kanak-kanak dan mengaitkan lonjakan masalah mental selepas 2010 dengan zaman kanak-kanak berasaskan telefon."
@@ -307,6 +318,7 @@
   {
    "id": "p12",
    "name": "Abu Bakar RA",
+   "person": "abu-bakar",
    "role": "Sahabat Nabi SAW",
    "t": 1418,
    "context": "Bertanya kepada Nabi SAW tentang kehalusan bahasa baginda, lalu baginda menyebut bahawa baginda disusukan di Bani Sa'ad."
@@ -314,6 +326,7 @@
   {
    "id": "p13",
    "name": "Rosmawati Zainal",
+   "person": "rosmawati-zainal",
    "role": "Bergiat dalam bidang pemulihan remaja puteri",
    "t": 1951,
    "context": "Ustaz sering berinteraksi dengannya dan mendengar kisah-kisah remaja yang dibantu, lalu menyimpulkan tiada siapa yang selamat sepenuhnya daripada cabaran ini."
@@ -321,6 +334,7 @@
   {
    "id": "p14",
    "name": "Gabor Maté",
+   "person": "gabor-mate",
    "role": "Pengkaji dan pakar psikologi dari Kanada",
    "t": 2092,
    "context": "Ustaz menyebut nasihatnya bahawa usaha menjaga tiga tahun pertama anak memberi kesan untuk tahun-tahun seterusnya."

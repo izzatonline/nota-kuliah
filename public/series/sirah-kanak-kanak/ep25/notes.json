@@ -134,6 +134,7 @@
   {
    "id": "p2",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW yang bukan Islam",
    "t": 315,
    "context": "Turut terkepung demi melindungi Nabi SAW dan mencabar Abu Jahal membuka perjanjian."
@@ -141,6 +142,7 @@
   {
    "id": "p1",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Pembesar Quraisy dan pemimpin boikot",
    "t": 411,
    "context": "Mengetuai mesyuarat yang menulis perjanjian boikot dan cuba menyekat suara penentang."
@@ -148,6 +150,7 @@
   {
    "id": "p4",
    "name": "Hakim bin Hizam",
+   "person": "hakim-bin-hizam",
    "role": "Anak saudara Khadijah, lahir dalam Kaabah",
    "t": 646,
    "context": "Menghantar unta berisi makanan pada waktu malam; kemudian memeluk Islam."
@@ -155,6 +158,7 @@
   {
    "id": "p3",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 801,
    "context": "Tinggal bersama dalam kepungan, jatuh sakit dan mengagihkan makanan kepada yang lapar dahulu."
@@ -162,6 +166,7 @@
   {
    "id": "p5",
    "name": "Mut'im bin Adi",
+   "person": "mutim-bin-adi",
    "role": "Orang Quraisy bukan Islam yang membantu",
    "t": 852,
    "context": "Menghantar makanan, melawan peronda dan menentang perjanjian di Darun Nadwah."
@@ -169,6 +174,7 @@
   {
    "id": "p6",
    "name": "Hisham bin Amr",
+   "person": "hisham-bin-amr",
    "role": "Penggerak penentangan",
    "t": 1070,
    "context": "Memujuk seorang demi seorang sehingga terbentuk kumpulan yang menentang boikot."
@@ -176,6 +182,7 @@
   {
    "id": "p8",
    "name": "Abul Bukhtari",
+   "person": "abul-bukhtari",
    "role": "Penentang boikot",
    "t": 1070,
    "context": "Antara yang dipujuk Hisham bin Amr untuk menamatkan boikot."
@@ -183,6 +190,7 @@
   {
    "id": "p7",
    "name": "Zuhair",
+   "person": "zuhair",
    "role": "Orang pertama yang bangun",
    "t": 1368,
    "context": "Bangun di hadapan Abu Jahal dan menyatakan boikot sudah melampau."
@@ -190,6 +198,7 @@
   {
    "id": "p9",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW yang memusuhi",
    "t": 2150,
    "context": "Satu-satunya yang tidak menyertai kepungan dan menyokong Abu Jahal."
@@ -197,6 +206,7 @@
   {
    "id": "p10",
    "name": "Khalid Al-Walid",
+   "person": "khalid-bin-al-walid",
    "role": "Anak Al-Walid bin Al-Mughirah, kemudian Pedang Allah",
    "t": 2417,
    "context": "Masih muda waktu ini; akan muncul di Uhud dan memeluk Islam."

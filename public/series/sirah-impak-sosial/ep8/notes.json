@@ -226,6 +226,7 @@
   {
    "id": "p7",
    "name": "Inbal Arieli",
+   "person": "inbal-arieli",
    "role": "Penulis Chutzpah",
    "t": 164,
    "context": "Mengkaji cara kanak-kanak dibesarkan di Israel."
@@ -233,6 +234,7 @@
   {
    "id": "p5",
    "name": "Syaimaa",
+   "person": "syaimaa",
    "role": "Kakak susuan Nabi SAW",
    "t": 1018,
    "context": "Ditangkap selepas Fathu Mekah dan dikenali oleh Nabi melalui bekas gigitan di belakangnya."
@@ -240,6 +242,7 @@
   {
    "id": "p8",
    "name": "Adam Grant",
+   "person": "adam-grant",
    "role": "Penulis Hidden Potential",
    "t": 1230,
    "context": "Mengkaji kesan mentor dan hubungan jangka panjang dalam pembelajaran."
@@ -247,6 +250,7 @@
   {
    "id": "p6",
    "name": "Kaab bin Malik",
+   "person": "kaab-bin-malik",
    "role": "Sahabat",
    "t": 1275,
    "context": "Menyebut senyuman Nabi yang sebenarnya marah selepas dia tidak menyertai Perang Tabuk."
@@ -254,6 +258,7 @@
   {
    "id": "p1",
    "name": "Halimah As-Sa'diah",
+   "person": "halimah",
    "role": "Ibu susuan Nabi SAW",
    "t": 1383,
    "context": "Mengasuh Nabi di perkampungan Bani Saad, merayu menambah tempoh, lalu menghantar baginda pulang kerana bimbang selepas hadis pembelahan dada."
@@ -261,6 +266,7 @@
   {
    "id": "p3",
    "name": "Anas bin Malik",
+   "person": "anas-bin-malik",
    "role": "Sahabat, perawi hadis",
    "t": 1493,
    "context": "Dihantar ibunya kepada Nabi SAW pada usia sepuluh tahun dan berkhidmat sepuluh tahun tanpa pernah dimarahi."
@@ -268,6 +274,7 @@
   {
    "id": "p4",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat",
    "t": 1634,
    "context": "Datang ketika Nabi SAW bermain dan membelah dadanya mengikut hadis Anas."
@@ -275,6 +282,7 @@
   {
    "id": "p2",
    "name": "Aminah",
+   "person": "aminah",
    "role": "Ibu Nabi SAW",
    "t": 2045,
    "context": "Menenangkan Halimah dengan menyebut cahaya yang keluar daripada rahimnya sehingga ke Syam."

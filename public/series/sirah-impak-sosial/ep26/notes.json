@@ -395,6 +395,7 @@
   {
    "id": "p4",
    "name": "Abdullah bin Ubay bin Salul",
+   "person": "abdullah-bin-ubay",
    "role": "Ketua munafik di Madinah",
    "t": 266,
    "context": "Dibetulkan bahawa munafik itu dia, bukan Abdullah bin Ummi Maktum."
@@ -402,6 +403,7 @@
   {
    "id": "p5",
    "name": "Abdullah bin Ummi Maktum",
+   "person": "abdullah-bin-ummi-maktum",
    "role": "Sahabat mulia",
    "t": 324,
    "context": "Muazin Nabi SAW dan diamanahkan menjaga Madinah."
@@ -409,20 +411,31 @@
   {
    "id": "p2",
    "name": "Ammar bin Yasir",
+   "person": "ammar-bin-yasir",
    "role": "Sahabat",
    "t": 388,
    "context": "Satu-satunya sahabat yang kedua ibu bapanya Islam ketika hijrah."
   },
   {
    "id": "p3",
-   "name": "Sumayyah dan Yasir",
-   "role": "Ibu bapa Ammar",
+   "name": "Sumayyah",
+   "person": "sumayyah",
+   "role": "Ibu Ammar",
+   "t": 397,
+   "context": "Syahid pertama dalam Islam."
+  },
+  {
+   "id": "p16",
+   "name": "Yasir",
+   "person": "yasir",
+   "role": "Bapa Ammar",
    "t": 397,
    "context": "Syahid pertama dalam Islam."
   },
   {
    "id": "p1",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW",
    "t": 696,
    "context": "Bersorak atas kematian anak lelaki Nabi SAW dengan 'terputus'."
@@ -430,6 +443,7 @@
   {
    "id": "p6",
    "name": "An-Nadr bin Al-Harith",
+   "person": "an-nadr-bin-al-harith",
    "role": "Penyampai cerita",
    "t": 850,
    "context": "Mengganggu orang yang datang mendengar Nabi SAW."
@@ -437,6 +451,7 @@
   {
    "id": "p7",
    "name": "Umar bin Al-Khattab",
+   "person": "umar-al-khattab",
    "role": "Pemuda Quraish yang belum Islam",
    "t": 2569,
    "context": "Mendengar Al-Haqqah dari balik kelambu Kaabah."
@@ -444,6 +459,7 @@
   {
    "id": "p12",
    "name": "Muhammad Al-Ghazali",
+   "person": "muhammad-al-ghazali",
    "role": "Ulama sirah",
    "t": 2619,
    "context": "Menghuraikan perwatakan Umar."
@@ -451,6 +467,7 @@
   {
    "id": "p8",
    "name": "Utbah bin Rabi'ah",
+   "person": "utbah-bin-rabiah",
    "role": "Perunding Quraish",
    "t": 3085,
    "context": "Terkesima dengan bacaan Fussilat lalu menutup mulut Nabi SAW."
@@ -458,6 +475,7 @@
   {
    "id": "p9",
    "name": "Al-Walid bin Al-Mughirah",
+   "person": "al-walid-bin-al-mughirah",
    "role": "Tokoh politik Quraish, bapa Khalid",
    "t": 3188,
    "context": "Memuji Quran lalu ditekan Abu Jahal dan menuduhnya sihir."
@@ -465,6 +483,7 @@
   {
    "id": "p11",
    "name": "Khalid bin Al-Walid",
+   "person": "khalid-bin-al-walid",
    "role": "Anak Al-Walid",
    "t": 3260,
    "context": "Kelak memeluk Islam dan menjadi pedang Allah."
@@ -472,6 +491,7 @@
   {
    "id": "p10",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Pengurus kempen",
    "t": 3342,
    "context": "Mendesak Al-Walid membuat kenyataan menjatuhkan Quran."
@@ -479,6 +499,7 @@
   {
    "id": "p13",
    "name": "Khabbab bin Al-Arat",
+   "person": "khabbab-bin-al-arat",
    "role": "Sahabat yang diseksa dengan api",
    "t": 4077,
    "context": "Diseksa oleh seorang wanita."
@@ -486,6 +507,7 @@
   {
    "id": "p14",
    "name": "Suhaib Ar-Rumi",
+   "person": "suhaib-ar-rumi",
    "role": "Sahabat",
    "t": 4122,
    "context": "Bukan orang Rom, hamba Abdullah bin Jud'an yang mengenali Nabi SAW sebelum kenabian."
@@ -493,9 +515,58 @@
   {
    "id": "p15",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Sahabat",
    "t": 4460,
    "context": "Kelak membebaskan ramai hamba dan ditekan ayahnya; Allah menjawab dalam Al-Lail."
+  },
+  {
+   "id": "p17",
+   "name": "Al-Qasim",
+   "person": "qasim",
+   "role": "Anak Nabi SAW",
+   "t": 641,
+   "context": "Anak sulung Nabi SAW bersama Khadijah; antara enam anak mereka."
+  },
+  {
+   "id": "p18",
+   "name": "Zainab",
+   "person": "zainab-binti-muhammad",
+   "role": "Anak Nabi SAW",
+   "t": 645,
+   "context": "Antara enam anak Nabi SAW bersama Khadijah."
+  },
+  {
+   "id": "p19",
+   "name": "Ruqayyah",
+   "person": "ruqayyah",
+   "role": "Anak Nabi SAW",
+   "t": 645,
+   "context": "Antara enam anak Nabi SAW bersama Khadijah."
+  },
+  {
+   "id": "p20",
+   "name": "Ummu Kulthum",
+   "person": "ummu-kulthum",
+   "role": "Anak Nabi SAW",
+   "t": 645,
+   "context": "Antara enam anak Nabi SAW bersama Khadijah."
+  },
+  {
+   "id": "p21",
+   "name": "Fatimah",
+   "person": "fatimah-az-zahra",
+   "role": "Anak Nabi SAW",
+   "t": 645,
+   "context": "Antara enam anak Nabi SAW bersama Khadijah."
+  },
+  {
+   "id": "p22",
+   "name": "Abdullah",
+   "person": "abdullah-anak-nabi",
+   "role": "Anak Nabi SAW",
+   "t": 649,
+   "context": "Anak Nabi SAW yang lahir kemudian; bayi yang hanya sempat hidup seketika sebelum meninggal."
   }
  ],
  "sirah": {

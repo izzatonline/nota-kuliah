@@ -469,6 +469,7 @@
   {
    "id": "p7",
    "name": "Najasyi",
+   "person": "najasyi",
    "role": "Raja Habasyah",
    "t": 665,
    "context": "Memeluk Islam melalui dakwah Nabi SAW tanpa pernah bertemu baginda, dan melindungi umat Islam di Habasyah."
@@ -476,6 +477,7 @@
   {
    "id": "p8",
    "name": "Amr bin al-As",
+   "person": "amr-bin-al-as",
    "role": "Utusan Quraish ke Habasyah",
    "t": 801,
    "context": "Pulang ke Mekah tanpa mencapai matlamat dan dikatakan murung kerana malu."
@@ -483,6 +485,7 @@
   {
    "id": "p3",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Pemimpin Quraish dan penentang Nabi SAW",
    "t": 1462,
    "context": "Digelar Abul Hakam oleh orang Mekah, seorang yang bijak merancang tekanan ke atas Islam, dan mentor kepada Umar."
@@ -490,6 +493,7 @@
   {
    "id": "p19",
    "name": "Utaibah",
+   "person": "utaibah-bin-abi-lahab",
    "role": "Anak kepada pembenci Nabi SAW",
    "t": 1728,
    "context": "Meludah ke arah Nabi SAW lalu didoakan oleh baginda, dan kemudian dimakan singa dalam perjalanan. Ustaz menyebut anak Abu Jahal, tetapi sumber sirah biasanya menyebut anak Abu Lahab, jadi perlu disemak."
@@ -497,6 +501,7 @@
   {
    "id": "p1",
    "name": "Hamzah bin Abdul Muttalib RA",
+   "person": "hamzah",
    "role": "Bapa saudara dan sahabat Nabi SAW",
    "t": 1781,
    "context": "Pemburu yang tertutup dan disegani, sebaya dengan Nabi SAW, memeluk Islam selepas memukul Abu Jahal yang menghina baginda, lalu menjaga pintu di Darul Arqam."
@@ -504,6 +509,7 @@
   {
    "id": "p4",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 2580,
    "context": "Melindungi Nabi SAW tetapi tidak memeluk Islam."
@@ -511,6 +517,7 @@
   {
    "id": "p5",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW",
    "t": 2600,
    "context": "Membenci Nabi SAW dan tidak memeluk Islam."
@@ -518,6 +525,7 @@
   {
    "id": "p6",
    "name": "Al-Abbas",
+   "person": "abbas-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 2611,
    "context": "Memeluk Islam agak lewat berbanding Hamzah."
@@ -525,6 +533,7 @@
   {
    "id": "p2",
    "name": "Umar bin al-Khattab RA",
+   "person": "umar-al-khattab",
    "role": "Sahabat dan khalifah",
    "t": 2709,
    "context": "Pada asalnya penentang Islam yang keras dan pernah dilatih oleh Abu Jahal, memeluk Islam selepas mendengar Al-Quran dan digelar Al-Faruq."
@@ -532,6 +541,7 @@
   {
    "id": "p14",
    "name": "Al-Khattab",
+   "person": "al-khattab",
    "role": "Bapa Umar",
    "t": 2973,
    "context": "Seorang bapa yang keras dan mendera Umar semasa kecil, juga mendera Zaid bin Amr bin Nufail."
@@ -539,6 +549,7 @@
   {
    "id": "p13",
    "name": "Zaid bin Amr bin Nufail",
+   "person": "zaid-bin-amr-bin-nufail",
    "role": "Pencari agama hanif sebelum kenabian",
    "t": 2982,
    "context": "Menentang penyembelihan untuk berhala, didera oleh Khattab, dan berdoa agar anaknya menemui Nabi SAW."
@@ -546,6 +557,7 @@
   {
    "id": "p9",
    "name": "Nu'aym bin Abdullah an-Nahham",
+   "person": "nuaym-bin-abdullah",
    "role": "Muslim yang menyembunyikan keislamannya",
    "t": 3491,
    "context": "Menegur Umar yang keluar dengan pedang supaya memeriksa keluarganya sendiri kerana adiknya sudah memeluk Islam."
@@ -553,6 +565,7 @@
   {
    "id": "p10",
    "name": "Fatimah binti al-Khattab",
+   "person": "fatimah-binti-khattab",
    "role": "Adik Umar",
    "t": 3646,
    "context": "Telah memeluk Islam dan belajar Al-Quran di rumahnya, dan dipukul Umar sehingga berdarah sebelum Umar tersentuh."
@@ -560,6 +573,7 @@
   {
    "id": "p11",
    "name": "Sa'id bin Zaid",
+   "person": "said-bin-zaid",
    "role": "Sahabat, suami Fatimah",
    "t": 3712,
    "context": "Salah seorang daripada sepuluh yang dijanjikan syurga, anak kepada Zaid bin Amr bin Nufail, dipukul Umar di rumahnya."
@@ -567,6 +581,7 @@
   {
    "id": "p12",
    "name": "Khabbab bin al-Arat",
+   "person": "khabbab-bin-al-arat",
    "role": "Sahabat dan guru Al-Quran",
    "t": 3740,
    "context": "Mengajar Fatimah dan Sa'id secara peribadi, bersembunyi ketika Umar datang, dan kemudian menunjukkan lokasi Darul Arqam."
@@ -574,6 +589,7 @@
   {
    "id": "p18",
    "name": "Ibn Abbas",
+   "person": "abdullah-bin-abbas",
    "role": "Sahabat dan perawi",
    "t": 4555,
    "context": "Meriwayatkan Jibril turun menyampaikan kegembiraan penduduk langit atas pengislaman Umar."
@@ -581,6 +597,7 @@
   {
    "id": "p15",
    "name": "Jamil bin Ma'mar al-Jumahi",
+   "person": "jamil-bin-mamar",
    "role": "Orang Mekah yang paling cepat menyebarkan berita",
    "t": 4644,
    "context": "Umar mendatanginya untuk mengumumkan keislamannya, lalu dia berlari ke Kaabah menyebarkan berita itu."
@@ -588,6 +605,7 @@
   {
    "id": "p16",
    "name": "Al-As bin Wa'il",
+   "person": "al-as-bin-wail",
    "role": "Bapa Amr bin al-As",
    "t": 4786,
    "context": "Menghentikan orang ramai daripada terus memukul Umar yang telah mengisytiharkan Islam."
@@ -595,6 +613,7 @@
   {
    "id": "p17",
    "name": "Ibn Mas'ud",
+   "person": "abdullah-bin-masud",
    "role": "Sahabat dan perawi",
    "t": 4821,
    "context": "Meriwayatkan kesan pengislaman Umar iaitu orang Islam kuat dan mulia serta boleh bersolat terbuka di Kaabah."

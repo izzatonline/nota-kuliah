@@ -233,7 +233,7 @@
   },
   {
    "id": "p9",
-   "role": "Companions",
+   "role": "Companion",
    "context": "Guarded the lanes and signalled if anyone approached during the secret meeting."
   },
   {
@@ -290,6 +290,36 @@
    "id": "p16",
    "role": "Naqib and Khazraj leader",
    "context": "Captured and beaten by Quraysh on the way home but released because he had protected Makkan merchants."
+  },
+  {
+   "id": "p21",
+   "role": "Companion",
+   "context": "Guarded the lanes and signalled if anyone approached during the secret meeting."
+  },
+  {
+   "id": "p22",
+   "role": "Naqib at the second Aqabah pledge",
+   "context": "One of the 12 naqibs (9 from Khazraj, 3 from Aus) chosen to be responsible for their people."
+  },
+  {
+   "id": "p23",
+   "role": "Naqib at the second Aqabah pledge",
+   "context": "One of the 12 naqibs (9 from Khazraj, 3 from Aus) chosen to be responsible for their people."
+  },
+  {
+   "id": "p24",
+   "role": "Naqib at the second Aqabah pledge",
+   "context": "One of the 12 naqibs (9 from Khazraj, 3 from Aus) chosen to be responsible for their people."
+  },
+  {
+   "id": "p25",
+   "role": "Naqib at the second Aqabah pledge",
+   "context": "One of the 12 naqibs (9 from Khazraj, 3 from Aus) chosen to be responsible for their people."
+  },
+  {
+   "id": "p26",
+   "role": "Naqib at the second Aqabah pledge",
+   "context": "One of the 12 naqibs (9 from Khazraj, 3 from Aus) chosen to be responsible for their people."
   }
  ],
  "lessons": [

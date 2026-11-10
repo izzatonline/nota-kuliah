@@ -454,6 +454,7 @@
   {
    "id": "p1",
    "name": "Aisyah binti Abu Bakar RA",
+   "person": "aisyah",
    "role": "Ummul Mu'minin",
    "t": 685,
    "context": "Menafikan Nabi melihat Allah dengan mata kasar, dengan dalil Al-An'am 6:103 dan Ash-Shura 42:51, dan menasihati tiga perkara yang tidak boleh didakwa tentang Nabi."
@@ -461,6 +462,7 @@
   {
    "id": "p2",
    "name": "Abdullah bin Abbas RA",
+   "person": "abdullah-bin-abbas",
    "role": "Sahabat, sepupu Nabi SAW",
    "t": 1363,
    "context": "Berpandangan Nabi melihat Allah dengan hati. Ustaz menyebut bapanya, al-Abbas, ialah bapa saudara Nabi."
@@ -468,6 +470,7 @@
   {
    "id": "p3",
    "name": "Abu Dzar al-Ghifari RA",
+   "person": "abu-dhar",
    "role": "Sahabat",
    "t": 1486,
    "context": "Bertanya terus kepada Nabi SAW sama ada baginda melihat Tuhannya."
@@ -475,6 +478,7 @@
   {
    "id": "p4",
    "name": "Muaz bin Jabal RA",
+   "person": "muaz-bin-jabal",
    "role": "Sahabat",
    "t": 2277,
    "context": "Perawi hadis solat sebagai tiang agama."
@@ -482,20 +486,47 @@
   {
    "id": "p5",
    "name": "Jabir bin Abdillah RA",
+   "person": "jabir-bin-abdullah",
    "role": "Sahabat",
    "t": 2430,
    "context": "Perawi hadis yang membezakan seseorang daripada syirik dan kufur ialah meninggalkan solat."
   },
   {
    "id": "p6",
-   "name": "Imam Bukhari dan Imam Muslim",
+   "name": "Imam Bukhari",
+   "person": "imam-bukhari",
+   "role": "Pengumpul hadis",
+   "t": 468,
+   "context": "Hadis Mi'raj dan penurunan solat diriwayatkan oleh kedua-duanya."
+  },
+  {
+   "id": "p13",
+   "name": "Imam Muslim",
+   "person": "imam-muslim",
    "role": "Pengumpul hadis",
    "t": 468,
    "context": "Hadis Mi'raj dan penurunan solat diriwayatkan oleh kedua-duanya."
   },
   {
    "id": "p7",
-   "name": "Imam At-Tirmidhi, An-Nasa'i dan Ibn Majah",
+   "name": "Imam At-Tirmidhi",
+   "person": "imam-tirmizi",
+   "role": "Pengumpul hadis",
+   "t": 2541,
+   "context": "Meriwayatkan hadis perjanjian tentang solat."
+  },
+  {
+   "id": "p14",
+   "name": "An-Nasa'i",
+   "person": "an-nasai",
+   "role": "Pengumpul hadis",
+   "t": 2541,
+   "context": "Meriwayatkan hadis perjanjian tentang solat."
+  },
+  {
+   "id": "p15",
+   "name": "Ibn Majah",
+   "person": "ibn-majah",
    "role": "Pengumpul hadis",
    "t": 2541,
    "context": "Meriwayatkan hadis perjanjian tentang solat."
@@ -503,13 +534,31 @@
   {
    "id": "p8",
    "name": "Imam Ash-Shafi'i",
+   "person": "imam-syafii",
    "role": "Imam mazhab",
    "t": 2469,
    "context": "Pegangan utama masyarakat kita: orang yang meninggalkan solat kerana malas dan lalai, tanpa menafikan kefarduannya, tidak terkeluar daripada Islam."
   },
   {
    "id": "p9",
-   "name": "Imam An-Nawawi, Ibn Kathir dan Syeikhul Islam",
+   "name": "Imam An-Nawawi",
+   "person": "an-nawawi",
+   "role": "Ulama",
+   "t": 1525,
+   "context": "Disebut sekali lalu sebagai ulama yang membincangkan hadis Abu Dzar dan isu melihat Allah. Ustaz tidak mahu memanjangkan perbincangan."
+  },
+  {
+   "id": "p16",
+   "name": "Ibn Kathir",
+   "person": "ibn-kathir",
+   "role": "Ulama",
+   "t": 1525,
+   "context": "Disebut sekali lalu sebagai ulama yang membincangkan hadis Abu Dzar dan isu melihat Allah. Ustaz tidak mahu memanjangkan perbincangan."
+  },
+  {
+   "id": "p17",
+   "name": "Syeikhul Islam",
+   "person": "syeikhul-islam",
    "role": "Ulama",
    "t": 1525,
    "context": "Disebut sekali lalu sebagai ulama yang membincangkan hadis Abu Dzar dan isu melihat Allah. Ustaz tidak mahu memanjangkan perbincangan."
@@ -517,6 +566,7 @@
   {
    "id": "p10",
    "name": "Nabi Musa AS (Kalimullah)",
+   "person": "musa",
    "role": "Nabi",
    "t": 1846,
    "context": "Meminta Nabi Muhammad SAW kembali memohon pengurangan solat. Ustaz melihatnya sebagai ejen dan penasihat yang prihatin kepada umat Nabi Muhammad."
@@ -524,13 +574,23 @@
   {
    "id": "p11",
    "name": "Nabi Ibrahim AS",
+   "person": "ibrahim",
    "role": "Nabi",
    "t": 366,
    "context": "Ditemui Nabi SAW di langit ketujuh, tersandar pada Baitul Ma'mur."
   },
   {
    "id": "p12",
-   "name": "Byung-Chul Han dan Johann Hari",
+   "name": "Byung-Chul Han",
+   "person": "byung-chul-han",
+   "role": "Pengarang bukan Islam yang dikutip",
+   "t": 2663,
+   "context": "Pengarang dua buku yang dibaca ustaz untuk memahami krisis kesunyian dan keletihan masyarakat moden."
+  },
+  {
+   "id": "p18",
+   "name": "Johann Hari",
+   "person": "johann-hari",
    "role": "Pengarang bukan Islam yang dikutip",
    "t": 2663,
    "context": "Pengarang dua buku yang dibaca ustaz untuk memahami krisis kesunyian dan keletihan masyarakat moden."

@@ -436,6 +436,7 @@
   {
    "id": "p1",
    "name": "Hamka",
+   "person": "hamka",
    "role": "Penulis tafsir",
    "t": 0,
    "context": "Menulis tafsirnya dalam penjara dan menjawab pemuda yang menyebut ada pelacur di Mekah dengan jawapan berlapik tetapi tajam."
@@ -443,6 +444,7 @@
   {
    "id": "p5",
    "name": "Prof. Quraish Shihab",
+   "person": "quraish-shihab",
    "role": "Ulama dan penulis sirah",
    "t": 325,
    "context": "Memetik surah Ad-Dhuha ayat 5 dalam bukunya tentang nasib ibu bapa Nabi SAW."
@@ -450,6 +452,7 @@
   {
    "id": "p2",
    "name": "Abu Hurairah RA",
+   "person": "abu-hurairah",
    "role": "Sahabat, perawi hadis",
    "t": 414,
    "context": "Perawi hadis lelaki yang berpesan supaya dibakar."
@@ -457,6 +460,7 @@
   {
    "id": "p3",
    "name": "Imam Al-Bukhari",
+   "person": "imam-bukhari",
    "role": "Pengumpul hadis",
    "t": 487,
    "context": "Meriwayatkan hadis lelaki yang diampunkan kerana takut kepada Allah, dan hadis tentang usaha tangan sendiri."
@@ -464,6 +468,7 @@
   {
    "id": "p4",
    "name": "Imam Ahmad",
+   "person": "imam-ahmad",
    "role": "Pengumpul hadis",
    "t": 859,
    "context": "Meriwayatkan hadis tentang pemuda yang tiada sobwah, yang hasan sanadnya."
@@ -471,6 +476,7 @@
   {
    "id": "p7",
    "name": "Nabi Ibrahim AS",
+   "person": "ibrahim",
    "role": "Nabi",
    "t": 1000,
    "context": "Digoda syaitan ketika hendak melaksanakan perintah Allah, asal kepada lontar jamrah."
@@ -478,6 +484,7 @@
   {
    "id": "p6",
    "name": "Dr. Adil Salahi",
+   "person": "adil-salahi",
    "role": "Penulis sirah",
    "t": 1122,
    "context": "Penulis Man and Prophet yang menyebut Nabi SAW terdedah kepada masyarakat tanpa sifat malu."
@@ -485,6 +492,7 @@
   {
    "id": "p14",
    "name": "Maria Ahlin",
+   "person": "maria-ahlin",
    "role": "Penceramah TED dari Sweden",
    "t": 1506,
    "context": "Penyampai ceramah Let's Talk Porn yang ditonton 96 juta kali."
@@ -492,6 +500,7 @@
   {
    "id": "p9",
    "name": "Nabi Musa AS",
+   "person": "musa",
    "role": "Nabi",
    "t": 1864,
    "context": "Pernah menjadi penggembala kambing, dan paling banyak disakiti oleh kaumnya."
@@ -499,6 +508,7 @@
   {
    "id": "p10",
    "name": "Nabi Daud AS",
+   "person": "daud",
    "role": "Nabi",
    "t": 1871,
    "context": "Nabi yang juga penggembala kambing."
@@ -506,6 +516,7 @@
   {
    "id": "p8",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 1956,
    "context": "Hidupnya susah dan miskin, jadi Nabi SAW bekerja mengembala untuk membantunya."
@@ -513,6 +524,7 @@
   {
    "id": "p11",
    "name": "Imam An-Nawawi",
+   "person": "an-nawawi",
    "role": "Ulama hadis",
    "t": 2216,
    "context": "Antara ulama yang mengulas hadis para nabi sebagai pengembala dan latihan memikul tanggungjawab."
@@ -520,6 +532,7 @@
   {
    "id": "p13",
    "name": "Dr. Tariq Ramadan",
+   "person": "tariq-ramadan",
    "role": "Penulis sirah",
    "t": 2657,
    "context": "Dalam bukunya menyebut sebagai pengembala, Muhammad SAW belajar bersendirian, sabar, tafakur dan kewaspadaan."
@@ -527,6 +540,7 @@
   {
    "id": "p12",
    "name": "Umar Al-Khattab RA",
+   "person": "umar-al-khattab",
    "role": "Sahabat",
    "t": 2884,
    "context": "Menangis melihat tikar yang meninggalkan bekas pada tubuh Nabi SAW."
@@ -534,6 +548,7 @@
   {
    "id": "p15",
    "name": "Paulo Coelho",
+   "person": "paulo-coelho",
    "role": "Penulis novel dari Brazil",
    "t": 3400,
    "context": "Penulis The Alchemist, kisah pengembala kambing yang mencari harta karun."
@@ -541,6 +556,7 @@
   {
    "id": "p16",
    "name": "Dr. Mazli Malik",
+   "person": "mazli-malik",
    "role": "Penulis novel",
    "t": 3497,
    "context": "Menulis Hikmah Hati, adaptasi hadis kisah Ghulam."
@@ -548,6 +564,7 @@
   {
    "id": "p17",
    "name": "Muhammad Najib",
+   "person": "muhammad-najib",
    "role": "Lelaki dari India dalam kisah benar",
    "t": 3540,
    "context": "Dikongsi ustaz sebagai kisah benar di sebalik filem tentang pengembala kambing di pedalaman Arab."

@@ -136,7 +136,7 @@
   },
   {
    "id": "p7",
-   "role": "Uncle of the Prophet SAW and his wife",
+   "role": "Uncle of the Prophet SAW",
    "context": "They harmed the Prophet SAW and Surah Al-Masad came down."
   },
   {
@@ -146,7 +146,7 @@
   },
   {
    "id": "p9",
-   "role": "Quraysh leaders",
+   "role": "Quraysh leader",
    "context": "Listened to the Quran with Abu Jahl at night."
   },
   {
@@ -183,6 +183,16 @@
    "id": "p16",
    "role": "Wealthy companion",
    "context": "Remembered Khabbab when served fine food."
+  },
+  {
+   "id": "p17",
+   "role": "Wife of Abu Lahab",
+   "context": "They harmed the Prophet SAW and Surah Al-Masad came down."
+  },
+  {
+   "id": "p18",
+   "role": "Quraysh leader",
+   "context": "Listened to the Quran with Abu Jahl at night."
   }
  ],
  "lessons": [

@@ -191,6 +191,7 @@
   {
    "id": "p1",
    "name": "Zaid bin Harithah",
+   "person": "zaid-bin-harithah",
    "role": "Anak angkat Nabi SAW",
    "t": 102,
    "context": "Dihadiahkan Khadijah kepada baginda, menemani ke Taif dan melindungi baginda daripada batu dengan tangan dan mukanya."
@@ -198,6 +199,7 @@
   {
    "id": "p2",
    "name": "Abdul Yalil bin Amr",
+   "person": "abdul-yalil-bin-amr",
    "role": "Pemimpin Taif",
    "t": 609,
    "context": "Salah seorang daripada tiga adik-beradik yang mengejek baginda."
@@ -205,6 +207,7 @@
   {
    "id": "p4",
    "name": "Habib bin Amr",
+   "person": "habib-bin-amr",
    "role": "Pemimpin Taif",
    "t": 621,
    "context": "Menuduh baginda pendusta dan penipu."
@@ -212,13 +215,23 @@
   {
    "id": "p3",
    "name": "Mas'ud bin Amr",
+   "person": "masud-bin-amr",
    "role": "Pemimpin Taif",
    "t": 755,
    "context": "Menyindir bahawa dia tidak akan bercakap dengan seorang yang terlalu mulia."
   },
   {
    "id": "p5",
-   "name": "Utbah dan Syaibah (anak Rabi'ah)",
+   "name": "Utbah",
+   "person": "utbah-bin-rabiah",
+   "role": "Pemilik kebun di Taif",
+   "t": 1003,
+   "context": "Bersimpati sesama orang Mekah dan menghantar anggur kepada baginda melalui Adas."
+  },
+  {
+   "id": "p12",
+   "name": "Syaibah",
+   "person": "syaibah-bin-rabiah",
    "role": "Pemilik kebun di Taif",
    "t": 1003,
    "context": "Bersimpati sesama orang Mekah dan menghantar anggur kepada baginda melalui Adas."
@@ -226,6 +239,7 @@
   {
    "id": "p6",
    "name": "Adas",
+   "person": "adas",
    "role": "Hamba dari Nineveh",
    "t": 1088,
    "context": "Terkejut mendengar Bismillah dan nama Nabi Yunus, lalu mencium baginda dan memeluk Islam."
@@ -233,6 +247,7 @@
   {
    "id": "p7",
    "name": "Nabi Yunus bin Matta",
+   "person": "yunus",
    "role": "Nabi dari Nineveh",
    "t": 1212,
    "context": "Disebut Nabi SAW kepada Adas sebagai tanda baginda juga seorang nabi."
@@ -240,6 +255,7 @@
   {
    "id": "p8",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat penyampai wahyu",
    "t": 1423,
    "context": "Datang dengan dua malaikat gunung selepas doa baginda di Taif."
@@ -247,6 +263,7 @@
   {
    "id": "p9",
    "name": "Abdullah bin Abbas",
+   "person": "abdullah-bin-abbas",
    "role": "Sepupu Nabi SAW",
    "t": 1621,
    "context": "Didoakan baginda dan kemudian mengajar ribuan murid di Taif."
@@ -254,6 +271,7 @@
   {
    "id": "p10",
    "name": "Mut'im bin Adi",
+   "person": "mutim-bin-adi",
    "role": "Pelindung bukan Islam",
    "t": 1838,
    "context": "Mengiringi baginda dengan anak-anak bersenjata masuk ke Mekah."
@@ -261,6 +279,7 @@
   {
    "id": "p11",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Pembesar Quraisy",
    "t": 1923,
    "context": "Bertanya kepada Mut'im sama ada dia memeluk Islam atau sekadar melindungi."

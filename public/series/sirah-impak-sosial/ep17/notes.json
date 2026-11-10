@@ -217,6 +217,7 @@
   {
    "id": "p1",
    "name": "Zaid bin Amr bin Nufail",
+   "person": "zaid-bin-amr-bin-nufail",
    "role": "Penganut hanif",
    "t": 57,
    "context": "Tidak menyembah berhala, dilihat Nabi SAW sebagai contoh."
@@ -224,6 +225,7 @@
   {
    "id": "p2",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 82,
    "context": "Sependapat dengan Nabi SAW tidak menyembah berhala."
@@ -231,6 +233,7 @@
   {
    "id": "p3",
    "name": "Wadah Hanfar",
+   "person": "wadah-hanfar",
    "role": "Bekas CEO Al Jazeera dan pakar geopolitik",
    "t": 312,
    "context": "Pengarang Musim Bunga Pertama."
@@ -238,6 +241,7 @@
   {
    "id": "p9",
    "name": "Ibrahim AS",
+   "person": "ibrahim",
    "role": "Nabi pembina Kaabah",
    "t": 424,
    "context": "Diperintah menyeru manusia buat haji."
@@ -245,6 +249,7 @@
   {
    "id": "p4",
    "name": "Abul Hasan Ali An-Nadwi",
+   "person": "abul-hasan-an-nadwi",
    "role": "Ulama besar India",
    "t": 482,
    "context": "Menulis sirah dan menggunakan sumber Yahudi serta Kristian untuk huraian dunia."
@@ -252,6 +257,7 @@
   {
    "id": "p5",
    "name": "Ali As-Sallabi",
+   "person": "ali-as-sallabi",
    "role": "Pakar sirah dari Libya",
    "t": 601,
    "context": "Pengarang sirah komprehensif dan moden."
@@ -259,6 +265,7 @@
   {
    "id": "p6",
    "name": "Surakah bin Malik",
+   "person": "suraqah-bin-malik",
    "role": "Pengejar Nabi SAW ketika hijrah",
    "t": 1306,
    "context": "Dijanjikan gelang raja Parsi."
@@ -266,6 +273,7 @@
   {
    "id": "p7",
    "name": "Umar Al-Khattab",
+   "person": "umar-al-khattab",
    "role": "Khalifah",
    "t": 1328,
    "context": "Pada zamannya janji gelang raja Parsi ditunaikan."
@@ -273,6 +281,7 @@
   {
    "id": "p8",
    "name": "Salman Al-Farisi",
+   "person": "salman-al-farisi",
    "role": "Sahabat berketurunan Parsi",
    "t": 1335,
    "context": "Anak agamawan Parsi yang terkemuka dan kemudian membuka kota Parsi."

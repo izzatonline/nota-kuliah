@@ -296,6 +296,7 @@
   {
    "id": "p2",
    "name": "Umayyah bin Khalaf",
+   "person": "umayyah-bin-khalaf",
    "role": "Pembesar Quraish",
    "t": 1142,
    "context": "Tidak sujud ketika An-Najm, hanya mengambil tanah ke dahinya."
@@ -303,6 +304,7 @@
   {
    "id": "p3",
    "name": "Uthman bin Maz'un",
+   "person": "uthman-bin-maz-un",
    "role": "Ketua kontinjen pertama",
    "t": 1520,
    "context": "Mengembalikan perlindungan Al-Walid dan dipukul sehingga mata lebam."
@@ -310,6 +312,7 @@
   {
    "id": "p4",
    "name": "Khawlah binti Hakim",
+   "person": "khawlah-binti-hakim",
    "role": "Isteri Uthman bin Maz'un",
    "t": 1541,
    "context": "Kelak membawa lamaran Nabi SAW kepada Saudah dan Aisyah."
@@ -317,6 +320,7 @@
   {
    "id": "p5",
    "name": "Al-Walid bin Al-Mughirah",
+   "person": "al-walid-bin-al-mughirah",
    "role": "Tokoh elit Makkah, bapa Khalid",
    "t": 1664,
    "context": "Memberi perlindungan kepada Uthman bin Maz'un."
@@ -324,6 +328,7 @@
   {
    "id": "p6",
    "name": "Labid bin Rabi'ah",
+   "person": "labid-bin-rabiah",
    "role": "Penyair jemputan",
    "t": 1912,
    "context": "Syairnya dibetulkan oleh Uthman."
@@ -331,6 +336,7 @@
   {
    "id": "p7",
    "name": "Ja'far bin Abi Talib",
+   "person": "jafar-bin-abi-talib",
    "role": "Ketua dan jurucakap penghijrah kedua",
    "t": 2330,
    "context": "Berucap di hadapan Najasyi dan membaca Surah Maryam."
@@ -338,6 +344,7 @@
   {
    "id": "p8",
    "name": "Asma' binti Umais",
+   "person": "asma-binti-umais",
    "role": "Isteri Ja'far",
    "t": 2342,
    "context": "Dipuji Nabi SAW kerana berhijrah dua kali."
@@ -345,6 +352,7 @@
   {
    "id": "p9",
    "name": "Ummu Habibah (Ramlah binti Abi Sufyan)",
+   "person": "ummu-habibah",
    "role": "Penghijrah dan anak Abu Sufyan",
    "t": 2407,
    "context": "Kelak dikahwini Nabi SAW melalui perwakilan Najasyi."
@@ -352,6 +360,7 @@
   {
    "id": "p11",
    "name": "Abdullah bin Abi Rabi'ah",
+   "person": "abdullah-bin-abi-rabiah",
    "role": "Utusan Quraish",
    "t": 2639,
    "context": "Mengiringi Amr dan cuba pulang apabila kalah."
@@ -359,6 +368,7 @@
   {
    "id": "p12",
    "name": "Abdul Muttalib",
+   "person": "abdul-muttalib",
    "role": "Datuk Nabi SAW",
    "t": 2667,
    "context": "Memberi Nabi SAW akses awal kepada kepimpinan Makkah."
@@ -366,6 +376,7 @@
   {
    "id": "p13",
    "name": "Usamah bin Zaid",
+   "person": "usamah-bin-zaid",
    "role": "Panglima muda",
    "t": 2752,
    "context": "Dilantik Nabi SAW sebagai jeneral pada usia 16 tahun."
@@ -373,6 +384,7 @@
   {
    "id": "p10",
    "name": "Amr bin Al-As",
+   "person": "amr-bin-al-as",
    "role": "Utusan Quraish dan kelak penakluk Mesir",
    "t": 3144,
    "context": "Menghantar hadiah, melobi menteri dan akhirnya memeluk Islam."
@@ -380,6 +392,7 @@
   {
    "id": "p1",
    "name": "Najasyi (Ashamah)",
+   "person": "najasyi",
    "role": "Raja Habsyah",
    "t": 3656,
    "context": "Raja adil yang menjamin keselamatan penghijrah dan memeluk Islam secara rahsia."
@@ -387,6 +400,7 @@
   {
    "id": "p14",
    "name": "Ummu Salamah",
+   "person": "ummu-salamah",
    "role": "Perawi kisah Habsyah",
    "t": 4762,
    "context": "Menceritakan kecemasan ketika perang Najasyi."
@@ -394,6 +408,7 @@
   {
    "id": "p15",
    "name": "Az-Zubair bin Al-Awwam",
+   "person": "az-zubair-bin-al-awwam",
    "role": "Sahabat",
    "t": 4826,
    "context": "Berenang menyeberangi sungai Nil untuk membawa berita kemenangan Najasyi."
@@ -401,6 +416,7 @@
   {
    "id": "p16",
    "name": "Uwais Al-Qarni",
+   "person": "uwais-al-qarni",
    "role": "Tabiin yang tidak sempat bertemu Nabi SAW",
    "t": 5142,
    "context": "Contoh insan yang beriman tanpa berjumpa Nabi SAW."

@@ -403,6 +403,7 @@
   {
    "id": "p8",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Ummul Mu'minin",
    "t": 146,
    "context": "Kewafatannya ialah antara sebab Amul Huzn. Ustaz mengatakan doa ini terlupa disebut dalam episod kewafatannya."
@@ -410,6 +411,7 @@
   {
    "id": "p2",
    "name": "Fatimah RA",
+   "person": "fatimah-az-zahra",
    "role": "Puteri Nabi SAW",
    "t": 349,
    "context": "Datang membersihkan Nabi SAW selepas peristiwa najis unta diletakkan di kepala Baginda."
@@ -417,6 +419,7 @@
   {
    "id": "p1",
    "name": "Abdullah bin Mas'ud RA",
+   "person": "abdullah-bin-masud",
    "role": "Sahabat, perawi doa pertama",
    "t": 356,
    "context": "Perawi hadis doa kesedihan. Ustaz mengingatkan beliau juga perawi kisah najis unta diletakkan di atas kepala Nabi SAW ketika bersujud."
@@ -424,6 +427,7 @@
   {
    "id": "p4",
    "name": "Nabi Yusuf AS",
+   "person": "yusuf",
    "role": "Nabi",
    "t": 686,
    "context": "Kisahnya dalam surah ke-12 diturunkan ketika Amul Huzn, bagi menenangkan Nabi SAW."
@@ -431,27 +435,55 @@
   {
    "id": "p3",
    "name": "Nabi Yaakub AS",
+   "person": "yaqub",
    "role": "Nabi",
    "t": 753,
    "context": "Mengadu kesedihan dan duka citanya hanya kepada Allah ketika anak-anaknya sendiri tidak memahami."
   },
   {
    "id": "p6",
-   "name": "Nabi Adam AS dan Hawa AS",
-   "role": "Ibu bapa manusia",
+   "name": "Nabi Adam AS",
+   "person": "adam",
+   "role": "Bapa manusia",
+   "t": 829,
+   "context": "Rantaian 'anak hamba lelaki dan hamba perempuan-Mu' sampai kepada mereka. Allah menurunkan mereka bersama petunjuk (Al-Baqarah 2:38)."
+  },
+  {
+   "id": "p10",
+   "name": "Hawa AS",
+   "person": "hawa",
+   "role": "Ibu manusia",
    "t": 829,
    "context": "Rantaian 'anak hamba lelaki dan hamba perempuan-Mu' sampai kepada mereka. Allah menurunkan mereka bersama petunjuk (Al-Baqarah 2:38)."
   },
   {
    "id": "p5",
-   "name": "Nabi Yunus AS dan Nabi Nuh AS",
-   "role": "Para nabi",
+   "name": "Nabi Yunus AS",
+   "person": "yunus",
+   "role": "Nabi",
+   "t": 847,
+   "context": "Antara kisah para nabi terdahulu yang menunjukkan rantaian hamba yang pernah melalui kesusahan."
+  },
+  {
+   "id": "p11",
+   "name": "Nabi Nuh AS",
+   "person": "nuh",
+   "role": "Nabi",
    "t": 847,
    "context": "Antara kisah para nabi terdahulu yang menunjukkan rantaian hamba yang pernah melalui kesusahan."
   },
   {
    "id": "p9",
-   "name": "Imam Ahmad dan Imam Bukhari",
+   "name": "Imam Ahmad",
+   "person": "imam-ahmad",
+   "role": "Pengumpul hadis",
+   "t": 2204,
+   "context": "Meriwayatkan doa pertama (Ahmad) dan doa kedua (antara lain Bukhari)."
+  },
+  {
+   "id": "p12",
+   "name": "Imam Bukhari",
+   "person": "imam-bukhari",
    "role": "Pengumpul hadis",
    "t": 2204,
    "context": "Meriwayatkan doa pertama (Ahmad) dan doa kedua (antara lain Bukhari)."
@@ -459,6 +491,7 @@
   {
    "id": "p7",
    "name": "Abu Umamah RA",
+   "person": "abu-umamah-al-bahili",
    "role": "Sahabat",
    "t": 2255,
    "context": "Duduk di masjid bukan pada waktu solat kerana dibelenggu kesedihan dan hutang, lalu diajarkan doa kedua oleh Nabi SAW."

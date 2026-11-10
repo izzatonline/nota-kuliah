@@ -387,6 +387,7 @@
   {
    "id": "p3",
    "name": "Adas",
+   "person": "adas",
    "role": "Lelaki dari Nineveh, Iraq",
    "t": 623,
    "context": "Memeluk Islam di Taif ketika Nabi SAW membaca Bismillah."
@@ -394,6 +395,7 @@
   {
    "id": "p4",
    "name": "Zaid bin Harithah",
+   "person": "zaid-bin-harithah",
    "role": "Anak angkat dan teman Nabi SAW",
    "t": 713,
    "context": "Bertanya bagaimana masuk semula ke Makkah."
@@ -401,6 +403,7 @@
   {
    "id": "p2",
    "name": "Abdullah bin Abbas",
+   "person": "abdullah-bin-abbas",
    "role": "Sepupu Nabi SAW dan rujukan ilmu",
    "t": 883,
    "context": "Meriwayatkan hadis tentang jin di Nakhlah."
@@ -408,6 +411,7 @@
   {
    "id": "p5",
    "name": "Waraqah bin Naufal",
+   "person": "waraqah-bin-naufal",
    "role": "Pakar Injil",
    "t": 1632,
    "context": "Menyebut Jibril turun kepada Musa ketika menganalisis wahyu pertama."
@@ -415,6 +419,7 @@
   {
    "id": "p1",
    "name": "Abdullah bin Mas'ud",
+   "person": "abdullah-bin-masud",
    "role": "Sahabat dan perawi",
    "t": 2941,
    "context": "Meriwayatkan malam sahabat kehilangan Nabi SAW dan hari kuliah tertentu."
@@ -422,6 +427,7 @@
   {
    "id": "p12",
    "name": "Salman Al-Farisi",
+   "person": "salman-al-farisi",
    "role": "Sahabat",
    "t": 3366,
    "context": "Dalam pencariannya menuju Islam juga singgah di Nusaibin."
@@ -429,6 +435,7 @@
   {
    "id": "p15",
    "name": "Nabi Musa AS",
+   "person": "musa",
    "role": "Nabi",
    "t": 3608,
    "context": "Yakin Allah membuka jalan di laut ketika dikepung Firaun."
@@ -436,6 +443,7 @@
   {
    "id": "p6",
    "name": "Al-Akhnas bin Shuraiq",
+   "person": "akhnas-bin-syuraiq",
    "role": "Tokoh Quraish",
    "t": 3701,
    "context": "Menolak memberi jiwar; kelak menarik 300 orang pulang sebelum Badar."
@@ -443,6 +451,7 @@
   {
    "id": "p10",
    "name": "Abu Sufyan",
+   "person": "abu-sufyan",
    "role": "Pemimpin Quraish",
    "t": 3732,
    "context": "Antara tiga orang yang diam-diam mendengar Quran."
@@ -450,6 +459,7 @@
   {
    "id": "p7",
    "name": "Suhail bin Amr",
+   "person": "suhail-bin-amr",
    "role": "Diplomat dan pemidato Quraish",
    "t": 3944,
    "context": "Menolak melindungi Nabi SAW; kelak menyelamatkan Makkah daripada gelombang murtad."
@@ -457,6 +467,7 @@
   {
    "id": "p11",
    "name": "Umar bin Al-Khattab",
+   "person": "umar-al-khattab",
    "role": "Sahabat",
    "t": 3983,
    "context": "Kelak menawarkan mencabut gigi Suhail selepas ditawan di Badar."
@@ -464,6 +475,7 @@
   {
    "id": "p8",
    "name": "Mut'im bin Adi",
+   "person": "mutim-bin-adi",
    "role": "Tokoh Quraish bukan Islam",
    "t": 4073,
    "context": "Memberi perlindungan dan mengiringi Nabi SAW masuk Makkah."
@@ -471,6 +483,7 @@
   {
    "id": "p9",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Pemimpin Quraish",
    "t": 4184,
    "context": "Bertanya sama ada Mut'im sekadar melindungi atau mengikut Nabi SAW."
@@ -478,6 +491,7 @@
   {
    "id": "p13",
    "name": "Nabi Nuh AS",
+   "person": "nuh",
    "role": "Nabi",
    "t": 4597,
    "context": "Berdakwah 950 tahun dengan sedikit pengikut; Surah Al-Jin datang selepas Surah Nuh."
@@ -485,6 +499,7 @@
   {
    "id": "p14",
    "name": "Nabi Ibrahim AS",
+   "person": "ibrahim",
    "role": "Nabi",
    "t": 4765,
    "context": "Pembina Kaabah yang berharap zuriatnya menyembah Allah."
