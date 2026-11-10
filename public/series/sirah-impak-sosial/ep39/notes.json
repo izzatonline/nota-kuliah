@@ -511,6 +511,7 @@
   {
    "id": "p1",
    "name": "Nabi Ibrahim AS",
+   "person": "ibrahim",
    "role": "Nabi",
    "t": 658,
    "context": "Menyambut Nabi SAW di langit ketujuh dan menyampaikan salam serta pesan memperbanyak tanaman syurga dengan zikir."
@@ -518,6 +519,7 @@
   {
    "id": "p3",
    "name": "Abu Hurairah RA",
+   "person": "abu-hurairah",
    "role": "Sahabat dan perawi hadis",
    "t": 1040,
    "context": "Perawi hadis tentang pemakan riba yang perutnya penuh ular."
@@ -525,13 +527,31 @@
   {
    "id": "p2",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat",
    "t": 1078,
    "context": "Bertindak seperti pemandu yang menjawab pertanyaan Nabi SAW tentang setiap orang dan perkara yang dilihat."
   },
   {
    "id": "p4",
-   "name": "Abu Bakar, Khadijah dan Zaid bin Amr bin Nufail",
+   "name": "Abu Bakar",
+   "person": "abu-bakar",
+   "role": "Orang yang tidak meminum arak dan tidak menyembah berhala",
+   "t": 1183,
+   "context": "Antara yang seperti Nabi SAW sebelum wahyu dalam meninggalkan kebiasaan buruk masyarakat."
+  },
+  {
+   "id": "p13",
+   "name": "Khadijah",
+   "person": "khadijah",
+   "role": "Orang yang tidak meminum arak dan tidak menyembah berhala",
+   "t": 1183,
+   "context": "Antara yang seperti Nabi SAW sebelum wahyu dalam meninggalkan kebiasaan buruk masyarakat."
+  },
+  {
+   "id": "p14",
+   "name": "Zaid bin Amr bin Nufail",
+   "person": "zaid-bin-amr-bin-nufail",
    "role": "Orang yang tidak meminum arak dan tidak menyembah berhala",
    "t": 1183,
    "context": "Antara yang seperti Nabi SAW sebelum wahyu dalam meninggalkan kebiasaan buruk masyarakat."
@@ -539,6 +559,7 @@
   {
    "id": "p7",
    "name": "J.L. Collins",
+   "person": "jl-collins",
    "role": "Penulis",
    "t": 1772,
    "context": "Pengarang The Simple Path to Wealth."
@@ -546,6 +567,7 @@
   {
    "id": "p5",
    "name": "Syu'aib al-Arna'ut",
+   "person": "syuaib-al-arnaut",
    "role": "Pentahkik hadis",
    "t": 2116,
    "context": "Menilai hadis daging baik dan busuk sebagai hasan."
@@ -553,6 +575,7 @@
   {
    "id": "p6",
    "name": "Louise Perry",
+   "person": "louise-perry",
    "role": "Penulis",
    "t": 2339,
    "context": "Wanita Kristian yang bekerja membantu mangsa rogol dan menulis The Case Against the Sexual Revolution."
@@ -560,6 +583,7 @@
   {
    "id": "p8",
    "name": "Salman al-Farisi RA",
+   "person": "salman-al-farisi",
    "role": "Sahabat",
    "t": 2860,
    "context": "Mendedahkan seorang pendeta yang mencuri sumbangan orang ramai dan diugut bunuh, kemudian terbukti benar."
@@ -567,6 +591,7 @@
   {
    "id": "p9",
    "name": "Buya Hamka",
+   "person": "hamka",
    "role": "Ulama dan sasterawan",
    "t": 3442,
    "context": "Disebut berkata orang yang mencari yang kotor akan menjumpai yang kotor, kerana ia pantulan isi hati."
@@ -574,6 +599,7 @@
   {
    "id": "p10",
    "name": "Bilal bin Rabah RA",
+   "person": "bilal-bin-rabah",
    "role": "Muazzin Nabi SAW dan sahabat",
    "t": 4049,
    "context": "Seorang hamba berkulit gelap yang dipandang hina, tetapi tapak kakinya didengar Nabi SAW di syurga kerana menjaga wuduk dan solat."
@@ -588,6 +614,7 @@
   {
    "id": "p12",
    "name": "Fir'aun",
+   "person": "firaun",
    "role": "Raja yang zalim",
    "t": 4345,
    "context": "Menghukum penyisir rambut dan anak-anaknya secara tertutup, dan ustaz menyebut diktator hidup dengan menyorokkan ketakutan."

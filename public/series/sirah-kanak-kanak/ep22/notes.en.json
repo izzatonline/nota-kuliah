@@ -179,7 +179,12 @@
   },
   {
    "id": "p12",
-   "role": "Sons of Prophet Adam AS",
+   "role": "Son of Prophet Adam AS",
+   "context": "Qabil killed Habil and learned to bury him from a crow."
+  },
+  {
+   "id": "p13",
+   "role": "Son of Prophet Adam AS",
    "context": "Qabil killed Habil and learned to bury him from a crow."
   }
  ],

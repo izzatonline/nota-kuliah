@@ -89,7 +89,7 @@
   },
   {
    "id": "p4",
-   "role": "Early companions who were tortured",
+   "role": "Early companion who was tortured",
    "context": "Mentioned as promised Paradise, together with their son Ammar."
   },
   {
@@ -111,6 +111,11 @@
    "id": "p8",
    "role": "Daughter of the Prophet SAW",
    "context": "Had a disagreement with Ali in the story of Aba Turab."
+  },
+  {
+   "id": "p9",
+   "role": "Early companion who was tortured",
+   "context": "Mentioned as promised Paradise, together with their son Ammar."
   }
  ],
  "lessons": [

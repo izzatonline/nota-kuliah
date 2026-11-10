@@ -418,6 +418,7 @@
   {
    "id": "p1",
    "name": "Nabi Adam AS",
+   "person": "adam",
    "role": "Nabi pertama",
    "t": 93,
    "context": "Sesi sebelumnya menghabiskan kisah Nabi Adam AS. Sekitar 124,000 nabi diutus dan semua kita tertulis menjadi umat Nabi Muhammad SAW."
@@ -425,6 +426,7 @@
   {
    "id": "p2",
    "name": "Abu Bakar As-Siddiq RA",
+   "person": "abu-bakar",
    "role": "Sahabat",
    "t": 732,
    "context": "Diutus Nabi SAW mengetuai jemaah haji setahun sebelum Haji Wada'."
@@ -432,6 +434,7 @@
   {
    "id": "p3",
    "name": "Mu'adz bin Jabal RA",
+   "person": "muaz-bin-jabal",
    "role": "Sahabat",
    "t": 886,
    "context": "Nabi SAW berkata kepadanya, ketika menghantarnya, mungkin ini kali terakhir bertemu dan dia hanya akan melihat masjid dan kubur Baginda."
@@ -439,6 +442,7 @@
   {
    "id": "p4",
    "name": "Abbas bin Abdul Muttalib",
+   "person": "abbas-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 1032,
    "context": "Riba pertama yang dihapuskan Nabi SAW dalam Khutbatul Wada' ialah riba beliau."
@@ -446,6 +450,7 @@
   {
    "id": "p5",
    "name": "Abu Ayyub Al-Ansari RA",
+   "person": "abu-ayyub-al-ansari",
    "role": "Sahabat, tuan rumah Nabi SAW ketika Hijrah",
    "t": 1336,
    "context": "Menyertai tentera hampir 90 tahun demi hadis pembukaan Konstantinopel, dan dimakamkan sedekat mungkin dengan tembok kota itu."
@@ -453,6 +458,7 @@
   {
    "id": "p6",
    "name": "Nabi Nuh AS",
+   "person": "nuh",
    "role": "Nabi",
    "t": 3274,
    "context": "Kisah kaumnya yang menyumbat telinga menggambarkan dinding ghaflah."
@@ -460,13 +466,23 @@
   {
    "id": "p7",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Ummul Mu'minin",
    "t": 3398,
    "context": "Menunjukkan Nabi SAW berhibur: berlumba lari dan menonton pertunjukan, bukan sentiasa tegang."
   },
   {
    "id": "p8",
-   "name": "Umar RA dan Ali RA",
+   "name": "Umar RA",
+   "person": "umar-al-khattab",
+   "role": "Sahabat",
+   "t": 3620,
+   "context": "Hadir ketika Arab Badui kencing di masjid dan diminta Nabi SAW mengambil air untuk membasuhnya, bukan memukul."
+  },
+  {
+   "id": "p10",
+   "name": "Ali RA",
+   "person": "ali-bin-abi-talib",
    "role": "Sahabat",
    "t": 3620,
    "context": "Hadir ketika Arab Badui kencing di masjid dan diminta Nabi SAW mengambil air untuk membasuhnya, bukan memukul."
@@ -474,6 +490,7 @@
   {
    "id": "p9",
    "name": "Sawad bin Ghaziyyah RA",
+   "person": "sawad-bin-ghaziyyah",
    "role": "Sahabat",
    "t": 4907,
    "context": "Di Badar meminta qisas kerana tertusuk tongkat Nabi SAW yang meluruskan saf, lalu mencium perut Baginda kerana ingin menjadi orang terakhir yang disentuhnya."

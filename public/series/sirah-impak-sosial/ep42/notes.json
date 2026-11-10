@@ -469,7 +469,32 @@
  "people": [
   {
    "id": "p14",
-   "name": "Imam At-Tirmidhi, Ibn Majah, Ahmad dan Muslim",
+   "name": "Imam At-Tirmidhi",
+   "person": "imam-tirmizi",
+   "role": "Pengumpul hadis",
+   "t": 196,
+   "context": "Meriwayatkan hadis-hadis utama dalam kuliah ini."
+  },
+  {
+   "id": "p15",
+   "name": "Ibn Majah",
+   "person": "ibn-majah",
+   "role": "Pengumpul hadis",
+   "t": 196,
+   "context": "Meriwayatkan hadis-hadis utama dalam kuliah ini."
+  },
+  {
+   "id": "p16",
+   "name": "Ahmad",
+   "person": "imam-ahmad",
+   "role": "Pengumpul hadis",
+   "t": 196,
+   "context": "Meriwayatkan hadis-hadis utama dalam kuliah ini."
+  },
+  {
+   "id": "p17",
+   "name": "Muslim",
+   "person": "imam-muslim",
    "role": "Pengumpul hadis",
    "t": 196,
    "context": "Meriwayatkan hadis-hadis utama dalam kuliah ini."
@@ -477,6 +502,7 @@
   {
    "id": "p1",
    "name": "Abu Hurairah RA",
+   "person": "abu-hurairah",
    "role": "Sahabat, perawi hadis",
    "t": 206,
    "context": "Perawi hadis lapangkan masa untuk beribadah, dan hadis para sahabat berat dengan ayat 284."
@@ -484,20 +510,39 @@
   {
    "id": "p2",
    "name": "Umar Al-Khattab RA",
+   "person": "umar-al-khattab",
    "role": "Sahabat",
    "t": 424,
    "context": "Membaca permulaan Surah Taha ketika hatinya tersentuh lalu memeluk Islam."
   },
   {
    "id": "p3",
-   "name": "Nabi Ibrahim, Nabi Ishak dan Nabi Yaakub AS",
-   "role": "Para nabi",
+   "name": "Nabi Ibrahim AS",
+   "person": "ibrahim",
+   "role": "Nabi",
+   "t": 459,
+   "context": "Kebimbangan terbesar mereka ialah zuriat tidak lagi mendirikan solat. Menjelang wafat mereka bertanya 'selepas aku, kamu akan sembah siapa?'."
+  },
+  {
+   "id": "p18",
+   "name": "Nabi Ishak AS",
+   "person": "ishak",
+   "role": "Nabi",
+   "t": 459,
+   "context": "Kebimbangan terbesar mereka ialah zuriat tidak lagi mendirikan solat. Menjelang wafat mereka bertanya 'selepas aku, kamu akan sembah siapa?'."
+  },
+  {
+   "id": "p19",
+   "name": "Nabi Yaakub AS",
+   "person": "yaqub",
+   "role": "Nabi",
    "t": 459,
    "context": "Kebimbangan terbesar mereka ialah zuriat tidak lagi mendirikan solat. Menjelang wafat mereka bertanya 'selepas aku, kamu akan sembah siapa?'."
   },
   {
    "id": "p4",
    "name": "Nabi Nuh AS",
+   "person": "nuh",
    "role": "Nabi",
    "t": 706,
    "context": "Analogi banjir maklumat: kita perlu naik 'kapal' dengan mengamalkan ilmu, bukan sekadar mendengar kuliah."
@@ -505,6 +550,7 @@
   {
    "id": "p5",
    "name": "Dr. Andrew Huberman",
+   "person": "andrew-huberman",
    "role": "Saintis neurosains, bukan Muslim",
    "t": 850,
    "context": "Menyesal kerana lewat mencari hubungan dengan Tuhan, dan mendapat ketenangan selepas berdoa setiap malam."
@@ -512,13 +558,31 @@
   {
    "id": "p6",
    "name": "Johann Hari",
+   "person": "johann-hari",
    "role": "Pengarang Lost Connections, bukan Muslim",
    "t": 1084,
    "context": "Hampir 20 tahun mengalami kemurungan, lalu mengkaji sembilan punca keterputusan."
   },
   {
    "id": "p7",
-   "name": "Sahabat: Ibn Abbas, Ibn Umar dan Ibn Mas'ud RA",
+   "name": "Ibn Abbas RA",
+   "person": "abdullah-bin-abbas",
+   "role": "Sahabat berilmu",
+   "t": 1427,
+   "context": "Contoh sahabat yang cemerlang dalam bidang ilmu, di samping Khalid Al-Walid dalam bidang peperangan. Setiap orang ada bakatnya sendiri dan tidak membandingkan diri."
+  },
+  {
+   "id": "p20",
+   "name": "Ibn Umar RA",
+   "person": "ibn-umar",
+   "role": "Sahabat berilmu",
+   "t": 1427,
+   "context": "Contoh sahabat yang cemerlang dalam bidang ilmu, di samping Khalid Al-Walid dalam bidang peperangan. Setiap orang ada bakatnya sendiri dan tidak membandingkan diri."
+  },
+  {
+   "id": "p21",
+   "name": "Ibn Mas'ud RA",
+   "person": "abdullah-bin-masud",
    "role": "Sahabat berilmu",
    "t": 1427,
    "context": "Contoh sahabat yang cemerlang dalam bidang ilmu, di samping Khalid Al-Walid dalam bidang peperangan. Setiap orang ada bakatnya sendiri dan tidak membandingkan diri."
@@ -526,6 +590,7 @@
   {
    "id": "p8",
    "name": "Khalid Al-Walid RA",
+   "person": "khalid-bin-al-walid",
    "role": "Panglima",
    "t": 1439,
    "context": "Tidak perlu menunjukkan resume fatwa, cukup menunjukkan peperangan yang dimenangi."
@@ -533,6 +598,7 @@
   {
    "id": "p9",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Ummul Mu'minin",
    "t": 2042,
    "context": "Selepas wafatnya, Nabi SAW terus menjaga hubungan dengan sahabat dan jirannya."
@@ -540,6 +606,7 @@
   {
    "id": "p10",
    "name": "Nabi Yusuf AS",
+   "person": "yusuf",
    "role": "Nabi",
    "t": 2202,
    "context": "Dianiaya adik-beradik, diasingkan, difitnah dan dipenjarakan, namun memutuskan kitaran trauma."
@@ -547,6 +614,7 @@
   {
    "id": "p11",
    "name": "Abdullah bin Mas'ud RA",
+   "person": "abdullah-bin-masud",
    "role": "Sahabat, perawi hadis",
    "t": 3246,
    "context": "Perawi hadis tiga anugerah di Sidratul Muntaha dan hadis dua ayat akhir Al-Baqarah pada waktu malam."
@@ -554,6 +622,7 @@
   {
    "id": "p12",
    "name": "Abdullah bin Abbas RA",
+   "person": "abdullah-bin-abbas",
    "role": "Sahabat, sepupu Nabi SAW",
    "t": 3362,
    "context": "Perawi hadis malaikat yang turun dengan dua cahaya."
@@ -561,6 +630,7 @@
   {
    "id": "p13",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat",
    "t": 3370,
    "context": "Mendengar bunyi pintu langit yang pertama kali dibuka, lalu memberitahu Nabi SAW."

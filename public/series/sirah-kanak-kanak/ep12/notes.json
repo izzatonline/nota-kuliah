@@ -167,6 +167,7 @@
   {
    "id": "p2",
    "name": "Nabi Ibrahim AS",
+   "person": "ibrahim",
    "role": "Pembina Kaabah",
    "t": 159,
    "context": "Membina Kaabah tanpa berhala dan mengajak orang menyembah Allah."
@@ -174,6 +175,7 @@
   {
    "id": "p3",
    "name": "Nabi Ismail AS",
+   "person": "ismail",
    "role": "Anak Nabi Ibrahim AS",
    "t": 194,
    "context": "Membina Kaabah bersama bapanya."
@@ -181,6 +183,7 @@
   {
    "id": "p1",
    "name": "Amr bin Luhay Al-Khuzai",
+   "person": "amr-bin-luhay",
    "role": "Pemimpin agama Mekah yang membawa berhala pertama",
    "t": 278,
    "context": "Membawa Hubal dari Syam dan meletakkannya di hadapan Kaabah."
@@ -188,6 +191,7 @@
   {
    "id": "p4",
    "name": "Nabi Nuh AS",
+   "person": "nuh",
    "role": "Nabi",
    "t": 781,
    "context": "Berhala lima orang soleh berasal dari zamannya."
@@ -195,6 +199,7 @@
   {
    "id": "p5",
    "name": "Wadd",
+   "person": "wadd",
    "role": "Orang soleh zaman Nuh yang menjadi berhala",
    "t": 935,
    "context": "Nama berhala yang dibawa ke utara Arab."
@@ -202,6 +207,7 @@
   {
    "id": "p6",
    "name": "Suwa'",
+   "person": "suwa",
    "role": "Orang soleh zaman Nuh yang menjadi berhala",
    "t": 935,
    "context": "Berhala yang dibawa dekat kawasan Kaabah."
@@ -209,6 +215,7 @@
   {
    "id": "p7",
    "name": "Yaghuth",
+   "person": "yaghuth",
    "role": "Orang soleh zaman Nuh yang menjadi berhala",
    "t": 935,
    "context": "Berhala yang dibawa ke kawasan Yaman."
@@ -216,6 +223,7 @@
   {
    "id": "p8",
    "name": "Ya'uq",
+   "person": "yauq",
    "role": "Orang soleh zaman Nuh yang menjadi berhala",
    "t": 935,
    "context": "Berhala yang dibawa ke Himyar di Yaman."
@@ -223,6 +231,7 @@
   {
    "id": "p9",
    "name": "Nasr",
+   "person": "nasr",
    "role": "Orang soleh zaman Nuh yang menjadi berhala",
    "t": 935,
    "context": "Berhala yang dibawa ke kawasan Saba'."

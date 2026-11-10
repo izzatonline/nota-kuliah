@@ -162,6 +162,7 @@
   {
    "id": "p1",
    "name": "Abu Talib (Abdul Manaf)",
+   "person": "abu-talib",
    "role": "Bapa saudara yang menjaga Nabi SAW",
    "t": 59,
    "context": "Nama sebenarnya Abdul Manaf. Seorang peniaga miskin yang membawa Nabi SAW ke Syam."
@@ -169,6 +170,7 @@
   {
    "id": "p3",
    "name": "Talib",
+   "person": "talib-bin-abi-talib",
    "role": "Anak sulung Abu Talib",
    "t": 99,
    "context": "Anak pertama Abu Talib."
@@ -176,6 +178,7 @@
   {
    "id": "p4",
    "name": "Aqil",
+   "person": "aqil-bin-abi-talib",
    "role": "Anak Abu Talib",
    "t": 99,
    "context": "Anak kedua Abu Talib."
@@ -183,6 +186,7 @@
   {
    "id": "p5",
    "name": "Ja'far",
+   "person": "jafar-bin-abi-talib",
    "role": "Anak Abu Talib",
    "t": 103,
    "context": "Anak ketiga Abu Talib."
@@ -190,6 +194,7 @@
   {
    "id": "p6",
    "name": "Ali",
+   "person": "ali-bin-abi-talib",
    "role": "Anak Abu Talib",
    "t": 103,
    "context": "Anak keempat Abu Talib."
@@ -197,6 +202,7 @@
   {
    "id": "p7",
    "name": "Fakhitah (Ummu Hani)",
+   "person": "ummu-hani",
    "role": "Anak perempuan Abu Talib",
    "t": 108,
    "context": "Juga dikenali sebagai Ummu Hani."
@@ -204,6 +210,7 @@
   {
    "id": "p8",
    "name": "Jumanah",
+   "person": "jumanah",
    "role": "Anak perempuan Abu Talib",
    "t": 114,
    "context": "Seorang lagi anak perempuan Abu Talib."
@@ -211,6 +218,7 @@
   {
    "id": "p2",
    "name": "Fatimah binti Asad",
+   "person": "fatimah-binti-asad",
    "role": "Isteri Abu Talib dan ibu angkat Nabi SAW",
    "t": 130,
    "context": "Menjaga Nabi SAW seperti ibu, kemudian memeluk Islam, berhijrah ke Madinah dan dikafankan sendiri oleh baginda."
@@ -218,6 +226,7 @@
   {
    "id": "p9",
    "name": "Ummu Aiman",
+   "person": "ummu-aiman",
    "role": "Pengasuh Nabi SAW",
    "t": 260,
    "context": "Membawa Nabi SAW pulang kepada datuknya selepas Aminah wafat."
@@ -225,6 +234,7 @@
   {
    "id": "p10",
    "name": "Hashim",
+   "person": "hashim",
    "role": "Moyang Nabi SAW",
    "t": 374,
    "context": "Disebut sebagai contoh orang yang pergi berdagang dan tidak kembali, wafat di Gaza."
@@ -232,6 +242,7 @@
   {
    "id": "p11",
    "name": "Bahira (Buhaira)",
+   "person": "bahira",
    "role": "Rahib atau pendeta di Busra",
    "t": 686,
    "context": "Membaca kitab-kitab lama, mengenali tanda kenabian dan menasihati Abu Talib supaya membawa baginda pulang."
@@ -239,6 +250,7 @@
   {
    "id": "p12",
    "name": "Nabi Musa AS",
+   "person": "musa",
    "role": "Nabi",
    "t": 931,
    "context": "Disebut kerana Taurat, kitab yang menyebut kedatangan nabi akhir zaman."
@@ -246,6 +258,7 @@
   {
    "id": "p13",
    "name": "Nabi Isa AS",
+   "person": "isa",
    "role": "Nabi",
    "t": 966,
    "context": "Memberitahu bahawa selepasnya akan datang seorang nabi bernama Ahmad."

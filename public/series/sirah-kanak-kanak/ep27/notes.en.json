@@ -137,7 +137,7 @@
   },
   {
    "id": "p5",
-   "role": "Owners of a garden in Taif",
+   "role": "Owner of a garden in Taif",
    "context": "Sympathised as fellow Meccans and sent grapes to him through Adas."
   },
   {
@@ -169,6 +169,11 @@
    "id": "p11",
    "role": "Quraysh chief",
    "context": "Asked Mut'im whether he had become Muslim or was only offering protection."
+  },
+  {
+   "id": "p12",
+   "role": "Owner of a garden in Taif",
+   "context": "Sympathised as fellow Meccans and sent grapes to him through Adas."
   }
  ],
  "sirah": {

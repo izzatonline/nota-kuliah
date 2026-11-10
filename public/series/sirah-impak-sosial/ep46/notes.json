@@ -319,6 +319,7 @@
   {
    "id": "p1",
    "name": "Mus'ab bin Umair",
+   "person": "musab-bin-umair",
    "role": "Guru dan duta pertama Nabi SAW ke Yathrib",
    "t": 500,
    "context": "Anak muda lewat dua puluhan, teruji pengorbanannya, menguasai Quran, dan berjaya membawa Islam ke seluruh rumah Madinah dalam kurang setahun."
@@ -326,6 +327,7 @@
   {
    "id": "p7",
    "name": "Khabbab bin Arat",
+   "person": "khabbab-bin-al-arat",
    "role": "Sahabat",
    "t": 995,
    "context": "Perawi hadis tentang Mus'ab yang syahid dengan kain kafan yang tidak mencukupi."
@@ -333,6 +335,7 @@
   {
    "id": "p2",
    "name": "Abdullah bin Ummi Maktum",
+   "person": "abdullah-bin-ummi-maktum",
    "role": "Sahabat buta, guru kedua dan muazin",
    "t": 1304,
    "context": "Sepupu Khadijah, sebab turunnya Surah Abasa, muazin kedua Nabi dan syahid di Qadisiyah memegang panji."
@@ -340,6 +343,7 @@
   {
    "id": "p3",
    "name": "As'ad bin Zurarah",
+   "person": "asad-bin-zurarah",
    "role": "Tuan rumah dan pemandu Mus'ab",
    "t": 2090,
    "context": "Memetakan Yathrib untuk Mus'ab, mengingatkannya supaya ikhlas, dan memulakan solat Jumaat; meninggal sebelum masjid Nabi siap."
@@ -347,6 +351,7 @@
   {
    "id": "p4",
    "name": "Sa'ad bin Mu'adh",
+   "person": "saad-bin-muadh",
    "role": "Pemimpin Bani Abdul Ashhal",
    "t": 2310,
    "context": "Datang dengan marah, memeluk Islam selepas mendengar Quran, lalu seluruh kaumnya beriman; Arasy bergegar ketika syahidnya."
@@ -354,6 +359,7 @@
   {
    "id": "p5",
    "name": "Usaid bin Khudair",
+   "person": "usaid-bin-hudair",
    "role": "Timbalan Sa'ad bin Mu'adh",
    "t": 2321,
    "context": "Dihantar menghalau Mus'ab dan As'ad, tetapi memeluk Islam selepas mendengar bacaan Quran."
@@ -361,6 +367,7 @@
   {
    "id": "p6",
    "name": "Usairim",
+   "person": "usairim",
    "role": "Amr bin Thabit dari Bani Abdul Ashhal",
    "t": 3178,
    "context": "Memeluk Islam pada pagi Uhud dan syahid sebelum sempat bersolat."
@@ -368,6 +375,7 @@
   {
    "id": "p8",
    "name": "Ka'ab bin Malik",
+   "person": "kaab-bin-malik",
    "role": "Sahabat Ansar",
    "t": 3591,
    "context": "Mendoakan As'ad bin Zurarah setiap kali azan Jumaat kerana dia memulakan solat Jumaat."
@@ -375,6 +383,7 @@
   {
    "id": "p9",
    "name": "Muhammad Natsir",
+   "person": "muhammad-natsir",
    "role": "Ulama dan bekas perdana menteri Indonesia",
    "t": 4901,
    "context": "Mengarang Fiqhud Da'wah yang menyebut ujian terbesar pendakwah ialah cinta kepopularitian."

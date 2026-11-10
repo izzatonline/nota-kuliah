@@ -317,6 +317,7 @@
   {
    "id": "p2",
    "name": "Umayyah bin Khalaf",
+   "person": "umayyah-bin-khalaf",
    "role": "Tuan Bilal dan hartawan peniaga berhala",
    "t": 605,
    "context": "Menyeksa Bilal dan kelak dibunuh Bilal di Badar."
@@ -324,6 +325,7 @@
   {
    "id": "p1",
    "name": "Bilal bin Rabah",
+   "person": "bilal-bin-rabah",
    "role": "Hamba daripada Habsyah, kemudian muazin Nabi SAW",
    "t": 702,
    "context": "Diseksa dengan batu dan diheret, hanya menyebut 'Ahad, Ahad'."
@@ -331,6 +333,7 @@
   {
    "id": "p3",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Sahabat kaya",
    "t": 1267,
    "context": "Membebaskan Bilal, Zinnirah, An-Nahdiyah, Khabbab dan ramai lagi."
@@ -338,6 +341,7 @@
   {
    "id": "p4",
    "name": "Abu Kuhafah",
+   "person": "abu-quhafah",
    "role": "Ayah Abu Bakar",
    "t": 1575,
    "context": "Masuk Islam lewat; Abu Bakar menangis kerana mengharapkan Abu Talib."
@@ -345,6 +349,7 @@
   {
    "id": "p5",
    "name": "Amir bin Fuhairah",
+   "person": "amir-bin-fuhairah",
    "role": "Anak tiri Abu Bakar, bekas hamba",
    "t": 1885,
    "context": "Membantu hijrah dan terbunuh dalam peristiwa pengkhianatan; jasadnya tidak ditemui."
@@ -352,6 +357,7 @@
   {
    "id": "p6",
    "name": "Zinnirah",
+   "person": "zinnirah",
    "role": "Hamba wanita daripada Bani Makhzum",
    "t": 2129,
    "context": "Dipukul hingga buta lalu penglihatannya dipulihkan; menjawab Abu Jahal."
@@ -359,6 +365,7 @@
   {
    "id": "p7",
    "name": "An-Nahdiyah",
+   "person": "an-nahdiyah",
    "role": "Hamba wanita",
    "t": 2272,
    "context": "Menyiapkan rotinya sebelum menerima kemerdekaan."
@@ -366,6 +373,7 @@
   {
    "id": "p8",
    "name": "Khabbab bin Al-Arat",
+   "person": "khabbab-bin-al-arat",
    "role": "Pembuat pedang, bekas hamba",
    "t": 2355,
    "context": "Dibakar belakangnya dan diseksa Ummu Anmar."
@@ -373,6 +381,7 @@
   {
    "id": "p9",
    "name": "Ummu Anmar",
+   "person": "ummu-anmar",
    "role": "Tuan Khabbab",
    "t": 2389,
    "context": "Mengupah penyeksa; kemudian ditimpa penyakit kepala."
@@ -380,6 +389,7 @@
   {
    "id": "p16",
    "name": "Umar bin Al-Khattab",
+   "person": "umar-al-khattab",
    "role": "Ketika itu belum Islam",
    "t": 2587,
    "context": "Menyeksa Lubainah; kelak menangis melihat belakang Khabbab."
@@ -387,6 +397,7 @@
   {
    "id": "p17",
    "name": "Lubainah",
+   "person": "lubainah",
    "role": "Hamba wanita",
    "t": 2599,
    "context": "Diseksa Umar sebelum Islam."
@@ -394,6 +405,7 @@
   {
    "id": "p10",
    "name": "Suhaib Ar-Rumi",
+   "person": "suhaib-ar-rumi",
    "role": "Sahabat berasal Arab",
    "t": 3274,
    "context": "Diculik Rom, kaya berniaga, menyerahkan harta demi hijrah."
@@ -401,6 +413,7 @@
   {
    "id": "p11",
    "name": "Abdullah bin Jud'an",
+   "person": "abdullah-bin-judan",
    "role": "Hartawan pemurah",
    "t": 3450,
    "context": "Melindungi Suhaib dan perintis Hilf Al-Fudul."
@@ -408,6 +421,7 @@
   {
    "id": "p12",
    "name": "Sumayyah",
+   "person": "sumayyah",
    "role": "Hamba berkulit hitam, ibu Ammar",
    "t": 3750,
    "context": "Syahid pertama dalam Islam."
@@ -415,6 +429,7 @@
   {
    "id": "p13",
    "name": "Yasir",
+   "person": "yasir",
    "role": "Orang merdeka dari Yaman, bapa Ammar",
    "t": 3812,
    "context": "Dilindungi Bani Makhzum; syahid akibat seksaan."
@@ -422,6 +437,7 @@
   {
    "id": "p14",
    "name": "Ammar bin Yasir",
+   "person": "ammar-bin-yasir",
    "role": "Sahabat",
    "t": 3979,
    "context": "Menyaksikan kematian ibu bapanya dan dibenarkan melafaz kekufuran kerana dipaksa."
@@ -429,6 +445,7 @@
   {
    "id": "p15",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Ketua kempen penyeksaan",
    "t": 4160,
    "context": "Menyeksa Zinnirah, Sumayyah dan Yasir."

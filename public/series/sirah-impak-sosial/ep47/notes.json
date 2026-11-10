@@ -367,6 +367,7 @@
   {
    "id": "p1",
    "name": "Mus'ab bin Umair RA",
+   "person": "musab-bin-umair",
    "role": "Duta dakwah ke Yathrib",
    "t": 208,
    "context": "Dalam setahun menjadikan hampir setiap rumah di Yathrib ada yang beriman, dan pulang membawa laporan sebelum musim haji tahun ke-13."
@@ -374,6 +375,7 @@
   {
    "id": "p2",
    "name": "Abdullah bin Ummi Maktum RA",
+   "person": "abdullah-bin-ummi-maktum",
    "role": "Sahabat dan rakan dakwah Mus'ab",
    "t": 208,
    "context": "Dihantar bersama Mus'ab, ustaz mengibaratkan Mus'ab sebagai pemasar dan beliau sebagai pengajar."
@@ -381,6 +383,7 @@
   {
    "id": "p3",
    "name": "Jabir bin Abdullah RA",
+   "person": "jabir-bin-abdullah",
    "role": "Sahabat dan perawi hadis",
    "t": 222,
    "context": "Perawi hadis tentang sepuluh tahun Nabi SAW menawarkan dirinya dan perjalanan ke Aqabah, serta anak saudara Al-Bara'."
@@ -388,6 +391,7 @@
   {
    "id": "p4",
    "name": "As'ad bin Zurarah RA",
+   "person": "asad-bin-zurarah",
    "role": "Ketua rombongan dan juru bicara Ansar",
    "t": 295,
    "context": "Paling muda dan paling menonjol pada malam itu, tuan rumah Mus'ab, dan memberi amaran tentang risiko sebelum bay'ah."
@@ -395,6 +399,7 @@
   {
    "id": "p17",
    "name": "Abdullah bin Ubay bin Salul",
+   "person": "abdullah-bin-ubay",
    "role": "Pemimpin Yathrib dan kelak ketua munafik",
    "t": 410,
    "context": "Hadir dalam rombongan tetapi tidak tahu apa yang dirancang."
@@ -402,6 +407,7 @@
   {
    "id": "p5",
    "name": "Ka'ab bin Malik RA",
+   "person": "kaab-bin-malik",
    "role": "Sahabat Ansar, penyair dan perawi",
    "t": 701,
    "context": "Perawi hadis panjang tentang malam ini, kemudian diuji dengan boikot 50 hari, dan menjadi penyair Nabi SAW."
@@ -409,6 +415,7 @@
   {
    "id": "p19",
    "name": "Abu Qatadah RA",
+   "person": "abu-qatadah",
    "role": "Sepupu Ka'ab bin Malik",
    "t": 755,
    "context": "Tidak menjawab salam Ka'ab ketika boikot 50 hari walaupun mereka rapat."
@@ -416,13 +423,23 @@
   {
    "id": "p6",
    "name": "Al-Bara' bin Ma'rur RA",
+   "person": "al-bara-bin-marur",
    "role": "Orang tertua dalam rombongan Muslim",
    "t": 934,
    "context": "Solat menghadap Kaabah dalam perjalanan, kembali ke kiblat Nabi SAW, dan mungkin orang pertama berbay'ah. Wafat sebelum Nabi SAW tiba di Madinah dan mewasiatkan sepertiga hartanya."
   },
   {
    "id": "p9",
-   "name": "Abu Bakar dan Ali RA",
+   "name": "Abu Bakar",
+   "person": "abu-bakar",
+   "role": "Sahabat",
+   "t": 1691,
+   "context": "Menjaga lorong-lorong dan memberi isyarat jika ada orang datang ketika pertemuan rahsia."
+  },
+  {
+   "id": "p21",
+   "name": "Ali RA",
+   "person": "ali-bin-abi-talib",
    "role": "Sahabat",
    "t": 1691,
    "context": "Menjaga lorong-lorong dan memberi isyarat jika ada orang datang ketika pertemuan rahsia."
@@ -430,6 +447,7 @@
   {
    "id": "p8",
    "name": "Abu Jabir (Abdullah bin Amr bin Haram)",
+   "person": "abdullah-bin-amr-bin-haram",
    "role": "Pemimpin Khazraj",
    "t": 1707,
    "context": "Memeluk Islam pada saat akhir, hadir pada malam itu dan dilantik naqib, kemudian syahid di Uhud."
@@ -437,6 +455,7 @@
   {
    "id": "p10",
    "name": "Nusaibah binti Ka'ab (Ummu Amarah)",
+   "person": "nusaibah-binti-kaab",
    "role": "Sahabiah",
    "t": 1899,
    "context": "Salah seorang daripada dua wanita yang hadir pada Aqabah kedua."
@@ -444,6 +463,7 @@
   {
    "id": "p11",
    "name": "Asma' binti Amr (Ummu Mani')",
+   "person": "asma-binti-amr",
    "role": "Sahabiah",
    "t": 1904,
    "context": "Wanita kedua yang hadir pada Aqabah kedua."
@@ -451,6 +471,7 @@
   {
    "id": "p7",
    "name": "Al-Abbas bin Abdul Muttalib",
+   "person": "abbas-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 2086,
    "context": "Masih belum Islam tetapi hadir dan memulakan ucapan untuk memastikan kesungguhan Ansar."
@@ -458,6 +479,7 @@
   {
    "id": "p12",
    "name": "Abul Haitham bin Tayhan RA",
+   "person": "abu-al-haitham",
    "role": "Sahabat Ansar",
    "t": 2809,
    "context": "Bertanya sama ada Nabi SAW akan meninggalkan mereka selepas menang jika mereka memutuskan perjanjian dengan Yahudi."
@@ -465,6 +487,7 @@
   {
    "id": "p20",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Isteri Nabi SAW",
    "t": 3262,
    "context": "Meriwayatkan bahawa Nabi SAW mengambil bay'ah wanita dengan lisan."
@@ -472,6 +495,7 @@
   {
    "id": "p13",
    "name": "Sa'ad bin Rabi' RA",
+   "person": "saad-bin-rabi",
    "role": "Naqib",
    "t": 3430,
    "context": "Orang paling kaya dalam kalangan Ansar, kelak dipasangkan dengan Abdurrahman bin Auf."
@@ -479,6 +503,7 @@
   {
    "id": "p14",
    "name": "Abdullah bin Rawahah RA",
+   "person": "abdullah-bin-rawahah",
    "role": "Naqib",
    "t": 3449,
    "context": "Sahabat penting yang dipuji Nabi SAW dan kelak komander perang."
@@ -486,6 +511,7 @@
   {
    "id": "p15",
    "name": "Usaid bin Hudair RA",
+   "person": "usaid-bin-hudair",
    "role": "Naqib daripada Aus",
    "t": 3498,
    "context": "Dahulu datang untuk menghalau Mus'ab daripada Yathrib atas arahan Sa'ad bin Mu'adh."
@@ -493,6 +519,7 @@
   {
    "id": "p18",
    "name": "Al-Harith bin Hisham",
+   "person": "al-harith-bin-hisham",
    "role": "Pembesar Quraisy",
    "t": 4133,
    "context": "Datang dengan kasut baru yang menjadi helah mengalih perhatian, kemudian memeluk Islam pada Fathu Makkah dan syahid di Syam."
@@ -500,6 +527,7 @@
   {
    "id": "p16",
    "name": "Sa'ad bin Ubadah RA",
+   "person": "saad-bin-ubadah",
    "role": "Naqib dan pemimpin Khazraj",
    "t": 4353,
    "context": "Ditangkap dan dipukul Quraisy dalam perjalanan pulang tetapi dilepaskan kerana pernah melindungi pedagang Makkah."

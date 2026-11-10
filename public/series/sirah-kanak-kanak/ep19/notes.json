@@ -185,6 +185,7 @@
   {
    "id": "p1",
    "name": "Abu Jahal (Amr bin Hisham)",
+   "person": "abu-jahal",
    "role": "Pembesar Quraisy, digelar Abul Hakam",
    "t": 283,
    "context": "Orang yang paling membenci Nabi SAW dan mengetuai kempen serta penyeksaan, digelar Firaun umat ini."
@@ -192,6 +193,7 @@
   {
    "id": "p2",
    "name": "Umayyah bin Khalaf",
+   "person": "umayyah-bin-khalaf",
    "role": "Sahabat Abu Jahal dan tuan Bilal",
    "t": 373,
    "context": "Jutawan yang menyeksa Bilal kerana malu hambanya memeluk Islam."
@@ -199,6 +201,7 @@
   {
    "id": "p3",
    "name": "Bilal bin Rabah",
+   "person": "bilal-bin-rabah",
    "role": "Hamba Habsyi yang beriman",
    "t": 416,
    "context": "Menyebut Ahad ketika diseksa, dibeli dan dimerdekakan Abu Bakar, lalu menjadi pembantu peribadi Nabi SAW."
@@ -206,6 +209,7 @@
   {
    "id": "p4",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Lelaki dewasa pertama beriman",
    "t": 893,
    "context": "Menggunakan hartanya untuk membebaskan hamba-hamba yang diseksa."
@@ -213,6 +217,7 @@
   {
    "id": "p5",
    "name": "Zinnirah",
+   "person": "zinnirah",
    "role": "Hamba perempuan yang beriman",
    "t": 1123,
    "context": "Dipukul sehingga buta, dikembalikan penglihatannya dan dimerdekakan Abu Bakar."
@@ -220,6 +225,7 @@
   {
    "id": "p6",
    "name": "Abu Quhafah",
+   "person": "abu-quhafah",
    "role": "Ayah Abu Bakar",
    "t": 1233,
    "context": "Menegur anaknya kerana membelanjakan harta membeli hamba yang lemah."
@@ -227,6 +233,7 @@
   {
    "id": "p7",
    "name": "Khabbab",
+   "person": "khabbab-bin-al-arat",
    "role": "Tukang besi yang diseksa",
    "t": 1301,
    "context": "Diseksa dengan besi panas di belakangnya, kemudian menunjukkan belakangnya kepada Umar."
@@ -234,6 +241,7 @@
   {
    "id": "p8",
    "name": "Ummu Anmar",
+   "person": "ummu-anmar",
    "role": "Majikan perempuan Khabbab",
    "t": 1350,
    "context": "Memanggil gangster untuk menyeksa Khabbab."
@@ -241,6 +249,7 @@
   {
    "id": "p11",
    "name": "Ammar bin Yasir",
+   "person": "ammar-bin-yasir",
    "role": "Anak keluarga Yasir",
    "t": 1466,
    "context": "Memeluk Islam dahulu, diseksa dan terpaksa mengucapkan kata kufur dengan hati yang tetap beriman."
@@ -248,6 +257,7 @@
   {
    "id": "p9",
    "name": "Yasir",
+   "person": "yasir",
    "role": "Bapa Ammar dari Yaman",
    "t": 1470,
    "context": "Diseksa kerana beriman dan wafat dalam seksaan."
@@ -255,6 +265,7 @@
   {
    "id": "p10",
    "name": "Sumayyah",
+   "person": "sumayyah",
    "role": "Ibu Ammar, syahid pertama",
    "t": 1695,
    "context": "Meludah ke muka Abu Jahal lalu ditikam dan wafat sebagai syahid pertama dalam Islam."
@@ -262,6 +273,7 @@
   {
    "id": "p12",
    "name": "Umar bin Al-Khattab",
+   "person": "umar-al-khattab",
    "role": "Belum memeluk Islam, akan menjadi sahabat",
    "t": 1983,
    "context": "Akan menangis melihat belakang Khabbab dan bertanya kepada Bilal."

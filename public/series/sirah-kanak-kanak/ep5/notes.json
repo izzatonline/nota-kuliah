@@ -172,6 +172,7 @@
   {
    "id": "p1",
    "name": "Thuwaibah",
+   "person": "thuwaibah",
    "role": "Hamba Abu Lahab dan ibu susuan Nabi SAW",
    "t": 62,
    "context": "Disebut semula sebagai salah seorang yang menyusukan baginda."
@@ -179,6 +180,7 @@
   {
    "id": "p2",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW",
    "t": 72,
    "context": "Tuan kepada Thuwaibah."
@@ -186,6 +188,7 @@
   {
    "id": "p3",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 75,
    "context": "Diamanahkan Abdul Muttalib menjaga baginda walaupun miskin dan beranak ramai."
@@ -193,6 +196,7 @@
   {
    "id": "p4",
    "name": "Al-Abbas",
+   "person": "abbas-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 75,
    "context": "Disebut sebagai salah seorang bapa saudara baginda."
@@ -200,6 +204,7 @@
   {
    "id": "p5",
    "name": "Hamzah RA",
+   "person": "hamzah",
    "role": "Bapa saudara dan saudara susuan Nabi SAW",
    "t": 87,
    "context": "Sebaya dengan Nabi SAW, disusukan oleh Thuwaibah dan Halimah di Bani Sa'ad."
@@ -207,6 +212,7 @@
   {
    "id": "p7",
    "name": "Syahimah",
+   "person": "syahimah",
    "role": "Kakak susuan Nabi SAW",
    "t": 158,
    "context": "Mendukung baginda ketika kecil dan bertemu baginda semula dengan bekas gigitan di belakangnya sebagai bukti."
@@ -214,6 +220,7 @@
   {
    "id": "p6",
    "name": "Halimah",
+   "person": "halimah",
    "role": "Ibu susuan Nabi SAW",
    "t": 303,
    "context": "Datang dari Bani Sa'ad, menjaga baginda hingga sekitar empat tahun dan dihormati baginda ketika sangat tua."
@@ -221,6 +228,7 @@
   {
    "id": "p11",
    "name": "Aminah",
+   "person": "aminah",
    "role": "Ibu Nabi SAW",
    "t": 538,
    "context": "Menerima baginda pulang, membawanya ke Yathrib, jatuh sakit di Al-Abwa' dan wafat."
@@ -228,6 +236,7 @@
   {
    "id": "p9",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat",
    "t": 603,
    "context": "Ustaz menyebut malaikat yang membelah dada baginda ialah Jibril, yang datang dalam rupa manusia."
@@ -235,6 +244,7 @@
   {
    "id": "p10",
    "name": "Anas bin Malik RA",
+   "person": "anas-bin-malik",
    "role": "Sahabat dan pembantu Nabi SAW",
    "t": 732,
    "context": "Menyaksikan bekas jahitan pada dada baginda."
@@ -242,6 +252,7 @@
   {
    "id": "p8",
    "name": "Al-Harith",
+   "person": "al-harith-suami-halimah",
    "role": "Suami Halimah",
    "t": 936,
    "context": "Halimah memberitahunya supaya baginda dihantar pulang."
@@ -249,6 +260,7 @@
   {
    "id": "p13",
    "name": "Abdullah",
+   "person": "abdullah-bin-abdul-muttalib",
    "role": "Ayah Nabi SAW",
    "t": 1203,
    "context": "Meninggal sebelum Aminah sempat membawa baginda ke kuburnya di Yathrib."
@@ -256,6 +268,7 @@
   {
    "id": "p14",
    "name": "Salma",
+   "person": "salma-binti-amr",
    "role": "Moyang Nabi SAW dari Yathrib",
    "t": 1256,
    "context": "Keluarga anak-anaknya, Bani Najjar, ialah keluarga nenek Nabi SAW."
@@ -263,6 +276,7 @@
   {
    "id": "p12",
    "name": "Ummu Aiman",
+   "person": "ummu-aiman",
    "role": "Hamba dan ibu angkat Nabi SAW",
    "t": 1366,
    "context": "Menemani Aminah dan baginda, menjaga baginda selepas Aminah wafat, dan dipanggil ibu oleh baginda."
@@ -270,6 +284,7 @@
   {
    "id": "p15",
    "name": "Umar Al-Khattab RA",
+   "person": "umar-al-khattab",
    "role": "Sahabat",
    "t": 1479,
    "context": "Antara sahabat yang bersama Nabi SAW di Al-Abwa' dan turut menangis."
@@ -277,6 +292,7 @@
   {
    "id": "p16",
    "name": "Abdul Muttalib",
+   "person": "abdul-muttalib",
    "role": "Datuk Nabi SAW",
    "t": 1549,
    "context": "Menjaga baginda selepas Aminah wafat dan memberi baginda duduk di kerusi istimewanya, lalu wafat dan mengamanahkan baginda kepada Abu Talib."

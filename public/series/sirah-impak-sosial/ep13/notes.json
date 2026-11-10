@@ -208,6 +208,7 @@
   {
    "id": "p5",
    "name": "Hassan bin Ali",
+   "person": "hasan-bin-ali",
    "role": "Cucu Nabi SAW",
    "t": 110,
    "context": "Menyeru perjanjian Hilf Al-Fudul untuk menuntut haknya daripada golongan elit."
@@ -215,6 +216,7 @@
   {
    "id": "p2",
    "name": "Ummu Hani (Fakhitah binti Abu Talib)",
+   "person": "ummu-hani",
    "role": "Sepupu Nabi SAW",
    "t": 176,
    "context": "Lamaran Nabi SAW kepadanya yang sahih ditolak selepas Fathu Makkah."
@@ -222,6 +224,7 @@
   {
    "id": "p3",
    "name": "Hisham ibn Muhammad al-Kalbi",
+   "person": "hisham-al-kalbi",
    "role": "Perawi riwayat lamaran Ummu Hani",
    "t": 226,
    "context": "Perawi yang riwayatnya ditolak ulama kerana didustakan."
@@ -229,6 +232,7 @@
   {
    "id": "p4",
    "name": "Ibn Iraqi",
+   "person": "ibn-iraqi",
    "role": "Ulama",
    "t": 390,
    "context": "Berpendapat Ummu Hani menolak kerana sudah tua dan mempunyai anak."
@@ -236,6 +240,7 @@
   {
    "id": "p1",
    "name": "Khadijah binti Khuwailid",
+   "person": "khadijah",
    "role": "Isteri pertama Nabi SAW",
    "t": 577,
    "context": "Peniaga kaya yang pernah berkahwin dua kali, memilih Nabi SAW kerana karakternya."
@@ -243,6 +248,7 @@
   {
    "id": "p6",
    "name": "Hala binti Khuwailid",
+   "person": "hala-binti-khuwailid",
    "role": "Adik Khadijah",
    "t": 750,
    "context": "Memperkenalkan kejujuran Nabi SAW kepada kakaknya."
@@ -250,6 +256,7 @@
   {
    "id": "p7",
    "name": "Maisarah",
+   "person": "maisarah",
    "role": "Pembantu lelaki Khadijah",
    "t": 1021,
    "context": "Menyertai perjalanan dagang Nabi SAW dan melaporkan karakter baginda."
@@ -257,6 +264,7 @@
   {
    "id": "p17",
    "name": "Umar bin Al-Khattab",
+   "person": "umar-al-khattab",
    "role": "Sahabat Nabi SAW",
    "t": 1154,
    "context": "Bertanya sama ada seseorang pernah bermusafir dengan orang yang dinilai karakternya."
@@ -264,6 +272,7 @@
   {
    "id": "p18",
    "name": "Ibn Quddamah",
+   "person": "ibn-quddamah",
    "role": "Ulama",
    "t": 1188,
    "context": "Menyatakan orang yang baik akhlaknya ketika susah bermusafir akan lebih baik ketika tidak bermusafir."
@@ -271,6 +280,7 @@
   {
    "id": "p8",
    "name": "Nafisah",
+   "person": "nafisah",
    "role": "Sahabat karib Khadijah",
    "t": 1353,
    "context": "Menjadi perantara dan menyiasat hasrat Nabi SAW."
@@ -278,6 +288,7 @@
   {
    "id": "p9",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 1542,
    "context": "Menggalakkan baginda menerima tawaran Khadijah dan membawa lamaran."
@@ -285,6 +296,7 @@
   {
    "id": "p10",
    "name": "Hamzah",
+   "person": "hamzah",
    "role": "Bapa saudara Nabi SAW",
    "t": 1544,
    "context": "Menyertai lamaran kerana adiknya Safiyyah berkahwin dengan Awwam, adik Khadijah."
@@ -292,6 +304,7 @@
   {
    "id": "p11",
    "name": "Waraqah bin Naufal",
+   "person": "waraqah-bin-naufal",
    "role": "Sepupu Khadijah",
    "t": 1649,
    "context": "Mewakili Khadijah dan menikahkannya dengan Nabi SAW."
@@ -299,6 +312,7 @@
   {
    "id": "p12",
    "name": "Zaid bin Harithah",
+   "person": "zaid-bin-harithah",
    "role": "Hamba hadiah Khadijah",
    "t": 1756,
    "context": "Dihadiahkan Khadijah kepada Nabi SAW sebagai hadiah perkahwinan."
@@ -306,6 +320,7 @@
   {
    "id": "p13",
    "name": "Ummu Aiman",
+   "person": "ummu-aiman",
    "role": "Pengasuh Nabi SAW",
    "t": 1792,
    "context": "Dimerdekakan secara teknikal ketika perkahwinan ini; Nabi SAW menyebutnya ibu selepas ibunya."
@@ -313,6 +328,7 @@
   {
    "id": "p20",
    "name": "Qasim",
+   "person": "qasim",
    "role": "Anak sulung Nabi SAW dan Khadijah",
    "t": 1913,
    "context": "Lahir 12 tahun sebelum wahyu dan meninggal pada usia 17 bulan."
@@ -320,6 +336,7 @@
   {
    "id": "p21",
    "name": "Zainab",
+   "person": "zainab-binti-muhammad",
    "role": "Anak Nabi SAW",
    "t": 1958,
    "context": "Hidup lama bersama Nabi SAW, yang sendiri mengebumikannya."
@@ -327,6 +344,7 @@
   {
    "id": "p22",
    "name": "Ruqayyah",
+   "person": "ruqayyah",
    "role": "Anak Nabi SAW",
    "t": 1975,
    "context": "Dikahwinkan dengan Uthman; meninggal ketika Perang Badar."
@@ -334,6 +352,7 @@
   {
    "id": "p23",
    "name": "Ummu Kulthum",
+   "person": "ummu-kulthum",
    "role": "Anak Nabi SAW",
    "t": 1982,
    "context": "Dikahwinkan dengan Uthman selepas Ruqayyah."
@@ -341,6 +360,7 @@
   {
    "id": "p14",
    "name": "Uthman bin Affan",
+   "person": "uthman-bin-affan",
    "role": "Menantu Nabi SAW",
    "t": 2002,
    "context": "Berkahwin dengan Ruqayyah kemudian Ummu Kulthum, digelar Zun Nurain."
@@ -348,6 +368,7 @@
   {
    "id": "p24",
    "name": "Fatimah",
+   "person": "fatimah-az-zahra",
    "role": "Anak Nabi SAW",
    "t": 2048,
    "context": "Digelar ibu kepada ayahnya; lahir kira-kira empat atau lima tahun sebelum wahyu."
@@ -355,6 +376,7 @@
   {
    "id": "p25",
    "name": "Abdullah",
+   "person": "abdullah-anak-nabi",
    "role": "Anak Nabi SAW",
    "t": 2069,
    "context": "Meninggal ketika kecil."
@@ -362,6 +384,7 @@
   {
    "id": "p15",
    "name": "Ali bin Abi Talib",
+   "person": "ali-bin-abi-talib",
    "role": "Anak saudara Nabi SAW",
    "t": 2113,
    "context": "Dibawa tinggal di rumah Nabi SAW untuk meringankan Abu Talib."
@@ -369,6 +392,7 @@
   {
    "id": "p16",
    "name": "Al-Abbas",
+   "person": "abbas-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 2115,
    "context": "Mengambil Ja'far untuk dijaga bagi membantu Abu Talib."
@@ -376,6 +400,7 @@
   {
    "id": "p19",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Isteri Nabi SAW",
    "t": 2205,
    "context": "Meriwayatkan empat cara perkahwinan jahiliah."

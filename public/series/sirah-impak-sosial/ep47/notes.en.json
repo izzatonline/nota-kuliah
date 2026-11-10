@@ -233,7 +233,7 @@
   },
   {
    "id": "p9",
-   "role": "Companions",
+   "role": "Companion",
    "context": "Guarded the lanes and signalled if anyone approached during the secret meeting."
   },
   {
@@ -290,6 +290,11 @@
    "id": "p16",
    "role": "Naqib and Khazraj leader",
    "context": "Captured and beaten by Quraysh on the way home but released because he had protected Makkan merchants."
+  },
+  {
+   "id": "p21",
+   "role": "Companion",
+   "context": "Guarded the lanes and signalled if anyone approached during the secret meeting."
   }
  ],
  "lessons": [

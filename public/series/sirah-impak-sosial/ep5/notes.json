@@ -345,6 +345,7 @@
   {
    "id": "p1",
    "name": "Abdullah bin Abdul Muttalib",
+   "person": "abdullah-bin-abdul-muttalib",
    "role": "Bapa Nabi SAW",
    "t": 199,
    "context": "Dikahwinkan selepas diselamatkan daripada sembelihan; meninggal di Yathrib ketika Nabi dalam kandungan dua bulan."
@@ -352,6 +353,7 @@
   {
    "id": "p3",
    "name": "Abdul Muttalib",
+   "person": "abdul-muttalib",
    "role": "Datuk Nabi SAW",
    "t": 219,
    "context": "Menikahkan Abdullah, menerima berita kelahiran dengan gembira, dan menamakan baginda Muhammad."
@@ -359,6 +361,7 @@
   {
    "id": "p2",
    "name": "Aminah binti Wahab",
+   "person": "aminah",
    "role": "Ibu Nabi SAW",
    "t": 230,
    "context": "Menjalani kehamilan yang luar biasa mudah dan menyusukan Nabi pada hari pertama dan kedua."
@@ -366,6 +369,7 @@
   {
    "id": "p4",
    "name": "Hala",
+   "person": "hala-binti-wuhaib",
    "role": "Isteri Abdul Muttalib",
    "t": 327,
    "context": "Sepupu Aminah dan ibu kepada Hamzah RA."
@@ -373,6 +377,7 @@
   {
    "id": "p5",
    "name": "Hamzah RA",
+   "person": "hamzah",
    "role": "Bapa saudara dan saudara susuan Nabi SAW",
    "t": 341,
    "context": "Pakcik, dua pupu dan adik-beradik susuan Nabi; kisah keislamannya yang tanpa sengaja akan diceritakan kemudian."
@@ -380,6 +385,7 @@
   {
    "id": "p6",
    "name": "Ummu Aiman (Barakah binti Tha'labah)",
+   "person": "ummu-aiman",
    "role": "Hamba Abdullah yang menjaga Nabi",
    "t": 397,
    "context": "Dibeli Abdullah dan dihadiahkan kepada Aminah; wujud dari sebelum Nabi lahir hingga selepas wafat, dan orang pertama yang menyentuh Nabi ketika lahir menurut sebahagian penulis sirah."
@@ -387,6 +393,7 @@
   {
    "id": "p10",
    "name": "Ibn Ishaq",
+   "person": "ibn-ishaq",
    "role": "Penulis sirah",
    "t": 1004,
    "context": "Memilih 12 Rabiulawal tanpa sanad atau rujukan."
@@ -394,6 +401,7 @@
   {
    "id": "p11",
    "name": "Safiyyurrahman Al-Mubarakfuri",
+   "person": "safiyyurrahman-al-mubarakfuri",
    "role": "Penulis Ar-Raheeq Al-Makhtum",
    "t": 1188,
    "context": "Memilih 9 Rabiulawal berdasarkan pengiraan pakar falak."
@@ -401,6 +409,7 @@
   {
    "id": "p12",
    "name": "Umar Al-Khattab RA",
+   "person": "umar-al-khattab",
    "role": "Khalifah",
    "t": 1268,
    "context": "Menolak tahun kelahiran Nabi sebagai permulaan kalendar Islam dan memilih hijrah."
@@ -408,6 +417,7 @@
   {
    "id": "p13",
    "name": "Muhammad Al-Ghazali",
+   "person": "muhammad-al-ghazali",
    "role": "Syeikh dan penulis",
    "t": 1590,
    "context": "Menyebut dalam Fiqh as-Sirah bahawa para sahabat bertebaran menyebarkan risalah."
@@ -415,6 +425,7 @@
   {
    "id": "p7",
    "name": "Thuwaibah",
+   "person": "thuwaibah",
    "role": "Hamba Abu Lahab dan penyusu Nabi",
    "t": 1730,
    "context": "Menyampaikan berita kelahiran Nabi kepada Abu Lahab dan menyusukan baginda selepas Aminah."
@@ -422,6 +433,7 @@
   {
    "id": "p8",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW",
    "t": 1741,
    "context": "Gembira dengan kelahiran Nabi dan memerdekakan Thuwaibah, walaupun kelak mencela baginda sehingga Allah mencelanya."
@@ -429,6 +441,7 @@
   {
    "id": "p9",
    "name": "Al-Abbas",
+   "person": "abbas-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 1774,
    "context": "Pernah bermimpi tentang Abu Lahab dalam hadis yang diperselisihkan."

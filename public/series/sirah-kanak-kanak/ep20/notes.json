@@ -134,6 +134,7 @@
   {
    "id": "p2",
    "name": "Bilal bin Rabah",
+   "person": "bilal-bin-rabah",
    "role": "Sahabat yang diseksa",
    "t": 89,
    "context": "Ketabahannya menarik hati Mus'ab."
@@ -141,6 +142,7 @@
   {
    "id": "p1",
    "name": "Sumayyah",
+   "person": "sumayyah",
    "role": "Syahid pertama dalam Islam",
    "t": 115,
    "context": "Ibu Ammar yang mati syahid mempertahankan imannya."
@@ -148,6 +150,7 @@
   {
    "id": "p4",
    "name": "Uthman bin Affan",
+   "person": "uthman-bin-affan",
    "role": "Khalifah ketiga",
    "t": 165,
    "context": "Digulung dengan tikar dan dibakar oleh keluarganya tetapi tidak meninggalkan Nabi SAW."
@@ -155,6 +158,7 @@
   {
    "id": "p5",
    "name": "Suhaib bin Sinan Ar-Rumi",
+   "person": "suhaib-ar-rumi",
    "role": "Sahabat dari Rom",
    "t": 293,
    "context": "Dipukul hingga tidak sedarkan diri."
@@ -162,6 +166,7 @@
   {
    "id": "p3",
    "name": "Zinnirah",
+   "person": "zinnirah",
    "role": "Sahabiah yang buta",
    "t": 342,
    "context": "Ketabahannya turut dilihat Mus'ab."
@@ -169,6 +174,7 @@
   {
    "id": "p6",
    "name": "Mus'ab bin Umair",
+   "person": "musab-bin-umair",
    "role": "Pemuda kaya yang memeluk Islam",
    "t": 424,
    "context": "Terkenal dengan pakaian, wangian dan suara yang indah, dikurung ibunya kerana Islam."
@@ -176,6 +182,7 @@
   {
    "id": "p7",
    "name": "Khabbab bin Al-Arat",
+   "person": "khabbab-bin-al-arat",
    "role": "Sahabat yang dibakar",
    "t": 847,
    "context": "Diseksa tuannya dengan api."
@@ -183,6 +190,7 @@
   {
    "id": "p8",
    "name": "Ummu Anmar",
+   "person": "ummu-anmar",
    "role": "Majikan Khabbab",
    "t": 856,
    "context": "Dibalas Allah dengan penyakit yang dirawat dengan api dan akhirnya mati."
@@ -190,6 +198,7 @@
   {
    "id": "p9",
    "name": "Uthman bin Talhah",
+   "person": "uthman-bin-talhah",
    "role": "Orang besar yang dihormati",
    "t": 1006,
    "context": "Melihat Mus'ab solat dan mengadu kepada ibunya."
@@ -204,13 +213,23 @@
   {
    "id": "p11",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara yang melindungi",
    "t": 1552,
    "context": "Berjanji terus bersama baginda selepas jawapannya."
   },
   {
    "id": "p12",
-   "name": "Abu Jahal dan Abu Sufyan",
+   "name": "Abu Jahal",
+   "person": "abu-jahal",
+   "role": "Pembesar Quraisy",
+   "t": 1553,
+   "context": "Meminta Abu Talib menghentikan Nabi SAW."
+  },
+  {
+   "id": "p13",
+   "name": "Abu Sufyan",
+   "person": "abu-sufyan",
    "role": "Pembesar Quraisy",
    "t": 1553,
    "context": "Meminta Abu Talib menghentikan Nabi SAW."

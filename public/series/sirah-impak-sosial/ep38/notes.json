@@ -624,6 +624,7 @@
   {
    "id": "p1",
    "name": "Ibn Qayyim al-Jawziyyah",
+   "person": "ibn-qayyim",
    "role": "Ulama",
    "t": 6,
    "context": "Dipetik dalam Ar-Raheeq al-Makhtum: apabila hamba diuji di tahap tertinggi dan redha serta sabar, Allah menunjukkan apa yang belum pernah dilihat sehingga imannya bertambah."
@@ -631,6 +632,7 @@
   {
    "id": "p2",
    "name": "Safiur Rahman al-Mubarakfuri",
+   "person": "safiyyurrahman-al-mubarakfuri",
    "role": "Pengarang Ar-Raheeq al-Makhtum",
    "t": 541,
    "context": "Menyenaraikan enam pendapat tentang waktu Isra' dan memilih pandangan bahawa ia berlaku selepas wafat Khadijah RA dan sebelum hijrah."
@@ -638,6 +640,7 @@
   {
    "id": "p4",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 778,
    "context": "Wafatnya menjadi sebahagian punca kesedihan Nabi SAW sebelum peristiwa Isra' dan Mi'raj, dan beliau wafat sebelum solat lima waktu difardukan."
@@ -645,6 +648,7 @@
   {
    "id": "p5",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 842,
    "context": "Tokoh paling penting di Makkah yang membolehkan Nabi SAW berdakwah, dan wafatnya amat menyakitkan."
@@ -652,6 +656,7 @@
   {
    "id": "p6",
    "name": "Mut'im bin Adi",
+   "person": "mutim-bin-adi",
    "role": "Pemimpin Quraisy",
    "t": 890,
    "context": "Memberi perlindungan kepada Nabi SAW untuk kembali masuk ke Makkah selepas Taif."
@@ -659,6 +664,7 @@
   {
    "id": "p7",
    "name": "Fatimah RA",
+   "person": "fatimah-az-zahra",
    "role": "Anak Nabi SAW",
    "t": 929,
    "context": "Berusia sekitar 10 hingga 12 tahun dan masih di Makkah ketika Khadijah RA wafat."
@@ -666,6 +672,7 @@
   {
    "id": "p8",
    "name": "Ummu Hani (Fakhitah binti Abu Talib)",
+   "person": "ummu-hani",
    "role": "Sepupu Nabi SAW",
    "t": 1076,
    "context": "Dalam satu versi, Nabi SAW bermalam di rumahnya ketika Isra' bermula."
@@ -673,6 +680,7 @@
   {
    "id": "p9",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat",
    "t": 1123,
    "context": "Mengiringi Nabi SAW sepanjang perjalanan, membelah dada, menegur Buraq dan menjawab pertanyaan Nabi SAW di setiap langit."
@@ -680,6 +688,7 @@
   {
    "id": "p10",
    "name": "Anas bin Malik RA",
+   "person": "anas-bin-malik",
    "role": "Sahabat dan perawi hadis",
    "t": 1974,
    "context": "Meriwayatkan hadis persinggahan solat di Taibah."
@@ -687,6 +696,7 @@
   {
    "id": "p11",
    "name": "Maryam AS",
+   "person": "maryam",
    "role": "Ibu Nabi Isa AS",
    "t": 2212,
    "context": "Melahirkan Nabi Isa di Bayt Lahm dengan bantuan Jibril, dan adik-beradik dengan isteri Nabi Zakaria."
@@ -694,6 +704,7 @@
   {
    "id": "p12",
    "name": "Umar al-Khattab RA",
+   "person": "umar-al-khattab",
    "role": "Khalifah",
    "t": 2265,
    "context": "Kelak membuka Baitul Maqdis, mengambil kunci dan membersihkan tapak Masjid Al-Aqsa bersama-sama."
@@ -701,6 +712,7 @@
   {
    "id": "p13",
    "name": "Abu Dharr al-Ghifari RA",
+   "person": "abu-dhar",
    "role": "Sahabat",
    "t": 2493,
    "context": "Bertanya kepada Nabi SAW tentang masjid pertama yang dibina di bumi dan jarak antara dua masjid."
@@ -708,6 +720,7 @@
   {
    "id": "p14",
    "name": "Nabi Adam AS",
+   "person": "adam",
    "role": "Nabi pertama",
    "t": 2889,
    "context": "Menyambut Nabi SAW di langit pertama dengan zuriatnya di kanan dan kiri."
@@ -715,6 +728,7 @@
   {
    "id": "p15",
    "name": "Nabi Isa AS",
+   "person": "isa",
    "role": "Nabi",
    "t": 3305,
    "context": "Ditemui di Baitul Maqdis dan di langit kedua bersama Nabi Yahya yang merupakan sepupunya."
@@ -722,6 +736,7 @@
   {
    "id": "p16",
    "name": "Nabi Yahya AS",
+   "person": "yahya",
    "role": "Nabi",
    "t": 3305,
    "context": "Sepupu Nabi Isa, anak Nabi Zakaria yang berdoa tanpa putus asa."
@@ -729,6 +744,7 @@
   {
    "id": "p17",
    "name": "Nabi Yusuf AS",
+   "person": "yusuf",
    "role": "Nabi",
    "t": 3369,
    "context": "Dikurniakan separuh kecantikan makhluk, dijumpai Nabi SAW di langit ketiga."
@@ -736,6 +752,7 @@
   {
    "id": "p18",
    "name": "Nabi Idris AS",
+   "person": "idris",
    "role": "Nabi",
    "t": 3487,
    "context": "Ditemui di langit keempat, dan disebut sebagai orang pertama yang menulis dengan pena."
@@ -743,6 +760,7 @@
   {
    "id": "p19",
    "name": "Nabi Harun AS",
+   "person": "harun",
    "role": "Nabi",
    "t": 3594,
    "context": "Menyambut dan mendoakan Nabi SAW di langit kelima."
@@ -750,6 +768,7 @@
   {
    "id": "p20",
    "name": "Nabi Musa AS",
+   "person": "musa",
    "role": "Nabi",
    "t": 3610,
    "context": "Ditemui di langit keenam, menangis kerana umat Nabi SAW lebih ramai masuk syurga, dan menjadi tolok ukur kesabaran dalam hidup Nabi SAW."
@@ -757,6 +776,7 @@
   {
    "id": "p3",
    "name": "Nabi Ibrahim AS",
+   "person": "ibrahim",
    "role": "Nabi",
    "t": 3770,
    "context": "Bapa para nabi yang doanya dijawab dengan Nabi SAW, menyambut Nabi SAW di langit ketujuh dan menyampaikan salam serta pesan zikir kepada umat."
@@ -764,6 +784,7 @@
   {
    "id": "p21",
    "name": "Urwah bin Mas'ud",
+   "person": "urwah-bin-masud",
    "role": "Sahabat",
    "t": 3821,
    "context": "Nabi SAW menyerupakan Nabi Isa AS dengan wajah Urwah."

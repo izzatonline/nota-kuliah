@@ -311,6 +311,7 @@
   {
    "id": "p2",
    "name": "Ibrahim AS",
+   "person": "ibrahim",
    "role": "Nabi dan bapa para nabi",
    "t": 284,
    "context": "Nabi SAW bertemu dengannya dalam Isra' Mi'raj; teladan dakwah menentang kesyirikan."
@@ -318,6 +319,7 @@
   {
    "id": "p1",
    "name": "Ibn Abbas",
+   "person": "abdullah-bin-abbas",
    "role": "Sahabat dan pakar tafsir",
    "t": 349,
    "context": "Perawi hadis kelebihan sepuluh hari pertama Zulhijjah; didoakan Nabi SAW supaya faham agama dan takwil."
@@ -325,6 +327,7 @@
   {
    "id": "p4",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW",
    "t": 3006,
    "context": "Mencela Nabi SAW di Bukit Safa lalu turun surah Tabbat."
@@ -332,6 +335,7 @@
   {
    "id": "p3",
    "name": "Azar",
+   "person": "azar",
    "role": "Bapa atau bapa saudara Ibrahim",
    "t": 3035,
    "context": "Penjaga rumah berhala; Ibrahim menyeru dengan lemah lembut."
@@ -339,6 +343,7 @@
   {
    "id": "p5",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 3101,
    "context": "Nabi SAW merayunya mengucap kalimah sehingga akhir hayat."
@@ -346,6 +351,7 @@
   {
    "id": "p6",
    "name": "Afia Siddiqui",
+   "person": "afia-siddiqui",
    "role": "Tahanan wanita Pakistan",
    "t": 3161,
    "context": "Lulusan MIT yang diculik, ditahan dan dihukum 86 tahun penjara."
@@ -353,6 +359,7 @@
   {
    "id": "p7",
    "name": "Imam Ahmad",
+   "person": "imam-ahmad",
    "role": "Imam mazhab",
    "t": 3262,
    "context": "Menolak pendapat Quran makhluk lalu disebat dan dipenjara."
@@ -360,6 +367,7 @@
   {
    "id": "p8",
    "name": "Hamka",
+   "person": "hamka",
    "role": "Ulama dan penulis Indonesia",
    "t": 3277,
    "context": "Dipenjarakan dan hari ini dipuji."
@@ -367,6 +375,7 @@
   {
    "id": "p10",
    "name": "Adam AS",
+   "person": "adam",
    "role": "Bapa semua manusia",
    "t": 3478,
    "context": "Disebut dalam khutbah wada' sebagai asal semua manusia."
@@ -374,6 +383,7 @@
   {
    "id": "p9",
    "name": "Leonard Sax",
+   "person": "leonard-sax",
    "role": "Doktor dan psikologis",
    "t": 3976,
    "context": "Pengarang Boys Adrift."

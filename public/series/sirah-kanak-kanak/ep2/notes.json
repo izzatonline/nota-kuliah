@@ -174,6 +174,7 @@
   {
    "id": "p1",
    "name": "Hashim",
+   "person": "hashim",
    "role": "Moyang Nabi SAW, nama sebenarnya Amr",
    "t": 215,
    "context": "Menghidangkan sup dan roti kepada jemaah haji, berkahwin dengan Salma, dan wafat di Gaza."
@@ -181,6 +182,7 @@
   {
    "id": "p2",
    "name": "Abdul Manaf",
+   "person": "abdul-manaf",
    "role": "Ayah Hashim",
    "t": 237,
    "context": "Menjaga makan minum orang yang datang berhaji dan menyerahkan tugas itu kepada Hashim."
@@ -188,6 +190,7 @@
   {
    "id": "p3",
    "name": "Salma",
+   "person": "salma-binti-amr",
    "role": "Isteri Hashim dari Yathrib",
    "t": 382,
    "context": "Melahirkan Syaibah dan merahsiakannya, serta menangis ketika Al-Muttalib mengambil anaknya."
@@ -195,6 +198,7 @@
   {
    "id": "p4",
    "name": "Al-Muttalib",
+   "person": "al-muttalib",
    "role": "Adik Hashim",
    "t": 534,
    "context": "Membawa Syaibah ke Mekah, menjaganya, dan wafat di Yaman."
@@ -202,6 +206,7 @@
   {
    "id": "p5",
    "name": "Abdul Muttalib (Syaibah)",
+   "person": "abdul-muttalib",
    "role": "Datuk Nabi SAW dan ketua Quraisy",
    "t": 801,
    "context": "Nama asalnya Syaibah kerana berambut putih. Beliau menemui zam-zam dan bernazar menyembelih seorang anak."
@@ -209,6 +214,7 @@
   {
    "id": "p9",
    "name": "Nabi Ibrahim AS",
+   "person": "ibrahim",
    "role": "Nabi",
    "t": 820,
    "context": "Disebut semasa Hajar dan Ismail ditinggalkan di Mekah sebelum zam-zam terbit."
@@ -216,6 +222,7 @@
   {
    "id": "p10",
    "name": "Hajar",
+   "person": "hajar",
    "role": "Ibu Nabi Ismail AS",
    "t": 822,
    "context": "Ditinggalkan di Mekah bersama Ismail dan zam-zam terbit untuk mereka."
@@ -223,6 +230,7 @@
   {
    "id": "p11",
    "name": "Nabi Ismail AS",
+   "person": "ismail",
    "role": "Anak Nabi Ibrahim AS",
    "t": 822,
    "context": "Ditinggalkan di Mekah bersama ibunya Hajar. Selepas wafatnya, Arab Jurhum menjadi jahat."
@@ -230,6 +238,7 @@
   {
    "id": "p12",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat",
    "t": 825,
    "context": "Datang dan menyebabkan air zam-zam terbit."
@@ -237,6 +246,7 @@
   {
    "id": "p6",
    "name": "Abdullah",
+   "person": "abdullah-bin-abdul-muttalib",
    "role": "Ayah Nabi SAW",
    "t": 1336,
    "context": "Anak bongsu Abdul Muttalib yang ditebus dengan seratus ekor unta, berkahwin dengan Aminah dan wafat di Yathrib."
@@ -244,6 +254,7 @@
   {
    "id": "p7",
    "name": "Aminah",
+   "person": "aminah",
    "role": "Ibu Nabi SAW",
    "t": 1545,
    "context": "Isteri Abdullah yang sedang mengandung ketika Abdullah wafat."
@@ -251,6 +262,7 @@
   {
    "id": "p8",
    "name": "Ummu Aiman",
+   "person": "ummu-aiman",
    "role": "Hamba yang dihadiahkan kepada Aminah",
    "t": 1556,
    "context": "Dibeli Abdullah ketika berumur 9 tahun dari Afrika, menemani Aminah dan kemudian menjaga Nabi SAW. Nabi memanggilnya ibu."

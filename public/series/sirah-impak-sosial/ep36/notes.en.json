@@ -149,12 +149,12 @@
   },
   {
    "id": "p6",
-   "role": "Parents of humankind",
+   "role": "Father of humankind",
    "context": "The chain of 'son of Your male servant and female servant' reaches them. Allah sent them down with guidance (Al-Baqarah 2:38)."
   },
   {
    "id": "p5",
-   "role": "The prophets",
+   "role": "Prophet",
    "context": "Among the stories of earlier prophets that show a chain of servants who went through hardship."
   },
   {
@@ -166,6 +166,21 @@
    "id": "p7",
    "role": "Companion",
    "context": "Sat in the mosque outside prayer time because he was bound by sorrow and debt, and was taught the second supplication by the Prophet ﷺ."
+  },
+  {
+   "id": "p10",
+   "role": "Mother of humankind",
+   "context": "The chain of 'son of Your male servant and female servant' reaches them. Allah sent them down with guidance (Al-Baqarah 2:38)."
+  },
+  {
+   "id": "p11",
+   "role": "Prophet",
+   "context": "Among the stories of earlier prophets that show a chain of servants who went through hardship."
+  },
+  {
+   "id": "p12",
+   "role": "Hadith collector",
+   "context": "Narrated the first supplication (Ahmad) and the second (Bukhari, among others)."
   }
  ],
  "lessons": [

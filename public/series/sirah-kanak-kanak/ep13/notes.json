@@ -227,6 +227,7 @@
   {
    "id": "p1",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Khalifah pertama",
    "t": 163,
    "context": "Mengumpulkan Quran selepas Nabi SAW wafat."
@@ -234,6 +235,7 @@
   {
    "id": "p5",
    "name": "Nabi Musa AS",
+   "person": "musa",
    "role": "Nabi",
    "t": 287,
    "context": "Kisahnya paling banyak disebut dalam Quran."
@@ -241,6 +243,7 @@
   {
    "id": "p2",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat penyampai wahyu",
    "t": 732,
    "context": "Memeluk Nabi SAW tiga kali dan menyampaikan lima ayat pertama Al-Alaq."
@@ -248,6 +251,7 @@
   {
    "id": "p3",
    "name": "Nabi Adam AS",
+   "person": "adam",
    "role": "Manusia pertama",
    "t": 1233,
    "context": "Dicipta daripada tanah pelbagai warna, bukan daripada alaq."
@@ -255,6 +259,7 @@
   {
    "id": "p4",
    "name": "Nabi Idris AS",
+   "person": "idris",
    "role": "Nabi yang pertama menulis",
    "t": 1874,
    "context": "Diajar Allah menulis dengan pena."

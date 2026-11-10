@@ -205,6 +205,7 @@
   {
    "id": "p1",
    "name": "An-Najasyi (Ashamah)",
+   "person": "najasyi",
    "role": "Raja Kristian Habasyah yang adil",
    "t": 611,
    "context": "Menerima para sahabat, menangis mendengar Surah Maryam, menolak menyerahkan mereka dan beriman."
@@ -212,6 +213,7 @@
   {
    "id": "p2",
    "name": "Layla",
+   "person": "layla-ummu-abdullah",
    "role": "Sahabiah yang berkemas untuk hijrah",
    "t": 1069,
    "context": "Dilihat Umar ketika berkemas dan menyangka Umar mungkin akan memeluk Islam."
@@ -219,6 +221,7 @@
   {
    "id": "p3",
    "name": "Umar bin Al-Khattab",
+   "person": "umar-al-khattab",
    "role": "Belum memeluk Islam",
    "t": 1127,
    "context": "Menyeksa umat Islam tetapi bersimpati dan mendoakan keselamatan Layla."
@@ -226,6 +229,7 @@
   {
    "id": "p4",
    "name": "Uthman bin Affan",
+   "person": "uthman-bin-affan",
    "role": "Sahabat dan suami Ruqayyah",
    "t": 1347,
    "context": "Berhijrah ke Habasyah bersama isterinya."
@@ -233,6 +237,7 @@
   {
    "id": "p5",
    "name": "Ruqayyah binti Muhammad",
+   "person": "ruqayyah",
    "role": "Anak perempuan Nabi SAW",
    "t": 1360,
    "context": "Berhijrah ke Habasyah bersama suaminya Uthman."
@@ -240,6 +245,7 @@
   {
    "id": "p6",
    "name": "Mus'ab bin Umair",
+   "person": "musab-bin-umair",
    "role": "Sahabat",
    "t": 1442,
    "context": "Turut berhijrah ke Habasyah."
@@ -247,6 +253,7 @@
   {
    "id": "p7",
    "name": "Ja'far bin Abi Talib",
+   "person": "jafar-bin-abi-talib",
    "role": "Ketua dan jurucakap rombongan",
    "t": 1454,
    "context": "Sepupu Nabi SAW yang berucap di hadapan Najasyi dan membaca Surah Maryam."
@@ -254,6 +261,7 @@
   {
    "id": "p8",
    "name": "Asma' binti Umais",
+   "person": "asma-binti-umais",
    "role": "Isteri Ja'far",
    "t": 1479,
    "context": "Berhijrah bersama suaminya."
@@ -261,6 +269,7 @@
   {
    "id": "p9",
    "name": "Amr bin Al-As",
+   "person": "amr-bin-al-as",
    "role": "Pendebat Quraisy",
    "t": 1653,
    "context": "Dihantar membawa hadiah mahal kepada Najasyi untuk meminta umat Islam dipulangkan tetapi gagal."
@@ -268,6 +277,7 @@
   {
    "id": "p10",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Pembesar Quraisy",
    "t": 1664,
    "context": "Menghantar Amr bin Al-As ke Habasyah."
@@ -275,6 +285,7 @@
   {
    "id": "p12",
    "name": "Maryam",
+   "person": "maryam",
    "role": "Ibu Nabi Isa AS",
    "t": 2551,
    "context": "Ja'far membaca surah tentangnya yang menyentuh hati Najasyi."
@@ -282,6 +293,7 @@
   {
    "id": "p11",
    "name": "Nabi Isa AS",
+   "person": "isa",
    "role": "Nabi dan Ruh yang mulia",
    "t": 2800,
    "context": "Ja'far menerangkan dia hamba dan rasul Allah yang lahir tanpa ayah."
@@ -289,6 +301,7 @@
   {
    "id": "p14",
    "name": "Zainab",
+   "person": "zainab-binti-muhammad",
    "role": "Anak perempuan Nabi SAW",
    "t": 3267,
    "context": "Tinggal di Mekah bersama suaminya Abul Al-As sehingga selepas Perang Badar."
@@ -296,6 +309,7 @@
   {
    "id": "p13",
    "name": "Khadijah",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 3309,
    "context": "Tidak ikut berhijrah ke Madinah kerana wafat pada usia baginda 50 tahun dan dikebumikan di Mekah."

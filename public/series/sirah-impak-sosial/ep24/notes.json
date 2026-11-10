@@ -213,6 +213,7 @@
   {
    "id": "p1",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW",
    "t": 8,
    "context": "Menggagalkan jamuan dan mencela Nabi SAW di Safa; satu surah dikhususkan untuknya."
@@ -220,6 +221,7 @@
   {
    "id": "p10",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Gangster Quraish",
    "t": 418,
    "context": "Disebut antara musuh Nabi SAW tetapi tidak sampai ditentukan nasibnya."
@@ -227,6 +229,7 @@
   {
    "id": "p3",
    "name": "Ali bin Abi Talib",
+   "person": "ali-bin-abi-talib",
    "role": "Anak angkat Nabi SAW, sekitar 10 tahun",
    "t": 594,
    "context": "Menyediakan jamuan dan menjadi satu-satunya yang menyatakan sokongan."
@@ -234,6 +237,7 @@
   {
    "id": "p6",
    "name": "Safiyyah",
+   "person": "safiyyah",
    "role": "Ibu saudara Nabi SAW",
    "t": 864,
    "context": "Hadir dalam perhimpunan keluarga."
@@ -241,6 +245,7 @@
   {
    "id": "p4",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 990,
    "context": "Memberi ruang tetapi tidak meninggalkan agama Abdul Muttalib."
@@ -248,20 +253,39 @@
   {
    "id": "p5",
    "name": "Al-Abbas",
+   "person": "abbas-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 1062,
    "context": "Isterinya memeluk Islam selepas peristiwa jamuan."
   },
   {
    "id": "p7",
-   "name": "Utbah dan Utaibah",
-   "role": "Anak-anak Abu Lahab",
+   "name": "Utbah",
+   "person": "utbah-bin-abi-lahab",
+   "role": "Anak Abu Lahab",
+   "t": 1752,
+   "context": "Menceraikan Ruqayyah dan Ummu Kulthum atas suruhan bapa; Utaibah kemudian dimakan singa."
+  },
+  {
+   "id": "p11",
+   "name": "Utaibah",
+   "person": "utaibah-bin-abi-lahab",
+   "role": "Anak Abu Lahab",
    "t": 1752,
    "context": "Menceraikan Ruqayyah dan Ummu Kulthum atas suruhan bapa; Utaibah kemudian dimakan singa."
   },
   {
    "id": "p8",
-   "name": "Ruqayyah dan Ummu Kulthum",
+   "name": "Ruqayyah",
+   "person": "ruqayyah",
+   "role": "Anak perempuan Nabi SAW",
+   "t": 1752,
+   "context": "Dikahwinkan dengan anak Abu Lahab lalu diceraikan."
+  },
+  {
+   "id": "p12",
+   "name": "Ummu Kulthum",
+   "person": "ummu-kulthum",
    "role": "Anak perempuan Nabi SAW",
    "t": 1752,
    "context": "Dikahwinkan dengan anak Abu Lahab lalu diceraikan."
@@ -269,6 +293,7 @@
   {
    "id": "p2",
    "name": "Ummu Jamil",
+   "person": "ummu-jamil",
    "role": "Isteri Abu Lahab",
    "t": 1906,
    "context": "Adik Abu Sufyan; menyakiti Nabi SAW dengan kempen dan perbuatan jahat."
@@ -276,6 +301,7 @@
   {
    "id": "p9",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Sahabat",
    "t": 2008,
    "context": "Diam ketika Ummu Jamil menghina; Allah menutup pandangannya daripada melihat Nabi SAW."

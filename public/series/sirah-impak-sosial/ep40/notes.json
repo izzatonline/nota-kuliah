@@ -464,6 +464,7 @@
   {
    "id": "p1",
    "name": "Cristiano Ronaldo",
+   "person": "cristiano-ronaldo",
    "role": "Atlet bola sepak",
    "t": 0,
    "context": "Disebut sebagai contoh tokoh sukan yang mempunyai pengaruh sangat besar di seluruh dunia. Ustaz menyebut kesan tindakannya terhadap saham syarikat minuman pada 2021 sebagai contoh impak sosial."
@@ -471,6 +472,7 @@
   {
    "id": "p3",
    "name": "Mohamed Salah",
+   "person": "mohamed-salah",
    "role": "Atlet bola sepak",
    "t": 866,
    "context": "Ustaz menyebut kajian universiti yang tidak dinamakan menunjukkan Islamofobia dan jenayah kebencian menurun di sekitar kehadirannya di Liverpool, dan stadium kini menyediakan surau."
@@ -478,6 +480,7 @@
   {
    "id": "p4",
    "name": "Sadio Mane",
+   "person": "sadio-mane",
    "role": "Atlet bola sepak",
    "t": 968,
    "context": "Anak imam di Senegal yang kini membina hospital, sekolah dan jalan di kampungnya. Contoh kesan sosial seorang atlet."
@@ -485,6 +488,7 @@
   {
    "id": "p9",
    "name": "Anas bin Malik RA",
+   "person": "anas-bin-malik",
    "role": "Sahabat",
    "t": 1047,
    "context": "Menyebut hari paling gelap di Madinah ialah hari wafat Nabi SAW."
@@ -492,6 +496,7 @@
   {
    "id": "p12",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat",
    "t": 1460,
    "context": "Menjelaskan kepada Nabi SAW tentang kaum yang menuai, sungai Al-Kawthar dan Malik."
@@ -499,6 +504,7 @@
   {
    "id": "p10",
    "name": "Ibn Kathir",
+   "person": "ibn-kathir",
    "role": "Ahli tafsir",
    "t": 1592,
    "context": "Dirujuk bahawa 700 kali ganda dalam Al-Baqarah 261 ialah minimum, dan Allah melipatgandakan mengikut kehendak-Nya."
@@ -506,6 +512,7 @@
   {
    "id": "p6",
    "name": "Farish A. Noor",
+   "person": "farish-a-noor",
    "role": "Sejarawan",
    "t": 1970,
    "context": "Dicadangkan ustaz untuk ditonton siri sejarahnya, kerana pemikirannya yang mendalam tentang sistem pendidikan dan ekonomi."
@@ -513,6 +520,7 @@
   {
    "id": "p5",
    "name": "Cody Gakpo",
+   "person": "cody-gakpo",
    "role": "Atlet bola sepak",
    "t": 2805,
    "context": "Contoh belas kasihan dalam sukan: seluruh stadium mendoakan dan lawan memeluknya ketika isterinya mengalami keguguran."
@@ -520,6 +528,7 @@
   {
    "id": "p11",
    "name": "Malik",
+   "person": "malik-penjaga-neraka",
    "role": "Malaikat penjaga neraka",
    "t": 3377,
    "context": "Tidak pernah tersenyum, mencerminkan kemurkaan dan dahsyatnya azab Allah. Dalam riwayat daif yang disokong ayat Quran."
@@ -527,6 +536,7 @@
   {
    "id": "p7",
    "name": "Hamka",
+   "person": "hamka",
    "role": "Ulama dan penulis",
    "t": 3612,
    "context": "Pengarang Pandangan Hidup Muslim dan buku tentang pengalaman di penjara. Ustaz mula membaca karyanya melalui novel sebelum karya yang lebih penting."
@@ -534,6 +544,7 @@
   {
    "id": "p2",
    "name": "Lionel Messi",
+   "person": "lionel-messi",
    "role": "Atlet bola sepak",
    "t": 4019,
    "context": "Disebut bersama Ronaldo sebagai tokoh yang diikuti berjuta manusia. Ustaz menggesa kita melihat latar kanak-kanak mereka yang sukar."
@@ -541,6 +552,7 @@
   {
    "id": "p8",
    "name": "Yusuf Al-Qaradawi",
+   "person": "yusuf-al-qaradawi",
    "role": "Ulama",
    "t": 4118,
    "context": "Pengarang Fiqhus Salah yang membincangkan hikmah dan falsafah pensyariatan solat."

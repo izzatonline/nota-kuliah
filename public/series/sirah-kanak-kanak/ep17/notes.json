@@ -225,6 +225,7 @@
   {
    "id": "p1",
    "name": "Ummu Jamil",
+   "person": "ummu-jamil",
    "role": "Isteri Abu Lahab",
    "t": 0,
    "context": "Terkenal cantik dan menghasut orang menentang Nabi SAW, dan Allah menutup pandangannya daripada baginda."
@@ -232,6 +233,7 @@
   {
    "id": "p2",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Sahabat Nabi SAW",
    "t": 3,
    "context": "Mencari orang yang layak menerima Islam dan duduk di sisi Nabi SAW ketika Ummu Jamil datang."
@@ -239,6 +241,7 @@
   {
    "id": "p4",
    "name": "Ali bin Abi Talib",
+   "person": "ali-bin-abi-talib",
    "role": "Kanak-kanak yang menyambut seruan",
    "t": 201,
    "context": "Menyambut tetamu pada jamuan dan satu-satunya yang menyatakan akan mengikut Nabi SAW."
@@ -246,6 +249,7 @@
   {
    "id": "p3",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 214,
    "context": "Menyuruh Ali mengikut Muhammad tetapi dia sendiri tidak menerima Islam."
@@ -253,6 +257,7 @@
   {
    "id": "p5",
    "name": "Abdurrahman bin Auf",
+   "person": "abdurrahman-bin-auf",
    "role": "Sahabat",
    "t": 261,
    "context": "Diajak Abu Bakar menerima Islam."
@@ -260,6 +265,7 @@
   {
    "id": "p6",
    "name": "Uthman bin Affan",
+   "person": "uthman-bin-affan",
    "role": "Sahabat",
    "t": 268,
    "context": "Diajak Abu Bakar menerima Islam."
@@ -267,6 +273,7 @@
   {
    "id": "p7",
    "name": "Hamzah",
+   "person": "hamzah",
    "role": "Bapa saudara Nabi SAW",
    "t": 355,
    "context": "Hadir pada jamuan keluarga."
@@ -274,6 +281,7 @@
   {
    "id": "p8",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW yang menentang",
    "t": 745,
    "context": "Membubarkan jamuan, mencela baginda di Bukit Safa dan menjaga tabung Kaabah. Surah Al-Masad diturunkan tentangnya."
@@ -288,6 +296,7 @@
   {
    "id": "p12",
    "name": "Abdullah (anak Nabi SAW)",
+   "person": "abdullah-anak-nabi",
    "role": "Anak lelaki Nabi SAW",
    "t": 1496,
    "context": "Wafat ketika kecil dan Abu Lahab bergembira."
@@ -295,6 +304,7 @@
   {
    "id": "p11",
    "name": "Qasim",
+   "person": "qasim",
    "role": "Anak sulung Nabi SAW",
    "t": 1504,
    "context": "Sebab baginda digelar Abul Qasim."
@@ -302,6 +312,7 @@
   {
    "id": "p13",
    "name": "Ruqayyah",
+   "person": "ruqayyah",
    "role": "Anak perempuan Nabi SAW",
    "t": 1671,
    "context": "Dijanjikan untuk dikahwinkan dengan anak Abu Lahab sebelum Islam."
@@ -309,6 +320,7 @@
   {
    "id": "p14",
    "name": "Ummu Kulthum",
+   "person": "ummu-kulthum",
    "role": "Anak perempuan Nabi SAW",
    "t": 1671,
    "context": "Dijanjikan untuk dikahwinkan dengan anak Abu Lahab sebelum Islam."
@@ -316,6 +328,7 @@
   {
    "id": "p10",
    "name": "Khadijah",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 1756,
    "context": "Memberi semangat kepada baginda ketika dicela."
@@ -323,6 +336,7 @@
   {
    "id": "p15",
    "name": "Sa'ad bin Abi Waqqas",
+   "person": "saad-bin-abi-waqqas",
    "role": "Sahabat",
    "t": 1851,
    "context": "Orang pertama menumpahkan darah mempertahankan agama apabila memukul pengacau dengan tulang unta."
@@ -330,6 +344,7 @@
   {
    "id": "p16",
    "name": "Arqam bin Abi Al-Arqam",
+   "person": "al-arqam",
    "role": "Pemuda pemilik rumah tersembunyi",
    "t": 1931,
    "context": "Rumahnya dijadikan pusat belajar dan berkumpul orang Islam."

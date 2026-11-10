@@ -291,6 +291,7 @@
   {
    "id": "p3",
    "name": "Zaid bin Harithah",
+   "person": "zaid-bin-harithah",
    "role": "Sahabat yang menemani baginda",
    "t": 487,
    "context": "Risau bagaimana masuk semula ke Mekah."
@@ -298,6 +299,7 @@
   {
    "id": "p2",
    "name": "Akhnas bin Syuraiq",
+   "person": "akhnas-bin-syuraiq",
    "role": "Orang yang menolak memberi jiwar",
    "t": 539,
    "context": "Menolak permintaan Nabi SAW untuk perlindungan."
@@ -305,6 +307,7 @@
   {
    "id": "p1",
    "name": "Mut'im bin Adi",
+   "person": "mutim-bin-adi",
    "role": "Pemberi jiwar bukan Islam",
    "t": 562,
    "context": "Mengiringi Nabi SAW masuk Mekah bersama anak-anaknya dan tidak lama kemudian wafat sebelum Badar."
@@ -312,6 +315,7 @@
   {
    "id": "p4",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Pembesar Quraisy",
    "t": 598,
    "context": "Bertanya kepada Mut'im adakah dia melindungi atau mengikut Nabi SAW."
@@ -319,6 +323,7 @@
   {
    "id": "p5",
    "name": "Nabi Adam AS",
+   "person": "adam",
    "role": "Penghuni langit pertama",
    "t": 1271,
    "context": "Menyambut baginda sebagai anakku yang soleh dan gembira melihat umat yang baik."
@@ -326,6 +331,7 @@
   {
    "id": "p6",
    "name": "Nabi Isa AS",
+   "person": "isa",
    "role": "Penghuni langit kedua",
    "t": 1366,
    "context": "Bersama Yahya, sepupu, berpakaian serupa; belum wafat."
@@ -333,6 +339,7 @@
   {
    "id": "p7",
    "name": "Nabi Yahya AS",
+   "person": "yahya",
    "role": "Penghuni langit kedua",
    "t": 1366,
    "context": "Sepupu Nabi Isa dan menyambut baginda sebagai saudara."
@@ -340,6 +347,7 @@
   {
    "id": "p8",
    "name": "Nabi Yusuf AS",
+   "person": "yusuf",
    "role": "Penghuni langit ketiga",
    "t": 1557,
    "context": "Dikurniakan separuh kecantikan."
@@ -347,6 +355,7 @@
   {
    "id": "p9",
    "name": "Nabi Idris AS",
+   "person": "idris",
    "role": "Penghuni langit keempat",
    "t": 1655,
    "context": "Orang pertama menulis dengan pena, dan Allah mengangkatnya ke tempat yang tinggi."
@@ -354,6 +363,7 @@
   {
    "id": "p10",
    "name": "Nabi Harun AS",
+   "person": "harun",
    "role": "Penghuni langit kelima",
    "t": 1758,
    "context": "Abang Nabi Musa yang menyambut baginda sebagai saudara."
@@ -361,6 +371,7 @@
   {
    "id": "p13",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat yang membawa baginda",
    "t": 1775,
    "context": "Membelah dada, membawa Buraq dan menjawab penjaga pintu langit."
@@ -368,6 +379,7 @@
   {
    "id": "p11",
    "name": "Nabi Musa AS",
+   "person": "musa",
    "role": "Penghuni langit keenam",
    "t": 1879,
    "context": "Menangis kerana umat Nabi Muhammad SAW lebih ramai masuk syurga."
@@ -375,6 +387,7 @@
   {
    "id": "p12",
    "name": "Nabi Ibrahim AS",
+   "person": "ibrahim",
    "role": "Penghuni langit ketujuh",
    "t": 1970,
    "context": "Bersandar pada Baitul Ma'mur, menyampaikan salam dan empat zikir."
@@ -382,6 +395,7 @@
   {
    "id": "p14",
    "name": "Bilal RA",
+   "person": "bilal-bin-rabah",
    "role": "Muazzin Nabi SAW",
    "t": 2407,
    "context": "Tapak kakinya didengar di syurga, kisah disambung kelas akan datang."
@@ -389,6 +403,7 @@
   {
    "id": "p15",
    "name": "Abu Bakar As-Siddiq RA",
+   "person": "abu-bakar",
    "role": "Sahabat yang tidak goyah",
    "t": 2707,
    "context": "Disebut sebagai orang yang imannya tidak terganggu."

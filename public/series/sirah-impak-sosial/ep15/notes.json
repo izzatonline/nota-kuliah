@@ -223,6 +223,7 @@
   {
    "id": "p2",
    "name": "Warakah bin Naufal",
+   "person": "waraqah-bin-naufal",
    "role": "Hanif",
    "t": 151,
    "context": "Belajar Taurat dan Injil di Syam dan mencari nabi akhir zaman."
@@ -230,6 +231,7 @@
   {
    "id": "p3",
    "name": "Uthman bin Huwairith",
+   "person": "uthman-bin-huwairith",
    "role": "Hanif",
    "t": 167,
    "context": "Orang Mekah yang pergi ke Rom, memegang jawatan tinggi dan mati dalam agama Nasrani."
@@ -237,6 +239,7 @@
   {
    "id": "p4",
    "name": "Ubaidullah bin Jahsy",
+   "person": "ubaidullah-bin-jahsy",
    "role": "Hanif",
    "t": 188,
    "context": "Berhijrah ke Habsyah; ada riwayat lemah bahawa dia kembali kepada Kristian."
@@ -244,6 +247,7 @@
   {
    "id": "p1",
    "name": "Zaid bin Amr bin Nufail",
+   "person": "zaid-bin-amr-bin-nufail",
    "role": "Hanif, sepupu Umar Al-Khattab",
    "t": 214,
    "context": "Berseorangan menentang penyembahan berhala dan menyelamatkan anak perempuan; mati dirompak sebelum bertemu Nabi SAW."
@@ -251,6 +255,7 @@
   {
    "id": "p5",
    "name": "Zaid bin Harithah",
+   "person": "zaid-bin-harithah",
    "role": "Sahabat, perawi kisah",
    "t": 247,
    "context": "Menceritakan pertemuan Zaid bin Amr dengan Nabi SAW muda ketika menunggang bersama."
@@ -258,6 +263,7 @@
   {
    "id": "p11",
    "name": "Asma binti Abi Bakar",
+   "person": "asma-binti-abi-bakar",
    "role": "Sahabiah, perawi",
    "t": 375,
    "context": "Menceritakan perbuatan Zaid di Mekah, termasuk menyelamatkan anak perempuan."
@@ -265,6 +271,7 @@
   {
    "id": "p6",
    "name": "Al-Khattab",
+   "person": "al-khattab",
    "role": "Bapa Umar",
    "t": 476,
    "context": "Sangat membenci Zaid, mengupah orang menyakitinya dan mengawal sempadan."
@@ -272,6 +279,7 @@
   {
    "id": "p7",
    "name": "Said bin Zaid",
+   "person": "said-bin-zaid",
    "role": "Sahabat, anak Zaid",
    "t": 912,
    "context": "Salah seorang daripada sepuluh sahabat yang dijanjikan syurga; Umar memeluk Islam melalui rumahnya."
@@ -279,6 +287,7 @@
   {
    "id": "p8",
    "name": "Atikah binti Zaid",
+   "person": "atikah-binti-zaid",
    "role": "Anak perempuan Zaid",
    "t": 928,
    "context": "Berkahwin dengan Zaid bin Khattab, Abdullah bin Abu Bakar, Umar, Zubair bin Awam dan Hasan bin Ali."
@@ -286,6 +295,7 @@
   {
    "id": "p9",
    "name": "Umar Al-Khattab",
+   "person": "umar-al-khattab",
    "role": "Sahabat",
    "t": 1043,
    "context": "Sepupu Zaid; memeluk Islam melalui adiknya Fatimah dan Said bin Zaid."
@@ -293,6 +303,7 @@
   {
    "id": "p10",
    "name": "Amir bin Rabiah",
+   "person": "amir-bin-rabiah",
    "role": "Kawan Zaid",
    "t": 1099,
    "context": "Menyampaikan salam Zaid kepada Nabi SAW."

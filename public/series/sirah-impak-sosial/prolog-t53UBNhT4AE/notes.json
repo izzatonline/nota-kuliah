@@ -230,6 +230,7 @@
   {
    "id": "p1",
    "name": "Prof Dr Muhammad Kamil Ibrahim",
+   "person": "muhammad-kamil-ibrahim",
    "role": "Tokoh yang baru meninggal dunia",
    "t": 97,
    "context": "Dikenang sebelum kuliah; ustaz mendoakan agar legasi dakwahnya diteruskan."
@@ -237,6 +238,7 @@
   {
    "id": "p4",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 721,
    "context": "Memelihara Nabi SAW dari usia 8 tahun dan menyerahkan Ali dan Ja'far untuk dijaga."
@@ -244,6 +246,7 @@
   {
    "id": "p2",
    "name": "Ja'far bin Abi Talib",
+   "person": "jafar-bin-abi-talib",
    "role": "Sepupu Nabi SAW dan ketua muslimin di Habsyah",
    "t": 748,
    "context": "Pemidato handal yang menyerupai Nabi SAW, syahid di Mu'tah dan digelar At-Tayyar."
@@ -251,6 +254,7 @@
   {
    "id": "p6",
    "name": "Ali bin Abi Talib",
+   "person": "ali-bin-abi-talib",
    "role": "Sepupu Nabi SAW",
    "t": 896,
    "context": "Dibesarkan oleh Nabi SAW dan kelak berkahwin dengan Asma' binti Umais."
@@ -258,6 +262,7 @@
   {
    "id": "p5",
    "name": "Al-Abbas",
+   "person": "abbas-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 901,
    "context": "Membesarkan Ja'far bersama Nabi SAW membesarkan Ali."
@@ -265,6 +270,7 @@
   {
    "id": "p7",
    "name": "Al-Arqam bin Abi Al-Arqam",
+   "person": "al-arqam",
    "role": "Tuan rumah Darul Arqam",
    "t": 978,
    "context": "Remaja yang menyembunyikan keislamannya dan rumahnya digunakan sebagai pangkalan dakwah."
@@ -272,6 +278,7 @@
   {
    "id": "p13",
    "name": "Najasyi (Ashamah)",
+   "person": "najasyi",
    "role": "Raja Habsyah",
    "t": 1191,
    "context": "Raja yang adil, mendengar dahulu, menangis mendengar Quran dan menolak rasuah."
@@ -279,6 +286,7 @@
   {
    "id": "p8",
    "name": "Ibn Daghinah",
+   "person": "ibn-daghinah",
    "role": "Pelindung Abu Bakar",
    "t": 1223,
    "context": "Menghalang Abu Bakar daripada berhijrah."
@@ -286,6 +294,7 @@
   {
    "id": "p9",
    "name": "Umar bin Al-Khattab",
+   "person": "umar-al-khattab",
    "role": "Ketika itu masih menyeksa muslimin",
    "t": 1238,
    "context": "Mendoakan keselamatan sahabat yang bersiap ke Habsyah."
@@ -293,6 +302,7 @@
   {
    "id": "p10",
    "name": "Layla",
+   "person": "layla-ummu-abdullah",
    "role": "Sahabiah",
    "t": 1248,
    "context": "Berbual dengan Umar ketika bersiap berhijrah dan menceritakan kepada suaminya."
@@ -300,6 +310,7 @@
   {
    "id": "p3",
    "name": "Asma' binti Umais",
+   "person": "asma-binti-umais",
    "role": "Isteri Ja'far",
    "t": 1392,
    "context": "Berhijrah ke Habsyah bersama suaminya dan kelak berkahwin dengan Abu Bakar dan Ali."
@@ -307,6 +318,7 @@
   {
    "id": "p11",
    "name": "Amr bin Al-As",
+   "person": "amr-bin-al-as",
    "role": "Utusan Quraish",
    "t": 1580,
    "context": "Menentang Islam pada ketika itu dan kemudian memeluk Islam."
@@ -314,6 +326,7 @@
   {
    "id": "p12",
    "name": "Abdullah bin Abi Rabi'ah",
+   "person": "abdullah-bin-abi-rabiah",
    "role": "Utusan Quraish",
    "t": 1591,
    "context": "Mengiringi Amr bin Al-As membawa hadiah kepada Najasyi."
@@ -321,6 +334,7 @@
   {
    "id": "p14",
    "name": "Ummu Salamah",
+   "person": "ummu-salamah",
    "role": "Ummul Mukminin dan perawi kisah",
    "t": 1776,
    "context": "Menceritakan secara terperinci peristiwa di istana Najasyi."
@@ -328,6 +342,7 @@
   {
    "id": "p15",
    "name": "Uthman bin Affan",
+   "person": "uthman-bin-affan",
    "role": "Sahabat",
    "t": 2227,
    "context": "Berhijrah ke Habsyah bersama isterinya Ruqayyah binti Muhammad."
@@ -335,6 +350,7 @@
   {
    "id": "p16",
    "name": "Ruqayyah binti Muhammad",
+   "person": "ruqayyah",
    "role": "Anak Nabi SAW",
    "t": 2231,
    "context": "Berhijrah ke Habsyah dan tidak sempat bertemu ibunya Khadijah lagi."
@@ -342,6 +358,7 @@
   {
    "id": "p22",
    "name": "Gita Wirjawan",
+   "person": "gita-wirjawan",
    "role": "Bekas menteri perdagangan Indonesia",
    "t": 3140,
    "context": "Pengendali podcast Endgame."
@@ -349,6 +366,7 @@
   {
    "id": "p17",
    "name": "Hamzah bin Abdul Muttalib",
+   "person": "hamzah",
    "role": "Bapa saudara Nabi SAW",
    "t": 4567,
    "context": "Anak perempuannya yang tinggal di Makkah dituntut tiga sahabat untuk dijaga."
@@ -356,6 +374,7 @@
   {
    "id": "p18",
    "name": "Zaid bin Harithah",
+   "person": "zaid-bin-harithah",
    "role": "Sahabat dan ketua tentera Mu'tah",
    "t": 4609,
    "context": "Menuntut menjaga anak Hamzah dan gugur sebagai komander pertama di Mu'tah."
@@ -363,6 +382,7 @@
   {
    "id": "p21",
    "name": "Harith bin Al-Azdi",
+   "person": "al-harith-al-azdi",
    "role": "Utusan Nabi SAW ke Rom",
    "t": 4706,
    "context": "Dibunuh sehingga mencetuskan Perang Mu'tah."
@@ -370,6 +390,7 @@
   {
    "id": "p19",
    "name": "Abdullah bin Rawahah",
+   "person": "abdullah-bin-rawahah",
    "role": "Komander ketiga di Mu'tah",
    "t": 4809,
    "context": "Mengambil panji selepas Ja'far dan gugur."
@@ -377,6 +398,7 @@
   {
    "id": "p20",
    "name": "Khalid bin Al-Walid",
+   "person": "khalid-bin-al-walid",
    "role": "Pedang Allah",
    "t": 4829,
    "context": "Baru memeluk Islam, dipilih menjadi komander di Mu'tah dan menukar strategi."

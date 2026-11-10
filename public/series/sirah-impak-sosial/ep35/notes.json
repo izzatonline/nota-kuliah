@@ -400,6 +400,7 @@
   {
    "id": "p1",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW",
    "t": 226,
    "context": "Membenci Nabi SAW, tetapi selepas kewafatan Abu Talib menawar perlindungan untuk meraih nama, lalu menariknya apabila Quraisy memprovok tentang nasib Abu Talib."
@@ -407,13 +408,23 @@
   {
    "id": "p5",
    "name": "Abdullah bin Mas'ud RA",
+   "person": "abdullah-bin-masud",
    "role": "Sahabat, perawi hadis",
    "t": 529,
    "context": "Menyaksikan peristiwa najis dan berkata beliau tidak mampu berbuat apa-apa. Perawi hadis doa atas tujuh orang."
   },
   {
    "id": "p4",
-   "name": "Abu Jahal dan Uqbah bin Abi Mu'ayt",
+   "name": "Abu Jahal",
+   "person": "abu-jahal",
+   "role": "Pemimpin Quraisy",
+   "t": 534,
+   "context": "Abu Jahal mencabar, dan Uqbah, yang disifatkan sebagai paling celaka, meletakkan kotoran di atas Nabi SAW yang sedang sujud."
+  },
+  {
+   "id": "p16",
+   "name": "Uqbah bin Abi Mu'ayt",
+   "person": "uqbah-bin-abi-muait",
    "role": "Pemimpin Quraisy",
    "t": 534,
    "context": "Abu Jahal mencabar, dan Uqbah, yang disifatkan sebagai paling celaka, meletakkan kotoran di atas Nabi SAW yang sedang sujud."
@@ -421,6 +432,7 @@
   {
    "id": "p6",
    "name": "Fatimah RA",
+   "person": "fatimah-az-zahra",
    "role": "Puteri Nabi SAW",
    "t": 717,
    "context": "Masih kecil ketika membuang kotoran dari belakang ayahnya sambil menangis, dan memarahi mereka. Digelar 'ummu abiha'."
@@ -428,6 +440,7 @@
   {
    "id": "p2",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 1066,
    "context": "Pelindung politik Nabi SAW. Kewafatannya menyebabkan Baginda kehilangan perlindungan dari ancaman luar."
@@ -435,6 +448,7 @@
   {
    "id": "p7",
    "name": "Zaid bin Harithah RA",
+   "person": "zaid-bin-harithah",
    "role": "Anak angkat Nabi SAW",
    "t": 1180,
    "context": "Dihadiahkan Khadijah kepada Nabi SAW, lebih kenal Khadijah daripada Nabi SAW. Berjalan bersama Baginda dan menjadi perisai daripada lontaran."
@@ -442,27 +456,55 @@
   {
    "id": "p3",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Ummul Mu'minin",
    "t": 1197,
    "context": "Memberi ketenangan dalaman kepada Nabi SAW, dan menghadiahkan Zaid bin Harithah kepada Baginda."
   },
   {
    "id": "p8",
-   "name": "Abdu Yalil, Mas'ud dan Habib",
-   "role": "Tiga pemimpin Taif",
+   "name": "Abdu Yalil",
+   "person": "abdul-yalil-bin-amr",
+   "role": "Pemimpin Taif",
+   "t": 1735,
+   "context": "Adik-beradik yang memerintah secara bersama. Masing-masing memberi jawapan menyakitkan dan menghasut budak-budak melontar batu."
+  },
+  {
+   "id": "p17",
+   "name": "Mas'ud",
+   "person": "masud-bin-amr",
+   "role": "Pemimpin Taif",
+   "t": 1735,
+   "context": "Adik-beradik yang memerintah secara bersama. Masing-masing memberi jawapan menyakitkan dan menghasut budak-budak melontar batu."
+  },
+  {
+   "id": "p18",
+   "name": "Habib",
+   "person": "habib-bin-amr",
+   "role": "Pemimpin Taif",
    "t": 1735,
    "context": "Adik-beradik yang memerintah secara bersama. Masing-masing memberi jawapan menyakitkan dan menghasut budak-budak melontar batu."
   },
   {
    "id": "p13",
    "name": "Abu Bakar RA",
+   "person": "abu-bakar",
    "role": "Sahabat",
    "t": 2383,
    "context": "Tidak bersama Nabi SAW ke Taif, kerana dipukul teruk sebelum itu apabila menyelamatkan Nabi SAW yang dijerut kain."
   },
   {
    "id": "p9",
-   "name": "Utbah dan Syaibah bin Rabi'ah",
+   "name": "Utbah bin Rabi'ah",
+   "person": "utbah-bin-rabiah",
+   "role": "Pembesar Quraisy",
+   "t": 2734,
+   "context": "Berada di kebun keluarga di Taif, merasa kasihan melihat Nabi SAW, dan menghantar Addas dengan anggur. Kemudian terbunuh di Badar."
+  },
+  {
+   "id": "p19",
+   "name": "Syaibah bin Rabi'ah",
+   "person": "syaibah-bin-rabiah",
    "role": "Pembesar Quraisy",
    "t": 2734,
    "context": "Berada di kebun keluarga di Taif, merasa kasihan melihat Nabi SAW, dan menghantar Addas dengan anggur. Kemudian terbunuh di Badar."
@@ -470,6 +512,7 @@
   {
    "id": "p10",
    "name": "Addas",
+   "person": "adas",
    "role": "Hamba beragama Kristian dari Nineveh",
    "t": 2741,
    "context": "Mendengar 'Bismillah', mengenali Nabi Yunus, mencium tangan dan kaki Nabi SAW, dan menurut ustaz orang pertama memeluk Islam di Taif."
@@ -477,13 +520,23 @@
   {
    "id": "p11",
    "name": "Nabi Yunus AS",
+   "person": "yunus",
    "role": "Nabi",
    "t": 3217,
    "context": "Nabi SAW menyebut 'saudaraku'. Kisahnya dalam Al-Qalam menenangkan Baginda, dan doanya, doa Dzun-Nun, mirip doa Nabi SAW di Taif."
   },
   {
    "id": "p12",
-   "name": "Jibril AS dan malaikat gunung",
+   "name": "Jibril AS",
+   "person": "jibril",
+   "role": "Malaikat",
+   "t": 3453,
+   "context": "Menawarkan menghimpit dua gunung ke atas Taif, tetapi Nabi SAW menolak."
+  },
+  {
+   "id": "p20",
+   "name": "Malaikat gunung",
+   "person": "malaikat-gunung",
    "role": "Malaikat",
    "t": 3453,
    "context": "Menawarkan menghimpit dua gunung ke atas Taif, tetapi Nabi SAW menolak."
@@ -491,13 +544,23 @@
   {
    "id": "p14",
    "name": "Abdullah bin Abbas RA",
+   "person": "abdullah-bin-abbas",
    "role": "Sahabat, sepupu Nabi SAW",
    "t": 3747,
    "context": "Antara sahabat paling alim, berpindah ke Taif dan mengajar ribuan tabiin. Masjidnya masih ada di Taif."
   },
   {
    "id": "p15",
-   "name": "Mughirah bin Shu'bah dan Urwah Ath-Thaqafi",
+   "name": "Mughirah bin Shu'bah",
+   "person": "mughirah-bin-shubah",
+   "role": "Tokoh Taif yang memeluk Islam",
+   "t": 4544,
+   "context": "Mughirah dihantar merobohkan berhala Lat, dan menyindir orang yang menyangka ia akan membalas."
+  },
+  {
+   "id": "p21",
+   "name": "Urwah Ath-Thaqafi",
+   "person": "urwah-ath-thaqafi",
    "role": "Tokoh Taif yang memeluk Islam",
    "t": 4544,
    "context": "Mughirah dihantar merobohkan berhala Lat, dan menyindir orang yang menyangka ia akan membalas."

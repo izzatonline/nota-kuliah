@@ -209,6 +209,7 @@
   {
    "id": "p1",
    "name": "Najasyi",
+   "person": "najasyi",
    "role": "Raja Habsyah",
    "t": 338,
    "context": "Raja Kristian yang adil, mendengar sebelum menghukum dan kemudian memeluk Islam secara rahsia."
@@ -216,6 +217,7 @@
   {
    "id": "p2",
    "name": "Jaafar bin Abu Talib",
+   "person": "jafar-bin-abi-talib",
    "role": "Sepupu Nabi SAW dan ketua sahabat di Habsyah",
    "t": 432,
    "context": "Pemidato handal yang merumuskan keadaan jahiliah kepada Najasyi."
@@ -223,6 +225,7 @@
   {
    "id": "p3",
    "name": "Ibn Abbas",
+   "person": "abdullah-bin-abbas",
    "role": "Sahabat dan pakar tafsir",
    "t": 709,
    "context": "Menasihatkan membaca Al-An'am ayat 130 untuk memahami jahiliah."
@@ -230,6 +233,7 @@
   {
    "id": "p4",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Isteri Nabi SAW",
    "t": 1038,
    "context": "Menyebut pengharaman dibuat beransur kerana arak sebahagian gaya hidup; juga menyebut Zaid tinggi kedudukannya."
@@ -237,6 +241,7 @@
   {
    "id": "p5",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 1892,
    "context": "Meminta atau menerima hamba melalui Hakim bin Hizam dan menghadiahkan Zaid kepada Nabi SAW."
@@ -244,6 +249,7 @@
   {
    "id": "p6",
    "name": "Hakim bin Hizam",
+   "person": "hakim-bin-hizam",
    "role": "Anak saudara Khadijah dan peniaga dermawan",
    "t": 1896,
    "context": "Dilahirkan di dalam Kaabah, hidup 120 tahun, membeli Zaid di Ukaz dan memeluk Islam pada usia 60 tahun."
@@ -251,6 +257,7 @@
   {
    "id": "p7",
    "name": "Zaid bin Harithah",
+   "person": "zaid-bin-harithah",
    "role": "Anak angkat Nabi SAW",
    "t": 1917,
    "context": "Diculik ketika kecil, dijual sebagai hamba, memilih kekal bersama Nabi SAW dan diisytiharkan sebagai Zaid bin Muhammad."
@@ -258,6 +265,7 @@
   {
    "id": "p9",
    "name": "Ummu Aiman",
+   "person": "ummu-aiman",
    "role": "Pengasuh Nabi SAW",
    "t": 1934,
    "context": "Disebut sebagai contoh hamba berketurunan Habsyah."
@@ -265,6 +273,7 @@
   {
    "id": "p10",
    "name": "Bilal",
+   "person": "bilal-bin-rabah",
    "role": "Sahabat",
    "t": 1934,
    "context": "Disebut sebagai contoh hamba berketurunan Habsyah."
@@ -272,6 +281,7 @@
   {
    "id": "p11",
    "name": "Khabbab",
+   "person": "khabbab-bin-al-arat",
    "role": "Sahabat",
    "t": 1938,
    "context": "Disebut sebagai contoh hamba berketurunan Habsyah."
@@ -279,6 +289,7 @@
   {
    "id": "p8",
    "name": "Harithah",
+   "person": "harithah-ayah-zaid",
    "role": "Ayah Zaid",
    "t": 2281,
    "context": "Mencari anaknya bertahun-tahun dengan syair dan akhirnya menemui Nabi SAW."

@@ -427,6 +427,7 @@
   {
    "id": "p1",
    "name": "Abdullah Ibn Abbas RA",
+   "person": "abdullah-bin-abbas",
    "role": "Sahabat, sepupu Nabi SAW",
    "t": 524,
    "context": "Perawi hadis utama kisah ini; kecil ketika di Mekah, didoakan Nabi menjadi faqih dan pakar tafsir, dan kemudian menjadikan Taif pusat mengajar."
@@ -434,6 +435,7 @@
   {
    "id": "p2",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Musuh Nabi",
    "t": 822,
    "context": "Orang pertama yang menghampiri Nabi pagi itu dan mengumpulkan Quraish; ustaz menegaskan dia bijak dan licik, bukan bodoh."
@@ -441,6 +443,7 @@
   {
    "id": "p6",
    "name": "Aqil",
+   "person": "aqil-bin-abi-talib",
    "role": "Anak Abu Talib",
    "t": 1220,
    "context": "Baitul Maqdis diperlihatkan kepada Nabi sehingga diletakkan di hadapan rumahnya."
@@ -448,6 +451,7 @@
   {
    "id": "p7",
    "name": "Ibn Ishaq",
+   "person": "ibn-ishaq",
    "role": "Penulis sirah",
    "t": 1501,
    "context": "Lahir tahun 85 Hijrah dan penulis sirah paling terkenal; karyanya mengandungi riwayat kuat dan lemah."
@@ -455,6 +459,7 @@
   {
    "id": "p5",
    "name": "Ummu Hani",
+   "person": "ummu-hani",
    "role": "Anak perempuan Abu Talib",
    "t": 1530,
    "context": "Sumber riwayat Ibn Ishaq tentang peristiwa ini; riwayat itu terputus dan lemah."
@@ -462,6 +467,7 @@
   {
    "id": "p3",
    "name": "Abu Bakar As-Siddiq RA",
+   "person": "abu-bakar",
    "role": "Sahabat karib Nabi SAW",
    "t": 2181,
    "context": "Membenarkan Nabi tanpa ragu ketika Quraish mendustakan, dan digelar As-Siddiq."
@@ -469,6 +475,7 @@
   {
    "id": "p11",
    "name": "Hamka",
+   "person": "hamka",
    "role": "Ulama dan penulis",
    "t": 2776,
    "context": "Pengarang Peribadi Hebat yang menggabungkan petikan falsafah dengan hadis Nabi."
@@ -476,6 +483,7 @@
   {
    "id": "p12",
    "name": "Imam Malik",
+   "person": "imam-malik",
    "role": "Imam mazhab",
    "t": 3491,
    "context": "Menyatakan semua perkataan boleh diambil dan ditinggalkan kecuali Nabi SAW, dan menolak muwatta' dijadikan perlembagaan."
@@ -483,6 +491,7 @@
   {
    "id": "p13",
    "name": "Imam Syafi'i",
+   "person": "imam-syafii",
    "role": "Imam mazhab",
    "t": 3527,
    "context": "Berpesan supaya pendapatnya dicampak ke dinding jika bercanggah dengan hadis Nabi."
@@ -490,6 +499,7 @@
   {
    "id": "p9",
    "name": "Umar bin Abdul Aziz",
+   "person": "umar-bin-abdul-aziz",
    "role": "Tabiin, khalifah",
    "t": 3699,
    "context": "Melewatkan asar, lalu Urwah mengingatkannya tentang Jibril menjadi imam, dan dia meminta Urwah memastikan sanadnya."
@@ -497,6 +507,7 @@
   {
    "id": "p10",
    "name": "Urwah",
+   "person": "urwah-bin-az-zubair",
    "role": "Perawi",
    "t": 3710,
    "context": "Menyampaikan hadis Jibril menjadi imam kepada Umar bin Abdul Aziz melalui Bashir bin Abi Mas'ud."
@@ -504,6 +515,7 @@
   {
    "id": "p8",
    "name": "Al-Walid bin Mughirah",
+   "person": "al-walid-bin-al-mughirah",
    "role": "Tokoh Quraish",
    "t": 4134,
    "context": "Bapa Khalid bin Walid dan perancang kempen menentang Nabi yang dirakam dalam Quran."
@@ -511,6 +523,7 @@
   {
    "id": "p4",
    "name": "Mut'im bin Adi",
+   "person": "mutim-bin-adi",
    "role": "Pelindung Nabi dari kalangan Quraish",
    "t": 4175,
    "context": "Dalam riwayat tidak sahih, dia menarik perlindungannya selepas Nabi menceritakan Isra'."
@@ -518,6 +531,7 @@
   {
    "id": "p15",
    "name": "Abdullah bin Salam",
+   "person": "abdullah-bin-salam",
    "role": "Sahabat dari kalangan Yahudi",
    "t": 5130,
    "context": "Disebut sebagai contoh orang yang berani tidak disukai: dia memeluk Islam walaupun kehilangan kedudukannya."
@@ -525,6 +539,7 @@
   {
    "id": "p14",
    "name": "Umar Al-Khattab RA",
+   "person": "umar-al-khattab",
    "role": "Sahabat, khalifah",
    "t": 5441,
    "context": "Kelak membuka Baitul Maqdis dan membersihkan Masjid Al-Aqsa yang dijadikan tempat sampah."

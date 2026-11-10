@@ -212,6 +212,7 @@
   {
    "id": "p9",
    "name": "Umar bin Al-Khattab",
+   "person": "umar-al-khattab",
    "role": "Sahabat Nabi SAW",
    "t": 0,
    "context": "Berkata kepada Hajar Aswad bahawa ia hanya batu."
@@ -219,6 +220,7 @@
   {
    "id": "p1",
    "name": "Zaid bin Amr bin Nufail",
+   "person": "zaid-bin-amr-bin-nufail",
    "role": "Pencari tauhid sebelum kenabian",
    "t": 113,
    "context": "Dirompak dan dibunuh dalam perjalanan pulang, lima tahun sebelum Nabi SAW diutus."
@@ -226,6 +228,7 @@
   {
    "id": "p3",
    "name": "Abdullah",
+   "person": "abdullah-anak-nabi",
    "role": "Anak lelaki Nabi SAW",
    "t": 337,
    "context": "Meninggal ketika baru lahir dan disambut dengan ejekan 'terputus' oleh pakcik-pakcik Nabi."
@@ -233,6 +236,7 @@
   {
    "id": "p2",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 384,
    "context": "Kelak menyokong Nabi SAW ketika wahyu, berasaskan hubungan kukuh sepuluh tahun."
@@ -240,6 +244,7 @@
   {
    "id": "p4",
    "name": "Hakim bin Hizam",
+   "person": "hakim-bin-hizam",
    "role": "Dilahirkan dalam Kaabah",
    "t": 716,
    "context": "Contoh bahawa orang boleh masuk Kaabah kerana pintunya rendah."
@@ -247,6 +252,7 @@
   {
    "id": "p5",
    "name": "Bakum",
+   "person": "bakum",
    "role": "Arkitek dari Rom",
    "t": 1002,
    "context": "Dihantar membina gereja di Yaman tetapi diupah untuk membina semula Kaabah."
@@ -254,6 +260,7 @@
   {
    "id": "p6",
    "name": "Al-Walid bin Al-Mughirah",
+   "person": "al-walid-bin-al-mughirah",
    "role": "Pemimpin Quraish yang paling senior",
    "t": 1147,
    "context": "Orang pertama merobohkan dinding Kaabah selepas berdoa."
@@ -261,6 +268,7 @@
   {
    "id": "p7",
    "name": "Al-Abbas",
+   "person": "abbas-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW",
    "t": 1253,
    "context": "Dalam riwayat membuka kain, menyuruh Nabi SAW melakukan perkara yang sama."
@@ -268,6 +276,7 @@
   {
    "id": "p8",
    "name": "Umayyah bin Al-Mughirah",
+   "person": "umayyah-bin-al-mughirah",
    "role": "Pemimpin Quraish",
    "t": 1433,
    "context": "Mencadangkan keputusan diserahkan kepada lelaki pertama masuk dari pintu As-Safa."
@@ -275,6 +284,7 @@
   {
    "id": "p10",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Isteri Nabi SAW",
    "t": 2140,
    "context": "Mendengar Nabi SAW menyatakan keinginan membina Kaabah mengikut saiz Ibrahim."
@@ -282,6 +292,7 @@
   {
    "id": "p11",
    "name": "Bilal bin Rabah",
+   "person": "bilal-bin-rabah",
    "role": "Muazin Nabi SAW",
    "t": 2178,
    "context": "Azan di atas Kaabah selepas Fathu Makkah menunjukkan tiada perbezaan kulit dan latar belakang."

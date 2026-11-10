@@ -184,6 +184,7 @@
   {
    "id": "p1",
    "name": "Abu Talib (Abdul Manaf bin Abdul Muttalib)",
+   "person": "abu-talib",
    "role": "Bapa saudara yang menjaga Nabi SAW",
    "t": 720,
    "context": "Menjaga Nabi SAW sejak usia lapan tahun, menyediakan tanah untuk kem boikot, tetapi wafat tanpa mengucap syahadah."
@@ -191,6 +192,7 @@
   {
    "id": "p2",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Pembesar Quraisy",
    "t": 776,
    "context": "Hadir menziarahi Abu Talib dan menyindirnya supaya tidak meninggalkan agama nenek moyang."
@@ -198,6 +200,7 @@
   {
    "id": "p3",
    "name": "Abu Sufyan",
+   "person": "abu-sufyan",
    "role": "Pembesar Quraisy",
    "t": 776,
    "context": "Turut hadir dan menghasut Abu Talib."
@@ -205,6 +208,7 @@
   {
    "id": "p4",
    "name": "Ali RA",
+   "person": "ali-bin-abi-talib",
    "role": "Anak Abu Talib, sahabat Nabi SAW",
    "t": 867,
    "context": "Memeluk Islam pada usia tujuh tahun, memberitahu bapanya, dan menguruskan jenazahnya atas arahan Nabi SAW."
@@ -212,6 +216,7 @@
   {
    "id": "p5",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 961,
    "context": "Menenangkan Nabi SAW setiap hari, sakit akibat boikot, dan wafat sebelum solat lima waktu disyariatkan."
@@ -219,6 +224,7 @@
   {
    "id": "p6",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat penyampai wahyu",
    "t": 1083,
    "context": "Menyampaikan salam Allah kepada Khadijah dan khabar istana mutiara."
@@ -226,6 +232,7 @@
   {
    "id": "p9",
    "name": "Ruqayyah RA",
+   "person": "ruqayyah",
    "role": "Anak perempuan Nabi SAW",
    "t": 1334,
    "context": "Berada di Habsyah."
@@ -233,6 +240,7 @@
   {
    "id": "p10",
    "name": "Zainab RA",
+   "person": "zainab-binti-muhammad",
    "role": "Anak sulung Nabi SAW",
    "t": 1350,
    "context": "Berkahwin dengan Abul As."
@@ -240,6 +248,7 @@
   {
    "id": "p7",
    "name": "Fatimah RA",
+   "person": "fatimah-az-zahra",
    "role": "Anak perempuan Nabi SAW",
    "t": 1397,
    "context": "Masih kecil, kira-kira sembilan atau sepuluh tahun, ketika ibunya wafat."
@@ -247,6 +256,7 @@
   {
    "id": "p8",
    "name": "Ummu Kulthum RA",
+   "person": "ummu-kulthum",
    "role": "Anak perempuan Nabi SAW",
    "t": 1662,
    "context": "Tinggal di rumah bersama Fatimah, kira-kira dua tahun lebih tua."
@@ -254,6 +264,7 @@
   {
    "id": "p11",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Isteri Nabi SAW",
    "t": 1722,
    "context": "Bertanya mengapa Nabi SAW sentiasa menyebut Khadijah."

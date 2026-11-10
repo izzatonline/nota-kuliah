@@ -110,12 +110,12 @@
   },
   {
    "id": "p7",
-   "role": "Sons of Abu Lahab",
+   "role": "Son of Abu Lahab",
    "context": "Divorced Ruqayyah and Umm Kulthum at their father's order; Utaybah was later killed by a lion."
   },
   {
    "id": "p8",
-   "role": "Daughters of the Prophet SAW",
+   "role": "Daughter of the Prophet SAW",
    "context": "Married to Abu Lahab's sons and then divorced."
   },
   {
@@ -127,6 +127,16 @@
    "id": "p10",
    "role": "Quraysh gangster",
    "context": "Mentioned among the Prophet's SAW enemies but his fate was not decided there."
+  },
+  {
+   "id": "p11",
+   "role": "Son of Abu Lahab",
+   "context": "Divorced Ruqayyah and Umm Kulthum at their father's order; Utaybah was later killed by a lion."
+  },
+  {
+   "id": "p12",
+   "role": "Daughter of the Prophet SAW",
+   "context": "Married to Abu Lahab's sons and then divorced."
   }
  ],
  "lessons": [

@@ -271,6 +271,7 @@
   {
    "id": "p1",
    "name": "Ibn Qayyim Al-Jawziah",
+   "person": "ibn-qayyim",
    "role": "Ulama",
    "t": 21,
    "context": "Dirujuk tentang nasab Nabi SAW yang direkodkan sampai Adnan."
@@ -278,6 +279,7 @@
   {
    "id": "p2",
    "name": "Fihir",
+   "person": "fihir",
    "role": "Tokoh Quraish",
    "t": 132,
    "context": "Melakukan reformasi politik dan merebut kuasa daripada Khuza'ah; daripadanya bermula nama Quraish."
@@ -285,6 +287,7 @@
   {
    "id": "p3",
    "name": "Hashim (Amr bin Abdul Manaf)",
+   "person": "hashim",
    "role": "Moyang Nabi SAW",
    "t": 187,
    "context": "Menjaga makan minum jemaah haji, membuka perjanjian ilaf dan dua perjalanan dagang yang mengubah ekonomi Mekah."
@@ -292,6 +295,7 @@
   {
    "id": "p11",
    "name": "Dr. Yasir Qadhi",
+   "person": "yasir-qadhi",
    "role": "Pakar sirah",
    "t": 569,
    "context": "Ustaz berjumpa dengannya di Istanbul dan mencadangkan videonya tentang sejarah Bangladesh."
@@ -299,6 +303,7 @@
   {
    "id": "p4",
    "name": "Salma binti Amr",
+   "person": "salma-binti-amr",
    "role": "Isteri Hashim dari Yathrib",
    "t": 923,
    "context": "Ibu Syaibah; kerana dia, Madinah ialah bandar keluarga sebelah ibu moyang Nabi SAW."
@@ -306,6 +311,7 @@
   {
    "id": "p5",
    "name": "Al-Muttalib",
+   "person": "al-muttalib",
    "role": "Adik Hashim",
    "t": 1148,
    "context": "Membawa pulang Syaibah dari Yathrib ke Mekah; dari sinilah nama Abdul Muttalib bermula."
@@ -313,6 +319,7 @@
   {
    "id": "p6",
    "name": "Abdul Muttalib (Syaibah bin Hashim)",
+   "person": "abdul-muttalib",
    "role": "Datuk Nabi SAW",
    "t": 1167,
    "context": "Menemui semula zam-zam, bernazar menyembelih anak, dan berkarisma luar biasa yang diwarisi Nabi SAW."
@@ -320,6 +327,7 @@
   {
    "id": "p7",
    "name": "Abdullah bin Abdul Muttalib",
+   "person": "abdullah-bin-abdul-muttalib",
    "role": "Bapa Nabi SAW",
    "t": 1713,
    "context": "Anak yang hampir disembelih kerana nazar, berkahwin dengan Aminah dan meninggal di Yathrib."
@@ -327,6 +335,7 @@
   {
    "id": "p8",
    "name": "Aminah",
+   "person": "aminah",
    "role": "Ibu Nabi SAW",
    "t": 1907,
    "context": "Dinyatakan Ibn Qayyim sebagai wanita Arab yang paling mulia keturunannya pada masa itu."
@@ -334,6 +343,7 @@
   {
    "id": "p9",
    "name": "Wuhaib",
+   "person": "wuhaib",
    "role": "Bapa saudara Aminah",
    "t": 1917,
    "context": "Menjaga Aminah selepas bapanya Wahab meninggal dan menerima lamaran untuk Abdullah."
@@ -341,6 +351,7 @@
   {
    "id": "p10",
    "name": "Hala",
+   "person": "hala-binti-wuhaib",
    "role": "Isteri Abdul Muttalib",
    "t": 1950,
    "context": "Dikahwinkan dengan Abdul Muttalib pada masa yang sama; daripada mereka lahir Hamzah RA."

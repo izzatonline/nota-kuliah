@@ -369,6 +369,7 @@
   {
    "id": "p1",
    "name": "Hashim bin Abdul Manaf",
+   "person": "hashim",
    "role": "Moyang Nabi SAW",
    "t": 230,
    "context": "Mencari penyelesaian kemiskinan Quraish dengan laluan dagang musim sejuk dan panas."
@@ -376,6 +377,7 @@
   {
    "id": "p2",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Perawi hadis permulaan wahyu",
    "t": 473,
    "context": "Meriwayatkan peristiwa itu daripada Nabi SAW."
@@ -383,6 +385,7 @@
   {
    "id": "p6",
    "name": "Zaid bin Amr bin Nufail",
+   "person": "zaid-bin-amr-bin-nufail",
    "role": "Penganut hanif",
    "t": 565,
    "context": "Sujud depan Kaabah tanpa tahu cara ibadah yang betul."
@@ -390,6 +393,7 @@
   {
    "id": "p12",
    "name": "Muhammad Quraish Shihab",
+   "person": "quraish-shihab",
    "role": "Penulis dan ulama Indonesia",
    "t": 1147,
    "context": "Menjelaskan ummi sebagai kelebihan dan formula pemimpin."
@@ -397,6 +401,7 @@
   {
    "id": "p11",
    "name": "Imam Al-Bukhari",
+   "person": "imam-bukhari",
    "role": "Imam hadis",
    "t": 1230,
    "context": "Diuji hafalan dan kelak dihalau dari kotanya."
@@ -404,6 +409,7 @@
   {
    "id": "p17",
    "name": "Suhail bin Amr",
+   "person": "suhail-bin-amr",
    "role": "Wakil Quraish di Hudaybiyah",
    "t": 1382,
    "context": "Meminta perkataan 'Rasulullah' dipadam dalam perjanjian."
@@ -411,6 +417,7 @@
   {
    "id": "p3",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 2679,
    "context": "Menenangkan Nabi SAW, memuji akhlaknya dan membawa baginda kepada Waraqah."
@@ -418,6 +425,7 @@
   {
    "id": "p7",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 2701,
    "context": "Figura bapa yang sepatutnya didatangi Nabi SAW, tetapi baginda memilih Khadijah."
@@ -425,6 +433,7 @@
   {
    "id": "p8",
    "name": "Abu Bakar",
+   "person": "abu-bakar",
    "role": "Sahabat karib",
    "t": 2707,
    "context": "Antara orang yang boleh didatangi tetapi Nabi SAW memilih Khadijah."
@@ -432,6 +441,7 @@
   {
    "id": "p9",
    "name": "Muhammad Al-Arifi",
+   "person": "muhammad-al-arifi",
    "role": "Syekh dari Arab Saudi",
    "t": 2885,
    "context": "Menyatakan Nabi SAW seorang yang paling berani, lebih berani daripada Umar."
@@ -439,6 +449,7 @@
   {
    "id": "p10",
    "name": "Ali bin Abi Talib",
+   "person": "ali-bin-abi-talib",
    "role": "Sahabat",
    "t": 2974,
    "context": "Menyebut Nabi SAW berada paling dekat dengan pedang musuh di medan perang."
@@ -446,6 +457,7 @@
   {
    "id": "p14",
    "name": "Haji Agus Salim",
+   "person": "haji-agus-salim",
    "role": "Pejuang kemerdekaan Indonesia",
    "t": 3594,
    "context": "Dinisbahkan kata-kata 'memimpin itu menderita'."
@@ -453,6 +465,7 @@
   {
    "id": "p15",
    "name": "Hamka",
+   "person": "hamka",
    "role": "Ulama dan pemimpin Indonesia",
    "t": 3854,
    "context": "Setiap hari menerima orang yang datang bertanya dan meminta tolong di berandanya."
@@ -460,6 +473,7 @@
   {
    "id": "p13",
    "name": "Yasir Qadhi",
+   "person": "yasir-qadhi",
    "role": "Penulis sirah",
    "t": 3956,
    "context": "Pengarang The Seerah of the Prophet yang menyebut Adas."
@@ -467,6 +481,7 @@
   {
    "id": "p5",
    "name": "Adas",
+   "person": "adas",
    "role": "Hamba Kristian dari wilayah Rom",
    "t": 3999,
    "context": "Menurut sebuah buku, Khadijah pernah bertemu Adas, yang kemudian menghidangkan anggur kepada Nabi SAW di Taif."
@@ -474,6 +489,7 @@
   {
    "id": "p4",
    "name": "Waraqah bin Naufal",
+   "person": "waraqah-bin-naufal",
    "role": "Sepupu Khadijah dan penterjemah kitab",
    "t": 4057,
    "context": "Mengesahkan namus yang turun kepada Musa dan memberi amaran Nabi SAW akan dihalau."
@@ -481,6 +497,7 @@
   {
    "id": "p16",
    "name": "Gabor Maté",
+   "person": "gabor-mate",
    "role": "Pakar psikiatri dan penyintas Holocaust",
    "t": 4764,
    "context": "Menyesal tidak menyatakan pendapat yang diyakininya kerana takut dikecam."

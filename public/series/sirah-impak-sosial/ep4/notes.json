@@ -291,6 +291,7 @@
   {
    "id": "p1",
    "name": "Abraha",
+   "person": "abraha",
    "role": "Penguasa Yaman",
    "t": 13,
    "context": "Seorang visionary yang merampas kuasa di Yaman, membina gereja Kulais dan menghantar tentera bergajah untuk merobohkan Kaabah."
@@ -298,6 +299,7 @@
   {
    "id": "p2",
    "name": "Najasyi",
+   "person": "najasyi",
    "role": "Raja Habsyah",
    "t": 388,
    "context": "Raja yang Yaman berada di bawah pemantauannya; dipujuk Abraha lalu menghantar tentera dan gajah."
@@ -305,6 +307,7 @@
   {
    "id": "p9",
    "name": "Sultan Muhammad Al-Fatih",
+   "person": "sultan-muhammad-al-fatih",
    "role": "Pembuka Konstantinopel",
    "t": 510,
    "context": "Disebut untuk menunjukkan betapa kuatnya kubu Konstantinopel yang menaungi Najasyi."
@@ -312,6 +315,7 @@
   {
    "id": "p6",
    "name": "Ibn Kathir",
+   "person": "ibn-kathir",
    "role": "Ulama sejarah dan tafsir",
    "t": 557,
    "context": "Dirujuk tentang kejadian mengotorkan Kulais."
@@ -326,6 +330,7 @@
   {
    "id": "p3",
    "name": "Abu Righal",
+   "person": "abu-righal",
    "role": "Penunjuk jalan dari Taif",
    "t": 961,
    "context": "Dihantar penduduk Taif menunjukkan jalan kepada Abraha; kuburnya dijadikan tempat membuang air oleh orang Arab."
@@ -333,6 +338,7 @@
   {
    "id": "p4",
    "name": "Abdul Muttalib",
+   "person": "abdul-muttalib",
    "role": "Ketua Quraish, datuk Nabi SAW",
    "t": 1135,
    "context": "Dimuliakan Abraha dengan auranya, hanya meminta semula dua ratus untanya, dan berdoa di pintu Kaabah."
@@ -340,6 +346,7 @@
   {
    "id": "p7",
    "name": "Hamka",
+   "person": "hamka",
    "role": "Ulama dan penulis",
    "t": 1502,
    "context": "Dipetik ustaz tentang riwayat batu yang direndam dalam neraka."
@@ -347,6 +354,7 @@
   {
    "id": "p8",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Ummul Mu'minin",
    "t": 1642,
    "context": "Meriwayatkan bahawa beliau masih ingat seorang pengemis buta yang pernah menjadi pembantu pemandu gajah."

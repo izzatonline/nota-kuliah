@@ -268,6 +268,7 @@
   {
    "id": "p1",
    "name": "Muhammad Akram Nadwi",
+   "person": "muhammad-akram-nadwi",
    "role": "Ulama dari India",
    "t": 200,
    "context": "Pengarang Al-Mufassal dan kitab perawi hadis wanita."
@@ -275,6 +276,7 @@
   {
    "id": "p2",
    "name": "Muhammad Al-Ghazali",
+   "person": "muhammad-al-ghazali",
    "role": "Ulama Mesir",
    "t": 530,
    "context": "Penulis Fiqh As-Sirah."
@@ -282,6 +284,7 @@
   {
    "id": "p3",
    "name": "Tariq Suwaidan",
+   "person": "tariq-suwaidan",
    "role": "Pengajar sirah",
    "t": 602,
    "context": "Mengajar sirah tujuh kali dan mencari nama sahabat."
@@ -289,6 +292,7 @@
   {
    "id": "p4",
    "name": "Akbar",
+   "person": "akbar",
    "role": "Maharaja Mughal",
    "t": 836,
    "context": "Dengan kuasa besar mengeluarkan dasar tidak menyembelih lembu pada hari raya untuk menjaga sensitiviti."
@@ -296,6 +300,7 @@
   {
    "id": "p5",
    "name": "Muhammad Balangkaya",
+   "person": "muhammad-balangkaya",
    "role": "Arkitek",
    "t": 1126,
    "context": "Dikatakan membina semula Colombo Grand Mosque pada 1820-an."
@@ -303,6 +308,7 @@
   {
    "id": "p6",
    "name": "Hamka",
+   "person": "hamka",
    "role": "Ulama dan penulis Indonesia",
    "t": 1156,
    "context": "Menulis buku sempena kemerdekaan Malaya dan ucapan kepada Nabi SAW."
@@ -310,6 +316,7 @@
   {
    "id": "p14",
    "name": "Ali bin Abi Talib",
+   "person": "ali-bin-abi-talib",
    "role": "Anak Abu Talib",
    "t": 2899,
    "context": "Diikuti Abu Talib dengan membenarkan Ali mengikut Nabi SAW."
@@ -317,6 +324,7 @@
   {
    "id": "p13",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 2987,
    "context": "Menyerap tekanan Nabi SAW setiap hari dan memberikan hartanya."
@@ -324,6 +332,7 @@
   {
    "id": "p8",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW",
    "t": 3043,
    "context": "Pakcik yang paling menyakiti Nabi SAW."
@@ -331,6 +340,7 @@
   {
    "id": "p9",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara dan pelindung Nabi SAW",
    "t": 3048,
    "context": "Didesak berhenti melindungi tetapi memperbaharui tekad."
@@ -338,6 +348,7 @@
   {
    "id": "p10",
    "name": "Fatimah binti Asad",
+   "person": "fatimah-binti-asad",
    "role": "Isteri Abu Talib",
    "t": 3074,
    "context": "Memeluk Islam dan menjaga Nabi SAW."
@@ -345,6 +356,7 @@
   {
    "id": "p7",
    "name": "Ummu Jamil",
+   "person": "ummu-jamil",
    "role": "Isteri Abu Lahab",
    "t": 3087,
    "context": "Mengganggu Nabi SAW sepenuh masa dan memanggilnya Mudzammam."
@@ -352,6 +364,7 @@
   {
    "id": "p11",
    "name": "Uthman bin Affan",
+   "person": "uthman-bin-affan",
    "role": "Sahabat",
    "t": 3441,
    "context": "Diikat dan dikurung kerana Islamnya."
@@ -359,6 +372,7 @@
   {
    "id": "p12",
    "name": "Naufal bin Khuwailid",
+   "person": "naufal-bin-khuwailid",
    "role": "Adik Khadijah",
    "t": 3460,
    "context": "Mengikat dan memukul Abu Bakar dan Talhah."
@@ -366,6 +380,7 @@
   {
    "id": "p15",
    "name": "Ja'far bin Abi Talib",
+   "person": "jafar-bin-abi-talib",
    "role": "Anak Abu Talib",
    "t": 4034,
    "context": "Hijrah ke Habsyah walaupun bapanya melindungi Nabi SAW, akan dianalisis kemudian."

@@ -404,6 +404,7 @@
   {
    "id": "p1",
    "name": "Khadijah binti Khuwaylid RA",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW, Ummul Mukminin",
    "t": 40,
    "context": "Insan pertama yang menikahi dan mempercayai Nabi SAW, menanggung boikot dan wafat pada Ramadan tahun ke-10 Kenabian."
@@ -411,6 +412,7 @@
   {
    "id": "p2",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 244,
    "context": "Kematiannya di Mekah diulang kaji sebagai asal kesedihan sebelum Khadijah."
@@ -418,6 +420,7 @@
   {
    "id": "p3",
    "name": "Datuk Dr. Madeline Berma",
+   "person": "madeline-berma",
    "role": "Mentor ustaz, pakar ekonomi dan pejuang golongan miskin",
    "t": 290,
    "context": "Perbualan terakhir bersama ustaz meninggalkan pesanan agar tidak menjadikan orang miskin batu loncatan."
@@ -425,6 +428,7 @@
   {
    "id": "p5",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Isteri Nabi SAW",
    "t": 1215,
    "context": "Cemburu kepada Khadijah tetapi menceritakan sendiri semua kisah itu supaya kita belajar tentang kesetiaan Nabi."
@@ -432,6 +436,7 @@
   {
    "id": "p6",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat penyampai wahyu",
    "t": 1375,
    "context": "Membawa salam Allah dan khabar gembira rumah mutiara kepada Khadijah."
@@ -439,6 +444,7 @@
   {
    "id": "p4",
    "name": "Hakim ibn Hizam",
+   "person": "hakim-bin-hizam",
    "role": "Anak saudara Khadijah",
    "t": 1668,
    "context": "Dilahirkan di dalam Kaabah, menghantar bekalan semasa boikot dan meriwayatkan pengebumian Khadijah."
@@ -446,6 +452,7 @@
   {
    "id": "p7",
    "name": "Khawlah binti Hakim",
+   "person": "khawlah-binti-hakim",
    "role": "Wanita yang mencari pasangan untuk orang bujang",
    "t": 1927,
    "context": "Berbual dengan Nabi SAW yang sedih selepas wafat Khadijah dan akan berperanan dalam episod seterusnya."
@@ -453,6 +460,7 @@
   {
    "id": "p8",
    "name": "Muhammad Al-Sharif",
+   "person": "muhammad-al-sharif",
    "role": "Syekh dan guru ustaz",
    "t": 2131,
    "context": "Berpesan agar tiada gambar atau video pada hari pengebumiannya di Dubai."
@@ -460,6 +468,7 @@
   {
    "id": "p11",
    "name": "Irfan Hamka",
+   "person": "irfan-hamka",
    "role": "Anak Buya Hamka dan penulis buku Ayah",
    "t": 2204,
    "context": "Menulis tentang ayahnya selepas wafat ibunya."
@@ -467,6 +476,7 @@
   {
    "id": "p10",
    "name": "Siti Raham",
+   "person": "siti-raham",
    "role": "Isteri Buya Hamka",
    "t": 2222,
    "context": "Berkahwin ketika berusia 16 tahun, lebih 50 tahun bersama Hamka dan dikurniakan 12 anak."
@@ -474,6 +484,7 @@
   {
    "id": "p9",
    "name": "Buya Hamka",
+   "person": "hamka",
    "role": "Ulama, sasterawan dan pejuang dari Indonesia",
    "t": 2231,
    "context": "Selepas isterinya wafat, beliau berhenti dari program, banyak mengaji dan menahan rindunya dengan solat taubat."
@@ -481,6 +492,7 @@
   {
    "id": "p12",
    "name": "Asma' Hussein",
+   "person": "asma-hussein",
    "role": "Penulis dua buku tentang kehilangan suami",
    "t": 2397,
    "context": "Suaminya ditembak ketika berhimpun aman di Mesir, dengan bayi berusia sembilan bulan."
@@ -488,6 +500,7 @@
   {
    "id": "p13",
    "name": "Zainab binti Muhammad SAW",
+   "person": "zainab-binti-muhammad",
    "role": "Anak Nabi SAW",
    "t": 2673,
    "context": "Menghantar rantai Khadijah sebagai tebusan suaminya Abul Az selepas Badar."
@@ -495,6 +508,7 @@
   {
    "id": "p14",
    "name": "Abul Az ibn Rabi'",
+   "person": "abul-as-bin-rabi",
    "role": "Menantu Nabi SAW",
    "t": 2679,
    "context": "Orang baik yang ikut ke Badar tanpa niat berperang, ditawan, lalu dibebaskan tanpa mengambil rantai itu dan kemudian masuk Islam."
@@ -502,6 +516,7 @@
   {
    "id": "p15",
    "name": "Mus'ab bin Umair RA",
+   "person": "musab-bin-umair",
    "role": "Sahabat",
    "t": 2734,
    "context": "Ketika Badar menekankan tebusan yang lebih mahal bagi abangnya yang ditawan, menunjukkan kesetiaan kepada Nabi dan Islam."
@@ -509,6 +524,7 @@
   {
    "id": "p16",
    "name": "Hala binti Khuwaylid",
+   "person": "hala-binti-khuwailid",
    "role": "Adik Khadijah",
    "t": 2882,
    "context": "Suaranya sebiji dengan Khadijah sehingga Nabi SAW teruja, dan Aisyah rasa cemburu."
@@ -516,6 +532,7 @@
   {
    "id": "p17",
    "name": "Jathamah Al-Muzaniyah (Hassanah)",
+   "person": "jathamah-al-muzaniyah",
    "role": "Wanita tua yang diraikan Nabi SAW",
    "t": 2954,
    "context": "Dahulu sering menziarahi Nabi dan Khadijah, dan Nabi menukar namanya kepada Hassanah."
@@ -523,6 +540,7 @@
   {
    "id": "p18",
    "name": "Sa'ad bin Mu'adh RA",
+   "person": "saad-bin-muadh",
    "role": "Sahabat Ansar",
    "t": 3129,
    "context": "Jenazahnya diiringi 70,000 malaikat dan Nabi SAW mengenangnya ketika memakai pakaian indah."
@@ -530,6 +548,7 @@
   {
    "id": "p19",
    "name": "Abdul Rahman bin Auf RA",
+   "person": "abdurrahman-bin-auf",
    "role": "Sahabat",
    "t": 3164,
    "context": "Menangis apabila dihidangkan makanan mewah kerana mengenang Mus'ab bin Umair yang kafannya pun tidak cukup."
@@ -537,6 +556,7 @@
   {
    "id": "p20",
    "name": "Khabbab",
+   "person": "khabbab-bin-al-arat",
    "role": "Sahabat yang didera",
    "t": 3186,
    "context": "Bersedih melihat harta datang kerana kawan-kawan terdahulu tidak sempat merasainya."
@@ -544,6 +564,7 @@
   {
    "id": "p21",
    "name": "Bapak Habibie",
+   "person": "habibie",
    "role": "Bekas Perdana Menteri Indonesia",
    "t": 3624,
    "context": "Sangat mencintai isterinya Ainun dan sentiasa bercerita tentangnya selepas kematiannya."
@@ -551,6 +572,7 @@
   {
    "id": "p22",
    "name": "Ainun",
+   "person": "ainun",
    "role": "Isteri Bapak Habibie",
    "t": 3640,
    "context": "Menjadi nama dalam filem Habibie dan Ainun."
@@ -558,6 +580,7 @@
   {
    "id": "p23",
    "name": "Syekh Dr. Salman Al-Audah",
+   "person": "salman-al-audah",
    "role": "Ulama dan penulis",
    "t": 3731,
    "context": "Penulis buku refleksi sirah dengan satu bab tentang rumah yang tiada kebisingan dan keletihan."
@@ -565,6 +588,7 @@
   {
    "id": "p24",
    "name": "Zaid bin Harithah RA",
+   "person": "zaid-bin-harithah",
    "role": "Anak angkat Nabi SAW",
    "t": 4366,
    "context": "Dibawa Nabi ketika keluar dari Mekah selepas Tahun Kesedihan."

@@ -352,6 +352,7 @@
   {
    "id": "p1",
    "name": "Umar al-Khattab RA",
+   "person": "umar-al-khattab",
    "role": "Khalifah dan sahabat",
    "t": 119,
    "context": "Berdoa untuk mati syahid di Madinah, dan Allah mengaturnya apabila beliau ditikam ketika mengimamkan solat Subuh."
@@ -359,6 +360,7 @@
   {
    "id": "p2",
    "name": "Abu Lu'lu'ah al-Majusi",
+   "person": "abu-lulua-al-majusi",
    "role": "Orang yang menikam Umar RA",
    "t": 159,
    "context": "Umar RA bertanya adakah penikamnya Muslim, dan hatinya tenang apabila diberitahu dia seorang Majusi."
@@ -366,6 +368,7 @@
   {
    "id": "p3",
    "name": "Aminah",
+   "person": "aminah",
    "role": "Ibu Nabi SAW",
    "t": 381,
    "context": "Tidak berkahwin lagi selepas Abdullah dan menumpukan perhatian kepada Nabi SAW, sebelum wafat di Al-Abwa' ketika pulang dari Yathrib."
@@ -373,6 +376,7 @@
   {
    "id": "p4",
    "name": "Ummu Aiman",
+   "person": "ummu-aiman",
    "role": "Pengasuh Nabi SAW",
    "t": 431,
    "context": "Menemani Aminah dan Nabi SAW ke Yathrib, menenangkan baginda ketika Aminah wafat, dan ikut berpindah ke rumah Abu Talib."
@@ -380,6 +384,7 @@
   {
    "id": "p5",
    "name": "Abdul Muttalib",
+   "person": "abdul-muttalib",
    "role": "Datuk Nabi SAW",
    "t": 868,
    "context": "Menjaga Nabi SAW dengan teliti, membenarkannya duduk di kerusi khas, mendedahkannya kepada majlis pemimpin, dan berwasiat supaya Abu Talib menjaganya."
@@ -387,6 +392,7 @@
   {
    "id": "p15",
    "name": "Nabi Yusuf AS",
+   "person": "yusuf",
    "role": "Nabi",
    "t": 1150,
    "context": "Dijadikan contoh: pendedahan sebagai pembantu di rumah Al-Aziz membentuk kemampuannya menguruskan ekonomi."
@@ -394,6 +400,7 @@
   {
    "id": "p14",
    "name": "Halimah",
+   "person": "halimah",
    "role": "Ibu susuan Nabi SAW",
    "t": 1218,
    "context": "Antara yang menceritakan kematangan Nabi SAW melebihi usianya."
@@ -401,13 +408,23 @@
   {
    "id": "p16",
    "name": "Dr. Tariq Suwaidan",
+   "person": "tariq-suwaidan",
    "role": "Pengarang Ensiklopedia Sirah",
    "t": 1349,
    "context": "Berhujah bahawa enam tahun pertama dan keyatiman membentuk karakter pemimpin, dan membuka pusat asuhan berteraskan nilai kepimpinan."
   },
   {
    "id": "p13",
-   "name": "Al-Abbas dan Abu Lahab",
+   "name": "Al-Abbas",
+   "person": "abbas-bin-abdul-muttalib",
+   "role": "Bapa saudara Nabi SAW",
+   "t": 1466,
+   "context": "Lebih kaya dan lebih layak dari sudut kewangan, tetapi tidak dipilih Abdul Muttalib untuk menjaga Nabi SAW."
+  },
+  {
+   "id": "p24",
+   "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bapa saudara Nabi SAW",
    "t": 1466,
    "context": "Lebih kaya dan lebih layak dari sudut kewangan, tetapi tidak dipilih Abdul Muttalib untuk menjaga Nabi SAW."
@@ -415,13 +432,23 @@
   {
    "id": "p6",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 1505,
    "context": "Nama sebenarnya Abdul Manaf. Dipilih Abdul Muttalib sebagai penjaga Nabi SAW kerana karakternya, walaupun perniagaannya tidak menguntungkan."
   },
   {
    "id": "p7",
-   "name": "Talib dan Aqil",
+   "name": "Talib",
+   "person": "talib-bin-abi-talib",
+   "role": "Anak Abu Talib",
+   "t": 1540,
+   "context": "Dua anak lelaki pertama Abu Talib, dan Talib ialah sebab beliau digelar Abu Talib."
+  },
+  {
+   "id": "p25",
+   "name": "Aqil",
+   "person": "aqil-bin-abi-talib",
    "role": "Anak Abu Talib",
    "t": 1540,
    "context": "Dua anak lelaki pertama Abu Talib, dan Talib ialah sebab beliau digelar Abu Talib."
@@ -429,6 +456,7 @@
   {
    "id": "p8",
    "name": "Ja'far bin Abi Talib",
+   "person": "jafar-bin-abi-talib",
    "role": "Anak Abu Talib dan sahabat",
    "t": 1544,
    "context": "Akan berhijrah ke Habsyah dan syahid dengan diberi sayap di syurga, dan Nabi SAW menyambutnya dengan emosi yang luar biasa."
@@ -436,6 +464,7 @@
   {
    "id": "p9",
    "name": "Ali bin Abi Talib",
+   "person": "ali-bin-abi-talib",
    "role": "Anak Abu Talib dan sahabat",
    "t": 1570,
    "context": "Anak keempat Abu Talib yang akan banyak muncul dalam sirah selepas ini."
@@ -443,6 +472,7 @@
   {
    "id": "p10",
    "name": "Ummu Hani (Fakhitah)",
+   "person": "ummu-hani",
    "role": "Anak perempuan Abu Talib",
    "t": 1582,
    "context": "Satu daripada dua anak perempuan Abu Talib."
@@ -450,6 +480,7 @@
   {
    "id": "p11",
    "name": "Jumanah",
+   "person": "jumanah",
    "role": "Anak perempuan Abu Talib",
    "t": 1589,
    "context": "Anak perempuan terakhir daripada enam anak Abu Talib."
@@ -457,6 +488,7 @@
   {
    "id": "p12",
    "name": "Fatimah binti Asad",
+   "person": "fatimah-binti-asad",
    "role": "Isteri Abu Talib",
    "t": 1718,
    "context": "Ibu kedua Nabi SAW, antara wanita terawal memeluk Islam dan berhijrah, wafat di Madinah dan dikafankan, disolatkan serta dikebumikan sendiri oleh Nabi SAW."
@@ -464,6 +496,7 @@
   {
    "id": "p18",
    "name": "Leslie Hazleton",
+   "person": "leslie-hazleton",
    "role": "Penulis The First Muslim",
    "t": 1910,
    "context": "Penulis bukan Muslim yang bukunya membantu menghayati kesunyian Nabi SAW sebagai anak yatim."
@@ -471,6 +504,7 @@
   {
    "id": "p19",
    "name": "Abu Darda' RA",
+   "person": "abu-darda",
    "role": "Sahabat",
    "t": 2498,
    "context": "Mengadu hatinya keras, lalu Nabi SAW mengajarnya menyayangi anak yatim."
@@ -478,13 +512,23 @@
   {
    "id": "p20",
    "name": "Abu Hurairah RA",
+   "person": "abu-hurairah",
    "role": "Sahabat dan perawi hadis",
    "t": 2668,
    "context": "Meriwayatkan hadis tentang pahala penjaga janda dan orang miskin."
   },
   {
    "id": "p21",
-   "name": "Abu Jahal dan Abu Sufyan",
+   "name": "Abu Jahal",
+   "person": "abu-jahal",
+   "role": "Pembesar Quraisy",
+   "t": 2833,
+   "context": "Disebut dalam tafsir sebagai orang yang menjamu atas nama agama tetapi menghalau anak yatim."
+  },
+  {
+   "id": "p26",
+   "name": "Abu Sufyan",
+   "person": "abu-sufyan",
    "role": "Pembesar Quraisy",
    "t": 2833,
    "context": "Disebut dalam tafsir sebagai orang yang menjamu atas nama agama tetapi menghalau anak yatim."
@@ -492,13 +536,23 @@
   {
    "id": "p17",
    "name": "Dr. Sa'id Ramadan al-Buti",
+   "person": "ramadan-al-buti",
    "role": "Pengarang Fiqhus Sirah",
    "t": 2971,
    "context": "Menyatakan hikmah keyatiman Nabi SAW supaya jelas bahawa risalah bukan untuk meraih kuasa dan harta."
   },
   {
    "id": "p22",
-   "name": "Imam al-Ghazali dan Imam al-Syafi'i",
+   "name": "Imam al-Ghazali",
+   "person": "imam-al-ghazali",
+   "role": "Ulama",
+   "t": 3119,
+   "context": "Disebut Tariq Suwaidan antara tokoh besar yang membesar tanpa ayah."
+  },
+  {
+   "id": "p27",
+   "name": "Imam al-Syafi'i",
+   "person": "imam-syafii",
    "role": "Ulama",
    "t": 3119,
    "context": "Disebut Tariq Suwaidan antara tokoh besar yang membesar tanpa ayah."
@@ -506,6 +560,7 @@
   {
    "id": "p23",
    "name": "Imam Bukhari",
+   "person": "imam-bukhari",
    "role": "Ahli hadis",
    "t": 3139,
    "context": "Buta sehingga ibunya berdoa dan Allah mengembalikan penglihatannya, dan ibunya yang membacakan hadis untuknya."

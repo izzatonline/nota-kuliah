@@ -217,6 +217,7 @@
   {
    "id": "p7",
    "name": "Firaun",
+   "person": "firaun",
    "role": "Raja yang dahulu juga menggunakan tukang sihir",
    "t": 130,
    "context": "Disebut sebagai perbandingan dengan raja dalam kisah ini."
@@ -224,6 +225,7 @@
   {
    "id": "p1",
    "name": "Raja (disebut Zunawas)",
+   "person": "zunawas",
    "role": "Raja yang menganggap dirinya Tuhan",
    "t": 136,
    "context": "Menyuruh rakyat menyembahnya dan membunuh rahib dan menteri. Ustaz berkata nama raja itu tidak penting."
@@ -231,6 +233,7 @@
   {
    "id": "p3",
    "name": "Ghulam (tidak dinamakan)",
+   "person": "ghulam",
    "role": "Budak lelaki yang beriman",
    "t": 175,
    "context": "Berumur sekitar 12 atau 13 tahun, belajar tauhid daripada rahib dan berdakwah dengan kebolehan menyembuhkan."
@@ -238,6 +241,7 @@
   {
    "id": "p4",
    "name": "Rahib (tidak dinamakan)",
+   "person": "rahib",
    "role": "Pengikut Nabi Isa AS yang mengajar tauhid",
    "t": 277,
    "context": "Mengajar Ghulam supaya hanya menyembah Allah dan dibunuh oleh raja kerana tidak mahu meninggalkan imannya."
@@ -245,6 +249,7 @@
   {
    "id": "p6",
    "name": "Nabi Isa AS",
+   "person": "isa",
    "role": "Nabi yang diikuti rahib",
    "t": 289,
    "context": "Ustaz menyebut rahib itu pengikut Nabi Isa, kerana Nabi Muhammad SAW belum lahir."
@@ -266,6 +271,7 @@
   {
    "id": "p9",
    "name": "Abraha",
+   "person": "abraha",
    "role": "Jeneral yang menjadi raja Yaman",
    "t": 1653,
    "context": "Berada dalam tentera Habsyah dan kemudian menjadi raja di Yaman, yang akhirnya datang menyerang Mekah."

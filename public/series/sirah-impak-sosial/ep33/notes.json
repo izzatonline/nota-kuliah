@@ -311,6 +311,7 @@
   {
    "id": "p1",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara dan pelindung Nabi SAW",
    "t": 1257,
    "context": "Keberadaannya memberi Nabi SAW perlindungan di Makkah; wafat tanpa mengucap syahadah."
@@ -318,6 +319,7 @@
   {
    "id": "p3",
    "name": "Abu Sufian",
+   "person": "abu-sufyan",
    "role": "Pemimpin Quraish",
    "t": 1337,
    "context": "Antara yang menyertai rundingan terakhir."
@@ -325,6 +327,7 @@
   {
    "id": "p2",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Pemimpin Quraish",
    "t": 1465,
    "context": "Mengingatkan Abu Talib tentang agama Abdul Muttalib pada saat akhir."
@@ -332,6 +335,7 @@
   {
    "id": "p4",
    "name": "Abdul Muttalib",
+   "person": "abdul-muttalib",
    "role": "Datuk Nabi SAW",
    "t": 1758,
    "context": "Agamanya dijadikan alasan oleh Abu Jahal supaya Abu Talib tidak mengucap."
@@ -339,6 +343,7 @@
   {
    "id": "p5",
    "name": "Al-Abbas",
+   "person": "abbas-bin-abdul-muttalib",
    "role": "Bapa saudara Nabi SAW, adik Abu Talib",
    "t": 1966,
    "context": "Bertanya sama ada Nabi SAW memberi manfaat kepada Abu Talib."
@@ -346,6 +351,7 @@
   {
    "id": "p6",
    "name": "Ali RA",
+   "person": "ali-bin-abi-talib",
    "role": "Anak Abu Talib dan sahabat",
    "t": 2089,
    "context": "Menguruskan jenazah Abu Talib atas arahan Nabi SAW."
@@ -353,6 +359,7 @@
   {
    "id": "p7",
    "name": "Fatimah binti Asad",
+   "person": "fatimah-binti-asad",
    "role": "Isteri Abu Talib",
    "t": 2093,
    "context": "Masuk Islam dan berhijrah bersama Nabi SAW; dikuburkan oleh baginda di Madinah."
@@ -360,6 +367,7 @@
   {
    "id": "p8",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 2655,
    "context": "Nabi SAW memerlukannya dalam kesedihan itu; wafat tidak lama selepas Abu Talib."
@@ -367,6 +375,7 @@
   {
    "id": "p9",
    "name": "Abu Bakar RA",
+   "person": "abu-bakar",
    "role": "Sahabat terdekat Nabi SAW",
    "t": 2716,
    "context": "Memahami perasaan Nabi SAW dan menangis ketika bapanya memeluk Islam."
@@ -374,6 +383,7 @@
   {
    "id": "p10",
    "name": "Abu Qohafa (Abu Kuhafah)",
+   "person": "abu-quhafah",
    "role": "Bapa Abu Bakar",
    "t": 2726,
    "context": "Memeluk Islam pada Fathu Makkah ketika sudah tua dan buta."
@@ -381,6 +391,7 @@
   {
    "id": "p11",
    "name": "Abu Lahab",
+   "person": "abu-lahab",
    "role": "Bani Hashim yang menentang",
    "t": 3831,
    "context": "Berpihak kepada Quraish dari awal boikot."
@@ -388,6 +399,7 @@
   {
    "id": "p12",
    "name": "Sa'd bin Abi Waqqas",
+   "person": "saad-bin-abi-waqqas",
    "role": "Sahabat",
    "t": 3956,
    "context": "Ibunya mogok makan dan minum supaya dia keluar Islam."
@@ -395,6 +407,7 @@
   {
    "id": "p13",
    "name": "Umar Al-Khattab RA",
+   "person": "umar-al-khattab",
    "role": "Sahabat",
    "t": 4272,
    "context": "Dipetik bimbang generasi yang tidak pernah melihat jahiliah."

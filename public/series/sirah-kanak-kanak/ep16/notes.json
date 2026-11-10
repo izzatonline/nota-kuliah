@@ -265,6 +265,7 @@
   {
    "id": "p4",
    "name": "Halimah",
+   "person": "halimah",
    "role": "Ibu susuan Nabi SAW",
    "t": 49,
    "context": "Disebut dalam perbandingan jarak Nabi menyendiri."
@@ -272,6 +273,7 @@
   {
    "id": "p1",
    "name": "Khadijah",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 76,
    "context": "Memeluk baginda dan membawanya kepada Waraqah."
@@ -279,6 +281,7 @@
   {
    "id": "p2",
    "name": "Waraqah bin Naufal",
+   "person": "waraqah-bin-naufal",
    "role": "Sepupu Khadijah yang tua dan buta",
    "t": 85,
    "context": "Membaca Injil dan Taurat, mengenali An-Namus dan wafat beberapa hari kemudian."
@@ -286,6 +289,7 @@
   {
    "id": "p3",
    "name": "Jibril AS",
+   "person": "jibril",
    "role": "Malaikat penyampai wahyu",
    "t": 193,
    "context": "Muncul dengan enam ratus sayap, mengajar wuduk dan solat, dan membawa Surah Ad-Duha."
@@ -293,6 +297,7 @@
   {
    "id": "p5",
    "name": "Ali bin Abi Talib",
+   "person": "ali-bin-abi-talib",
    "role": "Anak kecil yang pertama mengikut",
    "t": 481,
    "context": "Melihat Nabi SAW dan Khadijah solat lalu menyertai mereka."
@@ -300,6 +305,7 @@
   {
    "id": "p6",
    "name": "Zaid bin Harithah",
+   "person": "zaid-bin-harithah",
    "role": "Anak angkat Nabi SAW",
    "t": 502,
    "context": "Hadiah Khadijah, memilih tinggal bersama Nabi SAW dan kemudian beriman."
@@ -307,6 +313,7 @@
   {
    "id": "p7",
    "name": "Harithah",
+   "person": "harithah-ayah-zaid",
    "role": "Ayah Zaid",
    "t": 558,
    "context": "Gembira anaknya dibebaskan daripada perhambaan."
@@ -314,6 +321,7 @@
   {
    "id": "p8",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Kawan pertama yang beriman",
    "t": 583,
    "context": "Berani mengikut ketika orang lain takut dan mengislamkan kawan-kawannya."
@@ -321,6 +329,7 @@
   {
    "id": "p9",
    "name": "Abdurrahman bin Auf",
+   "person": "abdurrahman-bin-auf",
    "role": "Sahabat, namanya dahulu Abdul Amr atau Abdul Syams",
    "t": 605,
    "context": "Diislamkan Abu Bakar."
@@ -328,6 +337,7 @@
   {
    "id": "p10",
    "name": "Uthman bin Affan",
+   "person": "uthman-bin-affan",
    "role": "Sahabat",
    "t": 609,
    "context": "Diislamkan Abu Bakar."
@@ -335,6 +345,7 @@
   {
    "id": "p11",
    "name": "Sa'ad bin Abi Waqqas",
+   "person": "saad-bin-abi-waqqas",
    "role": "Sahabat",
    "t": 617,
    "context": "Diislamkan Abu Bakar."

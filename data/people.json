@@ -1,0 +1,2466 @@
+{
+ "groups": [
+  {
+   "key": "nabi",
+   "ms": "Para Nabi",
+   "en": "Prophets"
+  },
+  {
+   "key": "keluarga",
+   "ms": "Keluarga Nabi SAW",
+   "en": "The Prophet's family"
+  },
+  {
+   "key": "sahabat",
+   "ms": "Sahabat",
+   "en": "Companions"
+  },
+  {
+   "key": "sahabiyah",
+   "ms": "Sahabiyah",
+   "en": "Female companions"
+  },
+  {
+   "key": "quraisy",
+   "ms": "Quraisy dan penentang",
+   "en": "Quraysh and opponents"
+  },
+  {
+   "key": "ahli-kitab",
+   "ms": "Ahli Kitab",
+   "en": "People of the Book"
+  },
+  {
+   "key": "ulama",
+   "ms": "Ulama dan penulis",
+   "en": "Scholars and authors"
+  },
+  {
+   "key": "lain",
+   "ms": "Lain-lain",
+   "en": "Others"
+  }
+ ],
+ "people": [
+  {
+   "key": "ibrahim",
+   "group": "nabi",
+   "ms": "Nabi Ibrahim AS",
+   "en": "Prophet Ibrahim",
+   "aliases": [
+    "Ibrahim AS",
+    "Nabi Ibrahim, Nabi Ishak dan Nabi Yaakub AS"
+   ]
+  },
+  {
+   "key": "musa",
+   "group": "nabi",
+   "ms": "Nabi Musa AS",
+   "en": "Prophet Musa",
+   "aliases": [
+    "Musa AS",
+    "Nabi Musa AS (Kalimullah)"
+   ]
+  },
+  {
+   "key": "adam",
+   "group": "nabi",
+   "ms": "Nabi Adam AS",
+   "en": "Prophet Adam",
+   "aliases": [
+    "Adam AS",
+    "Nabi Adam AS dan Hawa AS"
+   ]
+  },
+  {
+   "key": "isa",
+   "group": "nabi",
+   "ms": "Nabi Isa AS",
+   "en": "Jesus"
+  },
+  {
+   "key": "nuh",
+   "group": "nabi",
+   "ms": "Nabi Nuh AS",
+   "en": "Prophet Noah"
+  },
+  {
+   "key": "yusuf",
+   "group": "nabi",
+   "ms": "Nabi Yusuf AS",
+   "en": "Prophet Yusuf"
+  },
+  {
+   "key": "ismail",
+   "group": "nabi",
+   "ms": "Nabi Ismail AS",
+   "en": "Prophet Ismail"
+  },
+  {
+   "key": "idris",
+   "group": "nabi",
+   "ms": "Nabi Idris AS",
+   "en": "Idris"
+  },
+  {
+   "key": "yaqub",
+   "group": "nabi",
+   "ms": "Nabi Ya'qub AS (Israel)",
+   "en": "Prophet Ya'qub (Israel)",
+   "aliases": [
+    "Nabi Yaakub AS",
+    "Israel"
+   ]
+  },
+  {
+   "key": "yunus",
+   "group": "nabi",
+   "ms": "Nabi Yunus AS",
+   "en": "Yunus (Jonah)",
+   "aliases": [
+    "Nabi Yunus AS dan Nabi Nuh AS",
+    "Nabi Yunus bin Matta"
+   ]
+  },
+  {
+   "key": "harun",
+   "group": "nabi",
+   "ms": "Nabi Harun AS",
+   "en": "Aaron"
+  },
+  {
+   "key": "ishak",
+   "group": "nabi",
+   "ms": "Nabi Ishak AS",
+   "en": "Prophet Ishaq"
+  },
+  {
+   "key": "yahya",
+   "group": "nabi",
+   "ms": "Nabi Yahya AS",
+   "en": "John (Yahya)"
+  },
+  {
+   "key": "daud",
+   "group": "nabi",
+   "ms": "Nabi Daud AS",
+   "en": "Prophet Daud"
+  },
+  {
+   "key": "lut",
+   "group": "nabi",
+   "ms": "Nabi Lut AS",
+   "en": "Prophet Lut"
+  },
+  {
+   "key": "zakaria",
+   "group": "nabi",
+   "ms": "Nabi Zakaria AS",
+   "en": "Zechariah"
+  },
+  {
+   "key": "abu-talib",
+   "group": "keluarga",
+   "ms": "Abu Talib",
+   "en": "Abu Talib",
+   "aliases": [
+    "Abu Talib (Abdul Manaf)",
+    "Abu Talib (Abdul Manaf bin Abdul Muttalib)"
+   ]
+  },
+  {
+   "key": "khadijah",
+   "group": "keluarga",
+   "ms": "Khadijah binti Khuwailid",
+   "en": "Khadijah bint Khuwaylid",
+   "aliases": [
+    "Khadijah RA",
+    "Khadijah",
+    "Khadijah binti Khuwaylid RA",
+    "Khadijah binti Khuwailid RA"
+   ]
+  },
+  {
+   "key": "ali-bin-abi-talib",
+   "group": "keluarga",
+   "ms": "Ali bin Abi Talib",
+   "en": "Ali ibn Abi Talib",
+   "aliases": [
+    "Ali RA",
+    "Ali bin Abi Talib RA",
+    "Ali"
+   ]
+  },
+  {
+   "key": "aisyah",
+   "group": "keluarga",
+   "ms": "Aisyah RA",
+   "en": "Aisha",
+   "aliases": [
+    "Aisyah binti Abu Bakar RA"
+   ]
+  },
+  {
+   "key": "abbas-bin-abdul-muttalib",
+   "group": "keluarga",
+   "ms": "Abbas bin Abdul Muttalib",
+   "en": "Al-Abbas ibn Abdul Muttalib",
+   "aliases": [
+    "Al-Abbas",
+    "Al-Abbas bin Abdul Muttalib"
+   ]
+  },
+  {
+   "key": "abdul-muttalib",
+   "group": "keluarga",
+   "ms": "Abdul Muttalib (Syaibah bin Hashim)",
+   "en": "Abd al-Muttalib",
+   "aliases": [
+    "Abdul Muttalib",
+    "Abdul Muttalib (Syaibah)",
+    "Syaibah"
+   ]
+  },
+  {
+   "key": "hamzah",
+   "group": "keluarga",
+   "ms": "Hamzah bin Abdul Muttalib",
+   "en": "Hamza ibn Abdul Muttalib",
+   "aliases": [
+    "Hamzah RA",
+    "Hamzah",
+    "Hamzah bin Abdul Muttalib RA"
+   ]
+  },
+  {
+   "key": "aminah",
+   "group": "keluarga",
+   "ms": "Aminah binti Wahab",
+   "en": "Amina bint Wahb",
+   "aliases": [
+    "Aminah"
+   ]
+  },
+  {
+   "key": "jafar-bin-abi-talib",
+   "group": "keluarga",
+   "ms": "Ja'far bin Abi Talib",
+   "en": "Ja'far ibn Abi Talib",
+   "aliases": [
+    "Ja'far",
+    "Jaafar bin Abu Talib"
+   ]
+  },
+  {
+   "key": "ruqayyah",
+   "group": "keluarga",
+   "ms": "Ruqayyah binti Muhammad",
+   "en": "Ruqayyah bint Muhammad",
+   "aliases": [
+    "Ruqayyah",
+    "Ruqayyah RA"
+   ]
+  },
+  {
+   "key": "fatimah-az-zahra",
+   "group": "keluarga",
+   "ms": "Fatimah RA",
+   "en": "Fatimah",
+   "aliases": [
+    "Fatimah"
+   ]
+  },
+  {
+   "key": "halimah",
+   "group": "keluarga",
+   "ms": "Halimah As-Sa'diah",
+   "en": "Halimah al-Sa'diyyah",
+   "aliases": [
+    "Halimah",
+    "Halimah As-Sa'diyah"
+   ]
+  },
+  {
+   "key": "abdullah-anak-nabi",
+   "group": "keluarga",
+   "ms": "Abdullah (anak Nabi SAW)",
+   "en": null,
+   "aliases": [
+    "Abdullah"
+   ]
+  },
+  {
+   "key": "abdullah-bin-abdul-muttalib",
+   "group": "keluarga",
+   "ms": "Abdullah bin Abdul Muttalib",
+   "en": "Abdullah",
+   "aliases": [
+    "Abdullah",
+    "Abdullah (ayah Nabi SAW)"
+   ]
+  },
+  {
+   "key": "fatimah-binti-asad",
+   "group": "keluarga",
+   "ms": "Fatimah binti Asad",
+   "en": "Fatimah bint Asad"
+  },
+  {
+   "key": "hashim",
+   "group": "keluarga",
+   "ms": "Hashim (Amr bin Abdul Manaf)",
+   "en": "Hashim ibn Abd Manaf",
+   "aliases": [
+    "Hashim",
+    "Hashim bin Abdul Manaf"
+   ]
+  },
+  {
+   "key": "ummu-hani",
+   "group": "keluarga",
+   "ms": "Ummu Hani (Fakhitah binti Abu Talib)",
+   "en": "Umm Hani",
+   "aliases": [
+    "Fakhitah (Ummu Hani)",
+    "Ummu Hani (Fakhitah)",
+    "Ummu Hani",
+    "Fakhitah binti Abu Talib"
+   ]
+  },
+  {
+   "key": "ummu-kulthum",
+   "group": "keluarga",
+   "ms": "Ummu Kulthum",
+   "en": "Umm Kulthum bint Muhammad",
+   "aliases": [
+    "Ummu Kulthum RA"
+   ]
+  },
+  {
+   "key": "zainab-binti-muhammad",
+   "group": "keluarga",
+   "ms": "Zainab",
+   "en": "Zaynab bint Muhammad",
+   "aliases": [
+    "Zainab binti Muhammad SAW",
+    "Zainab RA"
+   ]
+  },
+  {
+   "key": "aqil-bin-abi-talib",
+   "group": "keluarga",
+   "ms": "Aqil",
+   "en": "Aqil"
+  },
+  {
+   "key": "qasim",
+   "group": "keluarga",
+   "ms": "Al-Qasim",
+   "en": "Al-Qasim",
+   "aliases": [
+    "Qasim"
+   ]
+  },
+  {
+   "key": "thuwaibah",
+   "group": "keluarga",
+   "ms": "Thuwaibah",
+   "en": "Thuwaybah",
+   "aliases": [
+    "Thuaibah",
+    "Suwaibah"
+   ]
+  },
+  {
+   "key": "salma-binti-amr",
+   "group": "keluarga",
+   "ms": "Salma binti Amr",
+   "en": "Salma",
+   "aliases": [
+    "Salma"
+   ]
+  },
+  {
+   "key": "talib-bin-abi-talib",
+   "group": "keluarga",
+   "ms": "Talib",
+   "en": "Talib"
+  },
+  {
+   "key": "ummu-salamah",
+   "group": "keluarga",
+   "ms": "Ummu Salamah",
+   "en": "Umm Salama",
+   "aliases": [
+    "Umm Salamah"
+   ]
+  },
+  {
+   "key": "al-muttalib",
+   "group": "keluarga",
+   "ms": "Al-Muttalib",
+   "en": "al-Muttalib"
+  },
+  {
+   "key": "hala-binti-wuhaib",
+   "group": "keluarga",
+   "ms": "Hala",
+   "en": null
+  },
+  {
+   "key": "hasan-bin-ali",
+   "group": "keluarga",
+   "ms": "Hassan bin Ali",
+   "en": null
+  },
+  {
+   "key": "hind-anak-khadijah",
+   "group": "keluarga",
+   "ms": "Hind",
+   "en": null,
+   "aliases": [
+    "Hind (anak Khadijah)"
+   ]
+  },
+  {
+   "key": "jumanah",
+   "group": "keluarga",
+   "ms": "Jumanah",
+   "en": "Jumanah"
+  },
+  {
+   "key": "safiyyah",
+   "group": "keluarga",
+   "ms": "Safiyyah",
+   "en": "Safiyyah"
+  },
+  {
+   "key": "syahimah",
+   "group": "keluarga",
+   "ms": "Syahimah",
+   "en": "Shayma'"
+  },
+  {
+   "key": "zubair-bin-abdul-muttalib",
+   "group": "keluarga",
+   "ms": "Zubair bin Abdul Muttalib",
+   "en": "al-Zubayr ibn Abdul Muttalib"
+  },
+  {
+   "key": "abdul-manaf",
+   "group": "keluarga",
+   "ms": "Abdul Manaf",
+   "en": "Abdul Manaf"
+  },
+  {
+   "key": "abul-as-bin-rabi",
+   "group": "keluarga",
+   "ms": "Abul Az ibn Rabi'",
+   "en": "Abu al-As ibn al-Rabi"
+  },
+  {
+   "key": "adnan",
+   "group": "keluarga",
+   "ms": "Adnan",
+   "en": null
+  },
+  {
+   "key": "fihir",
+   "group": "keluarga",
+   "ms": "Fihir",
+   "en": null
+  },
+  {
+   "key": "hussein",
+   "group": "keluarga",
+   "ms": "Hussein",
+   "en": null
+  },
+  {
+   "key": "ibrahim-anak-nabi",
+   "group": "keluarga",
+   "ms": "Ibrahim (anak Nabi SAW)",
+   "en": null,
+   "aliases": [
+    "Ibrahim"
+   ]
+  },
+  {
+   "key": "qusai",
+   "group": "keluarga",
+   "ms": "Qusai",
+   "en": null
+  },
+  {
+   "key": "syaimaa",
+   "group": "keluarga",
+   "ms": "Syaimaa",
+   "en": null
+  },
+  {
+   "key": "ummu-habibah",
+   "group": "keluarga",
+   "ms": "Ummu Habibah (Ramlah binti Abi Sufyan)",
+   "en": "Umm Habibah (Ramlah bint Abi Sufyan)"
+  },
+  {
+   "key": "wuhaib",
+   "group": "keluarga",
+   "ms": "Wuhaib",
+   "en": null
+  },
+  {
+   "key": "abu-bakar",
+   "group": "sahabat",
+   "ms": "Abu Bakar As-Siddiq RA",
+   "en": "Abu Bakr as-Siddiq",
+   "aliases": [
+    "Abu Bakar As-Siddiq",
+    "Abu Bakar RA",
+    "Abu Bakar",
+    "Abu Bakar, Khadijah dan Zaid bin Amr bin Nufail",
+    "Abu Bakar dan Ali RA"
+   ]
+  },
+  {
+   "key": "umar-al-khattab",
+   "group": "sahabat",
+   "ms": "Umar bin Al-Khattab RA",
+   "en": "Umar ibn al-Khattab",
+   "aliases": [
+    "Umar bin Al-Khattab",
+    "Umar Al-Khattab RA",
+    "Umar al-Khattab RA",
+    "Umar Al-Khattab",
+    "Umar bin al-Khattab RA",
+    "Umar bin Khattab"
+   ]
+  },
+  {
+   "key": "zaid-bin-harithah",
+   "group": "sahabat",
+   "ms": "Zaid bin Harithah",
+   "en": "Zayd ibn Haritha",
+   "aliases": [
+    "Zaid bin Harithah RA"
+   ]
+  },
+  {
+   "key": "abdullah-bin-abbas",
+   "group": "sahabat",
+   "ms": "Abdullah bin Abbas RA",
+   "en": "Abdullah ibn Abbas",
+   "aliases": [
+    "Ibn Abbas",
+    "Abdullah bin Abbas",
+    "Sahabat: Ibn Abbas, Ibn Umar dan Ibn Mas'ud RA",
+    "Abdullah Ibn Abbas RA",
+    "Abdullah Ibn Abbas"
+   ]
+  },
+  {
+   "key": "khabbab-bin-al-arat",
+   "group": "sahabat",
+   "ms": "Khabbab bin Al-Arat",
+   "en": "Khabbab ibn al-Aratt",
+   "aliases": [
+    "Khabbab",
+    "Khabbab bin Arat",
+    "Khabbab bin al-Arat"
+   ]
+  },
+  {
+   "key": "musab-bin-umair",
+   "group": "sahabat",
+   "ms": "Mus'ab bin Umair",
+   "en": "Musab ibn Umayr",
+   "aliases": [
+    "Mus'ab bin Umair RA"
+   ]
+  },
+  {
+   "key": "bilal-bin-rabah",
+   "group": "sahabat",
+   "ms": "Bilal bin Rabah",
+   "en": "Bilal ibn Rabah",
+   "aliases": [
+    "Bilal RA",
+    "Bilal",
+    "Bilal ibn Rabah",
+    "Bilal bin Rabah RA"
+   ]
+  },
+  {
+   "key": "uthman-bin-affan",
+   "group": "sahabat",
+   "ms": "Uthman bin Affan",
+   "en": "Uthman ibn Affan",
+   "aliases": [
+    "Osman bin Affan"
+   ]
+  },
+  {
+   "key": "abdullah-bin-masud",
+   "group": "sahabat",
+   "ms": "Abdullah bin Mas'ud",
+   "en": "Abdullah ibn Mas'ud",
+   "aliases": [
+    "Abdullah bin Mas'ud RA",
+    "Ibn Mas'ud"
+   ]
+  },
+  {
+   "key": "khalid-bin-al-walid",
+   "group": "sahabat",
+   "ms": "Khalid bin Al-Walid",
+   "en": "Khalid ibn al-Walid",
+   "aliases": [
+    "Khalid Al-Walid RA",
+    "Khalid Al-Walid"
+   ]
+  },
+  {
+   "key": "saad-bin-abi-waqqas",
+   "group": "sahabat",
+   "ms": "Sa'ad bin Abi Waqqas",
+   "en": "Sad ibn Abi Waqqas",
+   "aliases": [
+    "Sa'd bin Abi Waqqas"
+   ]
+  },
+  {
+   "key": "abdurrahman-bin-auf",
+   "group": "sahabat",
+   "ms": "Abdurrahman bin Auf",
+   "en": "Abd al-Rahman ibn Awf",
+   "aliases": [
+    "Abdul Rahman bin Auf",
+    "Abdul Rahman bin Auf RA"
+   ]
+  },
+  {
+   "key": "abdullah-bin-ummi-maktum",
+   "group": "sahabat",
+   "ms": "Abdullah bin Ummi Maktum",
+   "en": "Abdullah ibn Umm Maktum",
+   "aliases": [
+    "Abdullah bin Ummi Maktum RA",
+    "Abdullah Ibnu Ummi Maktum"
+   ]
+  },
+  {
+   "key": "amr-bin-al-as",
+   "group": "sahabat",
+   "ms": "Amr bin Al-As",
+   "en": "Amr ibn al-As",
+   "aliases": [
+    "Amr bin al-As"
+   ]
+  },
+  {
+   "key": "hakim-bin-hizam",
+   "group": "sahabat",
+   "ms": "Hakim bin Hizam",
+   "en": "Hakim ibn Hizam",
+   "aliases": [
+    "Hakim ibn Hizam"
+   ]
+  },
+  {
+   "key": "suhaib-ar-rumi",
+   "group": "sahabat",
+   "ms": "Suhaib Ar-Rumi",
+   "en": "Suhayb al-Rumi",
+   "aliases": [
+    "Suhaib bin Sinan Ar-Rumi"
+   ]
+  },
+  {
+   "key": "abu-hurairah",
+   "group": "sahabat",
+   "ms": "Abu Hurairah RA",
+   "en": "Abu Hurayra"
+  },
+  {
+   "key": "abu-quhafah",
+   "group": "sahabat",
+   "ms": "Abu Kuhafa",
+   "en": "Abu Quhafa",
+   "aliases": [
+    "Abu Kuhafah",
+    "Abu Qohafa (Abu Kuhafah)",
+    "Abu Quhafah"
+   ]
+  },
+  {
+   "key": "al-arqam",
+   "group": "sahabat",
+   "ms": "Al-Arqam bin Abi Al-Arqam",
+   "en": "Al-Arqam ibn Abi al-Arqam",
+   "aliases": [
+    "Arqam bin Abi Al-Arqam",
+    "Al-Arqam"
+   ]
+  },
+  {
+   "key": "ammar-bin-yasir",
+   "group": "sahabat",
+   "ms": "Ammar bin Yasir",
+   "en": "Ammar ibn Yasir",
+   "aliases": [
+    "Ammar"
+   ]
+  },
+  {
+   "key": "said-bin-zaid",
+   "group": "sahabat",
+   "ms": "Said bin Zaid",
+   "en": "Said ibn Zayd",
+   "aliases": [
+    "Sa'id bin Zaid"
+   ]
+  },
+  {
+   "key": "salman-al-farisi",
+   "group": "sahabat",
+   "ms": "Salman Al-Farisi",
+   "en": "Salman al-Farisi",
+   "aliases": [
+    "Salman al-Farisi RA",
+    "Salman Al-Farisi RA"
+   ]
+  },
+  {
+   "key": "yasir",
+   "group": "sahabat",
+   "ms": "Yasir",
+   "en": "Yasir"
+  },
+  {
+   "key": "anas-bin-malik",
+   "group": "sahabat",
+   "ms": "Anas bin Malik",
+   "en": "Anas ibn Malik",
+   "aliases": [
+    "Anas bin Malik RA"
+   ]
+  },
+  {
+   "key": "asad-bin-zurarah",
+   "group": "sahabat",
+   "ms": "As'ad bin Zurarah RA",
+   "en": "As'ad ibn Zurarah",
+   "aliases": [
+    "As'ad bin Zurarah"
+   ]
+  },
+  {
+   "key": "abu-dhar",
+   "group": "sahabat",
+   "ms": "Abu Dhar Al-Ghifari",
+   "en": "Abu Dharr al-Ghifari",
+   "aliases": [
+    "Abu Dharr al-Ghifari RA",
+    "Abu Dzar al-Ghifari RA"
+   ]
+  },
+  {
+   "key": "az-zubair-bin-al-awwam",
+   "group": "sahabat",
+   "ms": "Az-Zubair bin Al-Awwam",
+   "en": "Al-Zubayr ibn al-Awwam"
+  },
+  {
+   "key": "jabir-bin-abdullah",
+   "group": "sahabat",
+   "ms": "Jabir bin Abdullah",
+   "en": "Jabir ibn Abdullah",
+   "aliases": [
+    "Jabir bin Abdillah RA",
+    "Jabir bin Abdullah RA"
+   ]
+  },
+  {
+   "key": "kaab-bin-malik",
+   "group": "sahabat",
+   "ms": "Kaab bin Malik",
+   "en": "Ka'b ibn Malik",
+   "aliases": [
+    "Ka'ab bin Malik",
+    "Ka'ab bin Malik RA"
+   ]
+  },
+  {
+   "key": "usamah-bin-zaid",
+   "group": "sahabat",
+   "ms": "Usamah bin Zaid",
+   "en": "Usama ibn Zayd"
+  },
+  {
+   "key": "abdullah-bin-rawahah",
+   "group": "sahabat",
+   "ms": "Abdullah bin Rawahah",
+   "en": "Abdullah ibn Rawahah",
+   "aliases": [
+    "Abdullah bin Rawahah RA"
+   ]
+  },
+  {
+   "key": "abu-al-haitham",
+   "group": "sahabat",
+   "ms": "Abu al-Haitham",
+   "en": null,
+   "aliases": [
+    "Abul Haitham bin Tayhan RA"
+   ]
+  },
+  {
+   "key": "abu-ayyub-al-ansari",
+   "group": "sahabat",
+   "ms": "Abu Ayyub Al-Ansari RA",
+   "en": "Abu Ayyub al-Ansari",
+   "aliases": [
+    "Abu Ayyub Al-Ansari"
+   ]
+  },
+  {
+   "key": "abu-darda",
+   "group": "sahabat",
+   "ms": "Abu Darda' RA",
+   "en": null,
+   "aliases": [
+    "Abu Darda'"
+   ]
+  },
+  {
+   "key": "abu-salamah",
+   "group": "sahabat",
+   "ms": "Abu Salamah",
+   "en": null
+  },
+  {
+   "key": "abu-ubaidah",
+   "group": "sahabat",
+   "ms": "Abu Ubaidah bin Al-Jarrah",
+   "en": "Abu Ubayda ibn al-Jarrah",
+   "aliases": [
+    "Abu Ubaidah"
+   ]
+  },
+  {
+   "key": "al-walid-bin-al-walid",
+   "group": "sahabat",
+   "ms": "Al-Walid bin Al-Walid",
+   "en": null
+  },
+  {
+   "key": "amir-bin-rabiah",
+   "group": "sahabat",
+   "ms": "Amir bin Rabiah",
+   "en": null,
+   "aliases": [
+    "Amir bin Rabi'ah"
+   ]
+  },
+  {
+   "key": "muaz-bin-jabal",
+   "group": "sahabat",
+   "ms": "Muaz bin Jabal RA",
+   "en": "Mu'adh ibn Jabal",
+   "aliases": [
+    "Mu'adz bin Jabal RA"
+   ]
+  },
+  {
+   "key": "saad-bin-muadh",
+   "group": "sahabat",
+   "ms": "Sa'ad bin Mu'adh RA",
+   "en": "Sad ibn Muadh",
+   "aliases": [
+    "Sa'ad bin Mu'adh"
+   ]
+  },
+  {
+   "key": "usaid-bin-hudair",
+   "group": "sahabat",
+   "ms": "Usaid bin Khudair",
+   "en": "Usayd ibn Hudayr",
+   "aliases": [
+    "Usaid bin Hudair RA"
+   ]
+  },
+  {
+   "key": "uthman-bin-maz-un",
+   "group": "sahabat",
+   "ms": "Uthman bin Maz'un",
+   "en": "Uthman ibn Maz'un"
+  },
+  {
+   "key": "abbas-bin-ubadah",
+   "group": "sahabat",
+   "ms": "Al-Abbas",
+   "en": null
+  },
+  {
+   "key": "abdullah-bin-amr-bin-haram",
+   "group": "sahabat",
+   "ms": "Abu Jabir (Abdullah bin Amr bin Haram)",
+   "en": null,
+   "aliases": [
+    "Abu Jabir"
+   ]
+  },
+  {
+   "key": "abdullah-bin-jahsh",
+   "group": "sahabat",
+   "ms": "Abdullah bin Jahsh",
+   "en": "Abdullah ibn Jahsh"
+  },
+  {
+   "key": "abdullah-bin-salam",
+   "group": "sahabat",
+   "ms": "Abdullah bin Salam",
+   "en": "Abdullah ibn Salam"
+  },
+  {
+   "key": "abu-hudhaifah-bin-utbah",
+   "group": "sahabat",
+   "ms": "Abu Hudhaifah bin Utbah",
+   "en": null
+  },
+  {
+   "key": "abu-qatadah",
+   "group": "sahabat",
+   "ms": "Abu Qatadah RA",
+   "en": "Abu Qatadah"
+  },
+  {
+   "key": "abu-umamah-al-bahili",
+   "group": "sahabat",
+   "ms": "Abu Umamah RA",
+   "en": "Abu Umamah"
+  },
+  {
+   "key": "al-bara-bin-marur",
+   "group": "sahabat",
+   "ms": "Al-Bara' bin Ma'rur RA",
+   "en": "al-Bara' ibn Ma'rur"
+  },
+  {
+   "key": "al-harith-al-azdi",
+   "group": "sahabat",
+   "ms": "Harith bin Al-Azdi",
+   "en": null
+  },
+  {
+   "key": "amir-bin-fuhairah",
+   "group": "sahabat",
+   "ms": "Amir bin Fuhairah",
+   "en": null
+  },
+  {
+   "key": "amr-bin-abasah",
+   "group": "sahabat",
+   "ms": "Amr bin Abasah",
+   "en": "Amr ibn Abasa"
+  },
+  {
+   "key": "auf-bin-al-harith",
+   "group": "sahabat",
+   "ms": "Auf bin Harith",
+   "en": null
+  },
+  {
+   "key": "dihyah-al-kalbi",
+   "group": "sahabat",
+   "ms": "Dihyah Al-Kalbi",
+   "en": null
+  },
+  {
+   "key": "dimad-al-azdi",
+   "group": "sahabat",
+   "ms": "Dimad Al-Azdi",
+   "en": "Dimad al-Azdi"
+  },
+  {
+   "key": "hassan-bin-thabit",
+   "group": "sahabat",
+   "ms": "Hassan bin Thabit",
+   "en": "Hassan ibn Thabit"
+  },
+  {
+   "key": "huzaifah-bin-al-yaman",
+   "group": "sahabat",
+   "ms": "Huzaifah bin Al-Yaman",
+   "en": "Hudhayfa ibn al-Yaman"
+  },
+  {
+   "key": "ibn-umar",
+   "group": "sahabat",
+   "ms": "Ibn Umar RA",
+   "en": null
+  },
+  {
+   "key": "iyas-bin-muadh",
+   "group": "sahabat",
+   "ms": "Iyas bin Mu'adh",
+   "en": "Iyas ibn Mu'adh"
+  },
+  {
+   "key": "jabir-bin-abdullah-bin-riab",
+   "group": "sahabat",
+   "ms": "Jabir bin Abdullah bin Ri'ab",
+   "en": null
+  },
+  {
+   "key": "muadh-bin-al-harith",
+   "group": "sahabat",
+   "ms": "Mu'adh bin Harith",
+   "en": null
+  },
+  {
+   "key": "mughirah-bin-shubah",
+   "group": "sahabat",
+   "ms": "Mughirah bin Shu'bah",
+   "en": null
+  },
+  {
+   "key": "nuaim",
+   "group": "sahabat",
+   "ms": "Nu'aim",
+   "en": null
+  },
+  {
+   "key": "nuaym-bin-abdullah",
+   "group": "sahabat",
+   "ms": "Nu'aym bin Abdullah an-Nahham",
+   "en": "Nuaym ibn Abdullah al-Nahham"
+  },
+  {
+   "key": "qutbah-bin-amir",
+   "group": "sahabat",
+   "ms": "Qutbah",
+   "en": null
+  },
+  {
+   "key": "rafi-bin-malik",
+   "group": "sahabat",
+   "ms": "Rafi' bin Malik",
+   "en": null
+  },
+  {
+   "key": "saad-bin-rabi",
+   "group": "sahabat",
+   "ms": "Sa'ad bin Rabi' RA",
+   "en": "Sa'd ibn al-Rabi'"
+  },
+  {
+   "key": "saad-bin-ubadah",
+   "group": "sahabat",
+   "ms": "Sa'ad bin Ubadah RA",
+   "en": "Sa'd ibn Ubadah"
+  },
+  {
+   "key": "sawad-bin-ghaziyyah",
+   "group": "sahabat",
+   "ms": "Sawad bin Ghaziyyah RA",
+   "en": null
+  },
+  {
+   "key": "suraqah-bin-malik",
+   "group": "sahabat",
+   "ms": "Surakah bin Malik",
+   "en": null
+  },
+  {
+   "key": "suwaid-bin-samit",
+   "group": "sahabat",
+   "ms": "Suwaid bin Samit",
+   "en": "Suwayd ibn Samit"
+  },
+  {
+   "key": "talhah-bin-ubaidillah",
+   "group": "sahabat",
+   "ms": "Talhah bin Ubaidillah",
+   "en": "Talha ibn Ubaydillah"
+  },
+  {
+   "key": "thumamah-bin-uthal",
+   "group": "sahabat",
+   "ms": "Thumamah bin Uthal",
+   "en": "Thumamah ibn Uthal"
+  },
+  {
+   "key": "tufail-bin-amr-ad-dawsi",
+   "group": "sahabat",
+   "ms": "Tufail bin Amr Ad-Dawsi",
+   "en": "Tufayl ibn Amr al-Dawsi"
+  },
+  {
+   "key": "ubadah-bin-samit",
+   "group": "sahabat",
+   "ms": "Ubadah bin Samit",
+   "en": "Ubadah ibn al-Samit"
+  },
+  {
+   "key": "uqbah-bin-amir",
+   "group": "sahabat",
+   "ms": "Uqbah",
+   "en": null
+  },
+  {
+   "key": "urwah-ath-thaqafi",
+   "group": "sahabat",
+   "ms": "Urwah Ath-Thaqafi",
+   "en": null
+  },
+  {
+   "key": "urwah-bin-masud",
+   "group": "sahabat",
+   "ms": "Urwah bin Mas'ud",
+   "en": "Urwah ibn Mas'ud"
+  },
+  {
+   "key": "usairim",
+   "group": "sahabat",
+   "ms": "Usairim",
+   "en": null
+  },
+  {
+   "key": "uwaim-bin-saidah",
+   "group": "sahabat",
+   "ms": "Uwaim",
+   "en": null
+  },
+  {
+   "key": "yazid-bin-thalabah",
+   "group": "sahabat",
+   "ms": "Yazid bin Tha'labah",
+   "en": null
+  },
+  {
+   "key": "zaid-bin-khattab",
+   "group": "sahabat",
+   "ms": "Zaid bin Khattab",
+   "en": null
+  },
+  {
+   "key": "zaid-bin-thabit",
+   "group": "sahabat",
+   "ms": "Zaid bin Thabit",
+   "en": "Zayd ibn Thabit"
+  },
+  {
+   "key": "zakwan-bin-abd-qais",
+   "group": "sahabat",
+   "ms": "Zakwan",
+   "en": null
+  },
+  {
+   "key": "ummu-aiman",
+   "group": "sahabiyah",
+   "ms": "Ummu Aiman (Barakah binti Tha'labah)",
+   "en": "Umm Ayman",
+   "aliases": [
+    "Ummu Aiman",
+    "Ummu Aiman (Barakah binti Tha'alabah)",
+    "Ummu Aiman (Barakah)",
+    "Barakah",
+    "Barakah binti Tha'alabah"
+   ]
+  },
+  {
+   "key": "sumayyah",
+   "group": "sahabiyah",
+   "ms": "Sumayyah",
+   "en": "Sumayyah"
+  },
+  {
+   "key": "fatimah-binti-khattab",
+   "group": "sahabiyah",
+   "ms": "Fatimah binti Khattab",
+   "en": "Fatimah bint al-Khattab",
+   "aliases": [
+    "Fatimah binti Al-Khattab",
+    "Fatimah binti al-Khattab"
+   ]
+  },
+  {
+   "key": "asma-binti-umais",
+   "group": "sahabiyah",
+   "ms": "Asma' binti Umais",
+   "en": "Asma bint Umays"
+  },
+  {
+   "key": "khawlah-binti-hakim",
+   "group": "sahabiyah",
+   "ms": "Khawlah binti Hakim",
+   "en": "Khawla bint Hakim"
+  },
+  {
+   "key": "layla-ummu-abdullah",
+   "group": "sahabiyah",
+   "ms": "Layla (Ummu Abdullah)",
+   "en": null,
+   "aliases": [
+    "Layla"
+   ]
+  },
+  {
+   "key": "zinnirah",
+   "group": "sahabiyah",
+   "ms": "Zinnirah",
+   "en": null
+  },
+  {
+   "key": "nafisah",
+   "group": "sahabiyah",
+   "ms": "Nafisah",
+   "en": null,
+   "aliases": [
+    "Nafisa"
+   ]
+  },
+  {
+   "key": "an-nahdiyah",
+   "group": "sahabiyah",
+   "ms": "An-Nahdiyah",
+   "en": null
+  },
+  {
+   "key": "asma-binti-abi-bakar",
+   "group": "sahabiyah",
+   "ms": "Asma binti Abi Bakar",
+   "en": null
+  },
+  {
+   "key": "asma-binti-amr",
+   "group": "sahabiyah",
+   "ms": "Asma' binti Amr (Ummu Mani')",
+   "en": null,
+   "aliases": [
+    "Ummu Mani'"
+   ]
+  },
+  {
+   "key": "atikah-binti-zaid",
+   "group": "sahabiyah",
+   "ms": "Atikah binti Zaid",
+   "en": null
+  },
+  {
+   "key": "jathamah-al-muzaniyah",
+   "group": "sahabiyah",
+   "ms": "Jathamah Al-Muzaniyah (Hassanah)",
+   "en": null
+  },
+  {
+   "key": "layla-binti-abi-hathmah",
+   "group": "sahabiyah",
+   "ms": "Layla binti Abi Hathmah",
+   "en": "Layla bint Abi Hathma"
+  },
+  {
+   "key": "lubainah",
+   "group": "sahabiyah",
+   "ms": "Lubainah",
+   "en": null
+  },
+  {
+   "key": "nusaibah-binti-kaab",
+   "group": "sahabiyah",
+   "ms": "Nusaibah binti Ka'ab (Ummu Amarah)",
+   "en": null,
+   "aliases": [
+    "Ummu Amarah"
+   ]
+  },
+  {
+   "key": "sahlah-binti-suhail",
+   "group": "sahabiyah",
+   "ms": "Sahlah binti Suhail",
+   "en": "Sahla bint Suhayl"
+  },
+  {
+   "key": "ummu-khair",
+   "group": "sahabiyah",
+   "ms": "Ummu Khair",
+   "en": "Umm al-Khayr"
+  },
+  {
+   "key": "abu-jahal",
+   "group": "quraisy",
+   "ms": "Abu Jahal (Amr bin Hisham)",
+   "en": "Abu Jahl",
+   "aliases": [
+    "Abu Jahal"
+   ]
+  },
+  {
+   "key": "abu-lahab",
+   "group": "quraisy",
+   "ms": "Abu Lahab",
+   "en": "Abu Lahab"
+  },
+  {
+   "key": "abu-sufyan",
+   "group": "quraisy",
+   "ms": "Abu Sufyan",
+   "en": "Abu Sufyan ibn Harb",
+   "aliases": [
+    "Abu Sufian"
+   ]
+  },
+  {
+   "key": "al-walid-bin-al-mughirah",
+   "group": "quraisy",
+   "ms": "Al-Walid bin Al-Mughirah",
+   "en": "Al-Walid ibn al-Mughira",
+   "aliases": [
+    "Al-Walid bin Mughirah"
+   ]
+  },
+  {
+   "key": "mutim-bin-adi",
+   "group": "quraisy",
+   "ms": "Mut'im ibn Adi",
+   "en": "Mut'im ibn Adi",
+   "aliases": [
+    "Mut'im bin Adi"
+   ]
+  },
+  {
+   "key": "ummu-jamil",
+   "group": "quraisy",
+   "ms": "Ummu Jamil",
+   "en": "Umm Jamil"
+  },
+  {
+   "key": "abdullah-bin-judan",
+   "group": "quraisy",
+   "ms": "Abdullah bin Jud'an",
+   "en": "Abdullah ibn Jud'an"
+  },
+  {
+   "key": "umayyah-bin-khalaf",
+   "group": "quraisy",
+   "ms": "Umayyah bin Khalaf",
+   "en": "Umayya ibn Khalaf"
+  },
+  {
+   "key": "akhnas-bin-syuraiq",
+   "group": "quraisy",
+   "ms": "Akhnas bin Syuraiq",
+   "en": "al-Akhnas ibn Shuraiq",
+   "aliases": [
+    "Al-Akhnas bin Shuraiq"
+   ]
+  },
+  {
+   "key": "an-nadr-bin-al-harith",
+   "group": "quraisy",
+   "ms": "An-Nadr bin Al-Harith",
+   "en": "Al-Nadr ibn al-Harith"
+  },
+  {
+   "key": "ummu-anmar",
+   "group": "quraisy",
+   "ms": "Ummu Anmar",
+   "en": null
+  },
+  {
+   "key": "utaibah-bin-abi-lahab",
+   "group": "quraisy",
+   "ms": "Utaibah",
+   "en": null
+  },
+  {
+   "key": "utbah-bin-rabiah",
+   "group": "quraisy",
+   "ms": "Utbah bin Rabi'ah",
+   "en": "Utba ibn Rabia"
+  },
+  {
+   "key": "abdullah-bin-abi-rabiah",
+   "group": "quraisy",
+   "ms": "Abdullah bin Abi Rabi'ah",
+   "en": null
+  },
+  {
+   "key": "abul-bukhtari",
+   "group": "quraisy",
+   "ms": "Abul Bukhtari ibn Hisham",
+   "en": null,
+   "aliases": [
+    "Abul Bukhtari"
+   ]
+  },
+  {
+   "key": "al-as-bin-wail",
+   "group": "quraisy",
+   "ms": "Al-As bin Wa'il",
+   "en": "Al-As ibn Wa'il",
+   "aliases": [
+    "Al-As bin Wail"
+   ]
+  },
+  {
+   "key": "al-khattab",
+   "group": "quraisy",
+   "ms": "Al-Khattab",
+   "en": null
+  },
+  {
+   "key": "amr-bin-luhay",
+   "group": "quraisy",
+   "ms": "Amr bin Luhay Al-Khuzai",
+   "en": null
+  },
+  {
+   "key": "hisham-bin-amr",
+   "group": "quraisy",
+   "ms": "Hisham bin Amr",
+   "en": null
+  },
+  {
+   "key": "jamil-bin-mamar",
+   "group": "quraisy",
+   "ms": "Jamil bin Ma'mar al-Jumahi",
+   "en": null,
+   "aliases": [
+    "Jamil bin Ma'mar Al-Jumahi"
+   ]
+  },
+  {
+   "key": "suhail-bin-amr",
+   "group": "quraisy",
+   "ms": "Suhail bin Amr",
+   "en": "Suhayl ibn Amr"
+  },
+  {
+   "key": "syaibah-bin-rabiah",
+   "group": "quraisy",
+   "ms": "Syaibah bin Rabi'ah",
+   "en": null
+  },
+  {
+   "key": "uqbah-bin-abi-muait",
+   "group": "quraisy",
+   "ms": "Uqbah bin Abi Mu'ait",
+   "en": "Uqba ibn Abi Muayt"
+  },
+  {
+   "key": "utbah-bin-abi-lahab",
+   "group": "quraisy",
+   "ms": "Utbah",
+   "en": null
+  },
+  {
+   "key": "abu-umayyah-bin-al-mughirah",
+   "group": "quraisy",
+   "ms": "Abu Umayyah bin Al-Mughirah",
+   "en": null
+  },
+  {
+   "key": "al-barrad",
+   "group": "quraisy",
+   "ms": "Al-Barrad",
+   "en": null
+  },
+  {
+   "key": "al-harith-bin-hisham",
+   "group": "quraisy",
+   "ms": "Al-Harith bin Hisham",
+   "en": "al-Harith ibn Hisham"
+  },
+  {
+   "key": "ash-bin-wail",
+   "group": "quraisy",
+   "ms": "Ash bin Wail",
+   "en": null
+  },
+  {
+   "key": "bahirah-bani-amir",
+   "group": "quraisy",
+   "ms": "Bahirah",
+   "en": "Bahirah"
+  },
+  {
+   "key": "labid-bin-rabiah",
+   "group": "quraisy",
+   "ms": "Labid bin Rabi'ah",
+   "en": "Labid ibn Rabia"
+  },
+  {
+   "key": "naufal-bin-khuwailid",
+   "group": "quraisy",
+   "ms": "Naufal bin Khuwailid",
+   "en": null
+  },
+  {
+   "key": "umayyah-bin-al-mughirah",
+   "group": "quraisy",
+   "ms": "Umayyah bin Al-Mughirah",
+   "en": null
+  },
+  {
+   "key": "uthman-bin-talhah",
+   "group": "quraisy",
+   "ms": "Uthman bin Talhah",
+   "en": null
+  },
+  {
+   "key": "zamah-bin-aswad",
+   "group": "quraisy",
+   "ms": "Zam'ah ibn Aswad",
+   "en": null
+  },
+  {
+   "key": "zuhair",
+   "group": "quraisy",
+   "ms": "Zuhair",
+   "en": null
+  },
+  {
+   "key": "zuhair-bin-abi-umayyah",
+   "group": "quraisy",
+   "ms": "Zuhair bin Abi Umayyah",
+   "en": null
+  },
+  {
+   "key": "waraqah-bin-naufal",
+   "group": "ahli-kitab",
+   "ms": "Waraqah bin Naufal",
+   "en": "Waraqa ibn Nawfal",
+   "aliases": [
+    "Warakah bin Naufal"
+   ]
+  },
+  {
+   "key": "adas",
+   "group": "ahli-kitab",
+   "ms": "Adas",
+   "en": "Addas",
+   "aliases": [
+    "Addas"
+   ]
+  },
+  {
+   "key": "bahira",
+   "group": "ahli-kitab",
+   "ms": "Bahira (Buhairah)",
+   "en": "Bahira",
+   "aliases": [
+    "Bahira (Buhaira)",
+    "Buhaira"
+   ]
+  },
+  {
+   "key": "rahib",
+   "group": "ahli-kitab",
+   "ms": "Rahib",
+   "en": null
+  },
+  {
+   "key": "hamka",
+   "group": "ulama",
+   "ms": "Hamka",
+   "en": "Hamka",
+   "aliases": [
+    "Buya Hamka"
+   ]
+  },
+  {
+   "key": "imam-bukhari",
+   "group": "ulama",
+   "ms": "Imam Al-Bukhari",
+   "en": "al-Bukhari",
+   "aliases": [
+    "Imam Bukhari",
+    "Imam Bukhari dan Imam Muslim"
+   ]
+  },
+  {
+   "key": "ibn-kathir",
+   "group": "ulama",
+   "ms": "Ibn Kathir",
+   "en": "Ibn Kathir"
+  },
+  {
+   "key": "quraish-shihab",
+   "group": "ulama",
+   "ms": "Muhammad Quraish Shihab",
+   "en": "Muhammad Quraish Shihab",
+   "aliases": [
+    "Quraish Shihab",
+    "Prof. Quraish Shihab"
+   ]
+  },
+  {
+   "key": "ibn-qayyim",
+   "group": "ulama",
+   "ms": "Ibn Qayyim Al-Jawziyyah",
+   "en": "Ibn Qayyim al-Jawziyya",
+   "aliases": [
+    "Ibn Qayyim Al-Jawziah",
+    "Ibn Qayyim",
+    "Ibn Qayyim al-Jawziyyah"
+   ]
+  },
+  {
+   "key": "imam-ahmad",
+   "group": "ulama",
+   "ms": "Imam Ahmad",
+   "en": "Imam Ahmad ibn Hanbal",
+   "aliases": [
+    "Imam Ahmad dan Imam Bukhari"
+   ]
+  },
+  {
+   "key": "imam-syafii",
+   "group": "ulama",
+   "ms": "Imam Syafi'i",
+   "en": "Imam al-Shafi'i",
+   "aliases": [
+    "Imam Ash-Shafi'i"
+   ]
+  },
+  {
+   "key": "imam-tirmizi",
+   "group": "ulama",
+   "ms": "Imam Tirmizi",
+   "en": "al-Tirmidhi",
+   "aliases": [
+    "Imam at-Tirmidhi",
+    "Imam At-Tirmidhi, An-Nasa'i dan Ibn Majah",
+    "Imam At-Tirmidhi, Ibn Majah, Ahmad dan Muslim",
+    "Imam At-Tirmidhi"
+   ]
+  },
+  {
+   "key": "muhammad-al-ghazali",
+   "group": "ulama",
+   "ms": "Syekh Muhammad Al-Ghazali",
+   "en": "Muhammad al-Ghazali",
+   "aliases": [
+    "Muhammad Al-Ghazali"
+   ]
+  },
+  {
+   "key": "safiyyurrahman-al-mubarakfuri",
+   "group": "ulama",
+   "ms": "Safiyyurrahman Al-Mubarakfuri",
+   "en": "Safiur Rahman al-Mubarakfuri",
+   "aliases": [
+    "Safiur Rahman Al-Mubarakfuri",
+    "Safiur Rahman al-Mubarakfuri",
+    "Safiyyurahman Al-Mubarakfuri"
+   ]
+  },
+  {
+   "key": "ali-as-sallabi",
+   "group": "ulama",
+   "ms": "Ali As-Sallabi",
+   "en": "Ali Muhammad al-Sallabi",
+   "aliases": [
+    "Dr. Ali As-Salabi",
+    "Ali Muhammad As-Sallabi"
+   ]
+  },
+  {
+   "key": "ibn-ishaq",
+   "group": "ulama",
+   "ms": "Ibn Ishaq",
+   "en": "Ibn Ishaq"
+  },
+  {
+   "key": "adh-dhahabi",
+   "group": "ulama",
+   "ms": "Az-Zahabi",
+   "en": "al-Dhahabi"
+  },
+  {
+   "key": "adil-salahi",
+   "group": "ulama",
+   "ms": "Dr. Adil Salahi",
+   "en": null,
+   "aliases": [
+    "Adil Salahi"
+   ]
+  },
+  {
+   "key": "an-nawawi",
+   "group": "ulama",
+   "ms": "Imam An-Nawawi",
+   "en": "Imam al-Nawawi",
+   "aliases": [
+    "Imam An-Nawawi, Ibn Kathir dan Syeikhul Islam"
+   ]
+  },
+  {
+   "key": "ibn-majah",
+   "group": "ulama",
+   "ms": "Ibn Majah",
+   "en": null
+  },
+  {
+   "key": "imam-muslim",
+   "group": "ulama",
+   "ms": "Imam Muslim",
+   "en": null
+  },
+  {
+   "key": "ramadan-al-buti",
+   "group": "ulama",
+   "ms": "Dr. Sa'id Ramadan al-Buti",
+   "en": null,
+   "aliases": [
+    "Ramadan Al-Buti"
+   ]
+  },
+  {
+   "key": "tariq-ramadan",
+   "group": "ulama",
+   "ms": "Dr. Tariq Ramadan",
+   "en": "Tariq Ramadan",
+   "aliases": [
+    "Tariq Ramadan"
+   ]
+  },
+  {
+   "key": "tariq-suwaidan",
+   "group": "ulama",
+   "ms": "Dr. Tariq Suwaidan",
+   "en": "Tariq Suwaidan",
+   "aliases": [
+    "Tariq Suwaidan"
+   ]
+  },
+  {
+   "key": "yasir-qadhi",
+   "group": "ulama",
+   "ms": "Dr. Yasir Qadhi",
+   "en": "Yasir Qadhi",
+   "aliases": [
+    "Yasir Qadhi"
+   ]
+  },
+  {
+   "key": "abul-hasan-an-nadwi",
+   "group": "ulama",
+   "ms": "Abul Hasan Ali An-Nadwi",
+   "en": null
+  },
+  {
+   "key": "an-nasai",
+   "group": "ulama",
+   "ms": "An-Nasa'i",
+   "en": null
+  },
+  {
+   "key": "at-tabari",
+   "group": "ulama",
+   "ms": "Al-Tabari",
+   "en": "al-Tabari"
+  },
+  {
+   "key": "hisham-al-kalbi",
+   "group": "ulama",
+   "ms": "Hisham ibn Muhammad al-Kalbi",
+   "en": null
+  },
+  {
+   "key": "ibn-hisham",
+   "group": "ulama",
+   "ms": "Ibn Hisham",
+   "en": null
+  },
+  {
+   "key": "ibn-iraqi",
+   "group": "ulama",
+   "ms": "Ibn Iraqi",
+   "en": null
+  },
+  {
+   "key": "ibn-quddamah",
+   "group": "ulama",
+   "ms": "Ibn Quddamah",
+   "en": null
+  },
+  {
+   "key": "imam-al-ghazali",
+   "group": "ulama",
+   "ms": "Imam al-Ghazali",
+   "en": null
+  },
+  {
+   "key": "imam-malik",
+   "group": "ulama",
+   "ms": "Imam Malik",
+   "en": "Imam Malik"
+  },
+  {
+   "key": "muhammad-akram-nadwi",
+   "group": "ulama",
+   "ms": "Muhammad Akram Nadwi",
+   "en": "Mohammad Akram Nadwi"
+  },
+  {
+   "key": "muhammad-al-arifi",
+   "group": "ulama",
+   "ms": "Muhammad Al-Arifi",
+   "en": "Muhammad al-Arifi"
+  },
+  {
+   "key": "muhammad-al-sharif",
+   "group": "ulama",
+   "ms": "Muhammad Al-Sharif",
+   "en": "Muhammad al-Sharif"
+  },
+  {
+   "key": "muhammad-kamil-ibrahim",
+   "group": "ulama",
+   "ms": "Prof Dr Muhammad Kamil Ibrahim",
+   "en": null
+  },
+  {
+   "key": "muhammad-natsir",
+   "group": "ulama",
+   "ms": "Muhammad Natsir",
+   "en": "Muhammad Natsir"
+  },
+  {
+   "key": "salman-al-audah",
+   "group": "ulama",
+   "ms": "Syekh Dr. Salman Al-Audah",
+   "en": "Salman al-Awdah"
+  },
+  {
+   "key": "sayyid-qutb",
+   "group": "ulama",
+   "ms": "Sayyid Qutb",
+   "en": "Sayyid Qutb"
+  },
+  {
+   "key": "syeikhul-islam",
+   "group": "ulama",
+   "ms": "Syeikhul Islam",
+   "en": null
+  },
+  {
+   "key": "syuaib-al-arnaut",
+   "group": "ulama",
+   "ms": "Syu'aib al-Arna'ut",
+   "en": "Shu'ayb al-Arna'ut"
+  },
+  {
+   "key": "umar-bin-abdul-aziz",
+   "group": "ulama",
+   "ms": "Umar bin Abdul Aziz",
+   "en": "Umar ibn Abdul Aziz"
+  },
+  {
+   "key": "urwah-bin-az-zubair",
+   "group": "ulama",
+   "ms": "Urwah",
+   "en": "Urwah"
+  },
+  {
+   "key": "yusuf-al-qaradawi",
+   "group": "ulama",
+   "ms": "Yusuf Al-Qaradawi",
+   "en": "Yusuf al-Qaradawi"
+  },
+  {
+   "key": "jibril",
+   "group": "lain",
+   "ms": "Jibril AS",
+   "en": "Jibril (angel)"
+  },
+  {
+   "key": "najasyi",
+   "group": "lain",
+   "ms": "Najasyi (Ashamah)",
+   "en": "The Negus (Ashama)",
+   "aliases": [
+    "Najasyi",
+    "An-Najasyi (Ashamah)",
+    "An-Najasyi"
+   ]
+  },
+  {
+   "key": "zaid-bin-amr-bin-nufail",
+   "group": "lain",
+   "ms": "Zaid bin Amr bin Nufail",
+   "en": "Zayd ibn Amr ibn Nufayl"
+  },
+  {
+   "key": "abraha",
+   "group": "lain",
+   "ms": "Abraha",
+   "en": "Abraha"
+  },
+  {
+   "key": "al-harith-suami-halimah",
+   "group": "lain",
+   "ms": "Al-Harith",
+   "en": "al-Harith"
+  },
+  {
+   "key": "hala-binti-khuwailid",
+   "group": "lain",
+   "ms": "Hala binti Khuwailid",
+   "en": "Hala bint Khuwaylid",
+   "aliases": [
+    "Hala binti Khuwaylid",
+    "Hala"
+   ]
+  },
+  {
+   "key": "harithah-ayah-zaid",
+   "group": "lain",
+   "ms": "Harithah (ayah Zaid)",
+   "en": null,
+   "aliases": [
+    "Harithah"
+   ]
+  },
+  {
+   "key": "bakum",
+   "group": "lain",
+   "ms": "Bakum",
+   "en": null
+  },
+  {
+   "key": "firaun",
+   "group": "lain",
+   "ms": "Firaun",
+   "en": "Pharaoh",
+   "aliases": [
+    "Fir'aun"
+   ]
+  },
+  {
+   "key": "maisarah",
+   "group": "lain",
+   "ms": "Maisarah",
+   "en": "Maysarah"
+  },
+  {
+   "key": "maryam",
+   "group": "lain",
+   "ms": "Maryam",
+   "en": "Mary",
+   "aliases": [
+    "Maryam AS"
+   ]
+  },
+  {
+   "key": "abdul-yalil-bin-amr",
+   "group": "lain",
+   "ms": "Abdul Yalil bin Amr",
+   "en": null
+  },
+  {
+   "key": "abdullah-bin-ubay",
+   "group": "lain",
+   "ms": "Abdullah bin Ubay bin Salul",
+   "en": "Abdullah ibn Ubayy ibn Salul"
+  },
+  {
+   "key": "adam-grant",
+   "group": "lain",
+   "ms": "Adam Grant",
+   "en": "Adam Grant"
+  },
+  {
+   "key": "gabor-mate",
+   "group": "lain",
+   "ms": "Gabor Maté",
+   "en": "Gabor Maté"
+  },
+  {
+   "key": "ghulam",
+   "group": "lain",
+   "ms": "Ghulam",
+   "en": null
+  },
+  {
+   "key": "habib-bin-amr",
+   "group": "lain",
+   "ms": "Habib bin Amr",
+   "en": null
+  },
+  {
+   "key": "hajar",
+   "group": "lain",
+   "ms": "Hajar AS",
+   "en": "Hajar",
+   "aliases": [
+    "Hajar"
+   ]
+  },
+  {
+   "key": "ibn-daghinah",
+   "group": "lain",
+   "ms": "Ibn Daghinah",
+   "en": null
+  },
+  {
+   "key": "johann-hari",
+   "group": "lain",
+   "ms": "Johann Hari",
+   "en": "Johann Hari"
+  },
+  {
+   "key": "masud-bin-amr",
+   "group": "lain",
+   "ms": "Mas'ud bin Amr",
+   "en": null
+  },
+  {
+   "key": "siti-raham",
+   "group": "lain",
+   "ms": "Siti Raham",
+   "en": "Siti Raham"
+  },
+  {
+   "key": "abdullah-anak-halimah",
+   "group": "lain",
+   "ms": "Abdullah (anak Halimah)",
+   "en": null,
+   "aliases": [
+    "Abdullah"
+   ]
+  },
+  {
+   "key": "abu-hala",
+   "group": "lain",
+   "ms": "Abu Hala",
+   "en": null
+  },
+  {
+   "key": "abu-lulua-al-majusi",
+   "group": "lain",
+   "ms": "Abu Lu'lu'ah al-Majusi",
+   "en": null
+  },
+  {
+   "key": "abu-righal",
+   "group": "lain",
+   "ms": "Abu Righal",
+   "en": null
+  },
+  {
+   "key": "afia-siddiqui",
+   "group": "lain",
+   "ms": "Afia Siddiqui",
+   "en": "Aafia Siddiqui"
+  },
+  {
+   "key": "ahmad-yassin",
+   "group": "lain",
+   "ms": "Syekh Ahmad Yassin",
+   "en": "Sheikh Ahmad Yassin"
+  },
+  {
+   "key": "ainun",
+   "group": "lain",
+   "ms": "Ainun",
+   "en": "Ainun"
+  },
+  {
+   "key": "akbar",
+   "group": "lain",
+   "ms": "Akbar",
+   "en": "Akbar the Great"
+  },
+  {
+   "key": "al-barrat-bin-qais",
+   "group": "lain",
+   "ms": "Al-Barrat bin Qais",
+   "en": null
+  },
+  {
+   "key": "amr-bapa-saudara-khadijah",
+   "group": "lain",
+   "ms": "Amr (bapa saudara Khadijah)",
+   "en": null,
+   "aliases": [
+    "Amr"
+   ]
+  },
+  {
+   "key": "andrew-huberman",
+   "group": "lain",
+   "ms": "Dr. Andrew Huberman",
+   "en": "Andrew Huberman"
+  },
+  {
+   "key": "aryad",
+   "group": "lain",
+   "ms": "Aryad",
+   "en": null
+  },
+  {
+   "key": "asiyah",
+   "group": "lain",
+   "ms": "Asiyah RA",
+   "en": null
+  },
+  {
+   "key": "asma-hussein",
+   "group": "lain",
+   "ms": "Asma' Hussein",
+   "en": null
+  },
+  {
+   "key": "atiq",
+   "group": "lain",
+   "ms": "Atiq",
+   "en": null
+  },
+  {
+   "key": "awwam",
+   "group": "lain",
+   "ms": "Awwam",
+   "en": null
+  },
+  {
+   "key": "az-zubaidi",
+   "group": "lain",
+   "ms": "Az-Zubaidi",
+   "en": null
+  },
+  {
+   "key": "azar",
+   "group": "lain",
+   "ms": "Azar",
+   "en": "Azar"
+  },
+  {
+   "key": "byung-chul-han",
+   "group": "lain",
+   "ms": "Byung-Chul Han",
+   "en": "Byung-Chul Han",
+   "aliases": [
+    "Byung-Chul Han dan Johann Hari"
+   ]
+  },
+  {
+   "key": "cody-gakpo",
+   "group": "lain",
+   "ms": "Cody Gakpo",
+   "en": "Cody Gakpo"
+  },
+  {
+   "key": "cristiano-ronaldo",
+   "group": "lain",
+   "ms": "Cristiano Ronaldo",
+   "en": "Cristiano Ronaldo"
+  },
+  {
+   "key": "dhunawas",
+   "group": "lain",
+   "ms": "Dhunawas",
+   "en": null
+  },
+  {
+   "key": "farish-a-noor",
+   "group": "lain",
+   "ms": "Farish A. Noor",
+   "en": "Farish A. Noor"
+  },
+  {
+   "key": "fatimah-ibu-khadijah",
+   "group": "lain",
+   "ms": "Fatimah (ibu Khadijah)",
+   "en": null
+  },
+  {
+   "key": "gita-wirjawan",
+   "group": "lain",
+   "ms": "Gita Wirjawan",
+   "en": null
+  },
+  {
+   "key": "habibie",
+   "group": "lain",
+   "ms": "Bapak Habibie",
+   "en": "B. J. Habibie"
+  },
+  {
+   "key": "habil",
+   "group": "lain",
+   "ms": "Habil",
+   "en": null
+  },
+  {
+   "key": "haji-agus-salim",
+   "group": "lain",
+   "ms": "Haji Agus Salim",
+   "en": "Haji Agus Salim"
+  },
+  {
+   "key": "hawa",
+   "group": "lain",
+   "ms": "Hawa AS",
+   "en": null
+  },
+  {
+   "key": "ibu-musa",
+   "group": "lain",
+   "ms": "Ibu Nabi Musa AS",
+   "en": null
+  },
+  {
+   "key": "inbal-arieli",
+   "group": "lain",
+   "ms": "Inbal Arieli",
+   "en": null
+  },
+  {
+   "key": "irfan-hamka",
+   "group": "lain",
+   "ms": "Irfan Hamka",
+   "en": "Irfan Hamka"
+  },
+  {
+   "key": "jl-collins",
+   "group": "lain",
+   "ms": "J.L. Collins",
+   "en": "J.L. Collins"
+  },
+  {
+   "key": "john-medina",
+   "group": "lain",
+   "ms": "John Medina",
+   "en": null
+  },
+  {
+   "key": "jonathan-haidt",
+   "group": "lain",
+   "ms": "Jonathan Haidt",
+   "en": null
+  },
+  {
+   "key": "khuwailid",
+   "group": "lain",
+   "ms": "Khuwailid",
+   "en": null
+  },
+  {
+   "key": "leonard-sax",
+   "group": "lain",
+   "ms": "Leonard Sax",
+   "en": "Leonard Sax"
+  },
+  {
+   "key": "leslie-hazleton",
+   "group": "lain",
+   "ms": "Leslie Hazleton",
+   "en": null
+  },
+  {
+   "key": "lionel-messi",
+   "group": "lain",
+   "ms": "Lionel Messi",
+   "en": "Lionel Messi"
+  },
+  {
+   "key": "louise-perry",
+   "group": "lain",
+   "ms": "Louise Perry",
+   "en": "Louise Perry"
+  },
+  {
+   "key": "madeline-berma",
+   "group": "lain",
+   "ms": "Datuk Dr. Madeline Berma",
+   "en": "Madeline Berma"
+  },
+  {
+   "key": "malaikat-gunung",
+   "group": "lain",
+   "ms": "Malaikat gunung",
+   "en": null
+  },
+  {
+   "key": "malcolm-x",
+   "group": "lain",
+   "ms": "Malcolm X",
+   "en": "Malcolm X"
+  },
+  {
+   "key": "malik-penjaga-neraka",
+   "group": "lain",
+   "ms": "Malik",
+   "en": "Malik"
+  },
+  {
+   "key": "maria-ahlin",
+   "group": "lain",
+   "ms": "Maria Ahlin",
+   "en": null
+  },
+  {
+   "key": "mazli-malik",
+   "group": "lain",
+   "ms": "Dr. Mazli Malik",
+   "en": null
+  },
+  {
+   "key": "mohamed-salah",
+   "group": "lain",
+   "ms": "Mohamed Salah",
+   "en": "Mohamed Salah"
+  },
+  {
+   "key": "muhammad-balangkaya",
+   "group": "lain",
+   "ms": "Muhammad Balangkaya",
+   "en": null
+  },
+  {
+   "key": "muhammad-najib",
+   "group": "lain",
+   "ms": "Muhammad Najib",
+   "en": null
+  },
+  {
+   "key": "nasr",
+   "group": "lain",
+   "ms": "Nasr",
+   "en": null
+  },
+  {
+   "key": "numan-bin-mundhir",
+   "group": "lain",
+   "ms": "Nu'man bin Mundhir",
+   "en": null
+  },
+  {
+   "key": "paul-keeler",
+   "group": "lain",
+   "ms": "Syekh Ahmad Paul Keeler",
+   "en": null
+  },
+  {
+   "key": "paulo-coelho",
+   "group": "lain",
+   "ms": "Paulo Coelho",
+   "en": null
+  },
+  {
+   "key": "qabil",
+   "group": "lain",
+   "ms": "Qabil",
+   "en": null
+  },
+  {
+   "key": "rosmawati-zainal",
+   "group": "lain",
+   "ms": "Rosmawati Zainal",
+   "en": null
+  },
+  {
+   "key": "sadio-mane",
+   "group": "lain",
+   "ms": "Sadio Mane",
+   "en": "Sadio Mane"
+  },
+  {
+   "key": "sarah",
+   "group": "lain",
+   "ms": "Sarah",
+   "en": null
+  },
+  {
+   "key": "sultan-muhammad-al-fatih",
+   "group": "lain",
+   "ms": "Sultan Muhammad Al-Fatih",
+   "en": "Sultan Mehmed al-Fatih"
+  },
+  {
+   "key": "suwa",
+   "group": "lain",
+   "ms": "Suwa'",
+   "en": null
+  },
+  {
+   "key": "ubaidullah-bin-jahsy",
+   "group": "lain",
+   "ms": "Ubaidullah bin Jahsy",
+   "en": null
+  },
+  {
+   "key": "urwah-ar-rahhal",
+   "group": "lain",
+   "ms": "Urwah",
+   "en": "Urwah"
+  },
+  {
+   "key": "urwah-bin-utbah",
+   "group": "lain",
+   "ms": "Urwah bin Utbah",
+   "en": null
+  },
+  {
+   "key": "uthman-bin-huwairith",
+   "group": "lain",
+   "ms": "Uthman bin Huwairith",
+   "en": null
+  },
+  {
+   "key": "uwais-al-qarni",
+   "group": "lain",
+   "ms": "Uwais Al-Qarni",
+   "en": "Uways al-Qarani"
+  },
+  {
+   "key": "wadah-hanfar",
+   "group": "lain",
+   "ms": "Wadah Hanfar",
+   "en": null
+  },
+  {
+   "key": "wadd",
+   "group": "lain",
+   "ms": "Wadd",
+   "en": null
+  },
+  {
+   "key": "yaghuth",
+   "group": "lain",
+   "ms": "Yaghuth",
+   "en": null
+  },
+  {
+   "key": "yahud",
+   "group": "lain",
+   "ms": "Yahud",
+   "en": null
+  },
+  {
+   "key": "yauq",
+   "group": "lain",
+   "ms": "Ya'uq",
+   "en": null
+  },
+  {
+   "key": "zahara-sulaiman",
+   "group": "lain",
+   "ms": "Dr. Zahara Sulaiman",
+   "en": null
+  },
+  {
+   "key": "zunawas",
+   "group": "lain",
+   "ms": "Raja Zunawas",
+   "en": null,
+   "aliases": [
+    "Raja (disebut Zunawas)"
+   ]
+  }
+ ]
+}

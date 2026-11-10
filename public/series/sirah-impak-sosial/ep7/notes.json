@@ -298,6 +298,7 @@
   {
    "id": "p1",
    "name": "Halimah As-Sa'diah",
+   "person": "halimah",
    "role": "Ibu susuan Nabi SAW",
    "t": 166,
    "context": "Mengambil bayi yatim dengan yakin Allah akan membuka pintu rezeki, lalu menikmati keberkatan dan namanya terus dikenang."
@@ -305,6 +306,7 @@
   {
    "id": "p3",
    "name": "Abu Hurairah RA",
+   "person": "abu-hurairah",
    "role": "Perawi hadis qudsi",
    "t": 212,
    "context": "Meriwayatkan hadis tentang sangkaan baik hamba kepada Allah."
@@ -312,6 +314,7 @@
   {
    "id": "p2",
    "name": "Al-Harith",
+   "person": "al-harith-suami-halimah",
    "role": "Suami Halimah",
    "t": 297,
    "context": "Menenangkan Halimah agar mengambil bayi itu dengan harapan Allah memberi rezeki melalui keputusan tersebut."
@@ -319,6 +322,7 @@
   {
    "id": "p4",
    "name": "Imam Tirmizi",
+   "person": "imam-tirmizi",
    "role": "Pengumpul hadis",
    "t": 445,
    "context": "Diriwayatkan oleh beliau hadis tentang berdoa dengan yakin, yang bertaraf hasan."
@@ -326,6 +330,7 @@
   {
    "id": "p5",
    "name": "Abu Bakar RA",
+   "person": "abu-bakar",
    "role": "Sahabat Nabi SAW",
    "t": 540,
    "context": "Membuat persiapan hijrah dengan membeli unta terbaik kerana yakin doanya untuk menemani Nabi SAW dimustajabkan, lalu menangis kegembiraan apabila Nabi SAW mengajaknya."
@@ -333,6 +338,7 @@
   {
    "id": "p6",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Isteri Nabi SAW",
    "t": 568,
    "context": "Menyatakan beliau tidak pernah melihat orang menangis kerana terlalu gembira sebagaimana Abu Bakar RA."
@@ -340,6 +346,7 @@
   {
    "id": "p14",
    "name": "Syekh Ahmad Paul Keeler",
+   "person": "paul-keeler",
    "role": "Tetamu podcast The Thinking Muslim",
    "t": 1149,
    "context": "Berkhidmat setahun di Malaysia dan menyebut sumber alam Malaysia sesuai untuk hidup sihat, tetapi gaya hidup moden menyebabkan beban penyakit berganda. Ejaan nama mengikut sebutan dalam rakaman dan perlu disemak."
@@ -347,6 +354,7 @@
   {
    "id": "p15",
    "name": "Dr. Zahara Sulaiman",
+   "person": "zahara-sulaiman",
    "role": "Pakar penyusuan",
    "t": 1215,
    "context": "Memberi nasihat kepada ustaz tentang kepentingan penyusuan. Ustaz sendiri tidak pasti nama penuh dan jawatannya, jadi ejaan nama perlu disemak."
@@ -354,6 +362,7 @@
   {
    "id": "p7",
    "name": "Nabi Musa AS",
+   "person": "musa",
    "role": "Nabi",
    "t": 1246,
    "context": "Dikembalikan kepada ibunya untuk disusui sebagaimana janji Allah, dan membesar di istana Firaun."
@@ -361,6 +370,7 @@
   {
    "id": "p8",
    "name": "Asiyah RA",
+   "person": "asiyah",
    "role": "Isteri Firaun",
    "t": 1268,
    "context": "Mengangkat Musa AS di istana, dan bayi itu enggan menyusu daripada siapa pun kecuali ibunya."
@@ -368,6 +378,7 @@
   {
    "id": "p9",
    "name": "Ibu Nabi Musa AS",
+   "person": "ibu-musa",
    "role": "Ibu susuan Musa AS",
    "t": 1298,
    "context": "Satu-satunya yang dapat menyusukan Musa AS, lalu dibayar upah oleh istana."
@@ -375,6 +386,7 @@
   {
    "id": "p10",
    "name": "Firaun",
+   "person": "firaun",
    "role": "Pemerintah Mesir",
    "t": 1310,
    "context": "Membunuh bayi lelaki, tetapi tanpa sedar membesarkan sendiri orang yang akan menjatuhkannya."
@@ -382,6 +394,7 @@
   {
    "id": "p13",
    "name": "John Medina",
+   "person": "john-medina",
    "role": "Pakar neurosains perkembangan otak dari Amerika Syarikat",
    "t": 1409,
    "context": "Penulis Brain Rules for Baby yang hujahnya berdasarkan kajian yang disemak rakan sebaya."
@@ -389,6 +402,7 @@
   {
    "id": "p11",
    "name": "Aminah",
+   "person": "aminah",
    "role": "Ibu Nabi SAW",
    "t": 1542,
    "context": "Menyusukan baginda beberapa hari, dan kolostrumnya diperoleh baginda."
@@ -396,6 +410,7 @@
   {
    "id": "p12",
    "name": "Suwaibah",
+   "person": "thuwaibah",
    "role": "Hamba Abu Lahab dan ibu susuan Nabi SAW",
    "t": 1547,
    "context": "Sempat menyusukan Nabi SAW sebelum baginda disusukan secara eksklusif di Bani Sa'ad."

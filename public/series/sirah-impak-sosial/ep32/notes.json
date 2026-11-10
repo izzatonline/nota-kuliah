@@ -218,6 +218,7 @@
   {
    "id": "p4",
    "name": "Hamzah RA",
+   "person": "hamzah",
    "role": "Bapa saudara Nabi SAW",
    "t": 241,
    "context": "Pengislamannya memberi kekuatan sebelum boikot."
@@ -225,6 +226,7 @@
   {
    "id": "p5",
    "name": "Umar Al-Khattab RA",
+   "person": "umar-al-khattab",
    "role": "Sahabat",
    "t": 328,
    "context": "Pengislamannya menggusarkan elit Quraish."
@@ -232,6 +234,7 @@
   {
    "id": "p1",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara dan pelindung Nabi SAW",
    "t": 340,
    "context": "Menghimpun keluarga di Syi'ib dan mencabar Quraish dengan khabar anai-anai."
@@ -239,6 +242,7 @@
   {
    "id": "p2",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Pemimpin Quraish (Abul Hakam)",
    "t": 704,
    "context": "Memaksakan boikot, menaikkan harga dan menghalang bantuan."
@@ -246,6 +250,7 @@
   {
    "id": "p14",
    "name": "Syekh Ahmad Yassin",
+   "person": "ahmad-yassin",
    "role": "Pemimpin Palestin",
    "t": 1004,
    "context": "Disebut sebagai perbandingan keadaan siaga dan pembunuhan pemimpin."
@@ -253,6 +258,7 @@
   {
    "id": "p3",
    "name": "Khadijah RA",
+   "person": "khadijah",
    "role": "Isteri Nabi SAW",
    "t": 1208,
    "context": "Bukan daripada kedua keluarga itu tetapi turut bertahan dan menghabiskan hartanya."
@@ -260,6 +266,7 @@
   {
    "id": "p6",
    "name": "Sa'd bin Abi Waqqas",
+   "person": "saad-bin-abi-waqqas",
    "role": "Sahabat",
    "t": 1451,
    "context": "Meriwayatkan kisah memakan kulit binatang."
@@ -267,6 +274,7 @@
   {
    "id": "p7",
    "name": "Bilal ibn Rabah",
+   "person": "bilal-bin-rabah",
    "role": "Sahabat",
    "t": 1509,
    "context": "Menyebut mereka memakan ranting dan daun."
@@ -274,6 +282,7 @@
   {
    "id": "p8",
    "name": "Hakim bin Hizam",
+   "person": "hakim-bin-hizam",
    "role": "Anak saudara Khadijah, belum Islam ketika itu",
    "t": 1679,
    "context": "Menghantar unta berisi makanan ke Syi'ib walaupun diugut Abu Jahal."
@@ -281,6 +290,7 @@
   {
    "id": "p9",
    "name": "Abul Bukhtari ibn Hisham",
+   "person": "abul-bukhtari",
    "role": "Orang Quraish",
    "t": 1859,
    "context": "Bergaduh dengan Abu Jahal kerana menghalang bantuan, kemudian menjadi orang keempat dalam gerakan."
@@ -288,6 +298,7 @@
   {
    "id": "p15",
    "name": "Dr. Ali As-Salabi",
+   "person": "ali-as-sallabi",
    "role": "Pengkaji sirah",
    "t": 1948,
    "context": "Menyebut Khadijah menghabiskan hartanya dan dakwah pulih selepas boikot."
@@ -295,6 +306,7 @@
   {
    "id": "p10",
    "name": "Hisham bin Amr",
+   "person": "hisham-bin-amr",
    "role": "Bani Amir, penggerak pembatalan boikot",
    "t": 2057,
    "context": "Memujuk empat orang lain dan merancang pembatalan perjanjian."
@@ -302,6 +314,7 @@
   {
    "id": "p11",
    "name": "Zuhair bin Abi Umayyah",
+   "person": "zuhair-bin-abi-umayyah",
    "role": "Bani Makhzum, ibunya anak Abdul Muttalib",
    "t": 2153,
    "context": "Orang pertama yang bangkit di Kaabah."
@@ -309,6 +322,7 @@
   {
    "id": "p12",
    "name": "Mut'im ibn Adi",
+   "person": "mutim-bin-adi",
    "role": "Bani Naufal",
    "t": 2262,
    "context": "Orang ketiga yang dipujuk; kelak dikenang Nabi SAW semasa Badar."
@@ -316,6 +330,7 @@
   {
    "id": "p13",
    "name": "Zam'ah ibn Aswad",
+   "person": "zamah-bin-aswad",
    "role": "Orang kelima dalam gerakan",
    "t": 2399,
    "context": "Menyertai rancangan membatalkan boikot."

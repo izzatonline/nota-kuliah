@@ -148,6 +148,7 @@
   {
    "id": "p4",
    "name": "Ja'far bin Abi Talib",
+   "person": "jafar-bin-abi-talib",
    "role": "Jurucakap sahabat di Habasyah",
    "t": 268,
    "context": "Berucap dan membaca Surah Maryam di hadapan Najasyi."
@@ -155,6 +156,7 @@
   {
    "id": "p3",
    "name": "Najasyi",
+   "person": "najasyi",
    "role": "Raja Habasyah",
    "t": 274,
    "context": "Menangis mendengar Ja'far, mungkin kerana memahami bahasa Arab atau melalui penterjemah."
@@ -162,6 +164,7 @@
   {
    "id": "p5",
    "name": "Mus'ab bin Umair",
+   "person": "musab-bin-umair",
    "role": "Sahabat yang mengajar di Madinah",
    "t": 546,
    "context": "Mengajar 17 surah kepada Zaid bin Thabit."
@@ -169,6 +172,7 @@
   {
    "id": "p6",
    "name": "Zaid bin Thabit",
+   "person": "zaid-bin-thabit",
    "role": "Kanak-kanak Madinah yang cepat belajar",
    "t": 684,
    "context": "Menghafal 17 surah pada usia 10 tahun dan belajar bahasa Yahudi dan Suriani dalam beberapa hari."
@@ -176,6 +180,7 @@
   {
    "id": "p7",
    "name": "Salman Al-Farisi",
+   "person": "salman-al-farisi",
    "role": "Sahabat dari Parsi",
    "t": 742,
    "context": "Disebut sebagai contoh orang yang belajar bahasa Arab."
@@ -183,6 +188,7 @@
   {
    "id": "p1",
    "name": "Hamzah bin Abdul Muttalib",
+   "person": "hamzah",
    "role": "Bapa saudara dan saudara susuan Nabi SAW",
    "t": 881,
    "context": "Pemburu yang kuat dan digelar Singa Allah, memeluk Islam selepas memukul Abu Jahal, dan akan syahid di Uhud."
@@ -190,6 +196,7 @@
   {
    "id": "p2",
    "name": "Abu Jahal",
+   "person": "abu-jahal",
    "role": "Pembesar Quraisy",
    "t": 1032,
    "context": "Membaling kotoran kepada Nabi SAW dan dipukul Hamzah."
@@ -197,6 +204,7 @@
   {
    "id": "p9",
    "name": "Khalid bin Al-Walid",
+   "person": "khalid-bin-al-walid",
    "role": "Pedang Allah",
    "t": 1129,
    "context": "Disebut sebagai perbandingan dengan Hamzah yang digelar Singa Allah."
@@ -204,6 +212,7 @@
   {
    "id": "p8",
    "name": "Abdullah bin Jud'an",
+   "person": "abdullah-bin-judan",
    "role": "Tuan hamba perempuan",
    "t": 1395,
    "context": "Pemilik rumah tempat Hilf Al-Fudul dibuat."
@@ -211,6 +220,7 @@
   {
    "id": "p10",
    "name": "Umar bin Al-Khattab",
+   "person": "umar-al-khattab",
    "role": "Singa kedua",
    "t": 2152,
    "context": "Belum memeluk Islam ketika Hamzah memeluk Islam dan akan memeluk Islam sebagai orang ke-40."

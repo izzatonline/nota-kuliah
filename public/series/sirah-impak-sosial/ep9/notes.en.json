@@ -168,7 +168,7 @@
   },
   {
    "id": "p13",
-   "role": "Uncles of the Prophet ﷺ",
+   "role": "Uncle of the Prophet ﷺ",
    "context": "Richer and better placed financially, but not chosen by Abdul Muttalib to care for the Prophet ﷺ."
   },
   {
@@ -178,7 +178,7 @@
   },
   {
    "id": "p7",
-   "role": "Sons of Abu Talib",
+   "role": "Son of Abu Talib",
    "context": "The first two sons of Abu Talib, and Talib is why he was called Abu Talib."
   },
   {
@@ -223,7 +223,7 @@
   },
   {
    "id": "p21",
-   "role": "Quraysh leaders",
+   "role": "Quraysh leader",
    "context": "Named in tafsir as people who hosted feasts in the name of religion yet drove orphans away."
   },
   {
@@ -233,13 +233,33 @@
   },
   {
    "id": "p22",
-   "role": "Scholars",
+   "role": "Scholar",
    "context": "Mentioned by Tariq Suwaidan among great figures who grew up without a father."
   },
   {
    "id": "p23",
    "role": "Hadith scholar",
    "context": "Went blind until his mother prayed and Allah restored his sight, and his mother was the one who read hadith to him."
+  },
+  {
+   "id": "p24",
+   "role": "Uncle of the Prophet ﷺ",
+   "context": "Richer and better placed financially, but not chosen by Abdul Muttalib to care for the Prophet ﷺ."
+  },
+  {
+   "id": "p25",
+   "role": "Son of Abu Talib",
+   "context": "The first two sons of Abu Talib, and Talib is why he was called Abu Talib."
+  },
+  {
+   "id": "p26",
+   "role": "Quraysh leader",
+   "context": "Named in tafsir as people who hosted feasts in the name of religion yet drove orphans away."
+  },
+  {
+   "id": "p27",
+   "role": "Scholar",
+   "context": "Mentioned by Tariq Suwaidan among great figures who grew up without a father."
   }
  ],
  "lessons": [

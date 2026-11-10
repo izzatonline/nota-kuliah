@@ -176,6 +176,7 @@
   {
    "id": "p1",
    "name": "Khadijah binti Khuwailid",
+   "person": "khadijah",
    "role": "Isteri pertama Nabi SAW, digelar Tahirah",
    "t": 232,
    "context": "Peniaga kaya yang menawarkan kerja kepada Nabi SAW, kemudian berkahwin dengannya dan melahirkan enam anak."
@@ -183,6 +184,7 @@
   {
    "id": "p2",
    "name": "Maisarah",
+   "person": "maisarah",
    "role": "Pembantu lelaki Khadijah",
    "t": 284,
    "context": "Menemani Nabi SAW ke Syam dan kagum dengan akhlak baginda yang tidak berubah walaupun sukar."
@@ -190,6 +192,7 @@
   {
    "id": "p4",
    "name": "Hala",
+   "person": "hala-binti-khuwailid",
    "role": "Adik Khadijah",
    "t": 464,
    "context": "Disebut semula sebagai adik Khadijah."
@@ -197,6 +200,7 @@
   {
    "id": "p5",
    "name": "Fatimah (ibu Khadijah)",
+   "person": "fatimah-ibu-khadijah",
    "role": "Ibu Khadijah",
    "t": 467,
    "context": "Disebut ketika Ustaz menguji ingatan murid."
@@ -204,6 +208,7 @@
   {
    "id": "p3",
    "name": "Nafisa",
+   "person": "nafisah",
    "role": "Sahabat baik Khadijah",
    "t": 477,
    "context": "Menyampaikan hajat Khadijah kepada Nabi SAW."
@@ -211,6 +216,7 @@
   {
    "id": "p6",
    "name": "Abu Hala",
+   "person": "abu-hala",
    "role": "Suami pertama Khadijah",
    "t": 511,
    "context": "Mempunyai dua atau tiga anak dengan Khadijah sebelum wafat."
@@ -218,6 +224,7 @@
   {
    "id": "p7",
    "name": "Atiq",
+   "person": "atiq",
    "role": "Suami kedua Khadijah",
    "t": 526,
    "context": "Mempunyai seorang anak bernama Hind dengan Khadijah."
@@ -225,6 +232,7 @@
   {
    "id": "p8",
    "name": "Hind",
+   "person": "hind-anak-khadijah",
    "role": "Anak Khadijah",
    "t": 532,
    "context": "Anak daripada perkahwinan kedua Khadijah."
@@ -232,6 +240,7 @@
   {
    "id": "p11",
    "name": "Safiyyah",
+   "person": "safiyyah",
    "role": "Adik perempuan Hamzah",
    "t": 788,
    "context": "Berkahwin dengan adik lelaki Khadijah."
@@ -239,6 +248,7 @@
   {
    "id": "p12",
    "name": "Awwam",
+   "person": "awwam",
    "role": "Adik Khadijah",
    "t": 792,
    "context": "Suami Safiyyah, hubungan keluarga antara dua keluarga."
@@ -246,6 +256,7 @@
   {
    "id": "p13",
    "name": "Khuwailid",
+   "person": "khuwailid",
    "role": "Ayah Khadijah",
    "t": 843,
    "context": "Telah wafat ketika Khadijah dipinang."
@@ -253,6 +264,7 @@
   {
    "id": "p14",
    "name": "Amr",
+   "person": "amr-bapa-saudara-khadijah",
    "role": "Bapa saudara Khadijah",
    "t": 858,
    "context": "Menerima lamaran bagi pihak Khadijah."
@@ -260,6 +272,7 @@
   {
    "id": "p15",
    "name": "Waraqah bin Naufal",
+   "person": "waraqah-bin-naufal",
    "role": "Sepupu Khadijah yang pandai",
    "t": 873,
    "context": "Membaca khutbah nikah, dan akan disebut lagi kerana pentingnya."
@@ -267,6 +280,7 @@
   {
    "id": "p9",
    "name": "Abu Talib",
+   "person": "abu-talib",
    "role": "Bapa saudara Nabi SAW",
    "t": 883,
    "context": "Memuji Khadijah dan pergi meminang bersama Hamzah."
@@ -274,6 +288,7 @@
   {
    "id": "p10",
    "name": "Hamzah",
+   "person": "hamzah",
    "role": "Bapa saudara Nabi SAW",
    "t": 883,
    "context": "Pergi meminang bersama Abu Talib. Adiknya Safiyyah berkahwin dengan adik Khadijah."
@@ -281,6 +296,7 @@
   {
    "id": "p16",
    "name": "Zaid bin Harithah",
+   "person": "zaid-bin-harithah",
    "role": "Anak angkat Nabi SAW",
    "t": 1019,
    "context": "Hamba yang dihadiahkan Khadijah kepada baginda, memilih tinggal bersama baginda, dan kemudian dikahwinkan dengan Ummu Aiman."
@@ -288,6 +304,7 @@
   {
    "id": "p19",
    "name": "Ali bin Abi Talib",
+   "person": "ali-bin-abi-talib",
    "role": "Anak angkat Nabi SAW",
    "t": 1115,
    "context": "Diambil Nabi SAW daripada Abu Talib untuk meringankan beban keluarga itu."
@@ -295,6 +312,7 @@
   {
    "id": "p20",
    "name": "Ummu Aiman",
+   "person": "ummu-aiman",
    "role": "Hamba yang dimerdekakan",
    "t": 1126,
    "context": "Dimerdekakan Nabi SAW, berkahwin, kemudian kembali tinggal bersama baginda dan kemudian dikahwinkan dengan Zaid."
@@ -302,6 +320,7 @@
   {
    "id": "p22",
    "name": "Al-Qasim",
+   "person": "qasim",
    "role": "Anak sulung Nabi SAW",
    "t": 1201,
    "context": "Sebab baginda digelar Abul Qasim, tetapi wafat ketika kecil."
@@ -309,6 +328,7 @@
   {
    "id": "p23",
    "name": "Zainab",
+   "person": "zainab-binti-muhammad",
    "role": "Anak perempuan sulung Nabi SAW",
    "t": 1216,
    "context": "Wafat sebelum Nabi SAW."
@@ -316,6 +336,7 @@
   {
    "id": "p24",
    "name": "Ruqayyah",
+   "person": "ruqayyah",
    "role": "Anak perempuan Nabi SAW",
    "t": 1230,
    "context": "Wafat sebelum Nabi SAW."
@@ -323,6 +344,7 @@
   {
    "id": "p25",
    "name": "Ummu Kulthum",
+   "person": "ummu-kulthum",
    "role": "Anak perempuan Nabi SAW",
    "t": 1230,
    "context": "Wafat sebelum Nabi SAW."
@@ -330,6 +352,7 @@
   {
    "id": "p26",
    "name": "Fatimah",
+   "person": "fatimah-az-zahra",
    "role": "Anak perempuan Nabi SAW",
    "t": 1237,
    "context": "Satu-satunya anak yang wafat selepas baginda, enam bulan kemudian."
@@ -337,6 +360,7 @@
   {
    "id": "p27",
    "name": "Abdullah (anak Nabi SAW)",
+   "person": "abdullah-anak-nabi",
    "role": "Anak lelaki Nabi SAW",
    "t": 1313,
    "context": "Wafat sehari dua selepas dilahirkan."
@@ -344,6 +368,7 @@
   {
    "id": "p28",
    "name": "Aisyah RA",
+   "person": "aisyah",
    "role": "Isteri Nabi SAW",
    "t": 1369,
    "context": "Bertanya kepada Fatimah apa yang dibisikkan Nabi SAW."
@@ -351,6 +376,7 @@
   {
    "id": "p17",
    "name": "Hakim bin Hizam",
+   "person": "hakim-bin-hizam",
    "role": "Saudara Khadijah",
    "t": 1504,
    "context": "Membeli Zaid di pasar lalu menghadiahkannya kepada Khadijah."
@@ -358,6 +384,7 @@
   {
    "id": "p18",
    "name": "Harithah",
+   "person": "harithah-ayah-zaid",
    "role": "Ayah Zaid",
    "t": 1578,
    "context": "Datang dari Iraq dengan semua hartanya untuk mengambil anaknya."
@@ -365,6 +392,7 @@
   {
    "id": "p21",
    "name": "Usamah bin Zaid",
+   "person": "usamah-bin-zaid",
    "role": "Anak Zaid dan Ummu Aiman",
    "t": 1771,
    "context": "Lahir hasil perkahwinan Zaid bin Harithah dengan Ummu Aiman."

@@ -184,7 +184,12 @@
   },
   {
    "id": "p14",
-   "role": "The tribe that took control of Mecca, and its chief",
+   "role": "The tribe that took control of Mecca",
+   "context": "Defeated Jurhum. Amr ibn Luhayy brought the idol Hubal home from Rome and placed it before the Kaaba, then altered the Hajj."
+  },
+  {
+   "id": "p15",
+   "role": "Chief of Khuza'ah",
    "context": "Defeated Jurhum. Amr ibn Luhayy brought the idol Hubal home from Rome and placed it before the Kaaba, then altered the Hajj."
   }
  ],

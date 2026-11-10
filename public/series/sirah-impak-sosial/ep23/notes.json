@@ -219,6 +219,7 @@
   {
    "id": "p1",
    "name": "Amr bin Abasah",
+   "person": "amr-bin-abasah",
    "role": "Sahabat dari kabilah Sulaim, Yaman",
    "t": 325,
    "context": "Datang mencari Nabi SAW dan diminta pulang menunggu."
@@ -226,6 +227,7 @@
   {
    "id": "p2",
    "name": "Bilal bin Rabah",
+   "person": "bilal-bin-rabah",
    "role": "Hamba milik Umayyah bin Khalaf",
    "t": 610,
    "context": "Antara yang terawal memeluk Islam, berasal dari Afrika."
@@ -233,6 +235,7 @@
   {
    "id": "p3",
    "name": "Abu Bakar As-Siddiq",
+   "person": "abu-bakar",
    "role": "Sahabat karib Nabi SAW",
    "t": 748,
    "context": "Membawa lima sahabat penting dan ramai lagi, termasuk hamba dan wanita."
@@ -240,13 +243,23 @@
   {
    "id": "p4",
    "name": "Abu Ubaidah bin Al-Jarrah",
+   "person": "abu-ubaidah",
    "role": "Gelombang kedua",
    "t": 755,
    "context": "Antara yang masuk selepas Abu Bakar."
   },
   {
    "id": "p5",
-   "name": "Abu Salamah dan Ummu Salamah",
+   "name": "Abu Salamah",
+   "person": "abu-salamah",
+   "role": "Pasangan yang berhijrah",
+   "t": 759,
+   "context": "Kelak dipisahkan, dengan anak diambil dan Ummu Salamah menangis setahun."
+  },
+  {
+   "id": "p16",
+   "name": "Ummu Salamah",
+   "person": "ummu-salamah",
    "role": "Pasangan yang berhijrah",
    "t": 759,
    "context": "Kelak dipisahkan, dengan anak diambil dan Ummu Salamah menangis setahun."
@@ -254,6 +267,7 @@
   {
    "id": "p6",
    "name": "Al-Arqam bin Abi Al-Arqam",
+   "person": "al-arqam",
    "role": "Remaja 13 hingga 16 tahun",
    "t": 779,
    "context": "Rumahnya dijadikan markas dakwah."
@@ -261,6 +275,7 @@
   {
    "id": "p7",
    "name": "Sa'id bin Zaid",
+   "person": "said-bin-zaid",
    "role": "Anak Zaid bin Amr bin Nufail",
    "t": 808,
    "context": "Berkahwin dengan Fatimah binti Al-Khattab."
@@ -268,6 +283,7 @@
   {
    "id": "p9",
    "name": "Khabbab bin Al-Arat",
+   "person": "khabbab-bin-al-arat",
    "role": "Hamba yang diseksa",
    "t": 832,
    "context": "Belakangnya dibakar sehingga berlubang; guru Quran Fatimah."
@@ -275,6 +291,7 @@
   {
    "id": "p10",
    "name": "Abdullah bin Mas'ud",
+   "person": "abdullah-bin-masud",
    "role": "Sahabat gelombang ketiga",
    "t": 846,
    "context": "Disebut sebagai tokoh penting dan mentor."
@@ -282,6 +299,7 @@
   {
    "id": "p14",
    "name": "Malcolm X",
+   "person": "malcolm-x",
    "role": "Aktivis Amerika",
    "t": 1082,
    "context": "Setelah haji menyedari Islam bukan agama hitam lawan putih dan ditembak mati."
@@ -289,6 +307,7 @@
   {
    "id": "p13",
    "name": "Suhaib Ar-Rumi",
+   "person": "suhaib-ar-rumi",
    "role": "Sahabat dari Rom",
    "t": 1134,
    "context": "Contoh pengikut Nabi SAW dari luar Arab."
@@ -296,6 +315,7 @@
   {
    "id": "p8",
    "name": "Fatimah binti Al-Khattab",
+   "person": "fatimah-binti-khattab",
    "role": "Adik Umar",
    "t": 1189,
    "context": "Belajar Quran daripada Khabbab; kelak menyebabkan Umar memeluk Islam."
@@ -303,6 +323,7 @@
   {
    "id": "p11",
    "name": "Sa'ad bin Abi Waqqas",
+   "person": "saad-bin-abi-waqqas",
    "role": "Sahabat",
    "t": 1442,
    "context": "Digelar orang pertama menumpahkan darah dalam Islam kerana memukul seorang musyrik."
@@ -310,6 +331,7 @@
   {
    "id": "p12",
    "name": "Mus'ab bin Umair",
+   "person": "musab-bin-umair",
    "role": "Sahabat",
    "t": 1483,
    "context": "Keislamannya dirahsiakan daripada ibunya sebelum didedahkan Uthman bin Talhah."
@@ -317,6 +339,7 @@
   {
    "id": "p15",
    "name": "Adam Grant",
+   "person": "adam-grant",
    "role": "Ahli psikologi organisasi",
    "t": 2593,
    "context": "Pengarang Hidden Potential."
