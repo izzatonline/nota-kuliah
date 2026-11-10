@@ -41,6 +41,10 @@ no markdown fences, no commentary.
   attributed to them. When the speaker counts out a group ("enam pemuda", "dua belas naqib", "sepuluh sahabat") and then
   names its members, list every member he names, one entry each, even when the transcript spells a name badly. Do not
   sample or merge them. Spell a name as best you can; if he gives only a first name, give only that.
+- Person: set `person` to the key from "Known people" below when the entry is one of them (the same person under any
+  spelling). A new person gets a new short kebab-case key without honorifics (for example `abu-bakar`). Two people
+  who share a name get different keys (several Abdullah, Abu Sufyan before and after Islam). One entry is one person:
+  never put two names in one entry. Leave `person` out for a tribe, an animal or someone he does not name.
 - Apply the same rule to books and dalil: when the speaker reads out a list of them, capture the whole list.
 - sirah: where this lecture sits in the life of the Prophet SAW. `era` (short phrase), `summary` (1 to 2 sentences).
   Do not state dates unless the speaker did. `events`: 3 to 8, each with `label`, `title`, `desc`; `at` and `approx`
@@ -65,7 +69,7 @@ no markdown fences, no commentary.
   ],
   "books": [{"title": "…", "author": null, "kind": "Buku", "context": "…", "note": null, "at": "…", "approx": "44:23"}],
   "suggested": [{"title": "…", "author": "…", "kind": "Syarah", "context": "…"}],
-  "people": [{"name": "…", "role": "…", "context": "…", "at": "…", "approx": "10:56"}],
+  "people": [{"name": "…", "person": "abu-bakar", "role": "…", "context": "…", "at": "…", "approx": "10:56"}],
   "sirah": {"era": "…", "summary": "…",
             "events": [{"label": "…", "title": "…", "desc": "…", "at": "…", "approx": "5:25"}]},
   "lessons": [{"title": "…", "kind": "Adab", "body": "…", "at": "…", "approx": "11:48"}],
