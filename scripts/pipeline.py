@@ -36,6 +36,12 @@ LECTURES = ROOT / "public/series"   # set per series in main(): public/series/<s
 QURAN_CACHE = ROOT / "data/quran-cache.json"
 CARE_NOTE = ROOT / "data/care-note.json"
 PROMPT = Path(__file__).resolve().parent / "prompts/notes.md"
+DUAS = ROOT / "data/duas.json"
+
+
+def known_duas():
+    """The duas the Doa page lists, as {key: Malay title}."""
+    return {d["key"]: d["ms"] for d in json.loads(DUAS.read_text())["duas"]}
 MODEL = Path(os.environ.get("WHISPER_MODEL", Path.home() / ".cache/nota-kuliah/ggml-large-v3.bin"))
 MODEL_URL = "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3.bin"
 
@@ -272,6 +278,7 @@ def stage_draft(workdir, args):
         PROMPT.read_text()
         + f"\n\n## Lecture\nTitle: {meta['title']}\nSeries: {args.series}\nSpeaker: {args.speaker}\n"
         + f"Episode: {meta.get('number')}\nLength: {meta['duration'] // 60} minutes\n\n"
+        + "## Known duas (keys for `dua`)\n" + "".join(f"- {k}: {v}\n" for k, v in known_duas().items()) + "\n"
         + "## Transcript\n" + blocks_text(segs) + "\n"
     )
     prompt_file = workdir / "draft.prompt.md"
@@ -442,18 +449,25 @@ def assemble(draft, meta, loc, args):
                 continue
             note = " (rujukan dikenal pasti, nombor ayat tidak disebut)" if d.get("inferred") else ""
             dalil.append({
-                "id": f"q{d['quran'].replace(':', '-')}", "kind": "quran", "ref": f"{q['surah']} {d['quran']}", "t": t,
+                "_i": i, "id": f"q{d['quran'].replace(':', '-')}", "kind": "quran", "ref": f"{q['surah']} {d['quran']}", "t": t,
                 "arabic": q["arabic"].replace("۞ ", ""), "translation": q["translation"],
                 "context": d.get("context", "") + note,
                 "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)", "verified": True,
             })
         else:
             dalil.append({
-                "id": f"h{i}", "kind": "hadith", "ref": d.get("ref") or "Hadis", "t": t, "arabic": d.get("arabic"),
+                "_i": i, "id": f"h{i}", "kind": "hadith", "ref": d.get("ref") or "Hadis", "t": t, "arabic": d.get("arabic"),
                 "translation": d.get("translation", ""), "context": d.get("context", ""),
                 "narrator": d.get("narrator") or "Tidak disebut dalam kuliah",
                 "source": d.get("source") or "Sumber tidak disebut dalam kuliah", "grade": d.get("grade"), "verified": False,
             })
+    duas = known_duas()
+    for d in dalil:
+        key = draft["dalil"][d.pop("_i")].get("dua")
+        if key:
+            d["dua"] = key
+            if key not in duas:
+                warnings.append(f"{d['ref']}: dua {key!r} is new. Add it to data/duas.json (title and topic) or the Doa page skips it")
     seen, unique = set(), []
     for d in sorted(dalil, key=lambda x: x["t"]):
         if d["id"] in seen:

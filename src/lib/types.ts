@@ -30,6 +30,8 @@ export type Dalil = {
   sourceUrl?: string
   grade?: string | null
   verified: boolean
+  /** Key of the dua this is, from `data/duas.json`. Set when the item is a dua or teaches about making dua. */
+  dua?: string
 }
 export type Book = {
   id: string
@@ -70,6 +72,14 @@ export type Notes = {
   /** Support information for episodes that touch on self-harm. Not part of the lecture. */
   careNote?: { title: string; body: string; items: { name: string; contact: string }[]; source: string }
 }
+
+/* ----------------------------------------------------------------- Doa */
+/** One place a dua comes up: an episode and the dalil entry there. */
+export type DuaMention = { slug: string; series: string; epId: string; epNumber: number | null; epTitle: string; dalil: Dalil }
+export type Dua = { key: string; title: string; mentions: DuaMention[] }
+export type DuaTopic = { key: string; title: string; hint?: string; duas: Dua[] }
+/** What `scripts/search-index.mjs` writes to `public/search/doa.<lang>.json`. */
+export type DuaIndex = { topics: DuaTopic[] }
 
 /* ---------------------------------------------------------------- Quiz */
 type QuizBase = {

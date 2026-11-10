@@ -189,6 +189,19 @@ class AssembleTests(unittest.TestCase):
         self.assertFalse(notes["dalil"][0]["verified"])
         self.assertEqual(notes["dalil"][0]["narrator"], "Tidak disebut dalam kuliah")
 
+    def test_dua_keys_are_kept_and_a_new_one_is_reported(self):
+        d = self.draft(dalil=[
+            {"kind": "quran", "quran": "53:9", "context": "c", "dua": "yunus", "at": "Jibril AS tidak boleh", "approx": "0:20"},
+            {"kind": "hadith", "ref": "Doa baru", "translation": "t", "context": "c", "dua": "doa-baru",
+             "at": "Sidratul Muntaha disebut sekali lagi", "approx": "2:00"},
+            {"kind": "hadith", "ref": "Bukan doa", "translation": "t", "context": "c", "at": "Kemudian Nabi SAW sampai", "approx": "0:10"},
+        ])
+        notes, warnings = pipeline.assemble(d, self.meta, self.loc, self.args)
+        self.assertEqual([x.get("dua") for x in notes["dalil"]], [None, "yunus", "doa-baru"])
+        self.assertTrue(all("_i" not in x for x in notes["dalil"]))
+        self.assertTrue(any("doa-baru" in w and "data/duas.json" in w for w in warnings))
+        self.assertFalse(any("'yunus'" in w for w in warnings))
+
     def test_first_chapter_always_starts_at_zero_and_the_last_ends_at_the_duration(self):
         d = self.draft(chapters=[
             {"title": "A", "summary": "", "at": "Kemudian Nabi SAW sampai", "approx": "0:10"},

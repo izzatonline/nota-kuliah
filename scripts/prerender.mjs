@@ -86,7 +86,32 @@ page({
 })
 entries.push({ path: '/' })
 
-let pages = 1
+// The Doa page: every dua from the lectures, with its text and reference, from the index scripts/search-index.mjs built.
+const doa = read('search/doa.ms.json')
+const doaDescription = `Himpunan doa yang disebut dalam kuliah ${all.map((s) => s.series.title).join(' dan ')}: teks Arab, terjemahan, rujukan ayat atau hadis, dan masa ia disebut.`
+page({
+  path: '/doa',
+  title: `Himpunan doa daripada kuliah ${all[0].series.speaker} | ${NAME}`,
+  description: clip(doaDescription),
+  body:
+    `<h1>Himpunan doa daripada kuliah</h1><p>${esc(doaDescription)}</p>` +
+    doa.topics
+      .map(
+        (tp) =>
+          `<h2>${esc(tp.title)}</h2>` +
+          tp.duas
+            .map((d) => {
+              const m = d.mentions.find((x) => x.dalil.arabic) ?? d.mentions[0]
+              return `<h3 id="${esc(d.key)}">${esc(d.title)}</h3>${m.dalil.arabic ? `<p dir="rtl" lang="ar">${esc(m.dalil.arabic)}</p>` : ''}<p>${esc(m.dalil.translation)} (${esc(m.dalil.ref)})</p>`
+            })
+            .join(''),
+      )
+      .join(''),
+  jsonLd: [crumbs([[NAME, '/'], ['Doa', '/doa']])],
+})
+entries.push({ path: '/doa' })
+
+let pages = 2
 for (const s of all) {
   const { slug, series, episodes } = s
   const withNotes = episodes.filter((e) => e.hasNotes)
