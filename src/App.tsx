@@ -6,6 +6,8 @@ import { LangProvider } from '@/lib/i18n'
 import { LandingPage } from '@/pages/landing-page'
 import { SeriesPage } from '@/pages/series-page'
 import { DoaPage } from '@/pages/doa-page'
+import { TokohPage } from '@/pages/tokoh-page'
+import { PersonPage } from '@/pages/person-page'
 import { QuizPage } from '@/pages/quiz-page'
 
 export default function App() {
@@ -17,6 +19,8 @@ export default function App() {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/doa" element={<DoaPage />} />
+            <Route path="/tokoh" element={<TokohPage />} />
+            <Route path="/tokoh/:key" element={<PersonPage />} />
             <Route path="/:slug" element={<SeriesPage />} />
             <Route path="/:slug/quiz" element={<QuizPage />} />
             <Route path="/:slug/:epId/quiz" element={<QuizPage />} />
