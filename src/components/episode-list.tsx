@@ -19,7 +19,10 @@ type Props = { index: SeriesIndex; activeId: string; onSelect: (id: string) => v
 
 export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline, quizOnly }: Props) {
   const { t } = useT()
-  const { setOpenMobile } = useSidebar()
+  const { setOpenMobile, state, isMobile } = useSidebar()
+  // The row tooltip is only for the icon rail. Expanded, the title's own Clamp tooltip is inside the row, and two nested
+  // Radix tooltips close each other (they share one "a tooltip opened" event), which made the hover flicker.
+  const railTooltips = state === 'collapsed' && !isMobile
   const [q, setQ] = useState('')
   const listRef = useRef<HTMLDivElement>(null)
 
@@ -101,7 +104,7 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline, quiz
                     <SidebarMenuItem key={e.id}>
                       <SidebarMenuButton
                         isActive={active}
-                        tooltip={label}
+                        tooltip={railTooltips ? label : undefined}
                         data-active={active}
                         onClick={() => {
                           onSelect(e.id)
