@@ -5,6 +5,7 @@ import { SearchProvider } from '@/components/search-palette'
 import { LangProvider } from '@/lib/i18n'
 import { LandingPage } from '@/pages/landing-page'
 import { SeriesPage } from '@/pages/series-page'
+import { DoaPage } from '@/pages/doa-page'
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <SearchProvider>
           <Routes>
             <Route path="/" element={<LandingPage />} />
+            <Route path="/doa" element={<DoaPage />} />
             <Route path="/:slug" element={<SeriesPage />} />
             <Route path="/:slug/:epId" element={<SeriesPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
