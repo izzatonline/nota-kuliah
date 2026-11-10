@@ -1,0 +1,238 @@
+{
+ "id": "ep2",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah nama sebenar Hashim, moyang Nabi SAW?",
+   "options": [
+    "Syaibah",
+    "Amr",
+    "Salma",
+    "Abdul Manaf"
+   ],
+   "answer": 1,
+   "explain": "Hashim ialah moyang Nabi SAW dan nama sebenarnya Amr.",
+   "t": 215,
+   "source": "people:p1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Mengapakah Amr digelar Hashim?",
+   "options": [
+    "Kerana menghancurkan roti ke dalam sup untuk jemaah haji",
+    "Kerana rambutnya putih",
+    "Kerana lahir di Yathrib",
+    "Kerana menggali zam-zam"
+   ],
+   "answer": 0,
+   "explain": "Hashama bermaksud menghancurkan roti ke dalam sup. Daripadanya Amr digelar Hashim.",
+   "t": 299,
+   "source": "glossary:g2",
+   "level": 2
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah yang membawa Syaibah dari Yathrib ke Mekah?",
+   "options": [
+    "Abdullah",
+    "Al-Muttalib, adik Hashim",
+    "Ummu Aiman",
+    "Abdul Manaf"
+   ],
+   "answer": 1,
+   "explain": "Al-Muttalib membawa Syaibah ke Mekah dan orang memanggilnya Abdul Muttalib.",
+   "t": 656,
+   "source": "events:e1",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah nama lama bagi Madinah Al-Munawwarah?",
+   "options": [
+    "Gaza",
+    "Syam",
+    "Yathrib",
+    "Yaman"
+   ],
+   "answer": 2,
+   "explain": "Yathrib ialah nama lama bagi Madinah Al-Munawwarah.",
+   "t": 370,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Bagaimanakah Abdul Muttalib menemui semula perigi zam-zam?",
+   "options": [
+    "Daripada seorang bomoh",
+    "Melalui anak panah azlam",
+    "Melalui mimpi selama empat malam",
+    "Ditunjukkan oleh Arab Jurhum"
+   ],
+   "answer": 2,
+   "explain": "Selepas mimpi empat malam, Abdul Muttalib menggali di tempat yang ditunjukkan dan menemui zam-zam.",
+   "t": 1038,
+   "source": "events:e3",
+   "level": 2
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Berapa ekor unta yang menjadi tebusan Abdullah?",
+   "options": [
+    "Sepuluh",
+    "Lima puluh",
+    "Seratus",
+    "Seribu"
+   ],
+   "answer": 2,
+   "explain": "Anak panah azlam berhenti pada unta apabila seratus ekor telah diletakkan, lalu Abdullah selamat.",
+   "t": 1467,
+   "source": "events:e5",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Abdul Muttalib bernazar akan menyembelih seorang anak jika dikurniakan sepuluh anak lelaki.",
+   "answer": true,
+   "explain": "Betul. Selepas rebutan zam-zam, beliau bersumpah akan menyembelih seorang anak jika dikurniakan sepuluh anak lelaki.",
+   "t": 1136,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Abdullah wafat di Gaza.",
+   "answer": false,
+   "explain": "Salah. Hashim yang wafat di Gaza. Abdullah wafat di Yathrib dalam perjalanan pulang dari Syam.",
+   "t": 1603,
+   "source": "events:e7",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abdullah ditebus dengan seratus ekor unta"
+    },
+    {
+     "id": "b",
+     "text": "Syaibah dibawa ke Mekah"
+    },
+    {
+     "id": "c",
+     "text": "Abdul Muttalib bernazar sepuluh anak"
+    },
+    {
+     "id": "d",
+     "text": "Abdullah berkahwin dengan Aminah"
+    },
+    {
+     "id": "e",
+     "text": "Zam-zam ditemui semula"
+    }
+   ],
+   "answer": [
+    "b",
+    "e",
+    "c",
+    "a",
+    "d"
+   ],
+   "explain": "Syaibah dibawa ke Mekah, zam-zam ditemui, nazar dibuat, Abdullah ditebus, lalu Abdullah berkahwin dengan Aminah.",
+   "t": 656,
+   "source": "events:e1",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Hashama"
+    },
+    {
+     "id": "b",
+     "text": "Yathrib"
+    },
+    {
+     "id": "c",
+     "text": "Nazar"
+    },
+    {
+     "id": "d",
+     "text": "Azlam"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Anak panah yang diputar untuk membuat keputusan"
+    },
+    {
+     "id": "2",
+     "text": "Janji kepada Allah untuk melakukan sesuatu"
+    },
+    {
+     "id": "3",
+     "text": "Menghancurkan roti ke dalam sup"
+    },
+    {
+     "id": "4",
+     "text": "Nama lama Madinah"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "2"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Hashama ialah menghancurkan roti ke dalam sup, Yathrib nama lama Madinah, nazar ialah janji kepada Allah, dan azlam anak panah untuk membuat keputusan.",
+   "t": 299,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "mcq",
+   "q": "Bekalan air habis di padang pasir tetapi Abdul Muttalib enggan menyerah kalah. Apakah sikap yang dapat kita ambil?",
+   "options": [
+    "Menyalahkan orang lain",
+    "Berhenti dan pulang",
+    "Berjumpa bomoh",
+    "Berusaha tanpa berputus asa"
+   ],
+   "answer": 3,
+   "explain": "Abdul Muttalib tidak berputus asa, lalu Allah memberi ilham kepadanya tempat air.",
+   "t": 1251,
+   "source": "lessons:l4",
+   "level": 3
+  }
+ ]
+}

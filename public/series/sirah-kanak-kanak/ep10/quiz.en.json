@@ -1,0 +1,171 @@
+{
+ "id": "ep10",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What made Quraysh realise the Kaaba had to be rebuilt?",
+   "options": [
+    "An attack by outside armies",
+    "An earthquake",
+    "A great flood and a theft",
+    "A fire"
+   ],
+   "explain": "A great flood and a theft made Quraysh realise the Kaaba needed to be rebuilt."
+  },
+  {
+   "id": "q2",
+   "q": "Money from which sources did Quraysh accept for building the Kaaba?",
+   "options": [
+    "Any source as long as it was a lot",
+    "Clean sources only",
+    "Profits from selling wine",
+    "Stolen money"
+   ],
+   "explain": "Quraysh accepted money only from clean sources, not from wine, theft or fraud."
+  },
+  {
+   "id": "q3",
+   "q": "Who bravely began pulling the Kaaba down with an axe?",
+   "options": [
+    "Abu Umayyah",
+    "Al-Walid bin Al-Mughirah",
+    "Bakum",
+    "Zaid bin Amr"
+   ],
+   "explain": "Al-Walid prayed not to be punished since they were repairing Allah's house."
+  },
+  {
+   "id": "q4",
+   "q": "Who was the Roman architect who redesigned the Kaaba?",
+   "options": [
+    "Al-Walid",
+    "Bakum",
+    "Abu Umayyah",
+    "Harithah"
+   ],
+   "explain": "Bakum changed the design into a rectangle with a roof and a raised door."
+  },
+  {
+   "id": "q5",
+   "q": "For how many days did construction stop because the tribes quarrelled over the Black Stone?",
+   "options": [
+    "One day",
+    "Three days",
+    "Five days",
+    "Ten days"
+   ],
+   "explain": "The project stopped for five days because the tribes quarrelled."
+  },
+  {
+   "id": "q6",
+   "q": "What was Abu Umayyah's proposal to settle the dispute?",
+   "options": [
+    "Fight until there is a winner",
+    "The first person to enter the gate tomorrow morning decides",
+    "Cast lots with arrows",
+    "Leave it to Bakum"
+   ],
+   "explain": "The first to enter the gate the next morning would decide, and that was Muhammad."
+  },
+  {
+   "id": "q7",
+   "q": "How did the Prophet SAW settle the dispute over the Black Stone?",
+   "options": [
+    "He placed it himself while the other tribes waited",
+    "He placed the stone on a cloth and every tribe held it",
+    "He gave it to the oldest tribe",
+    "He broke the stone"
+   ],
+   "explain": "Every tribe held the cloth and the Prophet SAW placed the stone. All got an equal share."
+  },
+  {
+   "id": "q8",
+   "q": "All the tribes accepted Muhammad as judge because he was called Al-Amin.",
+   "explain": "True. Al-Amin means the trustworthy, his title before prophethood."
+  },
+  {
+   "id": "q9",
+   "q": "Zaid bin Amr bin Nufail worshipped idols like the other people of Makkah.",
+   "explain": "False. Zaid rejected idols and said they were not following Prophet Ibrahim's religion."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The Prophet SAW sets the Black Stone on a cloth"
+    },
+    {
+     "id": "b",
+     "text": "The tribes quarrel over the Black Stone"
+    },
+    {
+     "id": "c",
+     "text": "A flood damages the Kaaba"
+    },
+    {
+     "id": "d",
+     "text": "Al-Walid begins the demolition"
+    },
+    {
+     "id": "e",
+     "text": "Abu Umayyah proposes a solution"
+    }
+   ],
+   "explain": "The flood, Al-Walid's demolition, the quarrel, Abu Umayyah's proposal, and then the Prophet SAW placing the stone on the cloth."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Hijr Ismail"
+    },
+    {
+     "id": "b",
+     "text": "Al-Amin"
+    },
+    {
+     "id": "c",
+     "text": "Tawaf"
+    },
+    {
+     "id": "d",
+     "text": "Jahiliyyah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Circling the Kaaba seven times"
+    },
+    {
+     "id": "2",
+     "text": "The era before Islam"
+    },
+    {
+     "id": "3",
+     "text": "The bordered area beside the Kaaba"
+    },
+    {
+     "id": "4",
+     "text": "The trustworthy"
+    }
+   ],
+   "explain": "Hijr Ismail is the area beside the Kaaba, Al-Amin means trustworthy, tawaf is circling the Kaaba, and jahiliyyah is the era before Islam."
+  },
+  {
+   "id": "q12",
+   "q": "You want others to trust you. What can you learn from Al-Amin?",
+   "options": [
+    "Speak loudly",
+    "Become rich first",
+    "Honesty brings trust",
+    "Avoid everyone"
+   ],
+   "explain": "All the tribes accepted him as judge because he was the most honest."
+  }
+ ]
+}

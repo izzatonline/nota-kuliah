@@ -1,0 +1,254 @@
+{
+ "id": "ep5",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Pada hari apakah Nabi SAW dilahirkan?",
+   "options": [
+    "Ahad",
+    "Isnin",
+    "Khamis",
+    "Jumaat"
+   ],
+   "answer": 1,
+   "explain": "Hari kelahiran dan hari wahyu pertama ialah Isnin.",
+   "t": 594,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Menurut riwayat yang paling kuat, berapa lama selepas serangan tentera bergajah Nabi SAW dilahirkan?",
+   "options": [
+    "Lima puluh hari",
+    "Satu tahun",
+    "Tiga hari",
+    "Sepuluh tahun"
+   ],
+   "answer": 0,
+   "explain": "Baginda lahir sekitar lima puluh hari selepas peristiwa itu, dan tahun itu dipanggil Tahun Gajah.",
+   "t": 638,
+   "source": "events:e3",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah yang memilih 9 Rabiulawal berdasarkan pengiraan pakar falak?",
+   "options": [
+    "Ibn Ishaq",
+    "Safiyyurrahman Al-Mubarakfuri",
+    "Muhammad Al-Ghazali",
+    "Umar Al-Khattab"
+   ],
+   "answer": 1,
+   "explain": "Ibn Ishaq memilih 12 Rabiulawal tanpa sanad, manakala Al-Mubarakfuri memilih 9 Rabiulawal.",
+   "t": 1188,
+   "source": "people:p11",
+   "level": 2
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah yang dipilih Umar Al-Khattab sebagai permulaan kalendar Islam, bukan tahun kelahiran Nabi?",
+   "options": [
+    "Tahun Hijrah",
+    "Tahun Gajah",
+    "Tahun wahyu pertama",
+    "Tahun Fathu Makkah"
+   ],
+   "answer": 0,
+   "explain": "Umar memilih hijrah sebagai permulaan kalendar.",
+   "t": 1268,
+   "source": "people:p12",
+   "level": 2
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Siapakah yang membawa Nabi SAW ke Kaabah, berdoa dan menamakannya Muhammad?",
+   "options": [
+    "Abdullah",
+    "Abdul Muttalib",
+    "Abu Lahab",
+    "Aminah"
+   ],
+   "answer": 1,
+   "explain": "Abdul Muttalib menamakannya Muhammad supaya sentiasa dipuji.",
+   "t": 1862,
+   "source": "events:e5",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apabila seseorang menukar nama, nama siapakah yang boleh ditukar?",
+   "options": [
+    "Nama ayahnya",
+    "Kedua-duanya",
+    "Nama datuknya",
+    "Nama sendiri sahaja supaya nasab dapat dijejaki"
+   ],
+   "answer": 3,
+   "explain": "Tukar nama sendiri, bukan nama ayah, untuk menjaga nasab.",
+   "t": 2052,
+   "source": "lessons:l11",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Apakah aqiqah?",
+   "options": [
+    "Sambutan maulid",
+    "Nama bagi tahun Gajah",
+    "Sembelihan sempena kelahiran anak",
+    "Puasa hari Isnin"
+   ],
+   "answer": 2,
+   "explain": "Menurut rekod sirah, Abdul Muttalib yang mengkhatankan, menamakan dan mengakikahkan baginda.",
+   "t": 2678,
+   "source": "glossary:g5",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Tarikh tepat kelahiran Nabi SAW menjejas akidah seseorang.",
+   "answer": false,
+   "explain": "Salah. Nabi tidak pernah menyebut tarikh kelahirannya dan akidah tidak bergantung padanya.",
+   "t": 1230,
+   "source": "lessons:l4",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Kita boleh beriman sepenuhnya kepada kenabian tanpa kisah-kisah ajaib yang tidak bersumber.",
+   "answer": true,
+   "explain": "Betul. Kisah ajaib yang tidak bersumber tidak diperlukan untuk iman.",
+   "t": 2641,
+   "source": "lessons:l14",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abdul Muttalib menamakan Muhammad"
+    },
+    {
+     "id": "b",
+     "text": "Abdullah meninggal di Yathrib"
+    },
+    {
+     "id": "c",
+     "text": "Nabi SAW lahir pada hari Isnin"
+    },
+    {
+     "id": "d",
+     "text": "Abdullah berkahwin dengan Aminah"
+    },
+    {
+     "id": "e",
+     "text": "Baginda dikhatankan dan diakikahkan"
+    }
+   ],
+   "answer": [
+    "d",
+    "b",
+    "c",
+    "a",
+    "e"
+   ],
+   "explain": "Abdullah berkahwin, meninggal, Nabi SAW lahir, dinamakan Muhammad, lalu dikhatankan dan diakikahkan.",
+   "t": 199,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Tahun Gajah"
+    },
+    {
+     "id": "b",
+     "text": "Maulid"
+    },
+    {
+     "id": "c",
+     "text": "Sanad"
+    },
+    {
+     "id": "d",
+     "text": "Syama'il"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Rantaian perawi sesuatu riwayat"
+    },
+    {
+     "id": "2",
+     "text": "Sifat dan akhlak Nabi SAW"
+    },
+    {
+     "id": "3",
+     "text": "Sambutan hari kelahiran Nabi SAW"
+    },
+    {
+     "id": "4",
+     "text": "Tahun serangan tentera bergajah dan kelahiran Nabi SAW"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "3"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Tahun Gajah ialah tahun kelahiran, maulid sambutan kelahiran, sanad rantaian perawi, dan syama'il sifat dan akhlak Nabi.",
+   "t": 638,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Ada perbezaan pendapat tentang sambutan maulid. Apakah sikap yang diajar kuliah ini?",
+   "options": [
+    "Bertegang urat sehingga bermusuhan",
+    "Fokus pada perkara yang lebih produktif",
+    "Tidak peduli langsung",
+    "Memaksa orang lain"
+   ],
+   "answer": 1,
+   "explain": "Daripada bertegang urat, fokus pada perkara yang lebih produktif.",
+   "t": 1503,
+   "source": "lessons:l6",
+   "level": 3
+  }
+ ]
+}

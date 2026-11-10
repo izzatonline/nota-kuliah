@@ -1,0 +1,171 @@
+{
+ "id": "ep23",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What title was Hamzah given for his strength and courage?",
+   "options": [
+    "Sword of Allah",
+    "Lion of Allah",
+    "Al-Faruq",
+    "Al-Amin"
+   ],
+   "explain": "Hamzah, a mighty hunter, was called the Lion of Allah."
+  },
+  {
+   "id": "q2",
+   "q": "What did Abu Jahal throw at the Prophet SAW on Mount Safa?",
+   "options": [
+    "Stones",
+    "Filth",
+    "Water",
+    "Sand"
+   ],
+   "explain": "Abu Jahal insulted him and threw filth at him."
+  },
+  {
+   "id": "q3",
+   "q": "Who told Hamzah what had happened to the Prophet SAW?",
+   "options": [
+    "Abu Talib",
+    "A female slave of Abdullah bin Jud'an",
+    "Khadijah",
+    "Najashi"
+   ],
+   "explain": "The slave woman had witnessed it and told Hamzah."
+  },
+  {
+   "id": "q4",
+   "q": "What did Hamzah strike Abu Jahal with?",
+   "options": [
+    "A sword",
+    "His bow",
+    "A staff",
+    "A rock"
+   ],
+   "explain": "Hamzah struck Abu Jahal's face with his bow until it bled."
+  },
+  {
+   "id": "q5",
+   "q": "What did Hamzah pray for that night?",
+   "options": [
+    "That it be made easy to embrace the religion if it is true",
+    "That Abu Jahal recover",
+    "That he become rich",
+    "That he move to Sham"
+   ],
+   "explain": "Hamzah prayed for guidance and the next day pronounced the shahada."
+  },
+  {
+   "id": "q6",
+   "q": "Why did Hamzah say he was on Muhammad's religion?",
+   "options": [
+    "Because he wanted to protect his nephew",
+    "Because he feared Abu Jahal",
+    "Because he was paid",
+    "Because Umar told him to"
+   ],
+   "explain": "The Arabs were ashamed to take back their words, and that moved Hamzah to think."
+  },
+  {
+   "id": "q7",
+   "q": "How many surahs did Zaid bin Thabit memorise at age 10?",
+   "options": [
+    "Seven",
+    "Thirty",
+    "A hundred",
+    "Seventeen"
+   ],
+   "explain": "Mus'ab taught 17 surahs to Zaid, who also quickly learnt other languages."
+  },
+  {
+   "id": "q8",
+   "q": "Hamzah became a Muslim before the Prophet SAW the next day.",
+   "explain": "True. Hamzah's heart grew calm when the Prophet SAW recited verses of the Quran."
+  },
+  {
+   "id": "q9",
+   "q": "We should abandon the Malay language and our family terms of address.",
+   "explain": "False. We learn other languages but do not abandon our own."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Hamzah embraces Islam"
+    },
+    {
+     "id": "b",
+     "text": "Hamzah strikes Abu Jahal"
+    },
+    {
+     "id": "c",
+     "text": "Abu Jahal throws filth"
+    },
+    {
+     "id": "d",
+     "text": "Hamzah prays for guidance"
+    },
+    {
+     "id": "e",
+     "text": "Hamzah is told by the slave woman"
+    }
+   ],
+   "explain": "Abu Jahal insulted, Hamzah was told, struck Abu Jahal, prayed, then embraced Islam."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Hunter"
+    },
+    {
+     "id": "b",
+     "text": "Lingua franca"
+    },
+    {
+     "id": "c",
+     "text": "Lion of Allah"
+    },
+    {
+     "id": "d",
+     "text": "Ya Ammi"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A common language of traders of many nations"
+    },
+    {
+     "id": "2",
+     "text": "O my paternal uncle"
+    },
+    {
+     "id": "3",
+     "text": "One who hunts animals"
+    },
+    {
+     "id": "4",
+     "text": "The title of Hamzah"
+    }
+   ],
+   "explain": "A hunter hunts animals, a lingua franca is a shared trade language, Lion of Allah was Hamzah's title, and Ya Ammi means O my paternal uncle."
+  },
+  {
+   "id": "q12",
+   "q": "Someone insults a member of your family. What example does Hamzah give?",
+   "options": [
+    "Stay silent",
+    "Courageously stand up for the family member who was insulted",
+    "Join the insults",
+    "Pretend not to know"
+   ],
+   "explain": "Hamzah was angered and stood up for his nephew who had been insulted."
+  }
+ ]
+}

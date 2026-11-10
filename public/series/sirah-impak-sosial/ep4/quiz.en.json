@@ -1,0 +1,171 @@
+{
+ "id": "ep4",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What was Abraha's economic aim behind building Kulais?",
+   "options": [
+    "To shift the trade hub from Makkah to Yemen",
+    "To close the ports",
+    "To hide treasure",
+    "To make Makkah rich"
+   ],
+   "explain": "Abraha wanted to restore Yemen's glory and move the trade hub, with religious sentiment as wrapping."
+  },
+  {
+   "id": "q2",
+   "q": "What was Kulais?",
+   "options": [
+    "A luxurious church built by Abraha in Yemen",
+    "A well in Makkah",
+    "A market in Taif",
+    "The name of an elephant"
+   ],
+   "explain": "Kulais was built to draw people away from the Kaaba."
+  },
+  {
+   "id": "q3",
+   "q": "Who were the Ashab al-Fil?",
+   "options": [
+    "Quraysh merchants",
+    "The tribe of Taif",
+    "Followers of the rahib",
+    "The army with elephants led by Abraha"
+   ],
+   "explain": "Ashab al-Fil tried to demolish the Kaaba."
+  },
+  {
+   "id": "q4",
+   "q": "What was the name of the main elephant of Abraha's army?",
+   "options": [
+    "Murammis",
+    "Tadlil",
+    "Mahmud",
+    "Ababil"
+   ],
+   "explain": "Mahmud refused to move toward the Kaaba even when beaten and prodded."
+  },
+  {
+   "id": "q5",
+   "q": "Who was Abu Righal?",
+   "options": [
+    "The king of Abyssinia",
+    "The guide from Taif",
+    "A general of Abraha",
+    "The chief of Quraysh"
+   ],
+   "explain": "The people of Taif sent him to guide Abraha."
+  },
+  {
+   "id": "q6",
+   "q": "How many camels did Abdul Muttalib ask to have returned?",
+   "options": [
+    "Ten",
+    "Two hundred",
+    "A thousand",
+    "One"
+   ],
+   "explain": "Abdul Muttalib asked only for his two hundred camels and left the Kaaba to its Owner."
+  },
+  {
+   "id": "q7",
+   "q": "What did the ustaz stress about the ababil birds?",
+   "options": [
+    "Their species must be identified",
+    "They were eagles",
+    "They were doves",
+    "Their species is not important"
+   ],
+   "explain": "Ababil are flocking birds sent by Allah; their kind is not important."
+  },
+  {
+   "id": "q8",
+   "q": "Insulting the deities of other religions is not our way and not the sunnah of the Prophet SAW.",
+   "explain": "True. Al-An'am 6:108 forbids insulting those they call upon besides Allah."
+  },
+  {
+   "id": "q9",
+   "q": "Quraysh chose to negotiate because they understood war brings loss to all.",
+   "explain": "True. Peace and prosperity protect everyone's interests."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The Prophet SAW is born"
+    },
+    {
+     "id": "b",
+     "text": "Abraha builds Kulais"
+    },
+    {
+     "id": "c",
+     "text": "Birds and stones destroy the army"
+    },
+    {
+     "id": "d",
+     "text": "The elephant army heads to Makkah"
+    },
+    {
+     "id": "e",
+     "text": "Abraha seizes power in Yemen"
+    }
+   ],
+   "explain": "Abraha seized power, built Kulais, marched on Makkah, his army was destroyed, and the Prophet SAW was born about 50 days later."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Political hostage"
+    },
+    {
+     "id": "b",
+     "text": "Kayd"
+    },
+    {
+     "id": "c",
+     "text": "Tadlil"
+    },
+    {
+     "id": "d",
+     "text": "Al-Murammis"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A scheme or evil plot"
+    },
+    {
+     "id": "2",
+     "text": "A tribe's idol kept at the Kaaba as a guarantee of passage"
+    },
+    {
+     "id": "3",
+     "text": "Loss upon loss"
+    },
+    {
+     "id": "4",
+     "text": "A place about 3.6 km from Makkah"
+    }
+   ],
+   "explain": "A political hostage was an idol held as a guarantee, kayd is an evil plot, tadlil is loss upon loss, and Al-Murammis is a place near Makkah."
+  },
+  {
+   "id": "q12",
+   "q": "You receive news that insults something and stirs anger. What should you do?",
+   "options": [
+    "Get angry and spread it",
+    "Be careful, since emotions may be manipulated",
+    "Attack others",
+    "Believe it outright"
+   ],
+   "explain": "News of an insult was used to inflame anger and gather support. The wise are careful."
+  }
+ ]
+}

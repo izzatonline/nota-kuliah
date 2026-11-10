@@ -1,0 +1,222 @@
+{
+ "id": "ep24",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah perintah dalam Asy-Syu'ara 26:214?",
+   "options": [
+    "Beri peringatan kepada kerabat terdekat",
+    "Berperang dengan Quraish",
+    "Berhijrah",
+    "Berdiam diri"
+   ],
+   "answer": 0,
+   "explain": "Perintah ini memulakan dakwah terbuka kepada keluarga.",
+   "t": 268,
+   "source": "dalil:q26-214",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Siapakah satu-satunya yang menyatakan sokongan pada jamuan keluarga?",
+   "options": [
+    "Ali",
+    "Abu Talib",
+    "Al-Abbas",
+    "Safiyyah"
+   ],
+   "answer": 0,
+   "explain": "Ali menyediakan jamuan dan berjanji menolong.",
+   "t": 1090,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah yang dilakukan Abu Lahab selepas makan pada jamuan pertama?",
+   "options": [
+    "Memeluk Islam",
+    "Berucap menyokong",
+    "Menyediakan jamuan",
+    "Bangun dan membubarkan majlis"
+   ],
+   "answer": 3,
+   "explain": "Jamuan itu gagal.",
+   "t": 726,
+   "source": "events:e1",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah yang dilakukan Utbah dan Utaibah, anak Abu Lahab?",
+   "options": [
+    "Menyertai dakwah",
+    "Berhijrah",
+    "Menceraikan Ruqayyah dan Ummu Kulthum atas suruhan bapa",
+    "Memeluk Islam"
+   ],
+   "answer": 2,
+   "explain": "Perceraian di khalayak bertujuan menjatuhkan semangat Nabi SAW.",
+   "t": 1752,
+   "source": "events:e5",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah honorable enemy?",
+   "options": [
+    "Raja",
+    "Penentang yang masih ada ruang dipertimbangkan, seperti Abu Talib dan Al-Abbas",
+    "Musuh paling kejam",
+    "Sahabat karib"
+   ],
+   "answer": 1,
+   "explain": "Tidak semua penentang sama.",
+   "t": 2263,
+   "source": "glossary:g6",
+   "level": 2
+  },
+  {
+   "id": "q6",
+   "type": "tf",
+   "q": "Hubungan kekerabatan semata-mata menyelamatkan seseorang daripada azab.",
+   "answer": false,
+   "explain": "Salah. Nabi SAW tidak dapat melindungi keluarga daripada azab; setiap orang memilih sendiri.",
+   "t": 1508,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Nabi SAW memastikan Quraish mengakui kejujurannya sebelum memberi amaran.",
+   "answer": true,
+   "explain": "Betul. Menguji kredibiliti sebelum menyampaikan.",
+   "t": 1359,
+   "source": "lessons:l5",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abu Lahab dicela dalam surah"
+    },
+    {
+     "id": "b",
+     "text": "Hanya Ali menyokong"
+    },
+    {
+     "id": "c",
+     "text": "Perintah Asy-Syu'ara 214"
+    },
+    {
+     "id": "d",
+     "text": "Abu Lahab membubarkan jamuan"
+    },
+    {
+     "id": "e",
+     "text": "Seruan kepada seluruh Makkah"
+    }
+   ],
+   "answer": [
+    "c",
+    "d",
+    "b",
+    "e",
+    "a"
+   ],
+   "explain": "Perintah, jamuan pertama bubar, Ali menyokong, seruan kepada seluruh Makkah, lalu Abu Lahab dicela.",
+   "t": 271,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q9",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Bani Hashim"
+    },
+    {
+     "id": "b",
+     "text": "Ya Sabahah"
+    },
+    {
+     "id": "c",
+     "text": "Nabak"
+    },
+    {
+     "id": "d",
+     "text": "Lahab"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Seruan pagi yang menarik perhatian"
+    },
+    {
+     "id": "2",
+     "text": "Nyalaan api"
+    },
+    {
+     "id": "3",
+     "text": "Kabilah Nabi SAW"
+    },
+    {
+     "id": "4",
+     "text": "Berita besar yang menuntut tindakan"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "1"
+    ],
+    [
+     "c",
+     "4"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Bani Hashim kabilah baginda, ya sabahah seruan pagi, nabak berita besar, dan lahab nyalaan api.",
+   "t": 585,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "mcq",
+   "q": "Sekolah dan institusi besar bermula daripada apa?",
+   "options": [
+    "Melompat terus",
+    "Wang yang banyak",
+    "Kuasa",
+    "Langkah kecil dan kesabaran"
+   ],
+   "answer": 3,
+   "explain": "Mulakan kecil dan bersabar.",
+   "t": 115,
+   "source": "lessons:l1",
+   "level": 3
+  }
+ ]
+}

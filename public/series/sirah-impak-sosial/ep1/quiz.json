@@ -1,0 +1,238 @@
+{
+ "id": "ep1",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Mengapakah siri ini bermula dengan Nabi Ibrahim AS?",
+   "options": [
+    "Kerana Ibrahim lahir di Mekah",
+    "Kerana Nabi Muhammad SAW lahir pada zaman Ibrahim",
+    "Kerana Nabi SAW menyifatkan dirinya sebagai jawapan kepada doa Ibrahim",
+    "Kerana Kaabah dibina oleh Nabi Muhammad SAW"
+   ],
+   "answer": 2,
+   "explain": "Nabi SAW menyifatkan dirinya sebagai jawapan kepada doa ayahnya Ibrahim, jadi latar tempat dan masa itu perlu difahami dahulu.",
+   "t": 175,
+   "source": "chapters:c3",
+   "level": 2
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah dua nikmat yang paling dilupakan manusia, menurut pembukaan kuliah ini?",
+   "options": [
+    "Harta dan pangkat",
+    "Kesihatan yang baik dan masa lapang",
+    "Keluarga dan sahabat",
+    "Ilmu dan umur"
+   ],
+   "answer": 1,
+   "explain": "Kesihatan yang baik dan masa lapang. Kita sering menghargainya hanya apabila ia berkurang.",
+   "t": 39,
+   "source": "lessons:l1",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Selepas yakin Allah tidak akan mensia-siakan mereka, apakah yang dilakukan Hajar?",
+   "options": [
+    "Menunggu sahaja kerana yakin kepada Allah",
+    "Berusaha berulang-alik ke Safa dan Marwah mencari air",
+    "Mengikut Ibrahim pulang",
+    "Meminta bantuan Arab Jurhum"
+   ],
+   "answer": 1,
+   "explain": "Hajar tetap berusaha, berulang-alik tujuh kali antara Safa dan Marwah, lalu air zam-zam terpancar.",
+   "t": 982,
+   "source": "events:e2",
+   "level": 2
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah nama amalan haji dan umrah yang mengabadikan usaha Hajar mencari air?",
+   "options": [
+    "Manasik",
+    "Sa'i",
+    "Tauriah",
+    "Istirja'"
+   ],
+   "answer": 1,
+   "explain": "Sa'i ialah berulang-alik tujuh kali antara Safa dan Marwah. Usaha Hajar yang tiada siapa nampak diangkat Allah menjadi syariat.",
+   "t": 1032,
+   "source": "glossary:g5",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Kabilah manakah yang datang meminta Hajar membenarkan mereka menetap di Mekah?",
+   "options": [
+    "Khuza'ah",
+    "Rom",
+    "Jurhum",
+    "Ad dan Thamud"
+   ],
+   "answer": 2,
+   "explain": "Arab Jurhum datang dari Yaman meminta menetap, dan Hajar menegaskan bahawa air itu miliknya.",
+   "t": 1339,
+   "source": "people:p11",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Mengapakah Amr bin Luhayy membawa berhala Hubal dari Rom ke Mekah?",
+   "options": [
+    "Kerana diperintahkan oleh Nabi Ismail AS",
+    "Kerana Jurhum memintanya",
+    "Kerana mahu melindungi kafilah dagang",
+    "Kerana rasa rendah diri melihat Rom yang maju"
+   ],
+   "answer": 3,
+   "explain": "Amr bin Luhayy mengagumi kemajuan Rom lalu membawa pulang berhalanya. Ustaz mengaitkannya dengan kecenderungan kita menganggap orang luar lebih pakar.",
+   "t": 2978,
+   "source": "lessons:l15",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Doa Nabi Ibrahim untuk zuriatnya mengutamakan rezeki sebelum solat dan iman.",
+   "answer": false,
+   "explain": "Salah. Doa Nabi Ibrahim mengutamakan solat dan iman keturunannya sebelum rezeki.",
+   "t": 2396,
+   "source": "lessons:l14",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Doa Nabi Ibrahim agar diutuskan seorang rasul dimustajabkan selepas sekitar 2,000 tahun.",
+   "answer": true,
+   "explain": "Betul. Doa Al-Baqarah 129 itu memakan lebih 2,000 tahun sebelum Nabi Muhammad SAW diutuskan.",
+   "t": 2571,
+   "source": "chapters:c14",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Ibrahim dan Ismail membina Kaabah"
+    },
+    {
+     "id": "b",
+     "text": "Hajar dan Ismail ditinggalkan di lembah"
+    },
+    {
+     "id": "c",
+     "text": "Amr bin Luhayy membawa Hubal ke Mekah"
+    },
+    {
+     "id": "d",
+     "text": "Arab Jurhum menetap di Mekah"
+    },
+    {
+     "id": "e",
+     "text": "Sa'i antara Safa dan Marwah, lalu zam-zam terpancar"
+    }
+   ],
+   "answer": [
+    "b",
+    "e",
+    "d",
+    "a",
+    "c"
+   ],
+   "explain": "Hajar dan Ismail ditinggalkan, zam-zam terpancar, Jurhum menetap, Ibrahim dan Ismail membina Kaabah, dan lama kemudian Hubal dibawa ke Mekah.",
+   "t": 639,
+   "source": "events:e1",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Tauriah"
+    },
+    {
+     "id": "b",
+     "text": "Sa'i"
+    },
+    {
+     "id": "c",
+     "text": "Tawakal"
+    },
+    {
+     "id": "d",
+     "text": "Khalilullah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Sahabat paling rapat Allah"
+    },
+    {
+     "id": "2",
+     "text": "Ucapan yang mempunyai dua makna"
+    },
+    {
+     "id": "3",
+     "text": "Menyerahkan urusan kepada Allah selepas berusaha"
+    },
+    {
+     "id": "4",
+     "text": "Berulang-alik tujuh kali antara Safa dan Marwah"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "2"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "3"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Tauriah ialah ucapan dua makna, sa'i ialah berulang-alik antara Safa dan Marwah, tawakal ialah menyerahkan urusan kepada Allah selepas berusaha, dan Khalilullah ialah sahabat paling rapat Allah.",
+   "t": 356,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "mcq",
+   "q": "Anda sudah berusaha sedaya upaya mencari rezeki halal tetapi belum berjaya. Sikap manakah yang paling selaras dengan tawakal Hajar?",
+   "options": [
+    "Terus berusaha sehabis daya, kemudian serahkan selebihnya kepada Allah",
+    "Berhenti berusaha kerana semuanya sudah ditentukan",
+    "Mengambil jalan haram supaya cepat berjaya",
+    "Menyalahkan takdir kerana tidak adil"
+   ],
+   "answer": 0,
+   "explain": "Tawakal sebenar ialah usaha maksimum, selebihnya kepada Allah. Hajar yakin tetapi tetap berusaha ke Safa dan Marwah.",
+   "t": 843,
+   "source": "lessons:l5",
+   "level": 3
+  }
+ ]
+}

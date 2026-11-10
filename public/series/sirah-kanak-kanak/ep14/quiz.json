@@ -1,0 +1,200 @@
+{
+ "id": "ep14",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Laylatul Qadr lebih baik daripada berapa bulan?",
+   "options": [
+    "Seratus bulan",
+    "Seribu bulan",
+    "Sepuluh ribu bulan",
+    "Seribu hari"
+   ],
+   "answer": 1,
+   "explain": "Surah Al-Qadr menyebut malam itu lebih baik daripada seribu bulan.",
+   "t": 1004,
+   "source": "dalil:q97-3",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Ibadah pada Laylatul Qadr setara dengan lebih daripada berapa tahun?",
+   "options": [
+    "33 tahun",
+    "63 tahun",
+    "83 tahun",
+    "103 tahun"
+   ],
+   "answer": 2,
+   "explain": "Seribu bulan ialah lebih daripada 83 tahun.",
+   "t": 1004,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah Ar-Ruh yang turun bersama malaikat pada malam itu?",
+   "options": [
+    "Mikail",
+    "Israfil",
+    "Jibril AS",
+    "Nabi Isa AS"
+   ],
+   "answer": 2,
+   "explain": "Ar-Ruh ialah Jibril AS yang turun bersama malaikat.",
+   "t": 1082,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Siapakah yang mengancam akan memijak leher Nabi SAW ketika baginda sujud?",
+   "options": [
+    "Abu Talib",
+    "Abu Jahal",
+    "Abraha",
+    "Al-Walid"
+   ],
+   "answer": 1,
+   "explain": "Abu Jahal mengancam tetapi berundur ketakutan.",
+   "t": 438,
+   "source": "people:p1",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Mengapakah Abu Jahal berundur?",
+   "options": [
+    "Kerana melihat api dan sayap yang datang melindungi baginda",
+    "Kerana Abu Talib datang",
+    "Kerana hujan turun",
+    "Kerana Khadijah memanggilnya"
+   ],
+   "answer": 0,
+   "explain": "Jibril datang melindungi Nabi SAW sehingga Abu Jahal berundur.",
+   "t": 528,
+   "source": "events:e1",
+   "level": 2
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah yang dicela Allah pada orang seperti Abu Jahal?",
+   "options": [
+    "Berniaga di Mekah",
+    "Melarang seorang hamba daripada solat",
+    "Menyembunyikan harta",
+    "Berjalan di pasar"
+   ],
+   "answer": 1,
+   "explain": "Allah mencela orang yang melarang hamba-Nya solat. Kita tidak boleh menghalang orang beribadah.",
+   "t": 388,
+   "source": "lessons:l4",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Malaikat dan Ar-Ruh turun pada Laylatul Qadr dengan izin Tuhan mereka.",
+   "answer": true,
+   "explain": "Betul. Surah Al-Qadr menyebut malaikat dan Ar-Ruh turun pada malam itu.",
+   "t": 1035,
+   "source": "dalil:q97-4",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Dunia ialah tempat tinggal selama-lamanya.",
+   "answer": false,
+   "explain": "Salah. Dunia hanyalah tempat singgah sementara untuk ujian sebelum kita kembali kepada Allah.",
+   "t": 319,
+   "source": "lessons:l3",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Laylatul Qadr"
+    },
+    {
+     "id": "b",
+     "text": "Karim"
+    },
+    {
+     "id": "c",
+     "text": "Ar-Rahman Ar-Rahim"
+    },
+    {
+     "id": "d",
+     "text": "Sentosa"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Maha Pengasih dan Maha Penyayang"
+    },
+    {
+     "id": "2",
+     "text": "Damai dan sejahtera"
+    },
+    {
+     "id": "3",
+     "text": "Pemurah yang suka memberi banyak"
+    },
+    {
+     "id": "4",
+     "text": "Malam yang lebih baik daripada seribu bulan"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "3"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Laylatul Qadr malam lebih baik daripada seribu bulan, karim pemurah, Ar-Rahman Ar-Rahim Maha Pengasih dan Penyayang, dan sentosa damai.",
+   "t": 965,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "mcq",
+   "q": "Apabila seseorang berasa cukup harta dan kuasa, apakah bahaya yang mungkin berlaku?",
+   "options": [
+    "Mudah menzalimi orang lain dan melampaui batas",
+    "Menjadi lebih rendah hati",
+    "Menjadi lebih bersyukur secara automatik",
+    "Tiada apa-apa bahaya"
+   ],
+   "answer": 0,
+   "explain": "Orang yang merasa cukup harta dan kuasa mudah menzalimi orang lain.",
+   "t": 274,
+   "source": "lessons:l2",
+   "level": 3
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "id": "ep20",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "How did the family of Uthman bin Affan torture him?",
+   "options": [
+    "They rolled him in a mat and set it on fire",
+    "They locked him in a cave",
+    "They drove him into the desert",
+    "They seized his house"
+   ],
+   "explain": "His family tortured him to make him leave the Prophet SAW, but he did not."
+  },
+  {
+   "id": "q2",
+   "q": "Where did Suhaib Ar-Rumi come from?",
+   "options": [
+    "Rom",
+    "Habasyah",
+    "Yaman",
+    "Syam"
+   ],
+   "explain": "Suhaib was a companion from Rome who was beaten until unconscious."
+  },
+  {
+   "id": "q3",
+   "q": "Why was Mus'ab bin Umayr famous in Makkah?",
+   "options": [
+    "Because he was a commander",
+    "Because he was a slave",
+    "Because he was a monk",
+    "For his clothes, perfume and beautiful voice"
+   ],
+   "explain": "Mus'ab was a rich young man, like an influencer in Makkah."
+  },
+  {
+   "id": "q4",
+   "q": "What drew Mus'ab to Islam?",
+   "options": [
+    "Gifts from the Prophet SAW",
+    "The steadfastness of the tortured companions",
+    "A promise of wealth",
+    "Pressure from his family"
+   ],
+   "explain": "Mus'ab saw the steadfastness of Bilal and others, and his clean heart accepted the truth."
+  },
+  {
+   "id": "q5",
+   "q": "Who told Mus'ab's mother that her son had embraced Islam?",
+   "options": [
+    "Abu Talib",
+    "Uthman bin Talhah",
+    "Suhaib",
+    "Khabbab"
+   ],
+   "explain": "Uthman bin Talhah saw Mus'ab pray and told his mother."
+  },
+  {
+   "id": "q6",
+   "q": "What did Mus'ab's mother do when she learnt he had embraced Islam?",
+   "options": [
+    "She embraced Islam too",
+    "She chained and locked him in a small room",
+    "She drove him away at once",
+    "She took him to Sham"
+   ],
+   "explain": "Mus'ab was chained in a small room with little food, but he did not turn back."
+  },
+  {
+   "id": "q7",
+   "q": "What was Allah's recompense to Ummu Anmar who burned Khabbab?",
+   "options": [
+    "She became rich",
+    "Nothing happened",
+    "She was struck by an illness treated with fire",
+    "She embraced Islam"
+   ],
+   "explain": "Allah repays the wrongdoer."
+  },
+  {
+   "id": "q8",
+   "q": "The Prophet SAW told Mus'ab to keep his Islam secret for a while because of the threats.",
+   "explain": "True. There was wisdom in keeping it secret for a time."
+  },
+  {
+   "id": "q9",
+   "q": "Mus'ab was willing to leave the Prophet SAW to get his wealth back.",
+   "explain": "False. Mus'ab told them to take all his wealth but would not leave the Prophet SAW."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Mus'ab is locked up"
+    },
+    {
+     "id": "b",
+     "text": "Uthman is rolled up and burned"
+    },
+    {
+     "id": "c",
+     "text": "The Prophet SAW answers Abu Talib"
+    },
+    {
+     "id": "d",
+     "text": "Mus'ab embraces Islam"
+    },
+    {
+     "id": "e",
+     "text": "Uthman bin Talhah tells the mother"
+    }
+   ],
+   "explain": "Uthman was tortured, Mus'ab embraced Islam, was reported, locked up, and finally the Prophet SAW answered Abu Talib."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Shahid"
+    },
+    {
+     "id": "b",
+     "text": "Khalifah"
+    },
+    {
+     "id": "c",
+     "text": "Screwpine mat"
+    },
+    {
+     "id": "d",
+     "text": "Dar al-Arqam"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The secret house where the Prophet SAW taught his companions"
+    },
+    {
+     "id": "2",
+     "text": "One who dies defending his faith"
+    },
+    {
+     "id": "3",
+     "text": "A successor of the Prophet SAW leading the ummah"
+    },
+    {
+     "id": "4",
+     "text": "A mat woven from leaves"
+    }
+   ],
+   "explain": "A shahid dies defending the faith, a khalifah succeeds the Prophet SAW, a screwpine mat is woven from leaves, and Dar al-Arqam was the secret house."
+  },
+  {
+   "id": "q12",
+   "q": "Even a rich and high-ranking person is tested. What is the lesson from this story?",
+   "options": [
+    "Only the weak are tested",
+    "Not only the weak, the rich and high-ranking are tested too",
+    "The rich are never tested",
+    "Tests are a sign of Allah's anger"
+   ],
+   "explain": "Uthman and Mus'ab were rich and well-placed men who were also tortured."
+  }
+ ]
+}

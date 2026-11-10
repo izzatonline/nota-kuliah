@@ -1,0 +1,254 @@
+{
+ "id": "ep3",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Berapakah umur Ghulam dalam kisah ini?",
+   "options": [
+    "Sekitar 5 tahun",
+    "Sekitar 12 atau 13 tahun",
+    "Sekitar 20 tahun",
+    "Sekitar 30 tahun"
+   ],
+   "answer": 1,
+   "explain": "Ghulam ialah budak lelaki berumur sekitar 12 atau 13 tahun.",
+   "t": 179,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Siapakah yang mengajar Ghulam supaya hanya menyembah Allah?",
+   "options": [
+    "Tukang sihir raja",
+    "Menteri raja",
+    "Rahib, pengikut Nabi Isa AS",
+    "Raja"
+   ],
+   "answer": 2,
+   "explain": "Rahib ialah pengikut Nabi Isa AS yang mengajar Ghulam tauhid.",
+   "t": 277,
+   "source": "people:p4",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Bagaimanakah Ghulam membunuh raksasa yang menghalang jalan?",
+   "options": [
+    "Memanahnya",
+    "Membaling batu sambil berdoa kepada Allah",
+    "Memanggil tentera raja",
+    "Melarikan diri daripadanya"
+   ],
+   "answer": 1,
+   "explain": "Ghulam membaling batu sambil berdoa, dan raksasa itu mati.",
+   "t": 571,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Siapakah yang dapat melihat semula selepas Ghulam berdoa?",
+   "options": [
+    "Rahib",
+    "Tukang sihir",
+    "Menteri raja yang buta",
+    "Raja"
+   ],
+   "answer": 2,
+   "explain": "Menteri yang buta beriman, lalu Ghulam berdoa dan dia dapat melihat.",
+   "t": 918,
+   "source": "events:e3",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah yang dikatakan Ghulam apabila menteri memberinya hadiah kerana menyembuhkannya?",
+   "options": [
+    "Dia mahu bayaran yang lebih besar",
+    "Dia takut kepada raja",
+    "Dia menyembuhkan dengan sihir",
+    "Dia tidak boleh menyembuhkan sesiapa, Allah yang menyembuhkan"
+   ],
+   "answer": 3,
+   "explain": "Ghulam menolak hadiah dan menegaskan Allah yang menyembuhkan.",
+   "t": 867,
+   "source": "lessons:l5",
+   "level": 2
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Bagaimanakah Ghulam akhirnya dibunuh oleh raja?",
+   "options": [
+    "Dibakar dalam parit",
+    "Dilemparkan dari gunung",
+    "Dipanah sambil menyebut nama Tuhan Ghulam",
+    "Ditenggelamkan di laut"
+   ],
+   "answer": 2,
+   "explain": "Ghulam sendiri mengajar raja memanahnya sambil menyebut nama Tuhan Ghulam, dan rakyat beriman.",
+   "t": 1499,
+   "source": "events:e6",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Surah manakah yang merakamkan kisah Ashabul Ukhdud?",
+   "options": [
+    "Al-Buruj",
+    "Al-Fil",
+    "Quraisy",
+    "Al-Ikhlas"
+   ],
+   "answer": 0,
+   "explain": "Kisah golongan yang dibunuh di dalam parit disebut dalam Surah Al-Buruj.",
+   "t": 1555,
+   "source": "glossary:g6",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Rahib dan menteri dibunuh kerana tidak mahu meninggalkan iman.",
+   "answer": true,
+   "explain": "Betul. Raja membunuh mereka berdua kerana mereka enggan meninggalkan iman.",
+   "t": 1098,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Ghulam mahu menjadi terkenal, kaya dan menjadi raja.",
+   "answer": false,
+   "explain": "Salah. Ghulam tidak mahu terkenal, kaya atau menjadi raja. Dia mahu semua orang masuk Islam dan masuk syurga.",
+   "t": 1345,
+   "source": "lessons:l9",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Raja memanah Ghulam dengan menyebut nama Allah"
+    },
+    {
+     "id": "b",
+     "text": "Ghulam bertemu rahib"
+    },
+    {
+     "id": "c",
+     "text": "Raja menggali parit berapi"
+    },
+    {
+     "id": "d",
+     "text": "Menteri yang buta sembuh dan beriman"
+    },
+    {
+     "id": "e",
+     "text": "Rahib dan menteri dibunuh"
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "e",
+    "a",
+    "c"
+   ],
+   "explain": "Ghulam bertemu rahib, menteri sembuh, rahib dan menteri dibunuh, Ghulam dipanah, dan akhirnya parit berapi digali.",
+   "t": 277,
+   "source": "events:e1",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Ghulam"
+    },
+    {
+     "id": "b",
+     "text": "Rahib"
+    },
+    {
+     "id": "c",
+     "text": "Sihir"
+    },
+    {
+     "id": "d",
+     "text": "Ashabul Ukhdud"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Golongan yang dibunuh di dalam parit"
+    },
+    {
+     "id": "2",
+     "text": "Ilmu yang diajar syaitan untuk menipu"
+    },
+    {
+     "id": "3",
+     "text": "Budak lelaki"
+    },
+    {
+     "id": "4",
+     "text": "Guru agama yang menyendiri berdoa dan mengajar"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "2"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Ghulam ialah budak lelaki, rahib guru agama, sihir ilmu daripada syaitan, dan Ashabul Ukhdud golongan yang dibunuh dalam parit.",
+   "t": 179,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Anda pandai melukis. Berdasarkan kisah Ghulam, apakah yang boleh anda lakukan dengan kemahiran itu?",
+   "options": [
+    "Menyimpan kemahiran itu untuk diri sendiri",
+    "Menggunakannya untuk mengajak orang kepada Allah",
+    "Menjadi terkenal dan kaya",
+    "Berhenti kerana takut diuji"
+   ],
+   "answer": 1,
+   "explain": "Ghulam menggunakan kebolehannya untuk mengajak orang kepada Allah. Kemahiran lain juga boleh digunakan begitu.",
+   "t": 816,
+   "source": "lessons:l4",
+   "level": 3
+  }
+ ]
+}

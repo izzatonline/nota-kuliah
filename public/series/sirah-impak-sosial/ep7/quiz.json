@@ -1,0 +1,249 @@
+{
+ "id": "ep7",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah maksud sangka baik kepada Allah?",
+   "options": [
+    "Berprasangka baik terhadap takdir dan janji Allah, terutama ketika sukar",
+    "Berhenti berusaha",
+    "Takut kepada takdir",
+    "Meminta tanpa yakin"
+   ],
+   "answer": 0,
+   "explain": "Halimah mengambil bayi yatim dengan yakin Allah akan membuka pintu rezeki.",
+   "t": 208,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah yang dilakukan Abu Bakar RA sebagai tanda yakin doanya dimakbulkan?",
+   "options": [
+    "Membeli unta terbaik untuk hijrah",
+    "Berhenti berdoa",
+    "Menunggu sahaja",
+    "Menjual untanya"
+   ],
+   "answer": 0,
+   "explain": "Keyakinan sebenar disertai persiapan.",
+   "t": 550,
+   "source": "lessons:l4",
+   "level": 2
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah nasihat hadis tentang cara berdoa?",
+   "options": [
+    "Berdoalah dengan hati yang lalai",
+    "Berdoalah hanya sekali",
+    "Jangan berdoa",
+    "Berdoalah dengan yakin bahawa doa akan dimustajabkan"
+   ],
+   "answer": 3,
+   "explain": "Allah tidak menerima doa daripada hati yang lalai dan tidak yakin.",
+   "t": 445,
+   "source": "dalil:h2",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah maksud mustajab?",
+   "options": [
+    "Solat memohon hujan",
+    "Hadis yang lemah",
+    "Doa yang dimakbulkan Allah",
+    "Doa yang ditolak"
+   ],
+   "answer": 2,
+   "explain": "Mustajab ialah doa yang dimakbulkan.",
+   "t": 621,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah kolostrum?",
+   "options": [
+    "Air zam-zam",
+    "Susu pertama berwarna kuning yang kaya nutrien dan antibodi",
+    "Susu formula",
+    "Susu lembu"
+   ],
+   "answer": 1,
+   "explain": "Aminah menyusukan baginda beberapa hari dan baginda memperoleh kolostrumnya.",
+   "t": 1979,
+   "source": "glossary:g8",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Bagaimanakah Nabi Musa AS dikembalikan kepada ibunya?",
+   "options": [
+    "Firaun menyerahkannya",
+    "Dia melarikan diri",
+    "Raja Habsyah mengambilnya",
+    "Bayi itu enggan menyusu daripada sesiapa kecuali ibunya"
+   ],
+   "answer": 3,
+   "explain": "Allah menunaikan janji-Nya mengembalikan Musa kepada ibunya.",
+   "t": 1268,
+   "source": "people:p8",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Penyusuan bagi anak ialah apa?",
+   "options": [
+    "Beban",
+    "Kemewahan",
+    "Hak anak",
+    "Pilihan ibu semata-mata"
+   ],
+   "answer": 2,
+   "explain": "Ustaz menyeru agar lebih ramai anak mendapat hak disusukan secara eksklusif.",
+   "t": 2285,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Kejayaan ibu menyusu banyak bergantung pada sokongan suami, keluarga dan masyarakat.",
+   "answer": true,
+   "explain": "Betul. Penyusuan bukan kerja ibu seorang.",
+   "t": 1375,
+   "source": "lessons:l8",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Susu yang paling mahal pasti menjadikan anak lebih pandai.",
+   "answer": false,
+   "explain": "Salah. Waspada dengan iklan dan maklumat salah.",
+   "t": 1792,
+   "source": "lessons:l9",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Keluarga Halimah makmur"
+    },
+    {
+     "id": "b",
+     "text": "Halimah memutuskan mengambil bayi yatim"
+    },
+    {
+     "id": "c",
+     "text": "Baginda disusukan eksklusif di Bani Sa'ad"
+    },
+    {
+     "id": "d",
+     "text": "Aminah dan Suwaibah menyusukan baginda"
+    }
+   ],
+   "answer": [
+    "d",
+    "b",
+    "c",
+    "a"
+   ],
+   "explain": "Aminah dan Suwaibah menyusukan, Halimah memutuskan, baginda disusukan di Bani Sa'ad, dan keluarga Halimah makmur.",
+   "t": 324,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Hadis qudsi"
+    },
+    {
+     "id": "b",
+     "text": "Mustajab"
+    },
+    {
+     "id": "c",
+     "text": "Solat istisqa"
+    },
+    {
+     "id": "d",
+     "text": "Kebantutan"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Solat memohon hujan"
+    },
+    {
+     "id": "2",
+     "text": "Terbantutnya pertumbuhan akibat kekurangan nutrisi"
+    },
+    {
+     "id": "3",
+     "text": "Hadis yang diriwayatkan daripada Allah dengan lafaz Nabi SAW"
+    },
+    {
+     "id": "4",
+     "text": "Doa yang dimakbulkan"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Hadis qudsi daripada Allah dengan lafaz Nabi, mustajab doa dimakbulkan, solat istisqa memohon hujan, dan kebantutan terbantutnya pertumbuhan.",
+   "t": 212,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Anda berdoa tetapi hati lalai dan tidak yakin. Apakah nasihat kuliah ini?",
+   "options": [
+    "Berdoa lebih cepat",
+    "Berdoalah dengan yakin dan hadirkan hati",
+    "Teruskan seperti biasa",
+    "Berhenti berdoa"
+   ],
+   "answer": 1,
+   "explain": "Doa ialah dialog dengan Allah, maka fahami apa yang diucapkan dan yakin ia didengari.",
+   "t": 463,
+   "source": "lessons:l3",
+   "level": 3
+  }
+ ]
+}

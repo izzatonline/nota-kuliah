@@ -1,0 +1,254 @@
+{
+ "id": "ep22",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Mengapakah Al-Walid digelar Al-Wahid, yang tunggal?",
+   "options": [
+    "Kerana dia seorang diri menanggung kelambu Kaabah",
+    "Kerana dia tidak berkahwin",
+    "Kerana dia anak tunggal",
+    "Kerana dia tinggal sendirian"
+   ],
+   "answer": 0,
+   "explain": "Al-Walid seorang diri menanggung kelambu Kaabah, kain berhias yang menutup Kaabah.",
+   "t": 597,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah yang berlaku apabila Nabi SAW membaca Surah An-Najm di hadapan Kaabah?",
+   "options": [
+    "Semua orang sujud kecuali Al-Walid",
+    "Semua orang lari",
+    "Tiada siapa mendengar",
+    "Semua orang memeluk Islam"
+   ],
+   "answer": 0,
+   "explain": "Al-Walid terpukau oleh Quran tetapi sombong dan enggan sujud.",
+   "t": 975,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah sahabat buta yang datang ingin belajar Quran sehingga turun Surah Abasa?",
+   "options": [
+    "Mus'ab bin Umair",
+    "Abdullah Ibnu Ummi Maktum",
+    "Khabbab",
+    "Bilal"
+   ],
+   "answer": 1,
+   "explain": "Allah menyuruh baginda menumpukan perhatian kepada orang yang benar-benar mahu belajar.",
+   "t": 759,
+   "source": "people:p5",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah label yang akhirnya dipilih Al-Walid untuk Nabi SAW?",
+   "options": [
+    "Penipu",
+    "Orang gila",
+    "Ahli sihir",
+    "Peniaga"
+   ],
+   "answer": 2,
+   "explain": "Al-Walid menolak penipu dan gila lalu memilih sihir. Musuh baginda sendiri mengakui baginda bukan pembohong dan bukan gila.",
+   "t": 1090,
+   "source": "events:e2",
+   "level": 2
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Mengapakah sebahagian sahabat pulang dari Habasyah ke Mekah?",
+   "options": [
+    "Kerana raja Najasyi mengusir mereka",
+    "Kerana berita palsu bahawa orang Mekah sudah Islam",
+    "Kerana mereka kehabisan makanan",
+    "Kerana Nabi SAW memanggil mereka"
+   ],
+   "answer": 1,
+   "explain": "Berita itu tidak benar dan menyebabkan penderitaan. Kita perlu berhati-hati dengan berita.",
+   "t": 1275,
+   "source": "lessons:l7",
+   "level": 2
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah yang dilakukan Mus'ab apabila ibunya menawarkan harta supaya dia meninggalkan Nabi SAW?",
+   "options": [
+    "Dia menerima",
+    "Dia menolak dan tidak meninggalkan baginda",
+    "Dia berbohong",
+    "Dia lari ke Syam"
+   ],
+   "answer": 1,
+   "explain": "Mus'ab diusir tanpa harta dan memakai pakaian bertampal, tetapi imannya lebih utama.",
+   "t": 1389,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Di manakah Abu Bakar dipukul ramai-ramai sehingga lebam?",
+   "options": [
+    "Di rumah Arqam",
+    "Di hadapan Kaabah",
+    "Di Habasyah",
+    "Di Syam"
+   ],
+   "answer": 1,
+   "explain": "Abu Bakar dipukul ramai-ramai di hadapan Kaabah.",
+   "t": 1573,
+   "source": "events:e5",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "mcq",
+   "q": "Apakah gelaran yang kelak diberikan kepada Khalid bin Al-Walid?",
+   "options": [
+    "Al-Amin",
+    "As-Sadiq",
+    "Pedang Allah",
+    "Al-Wahid"
+   ],
+   "answer": 2,
+   "explain": "Khalid dilatih berkuda dan memanah, kemudian memeluk Islam dan digelar Pedang Allah.",
+   "t": 1932,
+   "source": "people:p10",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Berita bahawa semua orang Mekah sudah memeluk Islam adalah benar.",
+   "answer": false,
+   "explain": "Salah. Berita itu palsu dan menyebabkan penderitaan.",
+   "t": 916,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "tf",
+   "q": "Semakin Abu Jahal melarang orang mendengar, semakin ramai yang ingin mendengar Nabi SAW.",
+   "answer": true,
+   "explain": "Betul. Larangan menambah minat orang.",
+   "t": 1549,
+   "source": "lessons:l4",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abu Bakar dipukul"
+    },
+    {
+     "id": "b",
+     "text": "Mus'ab diusir ibunya"
+    },
+    {
+     "id": "c",
+     "text": "Surah An-Najm dibaca"
+    },
+    {
+     "id": "d",
+     "text": "Sahabat pulang dari Habasyah"
+    },
+    {
+     "id": "e",
+     "text": "Al-Walid mencari label untuk baginda"
+    }
+   ],
+   "answer": [
+    "c",
+    "e",
+    "d",
+    "b",
+    "a"
+   ],
+   "explain": "An-Najm dibaca, Al-Walid mencari label, sahabat pulang, Mus'ab diusir, dan Abu Bakar dipukul.",
+   "t": 975,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q12",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "An-Najm"
+    },
+    {
+     "id": "b",
+     "text": "Al-Wahid"
+    },
+    {
+     "id": "c",
+     "text": "Kelambu Kaabah"
+    },
+    {
+     "id": "d",
+     "text": "Hudaybiyah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Yang tunggal"
+    },
+    {
+     "id": "2",
+     "text": "Bintang, surah ke-53"
+    },
+    {
+     "id": "3",
+     "text": "Tempat yang dituju Nabi SAW untuk mengelak Khalid"
+    },
+    {
+     "id": "4",
+     "text": "Kain berhias yang menutup Kaabah"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "2"
+    ],
+    [
+     "b",
+     "1"
+    ],
+    [
+     "c",
+     "4"
+    ],
+    [
+     "d",
+     "3"
+    ]
+   ],
+   "explain": "An-Najm bermaksud bintang, Al-Wahid yang tunggal, kelambu kain penutup Kaabah, dan Hudaybiyah tempat Nabi SAW mengelak Khalid.",
+   "t": 0,
+   "source": "glossary:g2",
+   "level": 1
+  }
+ ]
+}

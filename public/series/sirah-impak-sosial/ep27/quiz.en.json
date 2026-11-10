@@ -1,0 +1,145 @@
+{
+ "id": "ep27",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What does the hadith mention about Bilal in Paradise?",
+   "options": [
+    "The sound of his footsteps heard in Paradise",
+    "He became a king",
+    "He gave a sermon",
+    "He is not mentioned"
+   ],
+   "explain": "Bilal held firm with a single word, Ahad."
+  },
+  {
+   "id": "q2",
+   "q": "What was Zinnirah's answer to Abu Jahal, who said Allat and Uzza had blinded her?",
+   "options": [
+    "Allat and Uzza bring no benefit",
+    "She agreed",
+    "She stayed silent",
+    "She wept"
+   ],
+   "explain": "She was beaten until blind and later restored."
+  },
+  {
+   "id": "q3",
+   "q": "How did the Prophet SAW welcome someone who gave up his wealth to migrate?",
+   "options": [
+    "As a loss",
+    "With silence",
+    "By refusing",
+    "As a profitable trade"
+   ],
+   "explain": "Wealth left behind for faith is a profitable trade."
+  },
+  {
+   "id": "q4",
+   "q": "What was permitted to Ammar according to An-Nahl 16:106?",
+   "options": [
+    "To fight",
+    "To fast",
+    "To repeat what he was forced to say while his heart stayed firm",
+    "To abandon Islam"
+   ],
+   "explain": "An-Nahl 106 came down in defence of Ammar."
+  },
+  {
+   "id": "q5",
+   "q": "What is tasta'jilun?",
+   "options": [
+    "Migrating",
+    "Hoping for victory to come quickly",
+    "Praying at length",
+    "Fasting"
+   ],
+   "explain": "The Prophet's admonition to Khabbab. Victory cannot be hunted."
+  },
+  {
+   "id": "q6",
+   "q": "Allah confirmed Abu Bakr's sincerity even though he was accused of a hidden agenda.",
+   "explain": "True. Surah Al-Layl speaks of the one who gives wealth to purify himself."
+  },
+  {
+   "id": "q7",
+   "q": "All strugglers see for themselves the victory they strove for.",
+   "explain": "False. Many died without seeing victory."
+  },
+  {
+   "id": "q8",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Sumayyah and Yasir are martyred"
+    },
+    {
+     "id": "b",
+     "text": "Zinnirah is beaten until blind"
+    },
+    {
+     "id": "c",
+     "text": "Bilal is tortured and freed by Abu Bakr"
+    },
+    {
+     "id": "d",
+     "text": "An-Nahl 106 comes down for Ammar"
+    }
+   ],
+   "explain": "Bilal was freed, Zinnirah beaten, Sumayyah and Yasir martyred, then An-Nahl 106 came down."
+  },
+  {
+   "id": "q9",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Ahad"
+    },
+    {
+     "id": "b",
+     "text": "Uqiyah"
+    },
+    {
+     "id": "c",
+     "text": "Wahn"
+    },
+    {
+     "id": "d",
+     "text": "Mawla"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The disease of loving the world and fearing death"
+    },
+    {
+     "id": "2",
+     "text": "The One"
+    },
+    {
+     "id": "3",
+     "text": "A unit of weight of silver"
+    },
+    {
+     "id": "4",
+     "text": "A status neither slave nor free, under a notable's protection"
+    }
+   ],
+   "explain": "Ahad is the One, uqiyah is a weight of silver, wahn is love of the world and fear of death, and mawla is a status under protection."
+  },
+  {
+   "id": "q10",
+   "q": "Today's blessings are the fruit of unknown struggles. What is the right attitude?",
+   "options": [
+    "Forget them",
+    "Take it for granted",
+    "Blame them",
+    "Appreciate those who struggled and learn the history"
+   ],
+   "explain": "Value those who have struggled."
+  }
+ ]
+}

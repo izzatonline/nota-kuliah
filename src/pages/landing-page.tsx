@@ -4,6 +4,7 @@ import { ArrowRight, BookOpenCheck, Clock, Eye, FileText, HandHeart, Headphones,
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
+import { Skeleton } from '@/components/ui/skeleton'
 import { BrandLink } from '@/components/brand'
 import { LanguageSwitch } from '@/components/language-switch'
 import { TimelineButton, TimelineDialog } from '@/components/sirah-timeline'
@@ -278,6 +279,24 @@ export function LandingPage() {
         </section>
 
         {/* series */}
+        {!all && (
+          <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+            <Skeleton className="mb-5 h-8 w-48" />
+            <div role="status" className="grid gap-4 md:grid-cols-2">
+              <span className="sr-only">{t('loading')}</span>
+              {[0, 1].map((i) => (
+                <Card key={i} aria-hidden>
+                  <CardContent className="space-y-3 p-6">
+                    <Skeleton className="h-6 w-2/3" />
+                    <Skeleton className="h-4 w-1/2" />
+                    <Skeleton className="h-4 w-full" />
+                    <Skeleton className="h-4 w-4/5" />
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </section>
+        )}
         {all && all.length > 0 && (
           <section id="series" className="mx-auto max-w-6xl scroll-mt-16 px-4 py-12 sm:px-6">
             <h2 className="mb-5 text-2xl font-semibold tracking-tight">{t('series.title')}</h2>
@@ -287,7 +306,7 @@ export function LandingPage() {
                   <Card className="h-full transition-all group-hover:border-primary/40 group-hover:shadow-md">
                     <CardContent className="flex h-full flex-col gap-2 p-6">
                       <p className="text-lg font-semibold tracking-tight">{s.series.title}</p>
-                      <p className="text-sm text-muted-foreground">{s.series.speaker} · {t('sidebar.episodes', { n: s.episodes.length })} · {t('sidebar.withNotes', { n: s.episodes.filter((e) => e.hasNotes).length })}</p>
+                      <p className="text-sm text-muted-foreground">{s.series.speaker} · {t('sidebar.episodes', { n: s.episodes.length })} · {t('sidebar.withNotes', { n: s.episodes.filter((e) => e.hasNotes).length })}{s.episodes.some((e) => e.hasQuiz) ? ` · ${t('quiz.badge')} ${s.episodes.filter((e) => e.hasQuiz).length}` : ''}</p>
                       <p className="text-sm leading-relaxed text-muted-foreground">{s.series.description[lang]}</p>
                       <span className="mt-auto inline-flex items-center gap-1 pt-1 text-sm font-medium text-primary">{t('series.open')} <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" /></span>
                     </CardContent>

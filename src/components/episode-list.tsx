@@ -1,22 +1,23 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { Heart, Home, Search, FileText } from 'lucide-react'
+import { Heart, Home, Search, FileText, Trophy, Check, BookOpen, ArrowLeft } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { NKMark } from '@/components/brand'
 import {
   Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarHeader, SidebarMenu,
-  SidebarMenuButton, SidebarMenuItem, SidebarRail, useSidebar,
+  SidebarMenuAction, SidebarMenuButton, SidebarMenuItem, SidebarRail, useSidebar,
 } from '@/components/ui/sidebar'
 import { Input } from '@/components/ui/input'
 import { Clamp } from '@/components/clamp'
 import { TimelineButton } from '@/components/sirah-timeline'
 import { cn } from '@/lib/utils'
-import { fmt } from '@/lib/data'
+import { epPath, fmt } from '@/lib/data'
 import { useT } from '@/lib/i18n'
+import { getRecord, quizKey } from '@/lib/quiz-progress'
 import type { Episode, SeriesIndex } from '@/lib/types'
 
-type Props = { index: SeriesIndex; activeId: string; onSelect: (id: string) => void; onOpenTimeline?: () => void }
+type Props = { index: SeriesIndex; activeId: string; onSelect: (id: string) => void; onOpenTimeline?: () => void; /** The quiz page lists only the episodes that have a quiz. */ quizOnly?: boolean }
 
-export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Props) {
+export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline, quizOnly }: Props) {
   const { t } = useT()
   const { setOpenMobile } = useSidebar()
   const [q, setQ] = useState('')
@@ -28,11 +29,11 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Pr
 
   const groups = useMemo(() => {
     const needle = q.trim().toLowerCase()
-    const match = (e: Episode) => !needle || e.title.toLowerCase().includes(needle) || String(e.number ?? 'prolog').includes(needle)
+    const match = (e: Episode) => (!quizOnly || e.hasQuiz) && (!needle || e.title.toLowerCase().includes(needle) || String(e.number ?? 'prolog').includes(needle))
     const bySeason = new Map<number, Episode[]>()
     for (const e of [...index.episodes].reverse().filter(match)) bySeason.set(e.season, [...(bySeason.get(e.season) ?? []), e])
     return [...bySeason.entries()].sort((a, b) => b[0] - a[0])
-  }, [index, q])
+  }, [index, q, quizOnly])
 
   const withNotes = index.episodes.filter((e) => e.hasNotes).length
 
@@ -62,6 +63,24 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Pr
               }}
             />
           )}
+          {quizOnly && (
+            <Link
+              to={activeId ? epPath(index.series.slug, activeId) : `/${index.series.slug}`}
+              onClick={() => setOpenMobile(false)}
+              className="flex h-9 w-full items-center justify-center gap-2 rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground outline-none transition-colors hover:bg-primary/90 focus-visible:ring-2 focus-visible:ring-sidebar-ring"
+            >
+              <ArrowLeft className="size-4" aria-hidden /> {t('quiz.toLectures')}
+            </Link>
+          )}
+          {index.episodes.some((e) => e.hasQuiz) && !(quizOnly && !activeId) && (
+            <Link
+              to={`/${index.series.slug}/quiz`}
+              onClick={() => setOpenMobile(false)}
+              className="flex h-9 w-full items-center justify-center gap-2 rounded-md border bg-background px-4 text-sm font-medium outline-none transition-colors hover:bg-accent focus-visible:ring-2 focus-visible:ring-sidebar-ring"
+            >
+              <Trophy className="size-4 text-[hsl(var(--gold))]" aria-hidden /> {t('quiz.card')}
+            </Link>
+          )}
           <div className="relative">
             <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
             <Input value={q} onChange={(e) => setQ(e.target.value)} placeholder={t('sidebar.search')} className="h-9 bg-background pl-9" />
@@ -88,7 +107,7 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Pr
                           onSelect(e.id)
                           setOpenMobile(false)
                         }}
-                        className="h-auto items-start gap-3 py-2 group-data-[collapsible=icon]:!p-1"
+                        className={cn('h-auto items-start gap-3 py-2 group-data-[collapsible=icon]:!p-1', quizOnly && 'pr-8')}
                       >
                         <span
                           className={cn(
@@ -103,6 +122,7 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Pr
                           <Clamp text={e.title} className={cn('line-clamp-2 whitespace-normal text-sm leading-snug', !e.hasNotes && !active && 'text-muted-foreground')} />
                           <span className="mt-0.5 flex items-center gap-2 text-xs font-normal text-muted-foreground">
                             {e.duration ? fmt(e.duration) : ''}
+                            {e.hasQuiz && <QuizBadge slug={index.series.slug} epId={e.id} />}
                             {e.hasNotes && (
                               <span className="inline-flex items-center gap-1 rounded bg-primary/10 px-1.5 py-px text-[10px] font-medium text-primary">
                                 <FileText className="size-3" /> {t('sidebar.notes')}
@@ -111,6 +131,13 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Pr
                           </span>
                         </span>
                       </SidebarMenuButton>
+                      {quizOnly && (
+                        <SidebarMenuAction asChild showOnHover={false} className="top-2 group-data-[collapsible=icon]:hidden" title={t('quiz.openNotes', { title: e.title })}>
+                          <Link to={epPath(index.series.slug, e.id)} aria-label={t('quiz.openNotes', { title: e.title })} onClick={() => setOpenMobile(false)}>
+                            <BookOpen />
+                          </Link>
+                        </SidebarMenuAction>
+                      )}
                     </SidebarMenuItem>
                   )
                 })}
@@ -134,5 +161,17 @@ export function EpisodeSidebar({ index, activeId, onSelect, onOpenTimeline }: Pr
       </SidebarFooter>
       <SidebarRail />
     </Sidebar>
+  )
+}
+
+/** Shown in the sidebar when an episode has a quiz: a tick once it was passed, else the best score. */
+function QuizBadge({ slug, epId }: { slug: string; epId: string }) {
+  const { t } = useT()
+  const rec = getRecord(quizKey(slug, epId))
+  return (
+    <span className="inline-flex items-center gap-1 rounded bg-[hsl(var(--gold-soft))] px-1.5 py-px text-[10px] font-medium text-[hsl(var(--gold))]">
+      {rec?.passed ? <Check className="size-3" aria-hidden /> : <Trophy className="size-3" aria-hidden />}
+      {rec?.best ? `${rec.best.correct}/${rec.best.total}` : t('quiz.badge')}
+    </span>
   )
 }

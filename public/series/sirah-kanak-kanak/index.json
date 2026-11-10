@@ -19,7 +19,8 @@
    "duration": 1481,
    "views": 45000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T21:42:07"
+   "notesAddedAt": "2026-11-01T21:42:07",
+   "hasQuiz": true
   },
   {
    "id": "ep2",
@@ -30,7 +31,8 @@
    "duration": 1678,
    "views": 26000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T21:58:35"
+   "notesAddedAt": "2026-11-01T21:58:35",
+   "hasQuiz": true
   },
   {
    "id": "ep3",
@@ -41,7 +43,8 @@
    "duration": 1710,
    "views": 21000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T22:00:24"
+   "notesAddedAt": "2026-11-01T22:00:24",
+   "hasQuiz": true
   },
   {
    "id": "ep4",
@@ -52,7 +55,8 @@
    "duration": 1808,
    "views": 19000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T22:03:24"
+   "notesAddedAt": "2026-11-01T22:03:24",
+   "hasQuiz": true
   },
   {
    "id": "ep5",
@@ -63,7 +67,8 @@
    "duration": 1792,
    "views": 17000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T22:07:49"
+   "notesAddedAt": "2026-11-01T22:07:49",
+   "hasQuiz": true
   },
   {
    "id": "ep6",
@@ -74,7 +79,8 @@
    "duration": 1595,
    "views": 14000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T23:34:32"
+   "notesAddedAt": "2026-11-01T23:34:32",
+   "hasQuiz": true
   },
   {
    "id": "ep7",
@@ -85,7 +91,8 @@
    "duration": 1718,
    "views": 13000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T23:36:58"
+   "notesAddedAt": "2026-11-01T23:36:58",
+   "hasQuiz": true
   },
   {
    "id": "ep8",
@@ -96,7 +103,8 @@
    "duration": 2459,
    "views": 12000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T23:40:19"
+   "notesAddedAt": "2026-11-01T23:40:19",
+   "hasQuiz": true
   },
   {
    "id": "ep9",
@@ -107,7 +115,8 @@
    "duration": 1959,
    "views": 12000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T23:43:19"
+   "notesAddedAt": "2026-11-01T23:43:19",
+   "hasQuiz": true
   },
   {
    "id": "ep10",
@@ -118,7 +127,8 @@
    "duration": 2029,
    "views": 12000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T23:46:06"
+   "notesAddedAt": "2026-11-01T23:46:06",
+   "hasQuiz": true
   },
   {
    "id": "ep11",
@@ -129,7 +139,8 @@
    "duration": 1855,
    "views": 11000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T23:48:42"
+   "notesAddedAt": "2026-11-01T23:48:42",
+   "hasQuiz": true
   },
   {
    "id": "ep12",
@@ -140,7 +151,8 @@
    "duration": 1843,
    "views": 13000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T23:51:05"
+   "notesAddedAt": "2026-11-01T23:51:05",
+   "hasQuiz": true
   },
   {
    "id": "ep13",
@@ -151,7 +163,8 @@
    "duration": 3416,
    "views": 19000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T23:55:41"
+   "notesAddedAt": "2026-11-01T23:55:41",
+   "hasQuiz": true
   },
   {
    "id": "ep14",
@@ -162,7 +175,8 @@
    "duration": 1276,
    "views": 17000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-01T23:57:34"
+   "notesAddedAt": "2026-11-01T23:57:34",
+   "hasQuiz": true
   },
   {
    "id": "ep15",
@@ -173,7 +187,8 @@
    "duration": 2311,
    "views": 7700,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:01:03"
+   "notesAddedAt": "2026-11-02T00:01:03",
+   "hasQuiz": true
   },
   {
    "id": "ep16",
@@ -184,7 +199,8 @@
    "duration": 2082,
    "views": 8200,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:04:19"
+   "notesAddedAt": "2026-11-02T00:04:19",
+   "hasQuiz": true
   },
   {
    "id": "ep17",
@@ -195,7 +211,8 @@
    "duration": 2219,
    "views": 7600,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:07:38"
+   "notesAddedAt": "2026-11-02T00:07:38",
+   "hasQuiz": true
   },
   {
    "id": "ep18",
@@ -206,7 +223,8 @@
    "duration": 1784,
    "views": 7800,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:09:40"
+   "notesAddedAt": "2026-11-02T00:09:40",
+   "hasQuiz": true
   },
   {
    "id": "ep19",
@@ -217,7 +235,8 @@
    "duration": 2506,
    "views": 7700,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:13:44"
+   "notesAddedAt": "2026-11-02T00:13:44",
+   "hasQuiz": true
   },
   {
    "id": "ep20",
@@ -228,7 +247,8 @@
    "duration": 1846,
    "views": 9600,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:16:21"
+   "notesAddedAt": "2026-11-02T00:16:21",
+   "hasQuiz": true
   },
   {
    "id": "ep21",
@@ -239,7 +259,8 @@
    "duration": 3500,
    "views": 12000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:21:59"
+   "notesAddedAt": "2026-11-02T00:21:59",
+   "hasQuiz": true
   },
   {
    "id": "ep22",
@@ -250,7 +271,8 @@
    "duration": 2246,
    "views": 18000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:25:01"
+   "notesAddedAt": "2026-11-02T00:25:01",
+   "hasQuiz": true
   },
   {
    "id": "ep23",
@@ -261,7 +283,8 @@
    "duration": 2385,
    "views": 16000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:28:41"
+   "notesAddedAt": "2026-11-02T00:28:41",
+   "hasQuiz": true
   },
   {
    "id": "ep24",
@@ -272,7 +295,8 @@
    "duration": 2596,
    "views": 13000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:33:16"
+   "notesAddedAt": "2026-11-02T00:33:16",
+   "hasQuiz": true
   },
   {
    "id": "ep25",
@@ -283,7 +307,8 @@
    "duration": 2657,
    "views": 7200,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:38:55"
+   "notesAddedAt": "2026-11-02T00:38:55",
+   "hasQuiz": true
   },
   {
    "id": "ep26",
@@ -294,7 +319,8 @@
    "duration": 1853,
    "views": 11000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:41:37"
+   "notesAddedAt": "2026-11-02T00:41:37",
+   "hasQuiz": true
   },
   {
    "id": "ep27",
@@ -305,7 +331,8 @@
    "duration": 2108,
    "views": 19000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:45:03"
+   "notesAddedAt": "2026-11-02T00:45:03",
+   "hasQuiz": true
   },
   {
    "id": "ep28",
@@ -316,7 +343,8 @@
    "duration": 3117,
    "views": 19000,
    "hasNotes": true,
-   "notesAddedAt": "2026-11-02T00:50:18"
+   "notesAddedAt": "2026-11-02T00:50:18",
+   "hasQuiz": true
   }
  ]
 }

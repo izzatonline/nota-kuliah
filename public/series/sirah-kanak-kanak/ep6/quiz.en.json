@@ -1,0 +1,165 @@
+{
+ "id": "ep6",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Who was entrusted with looking after the Prophet SAW after Abdul Muttalib died?",
+   "options": [
+    "Abu Lahab",
+    "Al-Abbas",
+    "Abu Talib",
+    "Hamzah"
+   ],
+   "explain": "All of Makkah grieved when Abdul Muttalib died, and the Prophet was entrusted to Abu Talib."
+  },
+  {
+   "id": "q2",
+   "q": "What was Abu Talib's family situation?",
+   "options": [
+    "Rich with two children",
+    "Poor with five children",
+    "Rich with five children",
+    "Poor with no children"
+   ],
+   "explain": "Abu Talib was poor with five children, but loved the Prophet SAW even more than his own."
+  },
+  {
+   "id": "q3",
+   "q": "What happened to the small amount of food when the Prophet SAW ate with them?",
+   "options": [
+    "It went off",
+    "It ran out before everyone ate",
+    "It became enough for everyone",
+    "Nobody touched it"
+   ],
+   "explain": "That is barakah: a little becomes enough for many."
+  },
+  {
+   "id": "q4",
+   "q": "At what age did the Prophet SAW start tending sheep?",
+   "options": [
+    "Five or six",
+    "Eight or nine",
+    "Eleven",
+    "Seventeen"
+   ],
+   "explain": "At eight or nine he tended sheep for the people of Makkah for a few cents."
+  },
+  {
+   "id": "q5",
+   "q": "What did he learn in the desert while tending sheep?",
+   "options": [
+    "To be brave facing wolves and the night, and to live simply",
+    "To get rich quickly",
+    "To lead an army",
+    "To trade in Sham"
+   ],
+   "explain": "In the desert he learnt to be brave and to live with little."
+  },
+  {
+   "id": "q6",
+   "q": "What lesson is there in the Prophet SAW working as a shepherd from a young age?",
+   "options": [
+    "Humble work is shameful",
+    "Work is nothing to be ashamed of",
+    "Children should never work",
+    "Only poor people work"
+   ],
+   "explain": "Every prophet tended sheep. Work is no shame even when the pay is small."
+  },
+  {
+   "id": "q7",
+   "q": "Where did the Prophet SAW beg to go with Abu Talib at almost 12 years old?",
+   "options": [
+    "Yaman",
+    "Syam",
+    "Madinah",
+    "Taif"
+   ],
+   "explain": "He begged to be taken to Sham with Abu Talib."
+  },
+  {
+   "id": "q8",
+   "q": "Abdul Muttalib would not eat without his grandson.",
+   "explain": "True. He also hugged his grandson tightly when he came back. It is an example of a grandfather's love."
+  },
+  {
+   "id": "q9",
+   "q": "Every prophet worked as a shepherd.",
+   "explain": "True. The Prophet SAW said that no prophet was sent except that he had tended sheep."
+  },
+  {
+   "id": "q10",
+   "q": "The Prophet SAW grabbed food and raised his voice when eating.",
+   "explain": "False. He did not grab, did not raise his voice and waited for others to take first."
+  },
+  {
+   "id": "q11",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "He begs to go to Sham"
+    },
+    {
+     "id": "b",
+     "text": "Abdul Muttalib dies"
+    },
+    {
+     "id": "c",
+     "text": "He tends sheep"
+    },
+    {
+     "id": "d",
+     "text": "He looks for his grandfather's camel"
+    },
+    {
+     "id": "e",
+     "text": "Barakah in Abu Talib's house"
+    }
+   ],
+   "explain": "He looked for his grandfather's camel, his grandfather died, there was barakah in Abu Talib's house, then he tended sheep, and finally he wanted to go to Sham."
+  },
+  {
+   "id": "q12",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Orphan of both parents"
+    },
+    {
+     "id": "b",
+     "text": "Generous"
+    },
+    {
+     "id": "c",
+     "text": "Cousin"
+    },
+    {
+     "id": "d",
+     "text": "Shepherd"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The child of an uncle"
+    },
+    {
+     "id": "2",
+     "text": "A person who looks after and guides sheep"
+    },
+    {
+     "id": "3",
+     "text": "A child who lost both mother and father"
+    },
+    {
+     "id": "4",
+     "text": "Likes to help and feed people in need"
+    }
+   ],
+   "explain": "An orphan has lost both parents, a generous person likes to help, a cousin is the child of an uncle, and a shepherd looks after sheep."
+  }
+ ]
+}

@@ -1,0 +1,171 @@
+{
+ "id": "ep5",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "On which day of the week was the Prophet SAW born?",
+   "options": [
+    "Sunday",
+    "Monday",
+    "Thursday",
+    "Friday"
+   ],
+   "explain": "The day of his birth and the day of the first revelation was Monday."
+  },
+  {
+   "id": "q2",
+   "q": "According to the strongest report, how long after the attack of the army with elephants was the Prophet SAW born?",
+   "options": [
+    "Fifty days",
+    "One year",
+    "Three days",
+    "Ten years"
+   ],
+   "explain": "He was born about fifty days after that event, and that year is called the Year of the Elephant."
+  },
+  {
+   "id": "q3",
+   "q": "Who chose 9 Rabi' al-Awwal based on astronomers' calculation?",
+   "options": [
+    "Ibn Ishaq",
+    "Safiyyur-Rahman Al-Mubarakfuri",
+    "Muhammad Al-Ghazali",
+    "Umar Al-Khattab"
+   ],
+   "explain": "Ibn Ishaq chose 12 Rabi' al-Awwal without a chain, while Al-Mubarakfuri chose 9."
+  },
+  {
+   "id": "q4",
+   "q": "What did Umar Al-Khattab choose as the start of the Islamic calendar instead of the Prophet's birth year?",
+   "options": [
+    "The year of the Hijrah",
+    "The Year of the Elephant",
+    "The year of the first revelation",
+    "The year of the conquest of Makkah"
+   ],
+   "explain": "Umar chose the Hijrah as the start of the calendar."
+  },
+  {
+   "id": "q5",
+   "q": "Who took the Prophet SAW to the Kaaba, prayed and named him Muhammad?",
+   "options": [
+    "Abdullah",
+    "Abdul Muttalib",
+    "Abu Lahab",
+    "Aminah"
+   ],
+   "explain": "Abdul Muttalib named him Muhammad so that he would always be praised."
+  },
+  {
+   "id": "q6",
+   "q": "When someone changes a name, whose name may be changed?",
+   "options": [
+    "His father's name",
+    "Both",
+    "His grandfather's name",
+    "Only his own name, so that lineage can be traced"
+   ],
+   "explain": "Change your own name, not your father's, to preserve lineage."
+  },
+  {
+   "id": "q7",
+   "q": "What is aqiqah?",
+   "options": [
+    "The maulid celebration",
+    "A name for the Year of the Elephant",
+    "A sacrifice on the birth of a child",
+    "Fasting on Mondays"
+   ],
+   "explain": "According to the sirah record, Abdul Muttalib circumcised, named and performed the aqiqah for him."
+  },
+  {
+   "id": "q8",
+   "q": "The exact date of the Prophet's SAW birth affects one's creed.",
+   "explain": "False. The Prophet never stated his birth date and creed does not depend on it."
+  },
+  {
+   "id": "q9",
+   "q": "We can fully believe in prophethood without miraculous tales that have no source.",
+   "explain": "True. Unsourced miraculous stories are not needed for faith."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abdul Muttalib names him Muhammad"
+    },
+    {
+     "id": "b",
+     "text": "Abdullah dies in Yathrib"
+    },
+    {
+     "id": "c",
+     "text": "The Prophet SAW is born on a Monday"
+    },
+    {
+     "id": "d",
+     "text": "Abdullah marries Aminah"
+    },
+    {
+     "id": "e",
+     "text": "He is circumcised and the aqiqah is performed"
+    }
+   ],
+   "explain": "Abdullah married, died, the Prophet SAW was born, named Muhammad, and then circumcised with the aqiqah."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Year of the Elephant"
+    },
+    {
+     "id": "b",
+     "text": "Mawlid"
+    },
+    {
+     "id": "c",
+     "text": "Isnad"
+    },
+    {
+     "id": "d",
+     "text": "Shama'il"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The chain of narrators of a report"
+    },
+    {
+     "id": "2",
+     "text": "The traits and character of the Prophet SAW"
+    },
+    {
+     "id": "3",
+     "text": "Celebration of the Prophet's birthday"
+    },
+    {
+     "id": "4",
+     "text": "The year of the elephant army's attack and the Prophet's birth"
+    }
+   ],
+   "explain": "The Year of the Elephant is the birth year, mawlid is the birthday celebration, isnad is the chain of narrators and shama'il are the Prophet's traits and character."
+  },
+  {
+   "id": "q12",
+   "q": "There are differing views on celebrating the mawlid. What attitude does this lecture teach?",
+   "options": [
+    "Quarrel until we become enemies",
+    "Focus on what is more productive",
+    "Not care at all",
+    "Force others"
+   ],
+   "explain": "Instead of heated arguments, focus on what is more productive."
+  }
+ ]
+}

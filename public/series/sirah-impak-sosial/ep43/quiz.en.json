@@ -1,0 +1,149 @@
+{
+ "id": "ep43",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What does being brave mean according to this lecture?",
+   "options": [
+    "Overcoming fear, not being fearless",
+    "Having no fear at all",
+    "Being angry",
+    "Staying silent"
+   ],
+   "explain": "The Prophet SAW himself was uneasy yet still conveyed it."
+  },
+  {
+   "id": "q2",
+   "q": "What is the danger of being a people pleaser?",
+   "options": [
+    "We stop saying what is true",
+    "We become strong",
+    "We become more honest",
+    "No danger"
+   ],
+   "explain": "Excessive politeness can make us stop stating the truth."
+  },
+  {
+   "id": "q3",
+   "q": "What was Umar bin Abdul Aziz's attitude to the hadith of Jibril leading prayer?",
+   "options": [
+    "He rejected it outright",
+    "He accepted it unchecked",
+    "He forgot it",
+    "He asked Urwah to verify the source"
+   ],
+   "explain": "Verify the source of a hadith."
+  },
+  {
+   "id": "q4",
+   "q": "Why does a connection with nature help in knowing the prayer times?",
+   "options": [
+    "Because the night is dark",
+    "It is unrelated",
+    "In the past people knew prayer times by watching the sun",
+    "Because clocks were costly"
+   ],
+   "explain": "Prayer times follow the position of the sun."
+  },
+  {
+   "id": "q5",
+   "q": "What is the advice about what we should focus on?",
+   "options": [
+    "Nothing",
+    "What we can control within our own circle of influence",
+    "Everything in the world",
+    "Other people's business"
+   ],
+   "explain": "Leave aside what is unrelated."
+  },
+  {
+   "id": "q6",
+   "q": "When we fear only Allah, people's mockery no longer matters.",
+   "explain": "True. Fear only Allah."
+  },
+  {
+   "id": "q7",
+   "q": "The family is not the first priority in social change.",
+   "explain": "False. If everyone puts family first, society will straighten out."
+  },
+  {
+   "id": "q8",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Jibril teaches the prayer times in Makkah"
+    },
+    {
+     "id": "b",
+     "text": "Abu Jahal gathers Quraysh"
+    },
+    {
+     "id": "c",
+     "text": "The Prophet is alone and anxious"
+    },
+    {
+     "id": "d",
+     "text": "Abu Bakr is called As-Siddiq"
+    },
+    {
+     "id": "e",
+     "text": "Allah shows him Bayt al-Maqdis"
+    }
+   ],
+   "explain": "The Prophet was anxious, Abu Jahal gathered Quraysh, Bayt al-Maqdis was shown, Abu Bakr was called As-Siddiq, and Jibril taught the prayer times."
+  },
+  {
+   "id": "q9",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Hijr"
+    },
+    {
+     "id": "b",
+     "text": "As-Siddiq"
+    },
+    {
+     "id": "c",
+     "text": "Hasan hadith"
+    },
+    {
+     "id": "d",
+     "text": "Ghuraba'"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A hadith of good grade, below sahih"
+    },
+    {
+     "id": "2",
+     "text": "The strangers who hold to Islam when it feels foreign"
+    },
+    {
+     "id": "3",
+     "text": "Abu Bakr's title for believing without hesitation"
+    },
+    {
+     "id": "4",
+     "text": "The semicircular area beside the Kaaba"
+    }
+   ],
+   "explain": "Hijr is the semicircle, As-Siddiq is Abu Bakr, a hasan hadith is below sahih, and ghuraba' are the strangers who hold on."
+  },
+  {
+   "id": "q10",
+   "q": "Some will not accept whatever is explained. What is the advice to a caller to Islam?",
+   "options": [
+    "Force them",
+    "Mock them",
+    "Stop da'wah",
+    "Choose whom to engage in discussion"
+   ],
+   "explain": "Choose whom to engage in discussion."
+  }
+ ]
+}

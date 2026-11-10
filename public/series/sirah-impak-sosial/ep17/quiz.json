@@ -1,0 +1,216 @@
+{
+ "id": "ep17",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Mengapakah berhala kabilah diletakkan di Kaabah?",
+   "options": [
+    "Sebagai jaminan keselamatan Quraish",
+    "Kerana Nabi Ibrahim menyuruhnya",
+    "Kerana Kaabah terlalu kosong",
+    "Kerana hujan"
+   ],
+   "answer": 0,
+   "explain": "Berhala diletakkan sebagai jaminan keselamatan dagang Quraish.",
+   "t": 126,
+   "source": "events:e1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Berapa lamakah Nabi SAW berdagang ke Syam dan Yaman menurut kuliah?",
+   "options": [
+    "Sepuluh hingga lima belas tahun",
+    "Seminggu",
+    "Satu bulan",
+    "Lima puluh tahun"
+   ],
+   "answer": 0,
+   "explain": "Baginda melihat keadaan Rom dan Parsi sendiri.",
+   "t": 259,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah Byzantin?",
+   "options": [
+    "Parsi",
+    "India",
+    "Yaman",
+    "Rom Timur, dari Turki hingga Syam, Mesir dan Afrika Timur"
+   ],
+   "answer": 3,
+   "explain": "Byzantin ialah Rom Timur.",
+   "t": 678,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Siapakah gladiator?",
+   "options": [
+    "Pedagang",
+    "Penyair",
+    "Hamba yang dipaksa bertarung sebagai hiburan di kolosium",
+    "Tentera elit"
+   ],
+   "answer": 2,
+   "explain": "Rakyat Rom menjual anak dan hamba menjadi gladiator kerana tekanan cukai.",
+   "t": 871,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Bagaimanakah Islam memperlakukan balu berbanding keadaan di India ketika itu?",
+   "options": [
+    "Mengabaikan balu",
+    "Menghormati balu dan membenarkan mereka berkahwin semula",
+    "Menghina balu",
+    "Melarang balu keluar"
+   ],
+   "answer": 1,
+   "explain": "Di India balu dihina dan dilarang berkahwin semula; Islam menghormati janda.",
+   "t": 1822,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah perkataan pertama dalam Al-Alaq yang menunjukkan keistimewaan Islam?",
+   "options": [
+    "Berdirilah",
+    "Berdiamlah",
+    "Berjalanlah",
+    "Bacalah"
+   ],
+   "answer": 3,
+   "explain": "Berbeza dengan agama yang melarang orang biasa membaca kitab, Quran bermula dengan baca.",
+   "t": 1456,
+   "source": "dalil:q96-1",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Apakah teladan Nabi SAW dalam menggunakan kebaikan yang sedia ada pada orang Arab?",
+   "options": [
+    "Meniru Rom sepenuhnya",
+    "Mengelak orang Arab",
+    "Mencari kebaikan sedia ada untuk membetulkan yang buruk",
+    "Membuang semua adat"
+   ],
+   "answer": 2,
+   "explain": "Gunakan kebaikan setiap kaum.",
+   "t": 2483,
+   "source": "lessons:l11",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Agama boleh dijadikan alat untuk mengesahkan kuasa raja.",
+   "answer": false,
+   "explain": "Salah. Raja sebagai wakil Tuhan membolehkan penindasan atas nama agama.",
+   "t": 794,
+   "source": "lessons:l4",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Apabila memeluk Islam, orang kasta rendah mendapat kesamaan dalam saf solat.",
+   "answer": true,
+   "explain": "Betul. Islam membebaskan manusia.",
+   "t": 1710,
+   "source": "lessons:l6",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan sistem kasta dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Brahman"
+    },
+    {
+     "id": "b",
+     "text": "Kesatria"
+    },
+    {
+     "id": "c",
+     "text": "Waisya"
+    },
+    {
+     "id": "d",
+     "text": "Sudra"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Kasta peniaga dan petani"
+    },
+    {
+     "id": "2",
+     "text": "Kasta buruh dan pekerja"
+    },
+    {
+     "id": "3",
+     "text": "Kasta pahlawan dan ahli politik"
+    },
+    {
+     "id": "4",
+     "text": "Kasta tertinggi: agamawan dan cendekiawan"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "3"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Brahman paling tinggi, kesatria pahlawan, waisya peniaga dan petani, dan sudra buruh.",
+   "t": 1432,
+   "source": "glossary:g4",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "mcq",
+   "q": "Nabi SAW berjiran dengan Parsi dan Yahudi. Apakah tugas kita menurut kuliah ini?",
+   "options": [
+    "Berpindah",
+    "Menjadi cahaya, bukan lari",
+    "Mengasingkan diri",
+    "Menyalahkan jiran"
+   ],
+   "answer": 1,
+   "explain": "Bahkan Nabi SAW diutus sebagai rahmat kepada seluruh alam.",
+   "t": 2239,
+   "source": "lessons:l9",
+   "level": 3
+  }
+ ]
+}

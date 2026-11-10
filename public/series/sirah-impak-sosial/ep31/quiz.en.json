@@ -1,0 +1,149 @@
+{
+ "id": "ep31",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What does Al-Faruq, Umar's title, mean?",
+   "options": [
+    "The one who distinguishes truth from falsehood",
+    "The strong",
+    "The wealthy",
+    "The trusted"
+   ],
+   "explain": "A title from the Prophet SAW."
+  },
+  {
+   "id": "q2",
+   "q": "What is Amir al-Mu'minin?",
+   "options": [
+    "The title of the Muslims' leader, like Umar as caliph",
+    "The name of a mosque",
+    "The name of a surah",
+    "The name of a month"
+   ],
+   "explain": "Umar became the second caliph."
+  },
+  {
+   "id": "q3",
+   "q": "Where did Umar embrace Islam?",
+   "options": [
+    "At the Kaaba",
+    "In Abyssinia",
+    "In Yathrib",
+    "At Dar al-Arqam"
+   ],
+   "explain": "Umar arrived with his sword, the Prophet SAW held his collar, and Umar embraced Islam."
+  },
+  {
+   "id": "q4",
+   "q": "Why do bonds between Muslims grow stronger when numbers are small?",
+   "options": [
+    "Because they were of one tribe",
+    "Because they traded together",
+    "Because of shared pressure and a shared mission",
+    "Because they were rich"
+   ],
+   "explain": "Shared pressure deepens brotherhood."
+  },
+  {
+   "id": "q5",
+   "q": "What did Umar remember as caliph about his past?",
+   "options": [
+    "He forgot it",
+    "His days as a shepherd and his father's harshness",
+    "His days of war",
+    "His days of trade"
+   ],
+   "explain": "Remember where we came from."
+  },
+  {
+   "id": "q6",
+   "q": "Hamzah planned for a long time before embracing Islam.",
+   "explain": "False. Hamzah did not plan it; Allah opened his heart."
+  },
+  {
+   "id": "q7",
+   "q": "Umar was busy with grand matters until he was reminded that his own sister had embraced Islam.",
+   "explain": "True. Settle the matters of your own house."
+  },
+  {
+   "id": "q8",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Umar embraces Islam"
+    },
+    {
+     "id": "b",
+     "text": "Umar bathes and reads Surah Taha"
+    },
+    {
+     "id": "c",
+     "text": "Hamzah prays and embraces Islam"
+    },
+    {
+     "id": "d",
+     "text": "Umar strikes his sister and is moved"
+    },
+    {
+     "id": "e",
+     "text": "Umar sets out with his sword"
+    }
+   ],
+   "explain": "Hamzah embraced Islam, Umar set out with his sword, struck his sister, read Taha, then embraced Islam."
+  },
+  {
+   "id": "q9",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Tribe"
+    },
+    {
+     "id": "b",
+     "text": "Islamic brotherhood"
+    },
+    {
+     "id": "c",
+     "text": "Suhuf"
+    },
+    {
+     "id": "d",
+     "text": "Hanif"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Sheets on which the Quran was written"
+    },
+    {
+     "id": "2",
+     "text": "An Arab clan or tribe"
+    },
+    {
+     "id": "3",
+     "text": "One who holds to the upright religion of Ibrahim"
+    },
+    {
+     "id": "4",
+     "text": "Brotherhood among Muslims beyond tribe"
+    }
+   ],
+   "explain": "Kabilah is a tribe, ukhuwah is brotherhood, suhuf are Quran sheets, and a hanif holds to Ibrahim's religion."
+  },
+  {
+   "id": "q10",
+   "q": "Umar asked why they hid if they were on the truth. What is the lesson?",
+   "options": [
+    "Always hide",
+    "Wait for a saviour",
+    "Attack people",
+    "Be bold in showing the truth"
+   ],
+   "explain": "Dare to manifest the truth."
+  }
+ ]
+}

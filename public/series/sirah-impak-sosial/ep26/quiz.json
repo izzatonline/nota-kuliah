@@ -1,0 +1,206 @@
+{
+ "id": "ep26",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah yang disebut tentang nama Muhammad dalam dunia hari ini?",
+   "options": [
+    "Ia paling banyak diberikan, dan yang membenci Nabi SAW yang terputus",
+    "Ia sudah dilupakan",
+    "Ia jarang digunakan",
+    "Ia diharamkan"
+   ],
+   "answer": 0,
+   "explain": "Nama Nabi SAW tidak terputus.",
+   "t": 766,
+   "source": "lessons:l2",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah empat label yang dilemparkan kepada Nabi SAW oleh Quraish?",
+   "options": [
+    "Gila, sihir, penyair dan pendusta",
+    "Raja, hakim, peniaga dan pengembala",
+    "Doktor, guru, askar dan nelayan",
+    "Kaya, miskin, tua dan muda"
+   ],
+   "answer": 0,
+   "explain": "Mereka melabel Nabi SAW walaupun tahu baginda jujur.",
+   "t": 1253,
+   "source": "events:e1",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah yang berlaku kepada Al-Walid walaupun mengakui Quran bukan kata manusia?",
+   "options": [
+    "Memeluk Islam",
+    "Menghafalnya",
+    "Berpindah",
+    "Menolaknya kerana kepentingan"
+   ],
+   "answer": 3,
+   "explain": "Tahu kebenaran tidak semestinya menerima.",
+   "t": 3606,
+   "source": "lessons:l9",
+   "level": 2
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Mengapakah Umar menjadi lebih terbuka kepada Quran menurut kuliah ini?",
+   "options": [
+    "Dia dipaksa",
+    "Dia membaca buku",
+    "Dia mendengar sendiri bacaan secara langsung",
+    "Dia diberi hadiah"
+   ],
+   "answer": 2,
+   "explain": "Kebanyakan penentang tidak pernah mendengar mesej sebenar.",
+   "t": 2483,
+   "source": "lessons:l7",
+   "level": 2
+  },
+  {
+   "id": "q5",
+   "type": "tf",
+   "q": "Karakter Nabi SAW berjaya dibunuh oleh serangan peribadi.",
+   "answer": false,
+   "explain": "Salah. Tiada kekurangan dijumpai oleh sesiapa yang bergaul dengan baginda.",
+   "t": 1137,
+   "source": "lessons:l3",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "tf",
+   "q": "Hadis daif sama dengan hadis palsu.",
+   "answer": false,
+   "explain": "Salah. Daif lemah sanadnya tetapi bukan palsu.",
+   "t": 2708,
+   "source": "lessons:l8",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Fasa seksaan fizikal bermula"
+    },
+    {
+     "id": "b",
+     "text": "Abu Lahab meraikan kematian anak Nabi SAW"
+    },
+    {
+     "id": "c",
+     "text": "Al-Walid dipujuk menafikan Quran"
+    },
+    {
+     "id": "d",
+     "text": "Mereka melabel Nabi SAW"
+    },
+    {
+     "id": "e",
+     "text": "Pengikut miskin diejek"
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "e",
+    "c",
+    "a"
+   ],
+   "explain": "Al-Kauthar turun, label dilemparkan, pengikut diejek, Al-Walid dipujuk, dan seksaan fizikal bermula.",
+   "t": 696,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Al-Kauthar"
+    },
+    {
+     "id": "b",
+     "text": "Abtar"
+    },
+    {
+     "id": "c",
+     "text": "Cancel"
+    },
+    {
+     "id": "d",
+     "text": "Inferiority complex"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Rasa rendah diri yang berpanjangan"
+    },
+    {
+     "id": "2",
+     "text": "Yang terputus"
+    },
+    {
+     "id": "3",
+     "text": "Menjatuhkan nama baik seseorang daripada penerimaan umum"
+    },
+    {
+     "id": "4",
+     "text": "Kebaikan yang banyak"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "2"
+    ],
+    [
+     "c",
+     "3"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Al-Kauthar kebaikan banyak, abtar terputus, cancel menjatuhkan nama baik, dan inferiority complex rasa rendah diri.",
+   "t": 541,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "mcq",
+   "q": "Semakin banyak label dilontarkan, apakah yang berlaku kepada orang ramai?",
+   "options": [
+    "Mereka memeluk Islam",
+    "Mereka bimbang tanpa mendengar mesej sebenar",
+    "Mereka lebih mempercayai mesej",
+    "Mereka tidak peduli"
+   ],
+   "answer": 1,
+   "explain": "Awas label sebagai taktik.",
+   "t": 1153,
+   "source": "lessons:l4",
+   "level": 3
+  }
+ ]
+}

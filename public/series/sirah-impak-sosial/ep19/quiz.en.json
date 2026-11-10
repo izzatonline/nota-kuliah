@@ -1,0 +1,160 @@
+{
+ "id": "ep19",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Why must reading be done in the name of the Lord?",
+   "options": [
+    "Many read but gain no guidance because they read without bismillah",
+    "So it finishes quickly",
+    "So the voice sounds beautiful",
+    "No reason"
+   ],
+   "explain": "Bismillah distinguishes reading that receives mercy from reading that does not."
+  },
+  {
+   "id": "q2",
+   "q": "Why was the Prophet's SAW being ummi an advantage?",
+   "options": [
+    "It is proof that the revelation was not copied from people",
+    "Because he disliked learning",
+    "Because he was unintelligent",
+    "Because there were no books"
+   ],
+   "explain": "The Prophet SAW did not read or write, so the revelation was not his composition."
+  },
+  {
+   "id": "q3",
+   "q": "What does Rabb mean?",
+   "options": [
+    "King of the world",
+    "An angel",
+    "A prophet",
+    "Creator, sustainer, educator and protector"
+   ],
+   "explain": "Rabb is a name that carries many meanings."
+  },
+  {
+   "id": "q4",
+   "q": "What is alaq?",
+   "options": [
+    "Water",
+    "A pen",
+    "A clinging clot in the womb",
+    "Clay"
+   ],
+   "explain": "An alaq is like a leech that clings."
+  },
+  {
+   "id": "q5",
+   "q": "How far did the Prophet SAW run home to Khadijah?",
+   "options": [
+    "Just next door",
+    "About four kilometres",
+    "A hundred metres",
+    "Forty kilometres"
+   ],
+   "explain": "He came home with a pounding heart and asked to be covered."
+  },
+  {
+   "id": "q6",
+   "q": "What did Khadijah do when the Prophet SAW came home afraid?",
+   "options": [
+    "Scolded him",
+    "Sent him away",
+    "Told him to be quiet",
+    "Covered him without questions, then listened to his story"
+   ],
+   "explain": "Khadijah accepted without judging."
+  },
+  {
+   "id": "q7",
+   "q": "Even the bravest man may tremble and need to be calmed.",
+   "explain": "True. Do not belittle a man in a moment of weakness."
+  },
+  {
+   "id": "q8",
+   "q": "Wealth can breed self-sufficiency until one feels no need for God.",
+   "explain": "True. That was the state of Quraysh."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Waraqah dies and revelation pauses"
+    },
+    {
+     "id": "b",
+     "text": "Khadijah calms him"
+    },
+    {
+     "id": "c",
+     "text": "Jibril comes with the truth"
+    },
+    {
+     "id": "d",
+     "text": "Waraqah confirms the revelation"
+    },
+    {
+     "id": "e",
+     "text": "He runs to Khadijah"
+    }
+   ],
+   "explain": "Jibril came, he ran home, Khadijah calmed him, Waraqah confirmed, then Waraqah died and revelation paused."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Bismillah"
+    },
+    {
+     "id": "b",
+     "text": "Sunnatullah"
+    },
+    {
+     "id": "c",
+     "text": "Al-Haqq"
+    },
+    {
+     "id": "d",
+     "text": "Namus"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Allah's laws in nature"
+    },
+    {
+     "id": "2",
+     "text": "The truth, referring to the Quran or Jibril"
+    },
+    {
+     "id": "3",
+     "text": "In the name of Allah"
+    },
+    {
+     "id": "4",
+     "text": "The keeper of secrets, referring to Jibril"
+    }
+   ],
+   "explain": "Bismillah is in the name of Allah, sunnatullah is the laws of nature, al-haqq is the truth, and namus refers to Jibril."
+  },
+  {
+   "id": "q11",
+   "q": "You are looking for a life partner. What example does the Prophet SAW give on the night of revelation?",
+   "options": [
+    "The most famous partner",
+    "No partner needed",
+    "A partner who calms and accepts without judging",
+    "The wealthiest partner"
+   ],
+   "explain": "The Prophet SAW ran to a wife who accepted without judging."
+  }
+ ]
+}

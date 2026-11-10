@@ -1,0 +1,149 @@
+{
+ "id": "ep30",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Who was appointed leader of the second migration group to Abyssinia?",
+   "options": [
+    "Ja'far",
+    "Uthman",
+    "Abu Bakr",
+    "Umar"
+   ],
+   "explain": "The group consisted of 83 men and 28 women."
+  },
+  {
+   "id": "q2",
+   "q": "Why did Uthman bin Maz'un give up the protection granted to him?",
+   "options": [
+    "Because it was unjust for him to be safe while companions were tortured",
+    "Because he was afraid",
+    "Because he migrated",
+    "Because he was paid"
+   ],
+   "explain": "Solidarity goes beyond comfort."
+  },
+  {
+   "id": "q3",
+   "q": "What is the lesson from the way Ja'far spoke before Najashi?",
+   "options": [
+    "Attack the king's religion",
+    "Stay silent",
+    "Offer a bribe",
+    "Explain what Islam is, not only what it is not"
+   ],
+   "explain": "Ja'far only affirmed that Isa was a servant and a word of Allah, without attacking."
+  },
+  {
+   "id": "q4",
+   "q": "What did Najashi do with the bribe gifts from Quraysh?",
+   "options": [
+    "Kept them",
+    "Sold them",
+    "Returned them, since Allah did not take a bribe from him",
+    "Accepted them"
+   ],
+   "explain": "A just leader refuses bribes."
+  },
+  {
+   "id": "q5",
+   "q": "What is Tewahedo?",
+   "options": [
+    "A market's name",
+    "The Ethiopian Orthodox tradition, meaning oneness",
+    "A king's name",
+    "A ship's name"
+   ],
+   "explain": "An Abyssinian word linked to oneness."
+  },
+  {
+   "id": "q6",
+   "q": "Why was Ja'far's speech well-structured?",
+   "options": [
+    "He spoke without preparation",
+    "He read a letter",
+    "He sang",
+    "He began with before-and-after, avoided sensitive issues and stated what Islam brings"
+   ],
+   "explain": "A well-ordered speech helped convince the king."
+  },
+  {
+   "id": "q7",
+   "q": "The miracle of the Quran lasts until the Day of Judgement, unlike miracles seen only by some.",
+   "explain": "True. Allah preserves the miracle of the Quran."
+  },
+  {
+   "id": "q8",
+   "q": "The tribal bond is higher than the bond of Islam.",
+   "explain": "False. Brotherhood in faith overrides tribal ties."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The decree of shuyum"
+    },
+    {
+     "id": "b",
+     "text": "Mass prostration at the Sacred Mosque"
+    },
+    {
+     "id": "c",
+     "text": "Ja'far's speech"
+    },
+    {
+     "id": "d",
+     "text": "Emigrants return"
+    },
+    {
+     "id": "e",
+     "text": "83 men and 28 women migrate"
+    }
+   ],
+   "explain": "The prostration at the Sacred Mosque, emigrants returned, the second migration, Ja'far's speech, and the decree of shuyum."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Sujud tilawah"
+    },
+    {
+     "id": "b",
+     "text": "Jiwar"
+    },
+    {
+     "id": "c",
+     "text": "Social capital"
+    },
+    {
+     "id": "d",
+     "text": "Shuyum"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Relationships and exposure that open opportunities"
+    },
+    {
+     "id": "2",
+     "text": "Safe and fully protected"
+    },
+    {
+     "id": "3",
+     "text": "Protection like a passport"
+    },
+    {
+     "id": "4",
+     "text": "Prostration upon reciting a verse of prostration"
+    }
+   ],
+   "explain": "Sujud tilawah is at a verse of prostration, jiwar is protection, social capital is relationships, and shuyum means fully safe."
+  }
+ ]
+}

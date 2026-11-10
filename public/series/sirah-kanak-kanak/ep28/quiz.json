@@ -1,0 +1,232 @@
+{
+ "id": "ep28",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah yang berlaku apabila sekumpulan jin mendengar Nabi SAW membaca Quran di Nakhlah?",
+   "options": [
+    "Mereka beriman dan pulang berdakwah kepada kaum mereka",
+    "Mereka lari",
+    "Mereka menyerang",
+    "Mereka tidak peduli"
+   ],
+   "answer": 0,
+   "explain": "Jin itu diam mendengar, beriman, dan berdakwah kepada kaum mereka.",
+   "t": 208,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah maksud jiwar?",
+   "options": [
+    "Perlindungan yang diberikan seorang pemimpin kepada orang lain",
+    "Perjanjian dagang",
+    "Hadiah perkahwinan",
+    "Perisytiharan perang"
+   ],
+   "answer": 0,
+   "explain": "Mut'im memberi jiwar kepada Nabi SAW sehingga baginda dapat masuk Mekah.",
+   "t": 556,
+   "source": "glossary:g4",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Ayat pertama surah manakah yang menyebut peristiwa Isra'?",
+   "options": [
+    "Al-Fil",
+    "Al-Isra'",
+    "Al-Alaq",
+    "Al-Qadr"
+   ],
+   "answer": 1,
+   "explain": "Al-Isra' 17:1 menyebut Allah membawa hamba-Nya pada waktu malam.",
+   "t": 810,
+   "source": "dalil:q17-1",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Ke manakah Nabi SAW dibawa pada malam Isra'?",
+   "options": [
+    "Madinah",
+    "Baitul Maqdis",
+    "Taif",
+    "Habasyah"
+   ],
+   "answer": 1,
+   "explain": "Isra' ialah perjalanan malam Nabi SAW dari Mekah ke Baitul Maqdis.",
+   "t": 734,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah Sidratul Muntaha?",
+   "options": [
+    "Sebuah gua di Mekah",
+    "Nama kenderaan baginda",
+    "Kawasan di tepi Kaabah",
+    "Stesen tertinggi tempat Nabi SAW bertemu Allah"
+   ],
+   "answer": 3,
+   "explain": "Sidratul Muntaha ialah stesen tertinggi dalam Mi'raj.",
+   "t": 1251,
+   "source": "glossary:g5",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Mengapakah Allah membawa Nabi SAW menyaksikan alam yang agung selepas Taif?",
+   "options": [
+    "Untuk menyuruh baginda berhenti",
+    "Tiada sebab",
+    "Untuk menguatkan hati Rasul-Nya selepas kesedihan",
+    "Untuk menghukum Mekah"
+   ],
+   "answer": 2,
+   "explain": "Selepas kesedihan Taif, Allah menguatkan hati Rasul-Nya.",
+   "t": 2333,
+   "source": "lessons:l5",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Apakah yang dilakukan Nabi SAW kerana mengenang jasa Mut'im?",
+   "options": [
+    "Melupakannya",
+    "Sanggup membebaskan tawanan Badar kerananya",
+    "Memberinya harta",
+    "Menghalaunya"
+   ],
+   "answer": 1,
+   "explain": "Nabi SAW menghargai jasa orang walaupun bukan Islam.",
+   "t": 667,
+   "source": "lessons:l4",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "mcq",
+   "q": "Apakah yang dikagumi jin tentang Quran?",
+   "options": [
+    "Warna tulisannya",
+    "Tebal kitabnya",
+    "Harganya",
+    "Bahasa, alunan dan maknanya"
+   ],
+   "answer": 3,
+   "explain": "Jin kagum akan keindahan Quran.",
+   "t": 463,
+   "source": "lessons:l3",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Peristiwa Isra' Mi'raj mudah difahami dengan logik semata-mata.",
+   "answer": false,
+   "explain": "Salah. Ia sukar difahami logik tetapi Allah yang menceritakannya, maka kita beriman.",
+   "t": 31,
+   "source": "lessons:l1",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "tf",
+   "q": "Kita boleh bergurau ketika Quran dibaca.",
+   "answer": false,
+   "explain": "Salah. Jin pun diam mendengar. Kita patut diam dan menghormati bacaan Quran.",
+   "t": 292,
+   "source": "lessons:l2",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Jiwar"
+    },
+    {
+     "id": "b",
+     "text": "Isra'"
+    },
+    {
+     "id": "c",
+     "text": "Mi'raj"
+    },
+    {
+     "id": "d",
+     "text": "Hijr Ismail"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Kenaikan Nabi SAW ke langit"
+    },
+    {
+     "id": "2",
+     "text": "Perjalanan malam dari Mekah ke Baitul Maqdis"
+    },
+    {
+     "id": "3",
+     "text": "Kawasan separuh bulatan di tepi Kaabah"
+    },
+    {
+     "id": "4",
+     "text": "Perlindungan yang diberikan seorang pemimpin"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "2"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "3"
+    ]
+   ],
+   "explain": "Jiwar perlindungan, Isra' perjalanan malam ke Baitul Maqdis, Mi'raj kenaikan ke langit, dan Hijr Ismail kawasan di tepi Kaabah.",
+   "t": 556,
+   "source": "glossary:g4",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Masjid Al-Aqsa ialah tempat yang diberkati. Apakah yang patut kita lakukan untuknya?",
+   "options": [
+    "Melupakannya",
+    "Mendoakan pembebasan Baitul Maqdis dan Gaza",
+    "Menyalahkan orang lain",
+    "Tidak peduli"
+   ],
+   "answer": 1,
+   "explain": "Kita mendoakan pembebasan Baitul Maqdis dan Gaza.",
+   "t": 872,
+   "source": "lessons:l10",
+   "level": 3
+  }
+ ]
+}

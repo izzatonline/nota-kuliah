@@ -1,0 +1,133 @@
+{
+ "id": "ep33",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What did the twenty-five Quraysh leaders offer Abu Talib?",
+   "options": [
+    "A deceptive peace agreement",
+    "Wealth",
+    "Rank",
+    "A marriage"
+   ],
+   "explain": "They met Abu Talib to stop his call."
+  },
+  {
+   "id": "q2",
+   "q": "What one word, if spoken, would make Arabs and non-Arabs submit?",
+   "options": [
+    "La ilaha illallah",
+    "Bismillah",
+    "Subhanallah",
+    "Allahu akbar"
+   ],
+   "explain": "The word of tawhid."
+  },
+  {
+   "id": "q3",
+   "q": "What does Al-Qasas 28:56 stress in connection with Abu Talib?",
+   "options": [
+    "The Prophet SAW can give guidance",
+    "Abu Talib was forced",
+    "There is no guidance",
+    "Guidance belongs to Allah, not the Prophet SAW"
+   ],
+   "explain": "Even the Prophet SAW, who loved Abu Talib dearly, could not give him guidance."
+  },
+  {
+   "id": "q4",
+   "q": "Who handled Abu Talib's funeral on the Prophet's SAW instruction?",
+   "options": [
+    "Abu Bakr",
+    "Umar",
+    "Ali",
+    "Hamzah"
+   ],
+   "explain": "Ali handled his father's body."
+  },
+  {
+   "id": "q5",
+   "q": "What is aslama?",
+   "options": [
+    "To fast",
+    "To submit, the origin of the meaning of Islam",
+    "To fight",
+    "To trade"
+   ],
+   "explain": "Abu Talib knew the truth but did not submit."
+  },
+  {
+   "id": "q6",
+   "q": "What is a \"soft spot\" in da'wah?",
+   "options": [
+    "A soft place to sleep",
+    "The name of a mountain",
+    "The name of a surah",
+    "A weak point, or what weighs most on a person's mind"
+   ],
+   "explain": "The Prophet SAW offered power to a leader who wanted it."
+  },
+  {
+   "id": "q7",
+   "q": "We should press new Muslims out of our excitement.",
+   "explain": "False. Our excitement can become excessive pressure on someone who is just crawling."
+  },
+  {
+   "id": "q8",
+   "q": "New Muslims are disappointed by religious people who are only black-and-white without understanding their situation.",
+   "explain": "True. Do not just hand down rulings."
+  },
+  {
+   "id": "q9",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Year of Sorrow"
+    },
+    {
+     "id": "b",
+     "text": "Jahiliyyah"
+    },
+    {
+     "id": "c",
+     "text": "New Muslim"
+    },
+    {
+     "id": "d",
+     "text": "Dar al-Arqam"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "One who has recently embraced Islam"
+    },
+    {
+     "id": "2",
+     "text": "The centre where the Prophet SAW taught new companions"
+    },
+    {
+     "id": "3",
+     "text": "The year of Abu Talib's and Khadijah's deaths and the Taif event"
+    },
+    {
+     "id": "4",
+     "text": "A way of life opposed to Islam"
+    }
+   ],
+   "explain": "The Year of Sorrow covered two deaths and Taif, jahiliyyah opposes Islam, a new Muslim has recently converted, and Dar al-Arqam was the centre of teaching."
+  },
+  {
+   "id": "q10",
+   "q": "We were born Muslim. What does this lecture advise about that blessing?",
+   "options": [
+    "Be proud without deeds",
+    "Judge new Muslims",
+    "Appreciate it, as we hardly realise how great it is",
+    "Take it for granted"
+   ],
+   "explain": "Value the blessing of being born in Islam."
+  }
+ ]
+}

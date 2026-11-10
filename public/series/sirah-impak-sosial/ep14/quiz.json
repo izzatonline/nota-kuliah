@@ -1,0 +1,254 @@
+{
+ "id": "ep14",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Mengapakah arak diberi nama karam pada zaman jahiliah?",
+   "options": [
+    "Kerana dikaitkan dengan kedermawanan",
+    "Kerana ia murah",
+    "Kerana ia dilarang",
+    "Kerana ia dari Yaman"
+   ],
+   "answer": 0,
+   "explain": "Perkara haram sering diberi nama yang kedengaran baik.",
+   "t": 988,
+   "source": "glossary:g5",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah maitah?",
+   "options": [
+    "Bangkai, binatang mati tanpa sembelihan",
+    "Berhala",
+    "Judi",
+    "Arak"
+   ],
+   "answer": 0,
+   "explain": "Ja'far menyebut kaumnya memakan bangkai. Ustaz menasihati kita mengawasi apa yang dimakan.",
+   "t": 653,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah jurucakap yang menjelaskan keadaan jahiliah kepada Najasyi?",
+   "options": [
+    "Zaid",
+    "Abu Bakar",
+    "Umar",
+    "Ja'far"
+   ],
+   "answer": 3,
+   "explain": "Ja'far merumuskan jahiliah kaumnya di hadapan Najasyi.",
+   "t": 513,
+   "source": "events:e1",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Di manakah Zaid bin Harithah dijual ketika kecil?",
+   "options": [
+    "Busra",
+    "Madinah",
+    "Ukaz",
+    "Taif"
+   ],
+   "answer": 2,
+   "explain": "Zaid ditawan perompak dan dijual dengan harga 400 dirham.",
+   "t": 2002,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Siapakah yang menghadiahkan Zaid kepada Nabi SAW?",
+   "options": [
+    "Abu Talib",
+    "Khadijah",
+    "Hamzah",
+    "Najasyi"
+   ],
+   "answer": 1,
+   "explain": "Khadijah menghadiahkan Zaid ketika perkahwinan.",
+   "t": 2190,
+   "source": "events:e3",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Mengapakah Zaid memilih kekal bersama Nabi SAW walaupun ayahnya datang?",
+   "options": [
+    "Kerana dipaksa",
+    "Kerana kasih sayang yang belum pernah dirasainya",
+    "Kerana dibayar",
+    "Kerana takut"
+   ],
+   "answer": 1,
+   "explain": "Kasih sayang membentuk pilihan Zaid.",
+   "t": 2598,
+   "source": "lessons:l11",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Apakah yang diubah oleh Al-Ahzab 33:5 tentang anak angkat?",
+   "options": [
+    "Mereka dinasabkan kepada penjaga",
+    "Mereka tidak boleh dijaga",
+    "Mereka menjadi hamba",
+    "Mereka dinasabkan kepada ayah kandung, bukan penjaga"
+   ],
+   "answer": 3,
+   "explain": "Zaid kembali dikenali sebagai Zaid bin Harithah.",
+   "t": 2795,
+   "source": "dalil:q33-5",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Jika akhlak seseorang masih tempang, kita perlu menyemak akidah dan ibadahnya.",
+   "answer": true,
+   "explain": "Betul. Akhlak ialah output Islam.",
+   "t": 229,
+   "source": "lessons:l1",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Najasyi terus menjatuhkan hukuman tanpa mendengar pembelaan.",
+   "answer": false,
+   "explain": "Salah. Najasyi mendengar tuduhan dan pembelaan dahulu.",
+   "t": 387,
+   "source": "lessons:l2",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Zaid memilih kekal"
+    },
+    {
+     "id": "b",
+     "text": "Zaid dihadiahkan kepada Nabi SAW"
+    },
+    {
+     "id": "c",
+     "text": "Zaid diisytihar anak di Kaabah"
+    },
+    {
+     "id": "d",
+     "text": "Zaid diculik dan dijual"
+    },
+    {
+     "id": "e",
+     "text": "Ayah Zaid menemui Nabi SAW"
+    }
+   ],
+   "answer": [
+    "d",
+    "b",
+    "e",
+    "a",
+    "c"
+   ],
+   "explain": "Zaid diculik, dihadiahkan, ayahnya datang, Zaid memilih kekal, lalu diisytiharkan anak di Kaabah.",
+   "t": 2002,
+   "source": "events:e2",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Jahiliah"
+    },
+    {
+     "id": "b",
+     "text": "Asnam"
+    },
+    {
+     "id": "c",
+     "text": "Silaturahim"
+    },
+    {
+     "id": "d",
+     "text": "Maisir"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Berhala"
+    },
+    {
+     "id": "2",
+     "text": "Judi"
+    },
+    {
+     "id": "3",
+     "text": "Hubungan kekeluargaan"
+    },
+    {
+     "id": "4",
+     "text": "Kejahilan dari segi ilmu dan emosi"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "1"
+    ],
+    [
+     "c",
+     "3"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Jahiliah ialah kejahilan, asnam berhala, silaturahim hubungan keluarga, dan maisir judi.",
+   "t": 520,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Hari ini, jawatan, kedudukan dan akaun bank boleh menjadi apa?",
+   "options": [
+    "Ibadah",
+    "Pelindung dari dosa",
+    "Berhala moden yang disembah",
+    "Perkara yang tidak berkesan"
+   ],
+   "answer": 2,
+   "explain": "Berhala tidak semestinya patung.",
+   "t": 636,
+   "source": "lessons:l3",
+   "level": 3
+  }
+ ]
+}

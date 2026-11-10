@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import { Bell, BellOff, BookOpen, ExternalLink, ListOrdered, History, Landmark, Languages, Lightbulb, Library, Network, ScrollText, Users, type LucideIcon } from 'lucide-react'
+import { Bell, BellOff, BookOpen, ExternalLink, ListOrdered, History, Landmark, Languages, Lightbulb, Library, Network, ScrollText, Trophy, Users, type LucideIcon } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { Separator } from '@/components/ui/separator'
 import { Skeleton } from '@/components/ui/skeleton'
+import { NotesSkeleton, PageSkeleton } from '@/components/loading'
 import { SidebarInset, SidebarProvider, SidebarTrigger, useSidebar } from '@/components/ui/sidebar'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { Breadcrumb, BreadcrumbItem, BreadcrumbList, BreadcrumbSeparator } from '@/components/ui/breadcrumb'
@@ -26,6 +27,7 @@ import { Toaster } from '@/components/ui/sonner'
 import { useMentionToasts, type Mention } from '@/components/mention-toasts'
 import { epPath, fmt, loadIndex, loadNotes, startEpisode, youtubeUrl } from '@/lib/data'
 import { getLast, getProgress, markVisited, saveTime } from '@/lib/progress'
+import { QuizCta } from '@/components/quiz/quiz-cta'
 import { useT, type Key } from '@/lib/i18n'
 import { useYouTube } from '@/lib/youtube'
 import { useIsMobile } from '@/hooks/use-mobile'
@@ -42,6 +44,7 @@ const TABS: { key: TabKey; Icon: LucideIcon; count?: (n: Notes) => number }[] = 
   { key: 'pengajaran', Icon: Lightbulb, count: (n) => n.lessons.length },
   { key: 'peta', Icon: Network },
   { key: 'istilah', Icon: Languages },
+  { key: 'kuiz', Icon: Trophy },
 ]
 
 /** On a short screen the sidebar starts as the narrow rail, so the lecture gets the width. */
@@ -81,7 +84,7 @@ export function SeriesPage() {
         </div>
       </div>
     )
-  if (!index) return <p className="p-8 text-muted-foreground">{t('loading')}</p>
+  if (!index) return <PageSkeleton />
 
   const episode = index.episodes.find((e) => e.id === epId)
   if (!epId) {
@@ -355,7 +358,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
               </div>
               <ScrollRow activeKey={tab} className={`mt-2 border-b ${bleed}`}>
                 <TabsList className="h-auto w-max min-w-full justify-start gap-1 rounded-none bg-transparent p-0">
-                  {TABS.map(({ key, Icon, count }) => (
+                  {TABS.filter(({ key }) => key !== 'kuiz' || episode.hasQuiz).map(({ key, Icon, count }) => (
                     <TabsTrigger
                       key={key}
                       value={key}
@@ -401,7 +404,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
               )}
               {lang === 'en' && notes && !notes.translated && <p className="mb-4 rounded-lg border border-gold/30 bg-gold-soft px-3 py-2 text-xs text-gold">{t('enNotice')}</p>}
               {error && <p className="text-sm text-destructive">{error}</p>}
-              {!notes && !error && <Skeleton className="h-64 w-full rounded-xl" />}
+              {!notes && !error && <NotesSkeleton />}
               {notes && (
                 <>
                   <TabsContent value="topik" className="mt-0"><TopicsTab notes={notes} /></TabsContent>
@@ -413,6 +416,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
                   <TabsContent value="pengajaran" className="mt-0"><LessonsTab notes={notes} /></TabsContent>
                   <TabsContent value="peta" className="mt-0"><MindMap root={notes.mindmap} /></TabsContent>
                   <TabsContent value="istilah" className="mt-0"><GlossaryTab notes={notes} /></TabsContent>
+                  {episode.hasQuiz && <TabsContent value="kuiz" className="mt-0"><QuizCta slug={slug} episodeId={episode.id} /></TabsContent>}
                 </>
               )}
               <p className="mt-10 border-t pt-4 text-xs leading-relaxed text-muted-foreground">{t('disclaimer')}</p>

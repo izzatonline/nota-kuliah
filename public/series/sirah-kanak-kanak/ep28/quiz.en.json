@@ -1,0 +1,155 @@
+{
+ "id": "ep28",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What happened when a group of jinn heard the Prophet SAW recite the Quran at Nakhlah?",
+   "options": [
+    "They believed and went back to preach to their people",
+    "They fled",
+    "They attacked",
+    "They ignored it"
+   ],
+   "explain": "The jinn listened in silence, believed, and preached to their people."
+  },
+  {
+   "id": "q2",
+   "q": "What does jiwar mean?",
+   "options": [
+    "Protection a leader gives to someone else",
+    "A trade agreement",
+    "A wedding gift",
+    "A declaration of war"
+   ],
+   "explain": "Mut'im gave the Prophet SAW jiwar so he could enter Makkah."
+  },
+  {
+   "id": "q3",
+   "q": "The first verse of which surah mentions the event of the Isra'?",
+   "options": [
+    "Al-Fil",
+    "Al-Isra'",
+    "Al-Alaq",
+    "Al-Qadr"
+   ],
+   "explain": "Al-Isra' 17:1 says Allah took His servant by night."
+  },
+  {
+   "id": "q4",
+   "q": "Where was the Prophet SAW taken on the night of the Isra'?",
+   "options": [
+    "Madinah",
+    "Bayt al-Maqdis",
+    "Taif",
+    "Abyssinia"
+   ],
+   "explain": "The Isra' was the Prophet's night journey from Makkah to Bayt al-Maqdis."
+  },
+  {
+   "id": "q5",
+   "q": "What is Sidrat al-Muntaha?",
+   "options": [
+    "A cave in Makkah",
+    "The name of his mount",
+    "An area beside the Kaaba",
+    "The highest station where the Prophet SAW met Allah"
+   ],
+   "explain": "Sidrat al-Muntaha is the highest station of the Mi'raj."
+  },
+  {
+   "id": "q6",
+   "q": "Why did Allah show the Prophet SAW the great realms after Taif?",
+   "options": [
+    "To tell him to stop",
+    "No reason",
+    "To strengthen His Messenger's heart after the sorrow",
+    "To punish Makkah"
+   ],
+   "explain": "After the sorrow of Taif, Allah strengthened His Messenger's heart."
+  },
+  {
+   "id": "q7",
+   "q": "What did the Prophet SAW do in remembrance of Mut'im's favour?",
+   "options": [
+    "Forgot him",
+    "Was ready to free the Badr captives for his sake",
+    "Gave him wealth",
+    "Drove him away"
+   ],
+   "explain": "The Prophet SAW valued people's favours even if they were not Muslim."
+  },
+  {
+   "id": "q8",
+   "q": "What did the jinn admire about the Quran?",
+   "options": [
+    "The colour of its writing",
+    "The thickness of the book",
+    "Its price",
+    "Its language, melody and meaning"
+   ],
+   "explain": "The jinn marvelled at the beauty of the Quran."
+  },
+  {
+   "id": "q9",
+   "q": "The event of Isra' Mi'raj is easily understood by logic alone.",
+   "explain": "False. It is hard for logic to grasp, but Allah told of it, so we believe."
+  },
+  {
+   "id": "q10",
+   "q": "We may joke around while the Quran is being recited.",
+   "explain": "False. Even the jinn listened in silence. We should be quiet and respect the recitation."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Jiwar"
+    },
+    {
+     "id": "b",
+     "text": "Isra'"
+    },
+    {
+     "id": "c",
+     "text": "Mi'raj"
+    },
+    {
+     "id": "d",
+     "text": "Hijr Ismail"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The Prophet's ascent to the heavens"
+    },
+    {
+     "id": "2",
+     "text": "The night journey from Makkah to Bayt al-Maqdis"
+    },
+    {
+     "id": "3",
+     "text": "The semicircular area beside the Kaaba"
+    },
+    {
+     "id": "4",
+     "text": "Protection granted by a leader"
+    }
+   ],
+   "explain": "Jiwar is protection, the Isra' is the night journey to Bayt al-Maqdis, the Mi'raj is the ascent to the heavens, and Hijr Ismail is the area beside the Kaaba."
+  },
+  {
+   "id": "q12",
+   "q": "Al-Aqsa Mosque is a blessed place. What should we do for it?",
+   "options": [
+    "Forget it",
+    "Pray for the liberation of Bayt al-Maqdis and Gaza",
+    "Blame others",
+    "Not care"
+   ],
+   "explain": "We pray for the liberation of Bayt al-Maqdis and Gaza."
+  }
+ ]
+}

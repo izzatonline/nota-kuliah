@@ -1,0 +1,133 @@
+{
+ "id": "ep14",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Laylatul Qadr is better than how many months?",
+   "options": [
+    "A hundred months",
+    "A thousand months",
+    "Ten thousand months",
+    "A thousand days"
+   ],
+   "explain": "Surah Al-Qadr says that night is better than a thousand months."
+  },
+  {
+   "id": "q2",
+   "q": "Worship on Laylatul Qadr equals more than how many years?",
+   "options": [
+    "33 years",
+    "63 years",
+    "83 years",
+    "103 years"
+   ],
+   "explain": "A thousand months is more than 83 years."
+  },
+  {
+   "id": "q3",
+   "q": "Who is Ar-Ruh who descends with the angels that night?",
+   "options": [
+    "Mikail",
+    "Israfil",
+    "Jibril AS",
+    "Prophet Isa AS"
+   ],
+   "explain": "Ar-Ruh is Jibril AS, who descends with the angels."
+  },
+  {
+   "id": "q4",
+   "q": "Who threatened to stamp on the Prophet's SAW neck while he was prostrating?",
+   "options": [
+    "Abu Talib",
+    "Abu Jahal",
+    "Abraha",
+    "Al-Walid"
+   ],
+   "explain": "Abu Jahal threatened but backed away in fear."
+  },
+  {
+   "id": "q5",
+   "q": "Why did Abu Jahal back away?",
+   "options": [
+    "Because he saw fire and wings coming to protect him",
+    "Because Abu Talib arrived",
+    "Because it began to rain",
+    "Because Khadijah called him"
+   ],
+   "explain": "Jibril came to protect the Prophet SAW until Abu Jahal backed off."
+  },
+  {
+   "id": "q6",
+   "q": "What does Allah condemn in people like Abu Jahal?",
+   "options": [
+    "Trading in Makkah",
+    "Forbidding a servant from praying",
+    "Hiding wealth",
+    "Walking in the market"
+   ],
+   "explain": "Allah condemns those who stop His servant from praying. We must not prevent people from worshipping."
+  },
+  {
+   "id": "q7",
+   "q": "The angels and Ar-Ruh descend on Laylatul Qadr by their Lord's permission.",
+   "explain": "True. Surah Al-Qadr says the angels and Ar-Ruh descend that night."
+  },
+  {
+   "id": "q8",
+   "q": "The world is a place to stay forever.",
+   "explain": "False. The world is only a temporary stop for tests before we return to Allah."
+  },
+  {
+   "id": "q9",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Laylatul Qadr"
+    },
+    {
+     "id": "b",
+     "text": "Karim"
+    },
+    {
+     "id": "c",
+     "text": "Ar-Rahman Ar-Rahim"
+    },
+    {
+     "id": "d",
+     "text": "Sentosa"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The Most Compassionate, the Most Merciful"
+    },
+    {
+     "id": "2",
+     "text": "Peaceful and safe"
+    },
+    {
+     "id": "3",
+     "text": "Generous, who loves to give much"
+    },
+    {
+     "id": "4",
+     "text": "The night better than a thousand months"
+    }
+   ],
+   "explain": "Laylatul Qadr is the night better than a thousand months, karim means generous, Ar-Rahman Ar-Rahim means Most Compassionate and Merciful, and sentosa means peaceful."
+  },
+  {
+   "id": "q10",
+   "q": "When someone feels they have enough wealth and power, what danger may follow?",
+   "options": [
+    "They easily wrong others and overstep limits",
+    "They become more humble",
+    "They automatically become more grateful",
+    "No danger at all"
+   ],
+   "explain": "People who feel they have enough wealth and power easily wrong others."
+  }
+ ]
+}

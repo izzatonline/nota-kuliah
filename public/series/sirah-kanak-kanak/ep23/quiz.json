@@ -1,0 +1,254 @@
+{
+ "id": "ep23",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah gelaran Hamzah kerana kekuatan dan keberaniannya?",
+   "options": [
+    "Pedang Allah",
+    "Singa Allah",
+    "Al-Faruq",
+    "Al-Amin"
+   ],
+   "answer": 1,
+   "explain": "Hamzah, pemburu yang kuat, digelar Singa Allah.",
+   "t": 1325,
+   "source": "glossary:g4",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah yang dibaling Abu Jahal kepada Nabi SAW di Bukit Safa?",
+   "options": [
+    "Batu",
+    "Kotoran",
+    "Air",
+    "Pasir"
+   ],
+   "answer": 1,
+   "explain": "Abu Jahal menghina dan membaling kotoran kepada baginda.",
+   "t": 1032,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah yang menceritakan kepada Hamzah apa yang berlaku kepada Nabi SAW?",
+   "options": [
+    "Abu Talib",
+    "Hamba perempuan Abdullah bin Jud'an",
+    "Khadijah",
+    "Najasyi"
+   ],
+   "answer": 1,
+   "explain": "Hamba perempuan itu menyaksikan kejadian dan memberitahu Hamzah.",
+   "t": 1395,
+   "source": "events:e1",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Dengan apakah Hamzah memukul Abu Jahal?",
+   "options": [
+    "Pedang",
+    "Busurnya",
+    "Tongkat",
+    "Batu"
+   ],
+   "answer": 1,
+   "explain": "Hamzah memukul muka Abu Jahal dengan busurnya sehingga berdarah.",
+   "t": 1586,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah yang Hamzah doakan semalaman selepas itu?",
+   "options": [
+    "Agar dimudahkan memeluk agama itu jika ia benar",
+    "Agar Abu Jahal sembuh",
+    "Agar dia menjadi kaya",
+    "Agar dia berpindah ke Syam"
+   ],
+   "answer": 0,
+   "explain": "Hamzah berdoa memohon petunjuk dan keesokan harinya mengucap syahadah.",
+   "t": 1912,
+   "source": "lessons:l3",
+   "level": 2
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Mengapakah Hamzah berkata dia atas agama Muhammad?",
+   "options": [
+    "Kerana mahu melindungi anak saudaranya",
+    "Kerana takut kepada Abu Jahal",
+    "Kerana dibayar",
+    "Kerana disuruh Umar"
+   ],
+   "answer": 0,
+   "explain": "Orang Arab malu menarik balik kata-kata, dan itu menggerakkan Hamzah berfikir.",
+   "t": 1649,
+   "source": "events:e3",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Berapa surah yang dihafal Zaid bin Thabit pada usia 10 tahun?",
+   "options": [
+    "Tujuh",
+    "Tiga puluh",
+    "Seratus",
+    "Tujuh belas"
+   ],
+   "answer": 3,
+   "explain": "Mus'ab mengajar 17 surah kepada Zaid yang cepat belajar bahasa lain juga.",
+   "t": 684,
+   "source": "people:p6",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Hamzah menjadi Muslim di hadapan Nabi SAW pada keesokan harinya.",
+   "answer": true,
+   "explain": "Betul. Hati Hamzah tenang apabila Nabi SAW membacakan ayat Quran.",
+   "t": 1936,
+   "source": "events:e5",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Kita patut meninggalkan bahasa Melayu dan panggilan keluarga kita.",
+   "answer": false,
+   "explain": "Salah. Kita belajar bahasa lain tetapi tidak meninggalkan bahasa sendiri.",
+   "t": 786,
+   "source": "lessons:l6",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Hamzah memeluk Islam"
+    },
+    {
+     "id": "b",
+     "text": "Hamzah memukul Abu Jahal"
+    },
+    {
+     "id": "c",
+     "text": "Abu Jahal membaling kotoran"
+    },
+    {
+     "id": "d",
+     "text": "Hamzah berdoa memohon petunjuk"
+    },
+    {
+     "id": "e",
+     "text": "Hamzah diberitahu oleh hamba perempuan"
+    }
+   ],
+   "answer": [
+    "c",
+    "e",
+    "b",
+    "d",
+    "a"
+   ],
+   "explain": "Abu Jahal menghina, Hamzah diberitahu, memukul Abu Jahal, berdoa, lalu memeluk Islam.",
+   "t": 1032,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Pemburu"
+    },
+    {
+     "id": "b",
+     "text": "Lingua franca"
+    },
+    {
+     "id": "c",
+     "text": "Singa Allah"
+    },
+    {
+     "id": "d",
+     "text": "Ya Ammi"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Bahasa perantaraan pedagang pelbagai bangsa"
+    },
+    {
+     "id": "2",
+     "text": "Wahai bapa saudaraku sebelah ayah"
+    },
+    {
+     "id": "3",
+     "text": "Orang yang memburu binatang"
+    },
+    {
+     "id": "4",
+     "text": "Gelaran Hamzah"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "1"
+    ],
+    [
+     "c",
+     "4"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Pemburu memburu binatang, lingua franca bahasa perantaraan, Singa Allah gelaran Hamzah, dan Ya Ammi bermaksud wahai bapa saudaraku.",
+   "t": 2,
+   "source": "glossary:g5",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Ahli keluarga anda dihina orang. Apakah teladan daripada Hamzah?",
+   "options": [
+    "Berdiam diri",
+    "Berani membela keluarga yang dihina",
+    "Menyertai penghinaan",
+    "Berpura-pura tidak tahu"
+   ],
+   "answer": 1,
+   "explain": "Hamzah marah dan membela anak saudaranya yang dihina.",
+   "t": 1675,
+   "source": "lessons:l1",
+   "level": 3
+  }
+ ]
+}

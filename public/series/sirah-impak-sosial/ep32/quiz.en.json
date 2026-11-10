@@ -1,0 +1,149 @@
+{
+ "id": "ep32",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What was the reverse psychology Hisham used?",
+   "options": [
+    "Making Zuhayr feel guilty by contrasting his comfort with the besieged relatives",
+    "Threatening Zuhayr",
+    "Offering money",
+    "Staying silent"
+   ],
+   "explain": "Hisham built an argument and assembled a front."
+  },
+  {
+   "id": "q2",
+   "q": "Why did Hakim bin Hizam send food although not yet a Muslim?",
+   "options": [
+    "He did good even before being Muslim, though he was threatened",
+    "Because he was paid",
+    "Because he feared Abu Jahal",
+    "Because he was already Muslim"
+   ],
+   "explain": "Hakim sent food despite threats."
+  },
+  {
+   "id": "q3",
+   "q": "What is meant by having the courage to be the first?",
+   "options": [
+    "Waiting for others",
+    "Avoiding risk",
+    "Ordering people around",
+    "Change begins with one stubborn person who finds a way and persuades others"
+   ],
+   "explain": "Zuhayr, Hisham and others started it."
+  },
+  {
+   "id": "q4",
+   "q": "What was Abu Jahal's title in Makkah because of his cleverness?",
+   "options": [
+    "Al-Faruq",
+    "As-Sadiq",
+    "Abul Hakam",
+    "Al-Amin"
+   ],
+   "explain": "Abul Hakam was Abu Jahal's title."
+  },
+  {
+   "id": "q5",
+   "q": "How did the sacred month help the Prophet SAW?",
+   "options": [
+    "He migrated",
+    "Killing was forbidden, so he could go out and meet people",
+    "Markets were closed",
+    "No one was in Makkah"
+   ],
+   "explain": "The sacred month was a season of safety."
+  },
+  {
+   "id": "q6",
+   "q": "Non-Muslims also endured because of tribal ties and principles of justice.",
+   "explain": "True. Solidarity across religions."
+  },
+  {
+   "id": "q7",
+   "q": "Hisham just raged at Abu Jahal with no strategy.",
+   "explain": "False. Hisham organised arguments and built a line."
+  },
+  {
+   "id": "q8",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The document is torn up"
+    },
+    {
+     "id": "b",
+     "text": "Termites eat the agreement"
+    },
+    {
+     "id": "c",
+     "text": "Gathering in Shi'b Abi Talib"
+    },
+    {
+     "id": "d",
+     "text": "Rising at the Kaaba against the agreement"
+    },
+    {
+     "id": "e",
+     "text": "The boycott is hung in the Kaaba"
+    }
+   ],
+   "explain": "They gathered in the Shi'b, the boycott was hung, opponents rose, termites ate it and the document was torn up."
+  },
+  {
+   "id": "q9",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Boycott"
+    },
+    {
+     "id": "b",
+     "text": "Shi'b Abi Talib"
+    },
+    {
+     "id": "c",
+     "text": "Collaborator"
+    },
+    {
+     "id": "d",
+     "text": "Enemy within"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A traitor who collaborates with the enemy"
+    },
+    {
+     "id": "2",
+     "text": "An insider who ruins unity"
+    },
+    {
+     "id": "3",
+     "text": "A total economic and social blockade"
+    },
+    {
+     "id": "4",
+     "text": "Abu Talib's valley squeezed between mountains"
+    }
+   ],
+   "explain": "The boycott is a total blockade, the shi'b is a valley, a collaborator is a traitor, and an enemy within ruins unity from inside."
+  },
+  {
+   "id": "q10",
+   "q": "Without pressure we easily forget the big picture and quarrel over small things. What is the danger?",
+   "options": [
+    "Being too poor",
+    "Being too busy",
+    "Being too sad",
+    "The danger of being too comfortable"
+   ],
+   "explain": "Be mindful on seeing others' trials."
+  }
+ ]
+}

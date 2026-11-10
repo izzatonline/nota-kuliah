@@ -1,0 +1,144 @@
+{
+ "id": "ep41",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What is Sidrat al-Muntaha?",
+   "options": [
+    "The lote tree at the border of the seventh heaven, a limit angels cannot pass",
+    "A cave",
+    "A market",
+    "A mountain"
+   ],
+   "explain": "Jibril stopped here and the Prophet SAW passed beyond."
+  },
+  {
+   "id": "q2",
+   "q": "Who is Kalimullah?",
+   "options": [
+    "Prophet Musa AS, who spoke directly with Allah",
+    "Prophet Isa AS",
+    "Prophet Nuh AS",
+    "Prophet Adam AS"
+   ],
+   "explain": "A title of Prophet Musa AS."
+  },
+  {
+   "id": "q3",
+   "q": "What was the mercy of Allah in the number of prayers?",
+   "options": [
+    "Fifty prayers",
+    "One prayer",
+    "No prayers",
+    "Five prayers with the reward of fifty"
+   ],
+   "explain": "Minimum time with maximum reward."
+  },
+  {
+   "id": "q4",
+   "q": "What is prayer likened to in the religion?",
+   "options": [
+    "An option",
+    "A gift",
+    "The pillar that holds up the religion",
+    "A decoration"
+   ],
+   "explain": "Without a pole, a tent is only cloth."
+  },
+  {
+   "id": "q5",
+   "q": "What does Luqman 31:34 stress about the Prophet's SAW knowledge?",
+   "options": [
+    "He received no revelation",
+    "He did not know the unseen except what was revealed",
+    "He knew all of the unseen",
+    "He knew tomorrow"
+   ],
+   "explain": "So claims to know what happens tomorrow are untrue."
+  },
+  {
+   "id": "q6",
+   "q": "What does Al-Maidah 5:67 stress about revelation?",
+   "options": [
+    "He concealed part of it",
+    "Only for certain companions",
+    "It is secret",
+    "The Prophet SAW conveyed all of it without concealing"
+   ],
+   "explain": "Beware of groups claiming secret rituals."
+  },
+  {
+   "id": "q7",
+   "q": "Why do we pray according to Taa-Haa 20:14?",
+   "options": [
+    "To be praised",
+    "To win",
+    "To remember Allah",
+    "To rest"
+   ],
+   "explain": "Prayer is to remember Allah because we forget easily."
+  },
+  {
+   "id": "q8",
+   "q": "Our conduct can belie the Prophet's SAW message even if our tongues do not lie.",
+   "explain": "True. Be careful with our conduct."
+  },
+  {
+   "id": "q9",
+   "q": "Prayer should be where we raise ourselves above others.",
+   "explain": "False. Prayer is where we bow; do not leave the mosque more arrogant."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Valid disagreement"
+    },
+    {
+     "id": "b",
+     "text": "Muttafaq 'alayh"
+    },
+    {
+     "id": "c",
+     "text": "Achievement society"
+    },
+    {
+     "id": "d",
+     "text": "Ni'mal 'abd"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The best of servants"
+    },
+    {
+     "id": "2",
+     "text": "A hadith narrated by Bukhari and Muslim"
+    },
+    {
+     "id": "3",
+     "text": "An accepted difference of scholarly opinion"
+    },
+    {
+     "id": "4",
+     "text": "A society that measures a life's worth by achievement"
+    }
+   ],
+   "explain": "Valid disagreement is an accepted difference, muttafaq 'alayh is narrated by Bukhari and Muslim, an achievement society measures by achievement, and ni'mal 'abd means the best of servants."
+  },
+  {
+   "id": "q11",
+   "q": "Prayer that has become habit without meaning loses its effect. What does the ustaz advise?",
+   "options": [
+    "Delay prayer",
+    "Revive prayer so it does not become autopilot",
+    "Abandon prayer",
+    "Shorten prayer"
+   ],
+   "explain": "Meaningful prayer refreshes the soul."
+  }
+ ]
+}

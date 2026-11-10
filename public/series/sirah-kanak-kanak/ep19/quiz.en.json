@@ -1,0 +1,177 @@
+{
+ "id": "ep19",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Who was the master of Bilal bin Rabah who tortured him?",
+   "options": [
+    "Umayyah bin Khalaf",
+    "Abu Bakr",
+    "Abu Quhafah",
+    "Abul Hakam"
+   ],
+   "explain": "Umayyah, a millionaire, tortured Bilal because he was ashamed his slave had embraced Islam."
+  },
+  {
+   "id": "q2",
+   "q": "What did Bilal keep saying while being tortured, and what does it mean?",
+   "options": [
+    "Rabb, Lord",
+    "Ahad, One",
+    "Salam, Peace",
+    "Sabr, Patience"
+   ],
+   "explain": "Bilal kept saying Ahad, Allah is One, even when whipped in the street."
+  },
+  {
+   "id": "q3",
+   "q": "Who bought and freed Bilal?",
+   "options": [
+    "Abu Bakr As-Siddiq",
+    "Umar",
+    "The Prophet SAW himself",
+    "Khabbab"
+   ],
+   "explain": "Abu Bakr paid a high price to free Bilal."
+  },
+  {
+   "id": "q4",
+   "q": "What happened to Zinnirah after she said that only Allah has power?",
+   "options": [
+    "She was punished again",
+    "She left Islam",
+    "She moved to Sham",
+    "Allah restored her sight"
+   ],
+   "explain": "Zinnirah was beaten until she was blind, then Allah restored her sight."
+  },
+  {
+   "id": "q5",
+   "q": "What was the job of Khabbab, who was tortured with hot iron?",
+   "options": [
+    "Shepherd",
+    "Merchant",
+    "Blacksmith",
+    "Carpenter"
+   ],
+   "explain": "Khabbab was a blacksmith tortured with hot iron on his back."
+  },
+  {
+   "id": "q6",
+   "q": "Who was the first martyr in Islam?",
+   "options": [
+    "Yasir",
+    "Sumayyah",
+    "Zinnirah",
+    "Ammar"
+   ],
+   "explain": "Sumayyah was stabbed by Abu Jahal and became the first martyr."
+  },
+  {
+   "id": "q7",
+   "q": "What concession is there for someone forced to utter words of disbelief?",
+   "options": [
+    "It is allowed as a joke",
+    "It is allowed if paid",
+    "It is allowed if his heart stays firm in faith",
+    "It is never allowed"
+   ],
+   "explain": "Like Ammar, who was forced but whose heart stayed firm. Allah gives a concession."
+  },
+  {
+   "id": "q8",
+   "q": "What title did the Prophet SAW give Abu Jahal?",
+   "options": [
+    "Father of wisdom",
+    "The Pharaoh of this nation",
+    "Al-Amin",
+    "Sword of Allah"
+   ],
+   "explain": "The Arabs called him Abul Hakam, but the Prophet SAW called him the Pharaoh of this nation."
+  },
+  {
+   "id": "q9",
+   "q": "Abu Bakr used his wealth to buy luxury goods.",
+   "explain": "False. He used his wealth to help and free those being tortured."
+  },
+  {
+   "id": "q10",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Sumayyah is martyred"
+    },
+    {
+     "id": "b",
+     "text": "Bilal secretly embraces Islam"
+    },
+    {
+     "id": "c",
+     "text": "Ammar is forced to utter disbelief"
+    },
+    {
+     "id": "d",
+     "text": "Abu Bakr buys Bilal"
+    },
+    {
+     "id": "e",
+     "text": "Bilal is whipped in the street"
+    }
+   ],
+   "explain": "Bilal embraced Islam, was whipped, bought by Abu Bakr, then Sumayyah was martyred and Ammar was forced."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Ahad"
+    },
+    {
+     "id": "b",
+     "text": "Shahid"
+    },
+    {
+     "id": "c",
+     "text": "Slave"
+    },
+    {
+     "id": "d",
+     "text": "Abul Hakam"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A person owned by a master and not paid"
+    },
+    {
+     "id": "2",
+     "text": "Father of wisdom"
+    },
+    {
+     "id": "3",
+     "text": "One who dies defending the faith"
+    },
+    {
+     "id": "4",
+     "text": "One"
+    }
+   ],
+   "explain": "Ahad means one, a shahid dies defending the faith, a slave is owned by a master, and Abul Hakam means father of wisdom."
+  },
+  {
+   "id": "q12",
+   "q": "We easily say la ilaha illallah today. What is the right attitude?",
+   "options": [
+    "Blame the times",
+    "Be grateful, because the early generation sacrificed",
+    "Take it for granted",
+    "Not care"
+   ],
+   "explain": "The early generation sacrificed so we could say the shahada easily."
+  }
+ ]
+}

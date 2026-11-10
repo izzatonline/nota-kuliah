@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type PointerEvent as ReactPointerEvent } from 'react'
 import * as Dialog from '@radix-ui/react-dialog'
 import { Check, ChevronLeft, ChevronRight, Milestone, X } from 'lucide-react'
+import { PanelLoading } from '@/components/loading'
 import { getProgress } from '@/lib/progress'
 import { useT } from '@/lib/i18n'
 import { cn } from '@/lib/utils'
@@ -207,7 +208,7 @@ export function TimelineDialog({ index, activeId, onSelect, onClose }: { index: 
 
           <div className="relative min-h-0 flex-1">
             {failed && <p className="p-8 text-center text-sm text-destructive">{t('notFound')}</p>}
-            {!failed && !model && <p className="p-8 text-center text-sm text-muted-foreground">{t('loading')}</p>}
+            {!failed && !model && <PanelLoading className="h-full min-h-64" />}
             {data && model && (
               <>
                 <div

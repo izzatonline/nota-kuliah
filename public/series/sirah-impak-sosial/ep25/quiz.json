@@ -1,0 +1,179 @@
+{
+ "id": "ep25",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Amalan manakah yang paling dicintai Allah menurut pembukaan kuliah ini?",
+   "options": [
+    "Yang berterusan walaupun sedikit",
+    "Yang banyak tetapi sekali sahaja",
+    "Yang dilakukan hanya di bulan Ramadan",
+    "Yang dipamerkan"
+   ],
+   "answer": 0,
+   "explain": "Konsisten lebih baik daripada banyak.",
+   "t": 187,
+   "source": "lessons:l1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Puasa manakah yang paling afdal selepas Ramadan?",
+   "options": [
+    "Puasa Muharram",
+    "Puasa Rejab sahaja",
+    "Puasa Syawal sahaja",
+    "Tiada"
+   ],
+   "answer": 0,
+   "explain": "Puasa Muharram paling afdal selepas Ramadan, termasuk Asyura.",
+   "t": 598,
+   "source": "lessons:l3",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah yang dibuktikan oleh teguran Allah kepada Nabi SAW dalam wahyu?",
+   "options": [
+    "Baginda lemah",
+    "Quran dikarang manusia",
+    "Tiada apa-apa",
+    "Kejujuran Nabi SAW kerana baginda tidak menyembunyikan ayat itu"
+   ],
+   "answer": 3,
+   "explain": "Nabi SAW menyampaikan ayat yang menegur dirinya.",
+   "t": 1376,
+   "source": "lessons:l4",
+   "level": 2
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Bagaimanakah sikap terhadap ibu bapa yang berbeza agama?",
+   "options": [
+    "Taat dalam segala hal",
+    "Memutuskan hubungan",
+    "Jangan taat dalam syirik tetapi terus bergaul baik",
+    "Tinggalkan mereka"
+   ],
+   "answer": 2,
+   "explain": "Berbuat baik kepada ibu bapa walaupun berbeza agama.",
+   "t": 1815,
+   "source": "lessons:l5",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah kaedah yang terpakai dalam semua keadaan termasuk rumah tangga?",
+   "options": [
+    "Ikut majoriti",
+    "Tiada ketaatan kepada makhluk dalam maksiat kepada Pencipta",
+    "Taat tanpa soal",
+    "Tidak taat sama sekali"
+   ],
+   "answer": 1,
+   "explain": "Kaedah ini terpakai dalam rumah tangga juga.",
+   "t": 1970,
+   "source": "lessons:l6",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Mengapakah Umar membezakan gaji kepada mereka yang terawal memeluk Islam?",
+   "options": [
+    "Kerana mereka kaya",
+    "Kerana mereka tua",
+    "Kerana mereka kerabat",
+    "Kerana mereka awal berkorban dan diberi penghormatan"
+   ],
+   "answer": 3,
+   "explain": "Mereka yang awal berkorban diberi penghormatan.",
+   "t": 2208,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Apakah kesan larangan terhadap mesej kebenaran?",
+   "options": [
+    "Tiada kesan",
+    "Ia menjadikan semua setuju",
+    "Ia sering menaikkan semangat dan perhatian terhadap mesej",
+    "Ia membunuh mesej itu"
+   ],
+   "answer": 2,
+   "explain": "Larangan tidak menghalang kebenaran.",
+   "t": 2967,
+   "source": "lessons:l8",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "mcq",
+   "q": "Apakah benteng daripada cemuhan terhadap Nabi SAW?",
+   "options": [
+    "Menyebarkan propaganda",
+    "Mulakan dengan sirah, mengenali karakter baginda",
+    "Mengelak membaca",
+    "Membalas dengan marah"
+   ],
+   "answer": 1,
+   "explain": "Mengenali karakter Nabi SAW menjadi benteng.",
+   "t": 4365,
+   "source": "lessons:l10",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "mcq",
+   "q": "Siapakah yang patut kita risaukan kemunafikannya menurut teladan Umar?",
+   "options": [
+    "Jiran kita",
+    "Semua orang lain",
+    "Tiada siapa",
+    "Diri sendiri"
+   ],
+   "answer": 3,
+   "explain": "Jangan menuding munafik; Umar bimbangkan dirinya.",
+   "t": 4761,
+   "source": "lessons:l11",
+   "level": 3
+  },
+  {
+   "id": "q10",
+   "type": "tf",
+   "q": "Mengurangkan komitmen dan fokus pada kualiti bertentangan dengan budaya produktiviti berlebihan.",
+   "answer": true,
+   "explain": "Betul. Kurangkan komitmen, fokus kualiti.",
+   "t": 246,
+   "source": "lessons:l2",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "tf",
+   "q": "Menikmati rezeki bermakna kita boleh lalai tanpa muhasabah.",
+   "answer": false,
+   "explain": "Salah. Sahabat bimbang nikmat dunia mengurangkan pahala; kita menikmati rezeki tetapi tidak lalai.",
+   "t": 4931,
+   "source": "lessons:l12",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "tf",
+   "q": "Memaparkan ayat di luar konteks ialah taktik yang sama seperti Quraish mengalihkan perhatian.",
+   "answer": true,
+   "explain": "Betul. Awasi propaganda.",
+   "t": 3480,
+   "source": "lessons:l9",
+   "level": 2
+  }
+ ]
+}

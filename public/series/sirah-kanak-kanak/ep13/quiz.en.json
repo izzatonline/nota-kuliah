@@ -1,0 +1,163 @@
+{
+ "id": "ep13",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "How many surahs are there in the Quran?",
+   "options": [
+    "30",
+    "99",
+    "114",
+    "124"
+   ],
+   "explain": "The Quran has thirty juz and one hundred and fourteen surahs."
+  },
+  {
+   "id": "q2",
+   "q": "Over how many years was the Quran revealed?",
+   "options": [
+    "13 years",
+    "23 years",
+    "40 years",
+    "10 years"
+   ],
+   "explain": "The Quran was revealed in Arabic over 23 years."
+  },
+  {
+   "id": "q3",
+   "q": "Who collected the Quran after the Prophet SAW died?",
+   "options": [
+    "Abu Bakr As-Siddiq",
+    "Jibril AS",
+    "Prophet Musa AS",
+    "Prophet Idris AS"
+   ],
+   "explain": "Abu Bakr, the first caliph, collected the Quran after the Prophet SAW died."
+  },
+  {
+   "id": "q4",
+   "q": "What does ummi mean?",
+   "options": [
+    "Skilled at writing",
+    "Unable to read and write",
+    "Skilled at trading",
+    "Skilled at poetry"
+   ],
+   "explain": "Ummi means unable to read and write, like a newborn baby."
+  },
+  {
+   "id": "q5",
+   "q": "What does alaq mean?",
+   "options": [
+    "A clot that clings in the womb",
+    "Clay",
+    "Fluid",
+    "Bone"
+   ],
+   "explain": "Alaq is a clot of blood clinging in the womb, like a leech."
+  },
+  {
+   "id": "q6",
+   "q": "What does Rabb mean?",
+   "options": [
+    "A ruling king",
+    "The Lord who creates, owns and sustains",
+    "A guardian angel",
+    "A sent prophet"
+   ],
+   "explain": "Rabb is the Lord who creates and keeps caring for His servant until death."
+  },
+  {
+   "id": "q7",
+   "q": "Which prophet was the first to write, taught by Allah with the pen?",
+   "options": [
+    "Prophet Musa AS",
+    "Prophet Ibrahim AS",
+    "Prophet Idris AS",
+    "Prophet Adam AS"
+   ],
+   "explain": "Prophet Idris was taught by Allah to write with the pen."
+  },
+  {
+   "id": "q8",
+   "q": "How many embraces did Jibril give before delivering the first five verses of Al-Alaq?",
+   "options": [
+    "Once",
+    "Twice",
+    "Three times",
+    "Seven times"
+   ],
+   "explain": "On the third time Jibril delivered the first verses of Al-Alaq."
+  },
+  {
+   "id": "q9",
+   "q": "Nobody can change a letter, word or surah in the Quran, because Allah preserves it.",
+   "explain": "True. The Quran is protected by Allah."
+  },
+  {
+   "id": "q10",
+   "q": "We may stop learning once we are old.",
+   "explain": "False. The fifth verse of Al-Alaq teaches us to learn throughout life."
+  },
+  {
+   "id": "q11",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The first five verses of Al-Alaq are delivered"
+    },
+    {
+     "id": "b",
+     "text": "True dreams begin"
+    },
+    {
+     "id": "c",
+     "text": "Jibril embraces him"
+    }
+   ],
+   "explain": "True dreams began, Jibril embraced him, and then the first verses were delivered."
+  },
+  {
+   "id": "q12",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Juz"
+    },
+    {
+     "id": "b",
+     "text": "Basmalah"
+    },
+    {
+     "id": "c",
+     "text": "Iqra'"
+    },
+    {
+     "id": "d",
+     "text": "Alaq"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Read, gathering letters into words and verses"
+    },
+    {
+     "id": "2",
+     "text": "One of the 30 parts of the Quran"
+    },
+    {
+     "id": "3",
+     "text": "A clinging clot"
+    },
+    {
+     "id": "4",
+     "text": "Bismillahir-rahmanir-rahim"
+    }
+   ],
+   "explain": "A juz is one of 30 parts, the basmalah is the Bismillah, iqra' means read, and alaq is a clinging clot."
+  }
+ ]
+}

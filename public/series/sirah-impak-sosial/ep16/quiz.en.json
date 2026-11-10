@@ -1,0 +1,160 @@
+{
+ "id": "ep16",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "Money from which sources did Quraysh reject for building the Kaaba?",
+   "options": [
+    "Prostitution, gambling, usury and theft",
+    "Lawful trade",
+    "Charity",
+    "Farm produce"
+   ],
+   "explain": "Quraysh refused unlawful funds. Rebuilding needs pure funds."
+  },
+  {
+   "id": "q2",
+   "q": "What was bought from the Roman ship stranded at Jeddah?",
+   "options": [
+    "Stone, timber and the architect Bakum",
+    "Weapons",
+    "Slaves",
+    "Idols"
+   ],
+   "explain": "A ship meant for a church was stranded and its materials were used for the Kaaba."
+  },
+  {
+   "id": "q3",
+   "q": "Why was the demolition finally started by Al-Walid?",
+   "options": [
+    "Because Abu Talib told him to",
+    "Because of another flood",
+    "Because of war",
+    "After no punishment came that night"
+   ],
+   "explain": "Others waited a day before continuing."
+  },
+  {
+   "id": "q4",
+   "q": "What changes were made to the form of the Kaaba after Quraysh rebuilt it?",
+   "options": [
+    "Moved to Taif",
+    "Decorated with new idols",
+    "It was made smaller, given a roof and its door raised",
+    "Enlarged without a roof"
+   ],
+   "explain": "Hijr Ismail was set aside, the Kaaba was roofed and its door raised."
+  },
+  {
+   "id": "q5",
+   "q": "What is the Multazam?",
+   "options": [
+    "The name of an architect",
+    "The area between the Black Stone and the Kaaba door, a place where prayer is answered",
+    "An idol",
+    "A market in Makkah"
+   ],
+   "explain": "The Multazam is a place of answered prayer."
+  },
+  {
+   "id": "q6",
+   "q": "What does the ustaz advise about kissing the Black Stone?",
+   "options": [
+    "Push until you reach it",
+    "It may be worshipped",
+    "Do not look at it",
+    "No need to push or hurt others; one may point with the hand"
+   ],
+   "explain": "The Black Stone is only a stone."
+  },
+  {
+   "id": "q7",
+   "q": "Each tribe held a corner of the cloth and the Prophet SAW placed the Black Stone.",
+   "explain": "True. An inclusive solution with no one left out."
+  },
+  {
+   "id": "q8",
+   "q": "The inside of the Kaaba was filled with idols.",
+   "explain": "False. The interior of the Kaaba is empty apart from pillars."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The Prophet SAW resolves it with a cloth"
+    },
+    {
+     "id": "b",
+     "text": "Pure funds are gathered"
+    },
+    {
+     "id": "c",
+     "text": "Al-Walid begins the demolition"
+    },
+    {
+     "id": "d",
+     "text": "The Kaaba is fragile and robbed"
+    },
+    {
+     "id": "e",
+     "text": "The dispute over the Black Stone"
+    }
+   ],
+   "explain": "The Kaaba was fragile, pure funds were gathered, Al-Walid began, the dispute arose, and the Prophet SAW resolved it with a cloth."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Qad batara"
+    },
+    {
+     "id": "b",
+     "text": "Restoration"
+    },
+    {
+     "id": "c",
+     "text": "Al-Amin"
+    },
+    {
+     "id": "d",
+     "text": "Hijr Ismail"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Preservation, not tearing down and rebuilding"
+    },
+    {
+     "id": "2",
+     "text": "The most trustworthy"
+    },
+    {
+     "id": "3",
+     "text": "The expression \"he has been cut off\""
+    },
+    {
+     "id": "4",
+     "text": "The semicircular fenced area beside the Kaaba"
+    }
+   ],
+   "explain": "Qad batara is \"he has been cut off\", restoration is preservation, Al-Amin is the most trustworthy, and Hijr Ismail is the semicircular enclosure."
+  },
+  {
+   "id": "q11",
+   "q": "You must settle a dispute between several groups. What example does the Prophet SAW give?",
+   "options": [
+    "Let them fight",
+    "Postpone forever",
+    "A solution that involves all parties",
+    "Choose only one group"
+   ],
+   "explain": "With the cloth, every tribe took part."
+  }
+ ]
+}

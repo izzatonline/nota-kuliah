@@ -1,0 +1,138 @@
+{
+ "id": "ep26",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What is said about the name Muhammad in the world today?",
+   "options": [
+    "It is the most given name, and it is the Prophet's haters who are cut off",
+    "It has been forgotten",
+    "It is rarely used",
+    "It is banned"
+   ],
+   "explain": "The Prophet's name is not cut off."
+  },
+  {
+   "id": "q2",
+   "q": "What four labels did Quraysh throw at the Prophet SAW?",
+   "options": [
+    "Madman, sorcerer, poet and liar",
+    "King, judge, merchant and shepherd",
+    "Doctor, teacher, soldier and fisherman",
+    "Rich, poor, old and young"
+   ],
+   "explain": "They labelled him even though they knew he was honest."
+  },
+  {
+   "id": "q3",
+   "q": "What did Al-Walid do although he admitted the Quran is not human speech?",
+   "options": [
+    "Embraced Islam",
+    "Memorised it",
+    "Moved away",
+    "Rejected it because of vested interests"
+   ],
+   "explain": "Knowing the truth does not mean accepting it."
+  },
+  {
+   "id": "q4",
+   "q": "Why did Umar become open to the Quran according to this lecture?",
+   "options": [
+    "He was forced",
+    "He read a book",
+    "He heard the recitation directly himself",
+    "He was given a gift"
+   ],
+   "explain": "Most opponents never heard the real message."
+  },
+  {
+   "id": "q5",
+   "q": "The Prophet's character was successfully destroyed by personal attacks.",
+   "explain": "False. No one who dealt with him found a flaw."
+  },
+  {
+   "id": "q6",
+   "q": "A weak hadith is the same as a fabricated hadith.",
+   "explain": "False. A daif hadith has a weak chain but is not fabricated."
+  },
+  {
+   "id": "q7",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "The phase of physical torture begins"
+    },
+    {
+     "id": "b",
+     "text": "Abu Lahab celebrates the death of the Prophet's son"
+    },
+    {
+     "id": "c",
+     "text": "Al-Walid is persuaded to deny the Quran"
+    },
+    {
+     "id": "d",
+     "text": "They label the Prophet SAW"
+    },
+    {
+     "id": "e",
+     "text": "The poor followers are mocked"
+    }
+   ],
+   "explain": "Al-Kawthar came down, labels were thrown, followers were mocked, Al-Walid was persuaded, and physical torture began."
+  },
+  {
+   "id": "q8",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Al-Kawthar"
+    },
+    {
+     "id": "b",
+     "text": "Abtar"
+    },
+    {
+     "id": "c",
+     "text": "Cancel"
+    },
+    {
+     "id": "d",
+     "text": "Inferiority complex"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A prolonged feeling of inferiority"
+    },
+    {
+     "id": "2",
+     "text": "The one cut off"
+    },
+    {
+     "id": "3",
+     "text": "Pulling someone's reputation down from public acceptance"
+    },
+    {
+     "id": "4",
+     "text": "Abundant goodness"
+    }
+   ],
+   "explain": "Al-Kawthar is abundant goodness, abtar is cut off, cancel is toppling a reputation, and inferiority complex is a lasting sense of inferiority."
+  },
+  {
+   "id": "q9",
+   "q": "The more labels are thrown, what happens to people?",
+   "options": [
+    "They embrace Islam",
+    "They grow wary without hearing the real message",
+    "They trust the message more",
+    "They stop caring"
+   ],
+   "explain": "Beware of labels as a tactic."
+  }
+ ]
+}

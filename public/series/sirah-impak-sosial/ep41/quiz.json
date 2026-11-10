@@ -1,0 +1,216 @@
+{
+ "id": "ep41",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah Sidratul Muntaha?",
+   "options": [
+    "Pokok bidara di sempadan langit ketujuh, batas yang tidak boleh dilepasi malaikat",
+    "Sebuah gua",
+    "Sebuah pasar",
+    "Sebuah gunung"
+   ],
+   "answer": 0,
+   "explain": "Jibril berhenti di sini dan Nabi SAW melepasinya.",
+   "t": 394,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Siapakah Kalimullah?",
+   "options": [
+    "Nabi Musa AS yang bercakap terus dengan Allah",
+    "Nabi Isa AS",
+    "Nabi Nuh AS",
+    "Nabi Adam AS"
+   ],
+   "answer": 0,
+   "explain": "Gelaran Nabi Musa AS.",
+   "t": 4469,
+   "source": "glossary:g7",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah rahmat Allah dalam bilangan solat?",
+   "options": [
+    "Lima puluh waktu",
+    "Satu waktu",
+    "Tiada solat",
+    "Lima waktu dengan pahala lima puluh"
+   ],
+   "answer": 3,
+   "explain": "Waktu minimum dengan ganjaran maksimum.",
+   "t": 2021,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah perumpamaan solat dalam agama?",
+   "options": [
+    "Pilihan",
+    "Hadiah",
+    "Tiang yang menegakkan agama",
+    "Hiasan"
+   ],
+   "answer": 2,
+   "explain": "Tanpa tiang, khemah hanya menjadi kain.",
+   "t": 2353,
+   "source": "lessons:l8",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah yang ditegaskan Luqman 31:34 tentang pengetahuan Nabi SAW?",
+   "options": [
+    "Baginda tidak menerima wahyu",
+    "Baginda tidak mengetahui perkara ghaib kecuali yang diwahyukan",
+    "Baginda tahu semua perkara ghaib",
+    "Baginda tahu esok"
+   ],
+   "answer": 1,
+   "explain": "Maka dakwaan mengetahui apa yang berlaku esok tidak benar.",
+   "t": 1036,
+   "source": "dalil:q31-34",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah yang ditegaskan Al-Maidah 5:67 tentang wahyu?",
+   "options": [
+    "Nabi SAW menyembunyikan sebahagian",
+    "Hanya untuk sahabat tertentu",
+    "Ia rahsia",
+    "Nabi SAW menyampaikan semuanya tanpa menyembunyikan"
+   ],
+   "answer": 3,
+   "explain": "Waspada kumpulan yang mendakwa ada ritual rahsia.",
+   "t": 1145,
+   "source": "dalil:q5-67",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Mengapakah kita bersolat menurut Taa-Haa 20:14?",
+   "options": [
+    "Untuk dipuji",
+    "Untuk menang",
+    "Untuk mengingati Allah",
+    "Untuk berehat"
+   ],
+   "answer": 2,
+   "explain": "Solat untuk mengingati Allah kerana kita mudah lupa.",
+   "t": 4516,
+   "source": "dalil:q20-14",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Akhlak kita boleh menjadi pendustaan terhadap mesej Nabi SAW walaupun lidah tidak berdusta.",
+   "answer": true,
+   "explain": "Betul. Berhati-hati dengan akhlak.",
+   "t": 1338,
+   "source": "lessons:l6",
+   "level": 2
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Solat patut menjadi tempat kita meninggikan diri atas orang lain.",
+   "answer": false,
+   "explain": "Salah. Solat tempat kita tunduk; jangan keluar masjid lebih bongkak.",
+   "t": 4007,
+   "source": "lessons:l11",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Khilaf muktabar"
+    },
+    {
+     "id": "b",
+     "text": "Muttafaq 'alaih"
+    },
+    {
+     "id": "c",
+     "text": "Achievement society"
+    },
+    {
+     "id": "d",
+     "text": "Ni'mal 'abd"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Sebaik-baik hamba"
+    },
+    {
+     "id": "2",
+     "text": "Hadis riwayat Bukhari dan Muslim"
+    },
+    {
+     "id": "3",
+     "text": "Perbezaan pendapat ulama yang diterima"
+    },
+    {
+     "id": "4",
+     "text": "Masyarakat yang mengukur nilai hidup dengan pencapaian"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "2"
+    ],
+    [
+     "c",
+     "4"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Khilaf muktabar perbezaan diterima, muttafaq alaih riwayat Bukhari dan Muslim, achievement society ukur pencapaian, dan ni'mal abd sebaik-baik hamba.",
+   "t": 600,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "mcq",
+   "q": "Solat yang menjadi kebiasaan tanpa makna hilang kesannya. Apakah nasihat ustaz?",
+   "options": [
+    "Tunda solat",
+    "Hidupkan solat supaya tidak menjadi autopilot",
+    "Tinggalkan solat",
+    "Pendekkan solat"
+   ],
+   "answer": 1,
+   "explain": "Solat bermakna menyegarkan jiwa.",
+   "t": 4230,
+   "source": "lessons:l14",
+   "level": 3
+  }
+ ]
+}

@@ -1,0 +1,238 @@
+{
+ "id": "prolog-t53UBNhT4AE",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Siapakah yang dicadangkan Nabi SAW sebagai tempat berlindung selepas Surah Al-Kahf?",
+   "options": [
+    "Najasyi, raja Habsyah",
+    "Abu Talib",
+    "Kisra",
+    "Abraha"
+   ],
+   "answer": 0,
+   "explain": "Najasyi ialah gelaran raja Habsyah; nama peribadinya Ashamah.",
+   "t": 1182,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah yang dibawa Amr dan Abdullah kepada Najasyi?",
+   "options": [
+    "Hadiah untuk menghasutnya menghantar pulang pelarian",
+    "Surat damai",
+    "Tentera",
+    "Tiada apa-apa"
+   ],
+   "answer": 0,
+   "explain": "Najasyi menolak permintaan Quraish.",
+   "t": 1580,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah yang dihantar ke Habsyah menurut kuliah ini?",
+   "options": [
+    "Yang lemah sahaja",
+    "Orang tua sahaja",
+    "Tentera",
+    "Yang terbaik, sebagai pangkalan sokongan"
+   ],
+   "answer": 3,
+   "explain": "Hijrah bukan kelemahan.",
+   "t": 626,
+   "source": "lessons:l2",
+   "level": 2
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah yang dilakukan Ja'far tanpa kompromi akidah?",
+   "options": [
+    "Menolak Isa",
+    "Diam",
+    "Menyebut Isa sebagai hamba dan rasul Allah",
+    "Menyebut Isa anak Tuhan"
+   ],
+   "answer": 2,
+   "explain": "Jangan kompromi akidah.",
+   "t": 4084,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah kuasa bercerita?",
+   "options": [
+    "Ia dilarang",
+    "Satu pertiga Quran ialah kisah; yang pandai bercerita membentuk naratif",
+    "Ia tidak penting",
+    "Ia hanya hiburan"
+   ],
+   "answer": 1,
+   "explain": "Belajar melobi dan membentuk naratif.",
+   "t": 3084,
+   "source": "lessons:l12",
+   "level": 2
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah yang diarahkan Nabi SAW kepada keluarga yang ditimpa kesedihan?",
+   "options": [
+    "Menjauhi mereka",
+    "Tidak berbuat apa-apa",
+    "Menegur mereka",
+    "Hantar makanan kepada mereka"
+   ],
+   "answer": 3,
+   "explain": "Bantu keluarga yang berduka.",
+   "t": 5078,
+   "source": "lessons:l11",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Najasyi enggan memutuskan sebelum mendengar pihak yang dituduh.",
+   "answer": true,
+   "explain": "Betul. Dengar sebelum menghukum.",
+   "t": 2163,
+   "source": "lessons:l3",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Prejudis timbal balik antara Muslim dan bukan Muslim ialah jahiliah.",
+   "answer": true,
+   "explain": "Betul. Muslim dan bukan Muslim tidak sepatutnya hidup dengan stereotaip.",
+   "t": 1970,
+   "source": "lessons:l4",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Najasyi menangis dan menolak permintaan Quraish"
+    },
+    {
+     "id": "b",
+     "text": "Cadangan berhijrah ke Habsyah"
+    },
+    {
+     "id": "c",
+     "text": "Perjalanan ke Jeddah dan Habsyah"
+    },
+    {
+     "id": "d",
+     "text": "Darul Arqam menjadi pangkalan"
+    },
+    {
+     "id": "e",
+     "text": "Sahabat diseksa secara terbuka"
+    }
+   ],
+   "answer": [
+    "d",
+    "e",
+    "b",
+    "c",
+    "a"
+   ],
+   "explain": "Darul Arqam, penyeksaan, cadangan hijrah, perjalanan, dan Najasyi menolak permintaan Quraish.",
+   "t": 970,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Najasyi"
+    },
+    {
+     "id": "b",
+     "text": "Hijrah"
+    },
+    {
+     "id": "c",
+     "text": "Silaturahim"
+    },
+    {
+     "id": "d",
+     "text": "Syuyum"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Hubungan kekeluargaan dari rahim yang sama"
+    },
+    {
+     "id": "2",
+     "text": "Gelaran raja Habsyah"
+    },
+    {
+     "id": "3",
+     "text": "Selamat sepenuhnya di bawah perlindungan raja"
+    },
+    {
+     "id": "4",
+     "text": "Berpindah demi mempertahankan agama"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "2"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "3"
+    ]
+   ],
+   "explain": "Najasyi gelaran raja, hijrah berpindah demi agama, silaturahim hubungan keluarga, dan syuyum selamat sepenuhnya.",
+   "t": 1189,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "mcq",
+   "q": "Kita sering rasa rendah diri hingga membayar mahal untuk idea yang sama jika datang dari luar. Apakah nasihat?",
+   "options": [
+    "Menolak semua idea luar",
+    "Tidak berfikir",
+    "Yakin dengan apa yang kita ada",
+    "Meniru luar sepenuhnya"
+   ],
+   "answer": 2,
+   "explain": "Yakin dengan apa yang kita ada.",
+   "t": 3287,
+   "source": "lessons:l9",
+   "level": 3
+  }
+ ]
+}

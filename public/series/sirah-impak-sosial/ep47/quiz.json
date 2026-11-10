@@ -1,0 +1,238 @@
+{
+ "id": "ep47",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah Aqabah dalam kuliah ini?",
+   "options": [
+    "Tempat melontar di Mina berhampiran jamrah pertama, lokasi perjanjian rahsia",
+    "Sebuah pasar",
+    "Sebuah gua",
+    "Sebuah gunung di Makkah"
+   ],
+   "answer": 0,
+   "explain": "Perjanjian Aqabah Kedua ialah titik tidak berpatah balik.",
+   "t": 1629,
+   "source": "glossary:g5",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Berapa orang berkumpul secara rahsia di lembah Aqabah?",
+   "options": [
+    "75 orang",
+    "7 orang",
+    "700 orang",
+    "12 orang"
+   ],
+   "answer": 0,
+   "explain": "Mereka berkumpul pada sepertiga malam terakhir.",
+   "t": 2050,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah jawapan Nabi SAW apabila ditawarkan menyerang Mina yang sedang tidur?",
+   "options": [
+    "Bersetuju",
+    "Meminta masa",
+    "Menyerahkan kepada Al-Abbas",
+    "Menolak jalan pintas kekerasan"
+   ],
+   "answer": 3,
+   "explain": "Nabi SAW menolak jalan pintas kekerasan.",
+   "t": 3918,
+   "source": "lessons:l14",
+   "level": 2
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Mengapakah kualiti seseorang tidak diukur oleh tempoh keislamannya?",
+   "options": [
+    "Kerana tempoh tidak diketahui",
+    "Kerana ia rahsia",
+    "Abu Jabir baru masuk Islam beberapa jam tetapi dilantik naqib",
+    "Kerana semua sama"
+   ],
+   "answer": 2,
+   "explain": "Kualiti bukan diukur oleh tempoh keislaman.",
+   "t": 1825,
+   "source": "lessons:l15",
+   "level": 2
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah maksud memberi pintu keluar sebelum pintu dikunci?",
+   "options": [
+    "Menipu",
+    "Sesiapa yang tidak sanggup memikul komitmen diberi peluang keluar",
+    "Mengunci terus",
+    "Memaksa"
+   ],
+   "answer": 1,
+   "explain": "Telus tentang risiko dan beri peluang keluar.",
+   "t": 4850,
+   "source": "lessons:l9",
+   "level": 2
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah teras dakwah menurut kuliah ini?",
+   "options": [
+    "Memenangi perdebatan",
+    "Menunjuk kehebatan",
+    "Mengumpul harta",
+    "Memenangi hati, bukan mengalahkan orang"
+   ],
+   "answer": 3,
+   "explain": "Dakwah memenangi hati.",
+   "t": 4772,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Setiap pihak dalam perjanjian perlu jelas tentang terma dan risiko tanpa klausa tersembunyi.",
+   "answer": true,
+   "explain": "Betul. Telus tentang risiko.",
+   "t": 4791,
+   "source": "lessons:l8",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Iman yang matang bertanya apa yang boleh diberi, bukan apa yang boleh diperoleh.",
+   "answer": true,
+   "explain": "Betul. Berbeza dengan minda transaksional.",
+   "t": 4469,
+   "source": "lessons:l1",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Pelantikan dua belas naqib"
+    },
+    {
+     "id": "b",
+     "text": "Ucapan Al-Abbas"
+    },
+    {
+     "id": "c",
+     "text": "Mus'ab pulang membawa laporan"
+    },
+    {
+     "id": "d",
+     "text": "Bay'ah seorang demi seorang"
+    },
+    {
+     "id": "e",
+     "text": "Berkumpul di lembah Aqabah"
+    }
+   ],
+   "answer": [
+    "c",
+    "e",
+    "b",
+    "d",
+    "a"
+   ],
+   "explain": "Mus'ab pulang, berkumpul di Aqabah, Al-Abbas berucap, bay'ah, dan dua belas naqib dilantik.",
+   "t": 332,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Bay'ah"
+    },
+    {
+     "id": "b",
+     "text": "Ansar"
+    },
+    {
+     "id": "c",
+     "text": "Muhajirin"
+    },
+    {
+     "id": "d",
+     "text": "Bay'atul Harb"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Penolong, penduduk Madinah yang menyokong Nabi SAW"
+    },
+    {
+     "id": "2",
+     "text": "Ikrar taat setia dengan meletakkan tangan"
+    },
+    {
+     "id": "3",
+     "text": "Nama lain Perjanjian Aqabah Kedua"
+    },
+    {
+     "id": "4",
+     "text": "Sahabat yang berhijrah dari Makkah ke Madinah"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "2"
+    ],
+    [
+     "b",
+     "1"
+    ],
+    [
+     "c",
+     "4"
+    ],
+    [
+     "d",
+     "3"
+    ]
+   ],
+   "explain": "Bay'ah ikrar setia, Ansar penolong, Muhajirin yang berhijrah, dan Bay'atul Harb nama lain Aqabah Kedua.",
+   "t": 561,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q11",
+   "type": "mcq",
+   "q": "Tiga ucapan ringkas apakah yang menjadikan orang selesa berada dekat kita?",
+   "options": [
+    "Cepat, laju dan kuat",
+    "Tiada",
+    "Terima kasih, maaf dan tolong",
+    "Marah, benci dan dendam"
+   ],
+   "answer": 2,
+   "explain": "Small talk dan penghargaan membina kesetiaan.",
+   "t": 4586,
+   "source": "lessons:l3",
+   "level": 3
+  }
+ ]
+}

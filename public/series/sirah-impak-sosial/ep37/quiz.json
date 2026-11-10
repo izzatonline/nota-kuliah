@@ -1,0 +1,222 @@
+{
+ "id": "ep37",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah yang berlaku kepada Adas dari Nineveh?",
+   "options": [
+    "Dia memeluk Islam walaupun baginda tidak mengajaknya",
+    "Dia menolak",
+    "Dia menyerang baginda",
+    "Dia berpindah"
+   ],
+   "answer": 0,
+   "explain": "Seorang lelaki dari Nineveh memeluk Islam.",
+   "t": 623,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah yang dilakukan sekumpulan jin apabila mendengar bacaan Quran baginda?",
+   "options": [
+    "Memeluk Islam dan pulang berdakwah",
+    "Menyerang",
+    "Berlari",
+    "Mengejek"
+   ],
+   "answer": 0,
+   "explain": "Jin juga makhluk yang berpilihan.",
+   "t": 1283,
+   "source": "dalil:q46-29",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah yang mengiringi Nabi SAW masuk Makkah dengan bersenjata?",
+   "options": [
+    "Abu Lahab",
+    "Abu Jahal",
+    "Al-Akhnas",
+    "Mut'im dan anak-anaknya"
+   ],
+   "answer": 3,
+   "explain": "Mut'im mengumumkan perlindungan.",
+   "t": 4096,
+   "source": "events:e5",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah yang dilakukan Nabi SAW untuk mengenang jasa Mut'im?",
+   "options": [
+    "Melupakannya",
+    "Menolak",
+    "Berkata akan melepaskan tawanan kerananya",
+    "Memberinya kuasa"
+   ],
+   "answer": 2,
+   "explain": "Jangan lupa jasa orang bukan Islam.",
+   "t": 4338,
+   "source": "events:e7",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah pengajaran tentang hidup dalam masyarakat majmuk?",
+   "options": [
+    "Meniru sepenuhnya",
+    "Kedua-dua pihak menjaga sensitiviti dan memupuk pergaulan",
+    "Mengasingkan diri",
+    "Menyerang"
+   ],
+   "answer": 1,
+   "explain": "Hidup harmoni dalam masyarakat majmuk.",
+   "t": 4402,
+   "source": "lessons:l12",
+   "level": 2
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Bagaimanakah kita bekerjasama dengan orang yang berbeza agama?",
+   "options": [
+    "Dengan meninggalkan tauhid",
+    "Tidak bekerjasama langsung",
+    "Dengan bertukar agama",
+    "Pada perkara yang disepakati tanpa melonggarkan tauhid"
+   ],
+   "answer": 3,
+   "explain": "Bekerjasama tanpa melonggarkan tauhid.",
+   "t": 5049,
+   "source": "lessons:l15",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Kita dipertanggungjawabkan berurusan dengan alam jin.",
+   "answer": false,
+   "explain": "Salah. Jangan terlalu sibuk dengan alam jin; serahkan isu rukyah kepada pakar.",
+   "t": 3416,
+   "source": "lessons:l8",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Quran patut didengar dengan senyap, bukan sebagai bunyi latar belakang ketika berbual.",
+   "answer": true,
+   "explain": "Betul. Ansitu, diam dan dengar.",
+   "t": 1494,
+   "source": "lessons:l5",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Mut'im mengumumkan perlindungan"
+    },
+    {
+     "id": "b",
+     "text": "Utusan kepada Al-Akhnas"
+    },
+    {
+     "id": "c",
+     "text": "Sekumpulan jin memeluk Islam"
+    },
+    {
+     "id": "d",
+     "text": "Berhenti di lembah antara Taif dan Makkah"
+    },
+    {
+     "id": "e",
+     "text": "Mut'im dan anak-anak mengiringi baginda"
+    }
+   ],
+   "answer": [
+    "d",
+    "c",
+    "b",
+    "e",
+    "a"
+   ],
+   "explain": "Berhenti di Nakhlah, jin memeluk Islam, utusan ke Al-Akhnas, Mut'im mengiringi, dan mengumumkan perlindungan.",
+   "t": 746,
+   "source": "events:e1",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Nakhlah"
+    },
+    {
+     "id": "b",
+     "text": "Nafar"
+    },
+    {
+     "id": "c",
+     "text": "Ansitu"
+    },
+    {
+     "id": "d",
+     "text": "Mukallaf"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Kumpulan kecil, tiga hingga sembilan orang"
+    },
+    {
+     "id": "2",
+     "text": "Makhluk yang dibebani tanggungjawab dan berkehendak bebas"
+    },
+    {
+     "id": "3",
+     "text": "Lembah subur antara Taif dan Makkah"
+    },
+    {
+     "id": "4",
+     "text": "Diam dan dengar"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "1"
+    ],
+    [
+     "c",
+     "4"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Nakhlah lembah subur, nafar kumpulan kecil, ansitu diam dan dengar, dan mukallaf makhluk bertanggungjawab.",
+   "t": 681,
+   "source": "glossary:g1",
+   "level": 1
+  }
+ ]
+}

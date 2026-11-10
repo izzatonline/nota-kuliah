@@ -1,0 +1,160 @@
+{
+ "id": "ep47",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What is Aqabah in this lecture?",
+   "options": [
+    "The stoning site in Mina near the first jamra, the location of the secret pledge",
+    "A market",
+    "A cave",
+    "A mountain in Makkah"
+   ],
+   "explain": "The Second Pledge of Aqabah was the point of no return."
+  },
+  {
+   "id": "q2",
+   "q": "How many gathered secretly in the valley of Aqabah?",
+   "options": [
+    "75 people",
+    "7 people",
+    "700 people",
+    "12 people"
+   ],
+   "explain": "They gathered in the last third of the night."
+  },
+  {
+   "id": "q3",
+   "q": "What was the Prophet's SAW answer when offered to attack the sleeping camp at Mina?",
+   "options": [
+    "He agreed",
+    "He asked for time",
+    "He left it to Al-Abbas",
+    "He refused the shortcut of violence"
+   ],
+   "explain": "The Prophet SAW rejected the shortcut of violence."
+  },
+  {
+   "id": "q4",
+   "q": "Why is a person's quality not measured by how long he has been Muslim?",
+   "options": [
+    "Because the duration is unknown",
+    "Because it was secret",
+    "Abu Jabir had been Muslim only hours yet was made a naqib",
+    "Because all are the same"
+   ],
+   "explain": "Quality is not measured by length of time in Islam."
+  },
+  {
+   "id": "q5",
+   "q": "What is meant by giving an exit before the door is locked?",
+   "options": [
+    "Deceiving",
+    "Anyone unwilling to bear the commitment is given the chance to leave",
+    "Locking at once",
+    "Compelling"
+   ],
+   "explain": "Be transparent about risk and give a chance to leave."
+  },
+  {
+   "id": "q6",
+   "q": "What is the core of da'wah according to this lecture?",
+   "options": [
+    "Winning debates",
+    "Showing greatness",
+    "Gathering wealth",
+    "Winning hearts, not defeating people"
+   ],
+   "explain": "Da'wah wins hearts."
+  },
+  {
+   "id": "q7",
+   "q": "Each party to a pact must be clear about terms and risks with no hidden clauses.",
+   "explain": "True. Be transparent about risk."
+  },
+  {
+   "id": "q8",
+   "q": "Mature faith asks what it can give, not what it can get.",
+   "explain": "True. Unlike the transactional mindset."
+  },
+  {
+   "id": "q9",
+   "q": "Put these events in the right order.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Appointment of twelve naqibs"
+    },
+    {
+     "id": "b",
+     "text": "The speech of Al-Abbas"
+    },
+    {
+     "id": "c",
+     "text": "Mus'ab returns with his report"
+    },
+    {
+     "id": "d",
+     "text": "The pledge one by one"
+    },
+    {
+     "id": "e",
+     "text": "Gathering in the valley of Aqabah"
+    }
+   ],
+   "explain": "Mus'ab returned, they gathered at Aqabah, Al-Abbas spoke, the pledge was taken, and twelve naqibs were appointed."
+  },
+  {
+   "id": "q10",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Bay'ah"
+    },
+    {
+     "id": "b",
+     "text": "Ansar"
+    },
+    {
+     "id": "c",
+     "text": "Muhajirun"
+    },
+    {
+     "id": "d",
+     "text": "Bay'at al-Harb"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "The helpers, the people of Madinah who supported the Prophet SAW"
+    },
+    {
+     "id": "2",
+     "text": "A pledge of allegiance by placing a hand in hand"
+    },
+    {
+     "id": "3",
+     "text": "Another name for the Second Pledge of Aqabah"
+    },
+    {
+     "id": "4",
+     "text": "Companions who migrated from Makkah to Madinah"
+    }
+   ],
+   "explain": "Bay'ah is a pledge, the Ansar are the helpers, the Muhajirun are those who migrated, and Bay'at al-Harb is another name for the Second Aqabah."
+  },
+  {
+   "id": "q11",
+   "q": "Which three short phrases make people comfortable being near us?",
+   "options": [
+    "Fast, quick and strong",
+    "None",
+    "Thank you, sorry and please",
+    "Anger, hatred and grudge"
+   ],
+   "explain": "Small talk and appreciation build loyalty."
+  }
+ ]
+}

@@ -3,7 +3,7 @@
 Usage: python3 scripts/build_index.py <slug> <playlist-url> [--title T] [--speaker S]
 
 Existing values are kept when re-run: the series description, and each episode's `notesAddedAt`.
-An episode is marked `hasNotes` when public/series/<slug>/<id>/notes.json exists, where <id> is ep<number> or
+An episode is marked `hasQuiz` when its quiz.json exists, and `hasNotes` when public/series/<slug>/<id>/notes.json exists, where <id> is ep<number> or
 prolog-<video id> for episodes without a number.
 """
 import argparse
@@ -50,6 +50,7 @@ for line in out:
     clean = ": ".join(parts) if number is None or (len(parts) > 1 and number == 22) else parts[0] if parts else title
     ep_id = f"ep{number}" if number else "prolog-" + vid
     has_notes = (base / ep_id / "notes.json").exists()
+    has_quiz = (base / ep_id / "quiz.json").exists()
     entry = {
         "id": ep_id,
         "youtubeId": vid,
@@ -60,6 +61,8 @@ for line in out:
         "views": int(float(views)) if views not in ("NA", "None") else None,
         "hasNotes": has_notes,
     }
+    if has_quiz:
+        entry["hasQuiz"] = True
     if has_notes and added.get(vid):
         entry["notesAddedAt"] = added[vid]
     episodes.append(entry)

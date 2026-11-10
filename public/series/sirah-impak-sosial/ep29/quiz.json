@@ -1,0 +1,222 @@
+{
+ "id": "ep29",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Siapakah yang menolak Uqbah ketika dia cuba mencekik Nabi SAW?",
+   "options": [
+    "Abu Bakar",
+    "Umar",
+    "Ali",
+    "Hamzah"
+   ],
+   "answer": 0,
+   "explain": "Abu Bakar berani menegur kezaliman dan dipukul.",
+   "t": 1075,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah gelaran Nabi SAW untuk Habsyah?",
+   "options": [
+    "Ardus Sidq, negeri yang benar",
+    "Negeri api",
+    "Negeri hamba",
+    "Negeri musuh"
+   ],
+   "answer": 0,
+   "explain": "Habsyah dipilih kerana di luar kuasa Parsi dan sebagai pelan sandaran.",
+   "t": 2716,
+   "source": "glossary:g5",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Berapa orang berangkat dalam hijrah pertama ke Habsyah?",
+   "options": [
+    "Dua",
+    "Seribu",
+    "Tiga ratus",
+    "Lima belas"
+   ],
+   "answer": 3,
+   "explain": "Mereka berangkat senyap dan menaiki kapal di Syu'aibah.",
+   "t": 2800,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Mengapakah Abu Bakar mengembalikan perlindungan Ibn Daghinah?",
+   "options": [
+    "Kerana dia berhijrah",
+    "Kerana dia miskin",
+    "Kerana tidak mahu perlindungan itu mengongkong dakwahnya",
+    "Kerana dia takut"
+   ],
+   "answer": 2,
+   "explain": "Perlindungan tidak boleh mengongkong dakwah.",
+   "t": 3547,
+   "source": "lessons:l11",
+   "level": 2
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Siapakah Ashabul Kahfi?",
+   "options": [
+    "Rahib",
+    "Pemuda gua yang lari menyelamatkan iman",
+    "Tentera bergajah",
+    "Pedagang Quraish"
+   ],
+   "answer": 1,
+   "explain": "Quraish bertanya tentang mereka dan Allah menjawab dalam Surah Al-Kahf.",
+   "t": 1971,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "tf",
+   "q": "Yang dihantar ke Habsyah ialah sahabat yang lemah dan tiada pengaruh.",
+   "answer": false,
+   "explain": "Salah. Yang dihantar ialah yang kuat dan berpengaruh; hijrah bukan tanda lemah.",
+   "t": 3754,
+   "source": "lessons:l7",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Umar dianggap mustahil memeluk Islam, namun Nabi SAW tetap mendoakannya.",
+   "answer": true,
+   "explain": "Betul. Jangan berputus asa terhadap sesiapa.",
+   "t": 3113,
+   "source": "lessons:l9",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abu Bakar membatalkan hijrah dan dilindungi"
+    },
+    {
+     "id": "b",
+     "text": "Wahyu terlambat 15 malam"
+    },
+    {
+     "id": "c",
+     "text": "Lima belas orang ke Habsyah"
+    },
+    {
+     "id": "d",
+     "text": "An-Nadr dan Uqbah ke Yathrib"
+    },
+    {
+     "id": "e",
+     "text": "Al-Kahf dan Al-Isra' menjawab soalan"
+    }
+   ],
+   "answer": [
+    "d",
+    "b",
+    "e",
+    "c",
+    "a"
+   ],
+   "explain": "Ke Yathrib, wahyu terlambat, Al-Kahf menjawab, hijrah ke Habsyah, dan Abu Bakar dilindungi.",
+   "t": 1887,
+   "source": "events:e1",
+   "level": 2
+  },
+  {
+   "id": "q9",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Bystander"
+    },
+    {
+     "id": "b",
+     "text": "Darun Nadwah"
+    },
+    {
+     "id": "c",
+     "text": "Dzulqarnain"
+    },
+    {
+     "id": "d",
+     "text": "Hadis daif"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Hadis yang lemah sanadnya tetapi bukan palsu"
+    },
+    {
+     "id": "2",
+     "text": "Pemerhati yang tidak mengambil pihak"
+    },
+    {
+     "id": "3",
+     "text": "Dewan perhimpunan pemimpin Makkah"
+    },
+    {
+     "id": "4",
+     "text": "Pengembara yang diceritakan Quran"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "2"
+    ],
+    [
+     "b",
+     "3"
+    ],
+    [
+     "c",
+     "4"
+    ],
+    [
+     "d",
+     "1"
+    ]
+   ],
+   "explain": "Bystander pemerhati, Darun Nadwah dewan Makkah, Dzulqarnain pengembara dalam Quran, dan hadis daif lemah sanadnya.",
+   "t": 806,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "mcq",
+   "q": "Apakah pengajaran apabila wahyu terlambat selepas Nabi SAW lupa menyebut insya-Allah?",
+   "options": [
+    "Jangan berjanji",
+    "Tiada kaitan",
+    "Lupa tidak mengapa",
+    "Ucapkan insya-Allah dan bergantung kepada Allah"
+   ],
+   "answer": 3,
+   "explain": "Penangguhan itu mengajar kebergantungan kepada Allah.",
+   "t": 2117,
+   "source": "lessons:l5",
+   "level": 3
+  }
+ ]
+}

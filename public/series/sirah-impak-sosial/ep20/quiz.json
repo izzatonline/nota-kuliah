@@ -1,0 +1,222 @@
+{
+ "id": "ep20",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Berapa lamakah wahyu terputus menurut pendapat yang paling kuat?",
+   "options": [
+    "Sekitar 40 hari",
+    "Seminggu",
+    "Sepuluh tahun",
+    "Satu hari"
+   ],
+   "answer": 0,
+   "explain": "Nabi SAW memproses maklumat Waraqah dan mengulang-ulang Al-Alaq.",
+   "t": 418,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Apakah Al-Muddaththir?",
+   "options": [
+    "Orang yang berselimut, panggilan lembut kepada Nabi SAW",
+    "Orang yang berlari",
+    "Orang yang berperang",
+    "Orang yang berdagang"
+   ],
+   "answer": 0,
+   "explain": "Allah memanggil dengan lembut.",
+   "t": 1033,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Apakah yang dilihat Nabi SAW di antara langit dan bumi?",
+   "options": [
+    "Awan hitam",
+    "Seekor burung besar",
+    "Tiada apa-apa",
+    "Malaikat yang sama duduk di atas kursi"
+   ],
+   "answer": 3,
+   "explain": "Baginda tersembam, gementar lalu pulang meminta diselimuti.",
+   "t": 572,
+   "source": "events:e2",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah maksud ruj dalam Al-Muddaththir?",
+   "options": [
+    "Harta",
+    "Pakaian",
+    "Perkataan dan perbuatan keji, termasuk penyembahan berhala",
+    "Air"
+   ],
+   "answer": 2,
+   "explain": "Tinggalkan ruj dan jauhi perkataan buruk apabila dikecam.",
+   "t": 1593,
+   "source": "glossary:g4",
+   "level": 2
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Apakah tartil?",
+   "options": [
+    "Menyanyi",
+    "Membaca Quran dengan perlahan dan jelas",
+    "Menghafal laju",
+    "Menulis Quran"
+   ],
+   "answer": 1,
+   "explain": "Nabi SAW diperintahkan membaca Quran dengan tartil.",
+   "t": 2019,
+   "source": "glossary:g7",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "tf",
+   "q": "Kesedihan Nabi SAW menunjukkan baginda berputus asa.",
+   "answer": false,
+   "explain": "Salah. Kesedihan tidak sama dengan putus asa.",
+   "t": 534,
+   "source": "lessons:l2",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "tf",
+   "q": "Jalan dakwah sentiasa mudah dan tidak pernah membuat kita ingin berhenti.",
+   "answer": false,
+   "explain": "Salah. Jalan dakwah susah dan bergilir, maka bersabar.",
+   "t": 1935,
+   "source": "lessons:l9",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Turun ayat bangun dan beri peringatan"
+    },
+    {
+     "id": "b",
+     "text": "Baginda pulang meminta diselimuti"
+    },
+    {
+     "id": "c",
+     "text": "Wahyu terhenti sekitar 40 hari"
+    },
+    {
+     "id": "d",
+     "text": "Baginda melihat malaikat di atas kursi"
+    },
+    {
+     "id": "e",
+     "text": "Baginda bersedih dan rindukan wahyu"
+    }
+   ],
+   "answer": [
+    "c",
+    "e",
+    "d",
+    "b",
+    "a"
+   ],
+   "explain": "Wahyu terhenti, baginda bersedih, melihat malaikat, pulang diselimutkan, dan turun ayat peringatan.",
+   "t": 418,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q9",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Fatrah al-wahyu"
+    },
+    {
+     "id": "b",
+     "text": "Man (mengungkit)"
+    },
+    {
+     "id": "c",
+     "text": "Anzir"
+    },
+    {
+     "id": "d",
+     "text": "Al-Mannan"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Mengungkit pemberian sehingga membatalkan pahala"
+    },
+    {
+     "id": "2",
+     "text": "Berikan peringatan yang keras"
+    },
+    {
+     "id": "3",
+     "text": "Nama Allah, pemberi kurnia tanpa putus"
+    },
+    {
+     "id": "4",
+     "text": "Tempoh terputusnya wahyu"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "4"
+    ],
+    [
+     "b",
+     "1"
+    ],
+    [
+     "c",
+     "2"
+    ],
+    [
+     "d",
+     "3"
+    ]
+   ],
+   "explain": "Fatrah al-wahyu tempoh terputus, man mengungkit, anzir beri peringatan, dan Al-Mannan nama Allah.",
+   "t": 343,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "mcq",
+   "q": "Sebelum menegur orang lain, apakah yang patut kita lakukan?",
+   "options": [
+    "Terus menegur dengan kuat",
+    "Mengumpat mereka",
+    "Menunggu mereka berubah",
+    "Memeriksa diri dan cara hidup sendiri dahulu"
+   ],
+   "answer": 3,
+   "explain": "Bersihkan diri sebelum menyeru.",
+   "t": 1388,
+   "source": "lessons:l5",
+   "level": 3
+  }
+ ]
+}

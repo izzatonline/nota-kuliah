@@ -1,0 +1,254 @@
+{
+ "id": "ep10",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Apakah yang menyedarkan Quraisy bahawa Kaabah perlu dibina semula?",
+   "options": [
+    "Serangan tentera luar",
+    "Gempa bumi",
+    "Banjir besar dan kecurian",
+    "Kebakaran"
+   ],
+   "answer": 2,
+   "explain": "Banjir besar dan kecurian menyedarkan Quraisy bahawa Kaabah perlu dibina semula.",
+   "t": 380,
+   "source": "events:e0",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Wang daripada sumber manakah yang diterima Quraisy untuk membina Kaabah?",
+   "options": [
+    "Mana-mana sumber asalkan banyak",
+    "Sumber yang bersih sahaja",
+    "Hasil jualan arak",
+    "Wang rampasan"
+   ],
+   "answer": 1,
+   "explain": "Quraisy hanya menerima wang daripada sumber bersih, bukan daripada arak, curi atau tipu.",
+   "t": 471,
+   "source": "lessons:l1",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Siapakah yang berani memulakan pembongkaran Kaabah dengan kapak?",
+   "options": [
+    "Abu Umayyah",
+    "Al-Walid bin Al-Mughirah",
+    "Bakum",
+    "Zaid bin Amr"
+   ],
+   "answer": 1,
+   "explain": "Al-Walid berdoa memohon tidak dihukum kerana mereka membaiki rumah Allah.",
+   "t": 691,
+   "source": "people:p5",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Siapakah arkitek Rom yang mereka bentuk semula Kaabah?",
+   "options": [
+    "Al-Walid",
+    "Bakum",
+    "Abu Umayyah",
+    "Harithah"
+   ],
+   "answer": 1,
+   "explain": "Bakum mengubah rekaan Kaabah menjadi segi empat tepat dengan bumbung dan pintu tinggi.",
+   "t": 820,
+   "source": "people:p6",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Berapa hari projek pembinaan terhenti kerana kabilah bertengkar tentang Hajar Aswad?",
+   "options": [
+    "Satu hari",
+    "Tiga hari",
+    "Lima hari",
+    "Sepuluh hari"
+   ],
+   "answer": 2,
+   "explain": "Projek terhenti lima hari kerana kabilah-kabilah bertengkar.",
+   "t": 1006,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah cadangan Abu Umayyah untuk menyelesaikan pertikaian?",
+   "options": [
+    "Berperang sehingga ada pemenang",
+    "Orang pertama yang masuk pintu esok pagi memutuskan",
+    "Membuang undi dengan anak panah",
+    "Menyerahkan kepada Bakum"
+   ],
+   "answer": 1,
+   "explain": "Orang pertama yang masuk pintu esok pagi akan memutuskan, dan itu ialah Muhammad.",
+   "t": 1082,
+   "source": "events:e5",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Bagaimanakah Nabi SAW menyelesaikan pertikaian tentang Hajar Aswad?",
+   "options": [
+    "Baginda sendiri meletakkan batu itu dan kabilah lain menunggu",
+    "Meletakkan batu itu di atas kain dan setiap kabilah memegangnya",
+    "Memberi batu itu kepada kabilah tertua",
+    "Memecahkan batu itu"
+   ],
+   "answer": 1,
+   "explain": "Setiap kabilah memegang kain itu dan Nabi SAW meletakkan batu. Semua mendapat bahagian yang sama.",
+   "t": 1223,
+   "source": "events:e7",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Semua kabilah menerima Muhammad sebagai hakim kerana beliau digelar Al-Amin.",
+   "answer": true,
+   "explain": "Betul. Al-Amin bermaksud yang dipercayai, gelaran baginda sebelum kenabian.",
+   "t": 1169,
+   "source": "lessons:l6",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Zaid bin Amr bin Nufail menyembah berhala seperti orang Mekah lain.",
+   "answer": false,
+   "explain": "Salah. Zaid menolak berhala dan berkata mereka tidak mengikut agama Nabi Ibrahim.",
+   "t": 1635,
+   "source": "lessons:l9",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Nabi SAW meletakkan Hajar Aswad di atas kain"
+    },
+    {
+     "id": "b",
+     "text": "Kabilah bertengkar tentang Hajar Aswad"
+    },
+    {
+     "id": "c",
+     "text": "Banjir merosakkan Kaabah"
+    },
+    {
+     "id": "d",
+     "text": "Al-Walid memulakan pembongkaran"
+    },
+    {
+     "id": "e",
+     "text": "Abu Umayyah mencadangkan penyelesaian"
+    }
+   ],
+   "answer": [
+    "c",
+    "d",
+    "b",
+    "e",
+    "a"
+   ],
+   "explain": "Banjir, pembongkaran oleh Al-Walid, pertengkaran, cadangan Abu Umayyah, lalu Nabi SAW meletakkan batu di atas kain.",
+   "t": 380,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Hijr Ismail"
+    },
+    {
+     "id": "b",
+     "text": "Al-Amin"
+    },
+    {
+     "id": "c",
+     "text": "Tawaf"
+    },
+    {
+     "id": "d",
+     "text": "Jahiliah"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Mengelilingi Kaabah tujuh kali"
+    },
+    {
+     "id": "2",
+     "text": "Zaman sebelum Islam"
+    },
+    {
+     "id": "3",
+     "text": "Kawasan bersempadan di sisi Kaabah"
+    },
+    {
+     "id": "4",
+     "text": "Yang dipercayai"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "3"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "2"
+    ]
+   ],
+   "explain": "Hijr Ismail ialah kawasan di sisi Kaabah, Al-Amin yang dipercayai, tawaf mengelilingi Kaabah, dan jahiliah zaman sebelum Islam.",
+   "t": 854,
+   "source": "glossary:g2",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Anda mahu orang lain mempercayai anda. Apakah yang dapat dipelajari daripada Al-Amin?",
+   "options": [
+    "Bercakap dengan kuat",
+    "Menjadi kaya dahulu",
+    "Kejujuran membawa kepercayaan",
+    "Mengelak semua orang"
+   ],
+   "answer": 2,
+   "explain": "Semua kabilah menerima baginda sebagai hakim kerana baginda paling jujur.",
+   "t": 1169,
+   "source": "lessons:l6",
+   "level": 3
+  }
+ ]
+}

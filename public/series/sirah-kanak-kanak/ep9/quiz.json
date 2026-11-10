@@ -1,0 +1,254 @@
+{
+ "id": "ep9",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Siapakah pembantu lelaki Khadijah yang menemani Nabi SAW ke Syam?",
+   "options": [
+    "Zaid",
+    "Maisarah",
+    "Hakim bin Hizam",
+    "Ali"
+   ],
+   "answer": 1,
+   "explain": "Maisarah menemani baginda dan kagum dengan akhlak baginda yang tidak berubah walaupun perjalanan sukar.",
+   "t": 284,
+   "source": "people:p2",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Siapakah sahabat baik Khadijah yang menyampaikan hajatnya kepada Nabi SAW?",
+   "options": [
+    "Nafisa",
+    "Hala",
+    "Hind",
+    "Safiyyah"
+   ],
+   "answer": 0,
+   "explain": "Nafisa bertemu baginda dan bertanya mengapa baginda belum berkahwin.",
+   "t": 614,
+   "source": "events:e1",
+   "level": 1
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Berapakah umur Nabi SAW ketika berkahwin dengan Khadijah?",
+   "options": [
+    "Dua puluh tahun",
+    "Dua puluh lima tahun",
+    "Dua puluh lapan tahun",
+    "Tiga puluh lima tahun"
+   ],
+   "answer": 1,
+   "explain": "Baginda berumur 25 tahun dan Khadijah 28 tahun.",
+   "t": 892,
+   "source": "events:e3",
+   "level": 1
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Apakah mahar Nabi SAW kepada Khadijah?",
+   "options": [
+    "Sepuluh ekor unta",
+    "Dua puluh ekor unta muda",
+    "Seratus ekor unta",
+    "Seribu dirham"
+   ],
+   "answer": 1,
+   "explain": "Baginda memberi dua puluh ekor unta muda sebagai mahar, dan Khadijah menghadiahkan Zaid kepada baginda.",
+   "t": 986,
+   "source": "events:e4",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Siapakah hamba yang dihadiahkan Khadijah kepada Nabi SAW lalu memilih tinggal bersama baginda walaupun ayahnya datang?",
+   "options": [
+    "Ali",
+    "Zaid bin Harithah",
+    "Hakim bin Hizam",
+    "Usamah"
+   ],
+   "answer": 1,
+   "explain": "Zaid menolak pulang bersama ayahnya kerana belum bertemu lelaki yang lebih penyayang daripada Nabi SAW.",
+   "t": 1675,
+   "source": "events:e6",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Mengapakah Nabi SAW mengambil Ali daripada Abu Talib?",
+   "options": [
+    "Kerana Ali mahu belajar berniaga",
+    "Untuk meringankan beban keluarga Abu Talib yang miskin",
+    "Kerana Abu Talib sakit",
+    "Kerana Khadijah meminta"
+   ],
+   "answer": 1,
+   "explain": "Nabi SAW membantu keluarga yang miskin dengan mengambil Ali sebagai anak asuhan.",
+   "t": 1100,
+   "source": "lessons:l6",
+   "level": 2
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Antara anak-anak Nabi SAW, siapakah satu-satunya yang wafat selepas baginda?",
+   "options": [
+    "Zainab",
+    "Ruqayyah",
+    "Ummu Kulthum",
+    "Fatimah"
+   ],
+   "answer": 3,
+   "explain": "Fatimah wafat enam bulan selepas baginda. Anak-anak lain wafat sebelum baginda.",
+   "t": 1237,
+   "source": "people:p26",
+   "level": 1
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Quran melarang anak angkat dinasabkan kepada ayah angkatnya, maka Zaid kembali dikenali sebagai Zaid bin Harithah.",
+   "answer": true,
+   "explain": "Betul. Ayat Al-Ahzab 33:5 menyuruh anak angkat dinasabkan kepada ayah kandung mereka.",
+   "t": 1723,
+   "source": "dalil:q33-5",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Nabi SAW menerima wang tebusan daripada Harithah untuk melepaskan Zaid.",
+   "answer": false,
+   "explain": "Salah. Baginda menolak wang tebusan dan membiarkan Zaid memilih sendiri.",
+   "t": 1604,
+   "source": "lessons:l8",
+   "level": 2
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Abu Talib dan Hamzah meminang"
+    },
+    {
+     "id": "b",
+     "text": "Baginda ke Syam bersama Maisarah"
+    },
+    {
+     "id": "c",
+     "text": "Baginda mengambil Ali sebagai anak asuhan"
+    },
+    {
+     "id": "d",
+     "text": "Nafisa menyampaikan hajat Khadijah"
+    },
+    {
+     "id": "e",
+     "text": "Baginda dan Khadijah dikahwinkan"
+    }
+   ],
+   "answer": [
+    "b",
+    "d",
+    "a",
+    "e",
+    "c"
+   ],
+   "explain": "Baginda ke Syam, Nafisa menyampaikan hajat, Abu Talib dan Hamzah meminang, mereka berkahwin, lalu baginda mengambil Ali.",
+   "t": 420,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Tahirah"
+    },
+    {
+     "id": "b",
+     "text": "Meminang"
+    },
+    {
+     "id": "c",
+     "text": "Mahar"
+    },
+    {
+     "id": "d",
+     "text": "Anak angkat"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Hadiah lelaki kepada perempuan yang dikahwininya"
+    },
+    {
+     "id": "2",
+     "text": "Suci, gelaran Khadijah"
+    },
+    {
+     "id": "3",
+     "text": "Anak yang dijaga seperti anak sendiri tetapi tidak dinasabkan"
+    },
+    {
+     "id": "4",
+     "text": "Datang secara rasmi membawa hajat untuk berkahwin"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "2"
+    ],
+    [
+     "b",
+     "4"
+    ],
+    [
+     "c",
+     "1"
+    ],
+    [
+     "d",
+     "3"
+    ]
+   ],
+   "explain": "Tahirah bermaksud suci, meminang ialah datang membawa hajat berkahwin, mahar hadiah kepada isteri, dan anak angkat tidak dinasabkan kepada penjaganya.",
+   "t": 765,
+   "source": "glossary:g3",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Seorang kawan mengajak anda mengumpat orang lain. Apakah teladan daripada Khadijah?",
+   "options": [
+    "Menjaga lidah, tidak mengumpat, mengejek atau menipu",
+    "Mengumpat sedikit sahaja",
+    "Mengumpat jika orang itu tidak hadir",
+    "Mengejek supaya orang tahu"
+   ],
+   "answer": 0,
+   "explain": "Khadijah tidak pernah mengumpat, mengejek atau menipu.",
+   "t": 750,
+   "source": "lessons:l2",
+   "level": 3
+  }
+ ]
+}

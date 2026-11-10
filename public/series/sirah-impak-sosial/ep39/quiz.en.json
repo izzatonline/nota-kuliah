@@ -1,0 +1,155 @@
+{
+ "id": "ep39",
+ "questions": [
+  {
+   "id": "q1",
+   "q": "What is la'nah (curse)?",
+   "options": [
+    "A prayer that someone be kept far from Allah's mercy",
+    "A gift",
+    "A surah's name",
+    "A type of prayer"
+   ],
+   "explain": "La'nah is a very severe degree of displeasure."
+  },
+  {
+   "id": "q2",
+   "q": "What does Al-Isra' 17:32 forbid concerning zina?",
+   "options": [
+    "Even approaching it",
+    "Only doing it",
+    "Discussing it",
+    "No prohibition"
+   ],
+   "explain": "Stay away from zina and its doors."
+  },
+  {
+   "id": "q3",
+   "q": "Who else bears the sin in dealing with riba?",
+   "options": [
+    "Only the one who consumes it",
+    "No one",
+    "Only the borrower",
+    "The writer, witnesses, guarantors and all involved"
+   ],
+   "explain": "Avoid every role in riba."
+  },
+  {
+   "id": "q4",
+   "q": "What is the effect of an overly expensive wedding?",
+   "options": [
+    "It is obligatory",
+    "No effect",
+    "It burdens and makes marriage difficult",
+    "It makes marriage easier"
+   ],
+   "explain": "Do not make marriage hard with unnecessary spending."
+  },
+  {
+   "id": "q5",
+   "q": "What does As-Saff 61:2-3 stress for religious teachers?",
+   "options": [
+    "Avoiding people",
+    "Integrity: practising what they preach",
+    "Just speaking",
+    "Seeking popularity"
+   ],
+   "explain": "Religious teachers must have integrity."
+  },
+  {
+   "id": "q6",
+   "q": "What is the value of knowledge, charity and struggle if done to earn a title?",
+   "options": [
+    "Very valuable",
+    "The same",
+    "Obligatory",
+    "Worthless"
+   ],
+   "explain": "Straighten the intention and avoid pretence."
+  },
+  {
+   "id": "q7",
+   "q": "Why must we be careful with an orphan's property?",
+   "options": [
+    "Because it is free",
+    "Because it is forgotten",
+    "Because orphans are weakest and easily exploited",
+    "Because it is plentiful"
+   ],
+   "explain": "An-Nisa 4:10 gives a stern warning."
+  },
+  {
+   "id": "q8",
+   "q": "What should drive da'wah according to this lecture?",
+   "options": [
+    "Fame",
+    "Love, not hatred",
+    "Hatred of individuals",
+    "Winning debates"
+   ],
+   "explain": "We hate sin but are not taught to hate individuals."
+  },
+  {
+   "id": "q9",
+   "q": "Gossip, exposing faults and spreading accusations damage the dignity of others.",
+   "explain": "True. Guard your tongue and others' dignity."
+  },
+  {
+   "id": "q10",
+   "q": "Entrenched practices like riba are corrected instantly without stages.",
+   "explain": "False. Social change must come in stages."
+  },
+  {
+   "id": "q11",
+   "q": "Match each term with its meaning.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Riba"
+    },
+    {
+     "id": "b",
+     "text": "Mutawwif"
+    },
+    {
+     "id": "c",
+     "text": "Khamr"
+    },
+    {
+     "id": "d",
+     "text": "Khatib"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "A deliverer of sermons or religious talks"
+    },
+    {
+     "id": "2",
+     "text": "Intoxicants, because they cover the mind"
+    },
+    {
+     "id": "3",
+     "text": "The forbidden increase in a loan"
+    },
+    {
+     "id": "4",
+     "text": "A guide of pilgrims during tawaf"
+    }
+   ],
+   "explain": "Riba is a forbidden increase, a mutawwif guides tawaf, khamr covers the mind, and a khatib gives sermons."
+  },
+  {
+   "id": "q12",
+   "q": "Bilal kept his wudu and prayed each time he made wudu. What is the lesson?",
+   "options": [
+    "One large deed only",
+    "No need to do deeds",
+    "Waiting for a holiday",
+    "Small consistent deeds raise ranks"
+   ],
+   "explain": "Consistency even in small things."
+  }
+ ]
+}

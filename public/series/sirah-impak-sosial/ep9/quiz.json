@@ -1,0 +1,254 @@
+{
+ "id": "ep9",
+ "questions": [
+  {
+   "id": "q1",
+   "type": "mcq",
+   "q": "Di manakah Aminah wafat dalam perjalanan pulang dari Yathrib?",
+   "options": [
+    "Al-Abwa'",
+    "Busra",
+    "Gaza",
+    "Taif"
+   ],
+   "answer": 0,
+   "explain": "Aminah sakit dan wafat di Al-Abwa' sementara Nabi SAW menyaksikannya.",
+   "t": 581,
+   "source": "events:e1",
+   "level": 1
+  },
+  {
+   "id": "q2",
+   "type": "mcq",
+   "q": "Bagaimanakah Abdul Muttalib melayan Nabi SAW yang kecil?",
+   "options": [
+    "Mempertahankannya di kerusi khas dan menyebut masa depannya yang cerah",
+    "Menyuruhnya duduk di luar",
+    "Mengabaikannya",
+    "Memarahinya"
+   ],
+   "answer": 0,
+   "explain": "Beri anak ruang dan kata-kata yang membina.",
+   "t": 948,
+   "source": "lessons:l2",
+   "level": 2
+  },
+  {
+   "id": "q3",
+   "type": "mcq",
+   "q": "Mengapakah Abdul Muttalib memilih Abu Talib sebagai penjaga Nabi SAW, bukan Al-Abbas atau Abu Lahab yang lebih kaya?",
+   "options": [
+    "Kerana Abu Talib paling kaya",
+    "Kerana Abu Talib paling tua",
+    "Kerana Abu Talib tiada anak",
+    "Kerana karakter dan kemampuannya mendidik"
+   ],
+   "answer": 3,
+   "explain": "Karakter lebih utama daripada kewangan dalam memilih penjaga anak.",
+   "t": 1479,
+   "source": "lessons:l6",
+   "level": 2
+  },
+  {
+   "id": "q4",
+   "type": "mcq",
+   "q": "Siapakah ibu kedua Nabi SAW dalam keluarga Abu Talib?",
+   "options": [
+    "Jumanah",
+    "Halimah",
+    "Fatimah binti Asad",
+    "Ummu Hani"
+   ],
+   "answer": 2,
+   "explain": "Fatimah binti Asad antara wanita terawal memeluk Islam dan berhijrah.",
+   "t": 1718,
+   "source": "people:p12",
+   "level": 1
+  },
+  {
+   "id": "q5",
+   "type": "mcq",
+   "q": "Menurut kaedah Al-Quran, siapakah yang dikira yatim?",
+   "options": [
+    "Orang dewasa tanpa ayah",
+    "Anak yang kehilangan ayah sebelum baligh",
+    "Anak yang kehilangan ibu sahaja",
+    "Sesiapa sahaja yang miskin"
+   ],
+   "answer": 1,
+   "explain": "Kehilangan ibu sahaja tidak dikira yatim dalam kaedah Al-Quran, dan selepas baligh seseorang tidak lagi yatim.",
+   "t": 2062,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q6",
+   "type": "mcq",
+   "q": "Apakah yang dilatih oleh keyatiman Nabi SAW?",
+   "options": [
+    "Bergantung kepada harta",
+    "Bergantung kepada bapa saudara",
+    "Tidak bergantung pada sesiapa termasuk Allah",
+    "Bergantung hanya kepada Allah, bukan kepada manusia"
+   ],
+   "answer": 3,
+   "explain": "Hikmah keyatiman melatih pergantungan tertinggi kepada Allah.",
+   "t": 1984,
+   "source": "lessons:l7",
+   "level": 1
+  },
+  {
+   "id": "q7",
+   "type": "mcq",
+   "q": "Adakah anak yatim termasuk golongan asnaf zakat?",
+   "options": [
+    "Hanya anak yatim lelaki",
+    "Tidak, walaupun miskin",
+    "Tidak, melainkan jika dia miskin",
+    "Ya, semua anak yatim"
+   ],
+   "answer": 2,
+   "explain": "Anak yatim bukan asnaf zakat melainkan dia miskin. Berhati-hati dengan nama dan harta anak yatim.",
+   "t": 2197,
+   "source": "glossary:g4",
+   "level": 2
+  },
+  {
+   "id": "q8",
+   "type": "tf",
+   "q": "Kehilangan ibu sahaja menjadikan seorang kanak-kanak yatim dalam kaedah Al-Quran.",
+   "answer": false,
+   "explain": "Salah. Yatim ialah anak yang kehilangan ayah; kehilangan kedua-duanya dipanggil yatim piatu.",
+   "t": 2062,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q9",
+   "type": "tf",
+   "q": "Menjaga anak yatim bermaksud makan dan tinggal bersama kita, bukan sekadar mengirim wang.",
+   "answer": true,
+   "explain": "Betul. Jaga anak yatim di dalam rumah sendiri.",
+   "t": 2605,
+   "source": "lessons:l11",
+   "level": 1
+  },
+  {
+   "id": "q10",
+   "type": "order",
+   "q": "Susunkan peristiwa ini mengikut urutan yang betul.",
+   "items": [
+    {
+     "id": "a",
+     "text": "Berpindah ke rumah Abu Talib"
+    },
+    {
+     "id": "b",
+     "text": "Aminah wafat di Al-Abwa'"
+    },
+    {
+     "id": "c",
+     "text": "Perjalanan ke Yathrib"
+    },
+    {
+     "id": "d",
+     "text": "Wasiat kepada Abu Talib"
+    },
+    {
+     "id": "e",
+     "text": "Dijaga Abdul Muttalib"
+    }
+   ],
+   "answer": [
+    "c",
+    "b",
+    "e",
+    "d",
+    "a"
+   ],
+   "explain": "Ke Yathrib, Aminah wafat, dijaga datuk, diwasiatkan kepada Abu Talib, lalu berpindah ke rumahnya.",
+   "t": 429,
+   "source": "events:e0",
+   "level": 2
+  },
+  {
+   "id": "q11",
+   "type": "match",
+   "q": "Padankan istilah dengan maksudnya.",
+   "left": [
+    {
+     "id": "a",
+     "text": "Yatim"
+    },
+    {
+     "id": "b",
+     "text": "Yatim piatu"
+    },
+    {
+     "id": "c",
+     "text": "Baligh"
+    },
+    {
+     "id": "d",
+     "text": "Securely attached"
+    }
+   ],
+   "right": [
+    {
+     "id": "1",
+     "text": "Anak yang kehilangan ayah sebelum baligh"
+    },
+    {
+     "id": "2",
+     "text": "Anak yang kehilangan kedua-dua ibu dan ayah"
+    },
+    {
+     "id": "3",
+     "text": "Mencapai usia dewasa menurut syariah"
+    },
+    {
+     "id": "4",
+     "text": "Anak melekat dengan orang dewasa yang menjaga dan menenteramkannya"
+    }
+   ],
+   "answer": [
+    [
+     "a",
+     "1"
+    ],
+    [
+     "b",
+     "2"
+    ],
+    [
+     "c",
+     "3"
+    ],
+    [
+     "d",
+     "4"
+    ]
+   ],
+   "explain": "Yatim kehilangan ayah, yatim piatu kedua-duanya, baligh dewasa, dan securely attached melekat dengan penjaga.",
+   "t": 2062,
+   "source": "glossary:g1",
+   "level": 1
+  },
+  {
+   "id": "q12",
+   "type": "mcq",
+   "q": "Anda menjaga seorang anak yatim. Apakah yang paling diperlukannya selain makan minum?",
+   "options": [
+    "Tiada disiplin",
+    "Kasih sayang dan orang dewasa yang melekat dengannya",
+    "Hanya wang",
+    "Dibiarkan sendiri"
+   ],
+   "answer": 1,
+   "explain": "Anak yatim perlukan kasih sayang, bukan sekadar makan minum.",
+   "t": 2195,
+   "source": "lessons:l9",
+   "level": 3
+  }
+ ]
+}
