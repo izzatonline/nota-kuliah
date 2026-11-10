@@ -1,0 +1,5 @@
+# How to report a security problem with notakuliah.com. See https://securitytxt.org
+Contact: https://github.com/izzatonline/nota-kuliah/security/advisories/new
+Expires: 2027-11-11T00:00:00.000Z
+Preferred-Languages: ms, en
+Canonical: https://notakuliah.com/.well-known/security.txt
