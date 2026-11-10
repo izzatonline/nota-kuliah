@@ -307,6 +307,38 @@
    "role": "Kawan Zaid",
    "t": 1099,
    "context": "Menyampaikan salam Zaid kepada Nabi SAW."
+  },
+  {
+   "id": "p12",
+   "name": "Zaid bin Khattab",
+   "person": "zaid-bin-khattab",
+   "role": "Suami Atikah binti Said yang syahid",
+   "t": 954,
+   "context": "Suami pertama Atikah; anak Al-Khattab dan adik Umar. Salah seorang daripada lima suaminya yang mati syahid."
+  },
+  {
+   "id": "p13",
+   "name": "Abdullah bin Abu Bakar",
+   "person": "abdullah-bin-abu-bakar",
+   "role": "Suami Atikah binti Said yang syahid",
+   "t": 977,
+   "context": "Suami Atikah selepas Zaid bin Khattab; anak Abu Bakar. Salah seorang daripada lima suaminya yang mati syahid."
+  },
+  {
+   "id": "p14",
+   "name": "Zubair bin Al-Awwam",
+   "person": "az-zubair-bin-al-awwam",
+   "role": "Suami Atikah binti Said yang syahid",
+   "t": 993,
+   "context": "Suami Atikah selepas Umar yang syahid. Salah seorang daripada lima suaminya yang mati syahid."
+  },
+  {
+   "id": "p15",
+   "name": "Hassan bin Ali",
+   "person": "hasan-bin-ali",
+   "role": "Suami terakhir Atikah; cucu Nabi SAW",
+   "t": 1014,
+   "context": "Suami terakhir Atikah. Beliau meninggal sebelum Hassan RA meninggal."
   }
  ],
  "sirah": {

@@ -519,6 +519,54 @@
    "role": "Sahabat",
    "t": 4460,
    "context": "Kelak membebaskan ramai hamba dan ditekan ayahnya; Allah menjawab dalam Al-Lail."
+  },
+  {
+   "id": "p17",
+   "name": "Al-Qasim",
+   "person": "qasim",
+   "role": "Anak Nabi SAW",
+   "t": 641,
+   "context": "Anak sulung Nabi SAW bersama Khadijah; antara enam anak mereka."
+  },
+  {
+   "id": "p18",
+   "name": "Zainab",
+   "person": "zainab-binti-muhammad",
+   "role": "Anak Nabi SAW",
+   "t": 645,
+   "context": "Antara enam anak Nabi SAW bersama Khadijah."
+  },
+  {
+   "id": "p19",
+   "name": "Ruqayyah",
+   "person": "ruqayyah",
+   "role": "Anak Nabi SAW",
+   "t": 645,
+   "context": "Antara enam anak Nabi SAW bersama Khadijah."
+  },
+  {
+   "id": "p20",
+   "name": "Ummu Kulthum",
+   "person": "ummu-kulthum",
+   "role": "Anak Nabi SAW",
+   "t": 645,
+   "context": "Antara enam anak Nabi SAW bersama Khadijah."
+  },
+  {
+   "id": "p21",
+   "name": "Fatimah",
+   "person": "fatimah-az-zahra",
+   "role": "Anak Nabi SAW",
+   "t": 645,
+   "context": "Antara enam anak Nabi SAW bersama Khadijah."
+  },
+  {
+   "id": "p22",
+   "name": "Abdullah",
+   "person": "abdullah-anak-nabi",
+   "role": "Anak Nabi SAW",
+   "t": 649,
+   "context": "Anak Nabi SAW yang lahir kemudian; bayi yang hanya sempat hidup seketika sebelum meninggal."
   }
  ],
  "sirah": {

@@ -358,6 +358,30 @@
    "role": "Ummul Mu'minin",
    "t": 1642,
    "context": "Meriwayatkan bahawa beliau masih ingat seorang pengemis buta yang pernah menjadi pembantu pemandu gajah."
+  },
+  {
+   "id": "p10",
+   "name": "Hashim",
+   "person": "hashim",
+   "role": "Tokoh bisnes yang menjaga zon dagang",
+   "t": 26,
+   "context": "Antara empat tokoh bisnes yang menjaga zon-zon dagang; Hashim menjaga belah Syam."
+  },
+  {
+   "id": "p11",
+   "name": "Abdul Syams",
+   "person": "abdul-syams",
+   "role": "Tokoh bisnes yang menjaga zon dagang",
+   "t": 32,
+   "context": "Antara empat tokoh bisnes yang menjaga zon-zon dagang."
+  },
+  {
+   "id": "p12",
+   "name": "Al-Muttalib",
+   "person": "al-muttalib",
+   "role": "Tokoh bisnes yang menjaga zon dagang",
+   "t": 32,
+   "context": "Antara empat tokoh bisnes yang menjaga zon-zon dagang; Al-Muttalib menjaga belah Yemen."
   }
  ],
  "sirah": {

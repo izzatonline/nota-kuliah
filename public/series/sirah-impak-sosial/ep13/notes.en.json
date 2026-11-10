@@ -10,135 +10,561 @@
   "Make marriage easy by looking for religion and character, not by piling on material expectations."
  ],
  "chapters": [
-  {"id": "c1", "title": "Introduction: four trainings before Khadijah", "summary": "The ustaz sums up the Prophet's SAW character training and the effect of Hilf al-Fudul as a benchmark of justice."},
-  {"id": "c2", "title": "Hilf al-Fudul as a benchmark", "summary": "The Yemeni man's rights were returned, and Hassan ibn Ali later called for the same pact to claim his own rights."},
-  {"id": "c3", "title": "The inauthentic Umm Hani proposal story", "summary": "The report of a proposal before prophethood is criticised by scholars; the authentic proposal came after the Conquest of Makkah and was declined."},
-  {"id": "c4", "title": "Purposes of marriage in Arab culture", "summary": "Marriage was used to strengthen kinship, reconcile tribes and widen the reach of the call."},
-  {"id": "c5", "title": "Khadijah RA: a renowned and wealthy woman", "summary": "Khadijah inherited from two husbands, grew the wealth through managers, and turned down prominent suitors because character mattered more than wealth."},
-  {"id": "c6", "title": "Hala, the wages and a name suggested", "summary": "Hala told Khadijah, who was often cheated by her managers, about the Prophet's SAW honesty as a shepherd."},
-  {"id": "c7", "title": "The mudarabah offer and Abu Talib's acceptance", "summary": "Khadijah offered a 50-50 split and Abu Talib encouraged the Prophet SAW to accept."},
-  {"id": "c8", "title": "Travel reveals character", "summary": "A hadith on travel and the words of scholars that a journey tests and shows a person's true character."},
-  {"id": "c9", "title": "The Busra trip and the doubled profit", "summary": "The Prophet SAW finished the trade quicker and the profit doubled; Maisarah praised his character."},
-  {"id": "c10", "title": "Nafisah conveys Khadijah's wish", "summary": "Nafisah probed with tact, and the Prophet SAW answered politely until the wish was met."},
-  {"id": "c11", "title": "The proposal, dowry and marriage contract", "summary": "Abu Talib and Hamzah proposed, Waraqah conducted the marriage, the dowry was 20 young camels and a feast followed."},
-  {"id": "c12", "title": "Khadijah's age and their children", "summary": "The ustaz chooses the age of 28 and lists the six children of the Prophet SAW and Khadijah."},
-  {"id": "c13", "title": "The household and four jahili marriage types", "summary": "Ali, Zayd and Umm Ayman lived in the house; Aisha RA reported four ways of marrying in jahiliyyah."},
-  {"id": "c14", "title": "Closing: make marriage easy", "summary": "The ustaz closes with a hadith on marrying off one whose religion and character you accept and a critique of excessive expectations."}
+  {
+   "id": "c1",
+   "title": "Introduction: four trainings before Khadijah",
+   "summary": "The ustaz sums up the Prophet's SAW character training and the effect of Hilf al-Fudul as a benchmark of justice."
+  },
+  {
+   "id": "c2",
+   "title": "Hilf al-Fudul as a benchmark",
+   "summary": "The Yemeni man's rights were returned, and Hassan ibn Ali later called for the same pact to claim his own rights."
+  },
+  {
+   "id": "c3",
+   "title": "The inauthentic Umm Hani proposal story",
+   "summary": "The report of a proposal before prophethood is criticised by scholars; the authentic proposal came after the Conquest of Makkah and was declined."
+  },
+  {
+   "id": "c4",
+   "title": "Purposes of marriage in Arab culture",
+   "summary": "Marriage was used to strengthen kinship, reconcile tribes and widen the reach of the call."
+  },
+  {
+   "id": "c5",
+   "title": "Khadijah RA: a renowned and wealthy woman",
+   "summary": "Khadijah inherited from two husbands, grew the wealth through managers, and turned down prominent suitors because character mattered more than wealth."
+  },
+  {
+   "id": "c6",
+   "title": "Hala, the wages and a name suggested",
+   "summary": "Hala told Khadijah, who was often cheated by her managers, about the Prophet's SAW honesty as a shepherd."
+  },
+  {
+   "id": "c7",
+   "title": "The mudarabah offer and Abu Talib's acceptance",
+   "summary": "Khadijah offered a 50-50 split and Abu Talib encouraged the Prophet SAW to accept."
+  },
+  {
+   "id": "c8",
+   "title": "Travel reveals character",
+   "summary": "A hadith on travel and the words of scholars that a journey tests and shows a person's true character."
+  },
+  {
+   "id": "c9",
+   "title": "The Busra trip and the doubled profit",
+   "summary": "The Prophet SAW finished the trade quicker and the profit doubled; Maisarah praised his character."
+  },
+  {
+   "id": "c10",
+   "title": "Nafisah conveys Khadijah's wish",
+   "summary": "Nafisah probed with tact, and the Prophet SAW answered politely until the wish was met."
+  },
+  {
+   "id": "c11",
+   "title": "The proposal, dowry and marriage contract",
+   "summary": "Abu Talib and Hamzah proposed, Waraqah conducted the marriage, the dowry was 20 young camels and a feast followed."
+  },
+  {
+   "id": "c12",
+   "title": "Khadijah's age and their children",
+   "summary": "The ustaz chooses the age of 28 and lists the six children of the Prophet SAW and Khadijah."
+  },
+  {
+   "id": "c13",
+   "title": "The household and four jahili marriage types",
+   "summary": "Ali, Zayd and Umm Ayman lived in the house; Aisha RA reported four ways of marrying in jahiliyyah."
+  },
+  {
+   "id": "c14",
+   "title": "Closing: make marriage easy",
+   "summary": "The ustaz closes with a hadith on marrying off one whose religion and character you accept and a critique of excessive expectations."
+  }
  ],
  "books": [
-  {"id": "b1", "context": "Recommended reading for those who own the translation.", "note": "Author not named in the lecture: Safiyyurrahman Al-Mubarakfuri"},
-  {"id": "b2", "context": "Contains a profile of each child of the Prophet SAW and is the source for the view that Khadijah was 28."}
+  {
+   "id": "b1",
+   "context": "Recommended reading for those who own the translation.",
+   "note": "Author not named in the lecture: Safiyyurrahman Al-Mubarakfuri"
+  },
+  {
+   "id": "b2",
+   "context": "Contains a profile of each child of the Prophet SAW and is the source for the view that Khadijah was 28."
+  }
  ],
  "people": [
-  {"id": "p1", "role": "First wife of the Prophet SAW", "context": "A wealthy merchant twice married before, who chose the Prophet SAW for his character."},
-  {"id": "p2", "role": "Cousin of the Prophet SAW", "context": "The Prophet's SAW authentic proposal to her was declined after the Conquest of Makkah."},
-  {"id": "p3", "role": "Narrator of the Umm Hani proposal report", "context": "A narrator whose report scholars rejected as he was called a liar."},
-  {"id": "p4", "role": "Scholar", "context": "Held that Umm Hani declined because she was older and had several children."},
-  {"id": "p5", "role": "Grandson of the Prophet SAW", "context": "Called for the Hilf al-Fudul pact to claim his rights from the elite."},
-  {"id": "p6", "role": "Younger sister of Khadijah", "context": "Introduced the Prophet's SAW honesty to her sister."},
-  {"id": "p7", "role": "Khadijah's male assistant", "context": "Joined the Prophet's SAW trade trip and reported on his character."},
-  {"id": "p8", "role": "Close friend of Khadijah", "context": "Acted as go-between and sounded out the Prophet's SAW wish."},
-  {"id": "p9", "role": "Uncle of the Prophet SAW", "context": "Encouraged him to accept Khadijah's offer and carried the proposal."},
-  {"id": "p10", "role": "Uncle of the Prophet SAW", "context": "Joined the proposal because his sister Safiyyah was married to Awwam, Khadijah's brother."},
-  {"id": "p11", "role": "Cousin of Khadijah", "context": "Represented Khadijah and conducted her marriage to the Prophet SAW."},
-  {"id": "p12", "role": "Slave given as a gift by Khadijah", "context": "Given to the Prophet SAW as a wedding gift."},
-  {"id": "p13", "role": "Nurse of the Prophet SAW", "context": "Technically freed at this marriage; the Prophet SAW called her his mother after his mother."},
-  {"id": "p14", "role": "Son-in-law of the Prophet SAW", "context": "Married Ruqayyah and then Umm Kulthum, and was called Dhun-Nurayn."},
-  {"id": "p15", "role": "Cousin of the Prophet SAW", "context": "Taken into the Prophet's SAW house to ease Abu Talib's burden."},
-  {"id": "p16", "role": "Uncle of the Prophet SAW", "context": "Took Ja'far in to help Abu Talib."},
-  {"id": "p17", "role": "Companion of the Prophet SAW", "context": "Asked whether someone had travelled with a person whose character was being judged."},
-  {"id": "p18", "role": "Scholar", "context": "Said one who stays well-mannered through the hardship of travel will be even better at home."},
-  {"id": "p19", "role": "Wife of the Prophet SAW", "context": "Reported the four types of jahili marriage."},
-  {"id": "p20", "role": "Eldest child of the Prophet SAW and Khadijah", "context": "Born 12 years before the revelation and died at 17 months."},
-  {"id": "p21", "role": "Daughter of the Prophet SAW", "context": "Lived long with the Prophet SAW, who buried her himself."},
-  {"id": "p22", "role": "Daughter of the Prophet SAW", "context": "Married to Uthman; died around the time of the Battle of Badr."},
-  {"id": "p23", "role": "Daughter of the Prophet SAW", "context": "Married to Uthman after Ruqayyah."},
-  {"id": "p24", "role": "Daughter of the Prophet SAW", "context": "Called the mother of her father; born around four or five years before the revelation."},
-  {"id": "p25", "role": "Son of the Prophet SAW", "context": "Died in childhood."}
+  {
+   "id": "p1",
+   "role": "First wife of the Prophet SAW",
+   "context": "A wealthy merchant twice married before, who chose the Prophet SAW for his character."
+  },
+  {
+   "id": "p2",
+   "role": "Cousin of the Prophet SAW",
+   "context": "The Prophet's SAW authentic proposal to her was declined after the Conquest of Makkah."
+  },
+  {
+   "id": "p3",
+   "role": "Narrator of the Umm Hani proposal report",
+   "context": "A narrator whose report scholars rejected as he was called a liar."
+  },
+  {
+   "id": "p4",
+   "role": "Scholar",
+   "context": "Held that Umm Hani declined because she was older and had several children."
+  },
+  {
+   "id": "p5",
+   "role": "Grandson of the Prophet SAW",
+   "context": "Called for the Hilf al-Fudul pact to claim his rights from the elite."
+  },
+  {
+   "id": "p6",
+   "role": "Younger sister of Khadijah",
+   "context": "Introduced the Prophet's SAW honesty to her sister."
+  },
+  {
+   "id": "p7",
+   "role": "Khadijah's male assistant",
+   "context": "Joined the Prophet's SAW trade trip and reported on his character."
+  },
+  {
+   "id": "p8",
+   "role": "Close friend of Khadijah",
+   "context": "Acted as go-between and sounded out the Prophet's SAW wish."
+  },
+  {
+   "id": "p9",
+   "role": "Uncle of the Prophet SAW",
+   "context": "Encouraged him to accept Khadijah's offer and carried the proposal."
+  },
+  {
+   "id": "p10",
+   "role": "Uncle of the Prophet SAW",
+   "context": "Joined the proposal because his sister Safiyyah was married to Awwam, Khadijah's brother."
+  },
+  {
+   "id": "p11",
+   "role": "Cousin of Khadijah",
+   "context": "Represented Khadijah and conducted her marriage to the Prophet SAW."
+  },
+  {
+   "id": "p12",
+   "role": "Slave given as a gift by Khadijah",
+   "context": "Given to the Prophet SAW as a wedding gift."
+  },
+  {
+   "id": "p13",
+   "role": "Nurse of the Prophet SAW",
+   "context": "Technically freed at this marriage; the Prophet SAW called her his mother after his mother."
+  },
+  {
+   "id": "p14",
+   "role": "Son-in-law of the Prophet SAW",
+   "context": "Married Ruqayyah and then Umm Kulthum, and was called Dhun-Nurayn."
+  },
+  {
+   "id": "p15",
+   "role": "Cousin of the Prophet SAW",
+   "context": "Taken into the Prophet's SAW house to ease Abu Talib's burden."
+  },
+  {
+   "id": "p16",
+   "role": "Uncle of the Prophet SAW",
+   "context": "Took Ja'far in to help Abu Talib."
+  },
+  {
+   "id": "p17",
+   "role": "Companion of the Prophet SAW",
+   "context": "Asked whether someone had travelled with a person whose character was being judged."
+  },
+  {
+   "id": "p18",
+   "role": "Scholar",
+   "context": "Said one who stays well-mannered through the hardship of travel will be even better at home."
+  },
+  {
+   "id": "p19",
+   "role": "Wife of the Prophet SAW",
+   "context": "Reported the four types of jahili marriage."
+  },
+  {
+   "id": "p20",
+   "role": "Eldest child of the Prophet SAW and Khadijah",
+   "context": "Born 12 years before the revelation and died at 17 months."
+  },
+  {
+   "id": "p21",
+   "role": "Daughter of the Prophet SAW",
+   "context": "Lived long with the Prophet SAW, who buried her himself."
+  },
+  {
+   "id": "p22",
+   "role": "Daughter of the Prophet SAW",
+   "context": "Married to Uthman; died around the time of the Battle of Badr."
+  },
+  {
+   "id": "p23",
+   "role": "Daughter of the Prophet SAW",
+   "context": "Married to Uthman after Ruqayyah."
+  },
+  {
+   "id": "p24",
+   "role": "Daughter of the Prophet SAW",
+   "context": "Called the mother of her father; born around four or five years before the revelation."
+  },
+  {
+   "id": "p25",
+   "role": "Son of the Prophet SAW",
+   "context": "Died in childhood."
+  },
+  {
+   "id": "p26",
+   "role": "Khadijah's first husband",
+   "context": "Khadijah married Abu Hala before the Prophet SAW; three children came from this marriage."
+  },
+  {
+   "id": "p27",
+   "role": "Khadijah's second husband",
+   "context": "Khadijah married him after Abu Hala; one child came from this marriage. The spelling of the name needs checking."
+  },
+  {
+   "id": "p28",
+   "role": "Khadijah's child",
+   "context": "Mentioned as one of Khadijah's children from her earlier marriages."
+  }
  ],
  "lessons": [
-  {"id": "l1", "title": "Check the authenticity of sirah reports", "body": "The report of a proposal to Umm Hani before prophethood is rejected by scholars and cannot be accepted."},
-  {"id": "l2", "title": "Marriage has social purposes", "body": "Marriage strengthens kinship, reconciles tribes and widens the call."},
-  {"id": "l3", "title": "Character over wealth", "body": "Khadijah declined wealthy suitors because character is everything."},
-  {"id": "l4", "title": "Honesty makes a trusted name", "body": "The Prophet's SAW honesty, even about his wages, led people to mention his name."},
-  {"id": "l5", "title": "Mudarabah is a fair partnership", "body": "The investor bears the monetary loss and the worker bears the loss of time and effort."},
-  {"id": "l6", "title": "Travel tests character", "body": "To judge someone's character, ask people who have travelled with them."},
-  {"id": "l7", "title": "Assessing a prospective spouse wisely", "body": "Besides social media, ask the imam, teachers and friends who have travelled with the person."},
-  {"id": "l8", "title": "A good friend brings good", "body": "Nafisah conveyed the wish with tact and protected both sides' dignity."},
-  {"id": "l9", "title": "Respect family in marriage matters", "body": "The Prophet SAW told his uncle first, and Abu Talib and Hamzah carried the proposal."},
-  {"id": "l10", "title": "Reject false stories about the Prophet's SAW marriage", "body": "The story that Khadijah's father was made drunk is not authentic and contradicts the Prophet's SAW character."},
-  {"id": "l11", "title": "The Prophet's SAW marriage met the shariah", "body": "There was a guardian, dowry, sermon, offer and acceptance, and a feast."},
-  {"id": "l12", "title": "Make the lawful easy and the unlawful hard", "body": "Do not set excessive material expectations that make marriage hard and push people toward the forbidden."}
+  {
+   "id": "l1",
+   "title": "Check the authenticity of sirah reports",
+   "body": "The report of a proposal to Umm Hani before prophethood is rejected by scholars and cannot be accepted."
+  },
+  {
+   "id": "l2",
+   "title": "Marriage has social purposes",
+   "body": "Marriage strengthens kinship, reconciles tribes and widens the call."
+  },
+  {
+   "id": "l3",
+   "title": "Character over wealth",
+   "body": "Khadijah declined wealthy suitors because character is everything."
+  },
+  {
+   "id": "l4",
+   "title": "Honesty makes a trusted name",
+   "body": "The Prophet's SAW honesty, even about his wages, led people to mention his name."
+  },
+  {
+   "id": "l5",
+   "title": "Mudarabah is a fair partnership",
+   "body": "The investor bears the monetary loss and the worker bears the loss of time and effort."
+  },
+  {
+   "id": "l6",
+   "title": "Travel tests character",
+   "body": "To judge someone's character, ask people who have travelled with them."
+  },
+  {
+   "id": "l7",
+   "title": "Assessing a prospective spouse wisely",
+   "body": "Besides social media, ask the imam, teachers and friends who have travelled with the person."
+  },
+  {
+   "id": "l8",
+   "title": "A good friend brings good",
+   "body": "Nafisah conveyed the wish with tact and protected both sides' dignity."
+  },
+  {
+   "id": "l9",
+   "title": "Respect family in marriage matters",
+   "body": "The Prophet SAW told his uncle first, and Abu Talib and Hamzah carried the proposal."
+  },
+  {
+   "id": "l10",
+   "title": "Reject false stories about the Prophet's SAW marriage",
+   "body": "The story that Khadijah's father was made drunk is not authentic and contradicts the Prophet's SAW character."
+  },
+  {
+   "id": "l11",
+   "title": "The Prophet's SAW marriage met the shariah",
+   "body": "There was a guardian, dowry, sermon, offer and acceptance, and a feast."
+  },
+  {
+   "id": "l12",
+   "title": "Make the lawful easy and the unlawful hard",
+   "body": "Do not set excessive material expectations that make marriage hard and push people toward the forbidden."
+  }
  ],
  "glossary": [
-  {"id": "g1", "meaning": "A partnership between a capital owner and a worker, with an agreed profit split and monetary loss borne by the investor."},
-  {"id": "g2", "meaning": "Travel; the word is linked to 'uncovering', because a journey uncovers a person's true character."},
-  {"id": "g3", "meaning": "Ijab is the offer and qabul the acceptance in a marriage contract."},
-  {"id": "g4", "meaning": "The obligatory gift from husband to wife; the Prophet's SAW dowry was 20 young camels."},
-  {"id": "g5", "meaning": "The wedding feast."},
-  {"id": "g6", "meaning": "A jahili marriage form where the husband sent his wife to another man to obtain particular offspring."},
-  {"id": "g7", "meaning": "Possessor of two lights, the title of Uthman for marrying two daughters of the Prophet SAW."},
-  {"id": "g8", "meaning": "The guardian who gives a woman in marriage."}
+  {
+   "id": "g1",
+   "meaning": "A partnership between a capital owner and a worker, with an agreed profit split and monetary loss borne by the investor."
+  },
+  {
+   "id": "g2",
+   "meaning": "Travel; the word is linked to 'uncovering', because a journey uncovers a person's true character."
+  },
+  {
+   "id": "g3",
+   "meaning": "Ijab is the offer and qabul the acceptance in a marriage contract."
+  },
+  {
+   "id": "g4",
+   "meaning": "The obligatory gift from husband to wife; the Prophet's SAW dowry was 20 young camels."
+  },
+  {
+   "id": "g5",
+   "meaning": "The wedding feast."
+  },
+  {
+   "id": "g6",
+   "meaning": "A jahili marriage form where the husband sent his wife to another man to obtain particular offspring."
+  },
+  {
+   "id": "g7",
+   "meaning": "Possessor of two lights, the title of Uthman for marrying two daughters of the Prophet SAW."
+  },
+  {
+   "id": "g8",
+   "meaning": "The guardian who gives a woman in marriage."
+  }
  ],
  "dalil": [
-  {"id": "h0", "context": "Linked to the fact that travel tests and reveals a person's real character.", "translation": "Travel is a part of torment; it keeps one from food, drink and sleep. When one has finished his purpose, let him hasten back to his family."},
-  {"id": "h1", "context": "An authentic hadith showing the proposal came after the Conquest of Makkah and was declined, not before prophethood.", "translation": "The Prophet SAW proposed to Umm Hani; she replied that she was older with many children, and the Prophet SAW said the best women who ride camels are those most tender to small children and most protective of their husband's property."},
-  {"id": "h2", "context": "A report scholars reject and which is not accepted because its narrators were called liars.", "translation": "A report from Hisham al-Kalbi that the Prophet SAW proposed to Umm Hani before prophethood, but Abu Talib married her to Hubayrah."},
-  {"id": "h3", "context": "Shows the Prophet's SAW marriage to Khadijah followed the proper way, unlike jahili practices.", "translation": "In jahiliyyah there were four types of marriage: a man proposing to the guardian and marrying, which was how the Prophet SAW married, then istibda', group relations, and prostitution."},
-  {"id": "h4", "context": "A closing reminder to make marriage easy by judging religion and character.", "translation": "If someone comes to you whose religion and character you are pleased with, marry him off; if not, there will be tribulation and great corruption."}
+  {
+   "id": "h0",
+   "context": "Linked to the fact that travel tests and reveals a person's real character.",
+   "translation": "Travel is a part of torment; it keeps one from food, drink and sleep. When one has finished his purpose, let him hasten back to his family."
+  },
+  {
+   "id": "h1",
+   "context": "An authentic hadith showing the proposal came after the Conquest of Makkah and was declined, not before prophethood.",
+   "translation": "The Prophet SAW proposed to Umm Hani; she replied that she was older with many children, and the Prophet SAW said the best women who ride camels are those most tender to small children and most protective of their husband's property."
+  },
+  {
+   "id": "h2",
+   "context": "A report scholars reject and which is not accepted because its narrators were called liars.",
+   "translation": "A report from Hisham al-Kalbi that the Prophet SAW proposed to Umm Hani before prophethood, but Abu Talib married her to Hubayrah."
+  },
+  {
+   "id": "h3",
+   "context": "Shows the Prophet's SAW marriage to Khadijah followed the proper way, unlike jahili practices.",
+   "translation": "In jahiliyyah there were four types of marriage: a man proposing to the guardian and marrying, which was how the Prophet SAW married, then istibda', group relations, and prostitution."
+  },
+  {
+   "id": "h4",
+   "context": "A closing reminder to make marriage easy by judging religion and character.",
+   "translation": "If someone comes to you whose religion and character you are pleased with, marry him off; if not, there will be tribulation and great corruption."
+  }
  ],
  "sirah": {
   "era": "After age 20 up to the marriage to Khadijah",
   "summary": "The Prophet SAW worked as Khadijah's trade agent, succeeded at Busra, then married Khadijah and built a large household.",
   "events": [
-   {"id": "e0", "label": "The offer", "title": "Khadijah offers a mudarabah", "desc": "Khadijah offered a 50-50 split to take her goods to Sham, and Abu Talib encouraged him."},
-   {"id": "e1", "label": "The journey", "title": "Trade at Busra with Maisarah", "desc": "The trade finished sooner with doubled profit, and Maisarah praised his character."},
-   {"id": "e2", "label": "The wish", "title": "Nafisah acts as go-between", "desc": "Nafisah probed and conveyed Khadijah's wish, and the Prophet SAW replied politely."},
-   {"id": "e3", "label": "The proposal", "title": "Abu Talib and Hamzah propose", "desc": "The proposal was delivered in verse, without Khadijah's father, who had died."},
-   {"id": "e4", "label": "The contract", "title": "Waraqah marries them with a 20-camel dowry", "desc": "Offer and acceptance were made with a sermon and a feast of two camels."},
-   {"id": "e5", "label": "Household", "title": "A large family in Khadijah's house", "desc": "Six children, Ali, Zayd and Umm Ayman with her son lived together."}
+   {
+    "id": "e0",
+    "label": "The offer",
+    "title": "Khadijah offers a mudarabah",
+    "desc": "Khadijah offered a 50-50 split to take her goods to Sham, and Abu Talib encouraged him."
+   },
+   {
+    "id": "e1",
+    "label": "The journey",
+    "title": "Trade at Busra with Maisarah",
+    "desc": "The trade finished sooner with doubled profit, and Maisarah praised his character."
+   },
+   {
+    "id": "e2",
+    "label": "The wish",
+    "title": "Nafisah acts as go-between",
+    "desc": "Nafisah probed and conveyed Khadijah's wish, and the Prophet SAW replied politely."
+   },
+   {
+    "id": "e3",
+    "label": "The proposal",
+    "title": "Abu Talib and Hamzah propose",
+    "desc": "The proposal was delivered in verse, without Khadijah's father, who had died."
+   },
+   {
+    "id": "e4",
+    "label": "The contract",
+    "title": "Waraqah marries them with a 20-camel dowry",
+    "desc": "Offer and acceptance were made with a sermon and a feast of two camels."
+   },
+   {
+    "id": "e5",
+    "label": "Household",
+    "title": "A large family in Khadijah's house",
+    "desc": "Six children, Ali, Zayd and Umm Ayman with her son lived together."
+   }
   ]
  },
  "mindmap": {
-  "id": "root", "label": "The Prophet SAW and Khadijah RA", "detail": "Meeting, marriage and family.",
+  "id": "root",
+  "label": "The Prophet SAW and Khadijah RA",
+  "detail": "Meeting, marriage and family.",
   "children": [
-   {"id": "m1", "label": "The Umm Hani issue", "detail": "The early proposal is not authentic.", "children": [
-    {"id": "m1a", "label": "Weak report", "detail": "From Hisham al-Kalbi."},
-    {"id": "m1b", "label": "Authentic Muslim hadith", "detail": "Declined after the Conquest of Makkah."}
-   ]},
-   {"id": "m2", "label": "Purposes of marriage", "detail": "The social role of marriage.", "children": [
-    {"id": "m2a", "label": "Strengthen kinship", "detail": "Umar, Uthman and Abu Bakr."},
-    {"id": "m2b", "label": "Reconcile tribes", "detail": "The example of Abu Jahl's daughter and Ali."},
-    {"id": "m2c", "label": "Widen the call", "detail": "The wife's tribe embraces Islam."}
-   ]},
-   {"id": "m3", "label": "Khadijah RA", "detail": "A wealthy woman of character.", "children": [
-    {"id": "m3a", "label": "Two marriages", "detail": "Four children and inherited wealth."},
-    {"id": "m3b", "label": "Large business", "detail": "Employed managers."},
-    {"id": "m3c", "label": "Declined rich suitors", "detail": "Abu Jahl and Abu Sufyan."}
-   ]},
-   {"id": "m4", "label": "The offer and trade", "detail": "Mudarabah and doubled returns.", "children": [
-    {"id": "m4a", "label": "Hala's recommendation", "detail": "Spoke of the Prophet's SAW honesty."},
-    {"id": "m4b", "label": "50-50 split", "detail": "With Maisarah."},
-    {"id": "m4c", "label": "Double the profit", "detail": "At the Busra market."}
-   ]},
-   {"id": "m5", "label": "Travel and character", "detail": "Travel exposes manners.", "children": [
-    {"id": "m5a", "label": "Hadith on travel", "detail": "Bukhari and Muslim."},
-    {"id": "m5b", "label": "Umar's question", "detail": "Have you travelled with him?"}
-   ]},
-   {"id": "m6", "label": "Proposal and marriage", "detail": "Nafisah, proposal, dowry.", "children": [
-    {"id": "m6a", "label": "Nafisah as go-between", "detail": "Tested politely."},
-    {"id": "m6b", "label": "Proposal by Abu Talib and Hamzah", "detail": "In verse."},
-    {"id": "m6c", "label": "Dowry and contract", "detail": "20 camels; Waraqah conducts it."}
-   ]},
-   {"id": "m7", "label": "The Prophet's SAW family", "detail": "Children and household.", "children": [
-    {"id": "m7a", "label": "Khadijah aged 28", "detail": "The stronger view."},
-    {"id": "m7b", "label": "Six children", "detail": "Qasim to Abdullah."},
-    {"id": "m7c", "label": "Ali, Zayd, Umm Ayman", "detail": "Lived together."}
-   ]},
-   {"id": "m8", "label": "Lessons on marriage", "detail": "Make marriage easy.", "children": [
-    {"id": "m8a", "label": "Four jahili marriage types", "detail": "Aisha's report."},
-    {"id": "m8b", "label": "Choose religion and character", "detail": "The closing hadith."}
-   ]}
+   {
+    "id": "m1",
+    "label": "The Umm Hani issue",
+    "detail": "The early proposal is not authentic.",
+    "children": [
+     {
+      "id": "m1a",
+      "label": "Weak report",
+      "detail": "From Hisham al-Kalbi."
+     },
+     {
+      "id": "m1b",
+      "label": "Authentic Muslim hadith",
+      "detail": "Declined after the Conquest of Makkah."
+     }
+    ]
+   },
+   {
+    "id": "m2",
+    "label": "Purposes of marriage",
+    "detail": "The social role of marriage.",
+    "children": [
+     {
+      "id": "m2a",
+      "label": "Strengthen kinship",
+      "detail": "Umar, Uthman and Abu Bakr."
+     },
+     {
+      "id": "m2b",
+      "label": "Reconcile tribes",
+      "detail": "The example of Abu Jahl's daughter and Ali."
+     },
+     {
+      "id": "m2c",
+      "label": "Widen the call",
+      "detail": "The wife's tribe embraces Islam."
+     }
+    ]
+   },
+   {
+    "id": "m3",
+    "label": "Khadijah RA",
+    "detail": "A wealthy woman of character.",
+    "children": [
+     {
+      "id": "m3a",
+      "label": "Two marriages",
+      "detail": "Four children and inherited wealth."
+     },
+     {
+      "id": "m3b",
+      "label": "Large business",
+      "detail": "Employed managers."
+     },
+     {
+      "id": "m3c",
+      "label": "Declined rich suitors",
+      "detail": "Abu Jahl and Abu Sufyan."
+     }
+    ]
+   },
+   {
+    "id": "m4",
+    "label": "The offer and trade",
+    "detail": "Mudarabah and doubled returns.",
+    "children": [
+     {
+      "id": "m4a",
+      "label": "Hala's recommendation",
+      "detail": "Spoke of the Prophet's SAW honesty."
+     },
+     {
+      "id": "m4b",
+      "label": "50-50 split",
+      "detail": "With Maisarah."
+     },
+     {
+      "id": "m4c",
+      "label": "Double the profit",
+      "detail": "At the Busra market."
+     }
+    ]
+   },
+   {
+    "id": "m5",
+    "label": "Travel and character",
+    "detail": "Travel exposes manners.",
+    "children": [
+     {
+      "id": "m5a",
+      "label": "Hadith on travel",
+      "detail": "Bukhari and Muslim."
+     },
+     {
+      "id": "m5b",
+      "label": "Umar's question",
+      "detail": "Have you travelled with him?"
+     }
+    ]
+   },
+   {
+    "id": "m6",
+    "label": "Proposal and marriage",
+    "detail": "Nafisah, proposal, dowry.",
+    "children": [
+     {
+      "id": "m6a",
+      "label": "Nafisah as go-between",
+      "detail": "Tested politely."
+     },
+     {
+      "id": "m6b",
+      "label": "Proposal by Abu Talib and Hamzah",
+      "detail": "In verse."
+     },
+     {
+      "id": "m6c",
+      "label": "Dowry and contract",
+      "detail": "20 camels; Waraqah conducts it."
+     }
+    ]
+   },
+   {
+    "id": "m7",
+    "label": "The Prophet's SAW family",
+    "detail": "Children and household.",
+    "children": [
+     {
+      "id": "m7a",
+      "label": "Khadijah aged 28",
+      "detail": "The stronger view."
+     },
+     {
+      "id": "m7b",
+      "label": "Six children",
+      "detail": "Qasim to Abdullah."
+     },
+     {
+      "id": "m7c",
+      "label": "Ali, Zayd, Umm Ayman",
+      "detail": "Lived together."
+     }
+    ]
+   },
+   {
+    "id": "m8",
+    "label": "Lessons on marriage",
+    "detail": "Make marriage easy.",
+    "children": [
+     {
+      "id": "m8a",
+      "label": "Four jahili marriage types",
+      "detail": "Aisha's report."
+     },
+     {
+      "id": "m8b",
+      "label": "Choose religion and character",
+      "detail": "The closing hadith."
+     }
+    ]
+   }
   ]
  }
 }

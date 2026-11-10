@@ -404,6 +404,30 @@
    "role": "Isteri Nabi SAW",
    "t": 2205,
    "context": "Meriwayatkan empat cara perkahwinan jahiliah."
+  },
+  {
+   "id": "p26",
+   "name": "Abu Hala",
+   "person": "abu-hala",
+   "role": "Suami pertama Khadijah",
+   "t": 589,
+   "context": "Khadijah berkahwin dengan Abu Hala sebelum Nabi SAW; daripada perkahwinan ini ada tiga anak."
+  },
+  {
+   "id": "p27",
+   "name": "Atiq",
+   "person": "atiq",
+   "role": "Suami kedua Khadijah",
+   "t": 594,
+   "context": "Khadijah berkahwin dengannya selepas Abu Hala; daripada perkahwinan ini ada seorang anak. Ejaan nama perlu disemak."
+  },
+  {
+   "id": "p28",
+   "name": "Hind",
+   "person": "hind-anak-khadijah",
+   "role": "Anak Khadijah",
+   "t": 612,
+   "context": "Disebut sebagai salah seorang anak Khadijah daripada perkahwinan terdahulu."
   }
  ],
  "sirah": {

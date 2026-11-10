@@ -384,6 +384,22 @@
    "role": "Anak Abu Talib",
    "t": 4034,
    "context": "Hijrah ke Habsyah walaupun bapanya melindungi Nabi SAW, akan dianalisis kemudian."
+  },
+  {
+   "id": "p16",
+   "name": "Abu Bakar",
+   "person": "abu-bakar",
+   "role": "Sahabat",
+   "t": 3453,
+   "context": "Diikat dan dipukul oleh Naufal bin Khuwailid bersama Talhah."
+  },
+  {
+   "id": "p17",
+   "name": "Talhah",
+   "person": "talhah-bin-ubaidillah",
+   "role": "Sahabat",
+   "t": 3453,
+   "context": "Diikat dan dipukul oleh Naufal bin Khuwailid bersama Abu Bakar."
   }
  ],
  "sirah": {

@@ -343,6 +343,38 @@
    "role": "Ahli psikologi organisasi",
    "t": 2593,
    "context": "Pengarang Hidden Potential."
+  },
+  {
+   "id": "p17",
+   "name": "Uthman bin Affan",
+   "person": "uthman-bin-affan",
+   "role": "Sahabat awal",
+   "t": 253,
+   "context": "Salah seorang daripada lima watak terawal yang memeluk Islam, disebut ustaz sebagai sangat penting dalam sirah."
+  },
+  {
+   "id": "p18",
+   "name": "Zubair bin Awwam",
+   "person": "az-zubair-bin-al-awwam",
+   "role": "Sahabat awal",
+   "t": 254,
+   "context": "Salah seorang daripada lima watak terawal yang memeluk Islam, disebut ustaz sebagai sangat penting dalam sirah."
+  },
+  {
+   "id": "p19",
+   "name": "Abdurrahman bin Auf",
+   "person": "abdurrahman-bin-auf",
+   "role": "Sahabat awal",
+   "t": 256,
+   "context": "Salah seorang daripada lima watak terawal yang memeluk Islam, disebut ustaz sebagai sangat penting dalam sirah."
+  },
+  {
+   "id": "p20",
+   "name": "Talhah bin Ubaidillah",
+   "person": "talhah-bin-ubaidillah",
+   "role": "Sahabat awal",
+   "t": 259,
+   "context": "Salah seorang daripada lima watak terawal yang memeluk Islam, disebut ustaz sebagai sangat penting dalam sirah."
   }
  ],
  "sirah": {

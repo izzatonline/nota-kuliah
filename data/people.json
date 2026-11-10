@@ -1157,6 +1157,30 @@
    "en": null
   },
   {
+   "key": "abdullah-bin-abu-bakar",
+   "group": "sahabat",
+   "ms": "Abdullah bin Abu Bakar",
+   "en": null
+  },
+  {
+   "key": "saad-bin-khaythamah",
+   "group": "sahabat",
+   "ms": "Sa'ad bin Khaythamah",
+   "en": null
+  },
+  {
+   "key": "rifaah-bin-abdul-munzir",
+   "group": "sahabat",
+   "ms": "Rifa'ah bin Abdul Munzir",
+   "en": null
+  },
+  {
+   "key": "al-munzir-bin-amr",
+   "group": "sahabat",
+   "ms": "Al-Munzir bin Amr",
+   "en": null
+  },
+  {
    "key": "ummu-aiman",
    "group": "sahabiyah",
    "ms": "Ummu Aiman (Barakah binti Tha'labah)",
@@ -1525,6 +1549,12 @@
    "key": "zuhair-bin-abi-umayyah",
    "group": "quraisy",
    "ms": "Zuhair bin Abi Umayyah",
+   "en": null
+  },
+  {
+   "key": "abdul-syams",
+   "group": "quraisy",
+   "ms": "Abdul Syams",
    "en": null
   },
   {
