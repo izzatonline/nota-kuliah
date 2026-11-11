@@ -145,7 +145,24 @@ page({
   jsonLd: [crumbs([[NAME, '/'], ['Tokoh', '/tokoh']])],
 })
 entries.push({ path: '/tokoh' })
-let pages = 3
+// The Kitab page: every book the ustaz mentions, and a separate list of books the notes only suggest.
+const kitab = read('search/kitab.ms.json')
+const kitabDescription = `Semua kitab, buku, dokumentari dan rujukan yang disebut dalam kuliah ${all.map((s) => s.series.title).join(' dan ')}, dengan setiap kuliah dan masa ia disebut.`
+const bookLi = (b) => `<li id="${esc(b.key)}">${esc(b.title)}${b.author ? ` (${esc(b.author)})` : ''}: ${b.mentions.length}</li>`
+const kitabImage = await og('kitab', { kicker: NAME, title: 'Kitab dan buku yang disebut dalam kuliah', foot: all[0].series.speaker })
+page({
+  image: kitabImage,
+  path: '/kitab',
+  title: `Kitab dan buku yang disebut dalam kuliah ${all[0].series.speaker} | ${NAME}`,
+  description: clip(kitabDescription),
+  body:
+    `<h1>Kitab dan buku yang disebut dalam kuliah</h1><p>${esc(kitabDescription)}</p>` +
+    kitab.groups.map((g) => `<h2>${esc(g.title)}</h2><ul>${g.books.map(bookLi).join('')}</ul>`).join('') +
+    (kitab.further.length ? `<h2>Bacaan tambahan (bukan daripada kuliah)</h2><ul>${kitab.further.flatMap((g) => g.books.map(bookLi)).join('')}</ul>` : ''),
+  jsonLd: [crumbs([[NAME, '/'], ['Kitab', '/kitab']])],
+})
+entries.push({ path: '/kitab' })
+let pages = 4
 for (const g of tokoh.groups)
   for (const p of g.people) {
     const path = `/tokoh/${p.key}`

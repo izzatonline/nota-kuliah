@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { ArrowRight, BookOpenCheck, Clock, Eye, FileText, HandHeart, Headphones, History, Play, Users } from 'lucide-react'
+import { ArrowRight, BookOpenCheck, Clock, Eye, FileText, HandHeart, Headphones, History, Library, Play, Users } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
@@ -191,6 +191,9 @@ export function LandingPage() {
           <Button asChild variant="ghost" size="sm" className="hidden sm:inline-flex">
             <Link to="/tokoh">{t('nav.tokoh')}</Link>
           </Button>
+          <Button asChild variant="ghost" size="sm" className="hidden sm:inline-flex">
+            <Link to="/kitab">{t('nav.kitab')}</Link>
+          </Button>
           <SearchButton onClick={open} label={t('search.button')} />
           <LanguageSwitch />
           <ThemeToggle />
@@ -268,8 +271,8 @@ export function LandingPage() {
         )}
 
         {/* duas and people */}
-        <section className="mx-auto grid max-w-6xl gap-4 px-4 pt-12 sm:px-6 md:grid-cols-2">
-          <Link to="/doa" className="group flex flex-col gap-4 rounded-xl border bg-card p-5 outline-none transition-all hover:border-primary/40 hover:shadow-md focus-visible:ring-2 focus-visible:ring-ring sm:flex-row sm:items-center md:flex-col md:items-start lg:flex-row lg:items-center">
+        <section className="mx-auto grid max-w-6xl gap-4 px-4 pt-12 sm:px-6 md:grid-cols-3">
+          <Link to="/doa" className="group flex flex-col gap-4 rounded-xl border bg-card p-5 outline-none transition-all hover:border-primary/40 hover:shadow-md focus-visible:ring-2 focus-visible:ring-ring sm:flex-row sm:items-center md:flex-col md:items-start">
             <div className="grid size-11 shrink-0 place-items-center rounded-lg bg-gold-soft text-gold"><HandHeart className="size-5" /></div>
             <div className="min-w-0 flex-1">
               <p className="font-semibold tracking-tight">{t('doa.card.title')}</p>
@@ -279,7 +282,7 @@ export function LandingPage() {
               {t('doa.card.cta')} <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
             </span>
           </Link>
-          <Link to="/tokoh" className="group flex flex-col gap-4 rounded-xl border bg-card p-5 outline-none transition-all hover:border-primary/40 hover:shadow-md focus-visible:ring-2 focus-visible:ring-ring sm:flex-row sm:items-center md:flex-col md:items-start lg:flex-row lg:items-center">
+          <Link to="/tokoh" className="group flex flex-col gap-4 rounded-xl border bg-card p-5 outline-none transition-all hover:border-primary/40 hover:shadow-md focus-visible:ring-2 focus-visible:ring-ring sm:flex-row sm:items-center md:flex-col md:items-start">
             <div className="grid size-11 shrink-0 place-items-center rounded-lg bg-gold-soft text-gold"><Users className="size-5" /></div>
             <div className="min-w-0 flex-1">
               <p className="font-semibold tracking-tight">{t('tokoh.card.title')}</p>
@@ -287,6 +290,16 @@ export function LandingPage() {
             </div>
             <span className="inline-flex items-center gap-1 text-sm font-medium text-primary">
               {t('tokoh.card.cta')} <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+            </span>
+          </Link>
+          <Link to="/kitab" className="group flex flex-col gap-4 rounded-xl border bg-card p-5 outline-none transition-all hover:border-primary/40 hover:shadow-md focus-visible:ring-2 focus-visible:ring-ring sm:flex-row sm:items-center md:flex-col md:items-start">
+            <div className="grid size-11 shrink-0 place-items-center rounded-lg bg-gold-soft text-gold"><Library className="size-5" /></div>
+            <div className="min-w-0 flex-1">
+              <p className="font-semibold tracking-tight">{t('kitab.card.title')}</p>
+              <p className="text-sm leading-relaxed text-muted-foreground">{t('kitab.card.body')}</p>
+            </div>
+            <span className="inline-flex items-center gap-1 text-sm font-medium text-primary">
+              {t('kitab.card.cta')} <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
             </span>
           </Link>
         </section>
