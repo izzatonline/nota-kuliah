@@ -176,6 +176,7 @@
   {
    "id": "b1",
    "title": "Sirah Ibn Hisham",
+   "book": "sirah-ibn-hisham",
    "author": "Ibn Hisham",
    "kind": "Sirah",
    "t": 1047,
@@ -184,6 +185,7 @@
   {
    "id": "s1",
    "title": "Ar-Raheeq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiyyurrahman al-Mubarakfuri",
    "kind": "Sirah",
    "t": null,

@@ -262,6 +262,7 @@
   {
    "id": "b1",
    "title": "Ar-Rahiq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiyyurrahman Al-Mubarakfuri",
    "kind": "Sirah",
    "t": 250,
@@ -270,6 +271,7 @@
   {
    "id": "b2",
    "title": "Zad Al-Ma'ad",
+   "book": "zad-al-maad",
    "author": "Ibn Qayyim Al-Jawziyyah",
    "kind": "Sirah",
    "t": 3608,
@@ -278,6 +280,7 @@
   {
    "id": "b3",
    "title": "Ar-Rabi' Al-Awwal (Musim Bunga Pertama)",
+   "book": "musim-bunga-pertama",
    "author": "Wadah Hanfar",
    "kind": "Sirah",
    "t": 3911,
@@ -286,6 +289,7 @@
   {
    "id": "b4",
    "title": "Ensiklopedia Sirah",
+   "book": "ensiklopedia-sirah",
    "author": "Syekh Tariq Suwaidan",
    "kind": "Sirah",
    "t": 2728,

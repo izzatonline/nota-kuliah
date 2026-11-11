@@ -264,6 +264,7 @@
   {
    "id": "b1",
    "title": "Sirah Ibn Hisham",
+   "book": "sirah-ibn-hisham",
    "author": "Ibn Hisham",
    "kind": "Sirah",
    "t": 788,
@@ -272,6 +273,7 @@
   {
    "id": "b2",
    "title": "Al-Bidayah wan Nihayah",
+   "book": "al-bidayah-wan-nihayah",
    "author": "Ibn Kathir",
    "kind": "Sirah",
    "t": 557,
@@ -280,6 +282,7 @@
   {
    "id": "b3",
    "title": "Membaca Sirah Berdasarkan Al-Quran dan Sunnah",
+   "book": "membaca-sirah-nabi",
    "author": "Quraish Shihab",
    "kind": "Sirah",
    "t": 1055,

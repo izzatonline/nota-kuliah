@@ -203,6 +203,7 @@
   {
    "id": "b1",
    "title": "The Stolen Focus: Why You Can't Pay Attention",
+   "book": "the-stolen-focus",
    "author": null,
    "kind": "Buku",
    "t": 2754,
@@ -212,6 +213,7 @@
   {
    "id": "b2",
    "title": "Women Around the Prophet",
+   "book": "women-around-the-prophet",
    "author": null,
    "kind": "Sirah",
    "t": 5110,
@@ -220,6 +222,7 @@
   {
    "id": "b3",
    "title": "Endgame (podcast)",
+   "book": "endgame",
    "author": "Gita Wirjawan",
    "kind": "Lain-lain",
    "t": 3134,

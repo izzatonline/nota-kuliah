@@ -219,6 +219,7 @@
   {
    "id": "b1",
    "title": "Zad Al-Ma'ad",
+   "book": "zad-al-maad",
    "author": "Ibn Qayyim Al-Jawziyyah",
    "kind": "Sirah",
    "t": 3702,
@@ -227,6 +228,7 @@
   {
    "id": "b2",
    "title": "Ar-Rahiq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiyyurrahman Al-Mubarakfuri",
    "kind": "Sirah",
    "t": 2373,
@@ -235,6 +237,7 @@
   {
    "id": "b3",
    "title": "Ensiklopedia Sirah",
+   "book": "ensiklopedia-sirah",
    "author": "Syekh Tariq Suwaidan",
    "kind": "Sirah",
    "t": 3775,

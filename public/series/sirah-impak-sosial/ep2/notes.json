@@ -227,6 +227,7 @@
   {
    "id": "b1",
    "title": "Zadul Ma'ad",
+   "book": "zad-al-maad",
    "author": "Ibn Qayyim",
    "kind": "Sirah",
    "t": 1897,
@@ -235,6 +236,7 @@
   {
    "id": "b2",
    "title": "Sirah Ibn Hisham",
+   "book": "sirah-ibn-hisham",
    "author": "Ibn Hisham",
    "kind": "Sirah",
    "t": 1364,
@@ -243,6 +245,7 @@
   {
    "id": "b3",
    "title": "Video sejarah Bangladesh oleh Dr. Yasir Qadhi",
+   "book": "video-sejarah-bangladesh-oleh-dr-yasir",
    "author": "Dr. Yasir Qadhi",
    "kind": "Lain-lain",
    "t": 568,
@@ -251,6 +254,7 @@
   {
    "id": "s1",
    "title": "Ar-Raheeq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiyyurrahman Al-Mubarakfuri",
    "kind": "Sirah",
    "t": null,
@@ -260,6 +264,7 @@
   {
    "id": "s2",
    "title": "Al-Sira Al-Nabawiyya",
+   "book": "al-sira-al-nabawiyya",
    "author": "Ibn Kathir",
    "kind": "Sirah",
    "t": null,

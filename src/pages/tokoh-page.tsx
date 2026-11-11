@@ -28,7 +28,7 @@ function PersonCard({ p, groupTitle, open, onToggle }: { p: PersonEntry; groupTi
             <span className="block font-medium leading-snug">{p.title}</span>
             <span className="block text-xs text-muted-foreground">{groupTitle}</span>
           </span>
-          <Badge variant="secondary" className="shrink-0">{t('tokoh.mentions', { n: p.mentions.length })}</Badge>
+          <Badge variant="secondary" className="shrink-0">{p.mentions.length === 1 ? t('tokoh.mention1') : t('tokoh.mentions', { n: p.mentions.length })}</Badge>
           <ChevronDown className={cn('size-4 shrink-0 text-muted-foreground transition-transform', open && 'rotate-180')} aria-hidden />
         </button>
         {open && (

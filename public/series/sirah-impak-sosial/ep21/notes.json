@@ -165,6 +165,7 @@
   {
    "id": "b1",
    "title": "As-Sirah An-Nabawiyyah (Syekh Ali As-Sallabi)",
+   "book": "as-sirah-an-nabawiyyah-sallabi",
    "author": "Ali Muhammad As-Sallabi",
    "kind": "Sirah",
    "t": 189,
@@ -173,6 +174,7 @@
   {
    "id": "b2",
    "title": "Sirah Ibn Hisham",
+   "book": "sirah-ibn-hisham",
    "author": "Ibn Hisham",
    "kind": "Sirah",
    "t": 588,

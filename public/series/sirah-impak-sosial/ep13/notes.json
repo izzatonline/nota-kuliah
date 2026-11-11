@@ -189,6 +189,7 @@
   {
    "id": "b1",
    "title": "Ar-Rahiq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": null,
    "kind": "Sirah",
    "t": 2190,
@@ -198,6 +199,7 @@
   {
    "id": "b2",
    "title": "Ensiklopedia Sirah",
+   "book": "ensiklopedia-sirah",
    "author": "Syekh Tariq Suwaidan",
    "kind": "Sirah",
    "t": 2079,

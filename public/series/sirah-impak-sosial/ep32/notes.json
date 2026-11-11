@@ -174,6 +174,7 @@
   {
    "id": "b1",
    "title": "Ar-Rahiq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiyyurrahman Al-Mubarakfuri",
    "kind": "Sirah",
    "t": 2943,
@@ -182,6 +183,7 @@
   {
    "id": "b2",
    "title": "Zad Al-Ma'ad",
+   "book": "zad-al-maad",
    "author": null,
    "kind": "Sirah",
    "t": 1732,
@@ -199,6 +201,7 @@
   {
    "id": "b4",
    "title": "Buku sirah tebal Dr. Ali As-Salabi (tajuk tidak disebut)",
+   "book": "buku-sirah-tebal-dr-ali-as",
    "author": "Dr. Ali As-Salabi",
    "kind": "Sirah",
    "t": 1948,
@@ -207,6 +210,7 @@
   {
    "id": "b5",
    "title": "Good Muslim, Bad Muslim",
+   "book": "good-muslim-bad-muslim",
    "author": null,
    "kind": "Buku",
    "t": 3146,

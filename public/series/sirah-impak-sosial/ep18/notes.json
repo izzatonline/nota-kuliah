@@ -339,6 +339,7 @@
   {
    "id": "b1",
    "title": "Membaca Sirah Nabi Muhammad SAW dalam Sorotan Al-Quran dan Hadis-Hadis Sahih",
+   "book": "membaca-sirah-nabi",
    "author": "Prof. Muhammad Quraish Shihab",
    "kind": "Sirah",
    "t": 230,
@@ -347,6 +348,7 @@
   {
    "id": "b2",
    "title": "Muhammad: Man and Prophet",
+   "book": "man-and-prophet",
    "author": "Adil Salahi",
    "kind": "Sirah",
    "t": 304,
@@ -355,6 +357,7 @@
   {
    "id": "b3",
    "title": "Ar-Rahiq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiyyurrahman Al-Mubarakfuri",
    "kind": "Sirah",
    "t": 2366,
@@ -363,6 +366,7 @@
   {
    "id": "b4",
    "title": "Zad Al-Ma'ad",
+   "book": "zad-al-maad",
    "author": "Ibn Qayyim Al-Jawziyyah",
    "kind": "Sirah",
    "t": 2973,
@@ -371,6 +375,7 @@
   {
    "id": "b5",
    "title": "Ensiklopedia Sirah",
+   "book": "ensiklopedia-sirah",
    "author": "Syekh Tariq Suwaidan",
    "kind": "Sirah",
    "t": 3108,

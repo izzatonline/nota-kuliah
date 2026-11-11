@@ -275,6 +275,7 @@
   {
    "id": "b1",
    "title": "Sirah Ibn Ishaq",
+   "book": "sirah-ibn-ishaq",
    "author": "Ibn Ishaq",
    "kind": "Sirah",
    "t": 1021,
@@ -283,6 +284,7 @@
   {
    "id": "b2",
    "title": "Ar-Raheeq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiyyurrahman Al-Mubarakfuri",
    "kind": "Sirah",
    "t": 1187,
@@ -291,6 +293,7 @@
   {
    "id": "b3",
    "title": "Fiqh as-Sirah",
+   "book": "fiqh-as-sirah",
    "author": "Muhammad Al-Ghazali",
    "kind": "Sirah",
    "t": 1590,
@@ -299,6 +302,7 @@
   {
    "id": "b4",
    "title": "The Psychology of Money",
+   "book": "the-psychology-of-money",
    "author": "Morgan Housel",
    "kind": "Buku",
    "t": 817,
@@ -307,6 +311,7 @@
   {
    "id": "b5",
    "title": "Sahih Muslim",
+   "book": "sahih-muslim",
    "author": null,
    "kind": "Kitab hadis",
    "t": 590,
@@ -316,6 +321,7 @@
   {
    "id": "b6",
    "title": "Sahih Bukhari",
+   "book": "sahih-bukhari",
    "author": null,
    "kind": "Kitab hadis",
    "t": 1772,
@@ -325,6 +331,7 @@
   {
    "id": "s1",
    "title": "Sirah Ibn Hisham",
+   "book": "sirah-ibn-hisham",
    "author": "Ibn Hisham",
    "kind": "Sirah",
    "t": null,
@@ -334,6 +341,7 @@
   {
    "id": "s2",
    "title": "Zad al-Ma'ad",
+   "book": "zad-al-maad",
    "author": "Ibn Qayyim",
    "kind": "Sirah",
    "t": null,

@@ -368,6 +368,7 @@
   {
    "id": "b1",
    "title": "Ar-Rahiq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": null,
    "kind": "Sirah",
    "t": 718,
@@ -377,6 +378,7 @@
   {
    "id": "b2",
    "title": "Buku sirah Tariq As-Suwaidan (tajuk tidak disebut)",
+   "book": "buku-sirah-tariq-as-suwaidan",
    "author": "Tariq As-Suwaidan",
    "kind": "Sirah",
    "t": 4884,

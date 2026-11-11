@@ -36,6 +36,8 @@ export type Dalil = {
 export type Book = {
   id: string
   title: string
+  /** Key in data/books.json, kept in the Malay notes only. */
+  book?: string
   author: string | null
   kind: string
   t: number | null
@@ -109,3 +111,10 @@ export type OrderQuestion = QuizBase & { type: 'order'; items: Choice[]; answer:
 export type MatchQuestion = QuizBase & { type: 'match'; left: Choice[]; right: Choice[]; answer: [string, string][] }
 export type Question = McqQuestion | TfQuestion | MultiQuestion | OrderQuestion | MatchQuestion
 export type Quiz = { id: string; questions: Question[] }
+
+/** One lecture's entry for a book (or, for `suggested`, a book we suggest and the ustaz did not say). */
+export type BookMention = { slug: string; series: string; epId: string; epNumber: number | null; epTitle: string; book: Book }
+export type BookEntry = { key: string; title: string; author: string | null; mentions: BookMention[] }
+export type BookGroup = { key: string; title: string; books: BookEntry[] }
+/** What `scripts/search-index.mjs` writes to `public/search/kitab.<lang>.json`. `further` holds books only suggested in the notes. */
+export type BookIndex = { groups: BookGroup[]; further: BookGroup[] }

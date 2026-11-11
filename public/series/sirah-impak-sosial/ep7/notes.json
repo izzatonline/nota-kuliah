@@ -254,6 +254,7 @@
   {
    "id": "b1",
    "title": "Brain Rules for Baby: How to Raise a Smart and Happy Child from Zero to Five",
+   "book": "brain-rules-for-baby",
    "author": "John Medina",
    "kind": "Buku",
    "t": 1409,
@@ -262,6 +263,7 @@
   {
    "id": "b2",
    "title": "Laporan UNICEF Children Without",
+   "book": "laporan-unicef-children-without",
    "author": null,
    "kind": "Artikel",
    "t": 1039,
@@ -271,6 +273,7 @@
   {
    "id": "b3",
    "title": "The Thinking Muslim Podcast: Is Modernity Destroying Childhood",
+   "book": "the-thinking-muslim-podcast",
    "author": null,
    "kind": "Lain-lain",
    "t": 896,
@@ -279,6 +282,7 @@
   {
    "id": "b4",
    "title": "Tiger",
+   "book": "tiger",
    "author": null,
    "kind": "Lain-lain",
    "t": 1827,
@@ -287,6 +291,7 @@
   {
    "id": "b5",
    "title": "The Anxious Generation",
+   "book": "the-anxious-generation",
    "author": null,
    "kind": "Buku",
    "t": 2353,

@@ -261,6 +261,7 @@ export function DalilTab({ notes, focusId }: { notes: Notes; focusId?: string })
 
 /* ---------------------------------------------------------- Kitab & buku */
 function BookCard({ b }: { b: Book }) {
+  const { t } = useT()
   const now = useIsNow(b.t, 60)
   return (
     <Card data-item={`kitab:${b.id}`} className={cn('h-full', now && NOW_RING)}>
@@ -275,6 +276,11 @@ function BookCard({ b }: { b: Book }) {
         <p className="font-medium leading-snug">{b.title}</p>
         {b.author && <p className="text-sm text-muted-foreground">{b.author}</p>}
         <p className="text-sm leading-relaxed text-muted-foreground">{b.context}</p>
+        {b.book && (
+          <Link to={`/kitab#${b.book}`} className="text-xs font-medium text-primary underline-offset-2 hover:underline">
+            {t('kitab.allMentions')}
+          </Link>
+        )}
         {b.note && <p className="mt-auto border-t pt-2 text-xs italic text-muted-foreground">{b.note}</p>}
       </CardContent>
     </Card>

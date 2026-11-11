@@ -283,6 +283,7 @@
   {
    "id": "b1",
    "title": "Ensiklopedia Sirah (6 jilid)",
+   "book": "ensiklopedia-sirah",
    "author": "Dr. Tariq Suwaidan",
    "kind": "Sirah",
    "t": 1289,
@@ -291,6 +292,7 @@
   {
    "id": "b2",
    "title": "Fiqhus Sirah",
+   "book": "fiqh-as-sirah",
    "author": "Dr. Sa'id Ramadan al-Buti",
    "kind": "Sirah",
    "t": 2971,
@@ -299,6 +301,7 @@
   {
    "id": "b3",
    "title": "The First Muslim",
+   "book": "the-first-muslim",
    "author": "Leslie Hazleton",
    "kind": "Buku",
    "t": 1910,
@@ -307,6 +310,7 @@
   {
    "id": "b4",
    "title": "A Path Appears: Transforming Lives, Creating Opportunity",
+   "book": "a-path-appears",
    "author": null,
    "kind": "Buku",
    "t": 2282,
@@ -316,6 +320,7 @@
   {
    "id": "b5",
    "title": "Sirah Ibn Hisham",
+   "book": "sirah-ibn-hisham",
    "author": null,
    "kind": "Sirah",
    "t": 1787,
@@ -324,6 +329,7 @@
   {
    "id": "b6",
    "title": "Kamus Dewan",
+   "book": "kamus-dewan",
    "author": null,
    "kind": "Lain-lain",
    "t": 2046,
@@ -332,6 +338,7 @@
   {
    "id": "s1",
    "title": "Ar-Raheeq Al-Makhtum (Sealed Nectar)",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiur Rahman al-Mubarakpuri",
    "kind": "Sirah",
    "t": null,
@@ -341,6 +348,7 @@
   {
    "id": "s2",
    "title": "Muhammad: His Life Based on the Earliest Sources",
+   "book": "muhammad-his-life-earliest-sources",
    "author": "Martin Lings",
    "kind": "Sirah",
    "t": null,

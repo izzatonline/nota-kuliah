@@ -384,6 +384,7 @@
   {
    "id": "b1",
    "title": "Lost Connections",
+   "book": "lost-connections",
    "author": "Johann Hari",
    "kind": "Buku",
    "t": 836,
@@ -392,6 +393,7 @@
   {
    "id": "b2",
    "title": "The Comfort Crisis",
+   "book": "the-comfort-crisis",
    "author": null,
    "kind": "Buku",
    "t": 1026,
@@ -401,6 +403,7 @@
   {
    "id": "b3",
    "title": "80,000 Hours (laman web 80000hours.org)",
+   "book": "80-000-hours",
    "author": null,
    "kind": "Lain-lain",
    "t": 1456,
@@ -409,6 +412,7 @@
   {
    "id": "b4",
    "title": "Podcast Dr. Andrew Huberman",
+   "book": "podcast-dr-andrew-huberman",
    "author": "Andrew Huberman",
    "kind": "Lain-lain",
    "t": 847,
@@ -417,6 +421,7 @@
   {
    "id": "b5",
    "title": "Filem Interstellar",
+   "book": "filem-interstellar",
    "author": "Christopher Nolan",
    "kind": "Lain-lain",
    "t": 2768,
@@ -424,7 +429,26 @@
   },
   {
    "id": "b6",
-   "title": "Sunan At-Tirmidhi, Sunan Ibn Majah dan Musnad Ahmad",
+   "title": "Sunan At-Tirmidhi",
+   "book": "sunan-at-tirmidhi",
+   "author": null,
+   "kind": "Kitab hadis",
+   "t": 196,
+   "context": "Sumber hadis Abu Hurairah tentang menjadikan ibadah pusat hidup."
+  },
+  {
+   "id": "b8",
+   "title": "Sunan Ibn Majah",
+   "book": "sunan-ibn-majah",
+   "author": null,
+   "kind": "Kitab hadis",
+   "t": 196,
+   "context": "Sumber hadis Abu Hurairah tentang menjadikan ibadah pusat hidup."
+  },
+  {
+   "id": "b9",
+   "title": "Musnad Ahmad",
+   "book": "musnad-ahmad",
    "author": null,
    "kind": "Kitab hadis",
    "t": 196,
@@ -433,6 +457,7 @@
   {
    "id": "b7",
    "title": "Sahih Muslim",
+   "book": "sahih-muslim",
    "author": "Imam Muslim",
    "kind": "Kitab hadis",
    "t": 3907,
@@ -441,6 +466,7 @@
   {
    "id": "s1",
    "title": "Tafsir Ibn Kathir (Surah Al-Baqarah 284-286)",
+   "book": "tafsir-ibn-kathir",
    "author": "Ibn Kathir",
    "kind": "Tafsir",
    "t": null,
@@ -450,6 +476,7 @@
   {
    "id": "s2",
    "title": "Al-Minhaj (Syarah Sahih Muslim)",
+   "book": "al-minhaj",
    "author": "Imam An-Nawawi",
    "kind": "Syarah",
    "t": null,
@@ -459,6 +486,7 @@
   {
    "id": "s3",
    "title": "Fathul Bari",
+   "book": "fathul-bari",
    "author": "Ibn Hajar al-Asqalani",
    "kind": "Syarah",
    "t": null,

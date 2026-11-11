@@ -199,6 +199,7 @@
   {
    "id": "b1",
    "title": "Chutzpah",
+   "book": "chutzpah",
    "author": "Inbal Arieli",
    "kind": "Buku",
    "t": 147,
@@ -207,6 +208,7 @@
   {
    "id": "b2",
    "title": "The Anxious Generation",
+   "book": "the-anxious-generation",
    "author": null,
    "kind": "Buku",
    "t": 226,
@@ -216,6 +218,7 @@
   {
    "id": "b3",
    "title": "Hidden Potential",
+   "book": "hidden-potential",
    "author": "Adam Grant",
    "kind": "Buku",
    "t": 1230,

@@ -342,6 +342,7 @@
   {
    "id": "b1",
    "title": "Hisnul Muslim (Perisai Muslim)",
+   "book": "hisnul-muslim",
    "author": null,
    "kind": "Buku",
    "t": 218,
@@ -351,6 +352,7 @@
   {
    "id": "b2",
    "title": "Syarah Hisnul Muslim",
+   "book": "syarah-hisnul-muslim",
    "author": null,
    "kind": "Syarah",
    "t": 286,
@@ -359,6 +361,7 @@
   {
    "id": "b3",
    "title": "Siri syarah nama-nama Allah oleh ustaz di YouTube",
+   "book": "siri-syarah-nama-nama-allah-oleh",
    "author": "Ustaz Azlan Shah NK",
    "kind": "Lain-lain",
    "t": 1460,
@@ -367,6 +370,7 @@
   {
    "id": "b4",
    "title": "Musnad Ahmad",
+   "book": "musnad-ahmad",
    "author": "Imam Ahmad",
    "kind": "Kitab hadis",
    "t": 2204,
@@ -375,6 +379,7 @@
   {
    "id": "b5",
    "title": "Sahih Bukhari",
+   "book": "sahih-bukhari",
    "author": "Imam Bukhari",
    "kind": "Kitab hadis",
    "t": 2207,
@@ -383,6 +388,7 @@
   {
    "id": "s1",
    "title": "Madarij As-Salikin",
+   "book": "madarij-as-salikin",
    "author": "Ibn Al-Qayyim",
    "kind": "Lain-lain",
    "t": null,
@@ -392,6 +398,7 @@
   {
    "id": "s2",
    "title": "Fathul Bari (Kitab Ad-Da'awat)",
+   "book": "fathul-bari",
    "author": "Ibn Hajar al-Asqalani",
    "kind": "Syarah",
    "t": null,

@@ -362,6 +362,7 @@
   {
    "id": "b1",
    "title": "Pandangan Hidup Muslim",
+   "book": "pandangan-hidup-muslim",
    "author": "Hamka",
    "kind": "Buku",
    "t": 4260,
@@ -370,6 +371,7 @@
   {
    "id": "b2",
    "title": "Fiqhus Salah",
+   "book": "fiqhus-salah",
    "author": "Yusuf Al-Qaradawi",
    "kind": "Buku",
    "t": 4118,
@@ -378,6 +380,7 @@
   {
    "id": "b3",
    "title": "Buku Hamka tentang pengalaman di penjara",
+   "book": "buku-hamka-tentang-pengalaman-di-penjara",
    "author": "Hamka",
    "kind": "Buku",
    "t": 3612,
@@ -387,6 +390,7 @@
   {
    "id": "b4",
    "title": "Tafsir Ibn Kathir",
+   "book": "tafsir-ibn-kathir",
    "author": "Ibn Kathir",
    "kind": "Tafsir",
    "t": 1592,
@@ -395,6 +399,7 @@
   {
    "id": "b5",
    "title": "Siri sejarah Farish A. Noor di YouTube",
+   "book": "siri-sejarah-farish-a-noor-di",
    "author": "Farish A. Noor",
    "kind": "Lain-lain",
    "t": 1970,
@@ -403,6 +408,7 @@
   {
    "id": "b6",
    "title": "Buku kanak-kanak tentang kanak-kanak miskin Afrika dan bola sepak",
+   "book": "buku-kanak-kanak-tentang-kanak-kanak",
    "author": null,
    "kind": "Buku",
    "t": 3687,
@@ -412,6 +418,7 @@
   {
    "id": "b7",
    "title": "Filem Jhund (2022)",
+   "book": "filem-jhund",
    "author": "Lakonan Amitabh Bachchan",
    "kind": "Lain-lain",
    "t": 3839,
@@ -420,6 +427,7 @@
   {
    "id": "b8",
    "title": "Dokumentari Channel News Asia tentang ekonomi Indonesia",
+   "book": "dokumentari-channel-news-asia-tentang-ekonomi",
    "author": null,
    "kind": "Dokumentari",
    "t": 1814,
@@ -428,6 +436,7 @@
   {
    "id": "b9",
    "title": "Filem Avatar",
+   "book": "filem-avatar",
    "author": "James Cameron",
    "kind": "Lain-lain",
    "t": 3157,
@@ -435,7 +444,17 @@
   },
   {
    "id": "b10",
-   "title": "Sahih Bukhari dan Sahih Muslim",
+   "title": "Sahih Bukhari",
+   "book": "sahih-bukhari",
+   "author": "Imam Bukhari dan Imam Muslim",
+   "kind": "Kitab hadis",
+   "t": 3031,
+   "context": "Sumber hadis Al-Kawthar dan hadis qudsi tentang apa yang disediakan untuk hamba yang salih."
+  },
+  {
+   "id": "b11",
+   "title": "Sahih Muslim",
+   "book": "sahih-muslim",
    "author": "Imam Bukhari dan Imam Muslim",
    "kind": "Kitab hadis",
    "t": 3031,
@@ -444,6 +463,7 @@
   {
    "id": "s1",
    "title": "Riyadus Salihin",
+   "book": "riyadus-salihin",
    "author": "Imam An-Nawawi",
    "kind": "Kitab hadis",
    "t": null,
@@ -453,6 +473,7 @@
   {
    "id": "s2",
    "title": "Fathul Bari (Bab Isra' dan Mi'raj)",
+   "book": "fathul-bari",
    "author": "Ibn Hajar al-Asqalani",
    "kind": "Syarah",
    "t": null,

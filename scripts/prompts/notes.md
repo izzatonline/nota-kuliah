@@ -35,6 +35,9 @@ no markdown fences, no commentary.
 - books: books, kitab, documentaries and articles the speaker named. `kind` is one of
   Buku, Kitab hadis, Tafsir, Syarah, Sirah, Dokumentari, Artikel, Lain-lain. Add `author` only if the speaker said it;
   otherwise you may fill it in `note` as "Pengarang tidak disebut dalam kuliah: <name>" if you are certain.
+- Book: set `book` (on books and suggested) to the key from "Known books" below when it is one of them, whatever way
+  the speaker or you write the title. A new book gets a new short kebab-case key (for example `sahih-bukhari`). One
+  entry is one book: when he names several together ("Sahih Bukhari dan Sahih Muslim"), write one entry for each.
 - suggested: 0 to 4 real, well-known works for further reading on the same topics. Only titles you are certain exist.
   Empty array if unsure. These carry no `at`.
 - people: companions, prophets, scholars, imams, authors the speaker named, with `role` and what the speaker said or
@@ -67,8 +70,8 @@ no markdown fences, no commentary.
     {"kind": "hadith", "ref": "short title in Malay", "arabic": null, "translation": "…", "context": "…",
      "narrator": null, "source": null, "grade": null, "dua": "musibah", "at": "…", "approx": "12:34"}
   ],
-  "books": [{"title": "…", "author": null, "kind": "Buku", "context": "…", "note": null, "at": "…", "approx": "44:23"}],
-  "suggested": [{"title": "…", "author": "…", "kind": "Syarah", "context": "…"}],
+  "books": [{"title": "…", "book": "sahih-bukhari", "author": null, "kind": "Buku", "context": "…", "note": null, "at": "…", "approx": "44:23"}],
+  "suggested": [{"title": "…", "book": "tafsir-ibn-kathir", "author": "…", "kind": "Syarah", "context": "…"}],
   "people": [{"name": "…", "person": "abu-bakar", "role": "…", "context": "…", "at": "…", "approx": "10:56"}],
   "sirah": {"era": "…", "summary": "…",
             "events": [{"label": "…", "title": "…", "desc": "…", "at": "…", "approx": "5:25"}]},

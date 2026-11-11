@@ -367,6 +367,7 @@
   {
    "id": "b1",
    "title": "The Burnout Society",
+   "book": "the-burnout-society",
    "author": "Byung-Chul Han",
    "kind": "Buku",
    "t": 2642,
@@ -376,6 +377,7 @@
   {
    "id": "b2",
    "title": "Lost Connections",
+   "book": "lost-connections",
    "author": "Johann Hari",
    "kind": "Buku",
    "t": 2663,
@@ -392,6 +394,7 @@
   {
    "id": "b4",
    "title": "Sahih Bukhari",
+   "book": "sahih-bukhari",
    "author": "Imam Bukhari",
    "kind": "Kitab hadis",
    "t": 468,
@@ -400,6 +403,7 @@
   {
    "id": "b5",
    "title": "Sahih Muslim",
+   "book": "sahih-muslim",
    "author": "Imam Muslim",
    "kind": "Kitab hadis",
    "t": 468,
@@ -407,7 +411,26 @@
   },
   {
    "id": "b6",
-   "title": "Sunan At-Tirmidhi, Sunan An-Nasa'i, Sunan Ibn Majah",
+   "title": "Sunan At-Tirmidhi",
+   "book": "sunan-at-tirmidhi",
+   "author": null,
+   "kind": "Kitab hadis",
+   "t": 2541,
+   "context": "Sumber hadis perjanjian tentang meninggalkan solat, dinilai sahih oleh ulama hadis."
+  },
+  {
+   "id": "b7",
+   "title": "Sunan An-Nasa'i",
+   "book": "sunan-an-nasai",
+   "author": null,
+   "kind": "Kitab hadis",
+   "t": 2541,
+   "context": "Sumber hadis perjanjian tentang meninggalkan solat, dinilai sahih oleh ulama hadis."
+  },
+  {
+   "id": "b8",
+   "title": "Sunan Ibn Majah",
+   "book": "sunan-ibn-majah",
    "author": null,
    "kind": "Kitab hadis",
    "t": 2541,
@@ -416,6 +439,7 @@
   {
    "id": "s1",
    "title": "Fathul Bari",
+   "book": "fathul-bari",
    "author": "Ibn Hajar al-Asqalani",
    "kind": "Syarah Sahih Bukhari",
    "t": null,
@@ -425,6 +449,7 @@
   {
    "id": "s2",
    "title": "Al-Minhaj (Syarah Sahih Muslim)",
+   "book": "al-minhaj",
    "author": "Imam An-Nawawi",
    "kind": "Syarah Sahih Muslim",
    "t": null,
@@ -434,6 +459,7 @@
   {
    "id": "s3",
    "title": "Tafsir Ibn Kathir (Surah An-Najm)",
+   "book": "tafsir-ibn-kathir",
    "author": "Ibn Kathir",
    "kind": "Tafsir",
    "t": null,
@@ -443,6 +469,7 @@
   {
    "id": "s4",
    "title": "Ar-Raheeq Al-Makhtum (The Sealed Nectar)",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiur Rahman Al-Mubarakfuri",
    "kind": "Sirah",
    "t": null,

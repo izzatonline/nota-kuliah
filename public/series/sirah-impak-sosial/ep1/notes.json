@@ -351,6 +351,7 @@
   {
    "id": "b1",
    "title": "Ar-Rahiq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiur Rahman Al-Mubarakfuri",
    "kind": "Sirah",
    "t": 79,
@@ -359,6 +360,7 @@
   {
    "id": "b2",
    "title": "Lebih 40 buku dan rujukan sirah",
+   "book": "lebih-40-buku-dan-rujukan-sirah",
    "author": null,
    "kind": "Lain-lain",
    "t": 95,
@@ -367,6 +369,7 @@
   {
    "id": "b3",
    "title": "Sahih Bukhari",
+   "book": "sahih-bukhari",
    "author": "Imam Bukhari",
    "kind": "Kitab hadis",
    "t": 535,
@@ -375,6 +378,7 @@
   {
    "id": "b4",
    "title": "Tafsir Al-Misbah",
+   "book": "tafsir-al-misbah",
    "author": "Quraish Shihab",
    "kind": "Tafsir",
    "t": 2243,
@@ -383,6 +387,7 @@
   {
    "id": "s1",
    "title": "Qisas Al-Anbiya",
+   "book": "qisas-al-anbiya",
    "author": "Ibn Kathir",
    "kind": "Sirah",
    "t": null,
@@ -392,6 +397,7 @@
   {
    "id": "s2",
    "title": "Tafsir Ibn Kathir (Surah Al-Baqarah 124-129)",
+   "book": "tafsir-ibn-kathir",
    "author": "Ibn Kathir",
    "kind": "Tafsir",
    "t": null,
