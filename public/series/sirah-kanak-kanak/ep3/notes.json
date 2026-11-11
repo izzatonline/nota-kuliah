@@ -192,6 +192,7 @@
   {
    "id": "b1",
    "title": "Sahih Muslim",
+   "book": "sahih-muslim",
    "author": null,
    "kind": "Kitab hadis",
    "t": 66,
@@ -200,6 +201,7 @@
   {
    "id": "b2",
    "title": "Sahih Bukhari",
+   "book": "sahih-bukhari",
    "author": null,
    "kind": "Kitab hadis",
    "t": 68,

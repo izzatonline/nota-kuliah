@@ -241,6 +241,7 @@
   {
    "id": "b1",
    "title": "Sahih Muslim",
+   "book": "sahih-muslim",
    "author": null,
    "kind": "Kitab hadis",
    "t": 235,
@@ -250,6 +251,7 @@
   {
    "id": "b2",
    "title": "Novel tentang Ashabul Ukhdud oleh Dr. Mazli Malik",
+   "book": "novel-tentang-ashabul-ukhdud-oleh-dr",
    "author": "Dr. Mazli Malik",
    "kind": "Buku",
    "t": 1026,
@@ -259,6 +261,7 @@
   {
    "id": "b3",
    "title": "Sirah Ibn Hisham",
+   "book": "sirah-ibn-hisham",
    "author": "Ibn Hisham",
    "kind": "Sirah",
    "t": 2776,
@@ -267,6 +270,7 @@
   {
    "id": "b4",
    "title": "Tafsir Al-Azhar",
+   "book": "tafsir-al-azhar",
    "author": null,
    "kind": "Tafsir",
    "t": 2919,
@@ -276,6 +280,7 @@
   {
    "id": "s1",
    "title": "Tafsir Ibn Kathir",
+   "book": "tafsir-ibn-kathir",
    "author": "Ibn Kathir",
    "kind": "Tafsir",
    "t": null,

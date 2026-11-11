@@ -325,6 +325,7 @@
   {
    "id": "b1",
    "title": "Tafsir Hamka",
+   "book": "tafsir-hamka",
    "author": "Hamka",
    "kind": "Tafsir",
    "t": 8,
@@ -334,6 +335,7 @@
   {
    "id": "b2",
    "title": "Membaca Sirah Nabi SAW",
+   "book": "membaca-sirah-nabi",
    "author": "Prof. Quraish Shihab",
    "kind": "Sirah",
    "t": 325,
@@ -342,6 +344,7 @@
   {
    "id": "b3",
    "title": "Man and Prophet",
+   "book": "man-and-prophet",
    "author": "Dr. Adil Salahi",
    "kind": "Sirah",
    "t": 1127,
@@ -350,6 +353,7 @@
   {
    "id": "b4",
    "title": "Tinjauan Cyber Safe Parenting ke arah kesejahteraan cyber (2022)",
+   "book": "tinjauan-cyber-safe-parenting-ke-arah",
    "author": null,
    "kind": "Artikel",
    "t": 1360,
@@ -358,6 +362,7 @@
   {
    "id": "b5",
    "title": "Kenyataan Malaysia Cyber Consumer Association",
+   "book": "kenyataan-malaysia-cyber-consumer-association",
    "author": null,
    "kind": "Artikel",
    "t": 1253,
@@ -366,6 +371,7 @@
   {
    "id": "b6",
    "title": "Let's Talk Porn (TED Talk)",
+   "book": "lets-talk-porn",
    "author": "Maria Ahlin",
    "kind": "Lain-lain",
    "t": 1502,
@@ -374,6 +380,7 @@
   {
    "id": "b7",
    "title": "In the Footsteps of the Prophet",
+   "book": "in-the-footsteps-of-the-prophet",
    "author": "Dr. Tariq Ramadan",
    "kind": "Sirah",
    "t": 2651,
@@ -382,6 +389,7 @@
   {
    "id": "b8",
    "title": "Why We Sleep",
+   "book": "why-we-sleep",
    "author": null,
    "kind": "Buku",
    "t": 3084,
@@ -391,6 +399,7 @@
   {
    "id": "b9",
    "title": "The Alchemist",
+   "book": "the-alchemist",
    "author": "Paulo Coelho",
    "kind": "Buku",
    "t": 3400,
@@ -399,6 +408,7 @@
   {
    "id": "b10",
    "title": "Hikmah Hati",
+   "book": "hikmah-hati",
    "author": "Dr. Mazli Malik",
    "kind": "Buku",
    "t": 3497,
@@ -407,6 +417,7 @@
   {
    "id": "b11",
    "title": "The Good Life (The Goat Life)",
+   "book": "the-good-life",
    "author": null,
    "kind": "Lain-lain",
    "t": 3608,
@@ -416,6 +427,7 @@
   {
    "id": "s1",
    "title": "Al-Adab Al-Mufrad",
+   "book": "al-adab-al-mufrad",
    "author": "Imam Al-Bukhari",
    "kind": "Kitab hadis",
    "t": null,
@@ -425,6 +437,7 @@
   {
    "id": "s2",
    "title": "Ar-Raheeq Al-Makhtum (The Sealed Nectar)",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiur Rahman Al-Mubarakpuri",
    "kind": "Sirah",
    "t": null,

@@ -172,6 +172,7 @@
   {
    "id": "b1",
    "title": "Buku tentang kerja sosial (bab 4: If You Catch Them Early)",
+   "book": "buku-tentang-kerja-sosial",
    "author": null,
    "kind": "Buku",
    "t": 235,
@@ -181,6 +182,7 @@
   {
    "id": "b2",
    "title": "Sirah Ibn Hisham",
+   "book": "sirah-ibn-hisham",
    "author": null,
    "kind": "Sirah",
    "t": 1094,
@@ -189,6 +191,7 @@
   {
    "id": "b3",
    "title": "Sirah Nabawiyah (karya as-Sallabi)",
+   "book": "as-sirah-an-nabawiyyah-sallabi",
    "author": "as-Sallabi",
    "kind": "Sirah",
    "t": 1486,
@@ -197,6 +200,7 @@
   {
    "id": "s1",
    "title": "Al-Bidayah wa an-Nihayah",
+   "book": "al-bidayah-wan-nihayah",
    "author": "Ibn Kathir",
    "kind": "Sirah",
    "t": null,
@@ -206,6 +210,7 @@
   {
    "id": "s2",
    "title": "Ar-Raheeq Al-Makhtum (Sealed Nectar)",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiur Rahman al-Mubarakpuri",
    "kind": "Sirah",
    "t": null,

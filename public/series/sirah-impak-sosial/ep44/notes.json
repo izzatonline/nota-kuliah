@@ -270,6 +270,7 @@
   {
    "id": "b1",
    "title": "Hisnul Muslim",
+   "book": "hisnul-muslim",
    "author": null,
    "kind": "Buku",
    "t": 304,
@@ -279,6 +280,7 @@
   {
    "id": "b2",
    "title": "Al-Adab Al-Mufrad",
+   "book": "al-adab-al-mufrad",
    "author": "Al-Bukhari",
    "kind": "Kitab hadis",
    "t": 276,
@@ -287,6 +289,7 @@
   {
    "id": "b3",
    "title": "Ar-Raheeq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": null,
    "kind": "Sirah",
    "t": 1289,
@@ -296,6 +299,7 @@
   {
    "id": "b4",
    "title": "The Courage to Be Disliked",
+   "book": "the-courage-to-be-disliked",
    "author": null,
    "kind": "Buku",
    "t": 224,
@@ -305,6 +309,7 @@
   {
    "id": "b5",
    "title": "The Obstacle Is the Way",
+   "book": "the-obstacle-is-the-way",
    "author": null,
    "kind": "Buku",
    "t": 4273,
@@ -314,6 +319,7 @@
   {
    "id": "b6",
    "title": "Tafsir Ibn Kathir",
+   "book": "tafsir-ibn-kathir",
    "author": "Ibn Kathir",
    "kind": "Tafsir",
    "t": 923,

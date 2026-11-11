@@ -286,6 +286,7 @@
   {
    "id": "b1",
    "title": "Slow Productivity",
+   "book": "slow-productivity",
    "author": "Cal Newport",
    "kind": "Buku",
    "t": 216,
@@ -294,6 +295,7 @@
   {
    "id": "b2",
    "title": "Muhammad: Man and Prophet",
+   "book": "man-and-prophet",
    "author": "Adil Salahi",
    "kind": "Sirah",
    "t": 1059,
@@ -302,6 +304,7 @@
   {
    "id": "b3",
    "title": "Kenang-kenangan Hidup",
+   "book": "kenang-kenangan-hidup",
    "author": "Hamka",
    "kind": "Buku",
    "t": 3241,
@@ -310,6 +313,7 @@
   {
    "id": "b4",
    "title": "Tasawuf Modern",
+   "book": "tasawuf-modern",
    "author": "Hamka",
    "kind": "Buku",
    "t": 3310,
@@ -318,6 +322,7 @@
   {
    "id": "b5",
    "title": "Amar Singh Chamkila",
+   "book": "amar-singh-chamkila",
    "author": null,
    "kind": "Lain-lain",
    "t": 3177,

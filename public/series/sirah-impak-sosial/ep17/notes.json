@@ -167,6 +167,7 @@
   {
    "id": "b1",
    "title": "Musim Bunga Pertama (Ar-Rabi' Al-Awwal): Biografi Rasulullah SAW dari lensa strategi dan politik",
+   "book": "musim-bunga-pertama",
    "author": "Wadah Hanfar",
    "kind": "Sirah",
    "t": 310,
@@ -175,6 +176,7 @@
   {
    "id": "b2",
    "title": "Sirah Nabawiyyah (terjemahan)",
+   "book": "sirah-nabawiyyah",
    "author": "Abul Hasan Ali An-Nadwi",
    "kind": "Sirah",
    "t": 480,
@@ -183,6 +185,7 @@
   {
    "id": "b3",
    "title": "Ma dha Khasira Al-Alam bi Inhitat Al-Muslimin",
+   "book": "ma-dha-khasira-al-alam-bi",
    "author": "Abul Hasan Ali An-Nadwi",
    "kind": "Buku",
    "t": 545,
@@ -191,6 +194,7 @@
   {
    "id": "b4",
    "title": "Sirah Nabawiyyah (Syekh Ali As-Sallabi)",
+   "book": "as-sirah-an-nabawiyyah-sallabi",
    "author": "Ali As-Sallabi",
    "kind": "Sirah",
    "t": 600,
@@ -199,6 +203,7 @@
   {
    "id": "b5",
    "title": "Gladiator",
+   "book": "gladiator",
    "author": null,
    "kind": "Dokumentari",
    "t": 754,
@@ -207,6 +212,7 @@
   {
    "id": "b6",
    "title": "Jai Bhim",
+   "book": "jai-bhim",
    "author": null,
    "kind": "Lain-lain",
    "t": 2335,

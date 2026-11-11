@@ -218,6 +218,7 @@
   {
    "id": "b1",
    "title": "Al-Mufassal fi As-Sirah An-Nabawiyyah",
+   "book": "al-mufassal-fi-as-sirah-an",
    "author": "Dr Muhammad Akram Nadwi",
    "kind": "Sirah",
    "t": 196,
@@ -226,6 +227,7 @@
   {
    "id": "b2",
    "title": "Al-Wafa bi Asma' An-Nisa'",
+   "book": "al-wafa-bi-asma-an-nisa",
    "author": "Dr Muhammad Akram Nadwi",
    "kind": "Kitab hadis",
    "t": 253,
@@ -234,6 +236,7 @@
   {
    "id": "b3",
    "title": "Fiqh As-Sirah",
+   "book": "fiqh-as-sirah",
    "author": "Muhammad Al-Ghazali",
    "kind": "Sirah",
    "t": 538,
@@ -242,6 +245,7 @@
   {
    "id": "b4",
    "title": "Ensiklopedia Sirah",
+   "book": "ensiklopedia-sirah",
    "author": "Syekh Tariq Suwaidan",
    "kind": "Sirah",
    "t": 4639,
@@ -250,6 +254,7 @@
   {
    "id": "b5",
    "title": "Fajar Islam di Nusantara",
+   "book": "fajar-islam-di-nusantara",
    "author": "Dr Hafizi Muhammad Nur",
    "kind": "Buku",
    "t": 1091,
@@ -258,6 +263,7 @@
   {
    "id": "b6",
    "title": "Kenang-Kenanganku di Malaya",
+   "book": "kenang-kenanganku-di-malaya",
    "author": "Hamka",
    "kind": "Buku",
    "t": 1148,

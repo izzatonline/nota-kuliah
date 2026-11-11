@@ -350,6 +350,7 @@
   {
    "id": "b1",
    "title": "Peribadi Hebat",
+   "book": "peribadi-hebat",
    "author": "Prof. Dr. Hamka",
    "kind": "Buku",
    "t": 2738,
@@ -358,6 +359,7 @@
   {
    "id": "b2",
    "title": "The Courage to Be Disliked",
+   "book": "the-courage-to-be-disliked",
    "author": null,
    "kind": "Buku",
    "t": 3131,
@@ -367,6 +369,7 @@
   {
    "id": "b3",
    "title": "Musnad Ahmad",
+   "book": "musnad-ahmad",
    "author": "Imam Ahmad",
    "kind": "Kitab hadis",
    "t": 1273,
@@ -375,6 +378,7 @@
   {
    "id": "b4",
    "title": "Dala'il an-Nubuwwah",
+   "book": "dalail-an-nubuwwah",
    "author": "Al-Bayhaqi",
    "kind": "Kitab hadis",
    "t": 1881,
@@ -383,6 +387,7 @@
   {
    "id": "b5",
    "title": "Sirah Ibn Hisham",
+   "book": "sirah-ibn-hisham",
    "author": "Ibn Hisham",
    "kind": "Sirah",
    "t": 1511,
@@ -391,6 +396,7 @@
   {
    "id": "b6",
    "title": "Al-Bidayah wan Nihayah",
+   "book": "al-bidayah-wan-nihayah",
    "author": "Ibn Kathir",
    "kind": "Sirah",
    "t": 1877,
@@ -399,6 +405,7 @@
   {
    "id": "b7",
    "title": "Siyar A'lam an-Nubala'",
+   "book": "siyar-alam-an-nubala",
    "author": "Al-Zahabi",
    "kind": "Lain-lain",
    "t": 4359,
@@ -407,6 +414,7 @@
   {
    "id": "s1",
    "title": "Fath al-Bari",
+   "book": "fathul-bari",
    "author": "Ibn Hajar Al-Asqalani",
    "kind": "Syarah",
    "t": null,
@@ -416,6 +424,7 @@
   {
    "id": "s2",
    "title": "Ar-Raheeq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiyyurrahman Al-Mubarakfuri",
    "kind": "Sirah",
    "t": null,

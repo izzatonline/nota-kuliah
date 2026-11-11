@@ -186,6 +186,7 @@
   {
    "id": "b1",
    "title": "Sirah Ibn Hisham",
+   "book": "sirah-ibn-hisham",
    "author": null,
    "kind": "Sirah",
    "t": 363,
@@ -195,6 +196,7 @@
   {
    "id": "b2",
    "title": "Zad al-Ma'ad",
+   "book": "zad-al-maad",
    "author": "Ibn Qayyim",
    "kind": "Kitab hadis",
    "t": 344,
@@ -203,6 +205,7 @@
   {
    "id": "b3",
    "title": "Buku sirah karya Quraish Shihab",
+   "book": "buku-sirah-quraish-shihab",
    "author": "Muhammad Quraish Shihab",
    "kind": "Sirah",
    "t": 952,
@@ -211,6 +214,7 @@
   {
    "id": "b4",
    "title": "Fiqh as-Sirah",
+   "book": "fiqh-as-sirah",
    "author": "Syekh Muhammad Al-Ghazali",
    "kind": "Sirah",
    "t": 1113,
@@ -220,6 +224,7 @@
   {
    "id": "b5",
    "title": "The Anxious Generation",
+   "book": "the-anxious-generation",
    "author": "Jonathan Haidt",
    "kind": "Buku",
    "t": 644,

@@ -415,6 +415,7 @@
   {
    "id": "b1",
    "title": "Ar-Raheeq al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiyyurrahman al-Mubarakfuri",
    "kind": "Sirah",
    "t": 1513,
@@ -424,6 +425,7 @@
   {
    "id": "b2",
    "title": "Muhammad: Man and Prophet",
+   "book": "man-and-prophet",
    "author": "Adil Salahi",
    "kind": "Sirah",
    "t": 827,
@@ -432,6 +434,7 @@
   {
    "id": "b3",
    "title": "Nabi Juga Bermain: Membina jiwa anak-anak melalui fitrah dan sunnah bermain",
+   "book": "nabi-juga-bermain",
    "author": "Dr. Amirul Aizad dan Amirah Hazam",
    "kind": "Buku",
    "t": 569,
@@ -440,6 +443,7 @@
   {
    "id": "b4",
    "title": "Sirah Ibn Hisham",
+   "book": "sirah-ibn-hisham",
    "author": null,
    "kind": "Sirah",
    "t": 3378,
@@ -449,6 +453,7 @@
   {
    "id": "b5",
    "title": "Al-Bidayah wa an-Nihayah",
+   "book": "al-bidayah-wan-nihayah",
    "author": "Ibn Kathir",
    "kind": "Sirah",
    "t": 3434,
@@ -458,6 +463,7 @@
   {
    "id": "b6",
    "title": "Siri drama Omar",
+   "book": "siri-drama-omar",
    "author": null,
    "kind": "Lain-lain",
    "t": 5031,

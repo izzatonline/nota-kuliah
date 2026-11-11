@@ -193,6 +193,7 @@
   {
    "id": "b1",
    "title": "Ensiklopedia Sirah",
+   "book": "ensiklopedia-sirah",
    "author": "Syekh Tariq Suwaidan",
    "kind": "Sirah",
    "t": 183,
@@ -201,6 +202,7 @@
   {
    "id": "b2",
    "title": "As-Sirah An-Nabawiyyah",
+   "book": "as-sirah-an-nabawiyyah-sallabi",
    "author": "Ali Muhammad As-Sallabi",
    "kind": "Sirah",
    "t": 161,
@@ -209,6 +211,7 @@
   {
    "id": "b3",
    "title": "Hidden Potential: The Science of Achieving Greater Things",
+   "book": "hidden-potential",
    "author": "Adam Grant",
    "kind": "Buku",
    "t": 2587,

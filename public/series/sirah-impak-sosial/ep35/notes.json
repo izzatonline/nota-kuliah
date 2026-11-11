@@ -323,6 +323,7 @@
   {
    "id": "b1",
    "title": "Sirah Ibn Hisham",
+   "book": "sirah-ibn-hisham",
    "author": "Ibn Hisham",
    "kind": "Sirah",
    "t": 850,
@@ -331,6 +332,7 @@
   {
    "id": "b2",
    "title": "Tabaqat Ibn Sa'ad",
+   "book": "tabaqat-ibn-saad",
    "author": "Ibn Sa'ad",
    "kind": "Sirah",
    "t": 1647,
@@ -338,7 +340,17 @@
   },
   {
    "id": "b3",
-   "title": "Sahih Bukhari dan Sahih Muslim",
+   "title": "Sahih Bukhari",
+   "book": "sahih-bukhari",
+   "author": "Imam Bukhari dan Imam Muslim",
+   "kind": "Kitab hadis",
+   "t": 434,
+   "context": "Sumber hadis najis di bahu Nabi SAW (Ibn Mas'ud) dan hadis malaikat gunung (Aisyah). Ustaz menyebut versi Bukhari ringkas seperti 'trailer', manakala butirannya datang daripada riwayat sirah."
+  },
+  {
+   "id": "b8",
+   "title": "Sahih Muslim",
+   "book": "sahih-muslim",
    "author": "Imam Bukhari dan Imam Muslim",
    "kind": "Kitab hadis",
    "t": 434,
@@ -347,6 +359,7 @@
   {
    "id": "b4",
    "title": "Buku Prof. Quraish tentang sirah Nabi SAW",
+   "book": "buku-sirah-quraish-shihab",
    "author": "Quraish Shihab",
    "kind": "Sirah",
    "t": 2178,
@@ -356,6 +369,7 @@
   {
    "id": "b5",
    "title": "War and Peace in the Life of Prophet Muhammad SAW",
+   "book": "war-and-peace-in-the-life",
    "author": null,
    "kind": "Buku",
    "t": 4366,
@@ -364,6 +378,7 @@
   {
    "id": "b6",
    "title": "Being There: Why Prioritizing Motherhood in the First Three Years Matters",
+   "book": "being-there",
    "author": "Erica Komisar",
    "kind": "Buku",
    "t": 4179,
@@ -372,6 +387,7 @@
   {
    "id": "b7",
    "title": "Laman Parent Connect",
+   "book": "laman-parent-connect",
    "author": "Nur Afidah Abu Bakar",
    "kind": "Lain-lain",
    "t": 4081,
@@ -380,6 +396,7 @@
   {
    "id": "s1",
    "title": "Zad Al-Ma'ad",
+   "book": "zad-al-maad",
    "author": "Ibn Al-Qayyim",
    "kind": "Sirah",
    "t": null,
@@ -389,6 +406,7 @@
   {
    "id": "s2",
    "title": "Ar-Raheeq Al-Makhtum (bab Taif)",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiur Rahman Al-Mubarakfuri",
    "kind": "Sirah",
    "t": null,

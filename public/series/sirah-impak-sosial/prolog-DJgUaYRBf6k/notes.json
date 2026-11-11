@@ -338,6 +338,7 @@
   {
    "id": "b1",
    "title": "Ar-Rahiq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiur Rahman Al-Mubarakfuri",
    "kind": "Sirah",
    "t": 830,
@@ -346,6 +347,7 @@
   {
    "id": "b2",
    "title": "The Anxious Generation",
+   "book": "the-anxious-generation",
    "author": null,
    "kind": "Buku",
    "t": 3803,
@@ -355,6 +357,7 @@
   {
    "id": "b3",
    "title": "The Fall of Men and Boys / The Boy Crisis",
+   "book": "the-fall-of-men-and-boys",
    "author": null,
    "kind": "Buku",
    "t": 4007,
@@ -364,6 +367,7 @@
   {
    "id": "b4",
    "title": "Buku tentang prophetic parenting",
+   "book": "buku-tentang-prophetic-parenting",
    "author": null,
    "kind": "Buku",
    "t": 5495,
@@ -373,6 +377,7 @@
   {
    "id": "b5",
    "title": "Tinjauan NHMS 2023 (Kementerian Kesihatan Malaysia)",
+   "book": "tinjauan-nhms-2023",
    "author": null,
    "kind": "Artikel",
    "t": 3913,
@@ -382,6 +387,7 @@
   {
    "id": "b6",
    "title": "Data UNICEF tentang buli siber",
+   "book": "data-unicef-tentang-buli-siber",
    "author": null,
    "kind": "Artikel",
    "t": 3827,
@@ -390,6 +396,7 @@
   {
    "id": "b7",
    "title": "Sahih Muslim",
+   "book": "sahih-muslim",
    "author": "Imam Muslim",
    "kind": "Kitab hadis",
    "t": 4404,
@@ -398,6 +405,7 @@
   {
    "id": "s1",
    "title": "Sahih Muslim (Kitab Al-Hajj, hadis Jabir tentang haji Nabi SAW)",
+   "book": "sahih-muslim",
    "author": "Imam Muslim",
    "kind": "Kitab hadis",
    "t": null,
@@ -407,6 +415,7 @@
   {
    "id": "s2",
    "title": "Fiqh As-Sirah",
+   "book": "fiqh-as-sirah",
    "author": "Muhammad Al-Ghazali",
    "kind": "Sirah",
    "t": null,

@@ -260,6 +260,7 @@
   {
    "id": "b1",
    "title": "Ar-Rahiq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": null,
    "kind": "Sirah",
    "t": 1303,
@@ -269,6 +270,7 @@
   {
    "id": "b2",
    "title": "Natijah Syahadah: Impak Pemelukan Islam di Sisi Undang-Undang",
+   "book": "natijah-syahadah",
    "author": null,
    "kind": "Buku",
    "t": 222,
@@ -277,6 +279,7 @@
   {
    "id": "b3",
    "title": "Man and Prophet",
+   "book": "man-and-prophet",
    "author": null,
    "kind": "Buku",
    "t": 2347,
@@ -285,6 +288,7 @@
   {
    "id": "b4",
    "title": "Mecca at the Time of Prophet Muhammad: An Illustrated Reference",
+   "book": "mecca-at-the-time-of-prophet",
    "author": null,
    "kind": "Buku",
    "t": 3210,
@@ -293,6 +297,7 @@
   {
    "id": "b5",
    "title": "Buku Irfan Hamka tentang Buya Hamka (tajuk tidak disebut)",
+   "book": "buku-irfan-hamka-tentang-buya-hamka",
    "author": "Irfan Hamka",
    "kind": "Buku",
    "t": 3323,
@@ -301,6 +306,7 @@
   {
    "id": "b6",
    "title": "Bison (filem)",
+   "book": "bison",
    "author": null,
    "kind": "Lain-lain",
    "t": 4191,

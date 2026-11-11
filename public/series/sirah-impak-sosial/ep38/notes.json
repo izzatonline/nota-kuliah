@@ -556,6 +556,7 @@
   {
    "id": "b1",
    "title": "Ar-Raheeq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiur Rahman al-Mubarakfuri",
    "kind": "Sirah",
    "t": 541,
@@ -564,6 +565,7 @@
   {
    "id": "b2",
    "title": "Sahih Bukhari",
+   "book": "sahih-bukhari",
    "author": null,
    "kind": "Kitab hadis",
    "t": 1202,
@@ -572,6 +574,7 @@
   {
    "id": "b3",
    "title": "Sahih Muslim",
+   "book": "sahih-muslim",
    "author": null,
    "kind": "Kitab hadis",
    "t": 2294,
@@ -580,6 +583,7 @@
   {
    "id": "b4",
    "title": "Musnad Ahmad",
+   "book": "musnad-ahmad",
    "author": null,
    "kind": "Kitab hadis",
    "t": 2193,
@@ -588,6 +592,7 @@
   {
    "id": "b5",
    "title": "Syama'il Muhammadiyah",
+   "book": "syamail-muhammadiyah",
    "author": null,
    "kind": "Kitab hadis",
    "t": 3852,
@@ -596,6 +601,7 @@
   {
    "id": "b6",
    "title": "One Strange Rock",
+   "book": "one-strange-rock",
    "author": null,
    "kind": "Dokumentari",
    "t": 3095,
@@ -604,6 +610,7 @@
   {
    "id": "s1",
    "title": "Fath al-Bari",
+   "book": "fathul-bari",
    "author": "Ibn Hajar al-Asqalani",
    "kind": "Syarah",
    "t": null,
@@ -613,6 +620,7 @@
   {
    "id": "s2",
    "title": "Tafsir Ibn Kathir (Surah Al-Isra')",
+   "book": "tafsir-ibn-kathir",
    "author": "Ibn Kathir",
    "kind": "Tafsir",
    "t": null,

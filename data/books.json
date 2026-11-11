@@ -1,0 +1,991 @@
+{
+ "groups": [
+  {
+   "key": "kitab-hadis",
+   "ms": "Kitab hadis",
+   "en": "Hadith collections"
+  },
+  {
+   "key": "tafsir",
+   "ms": "Tafsir",
+   "en": "Quran commentary"
+  },
+  {
+   "key": "syarah",
+   "ms": "Syarah",
+   "en": "Hadith commentaries"
+  },
+  {
+   "key": "sirah",
+   "ms": "Sirah",
+   "en": "Sirah and the Prophet's life"
+  },
+  {
+   "key": "buku",
+   "ms": "Buku",
+   "en": "Books"
+  },
+  {
+   "key": "dokumentari",
+   "ms": "Dokumentari",
+   "en": "Documentaries"
+  },
+  {
+   "key": "artikel",
+   "ms": "Artikel",
+   "en": "Articles and reports"
+  },
+  {
+   "key": "lain",
+   "ms": "Lain-lain",
+   "en": "Others (films, podcasts, websites)"
+  }
+ ],
+ "books": [
+  {
+   "key": "al-adab-al-mufrad",
+   "group": "kitab-hadis",
+   "ms": "Al-Adab Al-Mufrad",
+   "en": null,
+   "author": "Imam Al-Bukhari"
+  },
+  {
+   "key": "al-wafa-bi-asma-an-nisa",
+   "group": "kitab-hadis",
+   "ms": "Al-Wafa bi Asma' An-Nisa'",
+   "en": null,
+   "author": "Dr Muhammad Akram Nadwi"
+  },
+  {
+   "key": "dalail-an-nubuwwah",
+   "group": "kitab-hadis",
+   "ms": "Dala'il an-Nubuwwah",
+   "en": null,
+   "author": "Al-Bayhaqi"
+  },
+  {
+   "key": "musnad-ahmad",
+   "group": "kitab-hadis",
+   "ms": "Musnad Ahmad",
+   "en": null,
+   "author": "Imam Ahmad"
+  },
+  {
+   "key": "riyadus-salihin",
+   "group": "kitab-hadis",
+   "ms": "Riyadus Salihin",
+   "en": null,
+   "author": "Imam an-Nawawi"
+  },
+  {
+   "key": "sahih-bukhari",
+   "group": "kitab-hadis",
+   "ms": "Sahih Bukhari",
+   "en": null,
+   "author": "Imam Bukhari"
+  },
+  {
+   "key": "sahih-ibn-hibban",
+   "group": "kitab-hadis",
+   "ms": "Sahih Ibn Hibban",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "sahih-muslim",
+   "group": "kitab-hadis",
+   "ms": "Sahih Muslim",
+   "en": null,
+   "author": "Imam Muslim"
+  },
+  {
+   "key": "sunan-an-nasai",
+   "group": "kitab-hadis",
+   "ms": "Sunan An-Nasa'i",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "sunan-at-tirmidhi",
+   "group": "kitab-hadis",
+   "ms": "Sunan At-Tirmidhi",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "sunan-ibn-majah",
+   "group": "kitab-hadis",
+   "ms": "Sunan Ibn Majah",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "syamail-muhammadiyah",
+   "group": "kitab-hadis",
+   "ms": "Syama'il Muhammadiyah",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "tafsir-al-azhar",
+   "group": "tafsir",
+   "ms": "Tafsir Al-Azhar",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "tafsir-al-misbah",
+   "group": "tafsir",
+   "ms": "Tafsir Al-Misbah",
+   "en": null,
+   "author": "Quraish Shihab"
+  },
+  {
+   "key": "tafsir-hamka",
+   "group": "tafsir",
+   "ms": "Tafsir Hamka",
+   "en": null,
+   "author": "Hamka"
+  },
+  {
+   "key": "tafsir-ibn-kathir",
+   "group": "tafsir",
+   "ms": "Tafsir Ibn Kathir",
+   "en": null,
+   "author": "Ibn Kathir"
+  },
+  {
+   "key": "al-minhaj",
+   "group": "syarah",
+   "ms": "Al-Minhaj (Syarah Sahih Muslim)",
+   "en": null,
+   "author": "Imam An-Nawawi"
+  },
+  {
+   "key": "fathul-bari",
+   "group": "syarah",
+   "ms": "Fathul Bari",
+   "en": null,
+   "author": "Ibn Hajar al-Asqalani"
+  },
+  {
+   "key": "syarah-hisnul-muslim",
+   "group": "syarah",
+   "ms": "Syarah Hisnul Muslim",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "al-bidayah-wan-nihayah",
+   "group": "sirah",
+   "ms": "Al-Bidayah wan Nihayah",
+   "en": null,
+   "author": "Ibn Kathir"
+  },
+  {
+   "key": "al-mufassal-fi-as-sirah-an",
+   "group": "sirah",
+   "ms": "Al-Mufassal fi As-Sirah An-Nabawiyyah",
+   "en": null,
+   "author": "Dr Muhammad Akram Nadwi"
+  },
+  {
+   "key": "al-sira-al-nabawiyya",
+   "group": "sirah",
+   "ms": "Al-Sira Al-Nabawiyya",
+   "en": null,
+   "author": "Ibn Kathir"
+  },
+  {
+   "key": "ar-raheeq-al-makhtum",
+   "group": "sirah",
+   "ms": "Ar-Raheeq Al-Makhtum",
+   "en": null,
+   "author": "Safiyyurrahman al-Mubarakfuri"
+  },
+  {
+   "key": "as-sirah-an-nabawiyyah-sallabi",
+   "group": "sirah",
+   "ms": "As-Sirah An-Nabawiyyah",
+   "en": null,
+   "author": "Ali Muhammad As-Sallabi"
+  },
+  {
+   "key": "tabaqat-ibn-saad",
+   "group": "sirah",
+   "ms": "At-Tabaqat Al-Kubra (Tabaqat Ibn Sa'ad)",
+   "en": null,
+   "author": "Ibn Sa'ad"
+  },
+  {
+   "key": "buku-sirah-quraish-shihab",
+   "group": "sirah",
+   "ms": "Buku sirah Quraish Shihab (tajuk tidak disebut)",
+   "en": null,
+   "author": "Muhammad Quraish Shihab"
+  },
+  {
+   "key": "buku-sirah-tariq-as-suwaidan",
+   "group": "sirah",
+   "ms": "Buku sirah Tariq As-Suwaidan (tajuk tidak disebut)",
+   "en": null,
+   "author": "Tariq As-Suwaidan"
+  },
+  {
+   "key": "buku-sirah-tebal-dr-ali-as",
+   "group": "sirah",
+   "ms": "Buku sirah tebal Dr. Ali As-Salabi (tajuk tidak disebut)",
+   "en": null,
+   "author": "Dr. Ali As-Salabi"
+  },
+  {
+   "key": "ensiklopedia-sirah",
+   "group": "sirah",
+   "ms": "Ensiklopedia Sirah",
+   "en": null,
+   "author": "Syekh Tariq Suwaidan"
+  },
+  {
+   "key": "fiqh-as-sirah",
+   "group": "sirah",
+   "ms": "Fiqh As-Sirah",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "hamka-bercerita-sirah-nabi-muhammad-saw",
+   "group": "sirah",
+   "ms": "Hamka Bercerita Sirah Nabi Muhammad SAW",
+   "en": null,
+   "author": "Hamka"
+  },
+  {
+   "key": "in-the-footsteps-of-the-prophet",
+   "group": "sirah",
+   "ms": "In the Footsteps of the Prophet",
+   "en": null,
+   "author": "Dr. Tariq Ramadan"
+  },
+  {
+   "key": "maa-al-mustafa",
+   "group": "sirah",
+   "ms": "Ma'a Al-Mustafa (Bersama Nabi Muhammad SAW)",
+   "en": null,
+   "author": "Syekh Dr. Salman Al-Audah"
+  },
+  {
+   "key": "membaca-sirah-nabi",
+   "group": "sirah",
+   "ms": "Membaca Sirah Nabi Muhammad SAW",
+   "en": null,
+   "author": "Prof. Quraish Shihab"
+  },
+  {
+   "key": "muhammad-his-life-earliest-sources",
+   "group": "sirah",
+   "ms": "Muhammad: His Life Based on the Earliest Sources",
+   "en": null,
+   "author": "Martin Lings"
+  },
+  {
+   "key": "man-and-prophet",
+   "group": "sirah",
+   "ms": "Muhammad: Man and Prophet",
+   "en": null,
+   "author": "Adil Salahi"
+  },
+  {
+   "key": "musim-bunga-pertama",
+   "group": "sirah",
+   "ms": "Musim Bunga Pertama (Ar-Rabi' Al-Awwal)",
+   "en": null,
+   "author": "Wadah Hanfar"
+  },
+  {
+   "key": "qisas-al-anbiya",
+   "group": "sirah",
+   "ms": "Qisas Al-Anbiya",
+   "en": null,
+   "author": "Ibn Kathir"
+  },
+  {
+   "key": "sirah-ibn-hisham",
+   "group": "sirah",
+   "ms": "Sirah Ibn Hisham",
+   "en": null,
+   "author": "Ibn Hisham"
+  },
+  {
+   "key": "sirah-ibn-ishaq",
+   "group": "sirah",
+   "ms": "Sirah Ibn Ishaq",
+   "en": null,
+   "author": "Ibn Ishaq"
+  },
+  {
+   "key": "sirah-nabawiyyah",
+   "group": "sirah",
+   "ms": "Sirah Nabawiyyah (terjemahan)",
+   "en": null,
+   "author": "Abul Hasan Ali An-Nadwi"
+  },
+  {
+   "key": "the-seerah-of-the-prophet",
+   "group": "sirah",
+   "ms": "The Seerah of the Prophet: A Contemporary and Original Analysis",
+   "en": null,
+   "author": "Yasir Qadhi"
+  },
+  {
+   "key": "women-around-the-prophet",
+   "group": "sirah",
+   "ms": "Women Around the Prophet",
+   "en": null,
+   "author": "Muhammad Khalid"
+  },
+  {
+   "key": "zad-al-maad",
+   "group": "sirah",
+   "ms": "Zad Al-Ma'ad",
+   "en": null,
+   "author": "Ibn Qayyim"
+  },
+  {
+   "key": "a-path-appears",
+   "group": "buku",
+   "ms": "A Path Appears: Transforming Lives, Creating Opportunity",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "a-place-of-refuge",
+   "group": "buku",
+   "ms": "A Place of Refuge",
+   "en": null,
+   "author": "Asma' Hussein"
+  },
+  {
+   "key": "a-temporary-gift",
+   "group": "buku",
+   "ms": "A Temporary Gift",
+   "en": null,
+   "author": "Asma' Hussein"
+  },
+  {
+   "key": "ayah-kisah-buya-hamka",
+   "group": "buku",
+   "ms": "Ayah: Kisah Buya Hamka",
+   "en": null,
+   "author": "Irfan Hamka"
+  },
+  {
+   "key": "being-there",
+   "group": "buku",
+   "ms": "Being There: Why Prioritizing Motherhood in the First Three Years Matters",
+   "en": null,
+   "author": "Erica Komisar"
+  },
+  {
+   "key": "boys-adrift",
+   "group": "buku",
+   "ms": "Boys Adrift",
+   "en": null,
+   "author": "Leonard Sax"
+  },
+  {
+   "key": "brain-rules-for-baby",
+   "group": "buku",
+   "ms": "Brain Rules for Baby: How to Raise a Smart and Happy Child from Zero to Five",
+   "en": null,
+   "author": "John Medina"
+  },
+  {
+   "key": "buku-hamka-tentang-pengalaman-di-penjara",
+   "group": "buku",
+   "ms": "Buku Hamka tentang pengalaman di penjara",
+   "en": null,
+   "author": "Hamka"
+  },
+  {
+   "key": "buku-irfan-hamka-tentang-buya-hamka",
+   "group": "buku",
+   "ms": "Buku Irfan Hamka tentang Buya Hamka (tajuk tidak disebut)",
+   "en": null,
+   "author": "Irfan Hamka"
+  },
+  {
+   "key": "buku-kanak-kanak-tentang-kanak-kanak",
+   "group": "buku",
+   "ms": "Buku kanak-kanak tentang kanak-kanak miskin Afrika dan bola sepak",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "buku-tentang-kerja-sosial",
+   "group": "buku",
+   "ms": "Buku tentang kerja sosial (bab 4: If You Catch Them Early)",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "buku-tentang-prophetic-parenting",
+   "group": "buku",
+   "ms": "Buku tentang prophetic parenting",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "catatan-penjara",
+   "group": "buku",
+   "ms": "Catatan Penjara (Sa'ari Sungit)",
+   "en": null,
+   "author": "Sa'ari Sungit"
+  },
+  {
+   "key": "chutzpah",
+   "group": "buku",
+   "ms": "Chutzpah",
+   "en": null,
+   "author": "Inbal Arieli"
+  },
+  {
+   "key": "ensiklopedia-sahabat",
+   "group": "buku",
+   "ms": "Ensiklopedia Sahabat: Biografi dan Profil Teladan 104 Sahabat Nabi SAW",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "fajar-islam-di-nusantara",
+   "group": "buku",
+   "ms": "Fajar Islam di Nusantara",
+   "en": null,
+   "author": "Dr Hafizi Muhammad Nur"
+  },
+  {
+   "key": "fiqhud-dawah",
+   "group": "buku",
+   "ms": "Fiqhud Da'wah",
+   "en": null,
+   "author": "Muhammad Natsir"
+  },
+  {
+   "key": "fiqhus-salah",
+   "group": "buku",
+   "ms": "Fiqhus Salah",
+   "en": null,
+   "author": "Yusuf Al-Qaradawi"
+  },
+  {
+   "key": "get-together",
+   "group": "buku",
+   "ms": "Get Together",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "good-muslim-bad-muslim",
+   "group": "buku",
+   "ms": "Good Muslim, Bad Muslim",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "hidden-potential",
+   "group": "buku",
+   "ms": "Hidden Potential",
+   "en": null,
+   "author": "Adam Grant"
+  },
+  {
+   "key": "hikmah-hati",
+   "group": "buku",
+   "ms": "Hikmah Hati",
+   "en": null,
+   "author": "Dr. Mazli Malik"
+  },
+  {
+   "key": "hisnul-muslim",
+   "group": "buku",
+   "ms": "Hisnul Muslim",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "ikigai",
+   "group": "buku",
+   "ms": "Ikigai",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "kenang-kenangan-hidup",
+   "group": "buku",
+   "ms": "Kenang-kenangan Hidup",
+   "en": null,
+   "author": "Hamka"
+  },
+  {
+   "key": "kenang-kenanganku-di-malaya",
+   "group": "buku",
+   "ms": "Kenang-Kenanganku di Malaya",
+   "en": null,
+   "author": "Hamka"
+  },
+  {
+   "key": "khadijah-story-of-islams-first-lady",
+   "group": "buku",
+   "ms": "Khadijah: The Story of Islam's First Lady",
+   "en": null,
+   "author": "Fatimah Barakatullah"
+  },
+  {
+   "key": "lost-connections",
+   "group": "buku",
+   "ms": "Lost Connections",
+   "en": null,
+   "author": "Johann Hari"
+  },
+  {
+   "key": "ma-dha-khasira-al-alam-bi",
+   "group": "buku",
+   "ms": "Ma dha Khasira Al-Alam bi Inhitat Al-Muslimin",
+   "en": null,
+   "author": "Abul Hasan Ali An-Nadwi"
+  },
+  {
+   "key": "marriage-making-and-living",
+   "group": "buku",
+   "ms": "Marriage: The Making and Living of It",
+   "en": null,
+   "author": "Mirza Yawar Baig"
+  },
+  {
+   "key": "mecca-at-the-time-of-prophet",
+   "group": "buku",
+   "ms": "Mecca at the Time of Prophet Muhammad: An Illustrated Reference",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "nabi-juga-bermain",
+   "group": "buku",
+   "ms": "Nabi Juga Bermain: Membina jiwa anak-anak melalui fitrah dan sunnah bermain",
+   "en": null,
+   "author": "Dr. Amirul Aizad dan Amirah Hazam"
+  },
+  {
+   "key": "natijah-syahadah",
+   "group": "buku",
+   "ms": "Natijah Syahadah: Impak Pemelukan Islam di Sisi Undang-Undang",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "novel-tentang-ashabul-ukhdud-oleh-dr",
+   "group": "buku",
+   "ms": "Novel tentang Ashabul Ukhdud oleh Dr. Mazli Malik",
+   "en": null,
+   "author": "Dr. Mazli Malik"
+  },
+  {
+   "key": "pandangan-hidup-muslim",
+   "group": "buku",
+   "ms": "Pandangan Hidup Muslim",
+   "en": null,
+   "author": "Hamka"
+  },
+  {
+   "key": "peribadi-hebat",
+   "group": "buku",
+   "ms": "Peribadi Hebat",
+   "en": null,
+   "author": "Prof. Dr. Hamka"
+  },
+  {
+   "key": "privacy-is-power",
+   "group": "buku",
+   "ms": "Privacy Is Power",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "siri-tadabbur-juz-amma",
+   "group": "buku",
+   "ms": "Siri Tadabbur Juz 'Amma: Bila Surah-surah Pendek Berbicara untuk Hati yang Ingin Kembali",
+   "en": null,
+   "author": "Akilah Nur"
+  },
+  {
+   "key": "slow-productivity",
+   "group": "buku",
+   "ms": "Slow Productivity",
+   "en": null,
+   "author": "Cal Newport"
+  },
+  {
+   "key": "tasawuf-modern",
+   "group": "buku",
+   "ms": "Tasawuf Modern",
+   "en": null,
+   "author": "Hamka"
+  },
+  {
+   "key": "the-alchemist",
+   "group": "buku",
+   "ms": "The Alchemist",
+   "en": null,
+   "author": "Paulo Coelho"
+  },
+  {
+   "key": "the-anxious-generation",
+   "group": "buku",
+   "ms": "The Anxious Generation",
+   "en": null,
+   "author": "Jonathan Haidt"
+  },
+  {
+   "key": "the-burnout-society",
+   "group": "buku",
+   "ms": "The Burnout Society",
+   "en": null,
+   "author": "Byung-Chul Han"
+  },
+  {
+   "key": "the-case-against-the-sexual-revolution",
+   "group": "buku",
+   "ms": "The Case Against the Sexual Revolution",
+   "en": null,
+   "author": "Louise Perry"
+  },
+  {
+   "key": "the-clear-quran",
+   "group": "buku",
+   "ms": "The Clear Quran",
+   "en": null,
+   "author": "Dr. Mustafa Khattab"
+  },
+  {
+   "key": "the-comfort-crisis",
+   "group": "buku",
+   "ms": "The Comfort Crisis",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "the-courage-to-be-disliked",
+   "group": "buku",
+   "ms": "The Courage to Be Disliked",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "the-fall-of-men-and-boys",
+   "group": "buku",
+   "ms": "The Fall of Men and Boys / The Boy Crisis",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "the-first-muslim",
+   "group": "buku",
+   "ms": "The First Muslim",
+   "en": null,
+   "author": "Leslie Hazleton"
+  },
+  {
+   "key": "the-house-of-khadijah",
+   "group": "buku",
+   "ms": "The House of Khadijah",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "the-mom-test",
+   "group": "buku",
+   "ms": "The Mom Test",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "the-obstacle-is-the-way",
+   "group": "buku",
+   "ms": "The Obstacle Is the Way",
+   "en": null,
+   "author": "Ryan Holiday"
+  },
+  {
+   "key": "the-psychology-of-money",
+   "group": "buku",
+   "ms": "The Psychology of Money",
+   "en": null,
+   "author": "Morgan Housel"
+  },
+  {
+   "key": "the-simple-path-to-wealth",
+   "group": "buku",
+   "ms": "The Simple Path to Wealth",
+   "en": null,
+   "author": "J.L. Collins"
+  },
+  {
+   "key": "the-stolen-focus",
+   "group": "buku",
+   "ms": "The Stolen Focus: Why You Can't Pay Attention",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "war-and-peace-in-the-life",
+   "group": "buku",
+   "ms": "War and Peace in the Life of Prophet Muhammad SAW",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "why-we-sleep",
+   "group": "buku",
+   "ms": "Why We Sleep",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "dokumentari-channel-news-asia-tentang-ekonomi",
+   "group": "dokumentari",
+   "ms": "Dokumentari Channel News Asia tentang ekonomi Indonesia",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "gladiator",
+   "group": "dokumentari",
+   "ms": "Gladiator",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "one-strange-rock",
+   "group": "dokumentari",
+   "ms": "One Strange Rock",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "sang-pencerah",
+   "group": "dokumentari",
+   "ms": "Sang Pencerah",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "data-unicef-tentang-buli-siber",
+   "group": "artikel",
+   "ms": "Data UNICEF tentang buli siber",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "kenyataan-malaysia-cyber-consumer-association",
+   "group": "artikel",
+   "ms": "Kenyataan Malaysia Cyber Consumer Association",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "laporan-unicef-children-without",
+   "group": "artikel",
+   "ms": "Laporan UNICEF Children Without",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "tinjauan-cyber-safe-parenting-ke-arah",
+   "group": "artikel",
+   "ms": "Tinjauan Cyber Safe Parenting ke arah kesejahteraan cyber (2022)",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "tinjauan-nhms-2023",
+   "group": "artikel",
+   "ms": "Tinjauan NHMS 2023 (Kementerian Kesihatan Malaysia)",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "80-000-hours",
+   "group": "lain",
+   "ms": "80,000 Hours (laman web 80000hours.org)",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "al-kabair",
+   "group": "lain",
+   "ms": "Al-Kaba'ir",
+   "en": null,
+   "author": "Adh-Dhahabi"
+  },
+  {
+   "key": "amar-singh-chamkila",
+   "group": "lain",
+   "ms": "Amar Singh Chamkila",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "bison",
+   "group": "lain",
+   "ms": "Bison (filem)",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "endgame",
+   "group": "lain",
+   "ms": "Endgame (podcast)",
+   "en": null,
+   "author": "Gita Wirjawan"
+  },
+  {
+   "key": "filem-avatar",
+   "group": "lain",
+   "ms": "Filem Avatar",
+   "en": null,
+   "author": "James Cameron"
+  },
+  {
+   "key": "filem-interstellar",
+   "group": "lain",
+   "ms": "Filem Interstellar",
+   "en": null,
+   "author": "Christopher Nolan"
+  },
+  {
+   "key": "filem-jhund",
+   "group": "lain",
+   "ms": "Filem Jhund (2022)",
+   "en": null,
+   "author": "Lakonan Amitabh Bachchan"
+  },
+  {
+   "key": "habibie-dan-ainun",
+   "group": "lain",
+   "ms": "Habibie dan Ainun",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "imaginur",
+   "group": "lain",
+   "ms": "Imaginur (2023)",
+   "en": null,
+   "author": "Nik Amir Mustafa (pengarah)"
+  },
+  {
+   "key": "jai-bhim",
+   "group": "lain",
+   "ms": "Jai Bhim",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "kamus-dewan",
+   "group": "lain",
+   "ms": "Kamus Dewan",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "laman-parent-connect",
+   "group": "lain",
+   "ms": "Laman Parent Connect",
+   "en": null,
+   "author": "Nur Afidah Abu Bakar"
+  },
+  {
+   "key": "lebih-40-buku-dan-rujukan-sirah",
+   "group": "lain",
+   "ms": "Lebih 40 buku dan rujukan sirah",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "lets-talk-porn",
+   "group": "lain",
+   "ms": "Let's Talk Porn (TED Talk)",
+   "en": null,
+   "author": "Maria Ahlin"
+  },
+  {
+   "key": "madarij-as-salikin",
+   "group": "lain",
+   "ms": "Madarij As-Salikin",
+   "en": null,
+   "author": "Ibn Al-Qayyim"
+  },
+  {
+   "key": "podcast-dr-andrew-huberman",
+   "group": "lain",
+   "ms": "Podcast Dr. Andrew Huberman",
+   "en": null,
+   "author": "Andrew Huberman"
+  },
+  {
+   "key": "siri-drama-omar",
+   "group": "lain",
+   "ms": "Siri drama Omar",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "siri-sejarah-farish-a-noor-di",
+   "group": "lain",
+   "ms": "Siri sejarah Farish A. Noor di YouTube",
+   "en": null,
+   "author": "Farish A. Noor"
+  },
+  {
+   "key": "siri-syarah-nama-nama-allah-oleh",
+   "group": "lain",
+   "ms": "Siri syarah nama-nama Allah oleh ustaz di YouTube",
+   "en": null,
+   "author": "Ustaz Azlan Shah NK"
+  },
+  {
+   "key": "siyar-alam-an-nubala",
+   "group": "lain",
+   "ms": "Siyar A'lam an-Nubala'",
+   "en": null,
+   "author": "Al-Zahabi"
+  },
+  {
+   "key": "the-good-life",
+   "group": "lain",
+   "ms": "The Good Life (The Goat Life)",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "the-thinking-muslim-podcast",
+   "group": "lain",
+   "ms": "The Thinking Muslim Podcast: Is Modernity Destroying Childhood",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "tiger",
+   "group": "lain",
+   "ms": "Tiger",
+   "en": null,
+   "author": null
+  },
+  {
+   "key": "video-sejarah-bangladesh-oleh-dr-yasir",
+   "group": "lain",
+   "ms": "Video sejarah Bangladesh oleh Dr. Yasir Qadhi",
+   "en": null,
+   "author": "Dr. Yasir Qadhi"
+  }
+ ]
+}

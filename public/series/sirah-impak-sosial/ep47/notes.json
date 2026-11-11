@@ -296,6 +296,7 @@
   {
    "id": "b1",
    "title": "Sirah Ibn Hisham",
+   "book": "sirah-ibn-hisham",
    "author": null,
    "kind": "Sirah",
    "t": 650,
@@ -304,6 +305,7 @@
   {
    "id": "b2",
    "title": "Ar-Raheeq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiur Rahman al-Mubarakfuri",
    "kind": "Sirah",
    "t": 316,
@@ -313,6 +315,7 @@
   {
    "id": "b3",
    "title": "Buku sirah Quraish Shihab",
+   "book": "buku-sirah-quraish-shihab",
    "author": "Prof. Quraish Shihab",
    "kind": "Sirah",
    "t": 363,
@@ -322,6 +325,7 @@
   {
    "id": "b4",
    "title": "Musnad Imam Ahmad",
+   "book": "musnad-ahmad",
    "author": null,
    "kind": "Kitab hadis",
    "t": 591,
@@ -330,6 +334,7 @@
   {
    "id": "b5",
    "title": "Sahih Ibn Hibban",
+   "book": "sahih-ibn-hibban",
    "author": null,
    "kind": "Kitab hadis",
    "t": 591,
@@ -338,6 +343,7 @@
   {
    "id": "b6",
    "title": "Siri Tadabbur Juz 'Amma: Bila Surah-surah Pendek Berbicara untuk Hati yang Ingin Kembali",
+   "book": "siri-tadabbur-juz-amma",
    "author": "Akilah Nur",
    "kind": "Buku",
    "t": 5374,
@@ -347,6 +353,7 @@
   {
    "id": "s1",
    "title": "Muhammad: His Life Based on the Earliest Sources",
+   "book": "muhammad-his-life-earliest-sources",
    "author": "Martin Lings",
    "kind": "Sirah",
    "t": null,
@@ -356,6 +363,7 @@
   {
    "id": "s2",
    "title": "Fiqh as-Sirah",
+   "book": "fiqh-as-sirah",
    "author": "Dr. Sa'id Ramadan al-Buti",
    "kind": "Sirah",
    "t": null,

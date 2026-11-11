@@ -443,6 +443,7 @@
   {
    "id": "b1",
    "title": "Sahih Muslim",
+   "book": "sahih-muslim",
    "author": null,
    "kind": "Kitab hadis",
    "t": 1313,
@@ -451,6 +452,7 @@
   {
    "id": "b2",
    "title": "Sahih Bukhari",
+   "book": "sahih-bukhari",
    "author": null,
    "kind": "Kitab hadis",
    "t": 1899,
@@ -459,6 +461,7 @@
   {
    "id": "b3",
    "title": "Musnad Imam Ahmad",
+   "book": "musnad-ahmad",
    "author": null,
    "kind": "Kitab hadis",
    "t": 2112,
@@ -467,6 +470,7 @@
   {
    "id": "b4",
    "title": "Sunan Ibn Majah",
+   "book": "sunan-ibn-majah",
    "author": null,
    "kind": "Kitab hadis",
    "t": 1030,
@@ -475,6 +479,7 @@
   {
    "id": "b5",
    "title": "The Simple Path to Wealth",
+   "book": "the-simple-path-to-wealth",
    "author": "J.L. Collins",
    "kind": "Buku",
    "t": 1772,
@@ -483,6 +488,7 @@
   {
    "id": "b6",
    "title": "The Case Against the Sexual Revolution",
+   "book": "the-case-against-the-sexual-revolution",
    "author": "Louise Perry",
    "kind": "Buku",
    "t": 2328,
@@ -491,6 +497,7 @@
   {
    "id": "s1",
    "title": "Al-Kaba'ir",
+   "book": "al-kabair",
    "author": "Adh-Dhahabi",
    "kind": "Lain-lain",
    "t": null,
@@ -500,6 +507,7 @@
   {
    "id": "s2",
    "title": "Riyadus Salihin",
+   "book": "riyadus-salihin",
    "author": "Imam an-Nawawi",
    "kind": "Kitab hadis",
    "t": null,

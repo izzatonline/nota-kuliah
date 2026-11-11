@@ -319,6 +319,7 @@
   {
    "id": "b1",
    "title": "Membaca Sirah Nabi Muhammad SAW dalam Sorotan Al-Quran dan Hadis-Hadis Sahih",
+   "book": "membaca-sirah-nabi",
    "author": "Prof. Muhammad Quraish Shihab",
    "kind": "Sirah",
    "t": 1045,
@@ -327,6 +328,7 @@
   {
    "id": "b2",
    "title": "Tafsir Al-Misbah",
+   "book": "tafsir-al-misbah",
    "author": "Quraish Shihab",
    "kind": "Tafsir",
    "t": 1870,
@@ -335,6 +337,7 @@
   {
    "id": "b3",
    "title": "Ensiklopedia Sirah",
+   "book": "ensiklopedia-sirah",
    "author": "Syekh Tariq Suwaidan",
    "kind": "Sirah",
    "t": 1782,
@@ -343,6 +346,7 @@
   {
    "id": "b4",
    "title": "Ar-Rahiq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiyyurrahman Al-Mubarakfuri",
    "kind": "Sirah",
    "t": 4691,
@@ -351,6 +355,7 @@
   {
    "id": "b5",
    "title": "The Seerah of the Prophet: A Contemporary and Original Analysis",
+   "book": "the-seerah-of-the-prophet",
    "author": "Yasir Qadhi",
    "kind": "Sirah",
    "t": 3969,
@@ -359,6 +364,7 @@
   {
    "id": "b6",
    "title": "Ikigai",
+   "book": "ikigai",
    "author": null,
    "kind": "Buku",
    "t": 3464,

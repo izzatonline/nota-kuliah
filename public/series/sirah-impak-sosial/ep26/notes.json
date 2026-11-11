@@ -361,6 +361,7 @@
   {
    "id": "b1",
    "title": "Ar-Rahiq Al-Makhtum",
+   "book": "ar-raheeq-al-makhtum",
    "author": "Safiyyurrahman Al-Mubarakfuri",
    "kind": "Sirah",
    "t": 2434,
@@ -369,6 +370,7 @@
   {
    "id": "b2",
    "title": "The Seerah of the Prophet: A Contemporary and Original Analysis",
+   "book": "the-seerah-of-the-prophet",
    "author": "Yasir Qadhi",
    "kind": "Sirah",
    "t": 3207,
@@ -377,6 +379,7 @@
   {
    "id": "b3",
    "title": "Fiqh As-Sirah",
+   "book": "fiqh-as-sirah",
    "author": "Muhammad Al-Ghazali",
    "kind": "Sirah",
    "t": 2619,
@@ -385,6 +388,7 @@
   {
    "id": "b4",
    "title": "Sang Pencerah",
+   "book": "sang-pencerah",
    "author": null,
    "kind": "Dokumentari",
    "t": 1192,
