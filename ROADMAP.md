@@ -25,8 +25,9 @@
 
 6. **Share with family.** A share button per episode and per section (WhatsApp, copy link) that sends a short summary plus
    the link, so a husband can send a lesson to his wife, a father to his children.
+   Done: the episode share menu, a share button on lesson, evidence and person cards, and links that open one card (`?i=tab:id`).
 7. **Search visibility (SEO).** Every URL serves one empty HTML shell today, so search engines and WhatsApp previews see almost nothing.
-   Done: custom domain (notakuliah.com, www redirects to it) and the repo website field. Done: prerendering (`scripts/prerender.mjs`, run by `npm run build`), `sitemap.xml`, `robots.txt` and canonical URLs. Done: JSON-LD (WebSite, BreadcrumbList, Article), landing copy naming the series and speaker, and a share image (`public/og.jpg`). Still to do: Search Console and Bing (need the owner's accounts); a share image per episode. Original plan: prerender one HTML page per series and episode at build time (keyword title, description, canonical, Open Graph,
+   Done: custom domain (notakuliah.com, www redirects to it) and the repo website field. Done: prerendering (`scripts/prerender.mjs`, run by `npm run build`), `sitemap.xml`, `robots.txt` and canonical URLs. Done: JSON-LD (WebSite, BreadcrumbList, Article), landing copy naming the series and speaker, and a share image (`public/og.jpg`). Done: a share image per episode, for the Doa page and for each Tokoh page (`scripts/og-image.mjs`, drawn at build). Still to do: Search Console and Bing (need the owner's accounts). Original plan: prerender one HTML page per series and episode at build time (keyword title, description, canonical, Open Graph,
    and the summary and topic list as plain text); generate `sitemap.xml` and `robots.txt`; add JSON-LD; rewrite the landing page copy
    around "Nota Sirah Impak Sosial, Ustaz Azlan Shah NK"; then Search Console and Bing, the repo website field, and a custom domain
    (decide the domain first, since canonical and sitemap URLs use it).
