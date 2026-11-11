@@ -48,6 +48,9 @@ const TABS: { key: TabKey; Icon: LucideIcon; count?: (n: Notes) => number }[] = 
 ]
 
 /** On a short screen the sidebar starts as the narrow rail, so the lecture gets the width. */
+/** The tabs whose cards can be linked to with `?i=tab:id`. */
+const ITEM_TABS: TabKey[] = ['topik', 'dalil', 'kitab', 'tokoh', 'pengajaran', 'istilah']
+
 function CollapseWhenShort() {
   const { setOpen } = useSidebar()
   const short = useShortScreen()
@@ -243,6 +246,23 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
     setTab(f.tab)
     setFocus((cur) => ({ tab: f.tab, id: f.id, n: (cur?.n ?? 0) + 1 }))
   }, [nav, notes])
+
+  // A shared link such as /sirah-impak-sosial/ep23?t=1483&i=tokoh:p4 opens that card: the tab, a scroll and a flash. The `i`
+  // is then dropped, so a refresh or a copied address does not open it again.
+  const [sp, setSp] = useSearchParams()
+  const itemParam = sp.get('i')
+  useEffect(() => {
+    if (!itemParam || !notes) return
+    const [tabKey, ...rest] = itemParam.split(':')
+    const id = rest.join(':')
+    if (tabKey && id && ITEM_TABS.includes(tabKey as TabKey)) {
+      setTab(tabKey as TabKey)
+      setFocus((cur) => ({ tab: tabKey as TabKey, id: itemParam, n: (cur?.n ?? 0) + 1 }))
+    }
+    const next = new URLSearchParams(sp)
+    next.delete('i')
+    setSp(next, { replace: true })
+  }, [itemParam, notes]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // --- remembering where the visitor was ---
   const saved = useMemo(() => getProgress(slug, episode.id), [slug, episode.id])

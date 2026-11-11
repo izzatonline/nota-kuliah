@@ -6,6 +6,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { ogImage } from './og-image.mjs'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const dist = join(root, 'dist')
@@ -34,7 +35,17 @@ const crumbs = (items) => ({
   itemListElement: items.map(([name, path], i) => ({ '@type': 'ListItem', position: i + 1, name, item: SITE + path })),
 })
 
-function page({ path, title, description, body, index = true, jsonLd = [] }) {
+/** Draws dist/og/<name>.png, the share image for one page, and returns the path to put in og:image. */
+let ogCount = 0
+async function og(name, spec) {
+  const file = join(dist, 'og', `${name}.png`)
+  mkdirSync(dirname(file), { recursive: true })
+  writeFileSync(file, await ogImage(spec))
+  ogCount++
+  return `/og/${name}.png`
+}
+
+function page({ path, title, description, body, index = true, jsonLd = [], image = '/og.jpg' }) {
   const url = SITE + path
   const head = [
     `<meta name="description" content="${esc(description)}" />`,
@@ -46,12 +57,12 @@ function page({ path, title, description, body, index = true, jsonLd = [] }) {
     `<meta property="og:title" content="${esc(title)}" />`,
     `<meta property="og:description" content="${esc(description)}" />`,
     `<meta property="og:url" content="${esc(url)}" />`,
-    `<meta property="og:image" content="${SITE}/og.jpg" />`,
+    `<meta property="og:image" content="${SITE}${image}" />`,
     `<meta property="og:image:width" content="1200" />`,
     `<meta property="og:image:height" content="630" />`,
-    `<meta property="og:image:alt" content="${esc(NAME)}: nota sirah Nabi Muhammad SAW, Ustaz Azlan Shah NK" />`,
+    image === '/og.jpg' ? `<meta property="og:image:alt" content="${esc(NAME)}: nota sirah Nabi Muhammad SAW, Ustaz Azlan Shah NK" />` : `<meta property="og:image:alt" content="${esc(title)}" />`,
     `<meta name="twitter:card" content="summary_large_image" />`,
-    `<meta name="twitter:image" content="${SITE}/og.jpg" />`,
+    `<meta name="twitter:image" content="${SITE}${image}" />`,
     // "<" is escaped so that text from the notes can never close the script tag.
     ...jsonLd.map((d) => `<script type="application/ld+json">${JSON.stringify(d).replace(/</g, '\\u003c')}</script>`),
   ]
@@ -89,7 +100,9 @@ entries.push({ path: '/' })
 // The Doa page: every dua from the lectures, with its text and reference, from the index scripts/search-index.mjs built.
 const doa = read('search/doa.ms.json')
 const doaDescription = `Himpunan doa yang disebut dalam kuliah ${all.map((s) => s.series.title).join(' dan ')}: teks Arab, terjemahan, rujukan ayat atau hadis, dan masa ia disebut.`
+const doaImage = await og('doa', { kicker: NAME, title: 'Himpunan doa daripada kuliah', foot: all[0].series.speaker })
 page({
+  image: doaImage,
   path: '/doa',
   title: `Himpunan doa daripada kuliah ${all[0].series.speaker} | ${NAME}`,
   description: clip(doaDescription),
@@ -118,7 +131,9 @@ const epLabel = (m) => (m.epNumber ? `Ep ${m.epNumber}` : 'Prolog')
 const mentionLi = (m) =>
   `<li><a href="/${m.slug}/${m.epId}?t=${m.person.t}">${esc(m.series)} · ${esc(epLabel(m))}: ${esc(m.epTitle)}</a>. ${esc(m.person.role)}. ${esc(m.person.context)}</li>`
 const tokohDescription = `Semua tokoh yang disebut dalam kuliah ${all.map((s) => s.series.title).join(' dan ')}: para nabi, keluarga Nabi SAW, sahabat, ulama dan lain-lain, dengan setiap kuliah dan masa mereka disebut.`
+const tokohImage = await og('tokoh', { kicker: NAME, title: 'Tokoh dalam kuliah', foot: all[0].series.speaker })
 page({
+  image: tokohImage,
   path: '/tokoh',
   title: `Tokoh dalam kuliah ${all[0].series.speaker} | ${NAME}`,
   description: clip(tokohDescription),
@@ -135,7 +150,9 @@ for (const g of tokoh.groups)
   for (const p of g.people) {
     const path = `/tokoh/${p.key}`
     const many = p.mentions.length > 1
+    const image = many ? await og(`tokoh/${p.key}`, { kicker: `${g.title} · ${p.mentions.length} sebutan`, title: p.title, foot: all[0].series.speaker }) : '/og.jpg'
     page({
+      image,
       path,
       title: `${p.title}: disebut dalam kuliah ${all[0].series.speaker} | ${NAME}`,
       description: clip(`${p.title} (${g.title}) disebut ${p.mentions.length} kali dalam kuliah. ${p.mentions[0].person.context}`),
@@ -178,7 +195,9 @@ for (const s of all) {
       })
     } else {
       const n = read(`series/${slug}/${e.id}/notes.json`)
+      const image = await og(`${slug}/${e.id}`, { kicker: `${series.title} · ${label(e)}`, title: n.title, foot: series.speaker })
       page({
+        image,
         path,
         title: `${label(e)}: ${n.title} · ${series.title} | ${NAME}`,
         description: clip(n.summary),
@@ -228,4 +247,4 @@ writeFileSync(
 )
 writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`)
 
-console.log(`prerendered ${pages} pages, ${entries.length} in sitemap.xml`)
+console.log(`prerendered ${pages} pages, ${entries.length} in sitemap.xml, ${ogCount} share images`)

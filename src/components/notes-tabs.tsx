@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
 import { usePlayer } from '@/components/player-context'
+import { ItemShare } from '@/components/item-share'
 import { NOW_RING, TimeLink, useIsNow } from '@/components/time-link'
 import { fmt } from '@/lib/data'
 import { useT } from '@/lib/i18n'
@@ -188,7 +189,10 @@ function DalilCard({ d }: { d: Dalil }) {
             <span className="text-sm font-medium">{d.ref}</span>
             {now && <NowBadge />}
           </div>
-          <TimeLink t={d.t} />
+          <div className="flex items-center gap-1">
+            <TimeLink t={d.t} />
+            <ItemShare item={{ tab: 'dalil', id: d.id, t: d.t, title: d.ref, line: d.translation, arabic: d.dua ? d.arabic : null }} />
+          </div>
         </div>
         {d.arabic && (
           <p
@@ -315,7 +319,10 @@ function PersonRow({ p }: { p: Person }) {
               <p className="flex flex-wrap items-center gap-2 font-medium leading-snug">{p.name}{now && <NowBadge />}</p>
               <p className="text-xs text-muted-foreground">{p.role}</p>
             </div>
-            <TimeLink t={p.t} />
+            <div className="flex items-center gap-1">
+              <TimeLink t={p.t} />
+              <ItemShare item={{ tab: 'tokoh', id: p.id, t: p.t, title: `${p.name} (${p.role})`, line: p.context }} />
+            </div>
           </div>
           <p className="text-sm leading-relaxed text-muted-foreground">{p.context}</p>
           {p.person && (
@@ -398,7 +405,10 @@ function LessonCard({ l, n }: { l: Lesson; n: number }) {
               <Badge variant="secondary">{l.kind}</Badge>
               {now && <NowBadge />}
             </div>
-            <TimeLink t={l.t} />
+            <div className="flex items-center gap-1">
+              <TimeLink t={l.t} />
+              <ItemShare item={{ tab: 'pengajaran', id: l.id, t: l.t, title: l.title, line: l.body }} />
+            </div>
           </div>
           <p className="font-medium leading-snug">{l.title}</p>
           <p className="text-sm leading-relaxed text-muted-foreground">{l.body}</p>
