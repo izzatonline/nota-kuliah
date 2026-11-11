@@ -38,11 +38,17 @@ CARE_NOTE = ROOT / "data/care-note.json"
 PROMPT = Path(__file__).resolve().parent / "prompts/notes.md"
 DUAS = ROOT / "data/duas.json"
 PEOPLE = ROOT / "data/people.json"
+BOOKS = ROOT / "data/books.json"
 
 
 def known_duas():
     """The duas the Doa page lists, as {key: Malay title}."""
     return {d["key"]: d["ms"] for d in json.loads(DUAS.read_text())["duas"]}
+
+
+def known_books():
+    """The books the Kitab page lists, as {key: Malay title}."""
+    return {b["key"]: b["ms"] for b in json.loads(BOOKS.read_text())["books"]}
 
 
 def known_people():
@@ -285,6 +291,7 @@ def stage_draft(workdir, args):
         + f"\n\n## Lecture\nTitle: {meta['title']}\nSeries: {args.series}\nSpeaker: {args.speaker}\n"
         + f"Episode: {meta.get('number')}\nLength: {meta['duration'] // 60} minutes\n\n"
         + "## Known duas (keys for `dua`)\n" + "".join(f"- {k}: {v}\n" for k, v in known_duas().items()) + "\n"
+        + "## Known books (keys for `book`)\n" + "".join(f"- {k}: {v}\n" for k, v in known_books().items()) + "\n"
         + "## Known people (keys for `person`)\n" + "".join(f"- {k}: {v}\n" for k, v in known_people().items()) + "\n"
         + "## Transcript\n" + blocks_text(segs) + "\n"
     )
@@ -488,13 +495,26 @@ def assemble(draft, meta, loc, args):
 
     # books (+ suggested)
     books = []
+    known_b = known_books()
+
+    def book_entry(entry, draft_book, label):
+        # `book` sits right after the title, as in the tagged notes
+        out = {}
+        for k, v in entry.items():
+            out[k] = v
+            if k == "title" and draft_book.get("book"):
+                out["book"] = draft_book["book"]
+                if draft_book["book"] not in known_b:
+                    warnings.append(f"{label}: book {draft_book['book']!r} is new. Add it to data/books.json (group and title) or the Kitab page skips it")
+        return out
+
     for i, b in enumerate(draft.get("books", [])):
         t = T(f"books[{i}]", b)
-        books.append({"id": f"b{i + 1}", "title": b["title"], "author": b.get("author"), "kind": b.get("kind", "Lain-lain"),
-                      "t": t, "context": b.get("context", ""), **({"note": b["note"]} if b.get("note") else {})})
+        books.append(book_entry({"id": f"b{i + 1}", "title": b["title"], "author": b.get("author"), "kind": b.get("kind", "Lain-lain"),
+                                 "t": t, "context": b.get("context", ""), **({"note": b["note"]} if b.get("note") else {})}, b, b["title"]))
     for i, b in enumerate(draft.get("suggested", [])):
-        books.append({"id": f"s{i + 1}", "title": b["title"], "author": b.get("author"), "kind": b.get("kind", "Lain-lain"),
-                      "t": None, "suggested": True, "context": b.get("context", "")})
+        books.append(book_entry({"id": f"s{i + 1}", "title": b["title"], "author": b.get("author"), "kind": b.get("kind", "Lain-lain"),
+                                 "t": None, "suggested": True, "context": b.get("context", "")}, b, b["title"]))
 
     known = known_people()
     people = []

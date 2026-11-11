@@ -214,6 +214,19 @@ class AssembleTests(unittest.TestCase):
         self.assertTrue(any("orang-baru" in w and "data/people.json" in w for w in warnings))
         self.assertFalse(any(repr(known) in w for w in warnings))
 
+    def test_book_keys_are_kept_and_a_new_one_is_reported(self):
+        known = next(iter(pipeline.known_books()))
+        d = self.draft(books=[
+            {"title": "Satu", "book": known, "kind": "Buku", "context": "c", "at": "Jibril AS tidak boleh", "approx": "0:20"},
+            {"title": "Dua", "book": "buku-baru", "kind": "Buku", "context": "c", "at": "Kemudian Nabi SAW sampai", "approx": "0:10"},
+            {"title": "Tiga", "kind": "Buku", "context": "c", "at": "Aku mohon dengan semua nama", "approx": "0:30"},
+        ], suggested=[{"title": "Empat", "book": known, "kind": "Buku", "context": "c"}])
+        notes, warnings = pipeline.assemble(d, self.meta, self.loc, self.args)
+        self.assertEqual({b["title"]: b.get("book") for b in notes["books"]}, {"Satu": known, "Dua": "buku-baru", "Tiga": None, "Empat": known})
+        self.assertEqual(list(notes["books"][0])[:3], ["id", "title", "book"])
+        self.assertTrue(any("buku-baru" in w and "data/books.json" in w for w in warnings))
+        self.assertFalse(any(repr(known) in w for w in warnings))
+
     def test_first_chapter_always_starts_at_zero_and_the_last_ends_at_the_duration(self):
         d = self.draft(chapters=[
             {"title": "A", "summary": "", "at": "Kemudian Nabi SAW sampai", "approx": "0:10"},
