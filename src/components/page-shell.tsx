@@ -3,6 +3,7 @@ import { BrandLink } from '@/components/brand'
 import { LanguageSwitch } from '@/components/language-switch'
 import { SearchButton } from '@/components/header-actions'
 import { useSearch } from '@/components/search-palette'
+import { SavedLink } from '@/components/saved-link'
 import { SiteFooter } from '@/components/site-footer'
 import { ThemeToggle } from '@/components/theme'
 import { useT } from '@/lib/i18n'
@@ -18,6 +19,7 @@ export function PageShell({ children, narrow = true }: { children: ReactNode; na
           <BrandLink />
           <div className="flex-1" />
           <SearchButton onClick={open} label={t('search.button')} />
+          <SavedLink />
           <LanguageSwitch />
           <ThemeToggle />
         </div>

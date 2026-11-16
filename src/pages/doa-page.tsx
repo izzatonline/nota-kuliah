@@ -9,6 +9,7 @@ import { BrandLink } from '@/components/brand'
 import { LanguageSwitch } from '@/components/language-switch'
 import { SearchButton } from '@/components/header-actions'
 import { useSearch } from '@/components/search-palette'
+import { SavedLink } from '@/components/saved-link'
 import { SiteFooter } from '@/components/site-footer'
 import { ThemeToggle } from '@/components/theme'
 import { epPath, fmt } from '@/lib/data'
@@ -182,6 +183,7 @@ export function DoaPage() {
           <BrandLink />
           <div className="flex-1" />
           <SearchButton onClick={open} label={t('search.button')} />
+          <SavedLink />
           <LanguageSwitch />
           <ThemeToggle />
         </div>

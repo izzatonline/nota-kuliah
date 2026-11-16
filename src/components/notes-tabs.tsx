@@ -7,6 +7,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
 import { usePlayer } from '@/components/player-context'
 import { ItemShare } from '@/components/item-share'
+import { SaveButton } from '@/components/save-button'
 import { NOW_RING, TimeLink, useIsNow } from '@/components/time-link'
 import { fmt } from '@/lib/data'
 import { useT } from '@/lib/i18n'
@@ -204,6 +205,7 @@ function DalilCard({ d }: { d: Dalil }) {
           </div>
           <div className="flex items-center gap-1">
             <TimeLink t={d.t} />
+            <SaveButton kind="dalil" id={d.id} />
             <ItemShare item={{ tab: 'dalil', id: d.id, t: d.t, title: d.ref, line: d.translation, arabic: d.dua ? d.arabic : null }} />
           </div>
         </div>
@@ -341,6 +343,7 @@ function PersonRow({ p }: { p: Person }) {
             </div>
             <div className="flex items-center gap-1">
               <TimeLink t={p.t} />
+              <SaveButton kind="tokoh" id={p.id} />
               <ItemShare item={{ tab: 'tokoh', id: p.id, t: p.t, title: `${p.name} (${p.role})`, line: p.context }} />
             </div>
           </div>
@@ -427,6 +430,7 @@ function LessonCard({ l, n }: { l: Lesson; n: number }) {
             </div>
             <div className="flex items-center gap-1">
               <TimeLink t={l.t} />
+              <SaveButton kind="pengajaran" id={l.id} />
               <ItemShare item={{ tab: 'pengajaran', id: l.id, t: l.t, title: l.title, line: l.body }} />
             </div>
           </div>

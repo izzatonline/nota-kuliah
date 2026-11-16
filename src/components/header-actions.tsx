@@ -1,9 +1,11 @@
-import { ExternalLink, MoreHorizontal, Moon, Search, Sun } from 'lucide-react'
+import { ExternalLink, MoreHorizontal, Moon, Search, Star, Sun } from 'lucide-react'
+import { Link } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
 import {
   DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuRadioGroup, DropdownMenuRadioItem,
   DropdownMenuSeparator, DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
+import { SavedLink } from '@/components/saved-link'
 import { LanguageSwitch } from '@/components/language-switch'
 import { ThemeToggle, useTheme } from '@/components/theme'
 import { shortcutLabel, useSearch } from '@/components/search-palette'
@@ -20,6 +22,7 @@ export function HeaderActions({ watchUrl }: { watchUrl: string }) {
     <>
       <SearchButton onClick={open} label={t('search.button')} />
       {!short && <div className="hidden items-center gap-2 sm:flex">
+        <SavedLink />
         <LanguageSwitch />
         <Button asChild variant="outline" size="sm" className="shrink-0 max-lg:size-8 max-lg:p-0">
           <a href={watchUrl} target="_blank" rel="noreferrer" aria-label={t('header.watch')}>
@@ -47,6 +50,9 @@ export function HeaderActions({ watchUrl }: { watchUrl: string }) {
             <DropdownMenuItem onSelect={toggle}>
               {theme === 'dark' ? <Sun className="mr-2 size-4" /> : <Moon className="mr-2 size-4" />}
               {theme === 'dark' ? t('header.themeLight') : t('header.themeDark')}
+            </DropdownMenuItem>
+            <DropdownMenuItem asChild>
+              <Link to="/simpanan"><Star className="mr-2 size-4" /> {t('nav.saved')}</Link>
             </DropdownMenuItem>
             <DropdownMenuItem asChild>
               <a href={watchUrl} target="_blank" rel="noreferrer">
