@@ -1,5 +1,6 @@
 import { ArrowUpRight, Github, Heart, Presentation } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { InstallButton } from '@/components/install-button'
 import { QURANSLIDE_URL, REPO_URL } from '@/config'
 import { useT } from '@/lib/i18n'
 
@@ -51,11 +52,14 @@ export function SiteFooter() {
           <p className="text-sm leading-relaxed text-muted-foreground">{t('footer.body')}</p>
           <p className="pt-2 text-xs text-muted-foreground">{t('footer.credit')}</p>
         </div>
-        <Button asChild variant="outline" className="shrink-0 self-start md:self-center">
-          <a href={REPO_URL} target="_blank" rel="noreferrer">
-            <Github /> {t('footer.source')}
-          </a>
-        </Button>
+        <div className="flex shrink-0 flex-col items-start gap-2 md:items-end">
+          <InstallButton />
+          <Button asChild variant="outline" className="shrink-0">
+            <a href={REPO_URL} target="_blank" rel="noreferrer">
+              <Github /> {t('footer.source')}
+            </a>
+          </Button>
+        </div>
       </div>
     </footer>
   )
