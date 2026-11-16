@@ -118,3 +118,9 @@ export type BookEntry = { key: string; title: string; author: string | null; men
 export type BookGroup = { key: string; title: string; books: BookEntry[] }
 /** What `scripts/search-index.mjs` writes to `public/search/kitab.<lang>.json`. `further` holds books only suggested in the notes. */
 export type BookIndex = { groups: BookGroup[]; further: BookGroup[] }
+
+/** One place a verse comes up: an episode and the dalil entry there. */
+export type AyatMention = { slug: string; series: string; epId: string; epNumber: number | null; epTitle: string; id: string; t: number; context: string }
+export type AyatEntry = { key: string; ayah: number; arabic: string | null; translation: string; mentions: AyatMention[] }
+export type SurahEntry = { n: number; name: string; arabic: string | null; ayahs: AyatEntry[] }
+export type AyatIndex = { surahs: SurahEntry[] }

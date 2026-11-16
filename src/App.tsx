@@ -8,6 +8,7 @@ import { SeriesPage } from '@/pages/series-page'
 import { DoaPage } from '@/pages/doa-page'
 import { TokohPage } from '@/pages/tokoh-page'
 import { KitabPage } from '@/pages/kitab-page'
+import { AyatPage } from '@/pages/ayat-page'
 import { PersonPage } from '@/pages/person-page'
 import { QuizPage } from '@/pages/quiz-page'
 
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="/" element={<LandingPage />} />
             <Route path="/doa" element={<DoaPage />} />
             <Route path="/kitab" element={<KitabPage />} />
+            <Route path="/ayat" element={<AyatPage />} />
             <Route path="/tokoh" element={<TokohPage />} />
             <Route path="/tokoh/:key" element={<PersonPage />} />
             <Route path="/:slug" element={<SeriesPage />} />

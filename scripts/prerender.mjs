@@ -162,7 +162,31 @@ page({
   jsonLd: [crumbs([[NAME, '/'], ['Kitab', '/kitab']])],
 })
 entries.push({ path: '/kitab' })
-let pages = 4
+
+// The Ayat page: every Quran verse the ustaz cites, by surah, with the lectures where it comes up.
+const ayat = read('search/ayat.ms.json')
+const ayatTotal = ayat.surahs.reduce((n, s) => n + s.ayahs.length, 0)
+const ayatDescription = `Semua ${ayatTotal} ayat al-Quran daripada ${ayat.surahs.length} surah yang dibawa sebagai dalil dalam kuliah ${all.map((s) => s.series.title).join(' dan ')}, dengan teks Arab, terjemahan, dan setiap kuliah dan masa ia disebut.`
+const ayatImage = await og('ayat', { kicker: NAME, title: 'Ayat al-Quran dalam kuliah', foot: all[0].series.speaker })
+page({
+  image: ayatImage,
+  path: '/ayat',
+  title: `Ayat al-Quran dalam kuliah ${all[0].series.speaker} | ${NAME}`,
+  description: clip(ayatDescription),
+  body:
+    `<h1>Ayat al-Quran dalam kuliah</h1><p>${esc(ayatDescription)}</p>` +
+    ayat.surahs
+      .map(
+        (s) =>
+          `<h2 id="s${s.n}">${s.n}. ${esc(s.name)}</h2><ul>${s.ayahs
+            .map((a) => `<li id="${a.key}">${esc(s.name)} ${a.key}: ${a.arabic ? `<span lang="ar" dir="rtl">${esc(a.arabic)}</span> ` : ''}${esc(a.translation)} (${a.mentions.length})</li>`)
+            .join('')}</ul>`,
+      )
+      .join(''),
+  jsonLd: [crumbs([[NAME, '/'], ['Ayat', '/ayat']])],
+})
+entries.push({ path: '/ayat' })
+let pages = 5
 for (const g of tokoh.groups)
   for (const p of g.people) {
     const path = `/tokoh/${p.key}`

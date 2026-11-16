@@ -6,6 +6,9 @@
 // the groups in data/people.json.
 // And public/search/kitab.<lang>.json for the Kitab page: every `books` entry tagged with a `book` key, grouped by the
 // groups in data/books.json. Books the notes only suggest (not said in the lecture) go in a separate `further` list.
+// And public/search/ayat.<lang>.json for the Ayat page: every Quran dalil, grouped by surah (mushaf order) and ayah. Surah names
+// are the ones in the refs ("Al-Israa 17:15", written from the Quran API), the Arabic name comes from data/quran-cache.json.
+// And public/search/ayat-counts.json, `{ "17:15": 2 }`, a few kB for the "mentioned n times" link on Quran dalil cards.
 // Run by `npm run dev` and `npm run build`. The output is generated and not committed.
 // The entries are made by src/lib/search-entries.ts, the same code the app uses, bundled here with esbuild.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from 'node:fs'
@@ -44,6 +47,7 @@ const people = JSON.parse(readFileSync(join(root, 'data/people.json'), 'utf8'))
 const unknownPeople = new Set()
 const catalogueBooks = JSON.parse(readFileSync(join(root, 'data/books.json'), 'utf8'))
 const unknownBooks = new Set()
+const quranCache = JSON.parse(readFileSync(join(root, 'data/quran-cache.json'), 'utf8'))
 
 for (const lang of ['ms', 'en']) {
   const rows = []
@@ -51,6 +55,7 @@ for (const lang of ['ms', 'en']) {
   const whoMentions = new Map() // person key -> mentions, in series then episode order
   const said = new Map() // book key -> mentions of the lecture
   const suggested = new Map() // book key -> mentions in the notes' suggested reading
+  const verses = new Map() // "surah:ayah" -> { surah, name, ayah, arabic, translation, mentions }
   for (const slug of slugs) {
     const idx = read(`series/${slug}/index.json`)
     const notesOf = (epId) => {
@@ -73,6 +78,14 @@ for (const lang of ['ms', 'en']) {
         whoMentions.get(p.person).push({ slug, series: idx.series.title, epId: ep.id, epNumber: ep.number, epTitle: n.title, person: p })
       }
       for (const d of n?.dalil ?? []) {
+        const ref = d.kind === 'quran' && /^(.+) (\d+):(\d+)$/.exec(d.ref)
+        if (ref) {
+          const key = `${ref[2]}:${ref[3]}`
+          if (!verses.has(key)) verses.set(key, { surah: Number(ref[2]), name: ref[1], ayah: Number(ref[3]), arabic: d.arabic, translation: d.translation, mentions: [] })
+          const v = verses.get(key)
+          v.arabic ??= d.arabic
+          v.mentions.push({ slug, series: idx.series.title, epId: ep.id, epNumber: ep.number, epTitle: n.title, id: d.id, t: d.t, context: d.context })
+        }
         if (!d.dua) continue
         if (!mentions.has(d.dua)) mentions.set(d.dua, [])
         mentions.get(d.dua).push({ slug, series: idx.series.title, epId: ep.id, epNumber: ep.number, epTitle: n.title, dalil: d })
@@ -123,6 +136,14 @@ for (const lang of ['ms', 'en']) {
   const kitab = { groups: bookGroups((k) => said.has(k)), further: bookGroups((k) => !said.has(k) && suggested.has(k)) }
   writeFileSync(join(dir, `kitab.${lang}.json`), JSON.stringify(kitab))
   console.log(`kitab index ${lang}: ${kitab.groups.reduce((n, g) => n + g.books.length, 0)} books, ${kitab.further.reduce((n, g) => n + g.books.length, 0)} further reading`)
+  const surahs = new Map()
+  for (const [key, v] of [...verses].sort((a, b) => a[1].surah - b[1].surah || a[1].ayah - b[1].ayah)) {
+    if (!surahs.has(v.surah)) surahs.set(v.surah, { n: v.surah, name: v.name, arabic: quranCache[key]?.surahArabic ?? null, ayahs: [] })
+    surahs.get(v.surah).ayahs.push({ key, ayah: v.ayah, arabic: v.arabic, translation: v.translation, mentions: v.mentions })
+  }
+  writeFileSync(join(dir, `ayat.${lang}.json`), JSON.stringify({ surahs: [...surahs.values()] }))
+  if (lang === 'ms') writeFileSync(join(dir, 'ayat-counts.json'), JSON.stringify(Object.fromEntries([...verses].map(([k, v]) => [k, v.mentions.length]))))
+  console.log(`ayat index ${lang}: ${surahs.size} surahs, ${verses.size} verses`)
   console.log(`tokoh index ${lang}: ${groups.reduce((n, g) => n + g.people.length, 0)} people`)
 }
 for (const k of unknownBooks) console.warn(`! book "${k}" is not in data/books.json, so the Kitab page leaves it out`)
