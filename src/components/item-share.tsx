@@ -9,9 +9,11 @@ import { copy, itemText, itemUrl, telegramUrl, whatsappUrl } from '@/lib/share'
 export type ShareItem = { tab: string; id: string; t: number; title: string; line: string; /** Only for a dua: the Arabic goes into the message. */ arabic?: string | null }
 
 /** Share one card (a lesson, an evidence, a dua or a person): a short excerpt plus a link that opens that card. */
-export function ItemShare({ item }: { item: ShareItem }) {
+export function ItemShare({ item, slug: slugProp, epId: epProp }: { item: ShareItem; slug?: string; epId?: string }) {
   const { t } = useT()
-  const { slug = '', epId = '' } = useParams()
+  const params = useParams()
+  const slug = slugProp ?? params.slug ?? ''
+  const epId = epProp ?? params.epId ?? ''
   const [copied, setCopied] = useState(false)
   const timer = useRef<number>()
   useEffect(() => () => window.clearTimeout(timer.current), [])
