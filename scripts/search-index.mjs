@@ -9,6 +9,8 @@
 // And public/search/ayat.<lang>.json for the Ayat page: every Quran dalil, grouped by surah (mushaf order) and ayah. Surah names
 // are the ones in the refs ("Al-Israa 17:15", written from the Quran API), the Arabic name comes from data/quran-cache.json.
 // And public/search/ayat-counts.json, `{ "17:15": 2 }`, a few kB for the "mentioned n times" link on Quran dalil cards.
+// And public/search/istilah.<lang>.json for the Istilah page: every glossary term of every episode, merged by a normalised term
+// (lowercase, no diacritics or apostrophes, no bracketed gloss, hyphens as spaces) and by data/term-aliases.json.
 // Run by `npm run dev` and `npm run build`. The output is generated and not committed.
 // The entries are made by src/lib/search-entries.ts, the same code the app uses, bundled here with esbuild.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from 'node:fs'
@@ -47,6 +49,21 @@ const people = JSON.parse(readFileSync(join(root, 'data/people.json'), 'utf8'))
 const unknownPeople = new Set()
 const catalogueBooks = JSON.parse(readFileSync(join(root, 'data/books.json'), 'utf8'))
 const unknownBooks = new Set()
+const termAliases = JSON.parse(readFileSync(join(root, 'data/term-aliases.json'), 'utf8'))
+const normTerm = (t) =>
+  t
+    .replace(/\(.*?\)/g, '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[’'`ʿʾ‘]/g, '')
+    .replace(/[-–_/]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+// "hijrah": ["hijrah", "berhijrah"] makes both spellings one entry whose key is the first.
+const aliasOf = new Map()
+for (const [canon, forms] of Object.entries(termAliases)) for (const f of [canon, ...forms]) aliasOf.set(normTerm(f), normTerm(canon))
+const termKey = (t) => aliasOf.get(normTerm(t)) ?? normTerm(t)
 const quranCache = JSON.parse(readFileSync(join(root, 'data/quran-cache.json'), 'utf8'))
 
 for (const lang of ['ms', 'en']) {
@@ -55,6 +72,7 @@ for (const lang of ['ms', 'en']) {
   const whoMentions = new Map() // person key -> mentions, in series then episode order
   const said = new Map() // book key -> mentions of the lecture
   const suggested = new Map() // book key -> mentions in the notes' suggested reading
+  const terms = new Map() // term key -> { forms, mentions }
   const verses = new Map() // "surah:ayah" -> { surah, name, ayah, arabic, translation, mentions }
   for (const slug of slugs) {
     const idx = read(`series/${slug}/index.json`)
@@ -66,6 +84,14 @@ for (const lang of ['ms', 'en']) {
     for (const { hay, titleHay, key, ...row } of seriesEntries(idx, notesOf)) rows.push(row)
     for (const ep of idx.episodes) {
       const n = ep.hasNotes ? notesOf(ep.id) : undefined
+      for (const g of n?.glossary ?? []) {
+        const key = termKey(g.term)
+        if (!key) continue
+        if (!terms.has(key)) terms.set(key, { forms: new Map(), mentions: [] })
+        const e = terms.get(key)
+        e.forms.set(g.term, (e.forms.get(g.term) ?? 0) + 1)
+        e.mentions.push({ slug, series: idx.series.title, epId: ep.id, epNumber: ep.number, epTitle: n.title, id: g.id, t: g.t, meaning: g.meaning, arabic: g.arabic })
+      }
       for (const b of n?.books ?? []) {
         if (!b.book) continue
         const into = b.suggested ? suggested : said
@@ -136,6 +162,16 @@ for (const lang of ['ms', 'en']) {
   const kitab = { groups: bookGroups((k) => said.has(k)), further: bookGroups((k) => !said.has(k) && suggested.has(k)) }
   writeFileSync(join(dir, `kitab.${lang}.json`), JSON.stringify(kitab))
   console.log(`kitab index ${lang}: ${kitab.groups.reduce((n, g) => n + g.books.length, 0)} books, ${kitab.further.reduce((n, g) => n + g.books.length, 0)} further reading`)
+  const istilah = [...terms]
+    .map(([key, e]) => ({
+      key,
+      term: [...e.forms].sort((a, b) => b[1] - a[1])[0][0],
+      arabic: e.mentions.find((m) => m.arabic)?.arabic ?? null,
+      mentions: e.mentions.map(({ arabic, ...m }) => m),
+    }))
+    .sort((a, b) => a.key.localeCompare(b.key))
+  writeFileSync(join(dir, `istilah.${lang}.json`), JSON.stringify({ terms: istilah }))
+  console.log(`istilah index ${lang}: ${istilah.length} terms from ${istilah.reduce((n, t) => n + t.mentions.length, 0)} entries`)
   const surahs = new Map()
   for (const [key, v] of [...verses].sort((a, b) => a[1].surah - b[1].surah || a[1].ayah - b[1].ayah)) {
     if (!surahs.has(v.surah)) surahs.set(v.surah, { n: v.surah, name: v.name, arabic: quranCache[key]?.surahArabic ?? null, ayahs: [] })
