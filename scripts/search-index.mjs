@@ -11,6 +11,8 @@
 // And public/search/ayat-counts.json, `{ "17:15": 2 }`, a few kB for the "mentioned n times" link on Quran dalil cards.
 // And public/search/istilah.<lang>.json for the Istilah page: every glossary term of every episode, merged by a normalised term
 // (lowercase, no diacritics or apostrophes, no bracketed gloss, hyphens as spaces) and by data/term-aliases.json.
+// And public/search/harian.<lang>.json for the daily card on the landing page: every lesson and every dua, in a fixed order
+// (series, episode, item) so the day's pick is the same for everyone.
 // Run by `npm run dev` and `npm run build`. The output is generated and not committed.
 // The entries are made by src/lib/search-entries.ts, the same code the app uses, bundled here with esbuild.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from 'node:fs'
@@ -73,6 +75,7 @@ for (const lang of ['ms', 'en']) {
   const said = new Map() // book key -> mentions of the lecture
   const suggested = new Map() // book key -> mentions in the notes' suggested reading
   const terms = new Map() // term key -> { forms, mentions }
+  const daily = [] // lessons and duas, in notes order
   const verses = new Map() // "surah:ayah" -> { surah, name, ayah, arabic, translation, mentions }
   for (const slug of slugs) {
     const idx = read(`series/${slug}/index.json`)
@@ -84,6 +87,9 @@ for (const lang of ['ms', 'en']) {
     for (const { hay, titleHay, key, ...row } of seriesEntries(idx, notesOf)) rows.push(row)
     for (const ep of idx.episodes) {
       const n = ep.hasNotes ? notesOf(ep.id) : undefined
+      const where = { slug, epId: ep.id, epNumber: ep.number, epTitle: n?.title, series: idx.series.title }
+      for (const l of n?.lessons ?? []) daily.push({ kind: 'lesson', ...where, id: l.id, t: l.t, title: l.title, line: l.body })
+      for (const d of n?.dalil ?? []) if (d.dua) daily.push({ kind: 'dua', ...where, id: d.id, t: d.t, title: d.ref, line: d.translation, arabic: d.arabic ?? null })
       for (const g of n?.glossary ?? []) {
         const key = termKey(g.term)
         if (!key) continue
@@ -172,6 +178,8 @@ for (const lang of ['ms', 'en']) {
     .sort((a, b) => a.key.localeCompare(b.key))
   writeFileSync(join(dir, `istilah.${lang}.json`), JSON.stringify({ terms: istilah }))
   console.log(`istilah index ${lang}: ${istilah.length} terms from ${istilah.reduce((n, t) => n + t.mentions.length, 0)} entries`)
+  writeFileSync(join(dir, `harian.${lang}.json`), JSON.stringify(daily))
+  console.log(`harian index ${lang}: ${daily.length} items`)
   const surahs = new Map()
   for (const [key, v] of [...verses].sort((a, b) => a[1].surah - b[1].surah || a[1].ayah - b[1].ayah)) {
     if (!surahs.has(v.surah)) surahs.set(v.surah, { n: v.surah, name: v.name, arabic: quranCache[key]?.surahArabic ?? null, ayahs: [] })

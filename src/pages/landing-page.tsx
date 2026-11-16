@@ -10,6 +10,8 @@ import { LanguageSwitch } from '@/components/language-switch'
 import { TimelineButton, TimelineDialog } from '@/components/sirah-timeline'
 import { SiteFooter } from '@/components/site-footer'
 import { ThemeToggle } from '@/components/theme'
+import { DailyCard } from '@/components/daily-card'
+import { SavedLink } from '@/components/saved-link'
 import { SearchButton } from '@/components/header-actions'
 import { useSearch } from '@/components/search-palette'
 import { TIMELINE_SERIES } from '@/config'
@@ -201,6 +203,7 @@ export function LandingPage() {
             <Link to="/istilah">{t('nav.istilah')}</Link>
           </Button>
           <SearchButton onClick={open} label={t('search.button')} />
+          <SavedLink />
           <LanguageSwitch />
           <ThemeToggle />
         </div>
@@ -234,6 +237,8 @@ export function LandingPage() {
             </div>
           </div>
         </section>
+
+        <DailyCard />
 
         {/* why */}
         <section className="mx-auto max-w-6xl px-4 py-12 sm:px-6">

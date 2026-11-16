@@ -5,6 +5,7 @@ import '@fontsource/geist-mono/400.css'
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
+import '@/lib/install' // catches the install prompt, which fires early
 import App from './App'
 import './globals.css'
 

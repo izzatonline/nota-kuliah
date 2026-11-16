@@ -10,8 +10,10 @@ import { TokohPage } from '@/pages/tokoh-page'
 import { KitabPage } from '@/pages/kitab-page'
 import { AyatPage } from '@/pages/ayat-page'
 import { IstilahPage } from '@/pages/istilah-page'
+import { SavedPage } from '@/pages/saved-page'
 import { PersonPage } from '@/pages/person-page'
 import { QuizPage } from '@/pages/quiz-page'
+import { HandoutPage } from '@/pages/handout-page'
 
 export default function App() {
   return (
@@ -25,11 +27,13 @@ export default function App() {
             <Route path="/kitab" element={<KitabPage />} />
             <Route path="/ayat" element={<AyatPage />} />
             <Route path="/istilah" element={<IstilahPage />} />
+            <Route path="/simpanan" element={<SavedPage />} />
             <Route path="/tokoh" element={<TokohPage />} />
             <Route path="/tokoh/:key" element={<PersonPage />} />
             <Route path="/:slug" element={<SeriesPage />} />
             <Route path="/:slug/quiz" element={<QuizPage />} />
             <Route path="/:slug/:epId/quiz" element={<QuizPage />} />
+            <Route path="/:slug/:epId/cetak" element={<HandoutPage />} />
             <Route path="/:slug/:epId" element={<SeriesPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
