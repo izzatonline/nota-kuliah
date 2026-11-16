@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
-import { Check, Copy, Link2, MessageCircle, Send, Share2, Smartphone } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { Check, Copy, Link2, MessageCircle, Printer, Send, Share2, Smartphone } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from '@/components/ui/dropdown-menu'
 import { usePlayer } from '@/components/player-context'
@@ -63,6 +64,10 @@ export function ShareMenu({ slug, episodeId, notes, iconOnly }: { slug: string; 
             <Link2 className="mr-2 size-4" /> {t('share.copyLinkAt', { t: fmt(atTime) })}
           </DropdownMenuItem>
         )}
+        <DropdownMenuSeparator />
+        <DropdownMenuItem asChild>
+          <Link to={`/${slug}/${episodeId}/cetak`}><Printer className="mr-2 size-4" /> {t('handout.print')}</Link>
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   )
