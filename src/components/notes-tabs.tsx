@@ -480,9 +480,15 @@ function TermCard({ t }: { t: Term }) {
 }
 
 export function GlossaryTab({ notes }: { notes: Notes }) {
+  const { t } = useT()
   return (
-    <div className="grid gap-3 md:grid-cols-2">
+    <div className="space-y-3">
+      <Link to="/istilah" className="inline-block text-xs font-medium text-primary underline-offset-2 hover:underline">
+        {t('istilah.all')}
+      </Link>
+      <div className="grid gap-3 md:grid-cols-2">
       {[...notes.glossary].sort((a, b) => a.t - b.t).map((t) => <TermCard key={t.id} t={t} />)}
+      </div>
     </div>
   )
 }
