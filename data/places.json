@@ -1,0 +1,378 @@
+{
+ "groups": [
+  {
+   "key": "makkah",
+   "ms": "Makkah dan sekitarnya",
+   "en": "Makkah and around"
+  },
+  {
+   "key": "hijaz",
+   "ms": "Taif dan Hijaz",
+   "en": "Taif and the Hijaz"
+  },
+  {
+   "key": "madinah",
+   "ms": "Madinah dan sekitarnya",
+   "en": "Madinah and around"
+  },
+  {
+   "key": "luar",
+   "ms": "Di luar Hijaz",
+   "en": "Beyond the Hijaz"
+  }
+ ],
+ "places": [
+  {
+   "key": "makkah",
+   "group": "makkah",
+   "ms": "Makkah",
+   "en": "Makkah",
+   "aliases": [
+    "Mekah"
+   ],
+   "lat": 21.420847,
+   "lng": 39.826869,
+   "precision": "city",
+   "source": "OpenStreetMap Nominatim, relation 12429517"
+  },
+  {
+   "key": "gua-hira",
+   "group": "makkah",
+   "ms": "Gua Hira",
+   "en": "Cave of Hira",
+   "aliases": [
+    "Hira",
+    "Jabal Nur"
+   ],
+   "lat": 21.4573709,
+   "lng": 39.8591955,
+   "precision": "site",
+   "source": "OpenStreetMap Nominatim, node 3732559985"
+  },
+  {
+   "key": "mina",
+   "group": "makkah",
+   "ms": "Mina",
+   "en": "Mina",
+   "aliases": [],
+   "lat": 21.4153556,
+   "lng": 39.8925058,
+   "precision": "site",
+   "source": "OpenStreetMap Nominatim, node 7758270150"
+  },
+  {
+   "key": "arafah",
+   "group": "makkah",
+   "ms": "Arafah",
+   "en": "Arafah",
+   "aliases": [
+    "Arafat"
+   ],
+   "lat": 21.3555245,
+   "lng": 39.9821378,
+   "precision": "site",
+   "source": "OpenStreetMap Nominatim, way 1377422823"
+  },
+  {
+   "key": "aqabah",
+   "group": "makkah",
+   "ms": "Aqabah (tempat bai'ah)",
+   "en": "Aqabah (site of the pledges)",
+   "aliases": [],
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "source": null,
+   "note": "Tempat bai'ah di Mina; lokasi tepat tidak ditemui dalam sumber geokod, jadi tiada pin.",
+   "noteEn": "Where the pledges were made, in Mina. The exact spot is not in the geocoding source, so there is no pin."
+  },
+  {
+   "key": "hudaibiyah",
+   "group": "makkah",
+   "ms": "Hudaibiyah",
+   "en": "Hudaybiyyah",
+   "aliases": [
+    "Hudaybiyah",
+    "Hudaibiyyah"
+   ],
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "source": null,
+   "note": "Nama tempat tidak disahkan oleh sumber geokod, jadi tiada pin.",
+   "noteEn": "The place name is not confirmed by the geocoding source, so there is no pin."
+  },
+  {
+   "key": "taif",
+   "group": "hijaz",
+   "ms": "Taif",
+   "en": "Ta'if",
+   "aliases": [],
+   "lat": 21.2702801,
+   "lng": 40.4158308,
+   "precision": "city",
+   "source": "OpenStreetMap Nominatim, node 1236468526"
+  },
+  {
+   "key": "nakhlah",
+   "group": "hijaz",
+   "ms": "Nakhlah",
+   "en": "Nakhlah",
+   "aliases": [],
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "source": null,
+   "note": "Lembah antara Makkah dan Taif; sumber geokod hanya menemui Nakhlah di Yaman, jadi tiada pin.",
+   "noteEn": "A valley between Makkah and Taif. The geocoding source only finds a Nakhlah in Yemen, so there is no pin."
+  },
+  {
+   "key": "ukaz",
+   "group": "hijaz",
+   "ms": "Ukaz",
+   "en": "Ukaz",
+   "aliases": [
+    "Okaz"
+   ],
+   "lat": 21.4683626,
+   "lng": 40.644283,
+   "precision": "site",
+   "source": "OpenStreetMap Nominatim, way 1092974437"
+  },
+  {
+   "key": "abwa",
+   "group": "hijaz",
+   "ms": "Al-Abwa'",
+   "en": "Al-Abwa'",
+   "aliases": [
+    "Abwa'",
+    "Abwa"
+   ],
+   "lat": 23.1085691,
+   "lng": 39.0712452,
+   "precision": "site",
+   "source": "OpenStreetMap Nominatim, node 13742085927"
+  },
+  {
+   "key": "hunain",
+   "group": "hijaz",
+   "ms": "Hunain",
+   "en": "Hunayn",
+   "aliases": [
+    "Hunayn"
+   ],
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "source": null,
+   "note": "Hasil geokod hanya menemui tempat yang tidak pasti sama, jadi tiada pin.",
+   "noteEn": "The geocoding source only finds places it cannot confirm are the same, so there is no pin."
+  },
+  {
+   "key": "madinah",
+   "group": "madinah",
+   "ms": "Madinah",
+   "en": "Madinah",
+   "aliases": [
+    "Yathrib",
+    "Medina"
+   ],
+   "lat": 24.471153,
+   "lng": 39.6111216,
+   "precision": "city",
+   "source": "OpenStreetMap Nominatim, node 4571693347"
+  },
+  {
+   "key": "quba",
+   "group": "madinah",
+   "ms": "Quba",
+   "en": "Quba",
+   "aliases": [],
+   "lat": 24.4394233,
+   "lng": 39.6174593,
+   "precision": "site",
+   "source": "OpenStreetMap Nominatim, relation 18051738"
+  },
+  {
+   "key": "badar",
+   "group": "madinah",
+   "ms": "Badar",
+   "en": "Badr",
+   "aliases": [
+    "Badr"
+   ],
+   "lat": 23.9169551,
+   "lng": 38.9331313,
+   "precision": "city",
+   "source": "OpenStreetMap Nominatim, relation 12429015"
+  },
+  {
+   "key": "uhud",
+   "group": "madinah",
+   "ms": "Uhud",
+   "en": "Uhud",
+   "aliases": [],
+   "lat": 24.5227316,
+   "lng": 39.6182613,
+   "precision": "site",
+   "source": "OpenStreetMap Nominatim, way 587267723"
+  },
+  {
+   "key": "khaibar",
+   "group": "madinah",
+   "ms": "Khaibar",
+   "en": "Khaybar",
+   "aliases": [
+    "Khaybar"
+   ],
+   "lat": 25.7025446,
+   "lng": 39.2932974,
+   "precision": "city",
+   "source": "OpenStreetMap Nominatim, node 546640970"
+  },
+  {
+   "key": "tabuk",
+   "group": "madinah",
+   "ms": "Tabuk",
+   "en": "Tabuk",
+   "aliases": [],
+   "lat": 28.4012536,
+   "lng": 36.567049,
+   "precision": "city",
+   "source": "OpenStreetMap Nominatim, node 5418190413"
+  },
+  {
+   "key": "habsyah",
+   "group": "luar",
+   "ms": "Habsyah",
+   "en": "Abyssinia",
+   "aliases": [
+    "Habasyah"
+   ],
+   "lat": 10.2116702,
+   "lng": 38.6521203,
+   "precision": "region",
+   "source": "OpenStreetMap Nominatim, relation 192800 (Ethiopia, titik tengah negara)",
+   "note": "Pin di tengah Ethiopia moden sahaja; sempadan kerajaan Najasyi tidak sama.",
+   "noteEn": "The pin sits at the middle of modern Ethiopia only. The kingdom of the Najashi had other borders."
+  },
+  {
+   "key": "yaman",
+   "group": "luar",
+   "ms": "Yaman",
+   "en": "Yemen",
+   "aliases": [],
+   "lat": 16.3471243,
+   "lng": 47.8915271,
+   "precision": "region",
+   "source": "OpenStreetMap Nominatim, relation 305092 (titik tengah negara)",
+   "note": "Pin di tengah Yaman moden.",
+   "noteEn": "The pin sits at the middle of modern Yemen."
+  },
+  {
+   "key": "syam",
+   "group": "luar",
+   "ms": "Syam",
+   "en": "Sham",
+   "aliases": [],
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "source": null,
+   "note": "Wilayah luas (Syria, Lubnan, Palestin, Jordan); tiada satu titik, jadi tiada pin. Lihat Busra dan Baitul Maqdis.",
+   "noteEn": "A wide region (Syria, Lebanon, Palestine, Jordan) with no single point, so there is no pin. See Busra and Baitul Maqdis."
+  },
+  {
+   "key": "busra",
+   "group": "luar",
+   "ms": "Busra",
+   "en": "Busra",
+   "aliases": [
+    "Bosra"
+   ],
+   "lat": 32.5191381,
+   "lng": 36.4805732,
+   "precision": "city",
+   "source": "OpenStreetMap Nominatim, node 573510767"
+  },
+  {
+   "key": "mutah",
+   "group": "luar",
+   "ms": "Mu'tah",
+   "en": "Mu'tah",
+   "aliases": [
+    "Mutah"
+   ],
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "source": null,
+   "note": "Lokasi pertempuran tidak ditemui dengan pasti dalam sumber geokod, jadi tiada pin.",
+   "noteEn": "The battle site is not found with certainty in the geocoding source, so there is no pin."
+  },
+  {
+   "key": "baitul-maqdis",
+   "group": "luar",
+   "ms": "Baitul Maqdis",
+   "en": "Jerusalem (Bayt al-Maqdis)",
+   "aliases": [
+    "Baitulmaqdis",
+    "Masjid Al-Aqsa"
+   ],
+   "lat": 31.7788472,
+   "lng": 35.2257856,
+   "precision": "city",
+   "source": "OpenStreetMap Nominatim, relation 1381350"
+  },
+  {
+   "key": "nineveh",
+   "group": "luar",
+   "ms": "Nineveh",
+   "en": "Nineveh",
+   "aliases": [],
+   "lat": 36.3564339,
+   "lng": 43.1621647,
+   "precision": "site",
+   "source": "OpenStreetMap Nominatim, way 202644722"
+  },
+  {
+   "key": "mesir",
+   "group": "luar",
+   "ms": "Mesir",
+   "en": "Egypt",
+   "aliases": [],
+   "lat": 26.2540493,
+   "lng": 29.2675469,
+   "precision": "region",
+   "source": "OpenStreetMap Nominatim, relation 1473947 (titik tengah negara)",
+   "note": "Pin di tengah Mesir moden.",
+   "noteEn": "The pin sits at the middle of modern Egypt."
+  },
+  {
+   "key": "rom",
+   "group": "luar",
+   "ms": "Rom",
+   "en": "Rome (Byzantium)",
+   "aliases": [],
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "source": null,
+   "note": "Empayar yang sempadannya berubah; tiada satu titik, jadi tiada pin.",
+   "noteEn": "An empire whose borders changed, with no single point, so there is no pin."
+  },
+  {
+   "key": "parsi",
+   "group": "luar",
+   "ms": "Parsi",
+   "en": "Persia",
+   "aliases": [],
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "source": null,
+   "note": "Empayar yang sempadannya berubah; tiada satu titik, jadi tiada pin.",
+   "noteEn": "An empire whose borders changed, with no single point, so there is no pin."
+  }
+ ]
+}
