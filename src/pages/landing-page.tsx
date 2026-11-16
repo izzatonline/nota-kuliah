@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { ArrowRight, BookMarked, BookOpenCheck, Clock, Eye, FileText, HandHeart, Headphones, History, Languages, Library, Play, Users } from 'lucide-react'
+import { ArrowRight, BookMarked, BookOpenCheck, Clock, Eye, FileText, HandHeart, Headphones, History, Languages, Library, MapPin, Play, Users } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
@@ -202,6 +202,9 @@ export function LandingPage() {
           <Button asChild variant="ghost" size="sm" className="hidden lg:inline-flex">
             <Link to="/istilah">{t('nav.istilah')}</Link>
           </Button>
+          <Button asChild variant="ghost" size="sm" className="hidden lg:inline-flex">
+            <Link to="/tempat">{t('nav.tempat')}</Link>
+          </Button>
           <SearchButton onClick={open} label={t('search.button')} />
           <SavedLink />
           <LanguageSwitch />
@@ -331,6 +334,16 @@ export function LandingPage() {
             </div>
             <span className="inline-flex items-center gap-1 text-sm font-medium text-primary">
               {t('istilah.card.cta')} <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
+            </span>
+          </Link>
+          <Link to="/tempat" className="group flex flex-col gap-4 rounded-xl border bg-card p-5 outline-none transition-all hover:border-primary/40 hover:shadow-md focus-visible:ring-2 focus-visible:ring-ring sm:flex-row sm:items-center lg:flex-col lg:items-start">
+            <div className="grid size-11 shrink-0 place-items-center rounded-lg bg-gold-soft text-gold"><MapPin className="size-5" /></div>
+            <div className="min-w-0 flex-1">
+              <p className="font-semibold tracking-tight">{t('places.card.title')}</p>
+              <p className="text-sm leading-relaxed text-muted-foreground">{t('places.card.body')}</p>
+            </div>
+            <span className="inline-flex items-center gap-1 text-sm font-medium text-primary">
+              {t('places.card.cta')} <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
             </span>
           </Link>
         </section>
