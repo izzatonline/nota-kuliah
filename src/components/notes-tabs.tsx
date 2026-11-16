@@ -10,6 +10,7 @@ import { ItemShare } from '@/components/item-share'
 import { NOW_RING, TimeLink, useIsNow } from '@/components/time-link'
 import { fmt } from '@/lib/data'
 import { useT } from '@/lib/i18n'
+import { useAyatCount } from '@/lib/ayat'
 import type { Book, Dalil, Lesson, Notes, Person, SirahEvent, Term } from '@/lib/types'
 
 export type TabKey = 'topik' | 'ringkasan' | 'dalil' | 'kitab' | 'tokoh' | 'sirah' | 'pengajaran' | 'peta' | 'istilah' | 'kuiz'
@@ -177,6 +178,18 @@ export function Overview({ notes, go }: { notes: Notes; go: (t: TabKey) => void 
 }
 
 /* ----------------------------------------------------------------- Dalil */
+/** Links a Quran dalil to the Ayat page, saying how many times the verse is cited when it is more than once. */
+function AyatLink({ ref_ }: { ref_: string }) {
+  const { t } = useT()
+  const c = useAyatCount(ref_)
+  if (!c) return null
+  return (
+    <Link to={`/ayat#${c.key}`} className="inline-block text-xs font-medium text-primary underline-offset-2 hover:underline">
+      {c.n && c.n > 1 ? t('ayat.seen', { n: c.n }) : t('ayat.seen1')}
+    </Link>
+  )
+}
+
 function DalilCard({ d }: { d: Dalil }) {
   const { t } = useT()
   const now = useIsNow(d.t, 40)
@@ -209,6 +222,7 @@ function DalilCard({ d }: { d: Dalil }) {
         )}
         <p className="text-[15px] leading-relaxed">{d.translation}</p>
         <p className="text-sm leading-relaxed text-muted-foreground">{d.context}</p>
+        {d.kind === 'quran' && <AyatLink ref_={d.ref} />}
         <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 border-t pt-3 text-xs text-muted-foreground">
           {d.narrator && <span>{t('narrator')}: {d.narrator}</span>}
           <span>
