@@ -124,3 +124,10 @@ export type AyatMention = { slug: string; series: string; epId: string; epNumber
 export type AyatEntry = { key: string; ayah: number; arabic: string | null; translation: string; mentions: AyatMention[] }
 export type SurahEntry = { n: number; name: string; arabic: string | null; ayahs: AyatEntry[] }
 export type AyatIndex = { surahs: SurahEntry[] }
+
+/* -------------------------------------------------------------- Istilah */
+/** One place a glossary term comes up: the episode and the meaning given there. */
+export type TermMention = { slug: string; series: string; epId: string; epNumber: number | null; epTitle: string; id: string; t: number; meaning: string }
+export type TermEntry = { key: string; term: string; arabic: string | null; mentions: TermMention[] }
+/** What `scripts/search-index.mjs` writes to `public/search/istilah.<lang>.json`. */
+export type TermIndex = { terms: TermEntry[] }

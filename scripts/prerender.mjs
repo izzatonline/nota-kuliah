@@ -186,7 +186,26 @@ page({
   jsonLd: [crumbs([[NAME, '/'], ['Ayat', '/ayat']])],
 })
 entries.push({ path: '/ayat' })
-let pages = 5
+
+// The Istilah page: every glossary term, merged across the lectures, with each meaning given.
+const istilah = read('search/istilah.ms.json')
+const istilahDescription = `Glosari ${istilah.terms.length} istilah yang diterangkan dalam kuliah ${all.map((s) => s.series.title).join(' dan ')}, dengan makna dan masa ia disebut.`
+const istilahImage = await og('istilah', { kicker: NAME, title: 'Istilah dalam kuliah', foot: all[0].series.speaker })
+page({
+  image: istilahImage,
+  path: '/istilah',
+  title: `Istilah dalam kuliah ${all[0].series.speaker} | ${NAME}`,
+  description: clip(istilahDescription),
+  body:
+    `<h1>Istilah dalam kuliah</h1><p>${esc(istilahDescription)}</p><dl>` +
+    istilah.terms
+      .map((e) => `<dt id="${esc(e.key)}">${esc(e.term)}</dt>` + e.mentions.map((m) => `<dd>${esc(m.meaning)}</dd>`).join(''))
+      .join('') +
+    '</dl>',
+  jsonLd: [crumbs([[NAME, '/'], ['Istilah', '/istilah']])],
+})
+entries.push({ path: '/istilah' })
+let pages = 6
 for (const g of tokoh.groups)
   for (const p of g.people) {
     const path = `/tokoh/${p.key}`
