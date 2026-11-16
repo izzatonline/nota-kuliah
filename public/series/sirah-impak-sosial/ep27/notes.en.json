@@ -536,5 +536,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Tortured Bilal and was later killed by him at Badr."
+  },
+  {
+   "id": "pl2",
+   "context": "Kidnapped by Rome, sheltered by Abdullah ibn Jud'an and gave up his wealth to emigrate."
+  }
+ ]
 }

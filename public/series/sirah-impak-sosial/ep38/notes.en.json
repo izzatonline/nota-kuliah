@@ -746,5 +746,31 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The Prophet ﷺ lost Khadijah RA and Abu Talib and went through Ta'if, then returned to Makkah under Mut'im ibn Adi's protection."
+  },
+  {
+   "id": "pl2",
+   "context": "The Prophet ﷺ lost Khadijah RA and Abu Talib and went through Ta'if, then returned to Makkah under Mut'im ibn Adi's protection."
+  },
+  {
+   "id": "pl3",
+   "context": "The Prophet stopped at Taibah (Madinah), at the tree of Prophet Musa in Madyan or Sinai, and at Bayt Lahm where Prophet Isa was born."
+  },
+  {
+   "id": "pl4",
+   "context": "The textual context, the life of the Prophet, the context of Bayt al-Maqdis and the world context: the clash of Rome and Persia."
+  },
+  {
+   "id": "pl5",
+   "context": "The textual context, the life of the Prophet, the context of Bayt al-Maqdis and the world context: the clash of Rome and Persia."
+  },
+  {
+   "id": "pl6",
+   "context": "The textual context, the life of the Prophet, the context of Bayt al-Maqdis and the world context: the clash of Rome and Persia."
+  }
+ ]
 }

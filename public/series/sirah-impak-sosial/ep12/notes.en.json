@@ -444,5 +444,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The sacred territory of Makkah, which must not be stained by bloodshed."
+  },
+  {
+   "id": "pl2",
+   "context": "Al-Barrat killed Urwah after losing a tender to carry goods to the Ukaz market."
+  },
+  {
+   "id": "pl3",
+   "context": "The trader cheated by Al-As ibn Wa'il made his complaint publicly in verse."
+  }
+ ]
 }

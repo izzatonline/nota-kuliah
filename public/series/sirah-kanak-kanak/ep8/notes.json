@@ -277,6 +277,36 @@
    "context": "Ditolak Khadijah kerana akhlaknya."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Ukaz",
+   "place": "ukaz",
+   "t": 99,
+   "context": "Dua peniaga, Urwah dan Al-Barrad, bersaing membawa barang ke Pasar Ukaz dan Al-Barrad membunuh Urwah."
+  },
+  {
+   "id": "pl2",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 976,
+   "context": "Peniaga Yaman ditipu"
+  },
+  {
+   "id": "pl3",
+   "name": "Syam",
+   "place": "syam",
+   "t": 2016,
+   "context": "Ke Syam bersama Maisarah"
+  },
+  {
+   "id": "pl4",
+   "name": "Mesir",
+   "place": "mesir",
+   "t": 833,
+   "context": "Anak Al-As bin Wail yang akan membuka Mesir."
+  }
+ ],
  "sirah": {
   "era": "Remaja hingga awal dewasa Nabi SAW (15 hingga 25 tahun)",
   "summary": "Kuliah ini meliputi Perang Al-Fijar, Hilf Al-Fudul, pekerjaan dengan Khadijah dan keinginan Khadijah kepada baginda.",

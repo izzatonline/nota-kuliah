@@ -404,5 +404,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Said the day Umar embraced Islam was the best day in Mecca."
+  },
+  {
+   "id": "pl2",
+   "context": "Umar looked for his drinking friends but found none, so went to the Kaaba and saw the Prophet SAW praying facing Jerusalem."
+  }
+ ]
 }

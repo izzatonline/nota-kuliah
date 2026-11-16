@@ -407,5 +407,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Stayed in Mecca with her husband Abul As until after the Battle of Badr."
+  },
+  {
+   "id": "pl2",
+   "context": "The Prophet SAW and the companions prayed for him in Madinah."
+  },
+  {
+   "id": "pl3",
+   "context": "Stayed in Mecca with her husband Abul As until after the Battle of Badr."
+  },
+  {
+   "id": "pl4",
+   "context": "Najashi was a title, his name Ashamah, a just Christian king of Abyssinia across the Red Sea from the Hijaz."
+  }
+ ]
 }

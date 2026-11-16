@@ -293,6 +293,57 @@
    "context": "Anak agamawan Parsi yang terkemuka dan kemudian membuka kota Parsi."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 0,
+   "context": "Ringkasan keadaan Mekah"
+  },
+  {
+   "id": "pl2",
+   "name": "Taif",
+   "place": "taif",
+   "t": 112,
+   "context": "Berhala kabilah diletakkan di Kaabah sebagai jaminan keselamatan Quraish dan Taif bersaing."
+  },
+  {
+   "id": "pl3",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 259,
+   "context": "Perjalanan ke Syam dan Yaman"
+  },
+  {
+   "id": "pl4",
+   "name": "Syam",
+   "place": "syam",
+   "t": 259,
+   "context": "Perjalanan ke Syam dan Yaman"
+  },
+  {
+   "id": "pl5",
+   "name": "Mesir",
+   "place": "mesir",
+   "t": 678,
+   "context": "Rom Timur, dari Turki hingga Syam, Mesir dan Afrika Timur."
+  },
+  {
+   "id": "pl6",
+   "name": "Rom",
+   "place": "rom",
+   "t": 862,
+   "context": "Rom: tekanan cukai dan hiburan gladiator"
+  },
+  {
+   "id": "pl7",
+   "name": "Parsi",
+   "place": "parsi",
+   "t": 259,
+   "context": "Nabi SAW berdagang selama sepuluh hingga lima belas tahun dan melihat Rom dan Parsi."
+  }
+ ],
  "sirah": {
   "era": "Sebelum wahyu, ketika Nabi SAW hampir 40 tahun",
   "summary": "Nabi SAW melihat kerosakan agama dan masyarakat Mekah serta dunia Rom, Parsi dan India.",

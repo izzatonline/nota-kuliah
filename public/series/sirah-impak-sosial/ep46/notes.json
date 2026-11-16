@@ -393,6 +393,36 @@
    "context": "Mengarang Fiqhud Da'wah yang menyebut ujian terbesar pendakwah ialah cinta kepopularitian."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 1241,
+   "context": "Rumah pangkalan dakwah di Mekah, dan Mus'ab mewujudkan yang serupa di rumah As'ad di Madinah."
+  },
+  {
+   "id": "pl2",
+   "name": "Aqabah",
+   "place": "aqabah",
+   "t": 0,
+   "context": "Selepas Aqabah pertama, dua belas pemuda meminta seorang guru yang mengajar Quran dan mengimamkan solat; hadis Bukhari menyebut Mus'ab dan kemudian Abdullah bin Ummi Maktum yang tiba."
+  },
+  {
+   "id": "pl3",
+   "name": "Yathrib",
+   "place": "madinah",
+   "t": 1247,
+   "context": "Rumah As'ad bin Zurarah menjadi pangkalan pertama Islam di Yathrib."
+  },
+  {
+   "id": "pl4",
+   "name": "Uhud",
+   "place": "uhud",
+   "t": 1080,
+   "context": "Hadis Khabbab bahawa Mus'ab syahid di Uhud tanpa kain kafan mencukupi dan tidak sempat menikmati hasil usahanya."
+  }
+ ],
  "sirah": {
   "era": "Antara Perjanjian Aqabah pertama dan kedua, sebelum hijrah",
   "summary": "Episod ini mengikuti Mus'ab bin Umair dan Abdullah bin Ummi Maktum membina asas Islam di Yathrib selama setahun, sehingga setiap rumah mendengar tentang Nabi sebelum baginda tiba.",

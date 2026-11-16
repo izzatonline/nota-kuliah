@@ -433,5 +433,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Hashim brought goods from Syam and Yemen to Mecca until poor Mecca became rich."
+  },
+  {
+   "id": "pl2",
+   "context": "An Arab from Taif showed the way, and Abraha's army camped near Mecca and seized camels."
+  },
+  {
+   "id": "pl3",
+   "context": "Hashim brought goods from Syam and Yemen to Mecca until poor Mecca became rich."
+  },
+  {
+   "id": "pl4",
+   "context": "Hashim brought goods from Syam and Yemen to Mecca until poor Mecca became rich."
+  }
+ ]
 }

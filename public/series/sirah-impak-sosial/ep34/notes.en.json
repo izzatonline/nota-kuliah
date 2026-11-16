@@ -682,5 +682,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The Prophet did not marry another during Khadijah's life, returned to Makkah as a conqueror and camped at Hujun, and the ustaz closes with recommended books and the hadith on bringing joy to a grieving heart."
+  },
+  {
+   "id": "pl2",
+   "context": "The Prophet SAW recognised the necklace and the Companions freed Abul Az on condition that Zainab be sent to Madinah."
+  },
+  {
+   "id": "pl3",
+   "context": "Memories that stirred the Prophet: Badr and Khadijah's necklace"
+  },
+  {
+   "id": "pl4",
+   "context": "Her husband was shot at a peaceful gathering in Egypt, when their baby was nine months old."
+  }
+ ]
 }

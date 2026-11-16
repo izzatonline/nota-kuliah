@@ -562,5 +562,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The ustaz introduces Hisnul Muslim (Fortress of the Muslim) and its commentary, books he bought in Madinah and Mecca, which contain both supplications."
+  },
+  {
+   "id": "pl2",
+   "context": "The ustaz compares the supplication at Ta'if ('if You are not angry with me, I do not care') with the supplications in this lecture: full devotion and good thoughts of Allah."
+  },
+  {
+   "id": "pl3",
+   "context": "The ustaz introduces Hisnul Muslim (Fortress of the Muslim) and its commentary, books he bought in Madinah and Mecca, which contain both supplications."
+  }
+ ]
 }

@@ -447,5 +447,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Two traders, Urwah and Al-Barrad, competed to take goods to Ukaz market and Al-Barrad killed Urwah."
+  },
+  {
+   "id": "pl2",
+   "context": "Al-As ibn Wail refused to pay and no one would help."
+  },
+  {
+   "id": "pl3",
+   "context": "To Sham with Maisarah"
+  },
+  {
+   "id": "pl4",
+   "context": "The son of Al-As ibn Wail who would conquer Egypt."
+  }
+ ]
 }

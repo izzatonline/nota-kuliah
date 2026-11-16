@@ -525,6 +525,36 @@
    "context": "Menewaskan Jurhum. Amr bin Luhayy membawa pulang berhala Hubal dari Rom dan meletakkannya di depan Kaabah, lalu mengubah suai ibadah haji."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 2928,
+   "context": "Amr bin Luhayy membawa Hubal ke Mekah"
+  },
+  {
+   "id": "pl2",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 1187,
+   "context": "Kisah empangan Yaman, kedatangan Jurhum yang meminta menetap, dan Hajar menegaskan air miliknya."
+  },
+  {
+   "id": "pl3",
+   "name": "Mesir",
+   "place": "mesir",
+   "t": 297,
+   "context": "Selepas perjalanan ke Mesir, Ibrahim berkahwin juga dengan Hajar dan dikurniakan Ismail."
+  },
+  {
+   "id": "pl4",
+   "name": "Rom",
+   "place": "rom",
+   "t": 2928,
+   "context": "Kerana rasa rendah diri melihat Rom yang maju, lalu haji diubah suai dan agama Ibrahim hampir tidak diamalkan."
+  }
+ ],
  "sirah": {
   "era": "Latar sebelum kelahiran Nabi SAW: dari Nabi Ibrahim AS hingga berhala pertama di Kaabah",
   "summary": "Ustaz melukiskan latar belakang tempat dan masa sirah Nabi SAW. Ibrahim AS meneroka Mekah, Kaabah dibina, dan dalam tempoh sekitar 2,000 tahun agama Ibrahim terkikis hingga berhala diletakkan di sisi Kaabah.",

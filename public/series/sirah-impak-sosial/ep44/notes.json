@@ -464,6 +464,50 @@
    "context": "Disebut ustaz antara enam pemuda Khazraj yang bertemu Nabi SAW; nama mereka disenaraikan semula."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 462,
+   "context": "Tanpa pelindung di Mekah"
+  },
+  {
+   "id": "pl2",
+   "name": "Mina",
+   "place": "mina",
+   "t": 1669,
+   "context": "Nabi SAW berjumpa kabilah dari seluruh Arab di Ukaz, Majannah, Dhul Majaz dan Mina dengan ditemani Abu Bakar dan Ali."
+  },
+  {
+   "id": "pl3",
+   "name": "Aqabah",
+   "place": "aqabah",
+   "t": 3857,
+   "context": "Enam pemuda Khazraj di Aqabah"
+  },
+  {
+   "id": "pl4",
+   "name": "Taif",
+   "place": "taif",
+   "t": 471,
+   "context": "Memberi perlindungan selepas Taif tetapi bertindak negatif selepas Nabi menceritakan perjalanan malam."
+  },
+  {
+   "id": "pl5",
+   "name": "Ukaz",
+   "place": "ukaz",
+   "t": 1669,
+   "context": "Nabi SAW berjumpa kabilah dari seluruh Arab di Ukaz, Majannah, Dhul Majaz dan Mina dengan ditemani Abu Bakar dan Ali."
+  },
+  {
+   "id": "pl6",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 2880,
+   "context": "Suwaid yang dipanggil Al-Kamil dan Iyas yang masih kanak-kanak mendengar Nabi, lalu terbunuh di Madinah sebagai orang beriman."
+  }
+ ],
  "sirah": {
   "era": "Selepas Isra' dan Mi'raj dan sebelum hijrah, di Mekah dan Mina",
   "summary": "Episod ini menceritakan Nabi SAW mencari pangkalan dakwah baharu melalui kabilah musim haji, dengan penolakan berulang, beberapa individu yang beriman, dan pertemuan dengan enam pemuda Khazraj di Aqabah.",

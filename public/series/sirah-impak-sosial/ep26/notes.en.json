@@ -578,5 +578,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Describes Umar as a unique figure who loved ancestral tradition and Makkah."
+  },
+  {
+   "id": "pl2",
+   "context": "The Prophet's SAW muezzin, left in charge of Madinah."
+  },
+  {
+   "id": "pl3",
+   "context": "Not Roman; slave of Abdullah ibn Jud'an who knew the Prophet SAW before prophethood."
+  }
+ ]
 }

@@ -664,6 +664,29 @@
    "context": "Mendengar bunyi pintu langit yang pertama kali dibuka, lalu memberitahu Nabi SAW."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 4075,
+   "context": "Turun ke Masjid Al-Aqsa dan kembali ke Makkah"
+  },
+  {
+   "id": "pl2",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 115,
+   "context": "Siri hampir ke penghujung fasa Makkah, sebelum persediaan Hijrah ke Madinah."
+  },
+  {
+   "id": "pl3",
+   "name": "Masjid Al-Aqsa",
+   "place": "baitul-maqdis",
+   "t": 4075,
+   "context": "Turun ke Masjid Al-Aqsa dan kembali ke Makkah"
+  }
+ ],
  "sirah": {
   "era": "Fasa Makkiyyah akhir, sebelum Hijrah",
   "summary": "Episod ini menutup peristiwa Isra' Mi'raj. Ustaz menyebut tinggal tiga episod lagi sebelum musim kedua tamat dan persediaan ke Madinah bermula.",

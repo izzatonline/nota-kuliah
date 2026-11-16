@@ -419,6 +419,29 @@
    "context": "Dipetik bimbang generasi yang tidak pernah melihat jahiliah."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 1074,
+   "context": "Masyarakat Makkah bersimpati dan mula mengkaji kepercayaan orang yang bertahan."
+  },
+  {
+   "id": "pl2",
+   "name": "Taif",
+   "place": "taif",
+   "t": 530,
+   "context": "Tahun yang merangkumi kematian Abu Talib, kematian Khadijah dan peristiwa Taif."
+  },
+  {
+   "id": "pl3",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 2093,
+   "context": "Masuk Islam dan berhijrah bersama Nabi SAW; dikuburkan oleh baginda di Madinah."
+  }
+ ],
  "sirah": {
   "era": "Akhir boikot hingga wafat Abu Talib (tahun kesedihan)",
   "summary": "Selepas boikot tamat, Quraish membuat rundingan terakhir dengan Abu Talib yang sakit, lalu Abu Talib wafat tanpa mengucap.",

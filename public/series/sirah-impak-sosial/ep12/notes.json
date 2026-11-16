@@ -242,6 +242,29 @@
    "context": "Dibawa menyertai perjanjian sebagai orang muda; Ustaz menyebut mereka berkawan baik sejak muda."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 590,
+   "context": "Kawasan suci Makkah yang tidak boleh dicemari dengan pertumpahan darah."
+  },
+  {
+   "id": "pl2",
+   "name": "Ukaz",
+   "place": "ukaz",
+   "t": 371,
+   "context": "Al-Barrat membunuh Urwah kerana kalah tender dagangan ke pasar Ukaz."
+  },
+  {
+   "id": "pl3",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 1687,
+   "context": "Syair pedagang Yaman di Jabal Abi Qubais"
+  }
+ ],
  "sirah": {
   "era": "Remaja hingga awal 20-an sebelum bertemu Khadijah",
   "summary": "Dua peristiwa penting pada usia muda Nabi SAW iaitu penglibatan dalam Perang Al-Fijar dan penyertaan dalam Perjanjian Hilf Al-Fudul.",

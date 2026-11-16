@@ -590,5 +590,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Jibril teaches the prayer times in Mecca"
+  },
+  {
+   "id": "pl2",
+   "context": "The main narrator of this story; young while in Mecca, the Prophet prayed that he become a jurist and an expert in tafsir, and he later made Ta'if a centre of teaching."
+  },
+  {
+   "id": "pl3",
+   "context": "Allah shows Bayt al-Maqdis"
+  }
+ ]
 }

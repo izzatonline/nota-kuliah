@@ -451,5 +451,35 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Religion commercialised, idols for sale, and the Prophet SAW never worshipped idols."
+  },
+  {
+   "id": "pl2",
+   "context": "Each tribe's idol sat in the Kaaba as a security guarantee for Quraysh, and Ta'if competed."
+  },
+  {
+   "id": "pl3",
+   "context": "Journeys to Sham and Yemen"
+  },
+  {
+   "id": "pl4",
+   "context": "Journeys to Sham and Yemen"
+  },
+  {
+   "id": "pl5",
+   "context": "Eastern Rome, from Turkey through Sham, Egypt and East Africa."
+  },
+  {
+   "id": "pl6",
+   "context": "Rome: crushing taxes and gladiator shows"
+  },
+  {
+   "id": "pl7",
+   "context": "The Prophet SAW traded for ten to fifteen years and saw Rome and Persia."
+  }
+ ]
 }

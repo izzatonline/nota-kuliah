@@ -490,5 +490,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The sermon at Arafah"
+  },
+  {
+   "id": "pl2",
+   "context": "They camped at the edge of Madinah to join his Hajj."
+  }
+ ]
 }

@@ -509,6 +509,22 @@
    "context": "Menyesal tidak menyatakan pendapat yang diyakininya kerana takut dikecam."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Gua Hira",
+   "place": "gua-hira",
+   "t": 899,
+   "context": "Nabi SAW turun naik Gua Hira membawa bekal"
+  },
+  {
+   "id": "pl2",
+   "name": "Taif",
+   "place": "taif",
+   "t": 3999,
+   "context": "Menurut sebuah buku, Khadijah pernah bertemu Adas, yang kemudian menghidangkan anggur kepada Nabi SAW di Taif."
+  }
+ ],
  "sirah": {
   "era": "Permulaan wahyu pertama, Nabi SAW berusia 40 tahun",
   "summary": "Nabi SAW menerima lima ayat pertama Al-Alaq di Gua Hira, berlari pulang kepada Khadijah, dan dibawa bertemu Waraqah yang mengesahkan wahyu.",

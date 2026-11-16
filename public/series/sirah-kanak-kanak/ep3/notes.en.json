@@ -452,5 +452,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Was in the Abyssinian army and later became king in Yemen, and eventually came to attack Mecca."
+  },
+  {
+   "id": "pl2",
+   "context": "One man escaped to Sham, the king of Abyssinia sent an army, and Abraha, who became king in Yemen, was in that army."
+  },
+  {
+   "id": "pl3",
+   "context": "One man escaped to Sham, the king of Abyssinia sent an army, and Abraha, who became king in Yemen, was in that army."
+  },
+  {
+   "id": "pl4",
+   "context": "One man escaped to Sham, the king of Abyssinia sent an army, and Abraha, who became king in Yemen, was in that army."
+  }
+ ]
 }

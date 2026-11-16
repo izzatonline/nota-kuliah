@@ -583,6 +583,22 @@
    "context": "Dikongsi ustaz sebagai kisah benar di sebalik filem tentang pengembala kambing di pedalaman Arab."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 0,
+   "context": "Kuliah dibuka dengan petikan Hamka tentang seorang pemuda yang pulang dari Mekah, sebelum ustaz mengulang kaji episod yang lalu."
+  },
+  {
+   "id": "pl2",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 1013,
+   "context": "Ustaz tersinggung dengan video yang menunjukkan keburukan di Mekah dan Madinah, lalu membawa jawapan Hamka yang berlapik tetapi tajam."
+  }
+ ],
  "sirah": {
   "era": "Zaman remaja Nabi SAW di Mekah",
   "summary": "Nabi SAW tinggal di rumah Abu Talib sejak berusia lapan tahun, bekerja mengembala kambing, dan diuji dengan budaya Mekah yang tidak tahu malu namun dilindungi Allah.",

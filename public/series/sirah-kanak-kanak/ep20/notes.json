@@ -235,6 +235,22 @@
    "context": "Meminta Abu Talib menghentikan Nabi SAW."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Habasyah",
+   "place": "habsyah",
+   "t": 1374,
+   "context": "Mus'ab menyuruh mereka mengambil semua hartanya tetapi enggan meninggalkan Nabi SAW, dan akan melarikan diri ke Habasyah."
+  },
+  {
+   "id": "pl2",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 424,
+   "context": "Mus'ab dari keluarga jutawan, berpakaian tempahan dari Yaman dan kasut khas, dan diikuti ramai anak muda."
+  }
+ ],
  "sirah": {
   "era": "Penyeksaan golongan berpangkat",
   "summary": "Kuliah ini meliputi seksaan terhadap Uthman, Suhaib dan Mus'ab bin Umair serta jawapan Nabi SAW kepada Abu Talib.",

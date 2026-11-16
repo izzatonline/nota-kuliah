@@ -481,5 +481,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "A house used as a da'wah base in Mecca, and Mus'ab set up a similar one in As'ad's house in Madinah."
+  },
+  {
+   "id": "pl2",
+   "context": "After the first Aqabah, twelve youths asked for a teacher to teach the Quran and lead prayer; the Bukhari hadith says Mus'ab, then Abdullah ibn Ummi Maktum, arrived."
+  },
+  {
+   "id": "pl3",
+   "context": "The house of As'ad ibn Zurarah became the first base of Islam in Yathrib."
+  },
+  {
+   "id": "pl4",
+   "context": "Khabbab's hadith that Mus'ab was martyred at Uhud without enough shroud and did not live to enjoy the fruit of his work."
+  }
+ ]
 }

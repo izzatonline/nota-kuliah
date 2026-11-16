@@ -212,6 +212,29 @@
    "context": "Masih muda waktu ini; akan muncul di Uhud dan memeluk Islam."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Badar",
+   "place": "badar",
+   "t": 1994,
+   "context": "Nabi SAW menyatakan akan membebaskan tawanan Badar jika Mut'im hidup."
+  },
+  {
+   "id": "pl2",
+   "name": "Uhud",
+   "place": "uhud",
+   "t": 2409,
+   "context": "Ustaz memperkenalkan Khalid anak Al-Walid bin Al-Mughirah, yang muncul di Uhud, memeluk Islam dan digelar Pedang Allah, serta wafat di atas katil."
+  },
+  {
+   "id": "pl3",
+   "name": "Habsyah",
+   "place": "habsyah",
+   "t": 0,
+   "context": "Kuliah dibuka dengan adegan Mut'im bin Adi bangun menolak perjanjian, lalu ustaz mengimbas Hamzah dan Umar serta kegagalan Amru bin Al-As di Habsyah."
+  }
+ ],
  "sirah": {
   "era": "Sekitar tahun ketujuh hingga kesepuluh kenabian: boikot",
   "summary": "Kuliah ini meliputi boikot Quraisy, kepungan di Syi'ib Abi Talib dan pembatalan perjanjian.",

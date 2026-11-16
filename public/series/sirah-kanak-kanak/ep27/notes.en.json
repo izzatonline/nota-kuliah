@@ -408,5 +408,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "He was brought into Mecca and performed tawaf."
+  },
+  {
+   "id": "pl2",
+   "context": "Leaving for Taif"
+  },
+  {
+   "id": "pl3",
+   "context": "Adas heard Bismillah, learned the Prophet knew of Yunus of Nineveh, kissed him and embraced Islam."
+  }
+ ]
 }

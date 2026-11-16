@@ -269,6 +269,36 @@
    "context": "Dibeli Abdullah ketika berumur 9 tahun dari Afrika, menemani Aminah dan kemudian menjaga Nabi SAW. Nabi memanggilnya ibu."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 656,
+   "context": "Al-Muttalib membawa Syaibah dari Yathrib ke Mekah dan orang memanggilnya Abdul Muttalib."
+  },
+  {
+   "id": "pl2",
+   "name": "Yathrib",
+   "place": "madinah",
+   "t": 1603,
+   "context": "Abdullah wafat di Yathrib"
+  },
+  {
+   "id": "pl3",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 801,
+   "context": "Selepas Al-Muttalib wafat di Yaman, Abdul Muttalib menggantikannya sebagai ketua."
+  },
+  {
+   "id": "pl4",
+   "name": "Syam",
+   "place": "syam",
+   "t": 486,
+   "context": "Dalam perjalanan dagang ke Syam, Hashim berkahwin dengan Salma di Yathrib dan wafat di Gaza."
+  }
+ ],
  "sirah": {
   "era": "Sebelum kelahiran Nabi SAW: keluarga Nabi",
   "summary": "Kuliah ini menceritakan susur galur terdekat Nabi SAW: Hashim, Abdul Muttalib dan Abdullah, hingga Abdullah wafat ketika Aminah mengandungkan baginda.",

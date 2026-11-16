@@ -336,5 +336,11 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The Cave of Hira and the meaning of ummi"
+  }
+ ]
 }

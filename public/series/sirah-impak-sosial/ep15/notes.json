@@ -342,6 +342,36 @@
    "context": "Suami terakhir Atikah. Beliau meninggal sebelum Hassan RA meninggal."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 877,
+   "context": "Selepas diberitahu nabi akhir zaman akan keluar dari Mekah, dia dirompak dan dibunuh, setahun atau lima tahun sebelum kenabian menurut riwayat."
+  },
+  {
+   "id": "pl2",
+   "name": "Habsyah",
+   "place": "habsyah",
+   "t": 151,
+   "context": "Tiga hanif mencari kebenaran di Syam, Rom dan Habsyah dengan pengakhiran berbeza."
+  },
+  {
+   "id": "pl3",
+   "name": "Syam",
+   "place": "syam",
+   "t": 151,
+   "context": "Tiga hanif mencari kebenaran di Syam, Rom dan Habsyah dengan pengakhiran berbeza."
+  },
+  {
+   "id": "pl4",
+   "name": "Rom",
+   "place": "rom",
+   "t": 151,
+   "context": "Tiga hanif mencari kebenaran di Syam, Rom dan Habsyah dengan pengakhiran berbeza."
+  }
+ ],
  "sirah": {
   "era": "Mekah sebelum kenabian",
   "summary": "Episod ini menggambarkan keadaan agama dan sosial Mekah sebelum Nabi SAW diutus melalui kisah golongan hanif, terutama Zaid bin Amr bin Nufail, serta sepuluh tahun yang sunyi dalam hidup Nabi SAW.",

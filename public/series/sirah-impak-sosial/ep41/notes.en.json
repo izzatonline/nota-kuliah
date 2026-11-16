@@ -652,5 +652,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "In this series it includes the episodes on the deaths of Khadijah RA and Abu Talib, and the Ta'if incident."
+  },
+  {
+   "id": "pl2",
+   "context": "From Al-Masjid al-Haram to Al-Masjid al-Aqsa, then the first to the seventh heaven"
+  }
+ ]
 }

@@ -399,6 +399,22 @@
    "context": "Lahir hasil perkahwinan Zaid bin Harithah dengan Ummu Aiman."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 0,
+   "context": "Ustaz bersyukur dan mengimbas Perang Fijar dan perjanjian membela peniaga Yaman."
+  },
+  {
+   "id": "pl2",
+   "name": "Syam",
+   "place": "syam",
+   "t": 420,
+   "context": "Ke Syam dengan Maisarah"
+  }
+ ],
  "sirah": {
   "era": "Perkahwinan Nabi SAW dengan Khadijah (25 tahun)",
   "summary": "Kuliah ini meliputi perkahwinan Nabi SAW dengan Khadijah, isi rumah mereka, anak-anak mereka dan kisah Zaid bin Harithah.",

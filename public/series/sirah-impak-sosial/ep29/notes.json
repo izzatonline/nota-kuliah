@@ -446,6 +446,43 @@
    "context": "Menceritakan keadaan penghijrah."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 1675,
+   "context": "Memeluk Islam paling akhir ketika Fathu Makkah."
+  },
+  {
+   "id": "pl2",
+   "name": "Yathrib",
+   "place": "madinah",
+   "t": 1887,
+   "context": "An-Nadr dan Uqbah ke Yathrib"
+  },
+  {
+   "id": "pl3",
+   "name": "Khaybar",
+   "place": "khaibar",
+   "t": 448,
+   "context": "Kelak ke Habsyah pada gelombang kedua dan pulang selepas Khaybar."
+  },
+  {
+   "id": "pl4",
+   "name": "Habsyah",
+   "place": "habsyah",
+   "t": 2800,
+   "context": "Lima belas orang ke Habsyah"
+  },
+  {
+   "id": "pl5",
+   "name": "Parsi",
+   "place": "parsi",
+   "t": 3714,
+   "context": "Bukan golongan lemah; dasar geopolitik di luar kuasa Parsi dan raja yang adil."
+  }
+ ],
  "sirah": {
   "era": "Tahun kelima kenabian",
   "summary": "Selepas dua tahun seksaan, Nabi SAW menyuruh sahabat berhijrah ke Habsyah.",

@@ -625,6 +625,22 @@
    "context": "Meriwayatkan kesan pengislaman Umar iaitu orang Islam kuat dan mulia serta boleh bersolat terbuka di Kaabah."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 634,
+   "context": "Titik perubahan di fasa Mekah"
+  },
+  {
+   "id": "pl2",
+   "name": "Habasyah",
+   "place": "habsyah",
+   "t": 836,
+   "context": "Strategi Nabi SAW menghantar sahabat ke Habasyah"
+  }
+ ],
  "sirah": {
   "era": "Fasa Mekah, selepas hijrah pertama ke Habasyah",
   "summary": "Selepas utusan Quraish pulang dari Habasyah dengan gagal, tekanan ke atas Nabi SAW meningkat, lalu Hamzah dan kemudian Umar memeluk Islam dan menguatkan kedudukan umat Islam di Mekah.",

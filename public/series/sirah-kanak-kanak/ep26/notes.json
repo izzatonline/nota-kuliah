@@ -270,6 +270,36 @@
    "context": "Bertanya mengapa Nabi SAW sentiasa menyebut Khadijah."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 720,
+   "context": "Ustaz menerangkan nama sebenarnya Abdul Manaf bin Abdul Muttalib dan bahawa orang besar Mekah datang menziarahinya."
+  },
+  {
+   "id": "pl2",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 1819,
+   "context": "Ustaz berdoa agar dapat menziarahi Mekah dan Madinah, dan memberitahu Nabi SAW akan keluar mencari tempat baharu."
+  },
+  {
+   "id": "pl3",
+   "name": "Habsyah",
+   "place": "habsyah",
+   "t": 1334,
+   "context": "Berada di Habsyah."
+  },
+  {
+   "id": "pl4",
+   "name": "Mesir",
+   "place": "mesir",
+   "t": 248,
+   "context": "Seorang sahabat memakan kulit binatang kering, dan ustaz membandingkan dengan seorang lelaki Mesir yang dibunuh kerana mahu menggembirakan kanak-kanak Gaza."
+  }
+ ],
  "sirah": {
   "era": "Tahun kesedihan: wafatnya Abu Talib dan Khadijah",
   "summary": "Kuliah ini meliputi akhir boikot, wafatnya Abu Talib dan Khadijah RA, dan kesedihan Nabi SAW.",

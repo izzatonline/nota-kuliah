@@ -298,6 +298,29 @@
    "context": "Azan di atas Kaabah selepas Fathu Makkah menunjukkan tiada perbezaan kulit dan latar belakang."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 962,
+   "context": "Batu, kayu dan arkitek Bakum dibeli dan dibawa ke Mekah."
+  },
+  {
+   "id": "pl2",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 1002,
+   "context": "Dihantar membina gereja di Yaman tetapi diupah untuk membina semula Kaabah."
+  },
+  {
+   "id": "pl3",
+   "name": "Rom",
+   "place": "rom",
+   "t": 962,
+   "context": "Kapal Rom terkandas di Jeddah"
+  }
+ ],
  "sirah": {
   "era": "Usia 25 hingga 35 tahun, lima tahun sebelum wahyu",
   "summary": "Sepuluh tahun membina keluarga dan perniagaan, lalu penyertaan dalam pembinaan semula Kaabah.",

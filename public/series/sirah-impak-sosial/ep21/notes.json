@@ -295,6 +295,22 @@
    "context": "Menyedari pergerakan itu dan anak-anaknya kelak menceraikan anak Nabi SAW."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Syam",
+   "place": "syam",
+   "t": 1364,
+   "context": "Sudah mendengar tentang Nabi akhir zaman semasa ke Syam."
+  },
+  {
+   "id": "pl2",
+   "name": "Busra",
+   "place": "busra",
+   "t": 1443,
+   "context": "Kisah rahib di Busra dan mimpi Sa'ad membawa mereka kepada Islam."
+  }
+ ],
  "sirah": {
   "era": "Dakwah tertutup, tahun-tahun awal kenabian",
   "summary": "Sepuluh orang terawal memeluk Islam dan Nabi SAW membina pangkalan di rumah Al-Arqam.",

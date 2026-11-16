@@ -402,5 +402,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Cared for the Prophet SAW like a mother, later embraced Islam, migrated to Madinah and was shrouded by him personally."
+  },
+  {
+   "id": "pl2",
+   "context": "Abu Talib traded to Sham in summer and Yemen in winter."
+  },
+  {
+   "id": "pl3",
+   "context": "Going with Abu Talib to Sham"
+  },
+  {
+   "id": "pl4",
+   "context": "The caravan stopped at Busra, where a scholar named Bahira read many old books."
+  }
+ ]
 }

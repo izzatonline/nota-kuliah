@@ -425,5 +425,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Had already heard of the last prophet while travelling to Sham."
+  },
+  {
+   "id": "pl2",
+   "context": "A monk at Busra and Sa'd's dream led them to Islam."
+  }
+ ]
 }

@@ -466,5 +466,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Halimah and ten other women set out from Banu Sa'd to Mecca to look for babies to nurse."
+  },
+  {
+   "id": "pl2",
+   "context": "The Prophet ﷺ was first nursed by Aminah."
+  }
+ ]
 }

@@ -572,5 +572,31 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The Prophet carries on his work in Mecca"
+  },
+  {
+   "id": "pl2",
+   "context": "The pledge of allegiance between the Prophet and the people of Yathrib at Aqabah, Mina."
+  },
+  {
+   "id": "pl3",
+   "context": "The first Pledge of Aqabah"
+  },
+  {
+   "id": "pl4",
+   "context": "Madinah had six young founders, and Aisha's hadith on Bu'ath as a preparation before the Prophet was accepted."
+  },
+  {
+   "id": "pl5",
+   "context": "Narrator of the hadith of the first Pledge of Aqabah and took part at Badr."
+  },
+  {
+   "id": "pl6",
+   "context": "Jews migrated to Yathrib and Khaybar awaiting the final prophet, so the Ansar understood the concept of prophethood."
+  }
+ ]
 }

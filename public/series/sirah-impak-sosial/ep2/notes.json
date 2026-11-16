@@ -362,6 +362,50 @@
    "context": "Dikahwinkan dengan Abdul Muttalib pada masa yang sama; daripada mereka lahir Hamzah RA."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 1064,
+   "context": "Selepas Hashim meninggal, anak itu dinamakan Syaibah dan dibawa ke Mekah oleh Al-Muttalib."
+  },
+  {
+   "id": "pl2",
+   "name": "Yathrib",
+   "place": "madinah",
+   "t": 908,
+   "context": "Hashim berkahwin dengan Salma di Yathrib dan meninggal dunia di Gaza."
+  },
+  {
+   "id": "pl3",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 429,
+   "context": "Barang dari Afrika dan India naik ke Yaman, manakala sutera dan barang lain datang dari utara."
+  },
+  {
+   "id": "pl4",
+   "name": "Syam",
+   "place": "syam",
+   "t": 782,
+   "context": "Perjalanan dagang musim sejuk ke Yaman dan musim panas ke Syam."
+  },
+  {
+   "id": "pl5",
+   "name": "Rom",
+   "place": "rom",
+   "t": 355,
+   "context": "Geopolitik Rom dan Parsi"
+  },
+  {
+   "id": "pl6",
+   "name": "Parsi",
+   "place": "parsi",
+   "t": 733,
+   "context": "Perjanjian dengan kabilah dan Parsi membolehkan dua musim perjalanan dagang."
+  }
+ ],
  "sirah": {
   "era": "Sebelum kelahiran Nabi SAW: nenek moyang baginda di Mekah",
   "summary": "Episod ini menelusuri tiga tokoh terdekat sebelum kelahiran Nabi SAW, iaitu Hashim, Abdul Muttalib dan Abdullah, serta bagaimana ekonomi, politik dan agama Mekah dibentuk.",

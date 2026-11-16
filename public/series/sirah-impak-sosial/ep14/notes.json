@@ -295,6 +295,22 @@
    "context": "Mencari anaknya bertahun-tahun dengan syair dan akhirnya menemui Nabi SAW."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Ukaz",
+   "place": "ukaz",
+   "t": 2002,
+   "context": "Zaid diculik dan dijual di Ukaz"
+  },
+  {
+   "id": "pl2",
+   "name": "Habsyah",
+   "place": "habsyah",
+   "t": 304,
+   "context": "Disebut ke hadapan bahawa sahabat dihantar ke Habsyah di bawah raja yang adil."
+  }
+ ],
  "sirah": {
   "era": "Selepas perkahwinan dengan Khadijah dan sebelum wahyu",
   "summary": "Nabi SAW membesar menyaksikan kerosakan masyarakat dan menerima Zaid bin Harithah dalam rumah tangganya.",

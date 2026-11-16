@@ -608,6 +608,36 @@
    "context": "Dibawa Nabi ketika keluar dari Mekah selepas Tahun Kesedihan."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 4144,
+   "context": "Nabi tidak berkahwin lain semasa hayat Khadijah, kembali ke Mekah sebagai penakluk dan bermalam di Hujun, dan ustaz menutup dengan buku cadangan serta hadis menggembirakan orang yang bersedih."
+  },
+  {
+   "id": "pl2",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 2776,
+   "context": "Nabi SAW mengenali rantai itu dan para sahabat membebaskan Abul Az dengan syarat Zainab dihantar ke Madinah."
+  },
+  {
+   "id": "pl3",
+   "name": "Badar",
+   "place": "badar",
+   "t": 2522,
+   "context": "Memori yang mencetus Nabi: Badar dan rantai Khadijah"
+  },
+  {
+   "id": "pl4",
+   "name": "Mesir",
+   "place": "mesir",
+   "t": 2397,
+   "context": "Suaminya ditembak ketika berhimpun aman di Mesir, dengan bayi berusia sembilan bulan."
+  }
+ ],
  "sirah": {
   "era": "Tahun Kesedihan, tahun ke-10 Kenabian",
   "summary": "Selepas kematian Abu Talib dan tamat boikot, Khadijah RA wafat pada Ramadan tahun ke-10 Kenabian, dan Nabi SAW menanggung kesedihan yang sangat berat sebelum perjalanan ke Ta'if.",

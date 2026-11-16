@@ -250,6 +250,36 @@
    "context": "Beliau menceritakan bahawa beliau masih melihat pengemis buta di Mekah yang dahulu membantu tentera Abraha."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 293,
+   "context": "Hashim membawa barang dari Syam dan Yaman ke Mekah sehingga Mekah yang miskin menjadi kaya."
+  },
+  {
+   "id": "pl2",
+   "name": "Taif",
+   "place": "taif",
+   "t": 657,
+   "context": "Seorang lelaki Arab dari Taif menunjukkan jalan, dan tentera Abraha berkhemah dekat Mekah serta merampas unta."
+  },
+  {
+   "id": "pl3",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 293,
+   "context": "Hashim membawa barang dari Syam dan Yaman ke Mekah sehingga Mekah yang miskin menjadi kaya."
+  },
+  {
+   "id": "pl4",
+   "name": "Syam",
+   "place": "syam",
+   "t": 293,
+   "context": "Hashim membawa barang dari Syam dan Yaman ke Mekah sehingga Mekah yang miskin menjadi kaya."
+  }
+ ],
  "sirah": {
   "era": "Sebelum kelahiran Nabi SAW: tahun Gajah",
   "summary": "Kuliah ini menceritakan peristiwa serangan tentera bergajah ke atas Kaabah ketika Nabi SAW masih dalam kandungan ibunya, yang menjadi sebab tahun kelahiran baginda dipanggil tahun Gajah.",

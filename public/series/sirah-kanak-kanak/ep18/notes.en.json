@@ -432,5 +432,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "They realised only Abu Talib protected him, like a passport in Mecca."
+  },
+  {
+   "id": "pl2",
+   "context": "Mentioned as a son who would die in Madinah."
+  },
+  {
+   "id": "pl3",
+   "context": "Mus'ab ibn Umair accepted Islam at the house of Al-Arqam, and the torture of companions would lead to migration to Abyssinia."
+  }
+ ]
 }

@@ -350,6 +350,15 @@
    "context": "Rumahnya dijadikan pusat belajar dan berkumpul orang Islam."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 512,
+   "context": "Baginda menyeru seluruh Mekah dan Abu Lahab mencelanya."
+  }
+ ],
  "sirah": {
   "era": "Dakwah rahsia kepada dakwah terbuka (usia 40 hingga 43 tahun)",
   "summary": "Kuliah ini meliputi tiga tahun dakwah rahsia, jamuan kerabat, seruan di Bukit Safa, Surah Al-Masad dan rumah Arqam.",

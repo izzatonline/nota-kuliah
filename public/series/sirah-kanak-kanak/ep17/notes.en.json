@@ -444,5 +444,11 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "He called all of Mecca and Abu Lahab cursed him."
+  }
+ ]
 }

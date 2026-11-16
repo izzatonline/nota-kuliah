@@ -210,6 +210,29 @@
    "context": "Nama sebenarnya Barakah, bermaksud keberkatan."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 459,
+   "context": "Seluruh Mekah bersedih dan baginda diamanahkan kepada Abu Talib."
+  },
+  {
+   "id": "pl2",
+   "name": "Al-Abwa'",
+   "place": "abwa",
+   "t": 116,
+   "context": "Imbasan di Al-Abwa'"
+  },
+  {
+   "id": "pl3",
+   "name": "Syam",
+   "place": "syam",
+   "t": 1454,
+   "context": "Pada usia hampir 12 tahun baginda merayu supaya dibawa ke Syam bersama Abu Talib."
+  }
+ ],
  "sirah": {
   "era": "Zaman kanak-kanak Nabi SAW bersama Abu Talib",
   "summary": "Kuliah ini meliputi kasih Abdul Muttalib, kewafatannya, kehidupan bersama Abu Talib dan pekerjaan baginda sebagai penggembala hingga usia sekitar 12 tahun.",

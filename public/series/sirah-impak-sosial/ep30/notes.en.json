@@ -532,5 +532,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The list of companions who stayed in Makkah and those who went back to Abyssinia."
+  },
+  {
+   "id": "pl2",
+   "context": "Quraysh made up an excuse to hide their embarrassment and a false report reached Abyssinia."
+  },
+  {
+   "id": "pl3",
+   "context": "The Najashi's kindness flows to African Muslims and Egyptian scholars today."
+  }
+ ]
 }

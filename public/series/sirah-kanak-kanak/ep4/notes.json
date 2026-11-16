@@ -292,6 +292,29 @@
    "context": "Anak Halimah yang bermain bersama Nabi SAW di Bani Sa'ad."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 1331,
+   "context": "Perjalanan Halimah ke Mekah"
+  },
+  {
+   "id": "pl2",
+   "name": "Yathrib",
+   "place": "madinah",
+   "t": 491,
+   "context": "Abdullah wafat di Yathrib ketika bayi dalam kandungan Aminah baru dua bulan."
+  },
+  {
+   "id": "pl3",
+   "name": "Syam",
+   "place": "syam",
+   "t": 236,
+   "context": "Seminggu selepas berkahwin Abdullah berdagang ke Syam."
+  }
+ ],
  "sirah": {
   "era": "Kelahiran dan penyusuan Nabi SAW",
   "summary": "Kuliah ini meliputi perkahwinan ibu bapa Nabi SAW, kewafatan Abdullah, kelahiran baginda pada tahun Gajah, penamaan Muhammad dan penyusuan di Bani Sa'ad sehingga peristiwa pembelahan dada.",

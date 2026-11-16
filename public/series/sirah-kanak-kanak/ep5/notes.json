@@ -299,6 +299,29 @@
    "context": "Menjaga baginda selepas Aminah wafat dan memberi baginda duduk di kerusi istimewanya, lalu wafat dan mengamanahkan baginda kepada Abu Talib."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 976,
+   "context": "Baginda kembali ke Mekah yang bising."
+  },
+  {
+   "id": "pl2",
+   "name": "Al-Abwa'",
+   "place": "abwa",
+   "t": 1396,
+   "context": "Aminah wafat di Al-Abwa'"
+  },
+  {
+   "id": "pl3",
+   "name": "Yathrib",
+   "place": "madinah",
+   "t": 1221,
+   "context": "Aminah membawa baginda dan Ummu Aiman ke Yathrib dan bertemu keluarga Bani Najjar."
+  }
+ ],
  "sirah": {
   "era": "Penyusuan hingga menjadi anak yatim piatu",
   "summary": "Kuliah ini meliputi kehidupan Nabi SAW di Bani Sa'ad, pembelahan dada, kembali kepada Aminah, wafatnya Aminah di Al-Abwa' dan wafatnya Abdul Muttalib hingga baginda tinggal bersama Abu Talib.",

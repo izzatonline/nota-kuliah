@@ -552,6 +552,22 @@
    "context": "Menyebut Ramadan sebagai waktu wahyu dan merekodkan ujian Khadijah."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 993,
+   "context": "Nabi SAW tidak selesa dengan lingkaran Makkah yang membuang masa."
+  },
+  {
+   "id": "pl2",
+   "name": "Gua Hira",
+   "place": "gua-hira",
+   "t": 993,
+   "context": "Mula pergi ke Gua Hira"
+  }
+ ],
  "sirah": {
   "era": "Menjelang dan permulaan wahyu pertama, usia Nabi SAW 40 tahun",
   "summary": "Nabi SAW menyendiri di Gua Hira dan menerima wahyu pertama melalui pelukan Jibril.",

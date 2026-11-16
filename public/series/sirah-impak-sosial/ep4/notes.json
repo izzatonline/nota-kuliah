@@ -387,6 +387,50 @@
    "context": "Antara empat tokoh bisnes yang menjaga zon-zon dagang; Al-Muttalib menjaga belah Yemen."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 892,
+   "context": "Tentera bergajah menuju Mekah"
+  },
+  {
+   "id": "pl2",
+   "name": "Hudaybiyah",
+   "place": "hudaibiyah",
+   "t": 737,
+   "context": "Kajian luar menyebut artifak tentera bergajah; ustaz menyebut gajah utama bernama Mahmud dan mengaitkannya dengan hadis di Hudaybiyah."
+  },
+  {
+   "id": "pl3",
+   "name": "Taif",
+   "place": "taif",
+   "t": 892,
+   "context": "Kabilah Arab yang melawan dikalahkan, dan Taif menghantar Abu Righal sebagai penunjuk jalan."
+  },
+  {
+   "id": "pl4",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 8,
+   "context": "Abraha mahu mengembalikan kegemilangan ekonomi Yaman dan memindahkan hab dagang dari Mekah."
+  },
+  {
+   "id": "pl5",
+   "name": "Syam",
+   "place": "syam",
+   "t": 26,
+   "context": "Antara empat tokoh bisnes yang menjaga zon-zon dagang; Hashim menjaga belah Syam."
+  },
+  {
+   "id": "pl6",
+   "name": "Parsi",
+   "place": "parsi",
+   "t": 1576,
+   "context": "Abraha mati dalam perjalanan pulang, Yaman jatuh lalu ditakluk Parsi, dan kerugian demi kerugian menimpa projeknya."
+  }
+ ],
  "sirah": {
   "era": "Tahun gajah, kira-kira 50 hari sebelum kelahiran Nabi SAW",
   "summary": "Episod ini menceritakan serangan tentera bergajah ke atas Kaabah ketika Nabi SAW masih dalam kandungan, dan bagaimana Allah memelihara Kaabah serta menaikkan kedudukan Quraish.",

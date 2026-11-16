@@ -340,6 +340,22 @@
    "context": "Menyertai rancangan membatalkan boikot."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 1891,
+   "context": "Gelaran Abu Jahal di Makkah kerana kepandaiannya."
+  },
+  {
+   "id": "pl2",
+   "name": "Badar",
+   "place": "badar",
+   "t": 2262,
+   "context": "Orang ketiga yang dipujuk; kelak dikenang Nabi SAW semasa Badar."
+  }
+ ],
  "sirah": {
   "era": "Tahun ketujuh dakwah, boikot selama kira-kira tiga tahun",
   "summary": "Selepas Hamzah dan Umar Islam, Quraish memboikot Bani Hashim dan Bani Abdul Muttalib sehingga perjanjian itu dibatalkan.",

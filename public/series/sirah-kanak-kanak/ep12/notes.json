@@ -238,6 +238,50 @@
    "context": "Berhala yang dibawa ke kawasan Saba'."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 419,
+   "context": "Orang Mekah terkejut mendapati berhala di hadapan Kaabah."
+  },
+  {
+   "id": "pl2",
+   "name": "Gua Hira",
+   "place": "gua-hira",
+   "t": 1645,
+   "context": "Dalam kegelapan itu baginda bertafakur di Jabal Nur."
+  },
+  {
+   "id": "pl3",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 935,
+   "context": "Berhala yang dibawa ke kawasan Yaman."
+  },
+  {
+   "id": "pl4",
+   "name": "Syam",
+   "place": "syam",
+   "t": 332,
+   "context": "Dia melihat orang Syam menyembah berhala dan mahu membawa pulang satu."
+  },
+  {
+   "id": "pl5",
+   "name": "Rom",
+   "place": "rom",
+   "t": 1166,
+   "context": "Ustaz menerangkan kekejaman di Rom, Parsi, India, China dan Afrika, dan penanaman bayi perempuan di Mekah."
+  },
+  {
+   "id": "pl6",
+   "name": "Parsi",
+   "place": "parsi",
+   "t": 1166,
+   "context": "Ustaz menerangkan kekejaman di Rom, Parsi, India, China dan Afrika, dan penanaman bayi perempuan di Mekah."
+  }
+ ],
  "sirah": {
   "era": "Sebelum wahyu: asal usul berhala di Mekah",
   "summary": "Kuliah ini menerangkan bagaimana berhala memasuki Kaabah sebelum kelahiran Nabi SAW dan keadaan dunia sebelum wahyu.",

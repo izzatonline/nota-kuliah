@@ -653,5 +653,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Down to Al-Masjid al-Aqsa and back to Mecca"
+  },
+  {
+   "id": "pl2",
+   "context": "The series nears the end of the Meccan phase, before preparations for the Hijra to Madinah."
+  },
+  {
+   "id": "pl3",
+   "context": "Down to Al-Masjid al-Aqsa and back to Mecca"
+  }
+ ]
 }

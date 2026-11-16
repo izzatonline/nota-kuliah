@@ -623,6 +623,22 @@
    "context": "Pengarang dua buku yang dibaca ustaz untuk memahami krisis kesunyian dan keletihan masyarakat moden."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Taif",
+   "place": "taif",
+   "t": 331,
+   "context": "Dalam siri ini ia merangkumi episod kewafatan Khadijah RA, Abu Talib dan peristiwa Taif."
+  },
+  {
+   "id": "pl2",
+   "name": "Masjid Al-Aqsa",
+   "place": "baitul-maqdis",
+   "t": 359,
+   "context": "Masjid Al-Haram ke Masjid Al-Aqsa, kemudian langit pertama hingga ketujuh"
+  }
+ ],
  "sirah": {
   "era": "Fasa Makkiyyah akhir, sebelum Hijrah",
   "summary": "Episod ini berada pada kemuncak peristiwa Isra' dan Mi'raj, selepas rangkaian ujian berat dalam episod-episod sebelumnya. Ustaz tidak menyebut tarikh tepat dalam kuliah ini.",

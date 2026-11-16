@@ -475,6 +475,36 @@
    "context": "Teringat Khabbab ketika dihidang makanan sedap."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 1059,
+   "context": "Mengingatkan bahawa orang Makkah sudah mendengar desas-desus sebelum seruan Safa."
+  },
+  {
+   "id": "pl2",
+   "name": "Habsyah",
+   "place": "habsyah",
+   "t": 2110,
+   "context": "Mus'ab melarikan diri ke Habsyah dan kemudian dihalau tanpa pakaian."
+  },
+  {
+   "id": "pl3",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 4737,
+   "context": "Huzaifah bin Al-Yaman"
+  },
+  {
+   "id": "pl4",
+   "name": "Parsi",
+   "place": "parsi",
+   "t": 3863,
+   "context": "Al-Walid menafikan sihir, bomoh dan syair; An-Nadr membawa cerita Parsi dan hiburan."
+  }
+ ],
  "sirah": {
   "era": "Selepas seruan Safa, penindasan awal di Makkah",
   "summary": "Quraish melancarkan kempen menyekat dakwah dengan tekanan emosi, larangan Quran, propaganda dan hiburan.",

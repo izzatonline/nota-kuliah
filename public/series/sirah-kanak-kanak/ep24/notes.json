@@ -308,6 +308,22 @@
    "context": "Belum memeluk Islam, akan memeluknya tiga belas tahun kemudian."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 1917,
+   "context": "Berkata hari Umar memeluk Islam ialah hari yang paling baik di Mekah."
+  },
+  {
+   "id": "pl2",
+   "name": "Baitulmaqdis",
+   "place": "baitul-maqdis",
+   "t": 623,
+   "context": "Umar mencari kawan minum arak tetapi tiada, lalu pergi ke Kaabah dan melihat Nabi SAW bersolat menghadap Baitulmaqdis."
+  }
+ ],
  "sirah": {
   "era": "Tahun keenam atau ketujuh kenabian: Umar memeluk Islam",
   "summary": "Kuliah ini meliputi Umar bin Al-Khattab yang mendengar Al-Haqqah, mengenali adiknya yang beriman, membaca Taha dan memeluk Islam.",

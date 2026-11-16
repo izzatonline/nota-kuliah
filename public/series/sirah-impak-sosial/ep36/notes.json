@@ -504,6 +504,29 @@
    "context": "Duduk di masjid bukan pada waktu solat kerana dibelenggu kesedihan dan hutang, lalu diajarkan doa kedua oleh Nabi SAW."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 218,
+   "context": "Ustaz memperkenalkan Hisnul Muslim (Perisai Muslim) dan syarahnya, buku yang dibeli di Madinah dan Mekah, yang memuatkan kedua-dua doa ini."
+  },
+  {
+   "id": "pl2",
+   "name": "Taif",
+   "place": "taif",
+   "t": 3299,
+   "context": "Ustaz membandingkan doa di Taif ('jika Engkau tidak murka padaku, aku tidak peduli') dengan doa-doa dalam kuliah ini: pengabdian dan sangka baik yang penuh."
+  },
+  {
+   "id": "pl3",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 218,
+   "context": "Ustaz memperkenalkan Hisnul Muslim (Perisai Muslim) dan syarahnya, buku yang dibeli di Madinah dan Mekah, yang memuatkan kedua-dua doa ini."
+  }
+ ],
  "sirah": {
   "era": "Amul Huzn: tahun kesedihan, fasa Makkiyyah akhir",
   "summary": "Episod bonus Ramadan ini kembali kepada Amul Huzn, tahun kesedihan Nabi SAW selepas kewafatan Khadijah RA dan Abu Talib serta peristiwa Taif, untuk mengambil dua doa yang dapat menjadi perisai hati.",

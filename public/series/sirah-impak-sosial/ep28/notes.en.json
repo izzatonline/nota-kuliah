@@ -504,5 +504,11 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Emigrated to Abyssinia though his father protected the Prophet SAW, to be analysed later."
+  }
+ ]
 }

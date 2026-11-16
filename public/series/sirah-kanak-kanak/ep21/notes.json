@@ -315,6 +315,36 @@
    "context": "Tidak ikut berhijrah ke Madinah kerana wafat pada usia baginda 50 tahun dan dikebumikan di Mekah."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 3267,
+   "context": "Tinggal di Mekah bersama suaminya Abul Al-As sehingga selepas Perang Badar."
+  },
+  {
+   "id": "pl2",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 2954,
+   "context": "Nabi SAW dan para sahabat menyolatkannya di Madinah."
+  },
+  {
+   "id": "pl3",
+   "name": "Badar",
+   "place": "badar",
+   "t": 3267,
+   "context": "Tinggal di Mekah bersama suaminya Abul Al-As sehingga selepas Perang Badar."
+  },
+  {
+   "id": "pl4",
+   "name": "Habasyah",
+   "place": "habsyah",
+   "t": 611,
+   "context": "Najasyi ialah gelaran, namanya Ashamah, raja Kristian yang adil di Habasyah, seberang Laut Merah dari Hijaz."
+  }
+ ],
  "sirah": {
   "era": "Tahun kelima kenabian: hijrah ke Habasyah",
   "summary": "Kuliah ini meliputi hijrah pertama ke Habasyah, delegasi Quraisy dan perbicaraan di hadapan Najasyi.",

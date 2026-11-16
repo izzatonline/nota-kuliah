@@ -465,5 +465,31 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The elephant army heads for Mecca"
+  },
+  {
+   "id": "pl2",
+   "context": "Outside studies mention artefacts of the elephant army; the ustaz says the main elephant was named Mahmud and links it to the hadith at Hudaybiyyah."
+  },
+  {
+   "id": "pl3",
+   "context": "Arab tribes who resisted were defeated, and Ta'if sent Abu Righal as a guide."
+  },
+  {
+   "id": "pl4",
+   "context": "Abraha seizes power in Yemen"
+  },
+  {
+   "id": "pl5",
+   "context": "One of four business figures who looked after the trade zones; Hashim looked after the Syam side."
+  },
+  {
+   "id": "pl6",
+   "context": "Abraha died on the way home, Yemen fell and was conquered by Persia, and loss upon loss struck his project."
+  }
+ ]
 }

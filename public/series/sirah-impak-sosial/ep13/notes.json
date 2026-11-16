@@ -432,6 +432,43 @@
    "context": "Disebut sebagai salah seorang anak Khadijah daripada perkahwinan terdahulu."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 188,
+   "context": "Riwayat lamaran sebelum kenabian dikritik ulama; lamaran sahih berlaku selepas Fathu Makkah dan ditolak."
+  },
+  {
+   "id": "pl2",
+   "name": "Badar",
+   "place": "badar",
+   "t": 1975,
+   "context": "Dikahwinkan dengan Uthman; meninggal ketika Perang Badar."
+  },
+  {
+   "id": "pl3",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 103,
+   "context": "Hak lelaki Yaman dipulangkan, dan Hassan bin Ali kemudian menyeru perjanjian yang sama menuntut haknya."
+  },
+  {
+   "id": "pl4",
+   "name": "Syam",
+   "place": "syam",
+   "t": 1004,
+   "context": "Khadijah menawarkan nisbah 50-50 untuk membawa dagangannya ke Syam dengan Abu Talib menggalakkan baginda."
+  },
+  {
+   "id": "pl5",
+   "name": "Busra",
+   "place": "busra",
+   "t": 1293,
+   "context": "Dagang ke Busra bersama Maisarah"
+  }
+ ],
  "sirah": {
   "era": "Selepas usia 20 tahun hingga perkahwinan dengan Khadijah",
   "summary": "Nabi SAW bekerja sebagai pengurus dagang Khadijah, berjaya di Busra, lalu berkahwin dengan Khadijah dan membina keluarga besar.",

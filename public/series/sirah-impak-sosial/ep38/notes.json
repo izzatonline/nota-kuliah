@@ -798,6 +798,50 @@
    "context": "Nabi SAW menyerupakan Nabi Isa AS dengan wajah Urwah."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 842,
+   "context": "Nabi SAW kehilangan Khadijah RA, Abu Talib dan melalui Taif, lalu kembali ke Makkah dengan perlindungan Mut'im bin Adi."
+  },
+  {
+   "id": "pl2",
+   "name": "Taif",
+   "place": "taif",
+   "t": 842,
+   "context": "Nabi SAW kehilangan Khadijah RA, Abu Talib dan melalui Taif, lalu kembali ke Makkah dengan perlindungan Mut'im bin Adi."
+  },
+  {
+   "id": "pl3",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 1956,
+   "context": "Nabi SAW berhenti di Taibah (Madinah), pokok Nabi Musa di Madyan atau Sinai, dan Bayt Lahm tempat Nabi Isa dilahirkan."
+  },
+  {
+   "id": "pl4",
+   "name": "Baitul Maqdis",
+   "place": "baitul-maqdis",
+   "t": 346,
+   "context": "Konteks teks, konteks hidup Nabi SAW, konteks Baitul Maqdis dan konteks dunia, iaitu pertembungan Rom dan Parsi."
+  },
+  {
+   "id": "pl5",
+   "name": "Rom",
+   "place": "rom",
+   "t": 346,
+   "context": "Konteks teks, konteks hidup Nabi SAW, konteks Baitul Maqdis dan konteks dunia, iaitu pertembungan Rom dan Parsi."
+  },
+  {
+   "id": "pl6",
+   "name": "Parsi",
+   "place": "parsi",
+   "t": 346,
+   "context": "Konteks teks, konteks hidup Nabi SAW, konteks Baitul Maqdis dan konteks dunia, iaitu pertembungan Rom dan Parsi."
+  }
+ ],
  "sirah": {
   "era": "Akhir tahun kesedihan, sebelum hijrah",
   "summary": "Selepas kehilangan Khadijah RA dan Abu Talib serta peristiwa Taif, Allah membawa Nabi SAW dalam Isra' dan Mi'raj untuk menguatkan baginda.",

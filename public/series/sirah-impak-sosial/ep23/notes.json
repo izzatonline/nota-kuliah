@@ -380,6 +380,43 @@
    "context": "Salah seorang daripada lima watak terawal yang memeluk Islam, disebut ustaz sebagai sangat penting dalam sirah."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 1941,
+   "context": "Selama 13 tahun di Makkah tumpuan ialah tauhid, syurga, neraka, akhlak dan keadilan, sebelum hukum di Madinah."
+  },
+  {
+   "id": "pl2",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 1941,
+   "context": "Selama 13 tahun di Makkah tumpuan ialah tauhid, syurga, neraka, akhlak dan keadilan, sebelum hukum di Madinah."
+  },
+  {
+   "id": "pl3",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 669,
+   "context": "Lelaki Yaman diminta pulang"
+  },
+  {
+   "id": "pl4",
+   "name": "Rom",
+   "place": "rom",
+   "t": 1126,
+   "context": "Bilal dari Afrika, Suhaib dari Rom, kelak Salman dari Parsi."
+  },
+  {
+   "id": "pl5",
+   "name": "Parsi",
+   "place": "parsi",
+   "t": 1126,
+   "context": "Bilal dari Afrika, Suhaib dari Rom, kelak Salman dari Parsi."
+  }
+ ],
  "sirah": {
   "era": "Dakwah tertutup, tiga tahun pertama",
   "summary": "Dakwah dijalankan secara individu dan berkumpulan, kemudian berpusat di rumah Al-Arqam.",

@@ -460,5 +460,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "After being told the final prophet would emerge from Mecca, he was robbed and killed, one or five years before prophethood according to the reports."
+  },
+  {
+   "id": "pl2",
+   "context": "Three hanifs searched for the truth in Sham, Rome and Abyssinia with different endings."
+  },
+  {
+   "id": "pl3",
+   "context": "Three hanifs searched for the truth in Sham, Rome and Abyssinia with different endings."
+  },
+  {
+   "id": "pl4",
+   "context": "Three hanifs searched for the truth in Sham, Rome and Abyssinia with different endings."
+  }
+ ]
 }

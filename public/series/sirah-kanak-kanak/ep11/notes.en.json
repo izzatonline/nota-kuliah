@@ -423,5 +423,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "He said he knew a stone in Mecca that greeted him before prophethood."
+  },
+  {
+   "id": "pl2",
+   "context": "Retreating in the Cave of Hira"
+  }
+ ]
 }

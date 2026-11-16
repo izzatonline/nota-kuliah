@@ -418,5 +418,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Timber and stone meant for a church in Yemen were sold to Quraysh."
+  },
+  {
+   "id": "pl2",
+   "context": "A Roman ship is wrecked at Jeddah"
+  }
+ ]
 }

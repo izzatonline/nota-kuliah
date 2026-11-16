@@ -265,6 +265,36 @@
    "context": "Memberitahu bahawa selepasnya akan datang seorang nabi bernama Ahmad."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 130,
+   "context": "Menjaga Nabi SAW seperti ibu, kemudian memeluk Islam, berhijrah ke Madinah dan dikafankan sendiri oleh baginda."
+  },
+  {
+   "id": "pl2",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 221,
+   "context": "Abu Talib berdagang ke Syam pada musim panas dan ke Yaman pada musim sejuk."
+  },
+  {
+   "id": "pl3",
+   "name": "Syam",
+   "place": "syam",
+   "t": 449,
+   "context": "Ikut Abu Talib ke Syam"
+  },
+  {
+   "id": "pl4",
+   "name": "Busra",
+   "place": "busra",
+   "t": 652,
+   "context": "Rombongan berhenti di Busra, tempat seorang pendeta bernama Bahira yang banyak membaca kitab lama."
+  }
+ ],
  "sirah": {
   "era": "Remaja Nabi SAW: perjalanan ke Syam",
   "summary": "Kuliah ini meliputi perjalanan Nabi SAW ke Syam pada usia 12 tahun, pertemuan dengan Bahira dan pemeliharaan Allah ke atasnya hingga usia 15 tahun.",

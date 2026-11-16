@@ -347,5 +347,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Mus'ab told them to take all his wealth but refused to leave the Prophet SAW, and would escape to Abyssinia."
+  },
+  {
+   "id": "pl2",
+   "context": "Mus'ab came from a millionaire family, wore clothes ordered from Yemen and special shoes, and was followed by many youths."
+  }
+ ]
 }

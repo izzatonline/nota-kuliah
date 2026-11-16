@@ -226,6 +226,36 @@
    "context": "Belum memeluk Islam ketika Hamzah memeluk Islam dan akan memeluk Islam sebagai orang ke-40."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 1871,
+   "context": "Hamzah berdoa memohon petunjuk dan esoknya mengucap syahadah di hadapan Nabi SAW, orang ke-39 yang memeluk Islam di Mekah."
+  },
+  {
+   "id": "pl2",
+   "name": "Uhud",
+   "place": "uhud",
+   "t": 2140,
+   "context": "Hamzah akan syahid di Uhud dan Nabi SAW menangis."
+  },
+  {
+   "id": "pl3",
+   "name": "Habasyah",
+   "place": "habsyah",
+   "t": 122,
+   "context": "Ustaz mengimbas Surah An-Najm, pulangnya sahabat dari Habasyah, dan Quraisy yang kembali mendesak Abu Talib."
+  },
+  {
+   "id": "pl4",
+   "name": "Parsi",
+   "place": "parsi",
+   "t": 550,
+   "context": "Zaid, yang menghafal 17 surah daripada Mus'ab, diarahkan belajar bahasa Yahudi dan Suriani dalam beberapa hari, dan Salman berasal dari Parsi."
+  }
+ ],
  "sirah": {
   "era": "Tahun-tahun awal: Hamzah memeluk Islam",
   "summary": "Kuliah ini meliputi bahasa Najasyi, sahabat yang belajar bahasa, dan kisah Hamzah memeluk Islam.",
