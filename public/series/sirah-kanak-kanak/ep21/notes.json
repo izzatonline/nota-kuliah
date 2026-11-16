@@ -325,20 +325,27 @@
   },
   {
    "id": "pl2",
+   "name": "Hijaz",
+   "place": "hijaz",
+   "t": 611,
+   "context": "Najasyi ialah gelaran, namanya Ashamah, raja Kristian yang adil di Habasyah, seberang Laut Merah dari Hijaz."
+  },
+  {
+   "id": "pl3",
    "name": "Madinah",
    "place": "madinah",
    "t": 2954,
    "context": "Nabi SAW dan para sahabat menyolatkannya di Madinah."
   },
   {
-   "id": "pl3",
+   "id": "pl4",
    "name": "Badar",
    "place": "badar",
    "t": 3267,
    "context": "Tinggal di Mekah bersama suaminya Abul Al-As sehingga selepas Perang Badar."
   },
   {
-   "id": "pl4",
+   "id": "pl5",
    "name": "Habasyah",
    "place": "habsyah",
    "t": 611,

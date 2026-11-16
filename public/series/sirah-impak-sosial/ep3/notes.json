@@ -428,41 +428,48 @@
   },
   {
    "id": "pl2",
+   "name": "Hijaz",
+   "place": "hijaz",
+   "t": 670,
+   "context": "Selepas empangan pecah, mereka berpindah ke Hijaz dan Yathrib, menunggu nabi akhir yang disebut dalam kitab mereka."
+  },
+  {
+   "id": "pl3",
    "name": "Yathrib",
    "place": "madinah",
    "t": 670,
    "context": "Selepas empangan pecah, mereka berpindah ke Hijaz dan Yathrib, menunggu nabi akhir yang disebut dalam kitab mereka."
   },
   {
-   "id": "pl3",
+   "id": "pl4",
    "name": "Habsyah",
    "place": "habsyah",
    "t": 616,
    "context": "Yahudi bertebaran ke Yathrib selepas empangan pecah, sementara Kristian merebak ke Habsyah dan Yaman."
   },
   {
-   "id": "pl4",
+   "id": "pl5",
    "name": "Yaman",
    "place": "yaman",
    "t": 2813,
    "context": "Abraha mengambil alih Yaman"
   },
   {
-   "id": "pl5",
+   "id": "pl6",
    "name": "Syam",
    "place": "syam",
    "t": 2795,
    "context": "Seorang yang lari daripada pembunuhan itu melapor ke Syam, lalu Najasyi menghantar Aryad dan Abraha, dan Abraha merampas kuasa."
   },
   {
-   "id": "pl6",
+   "id": "pl7",
    "name": "Rom",
    "place": "rom",
    "t": 321,
    "context": "Rom Kristian dan Parsi penyembah api"
   },
   {
-   "id": "pl7",
+   "id": "pl8",
    "name": "Parsi",
    "place": "parsi",
    "t": 321,

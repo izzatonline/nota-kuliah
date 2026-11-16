@@ -33,7 +33,11 @@
    "lat": 21.420847,
    "lng": 39.826869,
    "precision": "city",
-   "source": "OpenStreetMap Nominatim, relation 12429517"
+   "source": "OpenStreetMap Nominatim, relation 12429517",
+   "now": {
+    "ms": "Arab Saudi",
+    "en": "Saudi Arabia"
+   }
   },
   {
    "key": "gua-hira",
@@ -47,7 +51,11 @@
    "lat": 21.4573709,
    "lng": 39.8591955,
    "precision": "site",
-   "source": "OpenStreetMap Nominatim, node 3732559985"
+   "source": "OpenStreetMap Nominatim, node 3732559985",
+   "now": {
+    "ms": "Arab Saudi",
+    "en": "Saudi Arabia"
+   }
   },
   {
    "key": "mina",
@@ -58,7 +66,11 @@
    "lat": 21.4153556,
    "lng": 39.8925058,
    "precision": "site",
-   "source": "OpenStreetMap Nominatim, node 7758270150"
+   "source": "OpenStreetMap Nominatim, node 7758270150",
+   "now": {
+    "ms": "Arab Saudi",
+    "en": "Saudi Arabia"
+   }
   },
   {
    "key": "arafah",
@@ -71,7 +83,11 @@
    "lat": 21.3555245,
    "lng": 39.9821378,
    "precision": "site",
-   "source": "OpenStreetMap Nominatim, way 1377422823"
+   "source": "OpenStreetMap Nominatim, way 1377422823",
+   "now": {
+    "ms": "Arab Saudi",
+    "en": "Saudi Arabia"
+   }
   },
   {
    "key": "aqabah",
@@ -103,6 +119,21 @@
    "noteEn": "The place name is not confirmed by the geocoding source, so there is no pin."
   },
   {
+   "key": "hijaz",
+   "group": "hijaz",
+   "ms": "Hijaz",
+   "en": "Hejaz",
+   "aliases": [
+    "Hejaz"
+   ],
+   "lat": null,
+   "lng": null,
+   "precision": null,
+   "source": null,
+   "note": "Kawasan, bukan satu titik, jadi tiada pin. Lihat Makkah, Madinah dan Taif di peta.",
+   "noteEn": "A region, not a single point, so there is no pin. See Makkah, Madinah and Taif on the map."
+  },
+  {
    "key": "taif",
    "group": "hijaz",
    "ms": "Taif",
@@ -111,7 +142,11 @@
    "lat": 21.2702801,
    "lng": 40.4158308,
    "precision": "city",
-   "source": "OpenStreetMap Nominatim, node 1236468526"
+   "source": "OpenStreetMap Nominatim, node 1236468526",
+   "now": {
+    "ms": "Arab Saudi",
+    "en": "Saudi Arabia"
+   }
   },
   {
    "key": "nakhlah",
@@ -137,7 +172,11 @@
    "lat": 21.4683626,
    "lng": 40.644283,
    "precision": "site",
-   "source": "OpenStreetMap Nominatim, way 1092974437"
+   "source": "OpenStreetMap Nominatim, way 1092974437",
+   "now": {
+    "ms": "Arab Saudi",
+    "en": "Saudi Arabia"
+   }
   },
   {
    "key": "abwa",
@@ -151,7 +190,11 @@
    "lat": 23.1085691,
    "lng": 39.0712452,
    "precision": "site",
-   "source": "OpenStreetMap Nominatim, node 13742085927"
+   "source": "OpenStreetMap Nominatim, node 13742085927",
+   "now": {
+    "ms": "Arab Saudi",
+    "en": "Saudi Arabia"
+   }
   },
   {
    "key": "hunain",
@@ -180,7 +223,11 @@
    "lat": 24.471153,
    "lng": 39.6111216,
    "precision": "city",
-   "source": "OpenStreetMap Nominatim, node 4571693347"
+   "source": "OpenStreetMap Nominatim, node 4571693347",
+   "now": {
+    "ms": "Arab Saudi",
+    "en": "Saudi Arabia"
+   }
   },
   {
    "key": "quba",
@@ -191,7 +238,11 @@
    "lat": 24.4394233,
    "lng": 39.6174593,
    "precision": "site",
-   "source": "OpenStreetMap Nominatim, relation 18051738"
+   "source": "OpenStreetMap Nominatim, relation 18051738",
+   "now": {
+    "ms": "Arab Saudi",
+    "en": "Saudi Arabia"
+   }
   },
   {
    "key": "badar",
@@ -204,7 +255,11 @@
    "lat": 23.9169551,
    "lng": 38.9331313,
    "precision": "city",
-   "source": "OpenStreetMap Nominatim, relation 12429015"
+   "source": "OpenStreetMap Nominatim, relation 12429015",
+   "now": {
+    "ms": "Arab Saudi",
+    "en": "Saudi Arabia"
+   }
   },
   {
    "key": "uhud",
@@ -215,7 +270,11 @@
    "lat": 24.5227316,
    "lng": 39.6182613,
    "precision": "site",
-   "source": "OpenStreetMap Nominatim, way 587267723"
+   "source": "OpenStreetMap Nominatim, way 587267723",
+   "now": {
+    "ms": "Arab Saudi",
+    "en": "Saudi Arabia"
+   }
   },
   {
    "key": "khaibar",
@@ -228,7 +287,11 @@
    "lat": 25.7025446,
    "lng": 39.2932974,
    "precision": "city",
-   "source": "OpenStreetMap Nominatim, node 546640970"
+   "source": "OpenStreetMap Nominatim, node 546640970",
+   "now": {
+    "ms": "Arab Saudi",
+    "en": "Saudi Arabia"
+   }
   },
   {
    "key": "tabuk",
@@ -239,7 +302,11 @@
    "lat": 28.4012536,
    "lng": 36.567049,
    "precision": "city",
-   "source": "OpenStreetMap Nominatim, node 5418190413"
+   "source": "OpenStreetMap Nominatim, node 5418190413",
+   "now": {
+    "ms": "Arab Saudi",
+    "en": "Saudi Arabia"
+   }
   },
   {
    "key": "habsyah",
@@ -254,7 +321,11 @@
    "precision": "region",
    "source": "OpenStreetMap Nominatim, relation 192800 (Ethiopia, titik tengah negara)",
    "note": "Pin di tengah Ethiopia moden sahaja; sempadan kerajaan Najasyi tidak sama.",
-   "noteEn": "The pin sits at the middle of modern Ethiopia only. The kingdom of the Najashi had other borders."
+   "noteEn": "The pin sits at the middle of modern Ethiopia only. The kingdom of the Najashi had other borders.",
+   "now": {
+    "ms": "Ethiopia",
+    "en": "Ethiopia"
+   }
   },
   {
    "key": "yaman",
@@ -267,7 +338,11 @@
    "precision": "region",
    "source": "OpenStreetMap Nominatim, relation 305092 (titik tengah negara)",
    "note": "Pin di tengah Yaman moden.",
-   "noteEn": "The pin sits at the middle of modern Yemen."
+   "noteEn": "The pin sits at the middle of modern Yemen.",
+   "now": {
+    "ms": "Yemen",
+    "en": "Yemen"
+   }
   },
   {
    "key": "syam",
@@ -293,7 +368,11 @@
    "lat": 32.5191381,
    "lng": 36.4805732,
    "precision": "city",
-   "source": "OpenStreetMap Nominatim, node 573510767"
+   "source": "OpenStreetMap Nominatim, node 573510767",
+   "now": {
+    "ms": "Syria",
+    "en": "Syria"
+   }
   },
   {
    "key": "mutah",
@@ -333,7 +412,11 @@
    "lat": 36.3564339,
    "lng": 43.1621647,
    "precision": "site",
-   "source": "OpenStreetMap Nominatim, way 202644722"
+   "source": "OpenStreetMap Nominatim, way 202644722",
+   "now": {
+    "ms": "Iraq",
+    "en": "Iraq"
+   }
   },
   {
    "key": "mesir",
@@ -346,7 +429,11 @@
    "precision": "region",
    "source": "OpenStreetMap Nominatim, relation 1473947 (titik tengah negara)",
    "note": "Pin di tengah Mesir moden.",
-   "noteEn": "The pin sits at the middle of modern Egypt."
+   "noteEn": "The pin sits at the middle of modern Egypt.",
+   "now": {
+    "ms": "Mesir",
+    "en": "Egypt"
+   }
   },
   {
    "key": "rom",
@@ -354,12 +441,16 @@
    "ms": "Rom",
    "en": "Rome (Byzantium)",
    "aliases": [],
-   "lat": null,
-   "lng": null,
-   "precision": null,
-   "source": null,
-   "note": "Empayar yang sempadannya berubah; tiada satu titik, jadi tiada pin.",
-   "noteEn": "An empire whose borders changed, with no single point, so there is no pin."
+   "lat": 41.006381,
+   "lng": 28.9758715,
+   "precision": "region",
+   "source": "OpenStreetMap Nominatim, node 1882099475 (Istanbul)",
+   "note": "Pin di Istanbul, tempat ibu kota Rom Timur (Byzantine) menurut nota; empayar itu jauh lebih luas.",
+   "noteEn": "The pin sits at Istanbul, the capital of Eastern Rome (Byzantium) in the notes; the empire was much wider.",
+   "now": {
+    "ms": "Turki",
+    "en": "Turkey"
+   }
   },
   {
    "key": "parsi",
@@ -367,12 +458,16 @@
    "ms": "Parsi",
    "en": "Persia",
    "aliases": [],
-   "lat": null,
-   "lng": null,
-   "precision": null,
-   "source": null,
-   "note": "Empayar yang sempadannya berubah; tiada satu titik, jadi tiada pin.",
-   "noteEn": "An empire whose borders changed, with no single point, so there is no pin."
+   "lat": 33.0943875,
+   "lng": 44.5829536,
+   "precision": "region",
+   "source": "OpenStreetMap Nominatim, relation 12107331 (Ctesiphon)",
+   "note": "Pin di Ctesiphon, ibu kota empayar Parsi; empayar itu jauh lebih luas. Pengenalan ibu kota ini tidak datang daripada sumber geokod.",
+   "noteEn": "The pin sits at Ctesiphon, the capital of the Persian empire; the empire was much wider. The geocoding source does not say it was the capital.",
+   "now": {
+    "ms": "Iraq",
+    "en": "Iraq"
+   }
   }
  ]
 }
