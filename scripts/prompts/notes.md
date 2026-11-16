@@ -24,6 +24,10 @@ no markdown fences, no commentary.
 - Hadith: `arabic` only if the speaker recited it in Arabic and you are certain of the exact wording, else null.
   `narrator` and `source` only if the speaker named them, else null. `grade` only if the speaker stated one.
   `translation` is a faithful Malay rendering of what the speaker conveyed.
+- Dua: when an ayah or hadith is itself a dua (one a listener can say, or one the Prophet SAW or a prophet made in the
+  story), or teaches how or when to make dua, set `dua` to its key from "Known duas" below. If it is a dua that is not
+  listed, give a new short kebab-case key. Omit `dua` for everything else, including verses that only mention a dua
+  in passing, and curses on named people.
 
 ## Items and limits
 - chapters: 8 to 16, contiguous, the first starts at the beginning. Each has `title` and `summary` (1 to 2 sentences).
@@ -57,7 +61,7 @@ no markdown fences, no commentary.
   "dalil": [
     {"kind": "quran", "quran": "53:9", "inferred": false, "context": "…", "at": "…", "approx": "9:24"},
     {"kind": "hadith", "ref": "short title in Malay", "arabic": null, "translation": "…", "context": "…",
-     "narrator": null, "source": null, "grade": null, "at": "…", "approx": "12:34"}
+     "narrator": null, "source": null, "grade": null, "dua": "musibah", "at": "…", "approx": "12:34"}
   ],
   "books": [{"title": "…", "author": null, "kind": "Buku", "context": "…", "note": null, "at": "…", "approx": "44:23"}],
   "suggested": [{"title": "…", "author": "…", "kind": "Syarah", "context": "…"}],

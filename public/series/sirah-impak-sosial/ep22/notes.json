@@ -147,7 +147,8 @@
    "narrator": "Tidak disebut dalam kuliah",
    "source": "Imam Tirmidhi",
    "grade": null,
-   "verified": false
+   "verified": false,
+   "dua": "adab-arafah"
   },
   {
    "id": "q2-201",
@@ -158,7 +159,8 @@
    "translation": "Dan di antara mereka pula ada yang (berdoa dengan) berkata: \"Wahai Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan peliharalah kami dari azab neraka\".",
    "context": "Doa sapu jagat yang mengimbangi dunia dan akhirat. (rujukan dikenal pasti, nombor ayat tidak disebut)",
    "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
-   "verified": true
+   "verified": true,
+   "dua": "dunia-akhirat"
   },
   {
    "id": "q60-4",
@@ -193,7 +195,8 @@
    "translation": "\"Wahai Tuhan Kami! Utuslah kepada mereka seorang Rasul dari kalangan mereka sendiri, yang akan membacakan kepada mereka ayat-ayat (firmanMu) dan mengajarkan mereka isi kandungan Kitab (Al-Quran) serta Hikmat kebijaksanaan dan membersihkan (hati dan jiwa) mereka (dari syirik dan maksiat). Sesungguhnya Engkaulah yang Maha Kuasa, lagi Maha Bijaksana\".",
    "context": "Doa Ibrahim memohon rasul dari kalangan mereka yang membacakan ayat, mengajar kitab dan hikmah, dan membersihkan jiwa.",
    "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
-   "verified": true
+   "verified": true,
+   "dua": "ibrahim-rasul"
   },
   {
    "id": "h4",

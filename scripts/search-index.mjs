@@ -1,5 +1,7 @@
 // Builds public/search/<lang>.json: one file per language with every searchable item of every episode, so the
 // search palette fetches one small file the first time it opens instead of every episode's notes.
+// Also builds public/search/doa.<lang>.json for the Doa page: every dalil entry tagged with a `dua` key, grouped by the
+// duas and topics in data/duas.json.
 // Run by `npm run dev` and `npm run build`. The output is generated and not committed.
 // The entries are made by src/lib/search-entries.ts, the same code the app uses, bundled here with esbuild.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from 'node:fs'
@@ -32,8 +34,12 @@ const slugs = read('series/index.json').series
 const dir = join(pub, 'search')
 mkdirSync(dir, { recursive: true })
 
+const catalogue = JSON.parse(readFileSync(join(root, 'data/duas.json'), 'utf8'))
+const unknownDuas = new Set()
+
 for (const lang of ['ms', 'en']) {
   const rows = []
+  const mentions = new Map() // dua key -> mentions, in series then episode order
   for (const slug of slugs) {
     const idx = read(`series/${slug}/index.json`)
     const notesOf = (epId) => {
@@ -42,7 +48,31 @@ for (const lang of ['ms', 'en']) {
       return en ? overlay(base, en) : base
     }
     for (const { hay, titleHay, key, ...row } of seriesEntries(idx, notesOf)) rows.push(row)
+    for (const ep of idx.episodes) {
+      const n = ep.hasNotes ? notesOf(ep.id) : undefined
+      for (const d of n?.dalil ?? []) {
+        if (!d.dua) continue
+        if (!mentions.has(d.dua)) mentions.set(d.dua, [])
+        mentions.get(d.dua).push({ slug, series: idx.series.title, epId: ep.id, epNumber: ep.number, epTitle: n.title, dalil: d })
+      }
+    }
   }
   writeFileSync(join(dir, `${lang}.json`), JSON.stringify(rows))
   console.log(`search index ${lang}: ${rows.length} entries`)
+
+  for (const k of mentions.keys()) if (!catalogue.duas.some((d) => d.key === k)) unknownDuas.add(k)
+  const topics = catalogue.topics
+    .map((tp) => ({
+      key: tp.key,
+      title: tp[lang],
+      ...(tp.hint && { hint: tp.hint[lang] }),
+      duas: catalogue.duas
+        .filter((d) => d.topic === tp.key && mentions.has(d.key))
+        .map((d) => ({ key: d.key, title: d[lang], mentions: mentions.get(d.key) })),
+    }))
+    .filter((tp) => tp.duas.length)
+  writeFileSync(join(dir, `doa.${lang}.json`), JSON.stringify({ topics }))
+  console.log(`doa index ${lang}: ${topics.reduce((n, tp) => n + tp.duas.length, 0)} duas`)
 }
+// A key the drafting step made up for a new dua needs a title and topic before the page can list it.
+for (const k of unknownDuas) console.warn(`! dua "${k}" is not in data/duas.json, so the Doa page leaves it out`)

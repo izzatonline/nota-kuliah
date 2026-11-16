@@ -133,7 +133,8 @@
    "narrator": "Tidak disebut dalam kuliah",
    "source": "Sumber tidak disebut dalam kuliah",
    "grade": null,
-   "verified": false
+   "verified": false,
+   "dua": "taif"
   },
   {
    "id": "h3",
@@ -170,7 +171,8 @@
    "narrator": "Tidak disebut dalam kuliah",
    "source": "Sumber tidak disebut dalam kuliah",
    "grade": null,
-   "verified": false
+   "verified": false,
+   "dua": "ibn-abbas"
   },
   {
    "id": "q46-29",

@@ -286,7 +286,8 @@
    "translation": "Dan jika engkau menyaringkan suara dengan doa permohonanmu, (maka yang demikian tidaklah perlu), kerana sesungguhnya Allah mengetahui segala rahsia dan segala yang tersembunyi.",
    "context": "Allah mengetahui yang rahsia dan yang lebih tersembunyi, maka tidak perlu menguatkan suara berdoa.",
    "source": "api.alquran.cloud: quran-uthmani + ms.basmeih (Abdullah Basmeih)",
-   "verified": true
+   "verified": true,
+   "dua": "adab-perlahan"
   },
   {
    "id": "q20-8",
@@ -354,7 +355,8 @@
    "narrator": "Tidak disebut dalam kuliah",
    "source": "Sumber tidak disebut dalam kuliah",
    "grade": null,
-   "verified": false
+   "verified": false,
+   "dua": "umar"
   },
   {
    "id": "h3",
