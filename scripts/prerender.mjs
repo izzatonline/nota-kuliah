@@ -205,7 +205,22 @@ page({
   jsonLd: [crumbs([[NAME, '/'], ['Istilah', '/istilah']])],
 })
 entries.push({ path: '/istilah' })
-let pages = 6
+
+// The Tempat page: every place the ustaz talks about, with the lectures and times. The map itself is drawn in the browser.
+const tempat = read('search/tempat.ms.json')
+const tempatDescription = `Peta tempat yang disebut dalam kuliah ${all.map((s) => s.series.title).join(' dan ')}: Makkah, Madinah, Taif, Habsyah, Badar, Uhud dan lain-lain, dengan setiap kuliah dan masa ia disebut.`
+const placeLi = (p) => `<li id="${esc(p.key)}">${esc(p.title)}: ${p.mentions.length}${p.note ? `. ${esc(p.note)}` : ''}</li>`
+const tempatImage = await og('tempat', { kicker: NAME, title: 'Tempat yang disebut dalam kuliah', foot: all[0].series.speaker })
+page({
+  image: tempatImage,
+  path: '/tempat',
+  title: `Tempat yang disebut dalam kuliah ${all[0].series.speaker} | ${NAME}`,
+  description: clip(tempatDescription),
+  body: `<h1>Tempat yang disebut dalam kuliah</h1><p>${esc(tempatDescription)}</p>` + tempat.groups.map((g) => `<h2>${esc(g.title)}</h2><ul>${g.places.map(placeLi).join('')}</ul>`).join(''),
+  jsonLd: [crumbs([[NAME, '/'], ['Tempat', '/tempat']])],
+})
+entries.push({ path: '/tempat' })
+let pages = 7
 for (const g of tokoh.groups)
   for (const p of g.people) {
     const path = `/tokoh/${p.key}`

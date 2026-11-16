@@ -24,6 +24,7 @@ LISTS = {
     "chapters": ["title", "summary"],
     "books": ["context", "note"],
     "people": ["role", "context"],
+    "places": ["context"],
     "lessons": ["title", "body"],
     "glossary": ["meaning"],
 }
