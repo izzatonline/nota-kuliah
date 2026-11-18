@@ -625,13 +625,6 @@
  ],
  "places": [
   {
-   "id": "pl1",
-   "name": "Taif",
-   "place": "taif",
-   "t": 331,
-   "context": "Dalam siri ini ia merangkumi episod kewafatan Khadijah RA, Abu Talib dan peristiwa Taif."
-  },
-  {
    "id": "pl2",
    "name": "Masjid Al-Aqsa",
    "place": "baitul-maqdis",
