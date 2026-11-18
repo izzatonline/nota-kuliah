@@ -408,6 +408,15 @@
    "context": "Diikat dan dipukul oleh Naufal bin Khuwailid bersama Abu Bakar."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Habsyah",
+   "place": "habsyah",
+   "t": 4034,
+   "context": "Hijrah ke Habsyah walaupun bapanya melindungi Nabi SAW, akan dianalisis kemudian."
+  }
+ ],
  "sirah": {
   "era": "Tahun keempat kenabian",
   "summary": "Quraish menaikkan tekanan terhadap Nabi SAW dan pelindungnya Abu Talib.",

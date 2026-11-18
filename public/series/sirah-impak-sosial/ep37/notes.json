@@ -507,6 +507,50 @@
    "context": "Pembina Kaabah yang berharap zuriatnya menyembah Allah."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 746,
+   "context": "Nabi SAW berhenti di lembah subur antara Taif dan Makkah."
+  },
+  {
+   "id": "pl2",
+   "name": "Taif",
+   "place": "taif",
+   "t": 746,
+   "context": "Nabi SAW berhenti di lembah subur antara Taif dan Makkah."
+  },
+  {
+   "id": "pl3",
+   "name": "Nakhlah",
+   "place": "nakhlah",
+   "t": 681,
+   "context": "Lembah Nakhlah"
+  },
+  {
+   "id": "pl4",
+   "name": "Ukaz",
+   "place": "ukaz",
+   "t": 944,
+   "context": "Pasar Ukaz"
+  },
+  {
+   "id": "pl5",
+   "name": "Badar",
+   "place": "badar",
+   "t": 4073,
+   "context": "Mut'im dan anak-anaknya mengiringi Nabi SAW masuk Makkah dan baginda mengenangnya selepas Badar."
+  },
+  {
+   "id": "pl6",
+   "name": "Nineveh",
+   "place": "nineveh",
+   "t": 623,
+   "context": "Seorang lelaki dari Nineveh memeluk Islam walaupun baginda tidak mengajaknya."
+  }
+ ],
  "sirah": {
   "era": "Penghujung tahun ke-10 kenabian, selepas Taif",
   "summary": "Dalam perjalanan pulang dari Taif, jin memeluk Islam di Nakhlah, dan Nabi SAW memasuki Makkah di bawah perlindungan Mut'im bin Adi.",

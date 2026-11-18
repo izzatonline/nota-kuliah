@@ -517,5 +517,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Abu Jahal's nickname in Makkah because of his cleverness."
+  },
+  {
+   "id": "pl2",
+   "context": "The third man persuaded; later remembered by the Prophet SAW at Badr."
+  }
+ ]
 }

@@ -543,5 +543,27 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Accepted Islam last, at the Conquest."
+  },
+  {
+   "id": "pl2",
+   "context": "They brought three questions from the Jews."
+  },
+  {
+   "id": "pl3",
+   "context": "Later went to Abyssinia in the second wave and returned after Khaybar."
+  },
+  {
+   "id": "pl4",
+   "context": "Fifteen people to Abyssinia"
+  },
+  {
+   "id": "pl5",
+   "context": "Not the weak; geopolitics outside Persian power and a just king."
+  }
+ ]
 }

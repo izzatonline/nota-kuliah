@@ -576,5 +576,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "His descendants later became muezzins in Mecca."
+  },
+  {
+   "id": "pl2",
+   "context": "He entered ihram at Dhul-Hulayfah and headed for Arafah."
+  },
+  {
+   "id": "pl3",
+   "context": "Illustrates how tense the atmosphere at Badr was, which is often memorised as just numbers of soldiers."
+  }
+ ]
 }

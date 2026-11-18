@@ -649,5 +649,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The ustaz introduces the two stories as a turning point, then tells of the Quraysh envoys returning from Abyssinia in embarrassment."
+  },
+  {
+   "id": "pl2",
+   "context": "The Prophet's ﷺ strategy of sending companions to Abyssinia"
+  }
+ ]
 }

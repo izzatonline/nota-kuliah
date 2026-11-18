@@ -45,6 +45,8 @@ export type Book = {
   note?: string
   suggested?: boolean
 }
+/** A place mentioned in a lecture. `place` is the key in data/places.json. */
+export type Place = { id: string; name: string; place?: string; t: number | null; context: string }
 export type Person = { id: string; name: string; /** Key in data/people.json, kept in the Malay notes only. */ person?: string; role: string; t: number; context: string }
 export type SirahEvent = { id: string; label: string; title: string; t: number | null; desc: string }
 export type Lesson = { id: string; title: string; body: string; kind: string; t: number }
@@ -71,6 +73,8 @@ export type Notes = {
   lessons: Lesson[]
   glossary: Term[]
   mindmap: MapNode
+  /** Places the ustaz talks about, kept in the Malay notes (the English overlay adds `context`). */
+  places?: Place[]
   /** Support information for episodes that touch on self-harm. Not part of the lecture. */
   careNote?: { title: string; body: string; items: { name: string; contact: string }[]; source: string }
 }
@@ -131,3 +135,23 @@ export type TermMention = { slug: string; series: string; epId: string; epNumber
 export type TermEntry = { key: string; term: string; arabic: string | null; mentions: TermMention[] }
 /** What `scripts/search-index.mjs` writes to `public/search/istilah.<lang>.json`. */
 export type TermIndex = { terms: TermEntry[] }
+/** One lecture's entry for a place. */
+export type PlaceMention = { slug: string; series: string; epId: string; epNumber: number | null; epTitle: string; place: Place }
+export type PlaceEntry = {
+  key: string
+  title: string
+  aliases: string[]
+  /** Null when the catalogue has no pin for it (a wide region, or a site the source could not confirm). */
+  lat: number | null
+  lng: number | null
+  precision: 'city' | 'site' | 'region' | null
+  /** The country the place is in today, from the geocoder. Null where the notes' place is a region or the label is contested. */
+  now: string | null
+  /** The OpenStreetMap object the coordinate comes from, such as `node/123`. */
+  osm: string | null
+  note: string | null
+  mentions: PlaceMention[]
+}
+export type PlaceGroup = { key: string; title: string; places: PlaceEntry[] }
+/** What `scripts/search-index.mjs` writes to `public/search/tempat.<lang>.json`. */
+export type PlaceIndex = { groups: PlaceGroup[] }

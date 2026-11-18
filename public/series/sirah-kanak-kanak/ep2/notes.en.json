@@ -419,5 +419,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Al-Muttalib brought Shaibah from Yathrib to Mecca and people called him Abdul Muttalib."
+  },
+  {
+   "id": "pl2",
+   "context": "On the way back from Sham, Abdullah fell ill with a high fever and died while Aminah was pregnant."
+  },
+  {
+   "id": "pl3",
+   "context": "After Al-Muttalib died in Yemen, Abdul Muttalib succeeded him as leader."
+  },
+  {
+   "id": "pl4",
+   "context": "On a trading trip to Sham, Hashim married Salma in Yathrib and died in Gaza."
+  }
+ ]
 }

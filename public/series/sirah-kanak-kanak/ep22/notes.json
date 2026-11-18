@@ -293,6 +293,36 @@
    "context": "Memeluk Islam lebih awal daripada Khalid."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 294,
+   "context": "Ustaz mengimbas Najasyi dan Ja'far, dan berkata Nabi SAW di Mekah mencari orang besar untuk diislamkan supaya Islam menjadi kuat."
+  },
+  {
+   "id": "pl2",
+   "name": "Hudaybiyah",
+   "place": "hudaibiyah",
+   "t": 2038,
+   "context": "Hudaybiyah akan datang"
+  },
+  {
+   "id": "pl3",
+   "name": "Badar",
+   "place": "badar",
+   "t": 2164,
+   "context": "Al-Walid tidak memeluk Islam dan mati sebelum Perang Badar kerana kakinya luka terpijak benda tajam."
+  },
+  {
+   "id": "pl4",
+   "name": "Habasyah",
+   "place": "habsyah",
+   "t": 1275,
+   "context": "Sahabat pulang dari Habasyah"
+  }
+ ],
  "sirah": {
   "era": "Tahun kelima kenabian: Al-Walid dan pulangnya sahabat",
   "summary": "Kuliah ini meliputi usaha mendekati Al-Walid bin Al-Mughirah, Surah Abasa, berita palsu dan pulangnya sahabat dari Habasyah.",

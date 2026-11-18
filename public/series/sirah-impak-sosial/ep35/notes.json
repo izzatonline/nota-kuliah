@@ -584,6 +584,43 @@
    "context": "Mughirah dihantar merobohkan berhala Lat, dan menyindir orang yang menyangka ia akan membalas."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 1247,
+   "context": "Taif sebagai pusat politik dan ekonomi yang berdikari, kaya dengan anggur dan ros, dan saingan Mekah."
+  },
+  {
+   "id": "pl2",
+   "name": "Taif",
+   "place": "taif",
+   "t": 1145,
+   "context": "Berjalan kaki sekitar 150 km ke Taif bersama Zaid"
+  },
+  {
+   "id": "pl3",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 3879,
+   "context": "Orang Madinah yang miskin menyambut Baginda dengan gembira."
+  },
+  {
+   "id": "pl4",
+   "name": "Badar",
+   "place": "badar",
+   "t": 711,
+   "context": "Nabi SAW memujuknya dan menyebut tujuh nama, yang kemudian terkorban di Badar."
+  },
+  {
+   "id": "pl5",
+   "name": "Nineveh",
+   "place": "nineveh",
+   "t": 2151,
+   "context": "Nabi SAW berdoa, kemudian Addas dari Nineveh mencium tangan dan kaki Baginda lalu memeluk Islam."
+  }
+ ],
  "sirah": {
   "era": "Amul Huzn: tahun kesedihan, sebelum Isra' Mi'raj",
   "summary": "Selepas kewafatan Abu Talib dan Khadijah RA, Nabi SAW kehilangan perlindungan dan ketenangan. Ustaz menceritakan hari paling berat di Taif dan bagaimana Baginda membalasnya dengan doa, kesabaran dan kemaafan.",

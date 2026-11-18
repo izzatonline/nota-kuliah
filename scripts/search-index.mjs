@@ -13,6 +13,8 @@
 // (lowercase, no diacritics or apostrophes, no bracketed gloss, hyphens as spaces) and by data/term-aliases.json.
 // And public/search/harian.<lang>.json for the daily card on the landing page: every lesson and every dua, in a fixed order
 // (series, episode, item) so the day's pick is the same for everyone.
+// And public/search/tempat.<lang>.json for the Tempat page and tab: every `places` entry tagged with a `place` key, grouped by
+// the groups in data/places.json, with the coordinates (null where the catalogue has no pin).
 // Run by `npm run dev` and `npm run build`. The output is generated and not committed.
 // The entries are made by src/lib/search-entries.ts, the same code the app uses, bundled here with esbuild.
 import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from 'node:fs'
@@ -67,6 +69,8 @@ const aliasOf = new Map()
 for (const [canon, forms] of Object.entries(termAliases)) for (const f of [canon, ...forms]) aliasOf.set(normTerm(f), normTerm(canon))
 const termKey = (t) => aliasOf.get(normTerm(t)) ?? normTerm(t)
 const quranCache = JSON.parse(readFileSync(join(root, 'data/quran-cache.json'), 'utf8'))
+const cataloguePlaces = JSON.parse(readFileSync(join(root, 'data/places.json'), 'utf8'))
+const unknownPlaces = new Set()
 
 for (const lang of ['ms', 'en']) {
   const rows = []
@@ -77,6 +81,7 @@ for (const lang of ['ms', 'en']) {
   const terms = new Map() // term key -> { forms, mentions }
   const daily = [] // lessons and duas, in notes order
   const verses = new Map() // "surah:ayah" -> { surah, name, ayah, arabic, translation, mentions }
+  const whereMentions = new Map() // place key -> mentions, in series then episode order
   for (const slug of slugs) {
     const idx = read(`series/${slug}/index.json`)
     const notesOf = (epId) => {
@@ -97,6 +102,11 @@ for (const lang of ['ms', 'en']) {
         const e = terms.get(key)
         e.forms.set(g.term, (e.forms.get(g.term) ?? 0) + 1)
         e.mentions.push({ slug, series: idx.series.title, epId: ep.id, epNumber: ep.number, epTitle: n.title, id: g.id, t: g.t, meaning: g.meaning, arabic: g.arabic })
+      }
+      for (const pl of n?.places ?? []) {
+        if (!pl.place) continue
+        if (!whereMentions.has(pl.place)) whereMentions.set(pl.place, [])
+        whereMentions.get(pl.place).push({ slug, series: idx.series.title, epId: ep.id, epNumber: ep.number, epTitle: n.title, place: pl })
       }
       for (const b of n?.books ?? []) {
         if (!b.book) continue
@@ -188,9 +198,34 @@ for (const lang of ['ms', 'en']) {
   writeFileSync(join(dir, `ayat.${lang}.json`), JSON.stringify({ surahs: [...surahs.values()] }))
   if (lang === 'ms') writeFileSync(join(dir, 'ayat-counts.json'), JSON.stringify(Object.fromEntries([...verses].map(([k, v]) => [k, v.mentions.length]))))
   console.log(`ayat index ${lang}: ${surahs.size} surahs, ${verses.size} verses`)
+  for (const k of whereMentions.keys()) if (!cataloguePlaces.places.some((p) => p.key === k)) unknownPlaces.add(k)
+  const placeGroups = cataloguePlaces.groups
+    .map((g) => ({
+      key: g.key,
+      title: g[lang],
+      places: cataloguePlaces.places
+        .filter((p) => p.group === g.key && whereMentions.has(p.key))
+        .map((p) => ({
+          key: p.key,
+          title: (lang === 'en' && p.en) || p.ms,
+          aliases: p.aliases ?? [],
+          lat: p.lat,
+          lng: p.lng,
+          precision: p.precision ?? null,
+          osm: /(node|way|relation) (\d+)/.exec(p.source ?? '')?.slice(1, 3).join('/') ?? null,
+          now: p.now?.[lang] ?? null,
+          note: (lang === 'en' && p.noteEn) || p.note || null,
+          mentions: whereMentions.get(p.key),
+        }))
+        .sort((a, b) => b.mentions.length - a.mentions.length || a.title.localeCompare(b.title)),
+    }))
+    .filter((g) => g.places.length)
+  writeFileSync(join(dir, `tempat.${lang}.json`), JSON.stringify({ groups: placeGroups }))
+  console.log(`tempat index ${lang}: ${placeGroups.reduce((n, g) => n + g.places.length, 0)} places`)
   console.log(`tokoh index ${lang}: ${groups.reduce((n, g) => n + g.people.length, 0)} people`)
 }
 for (const k of unknownBooks) console.warn(`! book "${k}" is not in data/books.json, so the Kitab page leaves it out`)
+for (const k of unknownPlaces) console.warn(`! place "${k}" is not in data/places.json, so the Tempat page leaves it out`)
 for (const k of unknownPeople) console.warn(`! person "${k}" is not in data/people.json, so the Tokoh page leaves it out`)
 // A key the drafting step made up for a new dua needs a title and topic before the page can list it.
 for (const k of unknownDuas) console.warn(`! dua "${k}" is not in data/duas.json, so the Doa page leaves it out`)

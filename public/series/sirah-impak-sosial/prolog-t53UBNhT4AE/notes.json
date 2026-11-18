@@ -407,6 +407,43 @@
    "context": "Baru memeluk Islam, dipilih menjadi komander di Mu'tah dan menukar strategi."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 4567,
+   "context": "Anak perempuannya yang tinggal di Makkah dituntut tiga sahabat untuk dijaga."
+  },
+  {
+   "id": "pl2",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 4384,
+   "context": "Ja'far kembali ke Madinah selepas Khaibar dan dipilih menjaga anak Hamzah."
+  },
+  {
+   "id": "pl3",
+   "name": "Khaibar",
+   "place": "khaibar",
+   "t": 4384,
+   "context": "Ja'far kembali ke Madinah selepas Khaibar dan dipilih menjaga anak Hamzah."
+  },
+  {
+   "id": "pl4",
+   "name": "Habsyah",
+   "place": "habsyah",
+   "t": 1182,
+   "context": "Cadangan berhijrah ke Habsyah"
+  },
+  {
+   "id": "pl5",
+   "name": "Mu'tah",
+   "place": "mutah",
+   "t": 4775,
+   "context": "Ja'far syahid dalam Perang Mu'tah, keluarga dipujuk Nabi SAW, dan ajakan menjadi seperti Ja'far dan Asma'."
+  }
+ ],
  "sirah": {
   "era": "Tahun kelima dakwah di Makkah dan hijrah pertama ke Habsyah",
   "summary": "Dakwah bermula dengan tiga tahun tertutup, penyeksaan terbuka, dan hijrah pertama ke Habsyah di bawah Najasyi; kisah ditamatkan dengan nasib Ja'far.",

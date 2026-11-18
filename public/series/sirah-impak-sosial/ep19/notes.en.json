@@ -574,5 +574,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "He carried barley or flour and went home to replenish them."
+  },
+  {
+   "id": "pl2",
+   "context": "According to one book, Khadijah met him; he later offered grapes to the Prophet SAW at Ta'if."
+  }
+ ]
 }

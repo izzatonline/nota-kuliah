@@ -11,6 +11,7 @@ import { KitabPage } from '@/pages/kitab-page'
 import { AyatPage } from '@/pages/ayat-page'
 import { IstilahPage } from '@/pages/istilah-page'
 import { SavedPage } from '@/pages/saved-page'
+import { PlacesPage } from '@/pages/places-page'
 import { PersonPage } from '@/pages/person-page'
 import { QuizPage } from '@/pages/quiz-page'
 import { HandoutPage } from '@/pages/handout-page'
@@ -28,6 +29,7 @@ export default function App() {
             <Route path="/ayat" element={<AyatPage />} />
             <Route path="/istilah" element={<IstilahPage />} />
             <Route path="/simpanan" element={<SavedPage />} />
+            <Route path="/tempat" element={<PlacesPage />} />
             <Route path="/tokoh" element={<TokohPage />} />
             <Route path="/tokoh/:key" element={<PersonPage />} />
             <Route path="/:slug" element={<SeriesPage />} />

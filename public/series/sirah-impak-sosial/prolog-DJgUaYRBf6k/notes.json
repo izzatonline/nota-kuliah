@@ -505,6 +505,29 @@
    "context": "Di Badar meminta qisas kerana tertusuk tongkat Nabi SAW yang meluruskan saf, lalu mencium perut Baginda kerana ingin menjadi orang terakhir yang disentuhnya."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 3657,
+   "context": "Keturunannya kemudian menjadi muazin di Makkah."
+  },
+  {
+   "id": "pl2",
+   "name": "Arafah",
+   "place": "arafah",
+   "t": 706,
+   "context": "Baginda berihram dari Dhul-Hulaifah dan menuju Arafah."
+  },
+  {
+   "id": "pl3",
+   "name": "Badar",
+   "place": "badar",
+   "t": 4907,
+   "context": "Menggambarkan betapa genting suasana Badar yang sering dihafal sekadar bilangan tentera."
+  }
+ ],
  "sirah": {
   "era": "Pengenalan siri: Haji Wada' dan wawasan kehidupan Nabi SAW",
   "summary": "Prolog membuka dengan tiga bulan terakhir hidup Nabi SAW, lalu mengambil beberapa adegan sirah sebagai contoh akhlak. Kronologi penuh bermula pada episod seterusnya, sebelum kelahiran Baginda.",

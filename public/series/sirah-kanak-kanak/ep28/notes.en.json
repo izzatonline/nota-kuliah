@@ -471,5 +471,27 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "He entered Mecca escorted by Mut'im's sons."
+  },
+  {
+   "id": "pl2",
+   "context": "After Taif, the Prophet SAW prayed at night at Nakhla and a group of jinn listened silently, then returned to preach to their people."
+  },
+  {
+   "id": "pl3",
+   "context": "After Taif, the Prophet SAW prayed at night at Nakhla and a group of jinn listened silently, then returned to preach to their people."
+  },
+  {
+   "id": "pl4",
+   "context": "The Prophet SAW remembered Mut'im and was ready to free the Badr captives for him."
+  },
+  {
+   "id": "pl5",
+   "context": "He was carried to Jerusalem in an instant."
+  }
+ ]
 }

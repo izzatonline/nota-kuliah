@@ -319,5 +319,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The Prophet SAW said he would free the Badr captives had Mut'im been alive."
+  },
+  {
+   "id": "pl2",
+   "context": "The ustaz introduces Khalid, son of al-Walid ibn al-Mughira, who appears at Uhud, embraces Islam and is called the Sword of Allah, dying on his bed."
+  },
+  {
+   "id": "pl3",
+   "context": "The lecture opens with Mut'im ibn Adi standing to reject the pact, then recalls Hamzah and Umar and the failure of Amr ibn al-As in Abyssinia."
+  }
+ ]
 }

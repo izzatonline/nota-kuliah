@@ -553,5 +553,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Reminds us that Makkans had heard rumours long before the call at Safa."
+  },
+  {
+   "id": "pl2",
+   "context": "He escaped to Abyssinia and later was cast out without clothes."
+  },
+  {
+   "id": "pl3",
+   "context": "Umar asked whether his name was on the list."
+  },
+  {
+   "id": "pl4",
+   "context": "Al-Walid denied sorcery, soothsaying and poetry; An-Nadr brought Persian tales and entertainment."
+  }
+ ]
 }

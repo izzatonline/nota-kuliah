@@ -704,5 +704,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Umm Ayman brought the Prophet back to Makkah, where his grandfather received and cared for him."
+  },
+  {
+   "id": "pl2",
+   "context": "Aminah dies at Al-Abwa'"
+  },
+  {
+   "id": "pl3",
+   "context": "Aminah took the Prophet and Umm Ayman to his grandmother's family, and they stayed about a month."
+  },
+  {
+   "id": "pl4",
+   "context": "Would migrate to Abyssinia and die a martyr, given wings in Paradise, and the Prophet ﷺ would greet him with extraordinary emotion."
+  }
+ ]
 }

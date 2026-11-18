@@ -598,5 +598,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The Prophet SAW was uncomfortable with Makkah's time-wasting circles."
+  },
+  {
+   "id": "pl2",
+   "context": "The Prophet SAW was uncomfortable with Makkah's time-wasting circles."
+  }
+ ]
 }

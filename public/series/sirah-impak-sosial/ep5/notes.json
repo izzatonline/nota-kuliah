@@ -455,6 +455,29 @@
    "context": "Pernah bermimpi tentang Abu Lahab dalam hadis yang diperselisihkan."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Yathrib",
+   "place": "madinah",
+   "t": 479,
+   "context": "Abdullah meninggal di Yathrib"
+  },
+  {
+   "id": "pl2",
+   "name": "Mesir",
+   "place": "mesir",
+   "t": 1355,
+   "context": "Kerajaan di Mesir yang berdoktrin Syiah dan banyak mengadakan sambutan."
+  },
+  {
+   "id": "pl3",
+   "name": "Parsi",
+   "place": "parsi",
+   "t": 2562,
+   "context": "Kisah-kisah masyhur seperti runtuhnya mahligai Parsi tidak jelas sumbernya; ustaz merumuskan perkara pasti dan penamaan."
+  }
+ ],
  "sirah": {
   "era": "Kelahiran Nabi SAW pada tahun Gajah di Mekah",
   "summary": "Episod ini membincangkan peristiwa sekitar kelahiran Nabi SAW: perkahwinan dan kewafatan Abdullah, hari dan tahun kelahiran, penyambut, penamaan oleh Abdul Muttalib, dan khilaf tarikh.",

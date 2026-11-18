@@ -285,6 +285,29 @@
    "context": "Bertanya kepada Mut'im sama ada dia memeluk Islam atau sekadar melindungi."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 1838,
+   "context": "Baginda dibawa masuk ke Mekah dan tawaf."
+  },
+  {
+   "id": "pl2",
+   "name": "Taif",
+   "place": "taif",
+   "t": 377,
+   "context": "Keluar ke Taif"
+  },
+  {
+   "id": "pl3",
+   "name": "Nineveh",
+   "place": "nineveh",
+   "t": 1190,
+   "context": "Adas mendengar Bismillah, mengetahui baginda tahu tentang Nabi Yunus dari Nineveh, lalu mencium baginda dan memeluk Islam."
+  }
+ ],
  "sirah": {
   "era": "Selepas tahun kesedihan: Taif",
   "summary": "Kuliah ini meliputi perjalanan ke Taif, dakwah yang ditolak, Adas, malaikat gunung, jin, dan perlindungan Mut'im.",

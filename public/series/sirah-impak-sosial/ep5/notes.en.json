@@ -541,5 +541,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The Prophet was still two months in the womb; Abdullah was buried in the Banu Najjar quarter."
+  },
+  {
+   "id": "pl2",
+   "context": "A dynasty in Egypt with Shia doctrine, known for holding many celebrations."
+  },
+  {
+   "id": "pl3",
+   "context": "Famous stories such as the collapse of the Persian palace have unclear sources; the ustaz sums up what is certain and the matter of naming."
+  }
+ ]
 }

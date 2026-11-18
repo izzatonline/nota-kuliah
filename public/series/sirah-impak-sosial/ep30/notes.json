@@ -426,6 +426,29 @@
    "context": "Contoh insan yang beriman tanpa berjumpa Nabi SAW."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 2128,
+   "context": "Senarai sahabat yang kekal di Makkah dan yang kembali ke Habsyah."
+  },
+  {
+   "id": "pl2",
+   "name": "Habsyah",
+   "place": "habsyah",
+   "t": 1222,
+   "context": "Quraish mencipta alasan untuk menutup malu dan berita palsu sampai ke Habsyah."
+  },
+  {
+   "id": "pl3",
+   "name": "Mesir",
+   "place": "mesir",
+   "t": 5208,
+   "context": "Kebaikan Najasyi mengalir kepada umat Islam Afrika dan ulama Mesir hari ini."
+  }
+ ],
  "sirah": {
   "era": "Tahun kelima hingga keenam kenabian",
   "summary": "Peristiwa An-Najm, pulang dari Habsyah, hijrah kedua dan perundingan di istana Najasyi.",

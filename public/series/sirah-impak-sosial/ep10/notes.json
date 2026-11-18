@@ -284,6 +284,36 @@
    "context": "Menganalisis semua riwayat dan menyimpulkan tiada riwayat yang kuat."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 660,
+   "context": "Abu Talib dinasihatkan pulang ke Makkah kerana akan ditahan di pos Rom."
+  },
+  {
+   "id": "pl2",
+   "name": "Syam",
+   "place": "syam",
+   "t": 376,
+   "context": "Merayu untuk ikut ke Syam"
+  },
+  {
+   "id": "pl3",
+   "name": "Busra",
+   "place": "busra",
+   "t": 439,
+   "context": "Kafilah singgah di Busra berhampiran tempat para rahib."
+  },
+  {
+   "id": "pl4",
+   "name": "Rom",
+   "place": "rom",
+   "t": 660,
+   "context": "Abu Talib dinasihatkan pulang ke Makkah kerana akan ditahan di pos Rom."
+  }
+ ],
  "sirah": {
   "era": "Remaja Nabi SAW: usia 12 tahun",
   "summary": "Nabi SAW menyertai Abu Talib ke Syam dan kisah rahib Bahira yang dipertikaikan, kemudian dipelihara Allah daripada perkara melalaikan dan maksiat ketika remaja.",

@@ -573,6 +573,29 @@
    "context": "Anak Nabi SAW yang lahir kemudian; bayi yang hanya sempat hidup seketika sebelum meninggal."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 2619,
+   "context": "Menyifatkan Umar sebagai watak unik yang cintakan tradisi nenek moyang dan Makkah."
+  },
+  {
+   "id": "pl2",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 324,
+   "context": "Muazin Nabi SAW dan diamanahkan menjaga Madinah."
+  },
+  {
+   "id": "pl3",
+   "name": "Rom",
+   "place": "rom",
+   "t": 4122,
+   "context": "Bukan orang Rom, hamba Abdullah bin Jud'an yang mengenali Nabi SAW sebelum kenabian."
+  }
+ ],
  "sirah": {
   "era": "Tahun ketiga dan keempat kenabian",
   "summary": "Quraish melancarkan pembunuhan karakter terhadap Nabi SAW dan membuat pengikutnya rasa rendah diri.",

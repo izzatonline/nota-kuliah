@@ -511,5 +511,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Abu Talib was advised to return to Makkah since he would be detained at the Roman post."
+  },
+  {
+   "id": "pl2",
+   "context": "The Prophet pleaded not to be left behind, and Abu Talib finally gave in."
+  },
+  {
+   "id": "pl3",
+   "context": "The caravan stopped at Busra near the monks' place."
+  },
+  {
+   "id": "pl4",
+   "context": "Abu Talib was advised to return to Makkah since he would be detained at the Roman post."
+  }
+ ]
 }

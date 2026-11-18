@@ -349,5 +349,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "All of Mecca mourned and he was entrusted to Abu Talib."
+  },
+  {
+   "id": "pl2",
+   "context": "A recap of Al-Abwa'"
+  },
+  {
+   "id": "pl3",
+   "context": "At nearly 12 he pleaded to be taken to Sham with Abu Talib."
+  }
+ ]
 }

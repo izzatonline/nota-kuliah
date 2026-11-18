@@ -554,6 +554,29 @@
    "context": "Kelak membuka Baitul Maqdis dan membersihkan Masjid Al-Aqsa yang dijadikan tempat sampah."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 3655,
+   "context": "Jibril mengajar waktu solat di Mekah"
+  },
+  {
+   "id": "pl2",
+   "name": "Taif",
+   "place": "taif",
+   "t": 524,
+   "context": "Perawi hadis utama kisah ini; kecil ketika di Mekah, didoakan Nabi menjadi faqih dan pakar tafsir, dan kemudian menjadikan Taif pusat mengajar."
+  },
+  {
+   "id": "pl3",
+   "name": "Baitul Maqdis",
+   "place": "baitul-maqdis",
+   "t": 1200,
+   "context": "Allah memperlihatkan Baitul Maqdis"
+  }
+ ],
  "sirah": {
   "era": "Selepas Isra' dan Mi'raj di Mekah: kemuncak penolakan menjelang hijrah",
   "summary": "Peristiwa pagi selepas Isra' dan Mi'raj: Nabi SAW cemas, didustakan di Hijr, dibela Allah dengan memperlihatkan Baitul Maqdis, dan ditemani Abu Bakar yang teguh; di akhirnya Jibril mengajar waktu solat dan sokongan sebahagian pelindung Quraish mula goyah.",

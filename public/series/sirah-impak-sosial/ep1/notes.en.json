@@ -588,5 +588,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Amr ibn Luhayy brings Hubal to Mecca"
+  },
+  {
+   "id": "pl2",
+   "context": "The story of the Yemen dam, the arrival of Jurhum asking to settle, and Hajar insisting the water was hers."
+  },
+  {
+   "id": "pl3",
+   "context": "After the journey to Egypt, Ibrahim also married Hajar and was granted Ismail."
+  },
+  {
+   "id": "pl4",
+   "context": "Out of an inferiority complex on seeing advanced Rome, after which the Hajj was altered and the religion of Ibrahim was hardly practised."
+  }
+ ]
 }

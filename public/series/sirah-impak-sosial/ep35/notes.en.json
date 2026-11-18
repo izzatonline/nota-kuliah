@@ -663,5 +663,27 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Ta'if as an independent political and economic centre, rich in grapes and roses, and a rival of Mecca."
+  },
+  {
+   "id": "pl2",
+   "context": "Walking about 150 km to Ta'if with Zaid"
+  },
+  {
+   "id": "pl3",
+   "context": "The poor of Madinah welcomed him gladly."
+  },
+  {
+   "id": "pl4",
+   "context": "The Prophet ﷺ comforted her and named seven men, who were later killed at Badr."
+  },
+  {
+   "id": "pl5",
+   "context": "The Prophet ﷺ prayed, then Addas of Nineveh kissed his hands and feet and accepted Islam."
+  }
+ ]
 }

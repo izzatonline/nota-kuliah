@@ -490,5 +490,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Zayd kidnapped and sold at Ukaz"
+  },
+  {
+   "id": "pl2",
+   "context": "Foretold: companions would be sent to Abyssinia under a just king."
+  }
+ ]
 }

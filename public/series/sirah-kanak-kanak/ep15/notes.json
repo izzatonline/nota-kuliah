@@ -380,6 +380,22 @@
    "context": "Antara wanita terawal beriman dan dikebumikan Nabi SAW sendiri di Madinah."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Jabal Nur",
+   "place": "gua-hira",
+   "t": 422,
+   "context": "Baginda turun dari Jabal Nur dan meminta Khadijah menyelimutkannya."
+  },
+  {
+   "id": "pl2",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 2067,
+   "context": "Antara wanita terawal beriman dan dikebumikan Nabi SAW sendiri di Madinah."
+  }
+ ],
  "sirah": {
   "era": "Selepas wahyu pertama: tahun-tahun awal dakwah",
   "summary": "Kuliah ini menceritakan reaksi Nabi SAW selepas wahyu pertama, Waraqah dan orang-orang pertama yang beriman.",

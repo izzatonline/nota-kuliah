@@ -621,5 +621,11 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Said the darkest day in Madinah was the day the Prophet ﷺ died."
+  }
+ ]
 }

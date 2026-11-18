@@ -579,6 +579,15 @@
    "context": "Pengarang Fiqhus Salah yang membincangkan hikmah dan falsafah pensyariatan solat."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 1047,
+   "context": "Menyebut hari paling gelap di Madinah ialah hari wafat Nabi SAW."
+  }
+ ],
  "sirah": {
   "era": "Isra' Mi'raj, fasa Makkiyyah akhir",
   "summary": "Episod ini menyambung penceritaan apa yang Nabi SAW lihat dalam perjalanan itu: pahala bagi yang berinfak, sungai Al-Kawthar, syurga dan penjaga neraka. Bahagian tentang zon yang Jibril tidak boleh masuki ditangguhkan.",

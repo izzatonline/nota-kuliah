@@ -285,6 +285,22 @@
    "context": "Antara yang paling awal memeluk Islam dan dijanjikan syurga."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 536,
+   "context": "Kayu dan batu yang dimaksudkan untuk gereja di Yaman dijual kepada Quraisy."
+  },
+  {
+   "id": "pl2",
+   "name": "Rom",
+   "place": "rom",
+   "t": 536,
+   "context": "Kapal Rom terdampar di Jeddah"
+  }
+ ],
  "sirah": {
   "era": "Pembinaan semula Kaabah (35 tahun)",
   "summary": "Kuliah ini meliputi kehidupan Nabi SAW pada usia 25 hingga 35 tahun, pembinaan semula Kaabah, sejarah Hajar Aswad dan kisah Zaid bin Amr.",

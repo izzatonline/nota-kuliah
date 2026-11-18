@@ -307,6 +307,15 @@
    "context": "Diam ketika Ummu Jamil menghina; Allah menutup pandangannya daripada melihat Nabi SAW."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 1255,
+   "context": "Seruan kepada seluruh Makkah"
+  }
+ ],
  "sirah": {
   "era": "Permulaan dakwah terbuka selepas tiga tahun",
   "summary": "Nabi SAW memulakan dakwah kepada kerabat dan seluruh Makkah dan menghadapi penolakan Abu Lahab.",

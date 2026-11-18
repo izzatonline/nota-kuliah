@@ -463,5 +463,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Halimah's journey to Mecca"
+  },
+  {
+   "id": "pl2",
+   "context": "Abdullah died in Yathrib when the baby in Aminah's womb was only two months along."
+  },
+  {
+   "id": "pl3",
+   "context": "A week after the wedding Abdullah went trading to Sham."
+  }
+ ]
 }

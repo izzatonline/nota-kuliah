@@ -14,7 +14,7 @@ import { useT } from '@/lib/i18n'
 import { useAyatCount } from '@/lib/ayat'
 import type { Book, Dalil, Lesson, Notes, Person, SirahEvent, Term } from '@/lib/types'
 
-export type TabKey = 'topik' | 'ringkasan' | 'dalil' | 'kitab' | 'tokoh' | 'sirah' | 'pengajaran' | 'peta' | 'istilah' | 'kuiz'
+export type TabKey = 'topik' | 'ringkasan' | 'dalil' | 'kitab' | 'tokoh' | 'sirah' | 'tempat' | 'pengajaran' | 'peta' | 'istilah' | 'kuiz'
 const Heading = ({ children, hint }: { children: ReactNode; hint?: string }) => (
   <div className="mb-3 mt-1">
     <h3 className="text-sm font-semibold tracking-tight">{children}</h3>
@@ -42,6 +42,7 @@ export function nowTabs(n: Notes, time: number): Set<TabKey> {
   if (n.dalil.some((d) => at(d.t, 40))) s.add('dalil')
   if (n.books.some((b) => !b.suggested && at(b.t, 60))) s.add('kitab')
   if (n.people.some((p) => at(p.t, 60))) s.add('tokoh')
+  if (n.places?.some((p) => at(p.t, 60))) s.add('tempat')
   if (n.lessons.some((l) => at(l.t, 60))) s.add('pengajaran')
   if (n.glossary.some((g) => at(g.t, 60))) s.add('istilah')
   return s

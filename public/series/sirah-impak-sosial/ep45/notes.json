@@ -563,6 +563,50 @@
    "context": "Disebut dalam teaser bersama Abdullah bin Ummi Maktum sebagai guru yang menggerakkan projek di Madinah."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 1945,
+   "context": "Nabi meneruskan kerja di Mekah"
+  },
+  {
+   "id": "pl2",
+   "name": "Mina",
+   "place": "mina",
+   "t": 3307,
+   "context": "Perjanjian setia antara Nabi dan penduduk Yathrib di Aqabah, Mina."
+  },
+  {
+   "id": "pl3",
+   "name": "Aqabah",
+   "place": "aqabah",
+   "t": 3310,
+   "context": "Perjanjian Aqabah pertama"
+  },
+  {
+   "id": "pl4",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 359,
+   "context": "Madinah mempunyai enam pengasas yang muda, dan hadis Aisyah tentang Bu'ath sebagai persiapan sebelum Nabi diterima."
+  },
+  {
+   "id": "pl5",
+   "name": "Badar",
+   "place": "badar",
+   "t": 3396,
+   "context": "Perawi hadis perjanjian Aqabah pertama dan menyertai Badar."
+  },
+  {
+   "id": "pl6",
+   "name": "Khaybar",
+   "place": "khaibar",
+   "t": 599,
+   "context": "Yahudi berhijrah ke Yathrib dan Khaybar menanti nabi terakhir, sehingga Ansar memahami konsep kenabian."
+  }
+ ],
  "sirah": {
   "era": "Tahun ke-11 hingga ke-12 kenabian, sebelum hijrah ke Madinah",
   "summary": "Episod ini mengikuti enam pemuda Yathrib yang pulang dan mengajar kaum mereka sehingga menjadi dua belas orang pada Perjanjian Aqabah pertama, dengan enam perkara asas yang menjadi mukadimah masyarakat baharu.",

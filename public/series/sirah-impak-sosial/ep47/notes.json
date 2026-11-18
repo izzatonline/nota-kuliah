@@ -581,6 +581,50 @@
    "context": "Antara 12 naqib (9 daripada Khazraj, 3 daripada Aus) yang dipilih untuk bertanggungjawab ke atas kaum mereka."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 332,
+   "context": "Mus'ab bin Umair pulang ke Makkah selepas setahun di Yathrib dan memaklumkan rombongan istimewa akan datang."
+  },
+  {
+   "id": "pl2",
+   "name": "Mina",
+   "place": "mina",
+   "t": 3738,
+   "context": "Syaitan menjerit dari puncak Aqabah, Nabi SAW menolak menyerang Mina, dan Quraisy menyiasat keesokan paginya."
+  },
+  {
+   "id": "pl3",
+   "name": "Aqabah",
+   "place": "aqabah",
+   "t": 2050,
+   "context": "Berkumpul di lembah Aqabah"
+  },
+  {
+   "id": "pl4",
+   "name": "Yathrib",
+   "place": "madinah",
+   "t": 332,
+   "context": "Mus'ab bin Umair pulang ke Makkah selepas setahun di Yathrib dan memaklumkan rombongan istimewa akan datang."
+  },
+  {
+   "id": "pl5",
+   "name": "Uhud",
+   "place": "uhud",
+   "t": 1707,
+   "context": "Memeluk Islam pada saat akhir, hadir pada malam itu dan dilantik naqib, kemudian syahid di Uhud."
+  },
+  {
+   "id": "pl6",
+   "name": "Syam",
+   "place": "syam",
+   "t": 701,
+   "context": "Dalam perjalanan ke Makkah, Al-Bara' bin Ma'rur ingin solat menghadap Kaabah sedangkan yang lain mengekalkan arah Syam."
+  }
+ ],
  "sirah": {
   "era": "Tahun ke-13 kenabian: Aqabah Kedua, sebelum hijrah",
   "summary": "Setelah Mus'ab membuka jalan di Yathrib, rombongan haji Yathrib bertemu Nabi SAW secara rahsia di Aqabah dan berbay'ah untuk melindungi baginda.",

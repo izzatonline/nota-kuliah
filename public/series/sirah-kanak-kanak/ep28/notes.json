@@ -409,6 +409,43 @@
    "context": "Disebut sebagai orang yang imannya tidak terganggu."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 562,
+   "context": "Baginda masuk Mekah dengan iringan anak-anak Mut'im."
+  },
+  {
+   "id": "pl2",
+   "name": "Taif",
+   "place": "taif",
+   "t": 208,
+   "context": "Selepas Taif, Nabi SAW solat malam di Nakhlah dan sekumpulan jin diam mendengar bacaannya, lalu pulang berdakwah kepada kaum mereka."
+  },
+  {
+   "id": "pl3",
+   "name": "Nakhlah",
+   "place": "nakhlah",
+   "t": 208,
+   "context": "Selepas Taif, Nabi SAW solat malam di Nakhlah dan sekumpulan jin diam mendengar bacaannya, lalu pulang berdakwah kepada kaum mereka."
+  },
+  {
+   "id": "pl4",
+   "name": "Badar",
+   "place": "badar",
+   "t": 667,
+   "context": "Nabi SAW mengenang Mut'im dan sanggup membebaskan tawanan Badar kerananya."
+  },
+  {
+   "id": "pl5",
+   "name": "Baitul Maqdis",
+   "place": "baitul-maqdis",
+   "t": 1001,
+   "context": "Baginda dibawa ke Baitul Maqdis dalam sekejap."
+  }
+ ],
  "sirah": {
   "era": "Selepas Taif: Isra' dan Mi'raj",
   "summary": "Kuliah ini meliputi jin di Nakhlah, perlindungan Mut'im dan permulaan Isra' Mi'raj hingga pertemuan dengan Nabi Ibrahim.",

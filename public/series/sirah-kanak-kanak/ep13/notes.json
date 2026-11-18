@@ -265,6 +265,15 @@
    "context": "Diajar Allah menulis dengan pena."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Gua Hira",
+   "place": "gua-hira",
+   "t": 481,
+   "context": "Gua Hira dan makna ummi"
+  }
+ ],
  "sirah": {
   "era": "Permulaan wahyu: tadabbur Surah Al-Alaq",
   "summary": "Kuliah ini mengulang kisah wahyu pertama di Gua Hira dan mentadabbur lima ayat pertama Surah Al-Alaq.",

@@ -391,5 +391,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The ustaz explains his real name was Abdul Manaf ibn Abdul Muttalib and that Mecca's notables came to visit him."
+  },
+  {
+   "id": "pl2",
+   "context": "The ustaz prays to visit Mecca and Madinah, and says the Prophet SAW would leave to seek a new place."
+  },
+  {
+   "id": "pl3",
+   "context": "Was in Abyssinia."
+  },
+  {
+   "id": "pl4",
+   "context": "A companion ate dried animal hide, and the ustaz compares this with an Egyptian man killed for trying to cheer Gaza's children."
+  }
+ ]
 }

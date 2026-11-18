@@ -475,5 +475,31 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "After Hashim died, the child was named Shaybah and brought to Mecca by Al-Muttalib."
+  },
+  {
+   "id": "pl2",
+   "context": "Hashim married Salma in Yathrib and died in Gaza."
+  },
+  {
+   "id": "pl3",
+   "context": "Goods from Africa and India went up to Yemen, while silk and other goods came from the north."
+  },
+  {
+   "id": "pl4",
+   "context": "The winter trade journey to Yemen and the summer journey to Sham."
+  },
+  {
+   "id": "pl5",
+   "context": "The geopolitics of Rome and Persia"
+  },
+  {
+   "id": "pl6",
+   "context": "Agreements with the tribes and Persia made two seasons of trade journeys possible."
+  }
+ ]
 }

@@ -652,5 +652,31 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Mus'ab ibn Umayr returned to Makkah after a year in Yathrib and announced that a special delegation was coming."
+  },
+  {
+   "id": "pl2",
+   "context": "Satan shouted from the top of Aqabah, the Prophet refused to attack Mina, and Quraysh investigated the next morning."
+  },
+  {
+   "id": "pl3",
+   "context": "Gathering in the Aqabah valley"
+  },
+  {
+   "id": "pl4",
+   "context": "Mus'ab ibn Umayr returned to Makkah after a year in Yathrib and announced that a special delegation was coming."
+  },
+  {
+   "id": "pl5",
+   "context": "Embraced Islam at the last moment, attended that night and was appointed naqib, later dying a martyr at Uhud."
+  },
+  {
+   "id": "pl6",
+   "context": "On the way to Makkah, Al-Bara' ibn Ma'rur wished to pray facing the Ka'bah while the others kept facing Syria."
+  }
+ ]
 }

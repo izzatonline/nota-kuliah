@@ -386,6 +386,29 @@
    "context": "Antara yang akan diseksa."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 576,
+   "context": "Mereka sedar hanya Abu Talib yang melindungi baginda, ibarat pasport di Mekah."
+  },
+  {
+   "id": "pl2",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 963,
+   "context": "Disebut sebagai anak lelaki yang akan wafat di Madinah."
+  },
+  {
+   "id": "pl3",
+   "name": "Habasyah",
+   "place": "habsyah",
+   "t": 1639,
+   "context": "Mus'ab bin Umair menerima Islam di rumah Arqam, dan seksaan sahabat akan membawa kepada hijrah ke Habasyah."
+  }
+ ],
  "sirah": {
   "era": "Tahun-tahun awal dakwah terbuka (43 hingga 45 tahun)",
   "summary": "Kuliah ini meliputi ejekan terhadap baginda, desakan Quraisy kepada Abu Talib, kematian Abdullah dan Surah Al-Kawthar.",

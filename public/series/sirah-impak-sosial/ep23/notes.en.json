@@ -494,5 +494,27 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "For 13 years in Makkah the focus was tawhid, Paradise, Hell, character and justice, before rulings in Madinah."
+  },
+  {
+   "id": "pl2",
+   "context": "For 13 years in Makkah the focus was tawhid, Paradise, Hell, character and justice, before rulings in Madinah."
+  },
+  {
+   "id": "pl3",
+   "context": "The Prophet SAW told him to wait until he was secure."
+  },
+  {
+   "id": "pl4",
+   "context": "Bilal from Africa, Suhayb from Rome, later Salman from Persia."
+  },
+  {
+   "id": "pl5",
+   "context": "Bilal from Africa, Suhayb from Rome, later Salman from Persia."
+  }
+ ]
 }

@@ -421,6 +421,15 @@
    "context": "Sempat menyusukan Nabi SAW sebelum baginda disusukan secara eksklusif di Bani Sa'ad."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Medina",
+   "place": "madinah",
+   "t": 1409,
+   "context": "Ustaz membaca petikan John Medina tentang penyusuan dan menyenaraikan empat manfaat: IQ lebih tinggi, prestasi akademik lebih baik, risiko obesiti lebih rendah dan daya tahan tubuh lebih baik."
+  }
+ ],
  "sirah": {
   "era": "Zaman kanak-kanak Nabi SAW di Bani Sa'ad (penyusuan)",
   "summary": "Halimah mengambil Nabi SAW dengan yakin kepada Allah, lalu baginda disusukan secara eksklusif dan dibesarkan di perkampungan Bani Sa'ad.",

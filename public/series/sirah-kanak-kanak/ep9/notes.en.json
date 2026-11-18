@@ -493,5 +493,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The ustaz gives thanks and recalls the Fijar War and the pact to defend the Yemeni trader."
+  },
+  {
+   "id": "pl2",
+   "context": "To Sham with Maisarah"
+  }
+ ]
 }

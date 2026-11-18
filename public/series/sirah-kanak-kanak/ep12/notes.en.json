@@ -339,5 +339,31 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The Meccans were shocked to find an idol before the Kaaba."
+  },
+  {
+   "id": "pl2",
+   "context": "The Prophet SAW in the Cave of Hira"
+  },
+  {
+   "id": "pl3",
+   "context": "An idol carried to the Yemen region."
+  },
+  {
+   "id": "pl4",
+   "context": "He saw the people of Sham worshipping idols and wanted to bring one home."
+  },
+  {
+   "id": "pl5",
+   "context": "The ustaz describes cruelty in Rome, Persia, India, China and Africa, and the burying of baby girls in Mecca."
+  },
+  {
+   "id": "pl6",
+   "context": "The ustaz describes cruelty in Rome, Persia, India, China and Africa, and the burying of baby girls in Mecca."
+  }
+ ]
 }

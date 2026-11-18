@@ -566,5 +566,27 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The report of a proposal before prophethood is criticised by scholars; the authentic proposal came after the Conquest of Makkah and was declined."
+  },
+  {
+   "id": "pl2",
+   "context": "Married to Uthman; died around the time of the Battle of Badr."
+  },
+  {
+   "id": "pl3",
+   "context": "The Yemeni man's rights were returned, and Hassan ibn Ali later called for the same pact to claim his own rights."
+  },
+  {
+   "id": "pl4",
+   "context": "Khadijah offered a 50-50 split to take her goods to Sham, and Abu Talib encouraged him."
+  },
+  {
+   "id": "pl5",
+   "context": "Trade at Busra with Maisarah"
+  }
+ ]
 }

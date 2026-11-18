@@ -167,3 +167,11 @@
 .nk-check { animation: nk-check 0.5s cubic-bezier(0.2, 1.4, 0.4, 1) both; }
 .nk-spark { animation: nk-spark 0.7s ease-out both; }
 .nk-confetti { animation: nk-fall var(--d) cubic-bezier(0.3, 0.1, 0.5, 1) var(--delay) both; }
+
+/* The map tiles are light; in dark mode turn them down so they sit with the page. */
+.dark .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(0.92) contrast(0.9); }
+.leaflet-container { font-family: inherit; }
+/* Place names stay on the map, so a learner can read it without tapping each pin. */
+.leaflet-tooltip.nk-label { background: hsl(var(--background) / 0.85); color: hsl(var(--foreground)); border: 0; box-shadow: none; padding: 1px 5px; font-size: 11px; font-weight: 600; }
+.leaflet-tooltip.nk-label::before { display: none; }
+.dark .leaflet-tooltip.nk-label { background: hsl(var(--background) / 0.85); }

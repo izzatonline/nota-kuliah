@@ -464,5 +464,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "He returned to a noisy Mecca."
+  },
+  {
+   "id": "pl2",
+   "context": "Aminah dies at Al-Abwa'"
+  },
+  {
+   "id": "pl3",
+   "context": "Aminah took him and Ummu Aiman to Yathrib and met the Banu Najjar family."
+  }
+ ]
 }

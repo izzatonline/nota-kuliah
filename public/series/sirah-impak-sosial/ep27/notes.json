@@ -454,6 +454,22 @@
    "context": "Menyeksa Zinnirah, Sumayyah dan Yasir."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Badar",
+   "place": "badar",
+   "t": 2731,
+   "context": "Menyeksa Bilal dan kelak dibunuh Bilal di Badar."
+  },
+  {
+   "id": "pl2",
+   "name": "Rom",
+   "place": "rom",
+   "t": 3274,
+   "context": "Diculik oleh Rom, dilindungi Abdullah bin Jud'an dan menyerahkan hartanya untuk berhijrah."
+  }
+ ],
  "sirah": {
   "era": "Tahun ketiga dan keempat kenabian, penindasan terbuka",
   "summary": "Quraish menyeksa secara terbuka hamba dan orang tanpa perlindungan yang memeluk Islam.",

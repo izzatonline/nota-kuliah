@@ -509,5 +509,31 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Without a protector in Mecca"
+  },
+  {
+   "id": "pl2",
+   "context": "The Prophet ﷺ met tribes from across Arabia at Ukaz, Majannah, Dhul Majaz and Mina, accompanied by Abu Bakr and Ali."
+  },
+  {
+   "id": "pl3",
+   "context": "Six Khazraj youths at Aqabah"
+  },
+  {
+   "id": "pl4",
+   "context": "Gave protection after Ta'if but turned negative after the Prophet told of the night journey."
+  },
+  {
+   "id": "pl5",
+   "context": "The Prophet ﷺ met tribes from across Arabia at Ukaz, Majannah, Dhul Majaz and Mina, accompanied by Abu Bakr and Ali."
+  },
+  {
+   "id": "pl6",
+   "context": "Suwaid, called Al-Kamil, and Iyas, still a child, listened to the Prophet, then were killed in Madinah as believers."
+  }
+ ]
 }

@@ -227,6 +227,20 @@ class AssembleTests(unittest.TestCase):
         self.assertTrue(any("buku-baru" in w and "data/books.json" in w for w in warnings))
         self.assertFalse(any(repr(known) in w for w in warnings))
 
+    def test_place_keys_are_kept_and_a_new_one_is_reported(self):
+        known = next(iter(pipeline.known_places()))
+        d = self.draft(places=[
+            {"name": "Satu", "place": known, "context": "c", "at": "Jibril AS tidak boleh", "approx": "0:20"},
+            {"name": "Dua", "place": "tempat-baru", "context": "c", "at": "Kemudian Nabi SAW sampai", "approx": "0:10"},
+            {"name": "Tiga", "context": "c", "at": "Aku mohon dengan semua nama", "approx": "0:30"},
+        ])
+        notes, warnings = pipeline.assemble(d, self.meta, self.loc, self.args)
+        self.assertEqual({p["name"]: p.get("place") for p in notes["places"]}, {"Satu": known, "Dua": "tempat-baru", "Tiga": None})
+        self.assertEqual([p["id"] for p in notes["places"]], ["pl2", "pl1", "pl3"])  # in lecture order, ids as drafted
+        self.assertTrue(any("tempat-baru" in w and "data/places.json" in w for w in warnings))
+        self.assertFalse(any(repr(known) in w for w in warnings))
+        self.assertNotIn("places", pipeline.assemble(self.draft(), self.meta, self.loc, self.args)[0])
+
     def test_first_chapter_always_starts_at_zero_and_the_last_ends_at_the_duration(self):
         d = self.draft(chapters=[
             {"title": "A", "summary": "", "at": "Kemudian Nabi SAW sampai", "approx": "0:10"},

@@ -574,6 +574,36 @@
    "context": "Buta sehingga ibunya berdoa dan Allah mengembalikan penglihatannya, dan ibunya yang membacakan hadis untuknya."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Makkah",
+   "place": "makkah",
+   "t": 868,
+   "context": "Ummu Aiman membawa Nabi SAW pulang ke Makkah dan baginda disambut serta dijaga oleh atuknya."
+  },
+  {
+   "id": "pl2",
+   "name": "Al-Abwa'",
+   "place": "abwa",
+   "t": 581,
+   "context": "Aminah wafat di Al-Abwa'"
+  },
+  {
+   "id": "pl3",
+   "name": "Yathrib",
+   "place": "madinah",
+   "t": 429,
+   "context": "Perjalanan ke Yathrib"
+  },
+  {
+   "id": "pl4",
+   "name": "Habsyah",
+   "place": "habsyah",
+   "t": 1544,
+   "context": "Akan berhijrah ke Habsyah dan syahid dengan diberi sayap di syurga, dan Nabi SAW menyambutnya dengan emosi yang luar biasa."
+  }
+ ],
  "sirah": {
   "era": "Zaman kanak-kanak Nabi SAW: yatim di Makkah",
   "summary": "Nabi SAW kembali kepada Aminah, mengikutnya ke Yathrib, kehilangan ibu di Al-Abwa', dijaga Abdul Muttalib, kemudian diserahkan kepada Abu Talib.",

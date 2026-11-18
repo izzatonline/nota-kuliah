@@ -39,6 +39,7 @@ PROMPT = Path(__file__).resolve().parent / "prompts/notes.md"
 DUAS = ROOT / "data/duas.json"
 PEOPLE = ROOT / "data/people.json"
 BOOKS = ROOT / "data/books.json"
+PLACES = ROOT / "data/places.json"
 
 
 def known_duas():
@@ -49,6 +50,11 @@ def known_duas():
 def known_books():
     """The books the Kitab page lists, as {key: Malay title}."""
     return {b["key"]: b["ms"] for b in json.loads(BOOKS.read_text())["books"]}
+
+
+def known_places():
+    """The places the Tempat page lists, as {key: Malay name}."""
+    return {p["key"]: p["ms"] for p in json.loads(PLACES.read_text())["places"]}
 
 
 def known_people():
@@ -292,6 +298,7 @@ def stage_draft(workdir, args):
         + f"Episode: {meta.get('number')}\nLength: {meta['duration'] // 60} minutes\n\n"
         + "## Known duas (keys for `dua`)\n" + "".join(f"- {k}: {v}\n" for k, v in known_duas().items()) + "\n"
         + "## Known books (keys for `book`)\n" + "".join(f"- {k}: {v}\n" for k, v in known_books().items()) + "\n"
+        + "## Known places (keys for `place`)\n" + "".join(f"- {k}: {v}\n" for k, v in known_places().items()) + "\n"
         + "## Known people (keys for `person`)\n" + "".join(f"- {k}: {v}\n" for k, v in known_people().items()) + "\n"
         + "## Transcript\n" + blocks_text(segs) + "\n"
     )
@@ -528,6 +535,18 @@ def assemble(draft, meta, loc, args):
         people.append(person)
     people = sorted((p for p in people if p["t"] is not None), key=lambda p: p["t"])
 
+    known_pl = known_places()
+    places = []
+    for i, p in enumerate(draft.get("places", [])):
+        place = {"id": f"pl{i + 1}", "name": p["name"]}
+        if p.get("place"):
+            place["place"] = p["place"]
+            if p["place"] not in known_pl:
+                warnings.append(f"{p['name']}: place {p['place']!r} is new. Add it to data/places.json (group, names and a sourced coordinate, or null) or the Tempat page skips it")
+        place.update({"t": T(f"places[{i}]", p), "context": p.get("context", "")})
+        places.append(place)
+    places = sorted((p for p in places if p["t"] is not None), key=lambda p: p["t"])
+
     sirah_src = draft.get("sirah", {})
     events = []
     for i, e in enumerate(sirah_src.get("events", [])):
@@ -559,7 +578,7 @@ def assemble(draft, meta, loc, args):
         "id": meta["id"], "youtubeId": meta["youtubeId"], "title": meta["title"], "speaker": args.speaker, "series": args.series,
         "episode": meta.get("number") or 0, "duration": duration, "summary": draft.get("summary", ""),
         "keyPoints": draft.get("keyPoints", []), "chapters": chapters, "dalil": dalil, "books": books, "people": people,
-        "sirah": sirah, "lessons": lessons, "glossary": glossary, "mindmap": mindmap,
+        **({"places": places} if places else {}), "sirah": sirah, "lessons": lessons, "glossary": glossary, "mindmap": mindmap,
     }
     if draft.get("careNote"):  # vetted helpline text, never written by the model
         notes["careNote"] = json.loads(CARE_NOTE.read_text())

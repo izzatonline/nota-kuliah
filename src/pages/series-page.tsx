@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties } from 'react'
 import { Link, Navigate, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
-import { Bell, BellOff, BookOpen, ExternalLink, ListOrdered, History, Landmark, Languages, Lightbulb, Library, Network, ScrollText, Trophy, Users, type LucideIcon } from 'lucide-react'
+import { Bell, BellOff, BookOpen, ExternalLink, ListOrdered, History, Landmark, MapPin, Languages, Lightbulb, Library, Network, ScrollText, Trophy, Users, type LucideIcon } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
@@ -18,6 +18,7 @@ import { EpisodeSidebar } from '@/components/episode-list'
 import { ChapterScroll, NowPlaying, SeekBar, Video } from '@/components/video-panel'
 import { PlayerContext } from '@/components/player-context'
 import { BooksTab, DalilTab, GlossaryTab, LessonsTab, Overview, PeopleTab, SirahTab, TopicsTab, nowTabs, type TabKey } from '@/components/notes-tabs'
+import { PlacesTab } from '@/components/places-tab'
 import { MindMap } from '@/components/mindmap'
 import { ShareMenu } from '@/components/share-menu'
 import { Clamp } from '@/components/clamp'
@@ -41,6 +42,7 @@ const TABS: { key: TabKey; Icon: LucideIcon; count?: (n: Notes) => number }[] = 
   { key: 'kitab', Icon: Library, count: (n) => n.books.filter((b) => !b.suggested).length },
   { key: 'tokoh', Icon: Users, count: (n) => n.people.length },
   { key: 'sirah', Icon: Landmark },
+  { key: 'tempat', Icon: MapPin, count: (n) => new Set((n.places ?? []).map((p) => p.place ?? p.id)).size },
   { key: 'pengajaran', Icon: Lightbulb, count: (n) => n.lessons.length },
   { key: 'peta', Icon: Network },
   { key: 'istilah', Icon: Languages },
@@ -49,7 +51,7 @@ const TABS: { key: TabKey; Icon: LucideIcon; count?: (n: Notes) => number }[] = 
 
 /** On a short screen the sidebar starts as the narrow rail, so the lecture gets the width. */
 /** The tabs whose cards can be linked to with `?i=tab:id`. */
-const ITEM_TABS: TabKey[] = ['topik', 'dalil', 'kitab', 'tokoh', 'pengajaran', 'istilah']
+const ITEM_TABS: TabKey[] = ['topik', 'dalil', 'kitab', 'tokoh', 'tempat', 'pengajaran', 'istilah']
 
 function CollapseWhenShort() {
   const { setOpen } = useSidebar()
@@ -378,7 +380,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
               </div>
               <ScrollRow activeKey={tab} className={`mt-2 border-b ${bleed}`}>
                 <TabsList className="h-auto w-max min-w-full justify-start gap-1 rounded-none bg-transparent p-0">
-                  {TABS.filter(({ key }) => key !== 'kuiz' || episode.hasQuiz).map(({ key, Icon, count }) => (
+                  {TABS.filter(({ key }) => (key !== 'kuiz' || episode.hasQuiz) && (key !== 'tempat' || !!notes?.places?.length)).map(({ key, Icon, count }) => (
                     <TabsTrigger
                       key={key}
                       value={key}
@@ -433,6 +435,7 @@ function Lecture({ slug, episode, series }: { slug: string; episode: Episode; se
                   <TabsContent value="kitab" className="mt-0"><BooksTab notes={notes} /></TabsContent>
                   <TabsContent value="tokoh" className="mt-0"><PeopleTab notes={notes} /></TabsContent>
                   <TabsContent value="sirah" className="mt-0"><SirahTab notes={notes} /></TabsContent>
+                  <TabsContent value="tempat" className="mt-0"><PlacesTab notes={notes} /></TabsContent>
                   <TabsContent value="pengajaran" className="mt-0"><LessonsTab notes={notes} /></TabsContent>
                   <TabsContent value="peta" className="mt-0"><MindMap root={notes.mindmap} /></TabsContent>
                   <TabsContent value="istilah" className="mt-0"><GlossaryTab notes={notes} /></TabsContent>

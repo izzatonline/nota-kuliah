@@ -291,6 +291,29 @@
    "context": "Menenangkan Halimah dengan menyebut cahaya yang keluar daripada rahimnya sehingga ke Syam."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 2188,
+   "context": "Hidup baru di Mekah"
+  },
+  {
+   "id": "pl2",
+   "name": "Tabuk",
+   "place": "tabuk",
+   "t": 1275,
+   "context": "Menyebut senyuman Nabi yang sebenarnya marah selepas dia tidak menyertai Perang Tabuk."
+  },
+  {
+   "id": "pl3",
+   "name": "Syam",
+   "place": "syam",
+   "t": 2045,
+   "context": "Menenangkan Halimah dengan menyebut cahaya yang keluar daripada rahimnya sehingga ke Syam."
+  }
+ ],
  "sirah": {
   "era": "Zaman kanak-kanak Nabi SAW di Bani Saad, kira-kira sehingga umur empat tahun",
   "summary": "Episod ini meneruskan penyusuan Nabi SAW di perkampungan Bani Saad dengan tumpuan pada bermain, peristiwa pembelahan dada, dan kembalinya baginda kepada Aminah.",

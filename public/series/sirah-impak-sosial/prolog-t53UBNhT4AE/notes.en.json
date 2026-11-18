@@ -542,5 +542,27 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Three companions competed to raise his daughter who had stayed in Makkah."
+  },
+  {
+   "id": "pl2",
+   "context": "Ja'far returned to Madinah after Khaybar and was chosen to raise Hamza's daughter."
+  },
+  {
+   "id": "pl3",
+   "context": "Ja'far returned to Madinah after Khaybar and was chosen to raise Hamza's daughter."
+  },
+  {
+   "id": "pl4",
+   "context": "Suggestion to emigrate to Abyssinia"
+  },
+  {
+   "id": "pl5",
+   "context": "Ja'far fell at Mu'tah, the Prophet SAW comforted his family, and the call to be like Ja'far and Asma'."
+  }
+ ]
 }

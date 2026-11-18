@@ -390,6 +390,22 @@
    "context": "Pengarang Boys Adrift."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Arafah",
+   "place": "arafah",
+   "t": 3424,
+   "context": "Khutbah di Arafah"
+  },
+  {
+   "id": "pl2",
+   "name": "Madinah",
+   "place": "madinah",
+   "t": 996,
+   "context": "Mereka berkhemah di pinggir Madinah untuk mengikuti haji baginda."
+  }
+ ],
  "sirah": {
   "era": "Dakwah di Makkah dan haji wada' (sebagai paralel)",
   "summary": "Kuliah menghubungkan Isra' Mi'raj, dakwah terbuka yang akan datang dan haji wada' dengan legasi Ibrahim AS.",

@@ -509,5 +509,11 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The ustaz reads John Medina on nursing and lists four benefits: higher IQ, better school performance, lower obesity risk and stronger immunity."
+  }
+ ]
 }

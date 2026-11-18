@@ -464,5 +464,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Stone, timber and the architect Bakum were bought and brought to Makkah."
+  },
+  {
+   "id": "pl2",
+   "context": "Sent to build a church in Yemen but hired to rebuild the Kaaba."
+  },
+  {
+   "id": "pl3",
+   "context": "Roman ship stranded at Jeddah"
+  }
+ ]
 }

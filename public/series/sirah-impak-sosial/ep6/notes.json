@@ -345,6 +345,22 @@
    "context": "Ustaz menyebut nasihatnya bahawa usaha menjaga tiga tahun pertama anak memberi kesan untuk tahun-tahun seterusnya."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 711,
+   "context": "Halimah dan sepuluh wanita lain berangkat dari Bani Sa'ad ke Mekah untuk mencari bayi yang boleh disusukan."
+  },
+  {
+   "id": "pl2",
+   "name": "Rom",
+   "place": "rom",
+   "t": 164,
+   "context": "Amalan mengupah ibu susuan sudah wujud dalam masyarakat Arab, Greek dan Rom, terutama dalam kalangan keluarga bangsawan."
+  }
+ ],
  "sirah": {
   "era": "Kelahiran dan penyusuan awal Nabi SAW",
   "summary": "Selepas kelahiran, Nabi SAW disusukan oleh Aminah dan Thuaibah, kemudian diambil oleh Halimah As-Sa'diah untuk dibesarkan di perkampungan Bani Sa'ad.",

@@ -416,5 +416,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "A new life in Mecca"
+  },
+  {
+   "id": "pl2",
+   "context": "Mentions the Prophet's smile that was really anger after he stayed behind from the Battle of Tabuk."
+  },
+  {
+   "id": "pl3",
+   "context": "Reassured Halimah by mentioning the light that came from her womb as far as Sham."
+  }
+ ]
 }

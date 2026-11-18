@@ -297,6 +297,22 @@
    "context": "Hafalannya begitu kuat sehingga membaca sekali terus hafal dan menghafal Quran ketika kecil."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 1132,
+   "context": "Baginda berkata beliau mengenali sebuah batu di Mekah yang memberi salam kepadanya sebelum kenabian."
+  },
+  {
+   "id": "pl2",
+   "name": "Gua Hira",
+   "place": "gua-hira",
+   "t": 651,
+   "context": "Baginda berhari-hari dan kadang-kadang sebulan di gua kecil di Jabal Nur."
+  }
+ ],
  "sirah": {
   "era": "Permulaan wahyu: Gua Hira",
   "summary": "Kuliah ini meliputi usia 35 hingga sekitar 40 tahun, dari pembinaan Kaabah hingga wahyu pertama di Gua Hira dan baginda pulang kepada Khadijah.",

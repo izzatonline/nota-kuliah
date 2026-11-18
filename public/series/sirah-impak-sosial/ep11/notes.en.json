@@ -630,5 +630,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The lecture opens with Hamka's story of a young man returning from Makkah, before the ustaz recaps the previous episode."
+  },
+  {
+   "id": "pl2",
+   "context": "The ustaz is hurt by videos showing wrongdoing in Makkah and Madinah, and brings Hamka's polite but sharp reply."
+  }
+ ]
 }

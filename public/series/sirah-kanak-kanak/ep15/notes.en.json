@@ -435,5 +435,15 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "He descended Jabal Nur and asked Khadijah to cover him."
+  },
+  {
+   "id": "pl2",
+   "context": "Among the earliest women to believe, buried by the Prophet SAW himself in Madinah."
+  }
+ ]
 }

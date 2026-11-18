@@ -382,5 +382,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The ustaz recalls Najashi and Ja'far and says the Prophet SAW in Mecca looked for a great man to bring to Islam so that Islam would be strong."
+  },
+  {
+   "id": "pl2",
+   "context": "Hudaybiyyah to come"
+  },
+  {
+   "id": "pl3",
+   "context": "Al-Walid did not embrace Islam and died before the Battle of Badr when his foot was wounded by something sharp."
+  },
+  {
+   "id": "pl4",
+   "context": "Companions return from Abyssinia"
+  }
+ ]
 }

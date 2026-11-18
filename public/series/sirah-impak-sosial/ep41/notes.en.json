@@ -652,5 +652,11 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl2",
+   "context": "From Al-Masjid al-Haram to Al-Masjid al-Aqsa, then the first to the seventh heaven"
+  }
+ ]
 }

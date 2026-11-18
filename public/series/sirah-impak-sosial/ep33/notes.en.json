@@ -585,5 +585,19 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Makkans sympathised and began to examine the beliefs of those who endured."
+  },
+  {
+   "id": "pl2",
+   "context": "The year covering the deaths of Abu Talib and Khadijah and the Ta'if event."
+  },
+  {
+   "id": "pl3",
+   "context": "Became Muslim and migrated; the Prophet SAW buried her in Madinah."
+  }
+ ]
 }

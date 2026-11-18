@@ -279,6 +279,36 @@
    "context": "Berada dalam tentera Habsyah dan kemudian menjadi raja di Yaman, yang akhirnya datang menyerang Mekah."
   }
  ],
+ "places": [
+  {
+   "id": "pl1",
+   "name": "Mekah",
+   "place": "makkah",
+   "t": 1653,
+   "context": "Berada dalam tentera Habsyah dan kemudian menjadi raja di Yaman, yang akhirnya datang menyerang Mekah."
+  },
+  {
+   "id": "pl2",
+   "name": "Habsyah",
+   "place": "habsyah",
+   "t": 1646,
+   "context": "Seorang lelaki terlepas lari ke Syam, raja Habsyah menghantar tentera, dan Abraha yang menjadi raja di Yaman berada dalam tentera itu."
+  },
+  {
+   "id": "pl3",
+   "name": "Yaman",
+   "place": "yaman",
+   "t": 1646,
+   "context": "Seorang lelaki terlepas lari ke Syam, raja Habsyah menghantar tentera, dan Abraha yang menjadi raja di Yaman berada dalam tentera itu."
+  },
+  {
+   "id": "pl4",
+   "name": "Syam",
+   "place": "syam",
+   "t": 1646,
+   "context": "Seorang lelaki terlepas lari ke Syam, raja Habsyah menghantar tentera, dan Abraha yang menjadi raja di Yaman berada dalam tentera itu."
+  }
+ ],
  "sirah": {
   "era": "Sebelum kelahiran Nabi SAW: kisah umat terdahulu",
   "summary": "Kuliah ini menceritakan kisah umat terdahulu yang diceritakan Nabi SAW, iaitu Ghulam dan Ashabul Ukhdud. Ia dikaitkan dengan sebab Abraha berada di Yaman sebelum tahun Gajah.",

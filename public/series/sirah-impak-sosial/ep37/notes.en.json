@@ -628,5 +628,31 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "The Prophet SAW stopped in the fertile valley between Ta'if and Makkah."
+  },
+  {
+   "id": "pl2",
+   "context": "The Prophet SAW stopped in the fertile valley between Ta'if and Makkah."
+  },
+  {
+   "id": "pl3",
+   "context": "The valley of Nakhlah"
+  },
+  {
+   "id": "pl4",
+   "context": "A large market with poetry shows, likened by the ustaz to a shopping mall."
+  },
+  {
+   "id": "pl5",
+   "context": "Mut'im and his sons escort the Prophet SAW into Makkah and he is remembered after Badr."
+  },
+  {
+   "id": "pl6",
+   "context": "A man from Nineveh embraced Islam though he was not invited."
+  }
+ ]
 }

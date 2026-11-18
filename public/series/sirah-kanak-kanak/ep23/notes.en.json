@@ -342,5 +342,23 @@
     ]
    }
   ]
- }
+ },
+ "places": [
+  {
+   "id": "pl1",
+   "context": "Hamzah prayed for guidance and next day pronounced the shahada before the Prophet SAW, the 39th to embrace Islam in Mecca."
+  },
+  {
+   "id": "pl2",
+   "context": "Hamzah would be martyred at Uhud and the Prophet SAW would weep."
+  },
+  {
+   "id": "pl3",
+   "context": "The ustaz recalls Surah An-Najm, the companions' return from Abyssinia, and Quraysh pressing Abu Talib again."
+  },
+  {
+   "id": "pl4",
+   "context": "Zaid, who memorised 17 surahs from Mus'ab, was told to learn Hebrew and Syriac in days, and Salman came from Persia."
+  }
+ ]
 }
